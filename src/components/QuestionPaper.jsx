@@ -4,17 +4,44 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   const [activeTab, setActiveTab] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSemester, setSelectedSemester] = useState('all');
+  const [selectedType,setSelectedType]=useState('all');
   const [selectedYear, setSelectedYear] = useState('all');
   
   const questionPapers = [
-    { id: 1, title: 'Mathematics 2024 Final Exam', subject: 'Mathematics', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem-1' },
-    { id: 2, title: 'Physics Midterm Paper', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem-2' },
-    { id: 3, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, semester: 'sem-3' },
-    { id: 4, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem-4' },
-    { id: 5, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem-5' },
-    { id: 6, title: 'History World War II', subject: 'History', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem-6' },
+    { id: 1, title: 'Enviormental Paper', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem-1' , type:'mid-1', idLink : '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
+    { id: 2, title: 'Physics Midterm Paper', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem-6', type:'mid-2' , idLink :''},
+    { id: 3, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type:'sem',semester: 'sem-3' ,idLink:'' },
+    { id: 4, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem-2' , type:'mid-1',idLink:""},
+    { id: 5, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem-5' , type:'sem',idLink:''},
+    { id: 6, title: 'EG Paper', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem-4', type:'mid-2' ,idLink:''}, 
   ];
-
+  
+  const handleDownload = (event, fileId) => {
+    event.stopPropagation(); 
+    if (!fileId) {
+      alert("Download link not available for this paper.");
+      return;
+    }
+    const link = document.createElement("a");
+    link.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    link.download = "";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  
+  const handleDisplay = (event, fileId) => {
+    if (!fileId) {
+      alert("Download link not available for this paper.");
+      return;
+    }
+    const link = document.createElement("a");
+    link.href = `https://drive.google.com/file/d/${fileId}/preview`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+  
   const years = [...new Set(questionPapers.map(paper => paper.year))].sort((a, b) => b - a);
 
   const filteredPapers = questionPapers.filter(paper => {
@@ -22,19 +49,26 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                           paper.subject.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesSemester = selectedSemester === 'all' || paper.semester === selectedSemester;
     const matchesYear = selectedYear === 'all' || paper.year === parseInt(selectedYear);
+    const matchesType=selectedType==='all' || paper.type===selectedType;
     
-    if (activeTab === 'all') return matchesSearch && matchesSemester && matchesYear;
-    if (activeTab === 'recent') return paper.year >= 2023 && matchesSearch && matchesSemester && matchesYear;
-    if (activeTab === 'popular') return paper.downloads > 1000 && matchesSearch && matchesSemester && matchesYear;
-    return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSearch && matchesSemester && matchesYear;
+    if (activeTab === 'all') return matchesSearch && matchesSemester && matchesYear&&matchesType;
+    if (activeTab === 'recent') return paper.year >= 2023 && matchesSearch && matchesSemester && matchesYear&&matchesType;
+    if (activeTab === 'popular') return paper.downloads > 1000 && matchesSearch && matchesSemester && matchesYear&&matchesType;
+    if (activeTab==='mid-1') return paper.type==='mid-1'&&matchesSearch&&matchesSemester&&matchesYear;
+    if (activeTab==='mid-2') return paper.type==='mid-2'&&matchesSearch&&matchesSemester&&matchesYear;
+    if (activeTab==='sem') return paper.type==='sem'&&matchesSearch&&matchesSemester&&matchesYear;
+
+
+    return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSearch && matchesSemester && matchesYear&&matchesType;
   });
 
   const subjects = [...new Set(questionPapers.map(paper => paper.subject))];
   const semesters = ['sem-1', 'sem-2', 'sem-3', 'sem-4', 'sem-5', 'sem-6', 'sem-7', 'sem-8'];
 
+  const additionalTabs = ['sem', 'mid-1', 'mid-2'];
+
   return (
     <div className="min-h-screen bg-gray-50">
-    
       <header className="bg-white shadow">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
@@ -63,7 +97,6 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
       </header>
 
       <main className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
-        
         <div className="mb-8">
           <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
             <div className="relative rounded-md shadow-sm flex-grow">
@@ -81,7 +114,7 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-3 gap-4">
               <div className="relative">
                 <select
                   value={selectedSemester}
@@ -91,7 +124,10 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   <option value="all">All Semesters</option>
                   {semesters.map(semester => (
                     <option key={semester} value={semester}>
-                      {semester.charAt(0).toUpperCase() + semester.slice(1)}
+                      {semester.includes('sem') ? 
+                        `Semester ${semester.split('-')[1]}` : 
+                        `Mid-Term ${semester.split('-')[1]}`
+                      }
                     </option>
                   ))}
                 </select>
@@ -123,6 +159,28 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   </svg>
                 </div>
               </div>
+              {/* third sort */}
+              <div className="relative">
+                <select
+                  value={selectedType}
+                  onChange={(e) => setSelectedType(e.target.value)}
+                  className="block w-full rounded-md border-gray-300 pl-4 pr-10 py-3 focus:border-blue-500 focus:ring-blue-500 text-gray-900"
+                >
+                  <option value="all">Mid+Sem</option>
+                  {additionalTabs.map(tab => (
+                    <option key={tab} value={tab}>
+                      {tab}
+                    </option>
+                  ))}
+                </select>
+                <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+                  <svg className="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M10 3a1 1 0 01.707.293l3 3a1 1 0 01-1.414 1.414L10 5.414 7.707 7.707a1 1 0 01-1.414-1.414l3-3A1 1 0 0110 3z" clipRule="evenodd" />
+                    <path fillRule="evenodd" d="M10 17a1 1 0 01-.707-.293l-3-3a1 1 0 011.414-1.414L10 14.586l2.293-2.293a1 1 0 011.414 1.414l-3 3A1 1 0 0110 17z" clipRule="evenodd" />
+                  </svg>
+                </div>
+              </div>
+              
             </div>
           </div>
 
@@ -146,6 +204,17 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
               >
                 Popular
               </button>
+              
+              {additionalTabs.map(tab => (
+                <button
+                  key={tab}
+                  className={`${activeTab === tab ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'} whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm`}
+                  onClick={() => setActiveTab(tab)}
+                >
+                  {tab === 'sem' ? 'Semester' : `${tab.charAt(0).toUpperCase() + tab.slice(1)}`}
+                </button>
+              ))}
+
               {subjects.map(subject => (
                 <button
                   key={subject}
@@ -157,15 +226,17 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
               ))}
             </nav>
           </div>
-        </div>
-
-        {/* Selected Filters Summary (optional) */}
+        </div>  
+        
         {(selectedSemester !== 'all' || selectedYear !== 'all') && (
           <div className="mb-6 flex flex-wrap gap-2">
             <div className="text-sm text-gray-500">Active filters:</div>
             {selectedSemester !== 'all' && (
               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                {selectedSemester.charAt(0).toUpperCase() + selectedSemester.slice(1)}
+                {selectedSemester.includes('sem') ? 
+                  `Semester ${selectedSemester.split('-')[1]}` : 
+                  `Mid-Term ${selectedSemester.split('-')[1]}`
+                }
                 <button 
                   onClick={() => setSelectedSemester('all')} 
                   className="ml-1.5 h-4 w-4 rounded-full inline-flex items-center justify-center text-blue-400 hover:bg-blue-200 hover:text-blue-600"
@@ -192,12 +263,11 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
           </div>
         )}
 
-        {/* Papers Grid */}
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filteredPapers.map((paper) => (
-            <div key={paper.id} className="bg-white overflow-hidden shadow rounded-lg">
+            <div key={paper.id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e)=>handleDisplay(e,paper.idLink)}>
               <div className="p-5">
-                <div className="flex items-center">
+                <div className="flex items-center ">
                   <div className="flex-shrink-0 bg-blue-500 rounded-md p-3">
                     <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -206,7 +276,10 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   <div className="ml-5 w-0 flex-1">
                     <dl>
                       <dt className="text-sm font-medium text-gray-500 truncate">
-                        {paper.subject} ({paper.year}) - {paper.semester.charAt(0).toUpperCase() + paper.semester.slice(1)}
+                        {paper.subject} ({paper.year}) - {paper.semester.includes('sem') ? 
+                          `Semester ${paper.semester.split('-')[1]}` : 
+                          `Mid-Term ${paper.semester.split('-')[1]}`
+                        }
                       </dt>
                       <dd>
                         <div className="text-lg font-medium text-gray-900">{paper.title}</div>
@@ -223,7 +296,10 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                     </span>
                     <span className="ml-2 text-gray-500">{paper.downloads} downloads</span>
                   </div>
-                  <button className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                  <button 
+                    onClick={(e) => handleDownload(e,paper.idLink)} 
+                    className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium cursor-pointer rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                  >
                     Download
                   </button>
                 </div>
