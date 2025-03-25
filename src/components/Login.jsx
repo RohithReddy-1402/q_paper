@@ -31,7 +31,6 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
     });
     const userData = { email, password}; 
     onLogin(userData); 
-    alert(" Calling onLogin function...");
     console.log("✅ onLogin is being called with:");
     onClose();
   };
@@ -45,7 +44,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
         onClick={onClose}
       />
       
-      <div className="relative bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:max-w-sm sm:w-full sm:p-6">
+      <div className="relative bg-white w-[80%] rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:max-w-sm sm:w-full  sm:p-6">
         <div>
           <div className="flex justify-between items-center mb-5">
             <h3 className="text-lg font-medium leading-6 text-gray-900">
@@ -77,7 +76,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
                   required={!isLogin}
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                  className="mt-1 block w-full rounded-md h-12 border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
                 />
               </div>
             )}
@@ -94,7 +93,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                className="mt-1 block w-full rounded-md h-12 border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
               />
             </div>
 
@@ -110,7 +109,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                className="mt-1 block w-full rounded-md h-12 border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
               />
             </div>
 

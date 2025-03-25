@@ -12,7 +12,7 @@ console.log("Updated User ->", user)       ;
 }, [isLoggedIn, user]); 
 
 const handleLogin = (userData) => {
-alert("Login function called!"); 
+
 console.log("handleLogin called!");
 console.log("UserData received:", userData);
 setUser(userData);
@@ -43,4 +43,3 @@ onLogin={handleLogin}
 }
 
 export default App;
-
