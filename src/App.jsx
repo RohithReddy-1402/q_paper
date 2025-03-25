@@ -1,45 +1,62 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './components/HomePage';
 import QuestionPapersInterface from './components/QuestionPaper';
 import LoginModal from './components/Login';
 
 function App() {
-const [isLoginModalOpen, setLoginModalOpen] = useState(false);
-const [isLoggedIn, setIsLoggedIn] = useState(false);
-const [user, setUser] = useState(null);
-useEffect(() => {
-console.log("Updated State -> isLoggedIn:", isLoggedIn);
-console.log("Updated User ->", user)       ;
-}, [isLoggedIn, user]); 
+  const [isLoginModalOpen, setLoginModalOpen] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [user, setUser] = useState(null);
 
-const handleLogin = (userData) => {
+  useEffect(() => {
+    console.log("Updated State -> isLoggedIn:", isLoggedIn);
+    console.log("Updated User ->", user);
+  }, [isLoggedIn, user]);
 
-console.log("handleLogin called!");
-console.log("UserData received:", userData);
-setUser(userData);
-setIsLoggedIn(true);
-setLoginModalOpen(false);
-};
+  const handleLoginPage = () => {
+    console.log("hello");
+    setLoginModalOpen(true);
+  };
 
-const handleLogout = () => {
-setUser(null);
-setIsLoggedIn(false);
-};
+  const handleLogin = (userData) => {
+    console.log("handleLogin called!");
+    console.log("UserData received:", userData);
+    setUser(userData);
+    setIsLoggedIn(true);
+    setLoginModalOpen(false);
+  };
 
-return (
-<div>
-<QuestionPapersInterface 
-isLoggedIn={isLoggedIn}
-user={user}
-onLoginClick={() => setLoginModalOpen(true)}
-onLogout={handleLogout}
-/>
-<LoginModal 
-isOpen={isLoginModalOpen} 
-onClose={() => setLoginModalOpen(false)}
-onLogin={handleLogin}
-/>
-</div>
-);
+  const handleLogout = () => {
+    setUser(null);
+    setIsLoggedIn(false);
+  };
+
+  useEffect(() => {
+    console.log('event');
+  }, [isLoginModalOpen]);
+
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route 
+          path="/" 
+          element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} onLogout={handleLogout} />} 
+        />
+        <Route 
+          path="/home" 
+          element={<QuestionPapersInterface isLoggedIn={isLoggedIn} user={user} onLoginClick={handleLoginPage} onLogout={handleLogout} />} 
+        />
+      </Routes>
+
+      {/* Global Login Modal */}
+      <LoginModal 
+        isOpen={isLoginModalOpen} 
+        onClose={() => setLoginModalOpen(false)}
+        onLogin={handleLogin}
+      />
+    </BrowserRouter>
+  );
 }
 
 export default App;

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-
-const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
+import { useNavigate } from 'react-router-dom';
+const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
+  
   const [activeTab, setActiveTab] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSemester, setSelectedSemester] = useState('all');
   const [selectedType,setSelectedType]=useState('all');
   const [selectedYear, setSelectedYear] = useState('all');
-  
+  const nav=useNavigate();
   const questionPapers = [
     { id: 1, title: 'Enviormental Paper', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem-1' , type:'mid-1', idLink : '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
     { id: 2, title: 'Physics Midterm Paper', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem-6', type:'mid-2' , idLink :''},
@@ -26,7 +27,10 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     { id: 16, title: 'Bussiness Paper', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type:'mid-2' ,idLink:'1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS'}, 
     
   ];
-  
+  const handleNav=()=>{
+    nav('/')
+  }
+
   const handleDownload = (event, fileId) => {
     event.stopPropagation(); 
     if (!fileId) {
@@ -82,8 +86,8 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white shadow">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center">
-            <h1 className="text-3xl font-bold text-gray-900">Question Papers</h1>
+          <div  className="flex justify-between items-center">
+            <h1 onClick={handleNav} className="text-3xl font-bold text-gray-900 cursor-pointer">Question Papers</h1>
             
             {isLoggedIn ? (
               <div className="flex items-center">
@@ -333,4 +337,4 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   );
 }
 
-export default App;
+export default questionPapers;

@@ -1,16 +1,10 @@
 import React, { useState } from 'react';
 import { Lock, BookOpen, Upload, User, KeyRound } from 'lucide-react';
 
-const HomePage = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
+  
 
-  const handleLogin = () => {
-    setIsLoggedIn(true);
-  };
-
-  const handleSignup = () => {
-    setIsLoggedIn(true);
-  };
+  
 
   const handleQuestionPapers = () => {
     if (!isLoggedIn) {
@@ -50,7 +44,7 @@ const HomePage = () => {
         {!isLoggedIn ? (
           <>
             <button 
-              onClick={handleLogin}
+              onClick={onLoginClick}
               className="bg-indigo-600 text-white px-6 py-2 rounded-full shadow-lg hover:bg-indigo-700 
               transition duration-300 flex items-center space-x-2 transform hover:scale-105"
             >
@@ -58,7 +52,7 @@ const HomePage = () => {
               <span>Login</span>
             </button>
             <button 
-              onClick={handleSignup}
+              onClick={onLoginClick}
               className="bg-purple-600 text-white px-6 py-2 rounded-full shadow-lg hover:bg-purple-700 
               transition duration-300 flex items-center space-x-2 transform hover:scale-105"
             >
@@ -67,13 +61,17 @@ const HomePage = () => {
             </button>
           </>
         ) : (
-          <div className="text-green-600 font-bold bg-white/30 px-6 py-2 rounded-full">
-           Logout
-          </div>
+            <button 
+            onClick={onLogout}
+            className="bg-indigo-600 text-white px-6 py-2 rounded-full shadow-lg hover:bg-indigo-700 
+            transition duration-300 flex items-center space-x-2 transform hover:scale-105"
+          >
+            <KeyRound className="w-5 h-5" />
+            <span>Logout</span>
+          </button>
         )}
       </div>
 
-      {/* Left Half - Buttons */}
       <div className="w-1/2 flex flex-col justify-center items-center space-y-8 z-10 relative p-8">
         <div className="w-full max-w-md transform transition-all duration-300 hover:scale-105">
           <button 
@@ -104,7 +102,6 @@ const HomePage = () => {
         </div>
       </div>
 
-      {/* Right Half - Image */}
       <div className="w-1/2 flex justify-center items-center z-10 relative p-8">
         <div className="w-full max-w-md transform transition-all duration-300 hover:scale-105">
           <img 
@@ -115,7 +112,6 @@ const HomePage = () => {
         </div>
       </div>
 
-      {/* Custom Styles for Animations */}
       <style jsx global>{`
         @keyframes gradient {
           0% { background-position: 0% 50%; }
