@@ -14,6 +14,17 @@ const App = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     { id: 4, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem-2' , type:'mid-1',idLink:""},
     { id: 5, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem-5' , type:'sem',idLink:''},
     { id: 6, title: 'EG Paper', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem-4', type:'mid-2' ,idLink:''}, 
+    { id: 7, title: 'Maths Paper', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type:'mid-2' ,idLink:'1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW'}, 
+    { id: 8, title: 'Bussiness Paper', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type:'mid-2' ,idLink:'1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS'}, 
+    { id: 9, title: 'Enviormental Paper', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem-1' , type:'mid-1', idLink : '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
+    { id: 10, title: 'Physics Midterm Paper', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem-6', type:'mid-2' , idLink :''},
+    { id: 11, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type:'sem',semester: 'sem-3' ,idLink:'' },
+    { id: 12, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem-2' , type:'mid-1',idLink:""},
+    { id: 13, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem-5' , type:'sem',idLink:''},
+    { id: 14, title: 'EG Paper', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem-4', type:'mid-2' ,idLink:''}, 
+    { id: 15, title: 'Maths Paper', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type:'mid-2' ,idLink:'1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW'}, 
+    { id: 16, title: 'Bussiness Paper', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type:'mid-2' ,idLink:'1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS'}, 
+    
   ];
   
   const handleDownload = (event, fileId) => {
