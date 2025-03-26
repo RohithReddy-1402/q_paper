@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Lock, BookOpen, Upload, User, KeyRound } from 'lucide-react';
-
+import { useNavigate } from 'react-router-dom';
 const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
-  
+  const nav=useNavigate();
 
   
 
@@ -10,7 +10,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     if (!isLoggedIn) {
       alert('Please log in to access Question Papers');
     } else {
-      console.log('Accessing Question Papers');
+      nav('/home')
     }
   };
 
@@ -105,7 +105,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
       <div className="w-1/2 flex justify-center items-center z-10 relative p-8">
         <div className="w-full max-w-md transform transition-all duration-300 hover:scale-105">
           <img 
-            src="/api/placeholder/600/800" 
+            src="src/assets/7228781.jpg" 
             alt="Question Paper" 
             className="w-full h-auto rounded-2xl shadow-2xl border-4 border-white/50 object-cover"
           />
