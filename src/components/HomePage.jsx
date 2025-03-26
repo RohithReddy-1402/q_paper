@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   const nav=useNavigate();
 
-  
+  const url="https://drive.google.com/uc?export=view&id=1h2uz5s5TUkeXsprHCn2azVHY7BAC6ubX";
 
   const handleQuestionPapers = () => {
     if (!isLoggedIn) {
@@ -105,7 +105,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
       <div className="w-1/2 flex justify-center items-center z-10 relative p-8">
         <div className="w-full max-w-md transform transition-all duration-300 hover:scale-105">
           <img 
-            src="src/assets/7228781.jpg" 
+            src="/src/assets/7228781.jpg"
             alt="Question Paper" 
             className="w-full h-auto rounded-2xl shadow-2xl border-4 border-white/50 object-cover"
           />
