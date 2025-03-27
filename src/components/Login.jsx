@@ -1,3 +1,4 @@
+import { em } from 'framer-motion/client';
 import React, { useState, useEffect } from 'react';
 
 const LoginModal = ({ isOpen, onClose ,onLogin}) => {
@@ -34,6 +35,40 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
     console.log("✅ onLogin is being called with:");
     onClose();
   };
+  const handleLoginSubmit = async (e) => {
+    e.preventDefault();
+  
+    try {
+      const response = await fetch("http://localhost:3000/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ EmailID: email, pass: password }),
+      });
+  
+      if (!response.ok) {
+        throw new Error(`Login failed: ${response.status}`);
+      }
+  
+      const data = await response.json();
+  
+      if (data.user) {
+        const email = data.user.EmailID;
+        const name = data.user.username;
+  
+        console.log("User Logged In:", name, email);
+  
+        if (response.status === 208) {
+          const userData = { email, name };
+          onLogin(userData); 
+        }
+      } else {
+        console.log("Invalid response from server");
+      }
+    } catch (error) {
+      console.error("Error:", error.message || "Enter the details properly");
+    }
+  };
+  
   const handleSignUpSubmit =async (e)=>{
       e.preventDefault()
       try{
@@ -77,7 +112,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
             </button>
           </div>
           
-          <form className="space-y-4" onSubmit={handleSignUpSubmit}>
+          <form className="space-y-4" onSubmit={isLogin?handleLoginSubmit:handleSignUpSubmit}>
             {!isLogin && (
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">

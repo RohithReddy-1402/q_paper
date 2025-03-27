@@ -49,7 +49,6 @@ function App() {
         />
       </Routes>
 
-      {/* Global Login Modal */}
       <LoginModal 
         isOpen={isLoginModalOpen} 
         onClose={() => setLoginModalOpen(false)}

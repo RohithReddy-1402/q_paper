@@ -54,14 +54,13 @@
   app.post('/register', async (req, res) => {
     try {
       const { name, EmailID, pass } = req.body;
-  
+      
       if (!name|| !EmailID || !pass) {
         return res.status(400).json({ error: "All fields are required" });
       }
-  
+      
       console.log(name, EmailID, pass);
   
-      // Check for existing username OR EmailID
       const existingUser = await User.findOne({
         $or: [{ name }, { EmailID }]
       });
@@ -69,8 +68,9 @@
       if (existingUser) {
         return res.status(400).json({ message: 'Username or Email already exists' });
       }
-  
-      const user = new User({ name, EmailID, pass });
+      const salt = await bcrypt.genSalt(10);
+      const hashedPass = await bcrypt.hash(pass, salt);
+      const user = new User({ name, EmailID, pass:hashedPass });
       await user.save();
   
       console.log(user);
@@ -85,25 +85,25 @@
 
   app.post('/login', async (req, res) => {
     try {
-      const { username, password } = req.body;
-      
-      const user = await User.findOne({ username });
+      const { EmailID,pass } = req.body;
+      console.log(EmailID,pass)
+      const user = await User.findOne({ EmailID });
       if (!user) {
-        return res.status(401).json({ message: 'Invalid credentials' });
+        return res.status(401).json({ message: 'Invalid credentials, no email' });
       }
-      
-      const isPasswordValid = await bcrypt.compare(password, user.password);
+      console.log(user.pass)
+      const isPasswordValid =  await bcrypt.compare(pass,user.pass);
       if (!isPasswordValid) {
-        return res.status(401).json({ message: 'Invalid credentials' });
+        return res.status(401).json({ message: 'Invalid credentials, not correct pass' });
       }
       
-      const token = jwt.sign(
-        { id: user._id, username: user.username, role: user.role },
-        JWT_SECRET,
-        { expiresIn: '1h' }
-      );
+      // const token = jwt.sign(
+      //   { id: user._id, username: user.username, role: user.role },
+      //   JWT_SECRET,
+      //   { expiresIn: '1h' }
+      // );
       
-      res.json({ token, user: { id: user._id, username: user.username, role: user.role } });
+      res.status(208).json({ user: {  EmailID: user.EmailID, username:user.name} });
     } catch (error) {
       res.status(500).json({ message: 'Server error', error: error.message });
     }
