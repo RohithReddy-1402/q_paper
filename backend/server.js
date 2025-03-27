@@ -7,7 +7,7 @@
   app.use(express.json());
   app.use(cors());
 
-  mongoose.connect('mongodb://localhost:27017/questionPaperDB')
+  mongoose.connect('mongodb+srv://Rohith_Coder:Rohith_14_IM_@qpaper.7lzyiwo.mongodb.net/')
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('MongoDB connection error:', err));
 
