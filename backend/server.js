@@ -3,19 +3,18 @@
   const bcrypt = require('bcrypt');
   const jwt = require('jsonwebtoken');
   const app = express();
+  const cors=require('cors');
   app.use(express.json());
+  app.use(cors());
 
-  mongoose.connect('mongodb://localhost:27017/questionPaperDB', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-  })
+  mongoose.connect('mongodb://localhost:27017/questionPaperDB')
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('MongoDB connection error:', err));
 
   const userSchema = new mongoose.Schema({
-    username: { type: String, required: true, unique: true },
-    password: { type: String, required: true },
-    role: { type: String, enum: ['admin', 'user'], default: 'user' }
+    name:{type:String,required:true,unique:true},
+    EmailID: { type: String, required: true, unique: true },
+    pass: { type: String, required: true }
   });
 
   const paperSchema = new mongoose.Schema({
@@ -52,26 +51,39 @@
       return res.status(401).json({ message: 'Invalid token' });
     }
   };
-
-  app.post('/api/register', async (req, res) => {
+  app.post('/register', async (req, res) => {
     try {
-      const { username, password, role } = req.body;
-      
-      const existingUser = await User.findOne({ username });
-      if (existingUser) {
-        return res.status(400).json({ message: 'Username already exists' });
+      const { name, EmailID, pass } = req.body;
+  
+      if (!name|| !EmailID || !pass) {
+        return res.status(400).json({ error: "All fields are required" });
       }
-      
-      const user = new User({ username, password, role });
+  
+      console.log(name, EmailID, pass);
+  
+      // Check for existing username OR EmailID
+      const existingUser = await User.findOne({
+        $or: [{ name }, { EmailID }]
+      });
+  
+      if (existingUser) {
+        return res.status(400).json({ message: 'Username or Email already exists' });
+      }
+  
+      const user = new User({ name, EmailID, pass });
       await user.save();
-      
+  
+      console.log(user);
       res.status(201).json({ message: 'User registered successfully' });
+  
     } catch (error) {
+      console.error(error);
       res.status(500).json({ message: 'Server error', error: error.message });
     }
   });
+  
 
-  app.post('/api/login', async (req, res) => {
+  app.post('/login', async (req, res) => {
     try {
       const { username, password } = req.body;
       
@@ -152,5 +164,5 @@
     }
   });
 
-  const PORT = process.env.PORT || 5000;
+  const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => console.log(`Server running on port ${PORT}`));

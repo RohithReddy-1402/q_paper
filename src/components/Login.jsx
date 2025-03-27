@@ -4,7 +4,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [name, setName] = useState('');
+  const [username, setUserName] = useState('');
 
   useEffect(() => {
     const handleKeyDown = (event) => {
@@ -27,13 +27,28 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
     console.log(isLogin ? 'Logging in...' : 'Signing up...', { 
       email, 
       password, 
-      ...(isLogin ? {} : { name }) 
+      ...(isLogin ? {} : { username }) 
     });
     const userData = { email, password}; 
     onLogin(userData); 
     console.log("✅ onLogin is being called with:");
     onClose();
   };
+  const handleSignUpSubmit =async (e)=>{
+      e.preventDefault()
+      try{
+        const response = await fetch("http://localhost:3000/register",{
+          method:"POST",
+          headers:{"Content-type":"application/json"},
+          body:JSON.stringify({name: username,EmailID:email,pass:password})
+        })
+        const data =await response.json()
+        console.log(data);
+      }
+      catch{
+          console.log("Error occured while reaching the endpoint")
+      }
+  }
 
   if (!isOpen) return null;
 
@@ -62,7 +77,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
             </button>
           </div>
           
-          <form className="space-y-4" onSubmit={handleSubmit}>
+          <form className="space-y-4" onSubmit={handleSignUpSubmit}>
             {!isLogin && (
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">
@@ -74,8 +89,8 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
                   type="text"
                   autoComplete="name"
                   required={!isLogin}
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
+                  value={username}
+                  onChange={(e) => setUserName(e.target.value)}
                   className="mt-1 block w-full rounded-md h-12 border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
                 />
               </div>
