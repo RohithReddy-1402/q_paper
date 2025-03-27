@@ -1,12 +1,12 @@
 import { em } from 'framer-motion/client';
 import React, { useState, useEffect } from 'react';
 
-const LoginModal = ({ isOpen, onClose ,onLogin}) => {
-  const [isLogin, setIsLogin] = useState(true);
+const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen}) => {
+  const [isLogin, setIsLogin] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [username, setUserName] = useState('');
-
+  
   useEffect(() => {
     const handleKeyDown = (event) => {
       if (event.key === 'Escape') {
@@ -19,22 +19,22 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
     } else {
       document.removeEventListener('keydown', handleKeyDown);
     }
-    
+    setIsLogin(!isSignUpOpen)
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, onClose]);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(isLogin ? 'Logging in...' : 'Signing up...', { 
-      email, 
-      password, 
-      ...(isLogin ? {} : { username }) 
-    });
-    const userData = { email, password}; 
-    onLogin(userData); 
-    console.log("✅ onLogin is being called with:");
-    onClose();
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log(isLogin ? 'Logging in...' : 'Signing up...', { 
+  //     email, 
+  //     password, 
+  //     ...(isLogin ? {} : { username }) 
+  //   });
+  //   const userData = { email, password}; 
+  //   onLogin(userData); 
+  //   console.log("✅ onLogin is being called with:");
+  //   onClose();
+  // };
   const handleLoginSubmit = async (e) => {
     e.preventDefault();
   
@@ -60,6 +60,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
         if (response.status === 208) {
           const userData = { email, name };
           onLogin(userData); 
+          onClose()
         }
       } else {
         console.log("Invalid response from server");
@@ -79,6 +80,11 @@ const LoginModal = ({ isOpen, onClose ,onLogin}) => {
         })
         const data =await response.json()
         console.log(data);
+        if ( response.status==201){
+          const userData={email,username};
+          onLogin(userData);onClose()
+        }
+        
       }
       catch{
           console.log("Error occured while reaching the endpoint")

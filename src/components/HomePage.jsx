@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Lock, BookOpen, Upload, User, KeyRound } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import Image from '../assets/7228781.jpg'
-const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
+const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout ,onSignUpClick}) => {
   const nav=useNavigate();
 
   const url="https://drive.google.com/uc?export=view&id=1h2uz5s5TUkeXsprHCn2azVHY7BAC6ubX";
@@ -14,6 +14,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
       nav('/home')
     }
   };
+  
 
   const handleContribute = () => {
     if (!isLoggedIn) {
@@ -53,7 +54,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
               <span>Login</span>
             </button>
             <button 
-              onClick={onLoginClick}
+              onClick={onSignUpClick}
               className="bg-purple-600 text-white px-6 py-2 rounded-full shadow-lg hover:bg-purple-700 
               transition duration-300 flex items-center space-x-2 transform hover:scale-105"
             >

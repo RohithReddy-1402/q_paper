@@ -8,6 +8,7 @@ function App() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
+  const [isSignUpPageOpen,setSignUpPageOpen]=useState(false);
 
   useEffect(() => {
     console.log("Updated State -> isLoggedIn:", isLoggedIn);
@@ -16,14 +17,23 @@ function App() {
 
   const handleLoginPage = () => {
     console.log("hello");
+    setSignUpPageOpen(false);
     setLoginModalOpen(true);
   };
+  const handleSignUpPage=()=>{
+    console.log("sent")
+    
+      setSignUpPageOpen(true);
+      setLoginModalOpen(true);
 
+    
+  }
   const handleLogin = (userData) => {
     console.log("handleLogin called!");
     console.log("UserData received:", userData);
     setUser(userData);
     setIsLoggedIn(true);
+    
     setLoginModalOpen(false);
   };
 
@@ -41,7 +51,7 @@ function App() {
       <Routes>
         <Route 
           path="/" 
-          element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} onLogout={handleLogout} />} 
+          element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} onLogout={handleLogout} onSignUpClick={handleSignUpPage}/>} 
         />
         <Route 
           path="/home" 
@@ -53,6 +63,7 @@ function App() {
         isOpen={isLoginModalOpen} 
         onClose={() => setLoginModalOpen(false)}
         onLogin={handleLogin}
+        isSignUpOpen={isSignUpPageOpen}
       />
     </BrowserRouter>
   );
