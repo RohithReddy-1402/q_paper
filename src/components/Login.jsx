@@ -58,7 +58,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen}) => {
         console.log("User Logged In:", name, email);
   
         if (response.status === 208) {
-          const userData = { email, name };
+        const userData = { email, name };
           onLogin(userData); 
           onClose()
         }
