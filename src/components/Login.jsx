@@ -39,7 +39,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass}) => {
     e.preventDefault();
   
     try {
-      const response = await fetch("http://localhost:3001/login", {
+      const response = await fetch("https://back-u7se.onrender.com/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ EmailID: email, pass: password }),
@@ -73,7 +73,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass}) => {
   const handleSignUpSubmit =async (e)=>{
       e.preventDefault()
       try{
-        const response = await fetch("http://localhost:3001/register",{
+        const response = await fetch("https://back-u7se.onrender.com/register",{
           method:"POST",
           headers:{"Content-type":"application/json"},
           body:JSON.stringify({name: username,EmailID:email,pass:password})

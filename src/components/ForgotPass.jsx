@@ -86,7 +86,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
   const verifyOTP=async()=>{
      try{
       const otpAsInteger = parseInt(values.join(""), 10);
-      const response=await fetch('http://localhost:3001/otp-verify',{
+      const response=await fetch('https://back-u7se.onrender.com/otp-verify',{
         method:"POST",
         headers:{"Content-type":"application/json"},
         body:JSON.stringify({EmailID:email, otp:otpAsInteger})
@@ -100,7 +100,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
   }
   const sendOtp = async () => {
 
-    const response = await fetch("http://localhost:3001/forgotpassword", {
+    const response = await fetch("https://back-u7se.onrender.com/forgotpassword", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({ EmailID: email })
