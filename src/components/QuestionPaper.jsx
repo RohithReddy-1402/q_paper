@@ -174,7 +174,6 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   </svg>
                 </div>
               </div>
-              {/* third sort */}
               <div className="relative">
                 <select
                   value={selectedType}

@@ -3,20 +3,18 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/HomePage';
 import QuestionPapersInterface from './components/QuestionPaper';
 import LoginModal from './components/Login';
+import ForgotPassword from './components/ForgotPass';
 
 function App() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
   const [isSignUpPageOpen,setSignUpPageOpen]=useState(false);
+  const [isForgotPass,setIsForgotPass]=useState(false);
 
-  useEffect(() => {
-    console.log("Updated State -> isLoggedIn:", isLoggedIn);
-    console.log("Updated User ->", user);
-  }, [isLoggedIn, user]);
 
   const handleLoginPage = () => {
-    console.log("hello");
+    
     setSignUpPageOpen(false);
     setLoginModalOpen(true);
   };
@@ -26,6 +24,12 @@ function App() {
       setSignUpPageOpen(true);
       setLoginModalOpen(true);
 
+    
+  }
+  const handleForgotPass=()=>{
+    setLoginModalOpen(false);
+    setSignUpPageOpen(false);
+    setIsForgotPass(true);
     
   }
   const handleLogin = (userData) => {
@@ -43,7 +47,6 @@ function App() {
   };
 
   useEffect(() => {
-    console.log('event');
   }, [isLoginModalOpen]);
 
   return (
@@ -64,7 +67,9 @@ function App() {
         onClose={() => setLoginModalOpen(false)}
         onLogin={handleLogin}
         isSignUpOpen={isSignUpPageOpen}
+        setForgotPass={handleForgotPass}
       />
+      <ForgotPassword isForgotOpen={isForgotPass} onForgotClose={()=>setIsForgotPass(false)}/>
     </BrowserRouter>
   );
 }

@@ -9,15 +9,13 @@ function SignupModal({ onClose }) {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Validate passwords match
     if (password !== confirmPassword) {
       alert("Passwords don't match!");
       return;
     }
     
-    // Handle signup logic here
     console.log('Signup attempt with:', { name, email, password });
-    // You would typically make an API call here
+  
   };
   
   return (

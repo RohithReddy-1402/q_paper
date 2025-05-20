@@ -1,7 +1,7 @@
 import { em } from 'framer-motion/client';
 import React, { useState, useEffect } from 'react';
 
-const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen}) => {
+const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass}) => {
   const [isLogin, setIsLogin] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -39,7 +39,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen}) => {
     e.preventDefault();
   
     try {
-      const response = await fetch("https://back-u7se.onrender.com/login", {
+      const response = await fetch("http://localhost:3001/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ EmailID: email, pass: password }),
@@ -73,7 +73,7 @@ const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen}) => {
   const handleSignUpSubmit =async (e)=>{
       e.preventDefault()
       try{
-        const response = await fetch("https://back-u7se.onrender.com/register",{
+        const response = await fetch("http://localhost:3001/register",{
           method:"POST",
           headers:{"Content-type":"application/json"},
           body:JSON.stringify({name: username,EmailID:email,pass:password})
@@ -168,7 +168,11 @@ const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen}) => {
                 className="mt-1 block w-full rounded-md h-12 border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
               />
             </div>
-
+            {isLogin &&
+              <div className='flex flex-row-reverse pr-4 cursor-pointer hover:text-blue-600'>
+                <a onClick={setForgotPass}>Forgot Password ?</a>
+              </div>
+            } 
             <div>
               <button
                 type="submit"
