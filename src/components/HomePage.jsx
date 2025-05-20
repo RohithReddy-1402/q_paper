@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Lock, BookOpen, Upload, User, KeyRound, LogOut, Book, Briefcase, ArrowRight } from 'lucide-react';
-
+import { useNavigate } from 'react-router-dom';
 const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) => {
   const [activeHover, setActiveHover] = useState(null);
   const [showWelcome, setShowWelcome] = useState(true);
+   const nav=useNavigate();
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowWelcome(false);
@@ -16,7 +17,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
       alert('Please log in to access Question Papers');
     } else {
       
-      console.log('Navigating to /home');
+      nav('/home')
     }
   };
 
