@@ -114,66 +114,101 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
   if (!isForgotOpen) return null;
 
   return (
-    <div className="forgot-main">
-      <div className="flex w-full h-full justify-center items-center">
-        {!otpInput && <div
-          ref={containerRef}
-          className="forgot-container flex-col md:w-1/4 md:h-3/10 w-9/10 h-4/10 bg-white"
+    <div className="forgot-main flex w-full h-full justify-center items-center bg-gray-100 py-12">
+  {!otpInput && (
+    <div
+      ref={containerRef}
+      className="w-full max-w-md bg-white rounded-xl shadow-lg overflow-hidden"
+    >
+      <div className="px-6 py-8">
+        <div className="flex justify-between items-center mb-6">
+          <h1 className="text-2xl font-semibold text-gray-800">Reset Password</h1>
+          <button
+            type="button"
+            className="text-gray-400 hover:text-gray-500 focus:outline-none"
+            onClick={onForgotClose}
+          >
+            <span className="sr-only">Close</span>
+            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        
+        <div className="mb-8">
+          <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+            Email Address
+          </label>
+          <input 
+            type="email" 
+            id="email"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors" 
+            value={email} 
+            onChange={(e) => setEmail(e.target.value)} 
+            placeholder="Enter your email"
+          />
+        </div>
+        
+        <button 
+          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" 
+          onClick={sendOtp}
         >
-          <div className="flex justify-between">
-            <h1 className="pt-4 pl-4 text-2xl ml-2 mt-2">Reset Your Password</h1>
-            <button
-              type="button"
-              className="bg-white rounded-md text-gray-400 hover:text-gray-500 focus:outline-none mr-4 md:mr-10 mt-6"
-              onClick={onForgotClose}
-            >
-              <span className="sr-only">Close</span>
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-
-          </div>
-          <div className="ml-6 flex-col ">
-            <h1 className="text-xl">Enter your  Mail :</h1>
-            <input type="email" className="border-1 mt-4 w-9/10 md:w-3/5 h-full rounded-xl pl-4 pt-0 text-xl" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Enter the Mail">
-
-            </input>
-          </div>
-          <div className="ml-4 md:mt-0 mt-8">
-            <button className="otp-btn ml-4" onClick={sendOtp}>
-              Send Otp
-            </button>
-          </div>
-        </div>}
-        {
-          otpInput &&
-          <div className="forgot-container  md:w-1/4 md:h-3/10 w-9/10 h-4/10 bg-white" ref={containerRef}>
-            <div className="container">
-              <div className="mt-8 ml-8 md:mb-16  "><h1 className="text-2xl">Enter Your OTP</h1></div>
-              <div id="inputs" className="inputs" onPaste={handlePaste}>
-                {[...Array(6)].map((_, index) => (
-                  <input
-                    key={index}
-                    type="text"
-                    inputMode="numeric"
-                    maxLength="1"
-                    value={values[index]}
-                    ref={(el) => (inputsRef.current[index] = el)}
-                    onChange={(e) => handleInput(e, index)}
-                    onKeyDown={(e) => handleKeyDown(e, index)}
-                    className="w-12 h-14 text-2xl text-center border-2 border-gray-400 rounded focus:outline-none focus:border-black"
-                  />
-                ))}
-              </div>
-              <div className="flex mt-8 justify-center">
-                <button className="verify-btn border w-24 h-12 rounded-xl" onClick={verifyOTP}>Verify OTP</button>
-              </div>
-            </div>
-          </div>
-        }
+          Send Verification Code
+        </button>
       </div>
     </div>
+  )}
+  
+  {otpInput && (
+    <div 
+      ref={containerRef}
+      className="w-full max-w-md bg-white rounded-xl shadow-lg overflow-hidden"
+    >
+      <div className="px-6 py-8">
+        <h1 className="text-2xl font-semibold text-gray-800 mb-6">Verification Code</h1>
+        
+        <p className="text-gray-600 mb-6">
+          Please enter the 6-digit code sent to your email
+        </p>
+        
+        <div 
+          id="inputs" 
+          className="flex justify-between mb-8" 
+          onPaste={handlePaste}
+        >
+          {[...Array(6)].map((_, index) => (
+            <input
+              key={index}
+              type="text"
+              inputMode="numeric"
+              maxLength="1"
+              value={values[index]}
+              ref={(el) => (inputsRef.current[index] = el)}
+              onChange={(e) => handleInput(e, index)}
+              onKeyDown={(e) => handleKeyDown(e, index)}
+              className="w-12 h-14 text-center text-xl font-medium border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            />
+          ))}
+        </div>
+        
+        <div className="flex space-x-4">
+          <button 
+            className="flex-1 border border-gray-300 text-gray-700 font-medium py-3 px-4 rounded-lg hover:bg-gray-50 transition-colors focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2" 
+            onClick={onForgotClose}
+          >
+            Cancel
+          </button>
+          <button 
+            className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            onClick={verifyOTP}
+          >
+            Verify
+          </button>
+        </div>
+      </div>
+    </div>
+  )}
+</div>
   );
 };
 
