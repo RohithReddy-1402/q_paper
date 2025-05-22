@@ -6,6 +6,8 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
   const [email, setEmail] = useState("");
   const [otpInput, setOtpInput] = useState(false);
   const [values, setValues] = useState(Array(6).fill(""));
+  const [passInput,setPassInput]=useState(false);
+  const [password,setPassword]=useState("");
   useEffect(() => {
     if (!isForgotOpen) return;
 
@@ -94,6 +96,9 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
       const data=response.json();
       console.log(data)
       console.log(response.status)
+      if(response.status==200){
+        setPassInput(true);
+      }
      }catch(err){
 
      }

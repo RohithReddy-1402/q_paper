@@ -13,12 +13,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
   }, []);
 
   const handleQuestionPapers = () => {
-    if (!isLoggedIn) {
-      alert('Please log in to access Question Papers');
-    } else {
-      
-      nav('/home')
-    }
+    nav("/home")
   };
 
   const handleContribute = () => {
@@ -106,7 +101,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
               Your Gateway to Academic Excellence
             </h2>
             <p className="text-gray-600 text-lg mb-8">
-              Access thousands of previous question papers and contribute to help fellow students excel in their academic journey.
+              Access previous question papers and contribute to help fellow students excel in their academic journey.
             </p>
             
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
@@ -150,9 +145,9 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
                 <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
                   <Book className="w-5 h-5 text-blue-600" />
                 </div>
-                <span className="text-lg font-semibold text-gray-800">10,000+</span>
+                <span className="text-lg font-semibold text-gray-800">10+</span>
               </div>
-              <p className="text-gray-600">Question Papers</p>
+              <p className="text-gray-600 font-bold">Question Papers</p>
             </div>
             
             <div className="bg-white/80 backdrop-blur-sm p-5 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -160,9 +155,9 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
                 <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-3">
                   <Briefcase className="w-5 h-5 text-purple-600" />
                 </div>
-                <span className="text-lg font-semibold text-gray-800">500+</span>
+                <span className="text-lg font-semibold text-gray-800">1</span>
               </div>
-              <p className="text-gray-600">Universities</p>
+              <p className="text-gray-600 text-center font-bold">NIT KKR</p>
             </div>
           </div>
         </div>
@@ -176,7 +171,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
                 </div>
                 <div className="text-center">
                   <h3 className="text-2xl font-bold text-black mb-3">Past Question Papers</h3>
-                  <p className="text-black/90 mb-6">Prepare better with thousands of previous exam papers</p>
+                  <p className="text-black/90 mb-6">Prepare better with  previous exam papers</p>
                   <div className="flex justify-center space-x-2">
                     <div className="w-3 h-3 rounded-full bg-white/70"></div>
                     <div className="w-3 h-3 rounded-full bg-white/40"></div>
