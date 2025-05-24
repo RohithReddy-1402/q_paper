@@ -7,7 +7,9 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
   const [otpInput, setOtpInput] = useState(false);
   const [values, setValues] = useState(Array(6).fill(""));
   const [passInput,setPassInput]=useState(false);
+  const [emailInput,setEmailInput]=useState(true);
   const [password,setPassword]=useState("");
+  const [confpass,setConfPass]=useState("");
   useEffect(() => {
     if (!isForgotOpen) return;
 
@@ -85,6 +87,30 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
       if (nextInput) nextInput.focus();
     }
   };
+  const changePassword=async()=>{
+    try{
+    if (password==confpass){
+      const response=await fetch('https://back-u7se.onrender.com/resetpassword',{
+        method:"PUT",
+        headers:{"Content-type":"application/json"},
+        body:JSON.stringify({EmailID:email,pass:password})
+        
+      })
+      if (response.status==200){
+        alert("password changed successfully !");
+      }
+      else{
+        alert('error occured try again'); 
+      }
+    }
+    else{
+      alert('Enter password again');
+      setConfPass("")
+    }}
+    catch(err){
+      console.log(err);
+    }
+  }
   const verifyOTP=async()=>{
      try{
       const otpAsInteger = parseInt(values.join(""), 10);
@@ -97,6 +123,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
       console.log(data)
       console.log(response.status)
       if(response.status==200){
+        setOtpInput(false);
         setPassInput(true);
       }
      }catch(err){
@@ -112,7 +139,9 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
     })
     const data = response.json()
     if (response.status === 200) {
+      setEmailInput(false);
       setOtpInput(true);
+      
     }
     console.log(data)
   }
@@ -120,7 +149,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
 
   return (
     <div className="forgot-main flex w-full h-full justify-center items-center bg-gray-100 py-12">
-  {!otpInput && (
+  {emailInput&& (
     <div
       ref={containerRef}
       className="w-full max-w-md bg-white rounded-xl shadow-lg overflow-hidden"
@@ -164,7 +193,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
     </div>
   )}
   
-  {otpInput && (
+  {otpInput &&!passInput&& (
     <div 
       ref={containerRef}
       className="w-full max-w-md bg-white rounded-xl shadow-lg overflow-hidden"
@@ -213,6 +242,64 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
       </div>
     </div>
   )}
+  {
+    passInput &&
+          <div
+            ref={containerRef}
+            className="w-full max-w-md bg-white rounded-xl shadow-lg overflow-hidden"
+          >
+            <div className="px-6 py-8">
+              <div className="flex justify-between items-center mb-6">
+                <h1 className="text-2xl font-semibold text-gray-800">Reset Password</h1>
+                <button
+                  type="button"
+                  className="text-gray-400 hover:text-gray-500 focus:outline-none"
+                  onClick={onForgotClose}
+                >
+                  <span className="sr-only">Close</span>
+                  <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+              
+              <div className="mb-8">
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                  Email New Password
+                </label>
+                <input 
+                  type="password" 
+                  id="pass"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors" 
+                  value={password} 
+                  onChange={(e) => setPassword(e.target.value)} 
+                  placeholder="Enter New Password"
+                />
+              </div>
+              <div className="mb-8">
+                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                  Re-Enter New Password
+                </label>
+                <input 
+                  type="password" 
+                  id="confpass"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors" 
+                  value={confpass} 
+                  onChange={(e) => setConfPass(e.target.value)} 
+                  placeholder="Verify New Password"
+                />
+              </div>
+              
+              <button 
+                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-4 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" 
+                onClick={changePassword}
+              >
+                Change Password
+              </button>
+            </div>
+          </div>
+        
+  }
 </div>
   );
 };

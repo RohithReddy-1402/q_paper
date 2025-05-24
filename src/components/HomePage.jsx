@@ -8,7 +8,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowWelcome(false);
-    }, 2000);
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
 
