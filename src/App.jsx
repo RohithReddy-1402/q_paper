@@ -4,6 +4,7 @@ import Home from './components/HomePage';
 import QuestionPapersInterface from './components/QuestionPaper';
 import LoginModal from './components/Login';
 import ForgotPassword from './components/ForgotPass';
+import Loading from './components/Loading';
 
 function App() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
@@ -11,7 +12,7 @@ function App() {
   const [user, setUser] = useState(null);
   const [isSignUpPageOpen,setSignUpPageOpen]=useState(false);
   const [isForgotPass,setIsForgotPass]=useState(false);
-
+  const [isLoad,setIsLoad]=useState(false);
 
   const handleLoginPage = () => {
     
@@ -61,15 +62,16 @@ function App() {
           element={<QuestionPapersInterface isLoggedIn={isLoggedIn} user={user} onLoginClick={handleLoginPage} onLogout={handleLogout} />} 
         />
       </Routes>
-
+      <Loading isLoadingOpen={isLoad} />
       <LoginModal 
         isOpen={isLoginModalOpen} 
         onClose={() => setLoginModalOpen(false)}
         onLogin={handleLogin}
         isSignUpOpen={isSignUpPageOpen}
         setForgotPass={handleForgotPass}
+        onLoadClose={()=>setIsLoad(false)}
       />
-      <ForgotPassword isForgotOpen={isForgotPass} onForgotClose={()=>setIsForgotPass(false)}/>
+      <ForgotPassword isForgotOpen={isForgotPass} onForgotClose={()=>setIsForgotPass(false)} onLoadClose={()=>setIsLoad(false)}/>
     </BrowserRouter>
   );
 }
