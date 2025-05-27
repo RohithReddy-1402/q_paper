@@ -1,7 +1,7 @@
 import { em } from 'framer-motion/client';
 import React, { useState, useEffect } from 'react';
 
-const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass}) => {
+const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,isLoading,onLoadClose}) => {
   const [isLogin, setIsLogin] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -44,13 +44,13 @@ const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass}) => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ EmailID: email, pass: password }),
       });
-  
+      isLoading();
       if (!response.ok) {
         throw new Error(`Login failed: ${response.status}`);
       }
   
       const data = await response.json();
-  
+      onLoadClose();
       if (data.user) {
         const email = data.user.EmailID;
         const name = data.user.username;

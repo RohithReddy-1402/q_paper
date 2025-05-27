@@ -1,7 +1,7 @@
 import { em } from "framer-motion/client";
 import { useEffect, useRef, useState } from "react";
 
-const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
+const ForgotPassword = ({ isForgotOpen, onForgotClose ,isLoading,onLoadClose}) => {
   const containerRef = useRef(null);
   const [email, setEmail] = useState("");
   const [otpInput, setOtpInput] = useState(false);
@@ -89,6 +89,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
   };
   const changePassword=async()=>{
     try{
+      isLoading();
     if (password==confpass){
       const response=await fetch('https://back-u7se.onrender.com/resetpassword',{
         method:"PUT",
@@ -96,6 +97,8 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
         body:JSON.stringify({EmailID:email,pass:password})
         
       })
+      const data=response.json();
+      onLoadClose();
       if (response.status==200){
         alert("password changed successfully !");
       }
@@ -113,6 +116,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
   }
   const verifyOTP=async()=>{
      try{
+      isLoading();
       const otpAsInteger = parseInt(values.join(""), 10);
       const response=await fetch('https://back-u7se.onrender.com/otp-verify',{
         method:"POST",
@@ -120,8 +124,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
         body:JSON.stringify({EmailID:email, otp:otpAsInteger})
       })
       const data=response.json();
-      console.log(data)
-      console.log(response.status)
+      onLoadClose();
       if(response.status==200){
         setOtpInput(false);
         setPassInput(true);
@@ -131,13 +134,14 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose }) => {
      }
   }
   const sendOtp = async () => {
-
+    isLoading();
     const response = await fetch("https://back-u7se.onrender.com/forgotpassword", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({ EmailID: email })
     })
     const data = response.json()
+    onLoadClose();
     if (response.status === 200) {
       setEmailInput(false);
       setOtpInput(true);

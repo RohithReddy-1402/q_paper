@@ -27,6 +27,9 @@ function App() {
 
     
   }
+  const handleLoading=()=>{
+    setIsLoad(true);
+  }
   const handleForgotPass=()=>{
     setLoginModalOpen(false);
     setSignUpPageOpen(false);
@@ -34,8 +37,6 @@ function App() {
     
   }
   const handleLogin = (userData) => {
-    console.log("handleLogin called!");
-    console.log("UserData received:", userData);
     setUser(userData);
     setIsLoggedIn(true);
     
@@ -70,8 +71,9 @@ function App() {
         isSignUpOpen={isSignUpPageOpen}
         setForgotPass={handleForgotPass}
         onLoadClose={()=>setIsLoad(false)}
+        isLoading={handleLoading}
       />
-      <ForgotPassword isForgotOpen={isForgotPass} onForgotClose={()=>setIsForgotPass(false)} onLoadClose={()=>setIsLoad(false)}/>
+      <ForgotPassword isForgotOpen={isForgotPass} onForgotClose={()=>setIsForgotPass(false)} onLoadClose={()=>setIsLoad(false)} isLoading={handleLoading}/>
     </BrowserRouter>
   );
 }
