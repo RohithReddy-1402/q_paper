@@ -1,12 +1,12 @@
 import { em } from 'framer-motion/client';
 import React, { useState, useEffect } from 'react';
-
-const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,isLoading,onLoadClose}) => {
+import {ToastProvider,useToast} from "./ToastContext";
+const LoginModalAuto = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,isLoading,onLoadClose}) => {
   const [isLogin, setIsLogin] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [username, setUserName] = useState('');
-  
+  const {addToast}=useToast();
   useEffect(() => {
     const handleKeyDown = (event) => {
       if (event.key === 'Escape') {
@@ -39,12 +39,13 @@ const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,isLoad
     e.preventDefault();
   
     try {
+       isLoading();
       const response = await fetch("https://back-u7se.onrender.com/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ EmailID: email, pass: password }),
       });
-      isLoading();
+     
       if (!response.ok) {
         throw new Error(`Login failed: ${response.status}`);
       }
@@ -55,31 +56,33 @@ const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,isLoad
         const email = data.user.EmailID;
         const name = data.user.username;
   
-        console.log("User Logged In:", name, email);
-  
         if (response.status === 208) {
+          addToast("Login succesful ","success")
         const userData = { email, name };
           onLogin(userData); 
           onClose()
         }
       } else {
         console.log("Invalid response from server");
+        addToast("Error Occured! Please Try Again","warning")
       }
-    } catch (error) {
-      console.error("Error:", error.message || "Enter the details properly");
+    } catch (error) {onLoadClose()
+      addToast("Error Occured ! Please Try Again","error")
+
     }
   };
   
   const handleSignUpSubmit =async (e)=>{
       e.preventDefault()
       try{
+        isLoading();
         const response = await fetch("https://back-u7se.onrender.com/register",{
           method:"POST",
           headers:{"Content-type":"application/json"},
           body:JSON.stringify({name: username,EmailID:email,pass:password})
         })
         const data =await response.json()
-        console.log(data);
+        onLoadClose();
         if ( response.status==201){
           const userData={email,username};
           onLogin(userData);onClose()
@@ -210,4 +213,11 @@ const LoginModal = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,isLoad
   );
 };
 
+const LoginModal=({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,isLoading,onLoadClose})=>{
+    return(
+      <ToastProvider>
+        <LoginModalAuto isOpen={isOpen} onClose={onClose} isSignUpOpen={isSignUpOpen} setForgotPass={setForgotPass} onLogin={onLogin} isLoading={isLoading} onLoadClose={onLoadClose}/>
+      </ToastProvider>
+    )
+}
 export default LoginModal;

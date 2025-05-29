@@ -5,6 +5,8 @@ import QuestionPapersInterface from './components/QuestionPaper';
 import LoginModal from './components/Login';
 import ForgotPassword from './components/ForgotPass';
 import Loading from './components/Loading';
+import ToastContainer from './components/ToastContainer';
+import { ToastProvider } from './components/ToastContext';
 
 function App() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);

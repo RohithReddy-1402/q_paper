@@ -84,7 +84,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
                 <button 
                   onClick={onLogout}
                   className="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow-md hover:shadow-lg 
-                  transition-all duration-300 flex items-center space-x-2 hover:bg-indigo-700"
+                  transition-all duration-300 flex items-center space-x-2 hover:bg-indigo-700 cursor-pointer"
                 >
                   <LogOut className="w-4 h-4" />
                   <span className="font-medium">Logout</span>
