@@ -35,42 +35,47 @@ const LoginModalAuto = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,is
   //   console.log("✅ onLogin is being called with:");
   //   onClose();
   // };
-  const handleLoginSubmit = async (e) => {
-    e.preventDefault();
-  
-    try {
-       isLoading();
-      const response = await fetch("https://back-u7se.onrender.com/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ EmailID: email, pass: password }),
-      });
-     
-      if (!response.ok) {
-        throw new Error(`Login failed: ${response.status}`);
-      }
-  
-      const data = await response.json();
-      onLoadClose();
-      if (data.user) {
-        const email = data.user.EmailID;
-        const name = data.user.username;
-  
-        if (response.status === 208) {
-          addToast("Login succesful ","success")
-        const userData = { email, name };
-          onLogin(userData); 
-          onClose()
-        }
-      } else {
-        console.log("Invalid response from server");
-        addToast("Error Occured! Please Try Again","warning")
-      }
-    } catch (error) {onLoadClose()
-      addToast("Error Occured ! Please Try Again","error")
+const handleLoginSubmit = async (e) => {
+  e.preventDefault();
 
+  try {
+    isLoading();
+
+    const response = await fetch("https://back-u7se.onrender.com/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ EmailID: email, pass: password }),
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      if (response.status === 401) {
+        addToast("User Not Found", "error");
+        setEmail("");
+        setPassword("");
+      } else if(response.status==402){addToast("Incorrect Password","warning")} else  {
+        addToast("Error Occurred! Please Try Again", "error");
+      }
+      onLoadClose();
+      return;
     }
-  };
+    onLoadClose();
+    if (data.user) {
+      addToast("Login successful", "success");
+      const userData = { email: data.user.EmailID, name: data.user.username };
+      onLogin(userData);
+      onClose();
+    } else {
+      addToast("Invalid response from server", "warning");
+    }
+  } catch (error) {
+    onLoadClose();
+    addToast("Network error or server down", "error");
+    console.error(error);
+  }
+};
+
   
   const handleSignUpSubmit =async (e)=>{
       e.preventDefault()
@@ -87,6 +92,7 @@ const LoginModalAuto = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,is
           const userData={email,username};
           onLogin(userData);onClose()
         }
+        
         
       }
       catch{
