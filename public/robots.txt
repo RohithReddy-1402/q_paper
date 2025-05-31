@@ -1,4 +1,3 @@
 User-agent: *
 Disallow:
-
-Sitemap: https://qpaper-five.vercel.app/sitemap.xml
+https://qpaper-five.vercel.app/sitemap-1.xml
