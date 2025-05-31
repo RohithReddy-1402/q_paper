@@ -99,9 +99,9 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
     try {
 
       window.google.accounts.id.cancel();
-      if (window.google && window.google.accounts.id) {
-        window.google.accounts.id.prompt();
-      }
+
+      window.google.accounts.id.prompt();
+
     }
     catch (err) {
       throw err;
