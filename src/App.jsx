@@ -7,6 +7,7 @@ import ForgotPassword from './components/ForgotPass';
 import Loading from './components/Loading';
 import ToastContainer from './components/ToastContainer';
 import { ToastProvider, useToast } from "./components/ToastContext"
+import { Helmet } from 'react-helmet';
 function App_main() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -43,7 +44,7 @@ function App_main() {
   };
 
   const handleLogout = () => {
-    addToast("Logout Successful","success")
+    addToast("Logout Successful", "success")
     setUser(null);
     setIsLoggedIn(false);
   };
@@ -51,7 +52,9 @@ function App_main() {
   useEffect(() => {
   }, [isLoginModalOpen]);
 
+
   return (
+
     <ToastProvider>
       <BrowserRouter>
         <Routes>
@@ -80,9 +83,15 @@ function App_main() {
 
   );
 }
-const App=()=>{
-  return(
+const App = () => {
+
+  return (
     <ToastProvider>
+      <Helmet>
+        <title>QPaper - Practice & Prepare</title>
+        <meta name="description" content="Get past papers, prepare smartly and boost your scores. QPaper helps students ace exams easily." />
+        <meta name="keywords" content="QPaper, past papers, exam prep, CBSE, SSC, study materials, students" />
+      </Helmet>
       <App_main />
     </ToastProvider>
   )
