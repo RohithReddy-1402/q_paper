@@ -87,7 +87,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
   }, []);
   const handleCredentialResponse = (response) => {
     const user = jwtDecode(response.credential);
-    console.log('✅ User Info:', user);
+    console.log(user.email);
     localStorage.setItem('user', JSON.stringify(user));
   };
   const handleGoogleLogin = () => {
