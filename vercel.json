@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
+      "source": "/sitemap-1.xml",
+      "destination": "/sitemap-1.xml"
     },
     {
       "source": "/((?!sitemap\\.xml$).*)",
