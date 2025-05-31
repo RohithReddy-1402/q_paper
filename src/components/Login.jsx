@@ -86,17 +86,25 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
 
   }, []);
   const handleCredentialResponse = (response) => {
+
     const user = jwtDecode(response.credential);
     console.log(user.email);
     localStorage.setItem('user', JSON.stringify(user));
-    const userData={email:user.email,name:user.name};
+    const userData = { email: user.email, name: user.name };
     onLogin(userData);
     onClose();
-    addToast("Login Successful","success")
+    addToast("Login Successful", "success")
   };
   const handleGoogleLogin = () => {
-    if (window.google && window.google.accounts.id) {
-      window.google.accounts.id.prompt();
+    try {
+
+      window.google.accounts.id.cancel();
+      if (window.google && window.google.accounts.id) {
+        window.google.accounts.id.prompt();
+      }
+    }
+    catch (err) {
+      throw err;
     }
   }
   const handleSignUpSubmit = async (e) => {
