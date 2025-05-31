@@ -6,46 +6,44 @@ import LoginModal from './components/Login';
 import ForgotPassword from './components/ForgotPass';
 import Loading from './components/Loading';
 import ToastContainer from './components/ToastContainer';
-import { ToastProvider } from './components/ToastContext';
-
-function App() {
+import { ToastProvider, useToast } from "./components/ToastContext"
+function App_main() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
-  const [isSignUpPageOpen,setSignUpPageOpen]=useState(false);
-  const [isForgotPass,setIsForgotPass]=useState(false);
-  const [isLoad,setIsLoad]=useState(false);
-
+  const [isSignUpPageOpen, setSignUpPageOpen] = useState(false);
+  const [isForgotPass, setIsForgotPass] = useState(false);
+  const [isLoad, setIsLoad] = useState(false);
+  const { addToast } = useToast();
   const handleLoginPage = () => {
-    
+
     setSignUpPageOpen(false);
     setLoginModalOpen(true);
   };
-  const handleSignUpPage=()=>{
-    console.log("sent")
-    
-      setSignUpPageOpen(true);
-      setLoginModalOpen(true);
+  const handleSignUpPage = () => {
+    setSignUpPageOpen(true);
+    setLoginModalOpen(true);
 
-    
+
   }
-  const handleLoading=()=>{
+  const handleLoading = () => {
     setIsLoad(true);
   }
-  const handleForgotPass=()=>{
+  const handleForgotPass = () => {
     setLoginModalOpen(false);
     setSignUpPageOpen(false);
     setIsForgotPass(true);
-    
+
   }
   const handleLogin = (userData) => {
     setUser(userData);
     setIsLoggedIn(true);
-    
+
     setLoginModalOpen(false);
   };
 
   const handleLogout = () => {
+    addToast("Logout Successful","success")
     setUser(null);
     setIsLoggedIn(false);
   };
@@ -54,30 +52,39 @@ function App() {
   }, [isLoginModalOpen]);
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route 
-          path="/" 
-          element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} onLogout={handleLogout} onSignUpClick={handleSignUpPage}/>} 
+    <ToastProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} onLogout={handleLogout} onSignUpClick={handleSignUpPage} />}
+          />
+          <Route
+            path="/home"
+            element={<QuestionPapersInterface isLoggedIn={isLoggedIn} user={user} onLoginClick={handleLoginPage} onLogout={handleLogout} />}
+          />
+        </Routes>
+        <Loading isLoadingOpen={isLoad} />
+        <LoginModal
+          isOpen={isLoginModalOpen}
+          onClose={() => setLoginModalOpen(false)}
+          onLogin={handleLogin}
+          isSignUpOpen={isSignUpPageOpen}
+          setForgotPass={handleForgotPass}
+          onLoadClose={() => setIsLoad(false)}
+          isLoading={handleLoading}
         />
-        <Route 
-          path="/home" 
-          element={<QuestionPapersInterface isLoggedIn={isLoggedIn} user={user} onLoginClick={handleLoginPage} onLogout={handleLogout} />} 
-        />
-      </Routes>
-      <Loading isLoadingOpen={isLoad} />
-      <LoginModal 
-        isOpen={isLoginModalOpen} 
-        onClose={() => setLoginModalOpen(false)}
-        onLogin={handleLogin}
-        isSignUpOpen={isSignUpPageOpen}
-        setForgotPass={handleForgotPass}
-        onLoadClose={()=>setIsLoad(false)}
-        isLoading={handleLoading}
-      />
-      <ForgotPassword isForgotOpen={isForgotPass} onForgotClose={()=>setIsForgotPass(false)} onLoadClose={()=>setIsLoad(false)} isLoading={handleLoading}/>
-    </BrowserRouter>
+        <ForgotPassword isForgotOpen={isForgotPass} onForgotClose={() => setIsForgotPass(false)} onLoadClose={() => setIsLoad(false)} isLoading={handleLoading} />
+      </BrowserRouter>
+    </ToastProvider>
+
   );
 }
-
+const App=()=>{
+  return(
+    <ToastProvider>
+      <App_main />
+    </ToastProvider>
+  )
+}
 export default App;
