@@ -89,6 +89,10 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
     const user = jwtDecode(response.credential);
     console.log(user.email);
     localStorage.setItem('user', JSON.stringify(user));
+    const userData={email:user.email,name:user.name};
+    onLogin(userData);
+    onClose();
+    addToast("Login Successful","success")
   };
   const handleGoogleLogin = () => {
     if (window.google && window.google.accounts.id) {
