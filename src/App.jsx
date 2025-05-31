@@ -88,7 +88,7 @@ const App = () => {
   return (
     <ToastProvider>
       <Helmet>
-        <title>QPaper - Practice & Prepare</title>
+        <title>NIT KKR Previous Papers</title>
         <meta name="description" content="Access Previous Papers of NIT Kurukshetra , to Work and acheive the best Grade in your exams ." />
         <meta name="keywords" content="QPaper, past papers, exam prep, CBSE, SSC, study materials, students,NIT KKR , NIT Kurukshetra, NIT previous papers" />
       </Helmet>
