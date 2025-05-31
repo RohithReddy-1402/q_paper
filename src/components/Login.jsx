@@ -1,19 +1,21 @@
-import { em } from 'framer-motion/client';
+import { em, i } from 'framer-motion/client';
 import React, { useState, useEffect } from 'react';
-import {ToastProvider,useToast} from "./ToastContext";
-const LoginModalAuto = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,isLoading,onLoadClose}) => {
+import { ToastProvider, useToast } from "./ToastContext";
+import { GoogleLogin } from '@react-oauth/google';
+import { jwtDecode } from 'jwt-decode';
+const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass, isLoading, onLoadClose }) => {
   const [isLogin, setIsLogin] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [username, setUserName] = useState('');
-  const {addToast}=useToast();
+  const { addToast } = useToast();
   useEffect(() => {
     const handleKeyDown = (event) => {
       if (event.key === 'Escape') {
         onClose();
       }
     };
-    
+
     if (isOpen) {
       document.addEventListener('keydown', handleKeyDown);
     } else {
@@ -35,81 +37,99 @@ const LoginModalAuto = ({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,is
   //   console.log("✅ onLogin is being called with:");
   //   onClose();
   // };
-const handleLoginSubmit = async (e) => {
-  e.preventDefault();
+  const handleLoginSubmit = async (e) => {
+    e.preventDefault();
 
-  try {
-    isLoading();
+    try {
+      isLoading();
 
-    const response = await fetch("https://back-u7se.onrender.com/login", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ EmailID: email, pass: password }),
-    });
+      const response = await fetch("https://back-u7se.onrender.com/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ EmailID: email, pass: password }),
+      });
 
-    const data = await response.json();
+      const data = await response.json();
 
-    if (!response.ok) {
-      if (response.status === 401) {
-        addToast("User Not Found", "error");
-        setEmail("");
-        setPassword("");
-      } else if(response.status==402){addToast("Incorrect Password","warning")} else  {
-        addToast("Error Occurred! Please Try Again", "error");
+      if (!response.ok) {
+        if (response.status === 401) {
+          addToast("User Not Found", "error");
+          setEmail("");
+          setPassword("");
+        } else if (response.status == 402) { addToast("Incorrect Password", "warning") } else {
+          addToast("Error Occurred! Please Try Again", "error");
+        }
+        onLoadClose();
+        return;
       }
       onLoadClose();
-      return;
+      if (data.user) {
+        addToast("Login successful", "success");
+        const userData = { email: data.user.EmailID, name: data.user.username };
+        onLogin(userData);
+        onClose();
+      } else {
+        addToast("Invalid response from server", "warning");
+      }
+    } catch (error) {
+      onLoadClose();
+      addToast("Network error or server down", "error");
+      console.error(error);
     }
-    onLoadClose();
-    if (data.user) {
-      addToast("Login successful", "success");
-      const userData = { email: data.user.EmailID, name: data.user.username };
-      onLogin(userData);
-      onClose();
-    } else {
-      addToast("Invalid response from server", "warning");
-    }
-  } catch (error) {
-    onLoadClose();
-    addToast("Network error or server down", "error");
-    console.error(error);
-  }
-};
+  };
 
-  
-  const handleSignUpSubmit =async (e)=>{
-      e.preventDefault()
-      try{
-        isLoading();
-        const response = await fetch("https://back-u7se.onrender.com/register",{
-          method:"POST",
-          headers:{"Content-type":"application/json"},
-          body:JSON.stringify({name: username,EmailID:email,pass:password})
-        })
-        const data =await response.json()
-        onLoadClose();
-        if ( response.status==201){
-          addToast("Account Created Successfully","success");
-          const userData={email,username};
-          onLogin(userData);onClose()
-        }
-        
-        
+  useEffect(() => {
+    window.google?.accounts.id.initialize({
+      client_id: '339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com',
+      callback: handleCredentialResponse,
+    });
+    window.google?.accounts.id.renderButton(
+      document.getElementById('g-btn'),
+      { theme: 'outline', size: 'large' }
+    );
+
+  }, []);
+  const handleCredentialResponse = (response) => {
+    const user = jwtDecode(response.credential);
+    console.log('✅ User Info:', user);
+    localStorage.setItem('user', JSON.stringify(user));
+  };
+  const handleGoogleLogin = () => {
+    window.google.accounts.id.prompt();
+  }
+  const handleSignUpSubmit = async (e) => {
+    e.preventDefault()
+    try {
+      isLoading();
+      const response = await fetch("https://back-u7se.onrender.com/register", {
+        method: "POST",
+        headers: { "Content-type": "application/json" },
+        body: JSON.stringify({ name: username, EmailID: email, pass: password })
+      })
+      const data = await response.json()
+      onLoadClose();
+      if (response.status == 201) {
+        addToast("Account Created Successfully", "success");
+        const userData = { email, username };
+        onLogin(userData); onClose()
       }
-      catch{
-          console.log("Error occured while reaching the endpoint")
-      }
+
+
+    }
+    catch {
+      console.log("Error occured while reaching the endpoint")
+    }
   }
 
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto">
-      <div 
-        className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" 
+    <div  className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto">
+      <div id='g-btn'
+        className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
         onClick={onClose}
       />
-      
+
       <div className="relative bg-white w-[80%] rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:max-w-sm sm:w-full  sm:p-6">
         <div>
           <div className="flex justify-between items-center mb-5">
@@ -127,8 +147,8 @@ const handleLoginSubmit = async (e) => {
               </svg>
             </button>
           </div>
-          
-          <form className="space-y-4" onSubmit={isLogin?handleLoginSubmit:handleSignUpSubmit}>
+
+          <form className="space-y-4" onSubmit={isLogin ? handleLoginSubmit : handleSignUpSubmit}>
             {!isLogin && (
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">
@@ -182,7 +202,7 @@ const handleLoginSubmit = async (e) => {
               <div className='flex flex-row-reverse pr-4 cursor-pointer hover:text-blue-600'>
                 <a onClick={setForgotPass}>Forgot Password ?</a>
               </div>
-            } 
+            }
             <div>
               <button
                 type="submit"
@@ -207,7 +227,7 @@ const handleLoginSubmit = async (e) => {
           </div>
 
           <div className="mt-4">
-            <button className="w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400">
+            <button className="w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400" onClick={handleGoogleLogin}>
               Sign in with Google
             </button>
             <button className="w-full flex justify-center py-2 px-4 mt-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400">
@@ -220,11 +240,11 @@ const handleLoginSubmit = async (e) => {
   );
 };
 
-const LoginModal=({ isOpen, onClose ,onLogin,isSignUpOpen,setForgotPass,isLoading,onLoadClose})=>{
-    return(
-      <ToastProvider>
-        <LoginModalAuto isOpen={isOpen} onClose={onClose} isSignUpOpen={isSignUpOpen} setForgotPass={setForgotPass} onLogin={onLogin} isLoading={isLoading} onLoadClose={onLoadClose}/>
-      </ToastProvider>
-    )
+const LoginModal = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass, isLoading, onLoadClose }) => {
+  return (
+    <ToastProvider>
+      <LoginModalAuto isOpen={isOpen} onClose={onClose} isSignUpOpen={isSignUpOpen} setForgotPass={setForgotPass} onLogin={onLogin} isLoading={isLoading} onLoadClose={onLoadClose} />
+    </ToastProvider>
+  )
 }
 export default LoginModal;
