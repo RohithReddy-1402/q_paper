@@ -89,6 +89,7 @@ const handleLoginSubmit = async (e) => {
         const data =await response.json()
         onLoadClose();
         if ( response.status==201){
+          addToast("Account Created Successfully","success");
           const userData={email,username};
           onLogin(userData);onClose()
         }

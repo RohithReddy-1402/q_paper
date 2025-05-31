@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './Modal.css';
-
+import { useToast } from './ToastContext';
 function SignupModal({ onClose }) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
-  
+  const {addToast} =useToast();
   const handleSubmit = (e) => {
     e.preventDefault();
     if (password !== confirmPassword) {
