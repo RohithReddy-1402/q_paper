@@ -91,7 +91,9 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
     localStorage.setItem('user', JSON.stringify(user));
   };
   const handleGoogleLogin = () => {
-    window.google.accounts.id.prompt();
+    if (window.google && window.google.accounts.id) {
+      window.google.accounts.id.prompt();
+    }
   }
   const handleSignUpSubmit = async (e) => {
     e.preventDefault()
@@ -120,7 +122,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
   if (!isOpen) return null;
 
   return (
-    <div  className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto">
+    <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto">
       <div id='g-btn'
         className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
         onClick={onClose}
