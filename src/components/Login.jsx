@@ -83,10 +83,6 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       client_id: '339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com',
       callback: handleCredentialResponse,
     });
-    window.google?.accounts.id.renderButton(
-      document.getElementById('g-btn'),
-      { theme: 'outline', size: 'large' }
-    );
 
   }, []);
   const handleCredentialResponse = (response) => {
