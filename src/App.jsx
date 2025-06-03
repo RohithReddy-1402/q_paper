@@ -61,7 +61,7 @@ function App_main() {
         <Routes>
           <Route
             path="/"
-            element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} onLogout={handleLogout} onSignUpClick={handleSignUpPage} />}
+            element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} user={user} onLogout={handleLogout} onSignUpClick={handleSignUpPage} />}
           />
           <Route
             path="/home"
@@ -78,7 +78,7 @@ function App_main() {
           onLoadClose={() => setIsLoad(false)}
           isLoading={handleLoading}
         />
-        <ForgotPassword isForgotOpen={isForgotPass} onForgotClose={() => setIsForgotPass(false)} onLoadClose={() => setIsLoad(false)} isLoading={handleLoading} />
+        <ForgotPassword isForgotOpen={isForgotPass} onForgotClose={() => setIsForgotPass(false)} onLoadClose={() => setIsLoad(false)} isLoading={handleLoading} onLogin={handleLogin} />
       </BrowserRouter>
     </ToastProvider>
 

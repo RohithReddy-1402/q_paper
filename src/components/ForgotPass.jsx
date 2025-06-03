@@ -1,7 +1,7 @@
 import { em } from "framer-motion/client";
 import { useEffect, useRef, useState } from "react";
-
-const ForgotPassword = ({ isForgotOpen, onForgotClose ,isLoading,onLoadClose}) => {
+import { useToast } from "./ToastContext";
+const ForgotPassword = ({ isForgotOpen, onForgotClose ,isLoading,onLoadClose,onLogin,onClose}) => {
   const containerRef = useRef(null);
   const [email, setEmail] = useState("");
   const [otpInput, setOtpInput] = useState(false);
@@ -10,6 +10,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose ,isLoading,onLoadClose}) =
   const [emailInput,setEmailInput]=useState(true);
   const [password,setPassword]=useState("");
   const [confpass,setConfPass]=useState("");
+  const {addToast}=useToast();
   useEffect(() => {
     if (!isForgotOpen) return;
 
@@ -98,9 +99,14 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose ,isLoading,onLoadClose}) =
         
       })
       const data=response.json();
+      console.log(data);
       onLoadClose();
       if (response.status==200){
-        alert("password changed successfully !");
+        addToast("password changed successfully","success");
+        onLogin({name:data.name,email:data.EmailID});
+        onForgotClose();
+        console.log({name:data.name,email:data.EmailID})
+        
       }
       else{
         alert('error occured try again'); 
