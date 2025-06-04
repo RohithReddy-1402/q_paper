@@ -38,7 +38,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
           }}>
         </div>
       </div>
-      <div className={`absolute inset-0 z-50 bg-indigo-600 flex items-center justify-center transition-opacity duration-1000 ease-in-out ${showWelcome ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+      <div className={`absolute inset-0 z-50  bg-indigo-600 flex items-center justify-center transition-opacity duration-1000 ease-in-out ${showWelcome ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
         <div className="text-white text-4xl font-bold flex items-center">
           <span className="mr-3">StudyResource</span>
           <Book className="w-10 h-10" />
@@ -49,7 +49,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
           <div className="flex items-center space-x-2">
             <Book className="w-8 h-8 text-indigo-600" />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              StudyResource
+              StudyResource 
             </h1>
           </div>
           
