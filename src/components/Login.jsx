@@ -78,35 +78,35 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
     }
   };
 
-  // useEffect(() => {
-  //   window.google?.accounts.id.initialize({
-  //     client_id: '339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com',
-  //     callback: handleCredentialResponse,
-  //   });
+  useEffect(() => {
+    window.google?.accounts.id.initialize({
+      client_id: '339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com',
+      callback: handleCredentialResponse,
+    });
 
-  // }, []);
-  // const handleCredentialResponse = (response) => {
+  }, []);
+  const handleCredentialResponse = (response) => {
 
-  //   const user = jwtDecode(response.credential);
-  //   console.log(user.email);
-  //   localStorage.setItem('user', JSON.stringify(user));
-  //   const userData = { email: user.email, name: user.name };
-  //   onLogin(userData);
-  //   onClose();
-  //   addToast("Login Successful", "success")
-  // };
-  // const handleGoogleLogin = () => {
-  //   try {
+    const user = jwtDecode(response.credential);
+    console.log(user.email);
+    localStorage.setItem('user', JSON.stringify(user));
+    const userData = { email: user.email, name: user.name };
+    onLogin(userData);
+    onClose();
+    addToast("Login Successful", "success")
+  };
+  const handleGoogleLogin = () => {
+    try {
 
-  //     window.google.accounts.id.cancel();
+      window.google.accounts.id.cancel();
 
-  //     window.google.accounts.id.prompt();
+      window.google.accounts.id.prompt();
 
-  //   }
-  //   catch (err) {
-  //     throw err;
-  //   }
-  // }
+    }
+    catch (err) {
+      throw err;
+    }
+  }
   const handleSignUpSubmit = async (e) => {
     e.preventDefault()
     try {
@@ -138,7 +138,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
     document.body.appendChild(script);
   }, []);
 
-  const handleGoogleLogin = () => {
+  const handleLogin = () => {
     google.accounts.id.initialize({
       client_id: "339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com", 
       callback: handleCredentialResponse,
@@ -147,10 +147,10 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
     google.accounts.id.prompt();
   };
 
-  const handleCredentialResponse = (response) => {
-    const user = jwt_decode(response.credential);
-    console.log("Google user:", user);
-  };
+  // const handleCredentialResponse = (response) => {
+  //   const user = jwt_decode(response.credential);
+  //   console.log("Google user:", user);
+  // };
   if (!isOpen) return null;
 
   return (
