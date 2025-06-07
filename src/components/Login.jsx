@@ -77,14 +77,21 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       console.error(error);
     }
   };
-
   useEffect(() => {
-    window.google?.accounts.id.initialize({
-      client_id: '339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com',
-      callback: handleCredentialResponse,
-    });
-
+    const script = document.createElement("script");
+    script.src = "https://accounts.google.com/gsi/client";
+    script.async = true;
+    script.defer = true;
+    script.onload = () => {
+      google.accounts.id.initialize({
+        client_id: "339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com",
+        callback: handleCredentialResponse,
+      });
+      googleClientReady = true;
+    };
+    document.body.appendChild(script);
   }, []);
+ 
   const handleCredentialResponse = (response) => {
 
     const user = jwtDecode(response.credential);
@@ -130,7 +137,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       console.log("Error occured while reaching the endpoint")
     }
   }
-   useEffect(() => {
+  useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://accounts.google.com/gsi/client";
     script.async = true;
@@ -140,7 +147,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
 
   const handleLogin = () => {
     google.accounts.id.initialize({
-      client_id: "339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com", 
+      client_id: "339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com",
       callback: handleCredentialResponse,
     });
 
