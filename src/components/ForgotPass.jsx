@@ -63,7 +63,11 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
   };
   const handleKeyDown = (e, index) => {
     const key = e.key;
-
+    if (key === "Enter" && values.every((val) => val !== "")) {
+      e.preventDefault();
+      verifyOTP();
+      return;
+    }
     if (key === "Backspace" || key === "Delete") {
       if (values[index] === "") {
         const prevInput = inputsRef.current[index - 1];
@@ -165,7 +169,6 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
     else if (response.status === 200) {
       setEmailInput(false);
       setOtpInput(true);
-      
     }
   }
   if (!isForgotOpen) return null;
@@ -202,6 +205,13 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                onKeyDown={(e)=>{
+                  if (e.key=="Enter" && email.trim() !== "") {
+                    e.preventDefault();
+                    sendOtp();
+                    return;
+                  }
+                }}
                 placeholder="Enter your email"
               />
             </div>
