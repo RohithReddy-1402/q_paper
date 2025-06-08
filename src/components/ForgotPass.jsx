@@ -107,7 +107,8 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
           onForgotClose();
           setPassInput(false)
           setOtpInput(false);
-          setEmailInput(false);
+          setEmailInput(true);
+          onForgotClose();
           console.log({ name: data.name, email: data.EmailID })
 
         }
@@ -138,6 +139,8 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
       if (response.status == 200) {
         setOtpInput(false);
         setPassInput(true);
+        setPassword("");
+        setConfPass("");
       }
     } catch (err) {
 
@@ -155,11 +158,14 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
     if (response.status === 208) {
       setEmailInput(false);
       setPassInput(true);
+      setPassword("");
+      setConfPass("");
 
     }
     else if (response.status === 200) {
       setEmailInput(false);
       setOtpInput(true);
+      
     }
   }
   if (!isForgotOpen) return null;
