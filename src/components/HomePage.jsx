@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) => {
   const [activeHover, setActiveHover] = useState(null);
   const [showWelcome, setShowWelcome] = useState(true);
-   const nav=useNavigate();
+  const nav = useNavigate();
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowWelcome(false);
@@ -23,15 +23,20 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
       console.log('Opening Contribution Section');
     }
   };
+  const handleiconclick = () => {
+    const dropdown = document.getElementById("userDropdown");
+    dropdown.classList.toggle("hidden");
+
+  }
 
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50">
-      
+
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-10 w-64 h-64 bg-blue-200/20 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 right-20 w-80 h-80 bg-purple-200/30 rounded-full blur-3xl"></div>
         <div className="absolute top-1/2 left-1/3 w-40 h-40 bg-indigo-300/20 rounded-full blur-2xl"></div>
-        <div className="absolute inset-0 opacity-10" 
+        <div className="absolute inset-0 opacity-10"
           style={{
             backgroundImage: 'linear-gradient(to right, #6366f1 1px, transparent 1px), linear-gradient(to bottom, #6366f1 1px, transparent 1px)',
             backgroundSize: '40px 40px'
@@ -49,14 +54,14 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
           <div className="flex items-center space-x-2">
             <Book className="w-8 h-8 text-indigo-600" />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              StudyResource 
+              StudyResource
             </h1>
           </div>
-          
+
           <div className="flex items-center space-x-4">
             {!isLoggedIn ? (
               <>
-                <button 
+                <button
                   onClick={onLoginClick}
                   className="bg-white/80 ml-8 text-indigo-600 border border-indigo-100 px-5 py-2 rounded-lg shadow-sm hover:shadow-md 
                   transition-all duration-300 flex items-center space-x-2 hover:bg-indigo-50"
@@ -64,7 +69,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
                   <KeyRound className="w-4 h-4" />
                   <span className="font-medium">Login</span>
                 </button>
-                <button 
+                <button
                   onClick={onSignUpClick}
                   className="bg-indigo-600 text-white px-5 py-2 hidden rounded-lg shadow-md hover:shadow-lg 
                   transition-all duration-300 md:flex items-center space-x-2 hover:bg-indigo-700"
@@ -75,20 +80,47 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
               </>
             ) : (
               <div className="flex items-center space-x-4">
-                <div className="bg-white/80 px-4 py-2 rounded-lg shadow-sm flex items-center space-x-2">
-                  <User className="w-4 h-4 text-indigo-600" />
-                  <span className="font-medium text-gray-700">
-                    {user?.name || 'User'}
-                  </span>
+                <div className=" px-4 py-2 rounded-lg inline-block items-center space-x-2">
+                  <div class="flex items-center">
+                    <div class="relative">
+                      <div id="avatarButton" class="relative w-10 h-10 overflow-hidden bg-gray-100 shadow-pink-200 rounded-full dark:bg-gray-600 cursor-pointer" data-dropdown-toggle="userDropdown" onClick={handleiconclick}>
+                        <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                        </svg>
+                      </div>
+
+                      <div id="userDropdown" class="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
+                        <div class="px-4 py-3  text-sm text-gray-900 dark:text-white">
+                          <div>{user.name}</div>
+                          <div class="font-medium truncate pt-2">{user.email}</div>
+                        </div>
+                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
+                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
+                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a></li>
+                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a></li>
+                        </ul>
+                        <div class="py-1">
+                          <a href="#" onClick={onLogout} class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="font-medium dark:text-black ml-4">
+                      <div>{user.name}</div>
+                      <div class="text-sm text-gray-500 dark:text-gray-400">{user.joindate || null}</div>
+                    </div>
+                  </div>
+
+
                 </div>
-                <button 
+                {/* <button
                   onClick={onLogout}
                   className="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow-md hover:shadow-lg 
                   transition-all duration-300 flex items-center space-x-2 hover:bg-indigo-700 cursor-pointer"
                 >
                   <LogOut className="w-4 h-4" />
                   <span className="font-medium">Logout</span>
-                </button>
+                </button> */}
               </div>
             )}
           </div>
@@ -103,9 +135,9 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
             <p className="text-gray-600 text-lg mb-8">
               Access previous question papers and contribute to help fellow students excel in their academic journey.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <button 
+              <button
                 onClick={handleQuestionPapers}
                 onMouseEnter={() => setActiveHover('papers')}
                 onMouseLeave={() => setActiveHover(null)}
@@ -120,8 +152,8 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
                 <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                 {!isLoggedIn && <Lock className="absolute top-2 right-2 w-4 h-4 text-white/70" />}
               </button>
-              
-              <button 
+
+              <button
                 onClick={handleContribute}
                 onMouseEnter={() => setActiveHover('contribute')}
                 onMouseLeave={() => setActiveHover(null)}
@@ -138,7 +170,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
               </button>
             </div>
           </div>
-          
+
           <div className="grid grid-cols-2 gap-6 max-w-lg mt-12">
             <div className="bg-white/80 backdrop-blur-sm p-5 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="flex items-center mb-2">
@@ -149,7 +181,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
               </div>
               <p className="text-gray-600 font-bold">Question Papers</p>
             </div>
-            
+
             <div className="bg-white/80 backdrop-blur-sm p-5 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="flex items-center mb-2">
                 <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-3">
@@ -161,40 +193,40 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
             </div>
           </div>
         </div>
-        
+
         <div className="w-full lg:w-1/2 flex justify-center items-center">
           <div className="relative max-w-md w-full transition-all duration-500 hover:scale-105 transform-gpu">
-           
+
             <div className="flex flex-col items-center justify-center h-full relative z-10">
-                <div className="bg-white/20 backdrop-blur-sm rounded-xl p-8 mb-6 transform rotate-3 shadow-lg border border-white/30">
-                  <BookOpen className="w-20 h-20 text-black mb-2" />
+              <div className="bg-white/20 backdrop-blur-sm rounded-xl p-8 mb-6 transform rotate-3 shadow-lg border border-white/30">
+                <BookOpen className="w-20 h-20 text-black mb-2" />
+              </div>
+              <div className="text-center">
+                <h3 className="text-2xl font-bold text-black mb-3">Past Question Papers</h3>
+                <p className="text-black/90 mb-6">Prepare better with  previous exam papers</p>
+                <div className="flex justify-center space-x-2">
+                  <div className="w-3 h-3 rounded-full bg-white/70"></div>
+                  <div className="w-3 h-3 rounded-full bg-white/40"></div>
+                  <div className="w-3 h-3 rounded-full bg-white/40"></div>
                 </div>
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-black mb-3">Past Question Papers</h3>
-                  <p className="text-black/90 mb-6">Prepare better with  previous exam papers</p>
-                  <div className="flex justify-center space-x-2">
-                    <div className="w-3 h-3 rounded-full bg-white/70"></div>
-                    <div className="w-3 h-3 rounded-full bg-white/40"></div>
-                    <div className="w-3 h-3 rounded-full bg-white/40"></div>
-                  </div>
-                </div>
               </div>
-              
-              <div className="absolute top-4 right-4 w-16 h-16 rounded-lg bg-white/10 backdrop-blur-sm flex items-center justify-center">
-                <Book className="w-8 h-8 text-black/70" />
-              </div>
-              <div className="absolute bottom-12 left-4 w-12 h-12 rounded-lg bg-white/10 backdrop-blur-sm flex items-center justify-center">
-                <Upload className="w-6 h-6 text-white/70" />
-              </div>
-              
-              <div className="absolute inset-0 opacity-10" 
-                style={{
-                  backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)',
-                  backgroundSize: '20px 20px'
-                }}>
-              </div>
-            
-          
+            </div>
+
+            <div className="absolute top-4 right-4 w-16 h-16 rounded-lg bg-white/10 backdrop-blur-sm flex items-center justify-center">
+              <Book className="w-8 h-8 text-black/70" />
+            </div>
+            <div className="absolute bottom-12 left-4 w-12 h-12 rounded-lg bg-white/10 backdrop-blur-sm flex items-center justify-center">
+              <Upload className="w-6 h-6 text-white/70" />
+            </div>
+
+            <div className="absolute inset-0 opacity-10"
+              style={{
+                backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)',
+                backgroundSize: '20px 20px'
+              }}>
+            </div>
+
+
             <div className="absolute -top-6 -right-6 w-24 h-24 bg-purple-100 rounded-xl shadow-lg transform rotate-12 -z-10"></div>
             <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-indigo-100 rounded-xl shadow-lg transform -rotate-12 -z-10"></div>
           </div>

@@ -56,6 +56,13 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     link.click();
     document.body.removeChild(link);
   };
+  const handleiconclick = () => {
+    const dropdown = document.getElementById("userDropdown");
+   
+      dropdown.classList.toggle("hidden");
+    
+  };
+
   
   const years = [...new Set(questionPapers.map(paper => paper.year))].sort((a, b) => b - a);
 
@@ -90,15 +97,35 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
             <h1 onClick={handleNav} className="text-3xl font-bold text-gray-900 cursor-pointer">Question Papers</h1>
             
             {isLoggedIn ? (
-              <div className="flex items-center">
-                <span className="mr-4 text-gray-700">Hello, {user?.name || 'User'}</span>
-                <button 
-                  onClick={onLogout}
-                  className="text-gray-600 hover:text-gray-900 cursor-pointer"
-                >
-                  Logout
-                </button>
-              </div>
+              <div class="flex items-center">
+                    <div class="relative">
+                      <div id="avatarButton" class="relative w-10 h-10 overflow-hidden bg-gray-100 shadow-pink-200 rounded-full dark:bg-gray-600 cursor-pointer" data-dropdown-toggle="userDropdown" onClick={handleiconclick}>
+                        <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                        </svg>
+                      </div>
+
+                      <div id="userDropdown" class="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
+                        <div class="px-4 py-3  text-sm text-gray-900 dark:text-white">
+                          <div>{user.name}</div>
+                          <div class="font-medium truncate pt-2">{user.email}</div>
+                        </div>
+                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
+                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
+                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a></li>
+                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a></li>
+                        </ul>
+                        <div class="py-1">
+                          <a href="#" onClick={onLogout} class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="font-medium dark:text-black ml-4">
+                      <div>{user.name}</div>
+                      <div class="text-sm text-gray-500 dark:text-gray-400">{user.joindate || null}</div>
+                    </div>
+                  </div>
             ) : (
               <button 
                 onClick={onLoginClick}
