@@ -92,7 +92,7 @@ const App = () => {
       <Helmet>
         <title>NIT KKR Previous Papers</title>
         <meta name="description" content="Access Previous Papers of NIT Kurukshetra , To Work and acheive the best Grade in your exams ." />
-        <meta name="keywords" content="QPaper, past papers, exam prep, CBSE, SSC, study materials, students,NIT KKR , NIT Kurukshetra, NIT previous papers" />
+        <meta name="keywords" content="QPaper, past papers, exam prep, CBSE, SSC, study materials,students,NIT KKR, NIT Kurukshetra, NIT previous papers,NIT KKR Question Papers, NIT Kurukshetra Question Papers" />
       </Helmet>
       <App_main />
       </GoogleOAuthProvider>
