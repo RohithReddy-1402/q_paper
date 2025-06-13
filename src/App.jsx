@@ -9,6 +9,7 @@ import ToastContainer from './components/ToastContainer';
 import { ToastProvider, useToast } from "./components/ToastContext"
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { Helmet } from 'react-helmet';
+import ContributeModal from './components/ContributeModal'
 function App_main() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -16,6 +17,7 @@ function App_main() {
   const [isSignUpPageOpen, setSignUpPageOpen] = useState(false);
   const [isForgotPass, setIsForgotPass] = useState(false);
   const [isLoad, setIsLoad] = useState(false);
+  const [ContributeModalOpen,setContributeModalOpen]=useState(false);
   const { addToast } = useToast();
   const handleLoginPage = () => {
 
@@ -61,11 +63,15 @@ function App_main() {
         <Routes>
           <Route
             path="/"
-            element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} user={user} onLogout={handleLogout} onSignUpClick={handleSignUpPage} />}
+            element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} user={user} onLogout={handleLogout} onSignUpClick={handleSignUpPage} onContributeClick={() => setContributeModalOpen(true)} />} 
           />
           <Route
-            path="/home"
+            path="/papers"
             element={<QuestionPapersInterface isLoggedIn={isLoggedIn} user={user} onLoginClick={handleLoginPage} onLogout={handleLogout} />}
+          />
+          <Route 
+            path='/contribute'
+            element={<ContributeModal onClose={() => setContributeModalOpen(false)} isContributeOpen={ContributeModalOpen} />}
           />
         </Routes>
         <Loading isLoadingOpen={isLoad} />

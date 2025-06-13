@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Lock, BookOpen, Upload, User, KeyRound, LogOut, Book, Briefcase, ArrowRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) => {
+const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick, onContributeClick }) => {
   const [activeHover, setActiveHover] = useState(null);
   const [showWelcome, setShowWelcome] = useState(true);
   const nav = useNavigate();
@@ -13,13 +13,15 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick }) =
   }, []);
 
   const handleQuestionPapers = () => {
-    nav("/home")
+    nav("/papers")
   };
 
   const handleContribute = () => {
     if (!isLoggedIn) {
       alert('Please log in to Contribute');
     } else {
+      onContributeClick();
+     nav('/contribute')
       console.log('Opening Contribution Section');
     }
   };
