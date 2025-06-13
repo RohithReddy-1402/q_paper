@@ -1,38 +1,46 @@
+import { title } from 'framer-motion/client';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
-  
+
   const [activeTab, setActiveTab] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSemester, setSelectedSemester] = useState('all');
-  const [selectedType,setSelectedType]=useState('all');
+  const [selectedType, setSelectedType] = useState('all');
   const [selectedYear, setSelectedYear] = useState('all');
-  const nav=useNavigate();
+  const nav = useNavigate();
   const questionPapers = [
-    { id: 1, title: 'Enviormental Paper', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem-1' , type:'mid-1', idLink : '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
-    { id: 2, title: 'Physics Midterm Paper', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem-6', type:'mid-2' , idLink :''},
-    { id: 3, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type:'sem',semester: 'sem-3' ,idLink:'' },
-    { id: 4, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem-2' , type:'mid-1',idLink:""},
-    { id: 5, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem-5' , type:'sem',idLink:''},
-    { id: 6, title: 'EG Paper', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem-4', type:'mid-2' ,idLink:''}, 
-    { id: 7, title: 'Maths Paper', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type:'mid-2' ,idLink:'1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW'}, 
-    { id: 8, title: 'Bussiness Paper', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type:'mid-2' ,idLink:'1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS'}, 
-    { id: 9, title: 'Enviormental Paper', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem-1' , type:'mid-1', idLink : '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
-    { id: 10, title: 'Physics Midterm Paper', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem-6', type:'mid-2' , idLink :''},
-    { id: 11, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type:'sem',semester: 'sem-3' ,idLink:'' },
-    { id: 12, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem-2' , type:'mid-1',idLink:""},
-    { id: 13, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem-5' , type:'sem',idLink:''},
-    { id: 14, title: 'EG Paper', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem-4', type:'mid-2' ,idLink:''}, 
-    { id: 15, title: 'Maths Paper', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type:'mid-2' ,idLink:'1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW'}, 
-    { id: 16, title: 'Bussiness Paper', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type:'mid-2' ,idLink:'1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS'}, 
-    
+    { id: 1, title: 'Enviormental ', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem-1', type: 'mid-1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
+    { id: 2, title: 'Physics Midterm ', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem-6', type: 'mid-2', idLink: '' },
+    { id: 3, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type: 'sem', semester: 'sem-3', idLink: '' },
+    { id: 4, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem-2', type: 'mid-1', idLink: "" },
+    { id: 5, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem-5', type: 'sem', idLink: '' },
+    { id: 6, title: 'EG ', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem-4', type: 'mid-2', idLink: '' },
+    { id: 7, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type: 'mid-2', idLink: '1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW' },
+    { id: 8, title: 'Bussiness ', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type: 'mid-2', idLink: '1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS' },
+    { id: 9, title: 'Enviormental ', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem-1', type: 'mid-1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
+    { id: 10, title: 'Physics Midterm ', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem-6', type: 'mid-2', idLink: '' },
+    { id: 11, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type: 'sem', semester: 'sem-3', idLink: '' },
+    { id: 12, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem-2', type: 'mid-1', idLink: "" },
+    { id: 13, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem-5', type: 'sem', idLink: '' },
+    { id: 14, title: 'EG ', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem-4', type: 'mid-2', idLink: '' },
+    { id: 15, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type: 'mid-2', idLink: '1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW' },
+    { id: 16, title: 'Bussiness ', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type: 'mid-2', idLink: '1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS' },
+    { id: 17, title: 'C Programming', subject: 'c programming', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'sem', idLink: '1zpJ3UHMMfBhhyjfcpIAsYZYsQ2BuKf62' },
+    { id: 18, title: 'Economics', subject: 'Economics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'sem', idLink: '1zpL-Dj7bOHhoutB4MNNPD4I6M7txLlbP' },
+    { id: 18, title: 'Physics', subject: 'Physics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'sem', idLink: '1zv5eIfXGu7n7OarOAPwc0iAE-BsuwMlv' },
+
+    { id: 19, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'sem', idLink: '1pBxW7qBa0g4Pab8jZTNnVyakJa81gPwt' },
+    { id: 19, title: 'Enviormental', subject: 'Chemistry', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'sem', idLink: '1pDvilPhUD9jvTxz19yHGSpe2joKKW92H' }
+
+
   ];
-  const handleNav=()=>{
+  const handleNav = () => {
     nav('/')
   }
 
   const handleDownload = (event, fileId) => {
-    event.stopPropagation(); 
+    event.stopPropagation();
     if (!fileId) {
       alert("Download link not available for this paper.");
       return;
@@ -44,7 +52,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     link.click();
     document.body.removeChild(link);
   };
-  
+
   const handleDisplay = (event, fileId) => {
     if (!fileId) {
       alert("Download link not available for this paper.");
@@ -58,30 +66,30 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   };
   const handleiconclick = () => {
     const dropdown = document.getElementById("userDropdown");
-   
-      dropdown.classList.toggle("hidden");
-    
+
+    dropdown.classList.toggle("hidden");
+
   };
 
-  
+
   const years = [...new Set(questionPapers.map(paper => paper.year))].sort((a, b) => b - a);
 
   const filteredPapers = questionPapers.filter(paper => {
-    const matchesSearch = paper.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          paper.subject.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch = paper.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      paper.subject.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesSemester = selectedSemester === 'all' || paper.semester === selectedSemester;
     const matchesYear = selectedYear === 'all' || paper.year === parseInt(selectedYear);
-    const matchesType=selectedType==='all' || paper.type===selectedType;
-    
-    if (activeTab === 'all') return matchesSearch && matchesSemester && matchesYear&&matchesType;
-    if (activeTab === 'recent') return paper.year >= 2023 && matchesSearch && matchesSemester && matchesYear&&matchesType;
-    if (activeTab === 'popular') return paper.downloads > 1000 && matchesSearch && matchesSemester && matchesYear&&matchesType;
-    if (activeTab==='mid-1') return paper.type==='mid-1'&&matchesSearch&&matchesSemester&&matchesYear;
-    if (activeTab==='mid-2') return paper.type==='mid-2'&&matchesSearch&&matchesSemester&&matchesYear;
-    if (activeTab==='sem') return paper.type==='sem'&&matchesSearch&&matchesSemester&&matchesYear;
+    const matchesType = selectedType === 'all' || paper.type === selectedType;
+
+    if (activeTab === 'all') return matchesSearch && matchesSemester && matchesYear && matchesType;
+    if (activeTab === 'recent') return paper.year >= 2023 && matchesSearch && matchesSemester && matchesYear && matchesType;
+    if (activeTab === 'popular') return paper.downloads > 1000 && matchesSearch && matchesSemester && matchesYear && matchesType;
+    if (activeTab === 'mid-1') return paper.type === 'mid-1' && matchesSearch && matchesSemester && matchesYear;
+    if (activeTab === 'mid-2') return paper.type === 'mid-2' && matchesSearch && matchesSemester && matchesYear;
+    if (activeTab === 'sem') return paper.type === 'sem' && matchesSearch && matchesSemester && matchesYear;
 
 
-    return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSearch && matchesSemester && matchesYear&&matchesType;
+    return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSearch && matchesSemester && matchesYear && matchesType;
   });
 
   const subjects = [...new Set(questionPapers.map(paper => paper.subject))];
@@ -93,44 +101,44 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     <div className="min-h-screen bg-gray-50">
       <header className="bg-white shadow">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
-          <div  className="flex justify-between items-center">
+          <div className="flex justify-between items-center">
             <h1 onClick={handleNav} className="text-3xl font-bold text-gray-900 cursor-pointer">Question Papers</h1>
-            
+
             {isLoggedIn ? (
               <div class="flex items-center">
-                    <div class="relative">
-                      <div id="avatarButton" class="relative w-10 h-10 overflow-hidden bg-gray-100 shadow-pink-200 rounded-full dark:bg-gray-600 cursor-pointer" data-dropdown-toggle="userDropdown" onClick={handleiconclick}>
-                        <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20">
-                          <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
-                        </svg>
-                      </div>
+                <div class="relative">
+                  <div id="avatarButton" class="relative w-10 h-10 overflow-hidden bg-gray-100 shadow-pink-200 rounded-full dark:bg-gray-600 cursor-pointer" data-dropdown-toggle="userDropdown" onClick={handleiconclick}>
+                    <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
 
-                      <div id="userDropdown" class="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
-                        <div class="px-4 py-3  text-sm text-gray-900 dark:text-white">
-                          <div>{user.name}</div>
-                          <div class="font-medium truncate pt-2">{user.email}</div>
-                        </div>
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
-                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
-                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a></li>
-                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a></li>
-                        </ul>
-                        <div class="py-1">
-                          <a href="#" onClick={onLogout} class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="font-medium dark:text-black ml-4">
+                  <div id="userDropdown" class="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
+                    <div class="px-4 py-3  text-sm text-gray-900 dark:text-white">
                       <div>{user.name}</div>
-                      <div class="text-sm text-gray-500 dark:text-gray-400">{user.joindate || null}</div>
+                      <div class="font-medium truncate pt-2">{user.email}</div>
+                    </div>
+                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
+                      <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
+                      <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a></li>
+                      <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a></li>
+                    </ul>
+                    <div class="py-1">
+                      <a href="#" onClick={onLogout} class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
                     </div>
                   </div>
+                </div>
+
+                <div class="font-medium dark:text-black ml-4">
+                  <div>{user.name}</div>
+                  <div class="text-sm text-gray-500 dark:text-gray-400">{user.joindate || null}</div>
+                </div>
+              </div>
             ) : (
-              <button 
+              <button
                 onClick={onLoginClick}
                 className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md cursor-pointer"
-              > 
+              >
                 Login
               </button>
             )}
@@ -166,8 +174,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   <option value="all">All Semesters</option>
                   {semesters.map(semester => (
                     <option key={semester} value={semester}>
-                      {semester.includes('sem') ? 
-                        `Semester ${semester.split('-')[1]}` : 
+                      {semester.includes('sem') ?
+                        `Semester ${semester.split('-')[1]}` :
                         `Mid-Term ${semester.split('-')[1]}`
                       }
                     </option>
@@ -221,7 +229,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   </svg>
                 </div>
               </div>
-              
+
             </div>
           </div>
 
@@ -245,7 +253,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
               >
                 Popular
               </button>
-              
+
               {additionalTabs.map(tab => (
                 <button
                   key={tab}
@@ -267,19 +275,19 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
               ))}
             </nav>
           </div>
-        </div>  
-        
+        </div>
+
         {(selectedSemester !== 'all' || selectedYear !== 'all') && (
           <div className="mb-6 flex flex-wrap gap-2">
             <div className="text-sm text-gray-500">Active filters:</div>
             {selectedSemester !== 'all' && (
               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                {selectedSemester.includes('sem') ? 
-                  `Semester ${selectedSemester.split('-')[1]}` : 
+                {selectedSemester.includes('sem') ?
+                  `Semester ${selectedSemester.split('-')[1]}` :
                   `Mid-Term ${selectedSemester.split('-')[1]}`
                 }
-                <button 
-                  onClick={() => setSelectedSemester('all')} 
+                <button
+                  onClick={() => setSelectedSemester('all')}
                   className="ml-1.5 h-4 w-4 rounded-full inline-flex items-center justify-center text-blue-400 hover:bg-blue-200 hover:text-blue-600"
                 >
                   <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -291,8 +299,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
             {selectedYear !== 'all' && (
               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
                 Year: {selectedYear}
-                <button 
-                  onClick={() => setSelectedYear('all')} 
+                <button
+                  onClick={() => setSelectedYear('all')}
                   className="ml-1.5 h-4 w-4 rounded-full inline-flex items-center justify-center text-blue-400 hover:bg-blue-200 hover:text-blue-600"
                 >
                   <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -306,7 +314,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filteredPapers.map((paper) => (
-            <div key={paper.id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e)=>handleDisplay(e,paper.idLink)}>
+            <div key={paper.id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.idLink)}>
               <div className="p-5">
                 <div className="flex items-center ">
                   <div className="flex-shrink-0 bg-blue-500 rounded-md p-3">
@@ -317,13 +325,13 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   <div className="ml-5 w-0 flex-1">
                     <dl>
                       <dt className="text-sm font-medium text-gray-500 truncate">
-                        {paper.subject} ({paper.year}) - {paper.semester.includes('sem') ? 
-                          `Semester ${paper.semester.split('-')[1]}` : 
+                        {paper.subject} ({paper.year}) - {paper.semester.includes('sem') ?
+                          `Semester ${paper.semester.split('-')[1]}` :
                           `Mid-Term ${paper.semester.split('-')[1]}`
                         }
                       </dt>
                       <dd>
-                        <div className="text-lg font-medium text-gray-900">{paper.title}</div>
+                        <div className="text-lg font-medium text-gray-900">{paper.title + " " + paper.type + " Paper"}</div>
                       </dd>
                     </dl>
                   </div>
@@ -337,8 +345,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                     </span>
                     <span className="ml-2 text-gray-500">{paper.downloads} downloads</span>
                   </div>
-                  <button 
-                    onClick={(e) => handleDownload(e,paper.idLink)} 
+                  <button
+                    onClick={(e) => handleDownload(e, paper.idLink)}
                     className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium cursor-pointer rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                   >
                     Download
