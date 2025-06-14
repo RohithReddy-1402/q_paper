@@ -10,6 +10,7 @@ import { ToastProvider, useToast } from "./components/ToastContext"
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { Helmet } from 'react-helmet';
 import ContributeModal from './components/ContributeModal'
+import { Analytics } from "@vercel/analytics/react"
 function App_main() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -72,6 +73,10 @@ function App_main() {
           <Route 
             path='/contribute'
             element={<ContributeModal onClose={() => setContributeModalOpen(false)} isContributeOpen={ContributeModalOpen} />}
+          />
+          <Route
+          path='/analytics' 
+          element={<Analytics />}
           />
         </Routes>
         <Loading isLoadingOpen={isLoad} />
