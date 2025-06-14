@@ -1,16 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Lock, BookOpen, Upload, User, KeyRound, LogOut, Book, Briefcase, ArrowRight } from 'lucide-react';
+import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
 const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick, onContributeClick }) => {
   const [activeHover, setActiveHover] = useState(null);
   const [showWelcome, setShowWelcome] = useState(true);
+
   const nav = useNavigate();
+  const { addToast } = useToast();
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowWelcome(false);
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, []);
+    
+      setShowWelcome(true);
+      const timer = setTimeout(() => {
+        setShowWelcome(false);
+      }, 1000);
+      return () => clearTimeout(timer);
+      
+    
+  }
+    , []);
 
   const handleQuestionPapers = () => {
     nav("/papers")
@@ -18,10 +26,10 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick, onC
 
   const handleContribute = () => {
     if (!isLoggedIn) {
-      alert('Please log in to Contribute');
+      addToast('Please log in to Contribute', 'error');
     } else {
       onContributeClick();
-     nav('/contribute')
+      nav('/contribute')
       console.log('Opening Contribution Section');
     }
   };
