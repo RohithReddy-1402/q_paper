@@ -74,11 +74,9 @@ function App_main() {
             path='/contribute'
             element={<ContributeModal onClose={() => setContributeModalOpen(false)} isContributeOpen={ContributeModalOpen} />}
           />
-          <Route
-          path='/analytics' 
-          element={<Analytics />}
-          />
+          
         </Routes>
+        <Analytics />
         <Loading isLoadingOpen={isLoad} />
         <LoginModal
           isOpen={isLoginModalOpen}
