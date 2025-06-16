@@ -8,7 +8,7 @@ import Loading from './components/Loading';
 import ToastContainer from './components/ToastContainer';
 import { ToastProvider, useToast } from "./components/ToastContext"
 import { GoogleOAuthProvider } from '@react-oauth/google';
-import { Helmet } from 'react-helmet';
+import { HelmetProvider } from 'react-helmet-async';
 import ContributeModal from './components/ContributeModal'
 import { Analytics } from "@vercel/analytics/react"
 function App_main() {
@@ -98,11 +98,11 @@ const App = () => {
   return (
     <ToastProvider>
       <GoogleOAuthProvider clientId='339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com'>
-      <Helmet>
+      <HelmetProvider>
         <title>NIT KKR Previous Papers</title>
         <meta name="description" content="Access Previous Papers of NIT Kurukshetra , To Work and acheive the best Grade in your exams ." />
         <meta name="keywords" content="QPaper, past papers, exam prep, CBSE, SSC, study materials,students,NIT KKR, NIT Kurukshetra, NIT previous papers,NIT KKR Question Papers, NIT Kurukshetra Question Papers" />
-      </Helmet>
+      </HelmetProvider>
       <App_main />
       </GoogleOAuthProvider>
     </ToastProvider>
