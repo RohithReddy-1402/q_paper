@@ -45,6 +45,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
 
       const response = await fetch("https://back-u7se.onrender.com/login", {
         method: "POST",
+        credentials: "include",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ EmailID: email, pass: password }),
       });

@@ -64,7 +64,7 @@ function App_main() {
         <Routes>
           <Route
             path="/"
-            element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} user={user} onLogout={handleLogout} onSignUpClick={handleSignUpPage} onContributeClick={() => setContributeModalOpen(true)} />} 
+            element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} user={user} onLogin={handleLogin} onLogout={handleLogout} onSignUpClick={handleSignUpPage} onContributeClick={() => setContributeModalOpen(true)} />} 
           />
           <Route
             path="/papers"

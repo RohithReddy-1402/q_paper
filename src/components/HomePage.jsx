@@ -2,12 +2,32 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Lock, BookOpen, Upload, User, KeyRound, LogOut, Book, Briefcase, ArrowRight } from 'lucide-react';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
-const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick, onContributeClick }) => {
+const HomePage = ({ isLoggedIn, user, onLoginClick,onLogin, onLogout, onSignUpClick, onContributeClick }) => {
   const [activeHover, setActiveHover] = useState(null);
   const [showWelcome, setShowWelcome] = useState(true);
 
   const nav = useNavigate();
   const { addToast } = useToast();
+useEffect(() => {
+  const checkAuth = async () => {
+    try {
+      const response = await fetch("https://back-u7se.onrender.com/auth/check", {
+        method: "GET",
+        credentials: "include",
+      });
+
+      const data = await response.json();
+      const userData={email:data.user.email,name:data.user.name};
+      onLogin(userData);
+      
+    } catch (error) {
+      throw error;
+    }
+  };
+
+  checkAuth();
+}, []);
+
   useEffect(() => {
     
       setShowWelcome(true);
@@ -35,7 +55,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick, onC
   };
   const handleiconclick = () => {
     const dropdown = document.getElementById("userDropdown");
-    dropdown.classList.toggle("hidden");
+    dropdown.classNameList.toggle("hidden");
 
   }
 
@@ -91,33 +111,33 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogout, onSignUpClick, onC
             ) : (
               <div className="flex items-center space-x-4">
                 <div className=" px-4 py-2 rounded-lg inline-block items-center space-x-2">
-                  <div class="flex items-center">
-                    <div class="relative">
-                      <div id="avatarButton" class="relative w-10 h-10 overflow-hidden bg-gray-100 shadow-pink-200 rounded-full dark:bg-gray-600 cursor-pointer" data-dropdown-toggle="userDropdown" onClick={handleiconclick}>
-                        <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20">
-                          <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+                  <div className="flex items-center">
+                    <div className="relative">
+                      <div id="avatarButton" className="relative w-10 h-10 overflow-hidden bg-gray-100 shadow-pink-200 rounded-full dark:bg-gray-600 cursor-pointer" data-dropdown-toggle="userDropdown" onClick={handleiconclick}>
+                        <svg className="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
                         </svg>
                       </div>
 
-                      <div id="userDropdown" class="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
-                        <div class="px-4 py-3  text-sm text-gray-900 dark:text-white">
+                      <div id="userDropdown" className="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
+                        <div className="px-4 py-3  text-sm text-gray-900 dark:text-white">
                           <div>{user.name}</div>
-                          <div class="font-medium truncate pt-2">{user.email}</div>
+                          <div className="font-medium truncate pt-2">{user.email}</div>
                         </div>
-                        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
-                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
-                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a></li>
-                          <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a></li>
+                        <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
+                          <li><a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
+                          <li><a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a></li>
+                          <li><a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a></li>
                         </ul>
-                        <div class="py-1">
-                          <a href="#" onClick={onLogout} class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                        <div className="py-1">
+                          <a href="#" onClick={onLogout} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
                         </div>
                       </div>
                     </div>
 
-                    <div class="font-medium dark:text-black ml-4">
+                    <div className="font-medium dark:text-black ml-4">
                       <div>{user.name}</div>
-                      <div class="text-sm text-gray-500 dark:text-gray-400">{user.joindate || null}</div>
+                      <div className="text-sm text-gray-500 dark:text-gray-400">{user.joindate || null}</div>
                     </div>
                   </div>
 
