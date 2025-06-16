@@ -47,10 +47,19 @@ function App_main() {
     setLoginModalOpen(false);
   };
 
-  const handleLogout = () => {
+  const handleLogout =async () => {
     addToast("Logout Successful", "success")
     setUser(null);
+    
+
     setIsLoggedIn(false);
+    const response = await fetch("https://back-u7se.onrender.com/logout", {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" }
+      });
+      const data = await response.json();
+      console.log(data);
   };
 
   useEffect(() => {
