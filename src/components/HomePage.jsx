@@ -2,41 +2,42 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Lock, BookOpen, Upload, User, KeyRound, LogOut, Book, Briefcase, ArrowRight } from 'lucide-react';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
-const HomePage = ({ isLoggedIn, user, onLoginClick,onLogin, onLogout, onSignUpClick, onContributeClick }) => {
+const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpClick, onContributeClick }) => {
   const [activeHover, setActiveHover] = useState(null);
   const [showWelcome, setShowWelcome] = useState(true);
 
+  const dropdownRef = useRef(null);
   const nav = useNavigate();
   const { addToast } = useToast();
-useEffect(() => {
-  const checkAuth = async () => {
-    try {
-      const response = await fetch("https://back-u7se.onrender.com/auth/check", {
-        method: "GET",
-        credentials: "include",
-      });
+  useEffect(() => {
+    const checkAuth = async () => {
+      try {
+        const response = await fetch("https://back-u7se.onrender.com/auth/check", {
+          method: "GET",
+          credentials: "include",
+        });
 
-      const data = await response.json();
-      const userData={email:data.user.email,name:data.user.name};
-      onLogin(userData);
-      
-    } catch (error) {
-      throw error;
-    }
-  };
+        const data = await response.json();
+        const userData = { email: data.user.email, name: data.user.name };
+        onLogin(userData);
 
-  checkAuth();
-}, []);
+      } catch (error) {
+        throw error;
+      }
+    };
+
+    checkAuth();
+  }, []);
 
   useEffect(() => {
-    
-      setShowWelcome(true);
-      const timer = setTimeout(() => {
-        setShowWelcome(false);
-      }, 1000);
-      return () => clearTimeout(timer);
-      
-    
+
+    setShowWelcome(true);
+    const timer = setTimeout(() => {
+      setShowWelcome(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+
+
   }
     , []);
 
@@ -54,9 +55,7 @@ useEffect(() => {
     }
   };
   const handleiconclick = () => {
-    const dropdown = document.getElementById("userDropdown");
-    dropdown.classNameList.toggle("hidden");
-
+    if(dropdownRef.current)dropdownRef.current.classList.toggle('hidden');
   }
 
   return (
@@ -119,7 +118,7 @@ useEffect(() => {
                         </svg>
                       </div>
 
-                      <div id="userDropdown" className="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
+                      <div ref={dropdownRef} className="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
                         <div className="px-4 py-3  text-sm text-gray-900 dark:text-white">
                           <div>{user.name}</div>
                           <div className="font-medium truncate pt-2">{user.email}</div>
