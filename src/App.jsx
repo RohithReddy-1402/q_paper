@@ -8,7 +8,7 @@ import Loading from './components/Loading';
 import ToastContainer from './components/ToastContainer';
 import { ToastProvider, useToast } from "./components/ToastContext"
 import { GoogleOAuthProvider } from '@react-oauth/google';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import ContributeModal from './components/ContributeModal'
 import { Analytics } from "@vercel/analytics/react"
 function App_main() {
