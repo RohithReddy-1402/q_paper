@@ -10,45 +10,47 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   const [selectedYear, setSelectedYear] = useState('all');
   const nav = useNavigate();
   const questionPapers = [
-    { id: 1, title: 'Enviormental ', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem-1', type: 'mid-1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
-    { id: 2, title: 'Physics Midterm ', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem-6', type: 'mid-2', idLink: '' },
-    { id: 3, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type: 'Sem', semester: 'sem-3', idLink: '' },
-    { id: 4, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem-2', type: 'mid-1', idLink: "" },
-    { id: 5, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem-5', type: 'Sem', idLink: '' },
-    { id: 6, title: 'EG ', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem-4', type: 'mid-2', idLink: '' },
-    { id: 7, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type: 'mid-2', idLink: '1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW' },
-    { id: 8, title: 'Bussiness ', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type: 'mid-2', idLink: '1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS' },
-    { id: 9, title: 'Enviormental ', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem-1', type: 'mid-1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
-    { id: 10, title: 'Physics Midterm ', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem-6', type: 'mid-2', idLink: '' },
-    { id: 11, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type: 'Sem', semester: 'sem-3', idLink: '' },
-    { id: 12, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem-2', type: 'mid-1', idLink: "" },
-    { id: 13, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem-5', type: 'Sem', idLink: '' },
-    { id: 14, title: 'EG ', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem-4', type: 'mid-2', idLink: '' },
-    { id: 15, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type: 'mid-2', idLink: '1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW' },
-    { id: 16, title: 'Bussiness ', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem-1', type: 'mid-2', idLink: '1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS' },
-    { id: 17, title: 'C Programming', subject: 'C programming', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'Sem', idLink: '1zpJ3UHMMfBhhyjfcpIAsYZYsQ2BuKf62' },
-    { id: 18, title: 'Economics', subject: 'Economics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'Sem', idLink: '1zpL-Dj7bOHhoutB4MNNPD4I6M7txLlbP' },
-    { id: 19, title: 'Physics', subject: 'Physics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'Sem', idLink: '1zv5eIfXGu7n7OarOAPwc0iAE-BsuwMlv' },
+    { id: 1, title: 'Enviormental ', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem_1', type: 'mid_1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
+    { id: 2, title: 'Physics Midterm ', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem_6', type: 'mid_2', idLink: '' },
+    { id: 3, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type: 'Sem', semester: 'sem_3', idLink: '' },
+    { id: 4, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem_2', type: 'mid_1', idLink: "" },
+    { id: 5, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem_5', type: 'Sem', idLink: '' },
+    { id: 6, title: 'EG ', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem_4', type: 'mid_2', idLink: '' },
+    { id: 7, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem_1', type: 'mid_2', idLink: '1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW' },
+    { id: 8, title: 'Bussiness ', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem_1', type: 'mid_2', idLink: '1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS' },
+    { id: 9, title: 'Enviormental ', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem_1', type: 'mid_1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
+    { id: 10, title: 'Physics Midterm ', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem_6', type: 'mid_2', idLink: '' },
+    { id: 11, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type: 'Sem', semester: 'sem_3', idLink: '' },
+    { id: 12, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem_2', type: 'mid_1', idLink: "" },
+    { id: 13, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem_5', type: 'Sem', idLink: '' },
+    { id: 14, title: 'EG ', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem_4', type: 'mid_2', idLink: '' },
+    { id: 15, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem_1', type: 'mid_2', idLink: '1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW' },
+    { id: 16, title: 'Bussiness ', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem_1', type: 'mid_2', idLink: '1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS' },
+    { id: 17, title: 'C Programming', subject: 'C programming', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1zpJ3UHMMfBhhyjfcpIAsYZYsQ2BuKf62' },
+    { id: 18, title: 'Economics', subject: 'Economics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1zpL-Dj7bOHhoutB4MNNPD4I6M7txLlbP' },
+    { id: 19, title: 'Physics', subject: 'Physics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1zv5eIfXGu7n7OarOAPwc0iAE-BsuwMlv' },
 
-    { id: 20, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'Sem', idLink: '1pBxW7qBa0g4Pab8jZTNnVyakJa81gPwt' },
-    { id: 21, title: 'Enviormental', subject: 'Chemistry', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'Sem', idLink: '1pDvilPhUD9jvTxz19yHGSpe2joKKW92H' },
-    { id: 22, title: 'EG', subject: 'EG', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem-1', type: 'Sem', idLink: '1sGfAEnldxOOsjBaX2PaWQNz7xgQaSZE8' }
-
+    { id: 20, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1pBxW7qBa0g4Pab8jZTNnVyakJa81gPwt' },
+    { id: 21, title: 'Enviormental', subject: 'Chemistry', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1pDvilPhUD9jvTxz19yHGSpe2joKKW92H' },
+    { id: 22, title: 'EG', subject: 'EG', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1sGfAEnldxOOsjBaX2PaWQNz7xgQaSZE8' },
+    {id:23,title:'Physics (PHIC-101)',subject:'Physics',year:2024,level:'Beginner',downloads:0,semester:'sem_1',type:'mid_1',idLink:'' },
 
   ];
   const handleNav = () => {
     nav('/')
   }
 
-  const handleDownload = (event, fileId) => {
+  const handleDownload = (event,paper) => {
     event.stopPropagation();
-    if (!fileId) {
-      alert("Download link not available for this paper.");
-      return;
-    }
+    // if (!fileId) {
+    //   alert("Download link not available for this paper.");
+    //   return;
+    // }
     const link = document.createElement("a");
-    link.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
-    link.download = "";
+    // link.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    link.href=`public/papers/sem_${paper.semester}/${paper.type}/${paper.title}.jpg`;
+    link.target = "_blank";
+    link.download = `${paper.title}.jpg`; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -85,8 +87,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     if (activeTab === 'all') return matchesSearch && matchesSemester && matchesYear && matchesType;
     if (activeTab === 'recent') return paper.year >= 2023 && matchesSearch && matchesSemester && matchesYear && matchesType;
     if (activeTab === 'popular') return paper.downloads > 1000 && matchesSearch && matchesSemester && matchesYear && matchesType;
-    if (activeTab === 'mid-1') return paper.type === 'mid-1' && matchesSearch && matchesSemester && matchesYear;
-    if (activeTab === 'mid-2') return paper.type === 'mid-2' && matchesSearch && matchesSemester && matchesYear;
+    if (activeTab === 'mid_1') return paper.type === 'mid_1' && matchesSearch && matchesSemester && matchesYear;
+    if (activeTab === 'mid_2') return paper.type === 'mid_2' && matchesSearch && matchesSemester && matchesYear;
     if (activeTab === 'Sem') return paper.type === 'Sem' && matchesSearch && matchesSemester && matchesYear;
 
 
@@ -94,9 +96,9 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   });
 
   const subjects = [...new Set(questionPapers.map(paper => paper.subject))];
-  const semesters = ['sem-1', 'sem-2', 'sem-3', 'sem-4', 'sem-5', 'sem-6', 'sem-7', 'sem-8'];
+  const semesters = ['sem_1', 'sem_2', 'sem_3', 'sem_4', 'sem_5', 'sem_6', 'sem_7', 'sem_8'];
 
-  const additionalTabs = ['Sem', 'mid-1', 'mid-2'];
+  const additionalTabs = ['Sem', 'mid_1', 'mid_2'];
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -176,8 +178,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   {semesters.map(semester => (
                     <option key={semester} value={semester}>
                       {semester.includes('sem') ?
-                        `Semester ${semester.split('-')[1]}` :
-                        `Mid-Term ${semester.split('-')[1]}`
+                        `Semester ${semester.split('_')[1]}` :
+                        `Mid-Term ${semester.split('_')[1]}`
                       }
                     </option>
                   ))}
@@ -284,8 +286,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
             {selectedSemester !== 'all' && (
               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
                 {selectedSemester.includes('sem') ?
-                  `Semester ${selectedSemester.split('-')[1]}` :
-                  `Mid-Term ${selectedSemester.split('-')[1]}`
+                  `Semester ${selectedSemester.split('_')[1]}` :
+                  `Mid-Term ${selectedSemester.split('_')[1]}`
                 }
                 <button
                   onClick={() => setSelectedSemester('all')}
@@ -327,8 +329,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                     <dl>
                       <dt className="text-sm font-medium text-gray-500 truncate">
                         {paper.subject} ({paper.year}) - {paper.semester.includes('sem') ?
-                          `Semester ${paper.semester.split('-')[1]}` :
-                          `Mid-Term ${paper.semester.split('-')[1]}`
+                          `Semester ${paper.semester.split('_')[1]}` :
+                          `Mid-Term ${paper.semester.split('_')[1]}`
                         }
                       </dt>
                       <dd>
@@ -347,7 +349,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                     <span className="ml-2 text-gray-500">{paper.downloads} downloads</span>
                   </div>
                   <button
-                    onClick={(e) => handleDownload(e, paper.idLink)}
+                    onClick={(e) => handleDownload(e, paper)}
                     className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium cursor-pointer rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                   >
                     Download
