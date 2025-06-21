@@ -10,7 +10,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   const [selectedYear, setSelectedYear] = useState('all');
   const nav = useNavigate();
   const questionPapers = [
-    { id: 1, title: 'Enviormental ', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem_1', type: 'mid_1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
+    { id: 1, title: 'Enviormental', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem_1', type: 'mid_1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
     { id: 2, title: 'Physics Midterm ', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem_6', type: 'mid_2', idLink: '' },
     { id: 3, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type: 'Sem', semester: 'sem_3', idLink: '' },
     { id: 4, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem_2', type: 'mid_1', idLink: "" },
@@ -18,7 +18,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     { id: 6, title: 'EG ', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem_4', type: 'mid_2', idLink: '' },
     { id: 7, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem_1', type: 'mid_2', idLink: '1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW' },
     { id: 8, title: 'Bussiness ', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem_1', type: 'mid_2', idLink: '1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS' },
-    { id: 9, title: 'Enviormental ', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem_1', type: 'mid_1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
+    { id: 9, title: 'Enviormental', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem_1', type: 'mid_1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
     { id: 10, title: 'Physics Midterm ', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem_6', type: 'mid_2', idLink: '' },
     { id: 11, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type: 'Sem', semester: 'sem_3', idLink: '' },
     { id: 12, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem_2', type: 'mid_1', idLink: "" },
@@ -48,14 +48,13 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     // }
     const link = document.createElement("a");
     // link.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
-    link.href=`/papers/sem_${paper.semester}/${paper.type}/${paper.title}.jpg`;
+    link.href=`/papers/${paper.semester}/${paper.type}/${paper.title}.jpg`;
     link.target = "_blank";
     link.download = `${paper.title}.jpg`; 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
-
   const handleDisplay = (event, fileId) => {
     if (!fileId) {
       alert("Download link not available for this paper.");
