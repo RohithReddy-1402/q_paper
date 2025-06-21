@@ -48,7 +48,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     // }
     const link = document.createElement("a");
     // link.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
-    link.href=`public/papers/sem_${paper.semester}/${paper.type}/${paper.title}.jpg`;
+    link.href=`/papers/sem_${paper.semester}/${paper.type}/${paper.title}.jpg`;
     link.target = "_blank";
     link.download = `${paper.title}.jpg`; 
     document.body.appendChild(link);
