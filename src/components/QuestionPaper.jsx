@@ -44,21 +44,9 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     event.stopPropagation();
     const basePath = `/papers/${paper.semester}/${paper.type}/${paper.title}`;
     const link = document.createElement("a");
-    fetch(`${basePath}.pdf`)
-      .then(response => {
-        if (response.ok) {
-          link.href = `${basePath}.pdf`;
-          link.download = `${paper.title}.pdf`;
-          link.click();
-        } else {
-          return fetch(`${basePath}.jpg`).then(response => {
-            link.href = `${basePath}.jpg`;
-            link.download = `${paper.title}.jpg`;
-            link.click();
-
-          });
-        }
-      });
+    link.href=`${basePath}.pdf`;
+    link.download = `${paper.title}.pdf`;
+    link.click();
     link.remove();
 
   };
