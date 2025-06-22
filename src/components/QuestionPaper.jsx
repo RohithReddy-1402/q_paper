@@ -33,27 +33,34 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     { id: 20, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1pBxW7qBa0g4Pab8jZTNnVyakJa81gPwt' },
     { id: 21, title: 'Enviormental', subject: 'Chemistry', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1pDvilPhUD9jvTxz19yHGSpe2joKKW92H' },
     { id: 22, title: 'EG', subject: 'EG', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1sGfAEnldxOOsjBaX2PaWQNz7xgQaSZE8' },
-    {id:23,title:'Physics (PHIC-101)',subject:'Physics',year:2024,level:'Beginner',downloads:0,semester:'sem_1',type:'mid_1',idLink:'' },
+    { id: 23, title: 'Physics (PHIC-101)', subject: 'Physics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'mid_1', idLink: '' },
 
   ];
   const handleNav = () => {
     nav('/')
   }
 
-  const handleDownload = (event,paper) => {
+  const handleDownload = (event, paper) => {
     event.stopPropagation();
-    // if (!fileId) {
-    //   alert("Download link not available for this paper.");
-    //   return;
-    // }
+    const basePath = `/papers/${paper.semester}/${paper.type}/${paper.title}`;
     const link = document.createElement("a");
-    // link.href = `https://drive.google.com/uc?export=download&id=${fileId}`;
-    link.href=`/papers/${paper.semester}/${paper.type}/${paper.title}.jpg`;
-    link.target = "_blank";
-    link.download = `${paper.title}.jpg`; 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    fetch(`${basePath}.pdf`)
+      .then(response => {
+        if (response.ok) {
+          link.href = `${basePath}.pdf`;
+          link.download = `${paper.title}.pdf`;
+          link.click();
+        } else {
+          return fetch(`${basePath}.jpg`).then(response => {
+            link.href = `${basePath}.jpg`;
+            link.download = `${paper.title}.jpg`;
+            link.click();
+
+          });
+        }
+      });
+    link.remove();
+
   };
   const handleDisplay = (event, fileId) => {
     if (!fileId) {

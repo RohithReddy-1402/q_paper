@@ -9,25 +9,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
   const dropdownRef = useRef(null);
   const nav = useNavigate();
   const { addToast } = useToast();
-  useEffect(() => {
-    const checkAuth = async () => {
-      try {
-        const response = await fetch("https://back-u7se.onrender.com/auth/check", {
-          method: "GET",
-          credentials: "include",
-        });
-
-        const data = await response.json();
-        const userData = { email: data.user.email, name: data.user.name };
-        onLogin(userData);
-
-      } catch (error) {
-        throw error;
-      }
-    };
-
-    checkAuth();
-  }, []);
+  
 
   useEffect(() => {
 

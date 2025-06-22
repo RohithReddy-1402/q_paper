@@ -20,6 +20,28 @@ function App_main() {
   const [isLoad, setIsLoad] = useState(false);
   const [ContributeModalOpen, setContributeModalOpen] = useState(false);
   const { addToast } = useToast();
+  useEffect(() => {
+      const checkAuth = async () => {
+        try {
+          const response = await fetch("https://back-u7se.onrender.com/auth/check", {
+            method: "GET",
+            credentials: "include",
+          });
+          const data = await response.json();
+          const userData = { email: data.user.email, name: data.user.name };
+    
+          setUser(userData);
+          setIsLoggedIn(true);
+        } catch (error) {
+          throw error;
+        }
+      };
+  
+      checkAuth();
+    }, []);
+    useEffect(()=>{
+      console.log("User Updated",user);
+    },[user]);
   const handleLoginPage = () => {
 
     setSignUpPageOpen(false);
