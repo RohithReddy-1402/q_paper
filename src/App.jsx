@@ -39,9 +39,7 @@ function App_main() {
   
       checkAuth();
     }, []);
-    useEffect(()=>{
-      console.log("User Updated",user);
-    },[user]);
+   
   const handleLoginPage = () => {
 
     setSignUpPageOpen(false);
@@ -81,7 +79,7 @@ function App_main() {
         headers: { "Content-Type": "application/json" }
       });
       const data = await response.json();
-      console.log(data);
+      
   };
 
   useEffect(() => {

@@ -103,7 +103,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
 
         })
         const data = response.json();
-        console.log(data);
+    
         onLoadClose();
         if (response.status == 200) {
           addToast("password changed successfully", "success");
@@ -113,7 +113,6 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
           setOtpInput(false);
           setEmailInput(true);
           onForgotClose();
-          console.log({ name: data.name, email: data.EmailID })
 
         }
         else {

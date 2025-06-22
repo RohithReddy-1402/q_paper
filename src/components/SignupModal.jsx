@@ -14,8 +14,6 @@ function SignupModal({ onClose }) {
       return;
     }
     
-    console.log('Signup attempt with:', { name, email, password });
-  
   };
   
   return (

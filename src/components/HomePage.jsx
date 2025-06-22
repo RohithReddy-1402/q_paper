@@ -33,7 +33,6 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
     } else {
       onContributeClick();
       nav('/contribute')
-      console.log('Opening Contribution Section');
     }
   };
   const handleiconclick = () => {

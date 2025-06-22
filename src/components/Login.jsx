@@ -24,19 +24,6 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
     setIsLogin(!isSignUpOpen)
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, onClose]);
-
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log(isLogin ? 'Logging in...' : 'Signing up...', { 
-  //     email, 
-  //     password, 
-  //     ...(isLogin ? {} : { username }) 
-  //   });
-  //   const userData = { email, password}; 
-  //   onLogin(userData); 
-  //   console.log("✅ onLogin is being called with:");
-  //   onClose();
-  // };
   const handleLoginSubmit = async (e) => {
     e.preventDefault();
 
@@ -96,7 +83,6 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
   const handleCredentialResponse = (response) => {
 
     const user = jwtDecode(response.credential);
-    console.log(user.email);
     localStorage.setItem('user', JSON.stringify(user));
     const userData = { email: user.email, name: user.name };
     onLogin(userData);
@@ -154,11 +140,6 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
 
     google.accounts.id.prompt();
   };
-
-  // const handleCredentialResponse = (response) => {
-  //   const user = jwt_decode(response.credential);
-  //   console.log("Google user:", user);
-  // };
   if (!isOpen) return null;
 
   return (
