@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { ToastProvider, useToast } from "./ToastContext";
 import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
+import { auth, provider, signInWithPopup } from './fireBase';
 const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass, isLoading, onLoadClose }) => {
   const [isLogin, setIsLogin] = useState(false);
   const [email, setEmail] = useState('');
@@ -101,6 +102,17 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       throw err;
     }
   }
+  const handleGoogleSignIn = async () => {
+    try {
+      const result = await signInWithPopup(auth, provider);
+      const user = result.user;
+      const userData={email:user.email,name:user.displayName};
+      onLogin(userData);
+      onClose();
+    } catch (err) {
+      console.error("Google sign-in error", err);
+    }
+  };
   const handleSignUpSubmit = async (e) => {
     e.preventDefault()
     try {
@@ -246,7 +258,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
           </div>
 
           <div className="mt-4">
-            <button className="w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400" onClick={handleGoogleLogin}>
+            <button className="w-full flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400" onClick={handleGoogleSignIn}>
               Sign in with Google
             </button>
             <button className="w-full flex justify-center py-2 px-4 mt-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-400">

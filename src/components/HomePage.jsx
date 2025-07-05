@@ -4,24 +4,28 @@ import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
 const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpClick, onContributeClick }) => {
   const [activeHover, setActiveHover] = useState(null);
-  const [showWelcome, setShowWelcome] = useState(true);
+
 
   const dropdownRef = useRef(null);
   const nav = useNavigate();
   const { addToast } = useToast();
-  
+
+
+
+  const [showWelcome, setShowWelcome] = useState(() => {
+    return !localStorage.getItem('welcomeShown');
+  });
 
   useEffect(() => {
+    if (showWelcome) {
+      const timer = setTimeout(() => {
+        setShowWelcome(false);
+        localStorage.setItem('welcomeShown', 'true');
+      }, 1000);
+      return () => clearTimeout(timer);
+    }
+  }, [showWelcome]);
 
-    setShowWelcome(true);
-    const timer = setTimeout(() => {
-      setShowWelcome(false);
-    }, 1000);
-    return () => clearTimeout(timer);
-
-
-  }
-    , []);
 
   const handleQuestionPapers = () => {
     nav("/papers")
@@ -36,7 +40,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
     }
   };
   const handleiconclick = () => {
-    if(dropdownRef.current)dropdownRef.current.classList.toggle('hidden');
+    if (dropdownRef.current) dropdownRef.current.classList.toggle('hidden');
   }
 
   return (
@@ -107,7 +111,6 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
                         <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
                           <li><a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
                           <li><a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a></li>
-                          <li><a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a></li>
                         </ul>
                         <div className="py-1">
                           <a href="#" onClick={onLogout} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
