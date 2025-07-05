@@ -55,7 +55,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
       </div>
       <div className={`absolute inset-0 z-50  bg-indigo-600 flex items-center justify-center transition-opacity duration-1000 ease-in-out ${showWelcome ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
         <div className="text-white text-4xl font-bold flex items-center">
-          <span className="mr-3">StudyResource</span>
+          <span className="mr-3">NexSphere</span>
           <Book className="w-10 h-10" />
         </div>
       </div>
@@ -64,7 +64,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
           <div className="flex items-center space-x-2">
             <Book className="w-8 h-8 text-indigo-600" />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              StudyResource
+              NexSphere
             </h1>
           </div>
 
@@ -140,7 +140,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
         <div className="w-full lg:w-1/2 flex flex-col xl:pl-48 justify-center items-center lg:items-start space-y-8 mb-12 lg:mb-0">
           <div className="text-center lg:text-left max-w-lg">
             <h2 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent leading-tight">
-              Your Gateway to Academic Excellence
+              NIT KKR Previous Year Question Papers
             </h2>
             <p className="text-gray-600 text-lg mb-8">
               Access previous question papers and contribute to help fellow students excel in their academic journey.
@@ -244,7 +244,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
       </main>
       <footer className="relative z-10 py-6 px-8 text-center text-gray-600 bg-white/20 backdrop-blur-sm border-t border-indigo-100">
         <div className="max-w-7xl mx-auto">
-          <p>© 2025 StudyResource. All rights reserved.</p>
+          <p>© 2025 NexSphere. All rights reserved.</p>
         </div>
       </footer>
     </div>
