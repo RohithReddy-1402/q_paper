@@ -13,6 +13,10 @@ function ContributeModal({ onClose, isContributeOpen }) {
   const [subCode, setSubCode] = useState('');
   const { addToast } = useToast();
   const nav = useNavigate();
+  const totalFields = 7;
+  const filledFields = [title, subject, semester, subCode, year, institution, file].filter(Boolean).length;
+
+  const opacity = (filledFields / totalFields) * 100;
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -28,7 +32,7 @@ function ContributeModal({ onClose, isContributeOpen }) {
     console.log('Contributing paper:', { title, subject, year, institution, file, semester });
 
   };
-  const handleClose=()=>{
+  const handleClose = () => {
     onClose();
     nav("/")
   }
@@ -42,15 +46,15 @@ function ContributeModal({ onClose, isContributeOpen }) {
         <div className="modal-header">
           <h2>Contribute Question Paper</h2>
           <button
-              type="button"
-              className="bg-white rounded-md text-gray-400 hover:text-gray-500 focus:outline-none"
-              onClick={handleClose}
-            >
-              <span className="sr-only">Close</span>
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
+            type="button"
+            className="bg-white rounded-md text-gray-400 hover:text-gray-500 focus:outline-none"
+            onClick={handleClose}
+          >
+            <span className="sr-only">Close</span>
+            <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
         </div>
         <form className="modal-form" onSubmit={handleSubmit}>
           <div className="form-group">
@@ -87,18 +91,18 @@ function ContributeModal({ onClose, isContributeOpen }) {
                 required
               />
             </div>
-              <div className='form-group half'>
-                <label htmlFor='subCode'>Subject Code</label>
-                <input
-                  type="text"
-                  id="subCode"
-                  placeholder="E.g., CSIC-101"
-                  value={subCode}
-                  onChange={(e) => setSubCode(e.target.value)}
-                  required
-                />
-              </div>
-            
+            <div className='form-group half'>
+              <label htmlFor='subCode'>Subject Code</label>
+              <input
+                type="text"
+                id="subCode"
+                placeholder="E.g., CSIC-101"
+                value={subCode}
+                onChange={(e) => setSubCode(e.target.value)}
+                required
+              />
+            </div>
+
 
           </div>
           <div className="form-row">
@@ -142,7 +146,8 @@ function ContributeModal({ onClose, isContributeOpen }) {
               </label>
             </div>
           </div>
-          <button type="submit" className="form-btn">Contribute Paper</button>
+          <button type="submit" className="form-btn" style={{ opacity: opacity / 100, cursor: filledFields === totalFields ? 'pointer' : 'not-allowed' }}
+  disabled={filledFields !== totalFields}>Contribute Paper</button>
         </form>
       </div>
     </div>

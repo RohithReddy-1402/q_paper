@@ -130,10 +130,11 @@
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    background-color: #2a75ff;
   }
   
   .form-btn:hover {
-    background-color: #2a75ff;
+    
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(58, 134, 255, 0.3);
   }
