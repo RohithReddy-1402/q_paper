@@ -43,7 +43,7 @@ function ContributeModal({ onClose, isContributeOpen,user }) {
       
       console.log("Uploaded:", response.$id);
       const fileId=response.$id;
-      const res=await fetch("http://localhost:3001/upload",{
+      const res=await fetch("https://back-u7se.onrender.com/upload",{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
