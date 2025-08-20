@@ -101,7 +101,7 @@ function App_main() {
           />
           <Route
             path='/contribute'
-            element={<ContributeModal onClose={() => setContributeModalOpen(false)} isContributeOpen={ContributeModalOpen} />}
+            element={<ContributeModal onClose={() => setContributeModalOpen(false)} isContributeOpen={ContributeModalOpen} user={user}/>}
           />
 
         </Routes>

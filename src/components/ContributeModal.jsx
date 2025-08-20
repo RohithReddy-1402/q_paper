@@ -3,7 +3,11 @@ import './Modal.css';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
 import { sub } from 'framer-motion/client';
-function ContributeModal({ onClose, isContributeOpen }) {
+import {ID} from 'appwrite';
+import { storage } from "../services/appWrite";
+function ContributeModal({ onClose, isContributeOpen,user }) {
+        
+
   const [title, setTitle] = useState('');
   const [subject, setSubject] = useState('');
   const [year, setYear] = useState('');
@@ -17,7 +21,7 @@ function ContributeModal({ onClose, isContributeOpen }) {
   const filledFields = [title, subject, semester, subCode, year, institution, file].filter(Boolean).length;
 
   const opacity = (filledFields / totalFields) * 100;
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const formData = new FormData();
@@ -30,6 +34,36 @@ function ContributeModal({ onClose, isContributeOpen }) {
     formData.append('subCode', subCode)
     addToast("Details sent for verification", "success")
     console.log('Contributing paper:', { title, subject, year, institution, file, semester });
+    try {
+      const response = await storage.createFile(
+        "68a5689f000a8af36f8a", 
+        ID.unique(),      
+        file              
+      );
+      
+      console.log("Uploaded:", response.$id);
+      const fileId=response.$id;
+      const res=await fetch("http://localhost:3001/upload",{
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json"
+        },
+        body:JSON.stringify({
+          title,
+          subject,
+          fileId,
+          semester,
+          subCode,
+          year,
+          institution,
+          name:user.name,
+          mail:user.email
+        })
+      })
+      console.log(res)
+    } catch (error) {
+      console.error("Upload failed:", error);
+    }
 
   };
   const handleClose = () => {
