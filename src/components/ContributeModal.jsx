@@ -61,6 +61,7 @@ function ContributeModal({ onClose, isContributeOpen,user }) {
         })
       })
       console.log(res)
+      onClose();
     } catch (error) {
       console.error("Upload failed:", error);
     }

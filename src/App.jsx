@@ -11,6 +11,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import ContributeModal from './components/ContributeModal'
 import { Analytics } from "@vercel/analytics/react"
+import QuestionPapersVerification from './components/tobeVerifed';
 function App_main() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -103,7 +104,7 @@ function App_main() {
             path='/contribute'
             element={<ContributeModal onClose={() => setContributeModalOpen(false)} isContributeOpen={ContributeModalOpen} user={user}/>}
           />
-
+          <Route path='/verifypaper' element={<QuestionPapersVerification isLoading={handleLoading}  onLoadClose={() => setIsLoad(false)}/>} />
         </Routes>
         <Analytics />
         <Loading isLoadingOpen={isLoad} />
