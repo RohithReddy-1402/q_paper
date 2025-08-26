@@ -3,10 +3,10 @@ import './Modal.css';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
 import { sub } from 'framer-motion/client';
-import {ID} from 'appwrite';
+import { ID } from 'appwrite';
 import { storage } from "../services/appWrite";
-function ContributeModal({ onClose, isContributeOpen,user }) {
-        
+function ContributeModal({ onClose, isContributeOpen, user }) {
+
 
   const [title, setTitle] = useState('');
   const [subject, setSubject] = useState('');
@@ -36,19 +36,19 @@ function ContributeModal({ onClose, isContributeOpen,user }) {
     console.log('Contributing paper:', { title, subject, year, institution, file, semester });
     try {
       const response = await storage.createFile(
-        "68a5689f000a8af36f8a", 
-        ID.unique(),      
-        file              
+        "68a5689f000a8af36f8a",
+        ID.unique(),
+        file
       );
-      
+
       console.log("Uploaded:", response.$id);
-      const fileId=response.$id;
-      const res=await fetch("https://back-u7se.onrender.com/upload",{
-        method:"POST",
-        headers:{
-          "Content-Type":"application/json"
+      const fileId = response.$id;
+      const res = await fetch("https://back-u7se.onrender.com/upload", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
         },
-        body:JSON.stringify({
+        body: JSON.stringify({
           title,
           subject,
           fileId,
@@ -56,8 +56,8 @@ function ContributeModal({ onClose, isContributeOpen,user }) {
           subCode,
           year,
           institution,
-          name:user.name,
-          mail:user.email
+          name: user.name,
+          mail: user.email
         })
       })
       console.log(res)
@@ -97,7 +97,7 @@ function ContributeModal({ onClose, isContributeOpen,user }) {
             <input
               type="text"
               id="title"
-              placeholder="E.g., Data Structures Final Exam"
+              placeholder="E.g., Data Structures , DSD"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
               required
@@ -108,7 +108,7 @@ function ContributeModal({ onClose, isContributeOpen,user }) {
             <input
               type="text"
               id="subject"
-              placeholder="E.g., Computer Science"
+              placeholder="E.g., C , Python , AC Machines"
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
               required
@@ -117,21 +117,28 @@ function ContributeModal({ onClose, isContributeOpen,user }) {
           <div className="form-row">
             <div className="form-group half">
               <label htmlFor="semester">Semester</label>
-              <input
-                type="text"
+              <select
                 id="semester"
-                placeholder="E.g., Sem-1,Sem-2"
                 value={semester}
                 onChange={(e) => setSemester(e.target.value)}
                 required
-              />
+                className="x rounded p-2 w-full h-12"
+              >
+                <option value="">Select Semester</option>
+                {[...Array(8)].map((_, i) => (
+                  <option key={i + 1} value={`${i + 1}`}>
+                    {i + 1}
+                  </option>
+                ))}
+              </select>
+
             </div>
             <div className='form-group half'>
               <label htmlFor='subCode'>Subject Code</label>
               <input
                 type="text"
                 id="subCode"
-                placeholder="E.g., CSIC-101"
+                placeholder="E.g., CSIC-101 ,HSIC-103"
                 value={subCode}
                 onChange={(e) => setSubCode(e.target.value)}
                 required
@@ -146,7 +153,7 @@ function ContributeModal({ onClose, isContributeOpen,user }) {
               <input
                 type="text"
                 id="year"
-                placeholder="E.g., 2024"
+                placeholder="E.g., 2024 , 2025"
                 value={year}
                 onChange={(e) => setYear(e.target.value)}
                 required
@@ -154,14 +161,19 @@ function ContributeModal({ onClose, isContributeOpen,user }) {
             </div>
             <div className="form-group half">
               <label htmlFor="type">Exam Type</label>
-              <input
-                type="text"
+              <select
                 id="type"
-                placeholder="E.g., Mid-1 ,Mid-2"
                 value={institution}
                 onChange={(e) => setInstitution(e.target.value)}
                 required
-              />
+                className='x flex justify-center items-center w-full h-12 pl-4'
+              >
+                <option value="">Select Exam Type</option>
+                <option value="Mid-1">Mid - 1</option>
+                <option value="Mid-2">Mid - 2</option>
+                <option value="Sem">Sem</option>
+              </select>
+
             </div>
           </div>
 
@@ -182,7 +194,7 @@ function ContributeModal({ onClose, isContributeOpen,user }) {
             </div>
           </div>
           <button type="submit" className="form-btn" style={{ opacity: opacity / 100, cursor: filledFields === totalFields ? 'pointer' : 'not-allowed' }}
-  disabled={filledFields !== totalFields}>Contribute Paper</button>
+            disabled={filledFields !== totalFields}>Contribute Paper</button>
         </form>
       </div>
     </div>

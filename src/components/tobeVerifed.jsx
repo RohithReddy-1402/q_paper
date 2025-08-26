@@ -54,8 +54,25 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
         }));
     };
 
-    const handleApprove = () => {
-        alert('Paper approved successfully!');
+    const handleApprove = async () => {
+        const res = await fetch(`https://back-u7se.onrender.com/verifiedpaper/${selectedPaper.fileId}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          title: selectedPaper.title,
+          subject: selectedPaper.subject,
+          fileId: selectedPaper.fileId,
+          sem: selectedPaper.sem,
+          subjectCode: selectedPaper.subjectCode,
+          year: selectedPaper.year,
+          examType: selectedPaper.examType,
+
+        })
+      })
+        
+      await 
         setSelectedPaper(null);
     };
 

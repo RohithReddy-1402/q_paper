@@ -1,5 +1,5 @@
 import { title } from 'framer-motion/client';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
 
@@ -9,45 +9,46 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   const [selectedType, setSelectedType] = useState('all');
   const [selectedYear, setSelectedYear] = useState('all');
   const nav = useNavigate();
-  const questionPapers = [
-    { id: 1, title: 'Enviormental', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem_1', type: 'mid_1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
-    { id: 2, title: 'Physics Midterm ', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem_6', type: 'mid_2', idLink: '' },
-    { id: 3, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type: 'Sem', semester: 'sem_3', idLink: '' },
-    { id: 4, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem_2', type: 'mid_1', idLink: "" },
-    { id: 5, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem_5', type: 'Sem', idLink: '' },
-    { id: 6, title: 'EG ', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem_4', type: 'mid_2', idLink: '' },
-    { id: 7, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem_1', type: 'mid_2', idLink: '1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW' },
-    { id: 8, title: 'Bussiness ', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem_1', type: 'mid_2', idLink: '1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS' },
-    { id: 9, title: 'Enviormental', subject: 'Chemistry', year: 2024, level: 'Advanced', downloads: 1245, semester: 'sem_1', type: 'mid_1', idLink: '1mc_2DVUuiALcoVZHYgWks7NeiBL2dlD5' },
-    { id: 10, title: 'Physics Midterm ', subject: 'Physics', year: 2024, level: 'Intermediate', downloads: 876, semester: 'sem_6', type: 'mid_2', idLink: '' },
-    { id: 11, title: 'Computer Science Data Structures', subject: 'Computer Science', year: 2023, level: 'Advanced', downloads: 2134, type: 'Sem', semester: 'sem_3', idLink: '' },
-    { id: 12, title: 'English Literature Analysis', subject: 'English', year: 2023, level: 'Beginner', downloads: 543, semester: 'sem_2', type: 'mid_1', idLink: "" },
-    { id: 13, title: 'Chemistry Organic Compounds', subject: 'Chemistry', year: 2024, level: 'Intermediate', downloads: 987, semester: 'sem_5', type: 'Sem', idLink: '' },
-    { id: 14, title: 'EG ', subject: 'EG', year: 2022, level: 'Beginner', downloads: 765, semester: 'sem_4', type: 'mid_2', idLink: '' },
-    { id: 15, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem_1', type: 'mid_2', idLink: '1WXQnNHFkjaKyvOX4RukkDNOgDf5b3ZOW' },
-    { id: 16, title: 'Bussiness ', subject: 'Bussiness', year: 2024, level: 'Beginner', downloads: 765, semester: 'sem_1', type: 'mid_2', idLink: '1WZAIkgU9M1UwF2CsooaoNVAr6xuf3wZS' },
-    { id: 17, title: 'C Programming', subject: 'C programming', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1zpJ3UHMMfBhhyjfcpIAsYZYsQ2BuKf62' },
-    { id: 18, title: 'Economics', subject: 'Economics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1zpL-Dj7bOHhoutB4MNNPD4I6M7txLlbP' },
-    { id: 19, title: 'Physics', subject: 'Physics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1zv5eIfXGu7n7OarOAPwc0iAE-BsuwMlv' },
+  const [questionPapers, setQuestionPapers] = useState([]);
+  useEffect(() => {
+    async function fetchPapers() {
+      try {
+        const res = await fetch("https://back-u7se.onrender.com/papers");
+        const data = await res.json();
+        setQuestionPapers(data);
 
-    { id: 20, title: 'Mathematics', subject: 'Mathematics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1pBxW7qBa0g4Pab8jZTNnVyakJa81gPwt' },
-    { id: 21, title: 'Enviormental', subject: 'Chemistry', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1pDvilPhUD9jvTxz19yHGSpe2joKKW92H' },
-    { id: 22, title: 'EG', subject: 'EG', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'Sem', idLink: '1sGfAEnldxOOsjBaX2PaWQNz7xgQaSZE8' },
-    { id: 23, title: 'Physics (PHIC-101)', subject: 'Physics', year: 2024, level: 'Beginner', downloads: 0, semester: 'sem_1', type: 'mid_1', idLink: '' },
-
-  ];
+      } catch (err) {
+        console.error("Error fetching papers:", err);
+      }
+    }
+    fetchPapers();
+  }, [])
+  useEffect(() => {
+    console.log(questionPapers);
+  }, [questionPapers])
   const handleNav = () => {
     nav('/')
   }
 
   const handleDownload = (event, paper) => {
     event.stopPropagation();
-    const basePath = `/papers/${paper.semester}/${paper.type}/${paper.title}`;
+    if (!paper.paper_id) {
+      alert("Download link not available for this paper.");
+      return;
+    }
+
+    const res = fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/download`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
     const link = document.createElement("a");
-    link.href=`${basePath}.pdf`;
-    link.download = `${paper.title}.pdf`;
+    link.href = `${paper.paper_url}`;
+    document.body.appendChild(link);
     link.click();
-    link.remove();
+    document.body.removeChild(link);
+
 
   };
   const handleDisplay = (event, fileId) => {
@@ -102,33 +103,33 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
             <h1 onClick={handleNav} className="text-3xl font-bold text-gray-900 cursor-pointer">Question Papers</h1>
 
             {isLoggedIn ? (
-              <div class="flex items-center">
-                <div class="relative">
-                  <div id="avatarButton" class="relative w-10 h-10 overflow-hidden bg-gray-100 shadow-pink-200 rounded-full dark:bg-gray-600 cursor-pointer" data-dropdown-toggle="userDropdown" onClick={handleiconclick}>
-                    <svg class="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+              <div className="flex items-center">
+                <div className="relative">
+                  <div id="avatarButton" className="relative w-10 h-10 overflow-hidden bg-gray-100 shadow-pink-200 rounded-full dark:bg-gray-600 cursor-pointer" data-dropdown-toggle="userDropdown" onClick={handleiconclick}>
+                    <svg className="absolute w-12 h-12 text-gray-400 -left-1" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
                     </svg>
                   </div>
 
-                  <div id="userDropdown" class="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
-                    <div class="px-4 py-3  text-sm text-gray-900 dark:text-white">
+                  <div id="userDropdown" className="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
+                    <div className="px-4 py-3  text-sm text-gray-900 dark:text-white">
                       <div>{user.name}</div>
-                      <div class="font-medium truncate pt-2">{user.email}</div>
+                      <div className="font-medium truncate pt-2">{user.email}</div>
                     </div>
-                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200">
-                      <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
-                      <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a></li>
-                      <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a></li>
+                    <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
+                      <li><a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
+                      <li><a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a></li>
+                      <li><a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a></li>
                     </ul>
-                    <div class="py-1">
-                      <a href="#" onClick={onLogout} class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                    <div className="py-1">
+                      <a href="#" onClick={onLogout} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
                     </div>
                   </div>
                 </div>
 
-                <div class="font-medium dark:text-black ml-4">
+                <div className="font-medium dark:text-black ml-4">
                   <div>{user.name}</div>
-                  <div class="text-sm text-gray-500 dark:text-gray-400">{user.joindate || null}</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400">{user.joindate || null}</div>
                 </div>
               </div>
             ) : (
@@ -154,7 +155,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />
-              <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+              <div className="absolute inset-y-0 right-0 pr-3 flex items-center poclassinter-events-none">
                 <svg className="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
                 </svg>
@@ -311,9 +312,9 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filteredPapers.map((paper) => (
-            <div key={paper.id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.idLink)}>
-              <div className="p-5">
-                <div className="flex items-center ">
+            <div key={paper.paper_id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.idLink)}>
+              <div className="p-5 h-7/10">
+                <div className="flex items-center">
                   <div className="flex-shrink-0 bg-blue-500 rounded-md p-3">
                     <svg className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -322,13 +323,10 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   <div className="ml-5 w-0 flex-1">
                     <dl>
                       <dt className="text-sm font-medium text-gray-500 truncate">
-                        {paper.subject} ({paper.year}) - {paper.semester.includes('sem') ?
-                          `Semester ${paper.semester.split('_')[1]}` :
-                          `Mid-Term ${paper.semester.split('_')[1]}`
-                        }
+                        {paper?.subject} ({paper?.year}) - {paper?.subjectCode} SEM - {paper?.sem}
                       </dt>
                       <dd>
-                        <div className="text-lg font-medium text-gray-900">{paper.title + " " + paper.type + " Paper"}</div>
+                        <div className="text-lg font-medium text-gray-900">{paper?.title + " " + paper?.examType + " Paper"}</div>
                       </dd>
                     </dl>
                   </div>
@@ -338,7 +336,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                 <div className="flex items-center justify-between">
                   <div className="text-sm">
                     <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                      {paper.level}
+                      {paper?.level}
                     </span>
                     <span className="ml-2 text-gray-500">{paper.downloads} downloads</span>
                   </div>

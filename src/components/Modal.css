@@ -187,3 +187,9 @@
       padding: 1rem;
     }
   }
+  .x{
+    border: 1px solid #ddd;
+  }
+  .x:focus-within{
+    border-color: var(--primary);
+  }
