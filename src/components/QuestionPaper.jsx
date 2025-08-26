@@ -45,6 +45,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     })
     const link = document.createElement("a");
     link.href = `${paper.paper_url}`;
+    link.download=`${paper.subject}_${paper.examType}.pdf`
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
