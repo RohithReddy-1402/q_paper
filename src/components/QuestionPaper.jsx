@@ -1,7 +1,7 @@
 import { title } from 'framer-motion/client';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import {getFileViewUrl} from "../services/appWrite"
+import { getFileViewUrl, getFileDownloadUrl } from "../services/appWrite"
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
 
   const [activeTab, setActiveTab] = useState('all');
@@ -42,10 +42,16 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
         'Content-Type': 'application/json',
       },
     })
+    const link = document.createElement("a");
+    link.href = getFileDownloadUrl(paper.paper_id);
+    link.setAttribute("download",`${paper.title} - ${paper.examType}`); 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
     
-    window.location.href = `https://back-u7se.onrender.com/papers/${paper.paper_id}/download`;
 
-    
+
+
   };
   const handleDisplay = (event, fileId) => {
     if (!fileId) {
