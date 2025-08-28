@@ -79,7 +79,7 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
     const handleDelete = async () => {
         if (window.confirm('Are you sure you want to delete this paper?')) {
             setQuestionPapers(papers => papers.filter(paper => paper.id !== selectedPaper.id));
-            const result = await fetch(`http://localhost:3001/deletepaper/${selectedPaper.fileId}`, {
+            const result = await fetch(`https://back-u7se.onrender.com/deletepaper/${selectedPaper.fileId}`, {
                 method: "DELETE"
             });
         }
