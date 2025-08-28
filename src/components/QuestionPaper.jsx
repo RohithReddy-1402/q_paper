@@ -29,9 +29,9 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     nav('/')
   }
 
-  const handleDownload = async (event, paperId) => {
+  const handleDownload = async (event, paper) => {
     event.stopPropagation();
-    if (!paperId) {
+    if (!paper.paper_id) {
       alert("Download link not available for this paper.");
       return;
     }
@@ -334,7 +334,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                     <span className="ml-2 text-gray-500">{paper.downloads} downloads</span>
                   </div>
                   <button
-                    onClick={(e) => handleDownload(e, paper.paper_id)}
+                    onClick={(e) => handleDownload(e, paper)}
                     className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium cursor-pointer rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                   >
                     Download
