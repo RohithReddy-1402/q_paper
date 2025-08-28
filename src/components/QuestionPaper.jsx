@@ -1,6 +1,7 @@
 import { title } from 'framer-motion/client';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import {getFileViewUrl} from "../services/appWrite"
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
 
   const [activeTab, setActiveTab] = useState('all');
@@ -23,16 +24,14 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     }
     fetchPapers();
   }, [])
-  useEffect(() => {
-    console.log(questionPapers);
-  }, [questionPapers])
+
   const handleNav = () => {
     nav('/')
   }
 
-  const handleDownload = async (event, paper) => {
+  const handleDownload = async (event, paperId) => {
     event.stopPropagation();
-    if (!paper.paper_id) {
+    if (!paperId) {
       alert("Download link not available for this paper.");
       return;
     }
@@ -43,7 +42,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
         'Content-Type': 'application/json',
       },
     })
-    console.log(res);
+    
     window.location.href = `https://back-u7se.onrender.com/papers/${paper.paper_id}/download`;
 
     
@@ -53,11 +52,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
       alert("Download link not available for this paper.");
       return;
     }
-    const link = document.createElement("a");
-    link.href = `https://drive.google.com/file/d/${fileId}/preview`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    const link = getFileViewUrl(fileId);
+    window.open(link, "_blank");
   };
   const handleiconclick = () => {
     const dropdown = document.getElementById("userDropdown");
@@ -309,7 +305,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filteredPapers.map((paper) => (
-            <div key={paper.paper_id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.idLink)}>
+            <div key={paper.paper_id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.paper_id)}>
               <div className="p-5 h-7/10">
                 <div className="flex items-center">
                   <div className="flex-shrink-0 bg-blue-500 rounded-md p-3">
@@ -338,7 +334,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                     <span className="ml-2 text-gray-500">{paper.downloads} downloads</span>
                   </div>
                   <button
-                    onClick={(e) => handleDownload(e, paper)}
+                    onClick={(e) => handleDownload(e, paper.paper_id)}
                     className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium cursor-pointer rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                   >
                     Download
