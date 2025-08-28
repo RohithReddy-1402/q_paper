@@ -76,10 +76,12 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
         setSelectedPaper(null);
     };
 
-    const handleDelete = () => {
+    const handleDelete = async () => {
         if (window.confirm('Are you sure you want to delete this paper?')) {
             setQuestionPapers(papers => papers.filter(paper => paper.id !== selectedPaper.id));
-            setSelectedPaper(null);
+            const result = await fetch(`http://localhost:3001/deletepaper/${selectedPaper.fileId}`, {
+                method: "DELETE"
+            });
         }
     };
     useEffect(()=>{

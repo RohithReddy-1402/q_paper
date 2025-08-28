@@ -30,27 +30,23 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     nav('/')
   }
 
-  const handleDownload = (event, paper) => {
+  const handleDownload = async (event, paper) => {
     event.stopPropagation();
     if (!paper.paper_id) {
       alert("Download link not available for this paper.");
       return;
     }
 
-    const res = fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/download`, {
-      method: 'GET',
+    const res = fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/downloadcount`, {
+      method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
       },
     })
-    const link = document.createElement("a");
-    link.href = `${paper.paper_url}`;
-    link.download=`${paper.subject}_${paper.examType}.pdf`
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    console.log(res);
+    window.location.href = `https://back-u7se.onrender.com/papers/${paper.paper_id}/download`;
 
-
+    
   };
   const handleDisplay = (event, fileId) => {
     if (!fileId) {
