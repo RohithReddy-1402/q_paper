@@ -44,11 +44,11 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     })
     const link = document.createElement("a");
     link.href = getFileDownloadUrl(paper.paper_id);
-    link.setAttribute("download",`${paper.title} - ${paper.examType}`); 
+    link.setAttribute("download", `${paper.title} - ${paper.examType}`);
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    
+
 
 
 
@@ -74,25 +74,27 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   const filteredPapers = questionPapers.filter(paper => {
     const matchesSearch = paper.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       paper.subject.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesSemester = selectedSemester === 'all' || paper.semester === selectedSemester;
-    const matchesYear = selectedYear === 'all' || paper.year === parseInt(selectedYear);
-    const matchesType = selectedType === 'all' || paper.type === selectedType;
+    const matchesSemester = selectedSemester === 'all' || paper.sem === selectedSemester.split('-')[1];
+
+    const matchesYear = selectedYear === 'all' || parseInt(paper.year) === parseInt(selectedYear);
+    const matchesType = selectedType === 'all' || paper.examType === selectedType;
 
     if (activeTab === 'all') return matchesSearch && matchesSemester && matchesYear && matchesType;
     if (activeTab === 'recent') return paper.year >= 2023 && matchesSearch && matchesSemester && matchesYear && matchesType;
     if (activeTab === 'popular') return paper.downloads > 1000 && matchesSearch && matchesSemester && matchesYear && matchesType;
-    if (activeTab === 'mid_1') return paper.type === 'mid_1' && matchesSearch && matchesSemester && matchesYear;
-    if (activeTab === 'mid_2') return paper.type === 'mid_2' && matchesSearch && matchesSemester && matchesYear;
-    if (activeTab === 'Sem') return paper.type === 'Sem' && matchesSearch && matchesSemester && matchesYear;
+    if (activeTab === 'Mid-1') return paper.examType === 'Mid-1' && matchesSearch && matchesSemester && matchesYear;
+    if (activeTab === 'Mid-2') return paper.examType === 'Mid-2' && matchesSearch && matchesSemester && matchesYear;
+    if (activeTab === 'Sem') return paper.examType === 'Sem' && matchesSearch && matchesSemester && matchesYear;
 
 
     return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSearch && matchesSemester && matchesYear && matchesType;
   });
 
-  const subjects = [...new Set(questionPapers.map(paper => paper.subject))];
-  const semesters = ['sem_1', 'sem_2', 'sem_3', 'sem_4', 'sem_5', 'sem_6', 'sem_7', 'sem_8'];
 
-  const additionalTabs = ['Sem', 'mid_1', 'mid_2'];
+  const subjects = [...new Set(questionPapers.map(paper => paper.subject))];
+  const semesters = ['Sem-1', 'Sem-2', 'Sem-3', 'Sem-4', 'Sem-5', 'Sem-6', 'Sem-7', 'Sem-8'];
+
+  const additionalTabs = ['Sem', 'Mid-1', 'Mid-2'];
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -171,10 +173,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   <option value="all">All Semesters</option>
                   {semesters.map(semester => (
                     <option key={semester} value={semester}>
-                      {semester.includes('sem') ?
-                        `Semester ${semester.split('_')[1]}` :
-                        `Mid-Term ${semester.split('_')[1]}`
-                      }
+                      {semester}
                     </option>
                   ))}
                 </select>
@@ -257,7 +256,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
                   className={`${activeTab === tab ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'} whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm`}
                   onClick={() => setActiveTab(tab)}
                 >
-                  {tab === 'sem' ? 'Semester' : `${tab.charAt(0).toUpperCase() + tab.slice(1)}`}
+                  {tab === 'Sem' ? 'Semester' : `${tab.charAt(0).toUpperCase() + tab.slice(1)}`}
                 </button>
               ))}
 
@@ -279,8 +278,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
             <div className="text-sm text-gray-500">Active filters:</div>
             {selectedSemester !== 'all' && (
               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                {selectedSemester.includes('sem') ?
-                  `Semester ${selectedSemester.split('_')[1]}` :
+                {selectedSemester.includes('Sem') ?
+                  `Semester ${selectedSemester.split('-')[1]}` :
                   `Mid-Term ${selectedSemester.split('_')[1]}`
                 }
                 <button
