@@ -29,8 +29,8 @@ function App_main() {
             credentials: "include",
           });
           const data = await response.json();
-          const userData = { email: data.user.email, name: data.user.name };
-    
+          const userData = { email: data.user.email, name: data.user.name, role: data.user.role };
+
           setUser(userData);
           setIsLoggedIn(true);
         } catch (error) {
