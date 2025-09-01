@@ -2,6 +2,7 @@ import { title } from 'framer-motion/client';
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getFileViewUrl, getFileDownloadUrl } from "../services/appWrite"
+import { useToast } from './ToastContext';
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
 
   const [activeTab, setActiveTab] = useState('all');
@@ -10,6 +11,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   const [selectedType, setSelectedType] = useState('all');
   const [selectedYear, setSelectedYear] = useState('all');
   const nav = useNavigate();
+   const { addToast } = useToast();
   const [questionPapers, setQuestionPapers] = useState([]);
   useEffect(() => {
     async function fetchPapers() {
@@ -48,6 +50,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+    addToast(`${paper.title} - ${paper.examType} downloaded successfully.`, 'success');
 
 
 
