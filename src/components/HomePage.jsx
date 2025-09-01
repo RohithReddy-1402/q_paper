@@ -144,7 +144,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
       </header>
       <main className="flex-1 relative z-10 flex flex-col lg:flex-row px-8 py-12">
         <div className={`w-full lg:w-${user?.role === "admin" ? "6/10" : "1/2"} flex flex-col xl:pl-48 justify-center items-center lg:items-start space-y-8 mb-12 lg:mb-0`}>
-          <div className={`text-center lg:text-left max-w-${user?.role==="admin"?"3xl":"lg"}`}>
+          <div className={`text-center lg:text-left max-w-${user?.role==="admin"?"2xl":"lg"}`}>
             <h2 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent leading-tight">
               NIT KKR Previous Year Question Papers
             </h2>
@@ -152,7 +152,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
               Access previous question papers and contribute to help fellow students excel in their academic journey.
             </p>
 
-            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+            <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 lg:min-h-20">
               <button
                 onClick={handleQuestionPapers}
                 onMouseEnter={() => setActiveHover('papers')}
@@ -187,14 +187,14 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
               {user?.role==="admin"&&<button
                 onClick={handleVerifyPapers}
                 onMouseEnter={() => setActiveHover('special')}
-                onMouseLeave={() => setActiveHover(null)} handleThirdAction
+                onMouseLeave={() => setActiveHover(null)} 
                 className="relative overflow-hidden not-md:w-full bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white 
         px-6 py-4 rounded-xl shadow-lg hover:shadow-2xl group transition-all duration-300 w-80
         hover:scale-105 transform"
               >
                 <div className="flex items-center justify-center space-x-3 relative z-10">
                   <Star className={`w-6 h-6 transition-all duration-300 ${activeHover === 'special' ? 'transform rotate-180' : ''}`} />
-                  <span className="font-semibold text-lg">Premium Features</span>
+                  <span className="font-semibold text-lg">Verify Papers</span>
                   <ArrowRight className={`w-5 h-5 transition-all duration-300 opacity-0 ${activeHover === 'special' ? 'transform translate-x-1 opacity-100' : ''}`} />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 via-orange-400 to-pink-400 opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
