@@ -38,7 +38,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
       return;
     }
 
-    const res = fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/downloadcount`, {
+    const res = await fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/downloadcount`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
@@ -56,18 +56,18 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
 
 
   };
-  const handleDisplay = (event, fileId) => {
-    if (!fileId) {
+  const handleDisplay = async(event,paper) => {
+    if (!paper.paper_id) {
       alert("Download link not available for this paper.");
       return;
     }
-    const res = fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/downloadcount`, {
+    const res = await fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/downloadcount`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
       },
     })
-    const link = getFileViewUrl(fileId);
+    const link = getFileViewUrl(paper.paper_id);
     window.open(link, "_blank");
   };
   const handleiconclick = () => {
@@ -319,7 +319,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filteredPapers.map((paper) => (
-            <div key={paper.paper_id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.paper_id)}>
+            <div key={paper.paper_id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper)}>
               <div className="p-5 h-7/10">
                 <div className="flex items-center">
                   <div className="flex-shrink-0 bg-blue-500 rounded-md p-3">
