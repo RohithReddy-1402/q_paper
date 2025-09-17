@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getFileViewUrl, getFileDownloadUrl } from "../services/appWrite"
 import { useToast } from './ToastContext';
-const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
+const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading }) => {
 
   const [activeTab, setActiveTab] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
@@ -16,16 +16,20 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
   useEffect(() => {
     async function fetchPapers() {
       try {
+        isLoading();
         const res = await fetch("https://back-u7se.onrender.com/papers");
+        if (!res.ok) throw new Error("Failed to fetch papers");
         const data = await res.json();
         setQuestionPapers(data);
-
       } catch (err) {
+        setError(err.message);
         console.error("Error fetching papers:", err);
+      } finally {
+        onLoadClose()
       }
     }
     fetchPapers();
-  }, [])
+  }, []);
 
   const handleNav = () => {
     nav('/')

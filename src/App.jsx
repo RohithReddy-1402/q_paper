@@ -98,7 +98,8 @@ function App_main() {
           />
           <Route
             path="/papers"
-            element={<QuestionPapersInterface isLoggedIn={isLoggedIn} user={user} onLoginClick={handleLoginPage} onLogout={handleLogout} />}
+            element={<QuestionPapersInterface isLoggedIn={isLoggedIn} user={user} onLoginClick={handleLoginPage} onLogout={handleLogout} onLoadClose={() => setIsLoad(false)}
+          isLoading={handleLoading}/>}
           />
           <Route
             path='/contribute'
