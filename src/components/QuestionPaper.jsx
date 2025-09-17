@@ -61,6 +61,12 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout }) => {
       alert("Download link not available for this paper.");
       return;
     }
+    const res = fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/downloadcount`, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
     const link = getFileViewUrl(fileId);
     window.open(link, "_blank");
   };
