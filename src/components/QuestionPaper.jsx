@@ -11,7 +11,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
   const [selectedType, setSelectedType] = useState('all');
   const [selectedYear, setSelectedYear] = useState('all');
   const nav = useNavigate();
-   const { addToast } = useToast();
+  const { addToast } = useToast();
   const [questionPapers, setQuestionPapers] = useState([]);
   useEffect(() => {
     async function fetchPapers() {
@@ -84,9 +84,9 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
 
   const years = [...new Set(questionPapers.map(paper => paper.year))].sort((a, b) => b - a);
 
-  const filteredPapers = questionPapers.filter(paper => {
+  let filteredPapers = questionPapers.filter(paper => {
     const matchesSearch = paper.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      paper.subject.toLowerCase().includes(searchQuery.toLowerCase());
+      paper.subject.toLowerCase().includes(searchQuery.toLowerCase()) || paper.subjectCode.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesSemester = selectedSemester === 'all' || paper.sem === selectedSemester.split('-')[1];
 
     const matchesYear = selectedYear === 'all' || parseInt(paper.year) === parseInt(selectedYear);
@@ -94,7 +94,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
 
     if (activeTab === 'all') return matchesSearch && matchesSemester && matchesYear && matchesType;
     if (activeTab === 'recent') return paper.year >= 2023 && matchesSearch && matchesSemester && matchesYear && matchesType;
-    if (activeTab === 'popular') return paper.downloads > 1000 && matchesSearch && matchesSemester && matchesYear && matchesType;
+    if (activeTab === 'popular') return matchesSearch && matchesSemester && matchesYear && matchesType;
     if (activeTab === 'Mid-1') return paper.examType === 'Mid-1' && matchesSearch && matchesSemester && matchesYear;
     if (activeTab === 'Mid-2') return paper.examType === 'Mid-2' && matchesSearch && matchesSemester && matchesYear;
     if (activeTab === 'Sem') return paper.examType === 'Sem' && matchesSearch && matchesSemester && matchesYear;
@@ -102,6 +102,9 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
 
     return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSearch && matchesSemester && matchesYear && matchesType;
   });
+  if (activeTab === 'popular') {
+    filteredPapers = filteredPapers.sort((a, b) => b.downloads - a.downloads);
+  }
 
 
   const subjects = [...new Set(questionPapers.map(paper => paper.subject))];
@@ -164,7 +167,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
             <div className="relative rounded-md shadow-sm flex-grow">
               <input
                 type="text"
-                placeholder="Search question papers..."
+                placeholder="Search question papers... (Name , Subject Code)"
                 className="block w-full rounded-md border-gray-300 pl-4 pr-10 py-3 focus:border-blue-500 focus:ring-blue-500 text-gray-900"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -248,7 +251,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
                 className={`${activeTab === 'all' ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'} whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm`}
                 onClick={() => setActiveTab('all')}
               >
-                All Papers
+                All Papers ({questionPapers.length})
               </button>
               <button
                 className={`${activeTab === 'recent' ? 'border-blue-500 text-blue-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700'} whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm`}
@@ -334,9 +337,10 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
                   <div className="ml-5 w-0 flex-1">
                     <dl>
                       <dt className="text-sm font-medium text-gray-500 truncate">
-                        {paper?.subject} ({paper?.year}) - {paper?.subjectCode} SEM - {paper?.sem}
+                        Sem - {paper?.sem} <span className='text-xl font-bold text-black'>- -</span> {paper?.subjectCode} <span className='text-xl text-black font-bold'>- -</span> ( {paper?.year} )
                       </dt>
                       <dd>
+                        {/* <div className='text-lg font-medium text-gray-900'>Sem - {paper?.sem}</div> */}
                         <div className="text-lg font-medium text-gray-900">{paper?.title + " " + paper?.examType + " Paper"}</div>
                       </dd>
                     </dl>
