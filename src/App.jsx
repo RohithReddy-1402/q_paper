@@ -16,7 +16,7 @@ function App_main() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
-  const [isSignUpPageOpen, setSignUpPageOpen] = useState(false);
+    
   const [isForgotPass, setIsForgotPass] = useState(false);
   const [isLoad, setIsLoad] = useState(false);
   const [ContributeModalOpen, setContributeModalOpen] = useState(false);

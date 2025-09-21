@@ -13,6 +13,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
   const nav = useNavigate();
   const { addToast } = useToast();
   const [questionPapers, setQuestionPapers] = useState([]);
+  const [downloadCounts, setDownloadCounts] = useState(0);
   useEffect(() => {
     async function fetchPapers() {
       try {
@@ -99,13 +100,17 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
     if (activeTab === 'Mid-2') return paper.examType === 'Mid-2' && matchesSearch && matchesSemester && matchesYear;
     if (activeTab === 'Sem') return paper.examType === 'Sem' && matchesSearch && matchesSemester && matchesYear;
 
-
+    setDownloadCounts(prev => prev + paper.downloads)
     return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSearch && matchesSemester && matchesYear && matchesType;
   });
   if (activeTab === 'popular') {
     filteredPapers = filteredPapers.sort((a, b) => b.downloads - a.downloads);
   }
-
+  const totalDownloads = filteredPapers.reduce(
+    (sum, paper) => sum + paper.downloads,
+    0
+  );
+  console.log(totalDownloads)
 
   const subjects = [...new Set(questionPapers.map(paper => paper.subject))];
   const semesters = ['Sem-1', 'Sem-2', 'Sem-3', 'Sem-4', 'Sem-5', 'Sem-6', 'Sem-7', 'Sem-8'];
