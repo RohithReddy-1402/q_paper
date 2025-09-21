@@ -87,7 +87,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
 
   let filteredPapers = questionPapers.filter(paper => {
     const matchesSearch = paper.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      paper.subject.toLowerCase().includes(searchQuery.toLowerCase()) || paper.subjectCode.toLowerCase().includes(searchQuery.toLowerCase());
+      paper.subject.toLowerCase().includes(searchQuery.toLowerCase()) || paper.subjectCode.toLowerCase().includes(searchQuery.toLowerCase())||paper.subjectCode.replace("-","").includes(searchQuery.toLowerCase());
     const matchesSemester = selectedSemester === 'all' || paper.sem === selectedSemester.split('-')[1];
 
     const matchesYear = selectedYear === 'all' || parseInt(paper.year) === parseInt(selectedYear);

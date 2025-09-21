@@ -16,31 +16,31 @@ function App_main() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
-    
+  const [isSignUpPageOpen, setSignUpPageOpen] = useState(false);
   const [isForgotPass, setIsForgotPass] = useState(false);
   const [isLoad, setIsLoad] = useState(false);
   const [ContributeModalOpen, setContributeModalOpen] = useState(false);
   const { addToast } = useToast();
   useEffect(() => {
-      const checkAuth = async () => {
-        try {
-          const response = await fetch("https://back-u7se.onrender.com/auth/check", {
-            method: "GET",
-            credentials: "include",
-          });
-          const data = await response.json();
-          const userData = { email: data.user.email, name: data.user.name, role: data.user.role };
+    const checkAuth = async () => {
+      try {
+        const response = await fetch("https://back-u7se.onrender.com/auth/check", {
+          method: "GET",
+          credentials: "include",
+        });
+        const data = await response.json();
+        const userData = { email: data.user.email, name: data.user.name, role: data.user.role };
 
-          setUser(userData);
-          setIsLoggedIn(true);
-        } catch (error) {
-          throw error;
-        }
-      };
-  
-      checkAuth();
-    }, []);
-   
+        setUser(userData);
+        setIsLoggedIn(true);
+      } catch (error) {
+        throw error;
+      }
+    };
+
+    checkAuth();
+  }, []);
+
   const handleLoginPage = () => {
 
     setSignUpPageOpen(false);
@@ -68,19 +68,19 @@ function App_main() {
     setLoginModalOpen(false);
   };
 
-  const handleLogout =async () => {
+  const handleLogout = async () => {
     addToast("Logout Successful", "success")
     setUser(null);
-    
+
 
     setIsLoggedIn(false);
     const response = await fetch("https://back-u7se.onrender.com/logout", {
-        method: "POST",
-        credentials: "include",
-        headers: { "Content-Type": "application/json" }
-      });
-      const data = await response.json();
-      
+      method: "POST",
+      credentials: "include",
+      headers: { "Content-Type": "application/json" }
+    });
+    const data = await response.json();
+
   };
 
   useEffect(() => {
@@ -99,13 +99,13 @@ function App_main() {
           <Route
             path="/papers"
             element={<QuestionPapersInterface isLoggedIn={isLoggedIn} user={user} onLoginClick={handleLoginPage} onLogout={handleLogout} onLoadClose={() => setIsLoad(false)}
-          isLoading={handleLoading}/>}
+              isLoading={handleLoading} />}
           />
           <Route
             path='/contribute'
-            element={<ContributeModal onClose={() => setContributeModalOpen(false)} isContributeOpen={ContributeModalOpen} user={user}/>}
+            element={<ContributeModal onClose={() => setContributeModalOpen(false)} isContributeOpen={ContributeModalOpen} user={user} />}
           />
-          <Route path='/verifypaper' element={<QuestionPapersVerification isLoading={handleLoading}  onLoadClose={() => setIsLoad(false)}/>} />
+          <Route path='/verifypaper' element={<QuestionPapersVerification isLoading={handleLoading} onLoadClose={() => setIsLoad(false)} />} />
         </Routes>
         <Analytics />
         <Loading isLoadingOpen={isLoad} />
@@ -130,15 +130,15 @@ const App = () => {
     <ToastProvider>
       <GoogleOAuthProvider clientId='339051675114-aaha2bnjsut4rat31u31c72rrl916elu.apps.googleusercontent.com'>
         <HelmetProvider>
-        <Helmet>
-          <title>NIT KKR Previous Papers</title>
-          <meta name="description" content="Access Previous Papers of NIT Kurukshetra , To Work and acheive the best Grade in your exams ." />
-          <meta name="keywords" content="QPaper, past papers, exam prep, CBSE, SSC, study materials,students,NIT KKR, NIT Kurukshetra, NIT previous papers,NIT KKR Question Papers, NIT Kurukshetra Question Papers" />
-        </Helmet>
-      </HelmetProvider>
+          <Helmet>
+            <title>NIT KKR Previous Papers</title>
+            <meta name="description" content="Access Previous Papers of NIT Kurukshetra , To Work and acheive the best Grade in your exams ." />
+            <meta name="keywords" content="QPaper, past papers, exam prep, CBSE, SSC, study materials,students,NIT KKR, NIT Kurukshetra, NIT previous papers,NIT KKR Question Papers, NIT Kurukshetra Question Papers" />
+          </Helmet>
+        </HelmetProvider>
 
-      <App_main />
-    </GoogleOAuthProvider>
+        <App_main />
+      </GoogleOAuthProvider>
     </ToastProvider >
   )
 }
