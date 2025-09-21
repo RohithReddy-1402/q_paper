@@ -21,6 +21,9 @@ function App_main() {
   const [isLoad, setIsLoad] = useState(false);
   const [ContributeModalOpen, setContributeModalOpen] = useState(false);
   const { addToast } = useToast();
+  const [papersLength,setPapersLength]=useState(0);
+  const [downloadCount,setDownloadCounts]=useState(0);
+  const [questionPapers,setQuestionPapers]=useState([]);
   useEffect(() => {
     const checkAuth = async () => {
       try {
@@ -40,7 +43,22 @@ function App_main() {
 
     checkAuth();
   }, []);
-
+  useEffect(() => {
+    async function fetchPapers() {
+      try {
+        const res = await fetch("https://back-u7se.onrender.com/papers");
+        if (!res.ok) throw new Error("Failed to fetch papers");
+        const data = await res.json();
+        setQuestionPapers(data);
+      } catch (err) {
+        setError(err.message);
+        console.error("Error fetching papers:", err);
+      } finally {
+        
+      }
+    }
+    fetchPapers();
+  }, []);
   const handleLoginPage = () => {
 
     setSignUpPageOpen(false);
@@ -82,11 +100,6 @@ function App_main() {
     const data = await response.json();
 
   };
-
-  useEffect(() => {
-  }, [isLoginModalOpen]);
-
-
   return (
 
     <ToastProvider>
@@ -94,12 +107,12 @@ function App_main() {
         <Routes>
           <Route
             path="/"
-            element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} user={user} onLogin={handleLogin} onLogout={handleLogout} onSignUpClick={handleSignUpPage} onContributeClick={() => setContributeModalOpen(true)} />}
+            element={<Home isLoggedIn={isLoggedIn} onLoginClick={handleLoginPage} user={user} onLogin={handleLogin} onLogout={handleLogout} onSignUpClick={handleSignUpPage} onContributeClick={() => setContributeModalOpen(true)} papersLength={papersLength} downloadCount={downloadCount} questionPapers={questionPapers}/>}
           />
           <Route
             path="/papers"
             element={<QuestionPapersInterface isLoggedIn={isLoggedIn} user={user} onLoginClick={handleLoginPage} onLogout={handleLogout} onLoadClose={() => setIsLoad(false)}
-              isLoading={handleLoading} />}
+              isLoading={handleLoading} setDownloadCounts={setDownloadCounts} setPapersLength={setPapersLength} questionPapers={questionPapers}/>}
           />
           <Route
             path='/contribute'

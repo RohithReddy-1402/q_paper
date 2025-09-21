@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Lock, BookOpen, Upload, User, KeyRound, LogOut, Book, Briefcase, ArrowRight, Star } from 'lucide-react';
+import { Lock, BookOpen, Upload, User, KeyRound, LogOut, Book, Briefcase, ArrowRight, Star, Download } from 'lucide-react';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
-const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpClick, onContributeClick }) => {
+const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpClick, onContributeClick,questionPapers }) => {
   const [activeHover, setActiveHover] = useState(null);
 
 
@@ -11,7 +11,8 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
   const { addToast } = useToast();
 
 
-
+  const [downloadCount, setDownloadCounts] = useState(0)
+  const [papersLength, setPapersLength] = useState(0)
   const [showWelcome, setShowWelcome] = useState(() => {
     return !localStorage.getItem('welcomeShown');
   });
@@ -45,6 +46,14 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
   const handleiconclick = () => {
     if (dropdownRef.current) dropdownRef.current.classList.toggle('hidden');
   }
+  useEffect(() => {
+    const totalDownloads = questionPapers.reduce(
+      (sum, paper) => sum + paper.downloads,
+      0
+    );
+    setDownloadCounts(totalDownloads);
+    setPapersLength(questionPapers.length);
+  }, [questionPapers])
 
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50">
@@ -144,7 +153,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
       </header>
       <main className="flex-1 relative z-10 flex flex-col lg:flex-row px-8 py-12">
         <div className={`w-full lg:w-${user?.role === "admin" ? "6/10" : "1/2"} flex flex-col xl:pl-48 justify-center items-center lg:items-start space-y-8 mb-12 lg:mb-0`}>
-          <div className={`text-center lg:text-left max-w-${user?.role==="admin"?"2xl":"lg"}`}>
+          <div className={`text-center lg:text-left max-w-${user?.role === "admin" ? "2xl" : "lg"}`}>
             <h2 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent leading-tight">
               NIT KKR Previous Year Question Papers
             </h2>
@@ -184,10 +193,10 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
                 <div className="absolute inset-0 bg-indigo-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
                 {!isLoggedIn && <Lock className="absolute top-2 right-2 w-4 h-4 text-indigo-500/70" />}
               </button>
-              {user?.role==="admin"&&<button
+              {user?.role === "admin" && <button
                 onClick={handleVerifyPapers}
                 onMouseEnter={() => setActiveHover('special')}
-                onMouseLeave={() => setActiveHover(null)} 
+                onMouseLeave={() => setActiveHover(null)}
                 className="relative overflow-hidden not-md:w-full bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white 
         px-6 py-4 rounded-xl shadow-lg hover:shadow-2xl group transition-all duration-300 w-80
         hover:scale-105 transform"
@@ -210,7 +219,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
                 <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-3">
                   <Book className="w-5 h-5 text-blue-600" />
                 </div>
-                <span className="text-lg font-semibold text-gray-800">10+</span>
+                <span className="text-lg font-semibold text-gray-800">{papersLength}</span>
               </div>
               <p className="text-gray-600 font-bold">Question Papers</p>
             </div>
@@ -218,11 +227,11 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
             <div className="bg-white/80 backdrop-blur-sm p-5 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
               <div className="flex items-center mb-2">
                 <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mr-3">
-                  <Briefcase className="w-5 h-5 text-purple-600" />
+                  <Download className="w-5 h-5 text-purple-600" />
                 </div>
-                <span className="text-lg font-semibold text-gray-800">1</span>
+                <span className="text-lg font-semibold text-gray-800">{downloadCount}</span>
               </div>
-              <p className="text-gray-600 text-center font-bold">NIT KKR</p>
+              <p className="text-gray-600 text-center font-bold">Downloads</p>
             </div>
           </div>
         </div>

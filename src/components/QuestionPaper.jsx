@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getFileViewUrl, getFileDownloadUrl } from "../services/appWrite"
 import { useToast } from './ToastContext';
-const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading }) => {
+const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading, setDownloadCounts, setPapersLength,questionPapers }) => {
 
   const [activeTab, setActiveTab] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
@@ -12,30 +12,9 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
   const [selectedYear, setSelectedYear] = useState('all');
   const nav = useNavigate();
   const { addToast } = useToast();
-  const [questionPapers, setQuestionPapers] = useState([]);
-  const [downloadCounts, setDownloadCounts] = useState(0);
-  useEffect(() => {
-    async function fetchPapers() {
-      try {
-        isLoading();
-        const res = await fetch("https://back-u7se.onrender.com/papers");
-        if (!res.ok) throw new Error("Failed to fetch papers");
-        const data = await res.json();
-        setQuestionPapers(data);
-      } catch (err) {
-        setError(err.message);
-        console.error("Error fetching papers:", err);
-      } finally {
-        onLoadClose()
-      }
-    }
-    fetchPapers();
-  }, []);
-
   const handleNav = () => {
     nav('/')
   }
-
   const handleDownload = async (event, paper) => {
     event.stopPropagation();
     if (!paper.paper_id) {
@@ -87,7 +66,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
 
   let filteredPapers = questionPapers.filter(paper => {
     const matchesSearch = paper.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      paper.subject.toLowerCase().includes(searchQuery.toLowerCase()) || paper.subjectCode.toLowerCase().includes(searchQuery.toLowerCase())||paper.subjectCode.replace("-","").includes(searchQuery.toLowerCase());
+      paper.subject.toLowerCase().includes(searchQuery.toLowerCase()) || paper.subjectCode.toLowerCase().includes(searchQuery.toLowerCase()) || paper.subjectCode.replace("-", "").toLowerCase().includes(searchQuery.toLowerCase());
     const matchesSemester = selectedSemester === 'all' || paper.sem === selectedSemester.split('-')[1];
 
     const matchesYear = selectedYear === 'all' || parseInt(paper.year) === parseInt(selectedYear);
@@ -99,19 +78,12 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
     if (activeTab === 'Mid-1') return paper.examType === 'Mid-1' && matchesSearch && matchesSemester && matchesYear;
     if (activeTab === 'Mid-2') return paper.examType === 'Mid-2' && matchesSearch && matchesSemester && matchesYear;
     if (activeTab === 'Sem') return paper.examType === 'Sem' && matchesSearch && matchesSemester && matchesYear;
-
     setDownloadCounts(prev => prev + paper.downloads)
     return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSearch && matchesSemester && matchesYear && matchesType;
   });
   if (activeTab === 'popular') {
     filteredPapers = filteredPapers.sort((a, b) => b.downloads - a.downloads);
   }
-  const totalDownloads = filteredPapers.reduce(
-    (sum, paper) => sum + paper.downloads,
-    0
-  );
-  console.log(totalDownloads)
-
   const subjects = [...new Set(questionPapers.map(paper => paper.subject))];
   const semesters = ['Sem-1', 'Sem-2', 'Sem-3', 'Sem-4', 'Sem-5', 'Sem-6', 'Sem-7', 'Sem-8'];
 
