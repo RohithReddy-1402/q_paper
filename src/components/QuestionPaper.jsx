@@ -73,7 +73,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
     const matchesType = selectedType === 'all' || paper.examType === selectedType;
 
     if (activeTab === 'all') return matchesSearch && matchesSemester && matchesYear && matchesType;
-    if (activeTab === 'recent') return paper.year >= 2023 && matchesSearch && matchesSemester && matchesYear && matchesType;
+    if (activeTab === 'recent') return matchesSearch && matchesSemester && matchesYear && matchesType;
     if (activeTab === 'popular') return matchesSearch && matchesSemester && matchesYear && matchesType;
     if (activeTab === 'Mid-1') return paper.examType === 'Mid-1' && matchesSearch && matchesSemester && matchesYear;
     if (activeTab === 'Mid-2') return paper.examType === 'Mid-2' && matchesSearch && matchesSemester && matchesYear;
@@ -83,6 +83,9 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
   });
   if (activeTab === 'popular') {
     filteredPapers = filteredPapers.sort((a, b) => b.downloads - a.downloads);
+  }
+  if(activeTab==='recent'){
+    filteredPapers=filteredPapers.reverse();
   }
   const subjects = [...new Set(questionPapers.map(paper => paper.subject))];
   const semesters = ['Sem-1', 'Sem-2', 'Sem-3', 'Sem-4', 'Sem-5', 'Sem-6', 'Sem-7', 'Sem-8'];
