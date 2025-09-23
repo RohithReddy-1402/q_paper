@@ -3,26 +3,27 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getFileViewUrl, getFileDownloadUrl } from "../services/appWrite"
 import { useToast } from './ToastContext';
-import { Download } from 'lucide-react';
-const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading, setDownloadCounts, setPapersLength,questionPapers }) => {
+import { Download, Loader2, Check } from 'lucide-react';
+const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading, setDownloadCounts, setPapersLength, questionPapers }) => {
 
   const [activeTab, setActiveTab] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSemester, setSelectedSemester] = useState('all');
   const [selectedType, setSelectedType] = useState('all');
   const [selectedYear, setSelectedYear] = useState('all');
+  const [status, setStatus] = useState("idle");
   const nav = useNavigate();
   const { addToast } = useToast();
   const handleNav = () => {
     nav('/')
   }
   const handleDownload = async (event, paper) => {
+    setStatus("loading");
     event.stopPropagation();
     if (!paper.paper_id) {
       alert("Download link not available for this paper.");
       return;
     }
-
     const res = fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/downloadcount`, {
       method: 'PATCH',
       headers: {
@@ -37,8 +38,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
     document.body.removeChild(link);
     addToast(`${paper.title} - ${paper.examType} downloaded successfully.`, 'success');
 
-
-
+    setStatus("done");
 
   };
   const handleDisplay = (event, fileId) => {
@@ -79,14 +79,14 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
     if (activeTab === 'Mid-1') return paper.examType === 'Mid-1' && matchesSearch && matchesSemester && matchesYear;
     if (activeTab === 'Mid-2') return paper.examType === 'Mid-2' && matchesSearch && matchesSemester && matchesYear;
     if (activeTab === 'Sem') return paper.examType === 'Sem' && matchesSearch && matchesSemester && matchesYear;
-    
+
     return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSearch && matchesSemester && matchesYear && matchesType;
   });
   if (activeTab === 'popular') {
     filteredPapers = filteredPapers.sort((a, b) => b.downloads - a.downloads);
   }
-  if(activeTab==='recent'){
-    filteredPapers=filteredPapers.reverse();
+  if (activeTab === 'recent') {
+    filteredPapers = filteredPapers.reverse();
   }
   const subjects = [...new Set(questionPapers.map(paper => paper.subject))];
   const semesters = ['Sem-1', 'Sem-2', 'Sem-3', 'Sem-4', 'Sem-5', 'Sem-6', 'Sem-7', 'Sem-8'];
@@ -340,7 +340,11 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
                     onClick={(e) => handleDownload(e, paper)}
                     className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium cursor-pointer rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                   >
-                    <Download className="w-5 h-5 text-purple-600" />
+                    {status === "idle" && <Download className="w-5 h-5 text-purple-800" />}
+                    {status === "loading" && <Loader2 className="w-5 h-5 text-red-600" />}
+                    {status === "done" && <Check className="w-5 h-5 text-green-600" />}
+
+
                   </button>
                 </div>
               </div>

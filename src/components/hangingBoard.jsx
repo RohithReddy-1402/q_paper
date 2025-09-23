@@ -12,7 +12,7 @@ const AutoHangingBoard = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-1/2 transform -translate-x-1/2 z-50 pointer-events-none">
+    <div className=" fixed top-0 left-1/2 transform -translate-x-1/2 z-50 pointer-events-none">
       <div 
         className="absolute top-0 left-12 w-1 bg-amber-700 origin-top transition-all duration-700 ease-out"
         style={{
@@ -40,7 +40,7 @@ const AutoHangingBoard = () => {
       )}
 
       <div 
-        className={`box relative top-20 w-64 h-16   rounded-lg shadow-lg transition-all duration-700 ease-out origin-top-left ${
+        className={`hanging-box box relative top-20 w-64 h-16   rounded-lg shadow-lg transition-all duration-700 ease-out origin-top-left ${
           isRightStringCut ? 'transform rotate-28 translate-x-2' : 'transform rotate-0'
         }`}
       >
