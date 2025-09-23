@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { getFileViewUrl, getFileDownloadUrl } from "../services/appWrite"
 import { useToast } from './ToastContext';
 import { Download, Loader2, Check } from 'lucide-react';
+import DownloadButton from './DownloadButton';
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading, setDownloadCounts, setPapersLength, questionPapers }) => {
 
   const [activeTab, setActiveTab] = useState('all');
@@ -18,7 +19,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
     nav('/')
   }
   const handleDownload = async (event, paper) => {
-    setStatus("loading");
+
     event.stopPropagation();
     if (!paper.paper_id) {
       alert("Download link not available for this paper.");
@@ -37,7 +38,10 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
     link.click();
     document.body.removeChild(link);
     addToast(`${paper.title} - ${paper.examType} downloaded successfully.`, 'success');
-
+    //  setTimeout(() => {
+    //   setStatus("loading");
+    //   setTimeout(() => setStatus("idle"), 2000);
+    // }, 2000);
     setStatus("done");
 
   };
@@ -336,16 +340,22 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
                     </span>
                     <span className="ml-2 text-gray-500">{paper.downloads} downloads</span>
                   </div>
-                  <button
-                    onClick={(e) => handleDownload(e, paper)}
-                    className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium cursor-pointer rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                  >
-                    {status === "idle" && <Download className="w-5 h-5 text-purple-800" />}
-                    {status === "loading" && <Loader2 className="w-5 h-5 text-red-600" />}
-                    {status === "done" && <Check className="w-5 h-5 text-green-600" />}
+                  {/* <button
+                      onClick={(e) => handleDownload(e, paper)}
+                      className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium cursor-pointer rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                    >
+                      {status === "idle" && <Download className="w-5 h-5 text-purple-800" />}
+                      {status === "loading" && <Loader2 className="w-5 h-5 text-red-600" />}
+                      {status === "done" && <Check className="w-5 h-5 text-green-600" />}
 
 
-                  </button>
+                    </button> */}
+                  <DownloadButton
+                    key={paper.paper_id}
+                    paper={paper}
+                    addToast={addToast}
+                    getFileDownloadUrl={getFileDownloadUrl}
+                  />
                 </div>
               </div>
             </div>
