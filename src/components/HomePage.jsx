@@ -60,7 +60,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50">
 
-      <AutoHangingBoard />
+      {/* <AutoHangingBoard /> */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-10 w-64 h-64 bg-blue-200/20 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 right-20 w-80 h-80 bg-purple-200/30 rounded-full blur-3xl"></div>
@@ -282,7 +282,7 @@ const HomePage = ({ isLoggedIn, user, onLoginClick, onLogin, onLogout, onSignUpC
           <p>© 2025 NexSphere. All rights reserved.</p>
         </div>
       </footer>
-      <CrackerShotsEffect/>
+      {/* <CrackerShotsEffect/> */}
     </div>
     
   );

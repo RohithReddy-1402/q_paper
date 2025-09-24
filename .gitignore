@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 ./backend/node_modules
 Targets.txt
+data.xlsx
+.~lock.data.xlsx#

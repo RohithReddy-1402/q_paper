@@ -32,7 +32,7 @@ function ContributeModal({ onClose, isContributeOpen, user }) {
     formData.append('paperFile', file);
     formData.append('semester', semester);
     formData.append('subCode', subCode)
-    addToast("Details sent for verification", "success")
+    
     console.log('Contributing paper:', { title, subject, year, institution, file, semester });
     try {
       const response = await storage.createFile(
@@ -40,7 +40,6 @@ function ContributeModal({ onClose, isContributeOpen, user }) {
         ID.unique(),
         file
       );
-
       console.log("Uploaded:", response.$id);
       const fileId = response.$id;
       const res = await fetch("https://back-u7se.onrender.com/upload", {
@@ -60,6 +59,7 @@ function ContributeModal({ onClose, isContributeOpen, user }) {
           mail: user.email
         })
       })
+      if(res.status===201)addToast("Details sent for verification", "success");
       console.log(res)
       onClose();
     } catch (error) {
