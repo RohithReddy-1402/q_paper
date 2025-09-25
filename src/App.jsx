@@ -116,7 +116,7 @@ function App_main() {
           />
           <Route
             path='/contribute'
-            element={<ContributeModal onClose={() => setContributeModalOpen(false)} isContributeOpen={ContributeModalOpen} user={user} />}
+            element={<ContributeModal onClose={() => setContributeModalOpen(false)} isContributeOpen={ContributeModalOpen} user={user} isLoading={handleLoading} onLoadClose={() => setIsLoad(false)}/>}
           />
           <Route path='/verifypaper' element={<QuestionPapersVerification isLoading={handleLoading} onLoadClose={() => setIsLoad(false)} />} />
         </Routes>

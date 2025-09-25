@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { sub } from 'framer-motion/client';
 import { ID } from 'appwrite';
 import { storage } from "../services/appWrite";
-function ContributeModal({ onClose, isContributeOpen, user }) {
+function ContributeModal({ onClose, isContributeOpen, user,onLoadClose,isLoading }) {
 
 
   const [title, setTitle] = useState('');
@@ -23,7 +23,7 @@ function ContributeModal({ onClose, isContributeOpen, user }) {
   const opacity = (filledFields / totalFields) * 100;
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    isLoading();
     const formData = new FormData();
     formData.append('title', title);
     formData.append('subject', subject);
@@ -32,7 +32,6 @@ function ContributeModal({ onClose, isContributeOpen, user }) {
     formData.append('paperFile', file);
     formData.append('semester', semester);
     formData.append('subCode', subCode)
-    
     console.log('Contributing paper:', { title, subject, year, institution, file, semester });
     try {
       const response = await storage.createFile(
@@ -59,9 +58,11 @@ function ContributeModal({ onClose, isContributeOpen, user }) {
           mail: user.email
         })
       })
-      if(res.status===201)addToast("Details sent for verification", "success");
+      if(res.status===201){onLoadClose();addToast("Details sent for verification", "success");}
+      else{
+        addToast("Please Upload Again , Error Occured","error")
+      }
       console.log(res)
-      onClose();
     } catch (error) {
       console.error("Upload failed:", error);
     }
@@ -76,7 +77,7 @@ function ContributeModal({ onClose, isContributeOpen, user }) {
   };
   if (!isContributeOpen) return null;
   return (
-    <div className="modal-overlay fixed inset-0 z-50 flex items-center justify-center overflow-y-auto  bg-gray-500 bg-opacity-75 transition-opacity" >
+    <div className="modal-overlay fixed inset-0 flex items-center justify-center overflow-y-auto  bg-gray-500 bg-opacity-75 transition-opacity" >
       <div className="modal contribute-modal">
         <div className="modal-header">
           <h2>Contribute Question Paper</h2>
