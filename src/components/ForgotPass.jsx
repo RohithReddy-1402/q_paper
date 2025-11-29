@@ -96,7 +96,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
     try {
       isLoading();
       if (password == confpass) {
-        const response = await fetch('https://back-u7se.onrender.com/resetpassword', {
+        const response = await fetch('https://back-6j6v.onrender.com/resetpassword', {
           method: "PUT",
           headers: { "Content-type": "application/json" },
           body: JSON.stringify({ EmailID: email, pass: password })
@@ -132,7 +132,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
     try {
       isLoading();
       const otpAsInteger = parseInt(values.join(""), 10);
-      const response = await fetch('https://back-u7se.onrender.com/otp-verify', {
+      const response = await fetch('https://back-6j6v.onrender.com/otp-verify', {
         method: "POST",
         headers: { "Content-type": "application/json" },
         body: JSON.stringify({ EmailID: email, otp: otpAsInteger })
@@ -151,7 +151,7 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
   }
   const sendOtp = async () => {
     isLoading();
-    const response = await fetch("https://back-u7se.onrender.com/forgotpassword", {
+    const response = await fetch("https://back-6j6v.onrender.com/forgotpassword", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({ EmailID: email })
