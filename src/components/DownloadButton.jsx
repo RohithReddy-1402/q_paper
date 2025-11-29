@@ -10,7 +10,7 @@ export default function DownloadButton({ paper, addToast, getFileDownloadUrl }) 
             return;
         }
         setStatus("loading");
-        const res = fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/downloadcount`, {
+        const res = fetch(`https://back-6j6v.onrender.com/papers/${paper.paper_id}/downloadcount`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
