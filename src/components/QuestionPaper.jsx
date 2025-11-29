@@ -25,7 +25,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
       alert("Download link not available for this paper.");
       return;
     }
-    const res = fetch(`https://back-u7se.onrender.com/papers/${paper.paper_id}/downloadcount`, {
+    const res = fetch(`https://back-6j6v.onrender.com/papers/${paper.paper_id}/downloadcount`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
@@ -50,7 +50,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
       alert("Download link not available for this paper.");
       return;
     }
-    const res = fetch(`https://back-u7se.onrender.com/papers/${fileId}/downloadcount`, {
+    const res = fetch(`https://back-6j6v.onrender.com/papers/${fileId}/downloadcount`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
