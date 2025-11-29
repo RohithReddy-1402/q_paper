@@ -31,7 +31,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
     try {
       isLoading();
 
-      const response = await fetch("https://back-u7se.onrender.com/login", {
+      const response = await fetch("https://back-6j6v.onrender.com/login", {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
@@ -117,7 +117,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
     e.preventDefault()
     try {
       isLoading();
-      const response = await fetch("https://back-u7se.onrender.com/register", {
+      const response = await fetch("https://back-6j6v.onrender.com/register", {
         method: "POST",
         headers: { "Content-type": "application/json" },
         body: JSON.stringify({ name: username, EmailID: email, pass: password })
