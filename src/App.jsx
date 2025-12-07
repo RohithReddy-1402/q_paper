@@ -27,7 +27,7 @@ function App_main() {
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        const response = await fetch("https://https://back-6j6v.onrender.com/auth/check", {
+        const response = await fetch("https://back-6j6v.onrender.com/auth/check", {
           method: "GET",
           credentials: "include",
         });
