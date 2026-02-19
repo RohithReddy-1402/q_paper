@@ -49,10 +49,10 @@ const HomePage = ({
   }, [showWelcome]);
 
   const handleQuestionPapers = () => {
-    nav("/papers");
+    nav("/nit-kkr/question-papers");
   };
   const handleVerifyPapers = () => {
-    nav("/verifypaper");
+    nav("/nit-kkr-pyqs/verifypaper");
   };
 
   const handleContribute = () => {
@@ -60,7 +60,7 @@ const HomePage = ({
       addToast("Please log in to Contribute", "error");
     } else {
       onContributeClick();
-      nav("/contribute");
+      nav("/nit-kkr-pyqs/contribute");
     }
   };
   const handleiconclick = () => {

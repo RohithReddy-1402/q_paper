@@ -111,7 +111,7 @@ function App_main() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/"
+            path="/nit-kkr-pyqs"
             element={
               <Home
                 isLoggedIn={isLoggedIn}
@@ -128,7 +128,7 @@ function App_main() {
             }
           />
           <Route
-            path="/papers"
+            path="/nit-kkr/question-papers"
             element={
               <QuestionPapersInterface
                 isLoggedIn={isLoggedIn}
@@ -144,7 +144,7 @@ function App_main() {
             }
           />
           <Route
-            path="/contribute"
+            path="/nit-kkr-pyqs/contribute"
             element={
               <ContributeModal
                 onClose={() => setContributeModalOpen(false)}
@@ -156,7 +156,7 @@ function App_main() {
             }
           />
           <Route
-            path="/verifypaper"
+            path="/nit-kkr-pyqs/verifypaper"
             element={
               <QuestionPapersVerification
                 isLoading={handleLoading}
@@ -200,7 +200,7 @@ const App = () => {
             />
             <meta
               name="keywords"
-              content="QPaper, past papers, exam prep, CBSE, SSC, study materials,students,NIT KKR, NIT Kurukshetra, NIT previous papers,NIT KKR Question Papers, NIT Kurukshetra Question Papers"
+              content="QPaper, past papers, exam prep, CBSE, SSC, study materials,students,NIT KKR, NIT Kurukshetra, NIT previous papers,NIT KKR Question Papers, NIT Kurukshetra Question Papers,nit kkr pyqs,pyqs,nitkkr pyqs, nitkkr papers,nit kkr papers"
             />
           </Helmet>
         </HelmetProvider>

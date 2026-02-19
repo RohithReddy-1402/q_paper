@@ -16,7 +16,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
   const nav = useNavigate();
   const { addToast } = useToast();
   const handleNav = () => {
-    nav('/')
+    nav('/nit-kkr-pyqs')
   }
   const handleDownload = async (event, paper) => {
 

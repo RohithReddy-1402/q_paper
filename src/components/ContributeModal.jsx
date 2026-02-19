@@ -70,7 +70,7 @@ function ContributeModal({ onClose, isContributeOpen, user,onLoadClose,isLoading
   };
   const handleClose = () => {
     onClose();
-    nav("/")
+    nav("/nit-kkr-pyqs")
   }
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
