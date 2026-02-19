@@ -1,5 +1,5 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useNavigate,Navigate } from "react-router-dom";
 const Home = lazy(() => import("./components/HomePage"));
 const QuestionPapersInterface = lazy(
   () => import("./components/QuestionPaper"),
@@ -28,6 +28,7 @@ function App_main() {
   const [papersLength, setPapersLength] = useState(0);
   const [downloadCount, setDownloadCounts] = useState(0);
   const [questionPapers, setQuestionPapers] = useState([]);
+
   useEffect(() => {
     const checkAuth = async () => {
       try {
@@ -110,6 +111,7 @@ function App_main() {
     <ToastProvider>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<Navigate to="/nit-kkr-pyqs" replace />} />
           <Route
             path="/nit-kkr-pyqs"
             element={
@@ -196,7 +198,7 @@ const App = () => {
             <title>NIT KKR Previous Papers</title>
             <meta
               name="description"
-              content="Access Previous Papers of NIT Kurukshetra , To Work and acheive the best Grade in your exams ."
+              content="Access Previous Papers (PYQs) of NIT Kurukshetra , To Work and acheive the best Grade in your exams ."
             />
             <meta
               name="keywords"
