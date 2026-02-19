@@ -104,7 +104,7 @@ const HomePage = ({
           <div className="flex items-center space-x-2">
             <Book className="w-8 h-8 text-indigo-600" />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              NexSphere
+              NIT KKR PYQs
             </h1>
           </div>
 
@@ -248,9 +248,9 @@ const HomePage = ({
                   />
                 </div>
                 <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
-                {!isLoggedIn && (
+                {/* {!isLoggedIn && (
                   <Lock className="absolute top-2 right-2 w-4 h-4 text-white/70" />
-                )}
+                )} */}
               </button>
 
               <button
@@ -272,9 +272,9 @@ const HomePage = ({
                   />
                 </div>
                 <div className="absolute inset-0 bg-indigo-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
-                {!isLoggedIn && (
+                {/* {!isLoggedIn && (
                   <Lock className="absolute top-2 right-2 w-4 h-4 text-indigo-500/70" />
-                )}
+                )} */}
               </button>
               {user?.role === "admin" && (
                 <button
@@ -295,9 +295,9 @@ const HomePage = ({
                     />
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-700 via-purple-500 to-purple-300 opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
-                  {!isLoggedIn && (
+                  {/* {!isLoggedIn && (
                     <Lock className="absolute top-2 right-2 w-8 h-4 text-white/70" />
-                  )}
+                  )} */}
                 </button>
               )}
             </div>
