@@ -71,7 +71,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
 
   let filteredPapers = questionPapers.filter(paper => {
     const matchesSearch = paper.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      paper.subject.toLowerCase().includes(searchQuery.toLowerCase()) || paper.subjectCode.toLowerCase().includes(searchQuery.toLowerCase()) || paper.subjectCode.replace("-", "").toLowerCase().includes(searchQuery.toLowerCase());
+      paper.subject.toLowerCase().includes(searchQuery.toLowerCase()) || paper.subjectCode.toLowerCase().includes(searchQuery.toLowerCase()) || paper.subjectCode.replace("-", "").toLowerCase().includes(searchQuery.toLowerCase())||paper.subjectCode.replace(" ","").includes(searchQuery.toLowerCase()) ;
     const matchesSemester = selectedSemester === 'all' || paper.sem === selectedSemester.split('-')[1];
 
     const matchesYear = selectedYear === 'all' || parseInt(paper.year) === parseInt(selectedYear);
@@ -115,8 +115,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
 
                   <div id="userDropdown" className="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600">
                     <div className="px-4 py-3  text-sm text-gray-900 dark:text-white">
-                      <div>{user.name}</div>
-                      <div className="font-medium truncate pt-2">{user.email}</div>
+                      <div>{user?.name}</div>
+                      <div className="font-medium truncate pt-2">{user?.email}</div>
                     </div>
                     <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
                       <li><a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a></li>
@@ -130,8 +130,8 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
                 </div>
 
                 <div className="font-medium dark:text-black ml-4">
-                  <div>{user.name}</div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400">{user.joindate || null}</div>
+                  <div>{user?.name}</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400">{user?.joindate || null}</div>
                 </div>
               </div>
             ) : (
@@ -310,7 +310,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
         )}
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredPapers.map((paper) => (
+          {filteredPapers.slice(0, 40).map((paper) => (
             <div key={paper.paper_id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.paper_id)}>
               <div className="p-5 h-7/10">
                 <div className="flex items-center">

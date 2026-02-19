@@ -54,8 +54,8 @@ function ContributeModal({ onClose, isContributeOpen, user,onLoadClose,isLoading
           subCode,
           year,
           institution,
-          name: user.name,
-          mail: user.email
+          name: user?.name,
+          mail: user?.email
         })
       })
       if(res.status===201){onLoadClose();addToast("Details sent for verification", "success");}

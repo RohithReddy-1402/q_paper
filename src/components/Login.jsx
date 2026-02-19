@@ -54,7 +54,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       onLoadClose();
       if (data.user) {
         addToast("Login successful", "success");
-        const userData = { email: data.user.EmailID, name: data.user.username };
+        const userData = { email: data.user?.EmailID, name: data.user?.username };
         onLogin(userData);
         onClose();
       } else {
@@ -85,7 +85,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
 
     const user = jwtDecode(response.credential);
     localStorage.setItem('user', JSON.stringify(user));
-    const userData = { email: user.email, name: user.name };
+    const userData = { email: user?.email, name: user?.name };
     onLogin(userData);
     onClose();
     addToast("Login Successful", "success")
@@ -105,8 +105,8 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
   const handleGoogleSignIn = async () => {
     try {
       const result = await signInWithPopup(auth, provider);
-      const user = result.user;
-      const userData={email:user.email,name:user.displayName};
+      const user = result?.user;
+      const userData={email:user?.email,name:user?.displayName};
       onLogin(userData);
       onClose();
     } catch (err) {

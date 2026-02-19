@@ -47,7 +47,7 @@ const AutoHangingBoard = () => {
         <div className="absolute -top-1 left-12 w-3 h-3 bg-gray-900 rounded-full border border-gray-600"></div>
         <div className="absolute -top-1 right-12 w-3 h-3 bg-gray-900 rounded-full border border-gray-600"></div>
         <div className="flex items-center justify-center h-full text-black font-semibold">
-          1000+ downloads
+          Happy New Year 2026
         </div>
       </div>
 

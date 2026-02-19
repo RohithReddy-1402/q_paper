@@ -2,64 +2,66 @@
 /* body{
     background: url('src/assets/star-4773.gif');
 } */
- .forgot-main{
-    width: 100%;
-    height: 100%;
-    background-color: gray;
-    z-index: 100;
-    position: absolute;
-    left: 0;
-    top: 0;
- }
- .forgot-container{
-    border-radius: 0.5rem;
-    backdrop-filter: blur(0.5rem);
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
- }
- .otp-btn{
-    border: 2px solid black;
-    border-radius: 0.5rem;
-    width: 8rem;
-    height: 3rem;
- }
+body {
+  font-family: "Roboto", sans-serif;
+}
 
+.forgot-main {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.forgot-container {
+  border-radius: 0.5rem;
+  backdrop-filter: blur(0.5rem);
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.otp-btn {
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 3rem;
+}
 
-.inputs{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}  
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .input {
-    width: 40px;
-    border: none;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
-    margin: 0 10px;
-    text-align: center;
-    font-size: 36px;
-    cursor: not-allowed;
-    pointer-events: none;
-    
+  width: 40px;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+  margin: 0 10px;
+  text-align: center;
+  font-size: 36px;
+  cursor: not-allowed;
+  pointer-events: none;
 }
-.container{
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-@media screen and (max-width:768px) {
-   .inputs{
-      margin-top: 5rem;
-   }
+@media screen and (max-width: 768px) {
+  .inputs {
+    margin-top: 5rem;
+  }
 }
 .input:focus {
-    border-bottom: 3px solid orange;
-    outline: none;
+  border-bottom: 3px solid orange;
+  outline: none;
 }
 
 .input:nth-child(1) {
-    cursor: pointer;
-    pointer-events: all;
+  cursor: pointer;
+  pointer-events: all;
 }
 .wrapper {
   width: 200px;
@@ -76,7 +78,7 @@
   background-color: black;
   left: 15%;
   transform-origin: 50%;
-  animation: circle7124 .5s alternate infinite ease;
+  animation: circle7124 0.5s alternate infinite ease;
 }
 
 @keyframes circle7124 {
@@ -100,27 +102,27 @@
 
 .circle:nth-child(2) {
   left: 45%;
-  animation-delay: .2s;
+  animation-delay: 0.2s;
 }
 
 .circle:nth-child(3) {
   left: auto;
   right: 15%;
-  animation-delay: .3s;
+  animation-delay: 0.3s;
 }
 
 .shadow_circle {
   width: 20px;
   height: 4px;
   border-radius: 50%;
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   position: absolute;
   top: 62px;
   transform-origin: 50%;
   z-index: -1;
   left: 15%;
   filter: blur(1px);
-  animation: shadow_circle046 .5s alternate infinite ease;
+  animation: shadow_circle046 0.5s alternate infinite ease;
 }
 
 @keyframes shadow_circle046 {
@@ -130,31 +132,40 @@
 
   40% {
     transform: scaleX(1);
-    opacity: .7;
+    opacity: 0.7;
   }
 
   100% {
-    transform: scaleX(.2);
-    opacity: .4;
+    transform: scaleX(0.2);
+    opacity: 0.4;
   }
 }
 
 .shadow_circle:nth-child(4) {
   left: 45%;
-  animation-delay: .2s
+  animation-delay: 0.2s;
 }
 
 .shadow_circle:nth-child(5) {
   left: auto;
   right: 15%;
-  animation-delay: .3s;
+  animation-delay: 0.3s;
 }
 
-.box{
-  box-shadow: rgba(17, 17, 26, 0.4) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+.box {
+  box-shadow: rgba(17, 17, 26, 0.4) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
   color: black;
 }
-.hanging-board{
-   backdrop-filter: blur(10px);
+.hanging-board {
+  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+}
+.year-model {
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(0.8px);
+  -webkit-backdrop-filter: blur(2px);
 }
