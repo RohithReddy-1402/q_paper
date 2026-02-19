@@ -1,5 +1,11 @@
 import React, { useState, useEffect, lazy, Suspense } from "react";
-import { BrowserRouter, Routes, Route, useNavigate,Navigate } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useNavigate,
+  Navigate,
+} from "react-router-dom";
 const Home = lazy(() => import("./components/HomePage"));
 const QuestionPapersInterface = lazy(
   () => import("./components/QuestionPaper"),
@@ -39,19 +45,27 @@ function App_main() {
             credentials: "include",
           },
         );
-        const data = await response.json();
-        const userData = {
-          email: data?.user?.email,
-          name: data?.user?.name,
-          role: data?.user?.role,
-        };
-
-        setUser(userData);
-        setIsLoggedIn(true);
-      } catch (error) {
-        if (err.response?.status !== 401) {
-          console.error(err);
+        if (!response.ok) {
+          setIsLoggedIn(false);
+          setUser(null);
+          return;
         }
+        const data = await response.json();
+        if (!data?.user) {
+          setIsLoggedIn(false);
+          setUser(null);
+          return;
+        }
+        setUser({
+          email: data.user.email,
+          name: data.user.name,
+          role: data.user.role,
+        });
+        setIsLoggedIn(true);
+      } catch (err) {
+        console.error("Auth check failed:", err);
+        setIsLoggedIn(false);
+        setUser(null);
       }
     };
 
