@@ -17,6 +17,8 @@ const ContributeModal = lazy(() => import("./components/ContributeModal"));
 const QuestionPapersVerification = lazy(
   () => import("./components/tobeVerifed"),
 );
+const ContactPage = lazy(() => import("./components/contactPage"));
+const Loginpage = lazy(() => import("./components/TerminalMode"));
 import { ToastProvider, useToast } from "./components/ToastContext";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -34,7 +36,7 @@ function App_main() {
   const [papersLength, setPapersLength] = useState(0);
   const [downloadCount, setDownloadCounts] = useState(0);
   const [questionPapers, setQuestionPapers] = useState([]);
-
+  const [mode, setMode] = useState(null);
   useEffect(() => {
     const checkAuth = async () => {
       try {
@@ -179,6 +181,11 @@ function App_main() {
                 onLoadClose={() => setIsLoad(false)}
               />
             }
+          />
+          <Route path="/nit-kkr-pyqs/contact" element={<ContactPage />} />
+          <Route
+            path="/nit-kkr-pyqs/login"
+            element={<Loginpage Mode={mode} />}
           />
         </Routes>
         <Analytics />
