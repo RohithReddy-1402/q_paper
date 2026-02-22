@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Fira+Code:wght@300;400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0a0a0a;
+  font-family: "Fira Code", "Share Tech Mono", monospace;
+}
+
+.scanlines {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 65, 0.018) 2px,
+    rgba(0, 255, 65, 0.018) 4px
+  );
+}
+
+.crt-flicker {
+  animation: flicker 8s infinite;
+}
+
+@keyframes flicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0.94;
+  }
+  94% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 0.96;
+  }
+  97% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #00ff41;
+  animation:
+    typing 0.6s steps(30, end) forwards,
+    blink-caret 0.8s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  0%,
+  100% {
+    border-color: #00ff41;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+
+.terminal-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #00ff41;
+  font-family: "Fira Code", monospace;
+  font-size: 14px;
+  caret-color: #00ff41;
+  width: 100%;
+}
+
+.terminal-input::selection {
+  background: #00ff4144;
+}
+
+.terminal-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.terminal-scrollbar::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+.terminal-scrollbar::-webkit-scrollbar-thumb {
+  background: #00ff4155;
+  border-radius: 2px;
+}
+
+.glow-text {
+  text-shadow:
+    0 0 8px #00ff41,
+    0 0 20px #00ff4166;
+}
+.glow-border {
+  box-shadow:
+    0 0 0 1px #00ff4133,
+    0 0 20px #00ff4115,
+    inset 0 0 20px #00ff410a;
+}
+
+.modal-enter {
+  animation: modalIn 0.3s ease-out forwards;
+}
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92) translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  animation: slideUp 0.4s ease forwards;
+}
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.normal-input {
+  background: #0f0f0f;
+  border: 1px solid #00ff4144;
+  color: #00ff41;
+  font-family: "Fira Code", monospace;
+  font-size: 13px;
+  padding: 10px 14px;
+  outline: none;
+  width: 100%;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+  border-radius: 2px;
+}
+.normal-input:focus {
+  border-color: #00ff41;
+  box-shadow:
+    0 0 0 1px #00ff4133,
+    0 0 12px #00ff4122;
+}
+.normal-input::placeholder {
+  color: #00ff4155;
+}
+.normal-input::selection {
+  background: #00ff4133;
+}
+
+.submit-btn {
+  background: transparent;
+  border: 1px solid #00ff41;
+  color: #00ff41;
+  font-family: "Fira Code", monospace;
+  font-size: 13px;
+  padding: 10px 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+}
+.submit-btn:hover {
+  background: #00ff4115;
+  box-shadow: 0 0 16px #00ff4144;
+  letter-spacing: 3px;
+}
+
+.mode-btn {
+  background: transparent;
+  font-family: "Fira Code", monospace;
+  font-size: 13px;
+  padding: 12px 28px;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 1px;
+}
