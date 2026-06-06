@@ -59,6 +59,9 @@ function collectFiles(node, result = []){
   }
   return result;
 }
+const login_user=(tokens)=>{
+  
+}
 const cd = (path) => {
   const resolved = resolvePath(path);
 
@@ -173,7 +176,11 @@ function processCommand(cmd, history, Mode) {
     case trimmed.startsWith("python3"):
         const tokens=trimmed.split(" ").filter(Boolean);
         const file=tokens[1];
-        
+        const res=login_user(tokens);
+        return {
+          type:"text",
+          lines:[],
+        }
     case trimmed==="ls":
     case trimmed==="ls -la":
     case trimmed==="ls --all":
