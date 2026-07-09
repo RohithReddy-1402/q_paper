@@ -1,0 +1,26 @@
+.nav-btn {
+  gap: clamp(1rem, 5vw, 2rem);
+  justify-content: center;  
+}
+.nav-btn h1:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.nav-btn h1:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: red;
+ 
+}
+
+@media (width >= 90rem /* 1024px */) {
+  .nav-btn {
+    padding-inline: calc(var(--spacing) * 40) /* 10rem = 160px */;
+  }
+}

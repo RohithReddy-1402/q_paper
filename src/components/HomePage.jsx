@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import Header from "./Header";
 import {
   Lock,
   BookOpen,
@@ -77,7 +78,6 @@ const HomePage = ({
 
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50">
-      {/* <AutoHangingBoard /> */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-10 w-64 h-64 bg-blue-200/20 rounded-full blur-3xl"></div>
         <div className="absolute bottom-20 right-20 w-80 h-80 bg-purple-200/30 rounded-full blur-3xl"></div>
@@ -91,128 +91,17 @@ const HomePage = ({
           }}
         ></div>
       </div>
+      <Header isLoggedIn={isLoggedIn} user={user} onLoginClick={onLoginClick} onLogin={onLogin} onLogout={onLogout} onSignUpClick={onSignUpClick} />
       <div
         className={`absolute inset-0 z-50  bg-indigo-600 flex items-center justify-center transition-opacity duration-1000 ease-in-out ${showWelcome ? "opacity-100" : "opacity-0 pointer-events-none"}`}
       >
+        
         <div className="text-white text-4xl font-bold flex items-center">
           <span className="mr-3">NexSphere</span>
           <Book className="w-10 h-10" />
         </div>
       </div>
-      <header className="relative z-20 w-full py-6 px-8">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <Book className="w-8 h-8 text-indigo-600" />
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              NIT KKR PYQs
-            </h1>
-          </div>
-
-          <div className="flex items-center space-x-4">
-            {!isLoggedIn ? (
-              <>
-                <button
-                  onClick={onLoginClick}
-                  className="bg-white/80 ml-8 text-indigo-600 border border-indigo-100 px-5 py-2 rounded-lg shadow-sm hover:shadow-md 
-                  transition-all duration-300 flex items-center space-x-2 hover:bg-indigo-50"
-                >
-                  <KeyRound className="w-4 h-4" />
-                  <span className="font-medium">Login</span>
-                </button>
-                <button
-                  onClick={onSignUpClick}
-                  className="bg-indigo-600 text-white px-5 py-2 hidden rounded-lg shadow-md hover:shadow-lg 
-                  transition-all duration-300 md:flex items-center space-x-2 hover:bg-indigo-700"
-                >
-                  <User className="w-4 h-4" />
-                  <span className="font-medium">Sign Up</span>
-                </button>
-              </>
-            ) : (
-              <div className="flex items-center space-x-4">
-                <div className=" px-4 py-2 rounded-lg inline-block items-center space-x-2">
-                  <div className="flex items-center">
-                    <div className="relative">
-                      <div
-                        id="avatarButton"
-                        className="relative w-10 h-10 overflow-hidden bg-gray-100 shadow-pink-200 rounded-full dark:bg-gray-600 cursor-pointer"
-                        data-dropdown-toggle="userDropdown"
-                        onClick={handleiconclick}
-                      >
-                        <svg
-                          className="absolute w-12 h-12 text-gray-400 -left-1"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </div>
-
-                      <div
-                        ref={dropdownRef}
-                        className="z-10 hidden absolute top-full left-0 mt-1 bg-white divide-y divide-gray-100 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:divide-gray-600"
-                      >
-                        <div className="px-4 py-3  text-sm text-gray-900 dark:text-white">
-                          <div>{user?.name}</div>
-                          <div className="font-medium truncate pt-2">
-                            {user?.email}
-                          </div>
-                        </div>
-                        <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
-                          <li>
-                            <a
-                              href="#"
-                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                            >
-                              Dashboard
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="#"
-                              className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                            >
-                              Settings
-                            </a>
-                          </li>
-                        </ul>
-                        <div className="py-1">
-                          <a
-                            href="#"
-                            onClick={onLogout}
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-                          >
-                            Sign out
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="font-medium dark:text-black ml-4">
-                      <div>{user?.name}</div>
-                      <div className="text-sm text-gray-500 dark:text-gray-400">
-                        {user?.joindate || null}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* <button
-                  onClick={onLogout}
-                  className="bg-indigo-600 text-white px-4 py-2 rounded-lg shadow-md hover:shadow-lg 
-                  transition-all duration-300 flex items-center space-x-2 hover:bg-indigo-700 cursor-pointer"
-                >
-                  <LogOut className="w-4 h-4" />
-                  <span className="font-medium">Logout</span>
-                </button> */}
-              </div>
-            )}
-          </div>
-        </div>
-      </header>
+      
       <main className="flex-1 relative z-10 flex flex-col lg:flex-row px-8 py-12">
         <div
           className={`w-full lg:w-${user?.role === "admin" ? "6/10" : "1/2"} flex flex-col xl:pl-48 justify-center items-center lg:items-start space-y-8 mb-12 lg:mb-0`}
@@ -374,7 +263,7 @@ const HomePage = ({
       </main>
       <footer className="relative z-10 py-6 px-8 text-center text-gray-600 bg-white/20 backdrop-blur-sm border-t border-indigo-100">
         <div className="max-w-7xl mx-auto">
-          <p>© 2025 NexSphere. All rights reserved.</p>
+          <h1>© 2026 NIT KKR PYQS. All rights reserved.</h1>
         </div>
       </footer>
       {/* <CrackerShotsEffect/> */}
