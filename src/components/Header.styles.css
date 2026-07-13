@@ -3,7 +3,7 @@
   justify-content: center;  
 }
 .nav-btn h1:hover {
-  transform: translateY(-5px);
+  transform: translateY(-2px);
   transition: all 0.3s ease-in-out;
   position: relative;
 }
