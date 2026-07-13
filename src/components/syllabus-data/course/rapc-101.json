@@ -1,0 +1,51 @@
+{
+  "Course Title": "Engineering Mechanics",
+  "Course Code": "RAPC-101",
+  "route": "course/rapc-101",
+  "credits": 4,
+  "prerequisites": "None",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 1, 0, 4],
+  "contactHours": 40,
+  "description": "This course develops an understanding of the effects of force and motion in engineering systems and introduces vector-based analytical methods for solving fundamental mechanics problems. It covers statics, kinematics, dynamics, and variational mechanics, enabling students to analyze particles, rigid bodies, structures, motion, and equilibrium using fundamental principles of engineering mechanics.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Statics",
+      "hours": 14,
+      "body": "Introduction, Statics of Particles, Rigid Bodies: Equivalent Systems of Forces, Equilibrium of Rigid Bodies, Distributed Forces: Centroids and Centers of Gravity, Moment of Inertia, Analysis of Structures: Trusses, Frames and Machines, Frictional Forces, Laws of Coulomb Friction, Applications to Wedges and Screws."
+    },
+    {
+      "id": "II",
+      "title": "Kinematics",
+      "hours": 7,
+      "body": "Kinematics of Particles in Cartesian, Cylindrical and Path Co-ordinate Systems, Kinematics of Rigid Bodies, Translation and Rotation, Relative Motion, Three-Dimensional Motion of a Particle Relative to Rotating Frame."
+    },
+    {
+      "id": "III",
+      "title": "Dynamics",
+      "hours": 15,
+      "body": "Newton's Laws of Motion for a System of Particles, Linear and Angular Momentums, Inertia Tensor, Principal Axes, Work-Energy Principle, Impulse-Momentum Principles, Dynamics of Rigid Bodies, The Inertia Tensor, Euler's Equations of Motion, Plane Motion of a Rigid Body, General Motion of a Rigid Body, Work-Energy and Impulse-Momentum Principle for Rigid Bodies, Application to Impact."
+    },
+    {
+      "id": "IV",
+      "title": "Variational Mechanics",
+      "hours": 4,
+      "body": "Method of Virtual Work, Method of Minimum Potential Energy for Conservative Systems."
+    }
+  ],
+  "outcomes": [
+    "Use scalar and vector analytical techniques for analyzing forces in statically determinate structures.",
+    "Apply fundamental concepts of kinematics of particles and rigid bodies to the analysis of simple and practical problems in mechanics.",
+    "Apply Newton's laws, Euler's equations of motion, impulse-momentum principle and work-energy principle.",
+    "Apply the method of virtual work to determine the equilibrium position of a rigid body or a system of rigid bodies."
+  ],
+  "textbooks": [],
+  "referenceBooks": [
+    "Beer, Johnston, Mazurek, Cornwell and Sanghi, \"Vector Mechanics for Engineers: Statics and Dynamics\", Eleventh Edition in SI Units, McGraw Hill Education (India) Pvt. Ltd., 2018.",
+    "P. C. Dumir, S. Sengupta and Srinivas V. Veeravalli, \"Engineering Mechanics\", University Press, 2020.",
+    "J. L. Meriam and L. G. Kraige, \"Engineering Mechanics: Statics and Dynamics\", 8th Edition, John Wiley and Sons (Asia) Pvt. Ltd., Singapore, 2002.",
+    "Irving H. Shames, \"Engineering Mechanics - Statics and Dynamics\", 4th Edition, Prentice Hall of India Pvt. Ltd., Eastern Economy Edition, 2001."
+  ]
+}

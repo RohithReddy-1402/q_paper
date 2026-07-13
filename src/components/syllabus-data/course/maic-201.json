@@ -1,0 +1,61 @@
+
+    {
+  "Course Title": "Discrete Mathematics and Statistical Methods",
+  "Course Code": "MAIC-201",
+  "route": "course/maic-201",
+  "credits": 3,
+  "prerequisites": "None",
+  "Course Type": "PC",
+  "Branch": ["CS", "IT", "AI & ML"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours":40,
+  "description": "This course provides students with a strong foundation in discrete mathematics, probability, graph theory, relations, propositions, and statistical methods. It emphasizes engineering applications of these mathematical concepts and develops analytical skills for solving practical problems in computer science and engineering.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Discrete Probability",
+      "hours": 8,
+      "body": "Basic definitions, Engineering applications of probability, Set theory, Probability Multiplication principle, Product of sums principle, Cross product of sample spaces, Theorem of Total Probability, Conditional Probability, Mutual Exclusion and Independent Events, Principle of Inclusion and Exclusion, Bayes' Rule."
+    },
+    {
+      "id": "II",
+      "title": "Discrete Random Variable & Probability Distributions",
+      "hours": 8,
+      "body": "Random variables and their event spaces, Probability Mass Function, Distribution Function, Mean and Variance of random variables, Expected value of a random variable & computation of expectation for one variable, Bernoulli's Trials & Binomial distribution, Poisson distribution, Normal distribution, Recurrence relation and their solutions."
+    },
+    {
+      "id": "III",
+      "title": "Graphs",
+      "hours": 8,
+      "body": "Basic Terminology, Multigraphs and Weighted Graphs, Paths and Circuits, Shortest Paths in Weighted Graphs, Eulerian Paths and Circuits, Hamiltonian Paths and Circuits, Planar Graphs."
+    },
+    {
+      "id": "IV",
+      "title": "Relations and Prepositions",
+      "hours": 8,
+      "body": "Binary Relations and their properties, Equivalence relations and partitions, Partial ordering relations, Linear ordering relations, Chains, Functions and Pigeonhole principle, Propositions."
+    },
+    {
+      "id": "V",
+      "title": "Statistical Methods",
+      "hours": 8,
+      "body": "Large sample tests, Procedure of testing hypothesis, Small sample tests, Student's T-test, Chi-Square test, Independence of attributes and goodness of fit."
+    }
+  ],
+  "outcomes": [
+    "Use discrete and continuous probability distributions in practical problems.",
+    "Use relations, propositions, and graph theory in practical engineering problems.",
+    "Apply statistical testing tools such as Student's T-test and Chi-square test to analyze real-life problems.",
+    "Prove mathematical theorems using mathematical induction."
+  ],
+  "textbooks": [
+    "Joe L. Mott, Abraham Kandel and Theodore P. Baker, \"Discrete Mathematics for Computer Scientists\", PHI, 2nd Edition, 2008.",
+    "J. P. Tremblay and R. Manohar, \"Discrete Mathematical Structures with Applications to Computer Science\", Tata McGraw Hill, 1st Edition, 2001.",
+    "Ronald E. Walpole, Raymond H. Myers, Sharon L. Myers, Keying Ye, \"Probability and Statistics for Engineers and Scientists\", 9th Edition, 2012."
+  ],
+  "referenceBooks": [
+    "Kolman, Busby Ross, \"Discrete Mathematics Structures\", PHI, 3rd Edition, 2001.",
+    "C. L. Liu, \"Elements of Discrete Mathematics\", Tata McGraw Hill, 2nd Edition, 1985.",
+    "Gary Haggard, J. Schlipf, S. Whitesides, \"Discrete Mathematics for Computer Science\", Cengage Learning, 1st Edition, 2005."
+  ]
+  }

@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import { useToast } from './ToastContext';
 import "./TerminalView.css"
 const COMMANDS = {
   help: {
@@ -867,19 +868,33 @@ function Field({ label, fieldKey, type, rows, formData, setFormData, focused, se
   );
 }
 
-function NormalMode({ onExit,terminalMode }) {
+function NormalMode({ onExit,terminalMode,onSelect}) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     subject: "",
     message: "",
   });
+  const {addToast}=useToast();
   const [sent, setSent] = useState(false);
   const [focused, setFocused] = useState(null);
 
-  const handleSubmit = () => {
+  const handleSubmit =async () => {
     if (formData.name && formData.email && formData.message) {
-      setSent(true);
+      const payload = { ...formData };
+      const res=await fetch("http://localhost:3001/api/contact",{
+        body:JSON.stringify(payload),
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json"
+        }
+        
+      })
+      if(res.ok){setSent(true);}
+      else {
+        addToast("Failed to send message. Please try again later.", "error");
+        onSelect("normal");
+      }
     }
   };
 
@@ -1010,7 +1025,7 @@ export default function ContactPage() {
     <>
       {mode === null && <ModeModal onSelect={setMode} />}
       {mode === "terminal" && <TerminalMode onExit={() => setMode(null)}/>}
-      {mode === "normal" && <NormalMode onExit={() => setMode(null)}terminalMode={()=>setMode("terminal")}  />}
+      {mode === "normal" && <NormalMode onSelect={setMode} onExit={() => setMode(null)}terminalMode={()=>setMode("terminal")}  />}
       {mode === null && (
         <div
           style={{

@@ -1,0 +1,122 @@
+[
+  {
+    "Course Title": "Introduction to Automation",
+    "Course Code": "RAPC-203",
+    "route": "course/rapc-203",
+    "credits": 3,
+    "prerequisites": "None",
+    "Course Type": "PC",
+    "Branch":["RA"],
+    "ltpc": [3, 0, 0, 3],
+    "contactHours": 40,
+    "description": "This course will introduce students to the fundamental principles, technologies, and applications of automation in various industries. They will build understanding of various automation components, including sensors, actuators, and control systems. Students will gain insights into the working principles of Programmable Logic Controllers (PLCs) and their role in industrial automation. Emerging future trends in automation, such as AI-driven automation, Industry 4.0, and smart manufacturing, will be discussed to prepare students for advancements in the field;",
+    "syllabus": [
+      {
+        "id": "I",
+        "title": "Introduction to Automation",
+        "hours": 6,
+        "body": "Definition and Evolution of Automation, Principles and Strategies of Automation, Basic Elements of an Automated System, Levels of Automations, Introduction to Industrial Automation, Types of Automation: Fixed, Flexible, and Programmable Automation, Challenges and Future Trends in Industrial Automation."
+      },
+      {
+        "id": "II",
+        "title": "Sensors and Actuation System",
+        "hours": 8,
+        "body": "Introduction, performance terminology-Displacement, Position and Proximity, Velocity and motion, force, Fluid Pressure-Temperature Sensors-Light Sensors-Selection of Sensors-Signal Processing. Actuation systems: Pneumatic and hydraulic systems, directional control valves, pressure control valves, cylinders, process control valves, rotary actuators. Mechanical actuation systems: types of motion, kinematics chains, cams, gear trains, ratchet and pawl, belt and chain drives, bearings, mechanical aspects of motor selection."
+      },
+      {
+        "id": "III",
+        "title": "Control Systems in Automation",
+        "hours": 6,
+        "body": "Open-Loop and Closed-Loop Control Systems, Feedback and Feedforward Control, Control System Components, Industrial Control Strategies, Introduction of Microprocessor and its Architecture, Building Blocks of Automation System: LAN, Analog & Digital I/O Modules, SCADA System & Remote Terminal Unit (RTU).",
+        "subsection": {
+          "title": "Programmable Logic Controllers",
+          "hours": 6,
+          "body": "Introduction to PLCs, PLC Architecture and Components, Programming Languages: Ladder Logic, Functional Block Diagrams, Input/Output Processing and Troubleshooting, Documenting a PLC System, Timer & Counter Instructions, PLC Applications in Industrial Automation."
+        }
+      },
+      {
+        "id": "IV",
+        "title": "Automated Manufacturing Systems",
+        "hours": 8,
+        "body": "Robotics in Manufacturing, CNC Systems, 3D Printing, IoT in Manufacturing, Smart factories, real-time monitoring, and predictive maintenance, Human-Machine Interface, Automated Assembly Lines and Flow Lines, Flexible Manufacturing Systems, Automated Inspection Principles and Methods, Sensor Technologies for Automated Inspection, Coordinate Measuring Machines, and Machine Vision systems.",
+        "subsection": {
+          "title": "Future Trends in Automation",
+          "hours": 6,
+          "body": "Industry 4.0 and Smart Manufacturing, Artificial Intelligence and Machine Learning in Automation, Digital Twins and Virtual Commissioning, Sustainable Automation Solutions, and Emerging Technologies in Automation."
+        }
+      }
+    ],
+    "outcomes": [
+      "Understand the fundamental concepts of automation and its industrial applications.",
+      "Understand the fundamentals of sensors, actuators, and PLCs in automated processes.",
+      "Develop readiness for emerging technologies such as Smart Manufacturing, Digital Twins, and Integrating automation.",
+      "Analyse and apply control system principles in automation for process optimization and efficiency.",
+      "Evaluate different automated manufacturing systems and their role in improving productivity."
+    ],
+    "textbooks": [
+      "Mikell P. Groover, \u201CAutomation, Production Systems, and Computer-Integrated Manufacturing,\u201D Pearson Education.",
+      "Frank Lamb, \u201CIndustrial Automation: Hands-On,\u201D McGraw-Hill Education.",
+      "Olushola Akande, \u201CIndustrial Automation from Scratch\u201D, Packt Publishing."
+    ]
+  },
+  {
+  "Course Title": "Discrete Mathematics and Statistical Methods",
+  "Course Code": "MAIC-201",
+  "route": "course/maic-201",
+  "credits": 3,
+  "prerequisites": "None",
+  "Course Type": "PC",
+  "Branch": ["CS", "IT", "AI & ML"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours":40,
+  "description": "This course provides students with a strong foundation in discrete mathematics, probability, graph theory, relations, propositions, and statistical methods. It emphasizes engineering applications of these mathematical concepts and develops analytical skills for solving practical problems in computer science and engineering.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Discrete Probability",
+      "hours": 8,
+      "body": "Basic definitions, Engineering applications of probability, Set theory, Probability Multiplication principle, Product of sums principle, Cross product of sample spaces, Theorem of Total Probability, Conditional Probability, Mutual Exclusion and Independent Events, Principle of Inclusion and Exclusion, Bayes' Rule."
+    },
+    {
+      "id": "II",
+      "title": "Discrete Random Variable & Probability Distributions",
+      "hours": 8,
+      "body": "Random variables and their event spaces, Probability Mass Function, Distribution Function, Mean and Variance of random variables, Expected value of a random variable & computation of expectation for one variable, Bernoulli's Trials & Binomial distribution, Poisson distribution, Normal distribution, Recurrence relation and their solutions."
+    },
+    {
+      "id": "III",
+      "title": "Graphs",
+      "hours": 8,
+      "body": "Basic Terminology, Multigraphs and Weighted Graphs, Paths and Circuits, Shortest Paths in Weighted Graphs, Eulerian Paths and Circuits, Hamiltonian Paths and Circuits, Planar Graphs."
+    },
+    {
+      "id": "IV",
+      "title": "Relations and Prepositions",
+      "hours": 8,
+      "body": "Binary Relations and their properties, Equivalence relations and partitions, Partial ordering relations, Linear ordering relations, Chains, Functions and Pigeonhole principle, Propositions."
+    },
+    {
+      "id": "V",
+      "title": "Statistical Methods",
+      "hours": 8,
+      "body": "Large sample tests, Procedure of testing hypothesis, Small sample tests, Student's T-test, Chi-Square test, Independence of attributes and goodness of fit."
+    }
+  ],
+  "outcomes": [
+    "Use discrete and continuous probability distributions in practical problems.",
+    "Use relations, propositions, and graph theory in practical engineering problems.",
+    "Apply statistical testing tools such as Student's T-test and Chi-square test to analyze real-life problems.",
+    "Prove mathematical theorems using mathematical induction."
+  ],
+  "textbooks": [
+    "Joe L. Mott, Abraham Kandel and Theodore P. Baker, \"Discrete Mathematics for Computer Scientists\", PHI, 2nd Edition, 2008.",
+    "J. P. Tremblay and R. Manohar, \"Discrete Mathematical Structures with Applications to Computer Science\", Tata McGraw Hill, 1st Edition, 2001.",
+    "Ronald E. Walpole, Raymond H. Myers, Sharon L. Myers, Keying Ye, \"Probability and Statistics for Engineers and Scientists\", 9th Edition, 2012."
+  ],
+  "referenceBooks": [
+    "Kolman, Busby Ross, \"Discrete Mathematics Structures\", PHI, 3rd Edition, 2001.",
+    "C. L. Liu, \"Elements of Discrete Mathematics\", Tata McGraw Hill, 2nd Edition, 1985.",
+    "Gary Haggard, J. Schlipf, S. Whitesides, \"Discrete Mathematics for Computer Science\", Cengage Learning, 1st Edition, 2005."
+  ]
+  }
+]

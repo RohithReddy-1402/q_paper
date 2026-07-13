@@ -14,6 +14,8 @@ const LoginModal = lazy(() => import("./components/Login"));
 const ForgotPassword = lazy(() => import("./components/ForgotPass"));
 const Loading = lazy(() => import("./components/Loading"));
 const ContributeModal = lazy(() => import("./components/ContributeModal"));
+const SyllabusPage = lazy(() => import("./components/test"));
+const Syllabus = lazy(() => import("./components/Syllabus"));
 const QuestionPapersVerification = lazy(
   () => import("./components/tobeVerifed"),
 );
@@ -173,6 +175,15 @@ function App_main() {
               />
             }
           />
+          <Route path="/nit-kkr/syllabus" element={<Syllabus isLoggedIn={isLoggedIn}
+                user={user}
+                onLoginClick={handleLoginPage}
+                onLogout={handleLogout}
+                onLoadClose={() => setIsLoad(false)}
+                isLoading={handleLoading}
+                setDownloadCounts={setDownloadCounts}
+                setPapersLength={setPapersLength}
+                questionPapers={questionPapers} />} />
           <Route
             path="/nit-kkr-pyqs/verifypaper"
             element={
@@ -187,6 +198,8 @@ function App_main() {
             path="/nit-kkr-pyqs/login"
             element={<Loginpage Mode={mode} />}
           />
+          {/* <Route path="/nit-kkr/syllabus/course/rapc-203" element={<SyllabusPage />} /> */}
+          <Route path="nit-kkr/syllabus/course/:code" element={<SyllabusPage />} />
         </Routes>
         <Analytics />
         <Loading isLoadingOpen={isLoad} />
