@@ -79,6 +79,9 @@ export default function Header({isLoggedIn,
             <Link to="/nit-kkr/question-papers">Question Papers</Link>
           </h1>
           <h1 className="cursor-pointer hover:text-blue-500">
+            <Link to="/nit-kkr/syllabus">Syllabus</Link>
+          </h1>
+          <h1 className="cursor-pointer hover:text-blue-500">
             <Link to="/nit-kkr/events">Events</Link>
           </h1>
           <h1 className="cursor-pointer hover:text-blue-500">
@@ -87,9 +90,7 @@ export default function Header({isLoggedIn,
           <h1 className="cursor-pointer hover:text-blue-500">
             <Link to="/nit-kkr-pyqs/contact">Contact</Link>
           </h1>
-          <h1 className="cursor-pointer hover:text-blue-500">
-            <Link to="/nit-kkr-pyqs/donate">Donate us</Link>
-          </h1>
+          
         </div>
         <div className="flex h-16 items-center  justify-around lg:mx-8 gap-1">
           
@@ -224,6 +225,9 @@ export default function Header({isLoggedIn,
           >
             Question Papers
           </h1>
+          <h1 onClick={() => handleNavigation("/nit-kkr/syllabus")} className="cursor-pointer hover:text-blue-500">
+            syllabus
+          </h1>
           <h1
             className="cursor-pointer hover:text-blue-500"
             onClick={() => handleNavigation("/events")}
@@ -242,12 +246,7 @@ export default function Header({isLoggedIn,
           >
             Contact
           </h1>
-          <h1
-            className="cursor-pointer hover:text-blue-500"
-            onClick={() => handleNavigation("/donate")}
-          >
-            Donate us
-          </h1>
+          
         </div>
       )}
     </main>

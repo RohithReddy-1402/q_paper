@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { getFileViewUrl, getFileDownloadUrl } from "../services/appWrite"
 import { useToast } from './ToastContext';
 import { Download, Loader2, Check } from 'lucide-react';
+import { Helmet } from "react-helmet-async";
 import DownloadButton from './DownloadButton';
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading, setDownloadCounts, setPapersLength, questionPapers }) => {
 
@@ -98,11 +99,15 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
   const additionalTabs = ['Sem', 'Mid-1', 'Mid-2'];
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-white shadow">
-        <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center">
-            <h1 onClick={handleNav} className="text-3xl font-bold text-gray-900 cursor-pointer">NIT KKR PYQs</h1>
+    <>    <Helmet>
+        <title>Question Papers</title>
+        <meta name="description" content="Download previous year question papers for NIT KKR" />
+      </Helmet>
+      <div className="min-h-screen bg-gray-50">
+        <header className="bg-white shadow">
+          <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
+            <div className="flex justify-between items-center">
+              <h1 onClick={handleNav} className="text-3xl font-bold text-gray-900 cursor-pointer">NIT KKR PYQs</h1>
 
             {isLoggedIn ? (
               <div className="flex items-center">
@@ -373,6 +378,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
         )}
       </main>
     </div>
+    </>
   );
 }
 
