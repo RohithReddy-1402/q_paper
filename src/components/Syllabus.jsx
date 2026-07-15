@@ -60,13 +60,39 @@ const questionPapers = ({
     // }, 2000);
     setStatus("done");
   };
+  useEffect(() => {
+  async function loadDownloads() {
+    try {
+      const response = await fetch("https://back-6j6v.onrender.com/api/syllabus");
+      const backendData = await response.json();
+
+      const merged = questionpapers.map((paper) => {
+        const backendPaper = backendData.find(
+          (item) => item.id === paper.id
+        );
+
+        return {
+          ...paper,
+          downloads: backendPaper?.downloadCount ?? 0
+        };
+      });
+
+      setPapers(merged);
+    } catch (error) {
+      console.error("Failed to load download counts:", error);
+    }
+  }
+
+  loadDownloads();
+}, []);
   const handleDisplay = (event, fileId) => {
+    console.log(fileId);
     if (!fileId) {
       alert("Download link not available for this paper.");
       return;
     }
     const res = fetch(
-      `https://back-6j6v.onrender.com/papers/${fileId}/downloadcount`,
+      `https://back-6j6v.onrender.com/api/syllabus/${fileId}/download`,
       {
         method: "PATCH",
         headers: {
@@ -83,7 +109,7 @@ const questionPapers = ({
   };
 
   const branches = [questionpapers.map((paper) => paper.Branch)].flat();
-  console.log(branches);
+  // console.log(branches);
   let filteredPapers = questionpapers.filter((paper) => {
     const matchesSearch =
       paper["Course Title"]
@@ -166,7 +192,7 @@ const questionPapers = ({
   ];
 
   const additionalTabs = ["Sem", "Mid-1", "Mid-2"];
-  console.log(filteredPapers[0].route);
+  // console.log(filteredPapers[0].route);
   return (
     <>
       {" "}
@@ -510,13 +536,13 @@ const questionPapers = ({
               <div
                 key={paper["Course Title"]}
                 className="bg-white overflow-hidden shadow rounded-lg cursor-pointer"
-                onClick={(e) => handleDisplay(e, paper?.["route"])}
+                onClick={(e) => handleDisplay(e, paper?.["id"])}
               >
-                <div className="p-5 h-7/10">
                   <Link
                           key={paper["Course Code"]}
                           to={`/nit-kkr/syllabus/${paper.route}`}
                         >
+                <div className="p-5 h-7/10">
                   <div className="flex items-center">
                     <div className="flex-shrink-0 bg-blue-500 rounded-md p-3">
                       <svg
@@ -557,8 +583,8 @@ const questionPapers = ({
                       </dl>
                     </div>
                   </div>
-                  </Link>
                 </div>
+                  </Link>
                 <div className="bg-gray-50 px-5 py-3">
                   <div className="flex items-center justify-between">
                     <div className="text-sm">
