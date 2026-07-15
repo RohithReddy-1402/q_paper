@@ -1,0 +1,51 @@
+{
+  "Course Title": "Introduction to Robotics",
+  "Course Code": "RAPC-211",
+  "route": "course/rapc-211",
+  "credits": 3,
+  "prerequisites": "None",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course introduces students to the fundamentals of robot design, including robot anatomy, classification and industrial applications of manipulators, direct, inverse and differential kinematics, static and dynamic modeling of robot arms, motion planning and robot control involving actuator dynamics.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Robotics, Coordinate Frames, Mapping and Transforms",
+      "hours": 10,
+      "body": "Evolution of robots and robotics, types of automation, robot anatomy, classification of robots based on drive technologies, workspace geometry and motion, control systems, robot specifications and industrial applications of robots. Coordinate frames, description of objects in space, transformation of vectors, inverting a homogeneous transform and fundamental rotation matrices."
+    },
+    {
+      "id": "II",
+      "title": "Direct and Inverse Kinematics",
+      "hours": 10,
+      "body": "Mechanical structure and notations, kinematic modeling of the manipulator, Denavit-Hartenberg notation and manipulator transformation matrix. Manipulator workspace, solvability of the inverse kinematics model, solution techniques and closed-form solutions."
+    },
+    {
+      "id": "III",
+      "title": "Manipulator Differential Motion, Statics and Dynamic Modeling",
+      "hours": 10,
+      "body": "Linear and angular velocity of a rigid body, relationship between transformation matrix and angular velocity, manipulator Jacobian, Jacobian inverse, Jacobian singularities and static analysis. Lagrangian mechanics, two-degree-of-freedom manipulator dynamic model, Lagrange-Euler formulation, Newton-Euler formulation and inverse dynamics."
+    },
+    {
+      "id": "IV",
+      "title": "Motion Planning and Control of Manipulators",
+      "hours": 10,
+      "body": "Joint-space planning, Cartesian-space planning, path primitives, Cartesian trajectories, point-to-point versus continuous-path planning. Linear control schemes, actuator dynamics and set-point tracking using PID controllers. Case studies involving Microrobot Alpha-II and 5-axis articulated robot Rhino XR3, including assignment of link frames, D-H parameters, arm matrices, end-effector motion simulation, inverse kinematics, effect of link dimensions on end-effector trajectory, Jacobian formulation and actuator torque determination."
+    }
+  ],
+  "outcomes": [
+    "Understand the concept of industrial robotics and its applications.",
+    "Understand coordinate transformations between fixed and mobile frames and solve design problems involving direct, inverse and differential kinematics.",
+    "Formulate and solve static and dynamic models of robot arms.",
+    "Understand robot control and actuator dynamics and evaluate the performance of PID controllers for set-point tracking."
+  ],
+  "textbooks": [
+    "Robert J. Schilling, \"Fundamentals of Robotics\", Prentice Hall of India.",
+    "S. K. Saha, \"Introduction to Robotics\", McGraw Hill Education India.",
+    "Saeed B. Niku, \"Introduction to Robotics\", Pearson Education Asia.",
+    "Rachid Manseur, \"Robot Modeling and Kinematics\", Laxmi Publications."
+  ],
+  "referenceBooks": []
+}

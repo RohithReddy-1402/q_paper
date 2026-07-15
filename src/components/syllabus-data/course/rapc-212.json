@@ -1,0 +1,56 @@
+{
+  "Course Title": "Manufacturing Processes",
+  "Course Code": "RAPC-212",
+  "route": "course/rapc-212",
+  "credits": 3,
+  "prerequisites": "Engineering Practice",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course introduces students to the fundamental principles, techniques and applications of various manufacturing processes used in modern industries. It provides a comprehensive understanding of how raw materials are transformed into finished products through different processes, highlighting the science, engineering and economics behind manufacturing.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fundamentals of Material Science",
+      "hours": 8,
+      "body": "Classification of materials, different types of materials including metals, ceramics, polymers and composites, imperfections in solids and diffusion mechanisms, mechanical properties of materials, material selection for engineering applications, failure mechanisms and introduction to advanced materials."
+    },
+    {
+      "id": "II",
+      "title": "Machining and Metal Forming Processes",
+      "hours": 8,
+      "body": "Overview of machining processes and different machining operations including turning, drilling, milling, boring and grinding, machining centres and high-speed machining. Overview of metal forming, material behaviour in metal forming, introduction to cold and hot forming processes including rolling, forging, extrusion and drawing, and sheet-metal forming processes."
+    },
+    {
+      "id": "III",
+      "title": "Joining, Assembly and Metal Casting",
+      "hours": 8,
+      "body": "Overview of welding technology, weld joints and joining processes including solid-state welding, arc welding, resistance welding, gas welding, ultrasonic welding, electron-beam welding, laser-beam welding and explosive welding, weld defects and inspection, mechanical assembly using threaded fasteners, rivets and interference fits. Introduction to metal casting, patterns, cores and molds, sand casting, permanent-mold casting, die casting, centrifugal casting, shell molding, vacuum molding and investment casting."
+    },
+    {
+      "id": "IV",
+      "title": "Powder Metallurgy and Additive Manufacturing",
+      "hours": 8,
+      "body": "Introduction to powder metallurgy processes, preparation of powders, types and functions of binders, green compaction, sintering process and applications of powder metallurgy products. Fundamental principles, advantages and limitations of additive manufacturing, comparison with subtractive and formative manufacturing processes, and key techniques including material extrusion, powder bed fusion, vat photopolymerization, binder jetting and laminated object manufacturing."
+    },
+    {
+      "id": "V",
+      "title": "Unconventional Machining and Forming",
+      "hours": 8,
+      "body": "Introduction to unconventional machining processes and classification, ultrasonic machining, laser-beam machining, electric discharge machining, electric discharge wire cutting, electron-beam machining and electrochemical machining. Unconventional forming including explosive forming, electrohydraulic forming, electromagnetic forming, laser bending, powder rolling, spray rolling, hydroforming, hydrostatic and powder extrusion, rotary forming and isothermal forming."
+    }
+  ],
+  "outcomes": [
+    "Learn the fundamentals of metal cutting, joining, metal forming, powder metallurgy and metal casting.",
+    "Understand the working principles and applications of unconventional manufacturing processes.",
+    "Demonstrate knowledge of machining processes, including traditional and modern material-removal techniques.",
+    "Gain insights into additive manufacturing technologies and their impact on modern manufacturing."
+  ],
+  "textbooks": [
+    "Mikell P. Groover, \"Fundamentals of Modern Manufacturing: Materials, Processes, and Systems\", 7th Edition, Wiley, 2020.",
+    "V. K. Jain, \"Advanced Machining Processes\", 2nd Edition, Allied Publishers, 2010.",
+    "Amitabha Ghosh and Asok Kumar Mallik, \"Manufacturing Science\", 2nd Edition, East-West Press, 2010."
+  ],
+  "referenceBooks": []
+}

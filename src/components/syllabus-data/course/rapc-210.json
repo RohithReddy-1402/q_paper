@@ -1,0 +1,50 @@
+{
+  "Course Title": "Actuators, Drives and Sensors",
+  "Course Code": "RAPC-210",
+  "route": "course/rapc-210",
+  "credits": 3,
+  "prerequisites": "Introduction to Automation",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course covers the fundamental concepts and principles of actuators, sensors and drives used in robotics and automation systems. Students will learn about various types of actuators, sensors and drives, their characteristics and applications. The course also covers the interfacing and control of these devices.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Actuators, Drives and Sensors",
+      "hours": 6,
+      "body": "Overview of actuators, sensors and drives. Types of actuators including electrical, hydraulic, pneumatic and mechanical actuation systems. Types of sensors including position, velocity, acceleration, force and torque sensors. Smart actuation systems, AI-powered drives, IoT-enabled systems and the role of actuation, drives and sensors in automation."
+    },
+    {
+      "id": "II",
+      "title": "Pneumatic, Hydraulic and Mechanical Actuation Systems",
+      "hours": 12,
+      "body": "Introduction to pneumatic and hydraulic actuation systems, key components, comparison between pneumatic and hydraulic systems, control valves, components and working of pneumatic actuators, rotary pneumatic actuators, components and working of hydraulic actuators, and applications of pneumatic and hydraulic actuators. Introduction to mechanical actuation systems, their role and importance in engineering systems, types of mechanical actuation mechanisms, kinematic chains, cams, gear trains, belt and chain drives, bearings, mechanical aspects of motor selection and applications of mechanical actuation systems."
+    },
+    {
+      "id": "III",
+      "title": "Sensors and Signal Conditioning",
+      "hours": 12,
+      "body": "Definition and role of sensors and transducers, characteristics of sensors, types of sensors and transducers including displacement, position and proximity sensors, velocity and acceleration sensors, accelerometers, force and pressure sensors, strain gauges, piezoelectric transducers, temperature sensors and specialized sensors. Overview of signal conditioning, signal conditioning techniques, signal amplification, filtering, noise reduction techniques, isolation, signal conversion, analog-to-digital conversion, digital-to-analog conversion and data acquisition systems."
+    },
+    {
+      "id": "IV",
+      "title": "Drives, Control and Industrial Automation",
+      "hours": 10,
+      "body": "Overview of drive systems including continuous and discrete drives. Types of drives including servo drives, stepper drives, variable frequency drives, DC and AC drives. Control techniques in drives including open-loop and closed-loop systems, role of drives in precision control, power electronic devices, DC-DC converters, DC-AC converters and motor control algorithms. Applications in industrial automation including robotic arms, AGVs and conveyor systems, case studies of sensor-driven actuation in robotics, human-robot interaction, actuation and sensing for collaboration and safety, and emerging trends including smart actuation systems, AI-powered drives and IoT-enabled sensing."
+    }
+  ],
+  "outcomes": [
+    "Understand the functioning of various types of sensors, transducers and their applications.",
+    "Understand the concepts of pneumatic, hydraulic and mechanical actuation systems.",
+    "Analyze and select appropriate actuators, sensors and drives for robotic and automation systems.",
+    "Design and interface actuators, sensors and drives with microcontrollers and computers."
+  ],
+  "textbooks": [
+    "D. Patranabis, \"Sensors and Transducers\", 2nd Edition, PHI Learning Private Limited.",
+    "W. Bolton, \"Mechatronics: Electronic Control Systems in Mechanical and Electrical Engineering\", 4th Edition, Pearson Education Limited.",
+    "Clarence W. de Silva, \"Sensors and Actuators: Engineering System Instrumentation\", 2nd Edition, CRC Press."
+  ],
+  "referenceBooks": []
+}

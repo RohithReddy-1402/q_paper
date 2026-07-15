@@ -1,0 +1,53 @@
+{
+  "Course Title": "Applied Linear Algebra",
+  "Course Code": "MAIC-204",
+  "route": "course/maic-204",
+  "credits": 3,
+  "prerequisites": "MAIC-102",
+  "Course Type": "IC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 36,
+  "description": "This course introduces applications of linear algebra and matrices in different branches of mathematics and develops the theoretical aspects of linear algebra required for emerging areas such as machine learning and data analysis. It extensively covers generalized inverse, QR decomposition, singular value decomposition, the Perron-Frobenius theorem, quadratic forms, Sylvester inertia theorem, linear functionals and bilinear mappings.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Vector Spaces",
+      "hours": 9,
+      "body": "Vector spaces, bases and dimensions, sums and direct sums, quotient spaces."
+    },
+    {
+      "id": "II",
+      "title": "Linear Transformations",
+      "hours": 9,
+      "body": "Linear transformations, kernel and image of a linear transformation, rank-nullity theorem, representation of linear transformations by matrices, change of bases for linear transformations, basis-change matrices, orthonormal bases and Gram-Schmidt process."
+    },
+    {
+      "id": "III",
+      "title": "Invariant Subspaces and Matrix Decompositions",
+      "hours": 9,
+      "body": "Invariant subspaces, Cayley-Hamilton theorem, minimal polynomial, adjoint operators, normal, unitary and self-adjoint operators, Schur's Lemma, spectral theorem for normal operators, unitary diagonalization and triangulation of a matrix, direct-sum decomposition, cyclic subspaces and annihilators, rational and Jordan canonical forms, LU and Cholesky decomposition, Householder's Reflection, QR and Polar Decomposition."
+    },
+    {
+      "id": "IV",
+      "title": "Advanced Matrix Analysis",
+      "hours": 9,
+      "body": "Tridiagonal matrix, Sturm's sequence, projection matrix, singular value decomposition, generalized inverse of the matrix, Perron-Frobenius theorem, quadratic form, Sylvester inertia theorem, linear functional, bilinear mapping and inner product spaces."
+    }
+  ],
+  "outcomes": [
+    "Understand the basic concepts of linear algebra related to stability, accuracy and related computational concepts.",
+    "Find QR factorization of a matrix using Householder transformation and study its applications.",
+    "Write various algorithms to solve systems of linear equations and understand computational issues.",
+    "Describe the numerical procedure of the eigenvalue problem.",
+    "Apply the singular value decomposition of a matrix in solving real-life problems."
+  ],
+  "textbooks": [
+    "K. Hoffman and R. A. Kunze, \"Linear Algebra\", Prentice Hall of India.",
+    "H. Dym, \"Linear Algebra in Action\", Graduate Studies in Mathematics, American Mathematical Society."
+  ],
+  "referenceBooks": [
+    "R. A. Horn and C. R. Johnson, \"Matrix Analysis\", Cambridge.",
+    "J. H. Kwak and S. Hong, \"Linear Algebra\", Birkhauser."
+  ]
+}

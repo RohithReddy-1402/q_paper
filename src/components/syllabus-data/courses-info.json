@@ -32,5 +32,68 @@
     "route": "course/rapc-202",
     "Branches": ["RA"],
     "id":"nitkkr_5"
+  },{
+    "Course Title": "Mechanics of Machines",
+    "Course Code": "RAPC-201",
+    "route": "course/rapc-201",
+    "Branches": ["RA"],
+    "id":"nitkkr_6"
+  },{
+    "Course Title": "Applied Linear Algebra",
+    "Course Code": "MAIC-204",
+    "route": "course/maic-204",
+    "Branches": ["RA"],
+    "id":"nitkkr_7"
+  },{
+    "Course Title": "Control Systems",
+    "Course Code": "RAPC-208",
+    "route": "course/rapc-208",
+    "Branches": ["RA"],
+    "id":"nitkkr_8"
+  },{
+    "Course Title": "Actuators, Drives and Sensors",
+    "Course Code": "RAPC-210",
+    "route": "course/rapc-210",
+    "Branches": ["RA"],
+    "id":"nitkkr_9"
+  },{
+    "Course Title": "Control Systems (Practical)",
+    "Course Code": "RAPC-213",
+    "route": "course/rapc-213",
+    "Branches": ["RA"],
+    "id":"nitkkr_10"
+  },{
+    "Course Title": "Analog Electronics (Practical)",
+    "Course Code": "RAPC-214",
+    "route": "course/rapc-214",
+    "Branches": ["RA"],
+    "id":"nitkkr_11"
+  },{
+    "Course Title": "Actuators, Drives and Sensors (Practical)",
+    "Course Code": "RAPC-215",
+    "route": "course/rapc-215",
+    "Branches": ["RA"],
+    "id":"nitkkr_12"
+  },{
+    "Course Title": "Manufacturing Processes",
+    "Course Code": "RAPC-212",
+    "route": "course/rapc-212",
+    "Branches": ["RA"],
+    "id":"nitkkr_13"
+  },
+  {
+    "Course Title": "Introduction to Robotics",
+    "Course Code": "RAPC-211",
+    "route": "course/rapc-211",
+    "Branches": ["RA"],
+    "id":"nitkkr_14"
+    
+  },
+  {
+    "Course Title": "Analog Electronics",
+    "Course Code": "RAPC-209",
+    "route": "course/rapc-209",
+    "Branches": ["RA"],
+    "id":"nitkkr_15"
   }
 ]

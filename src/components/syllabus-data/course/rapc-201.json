@@ -1,0 +1,63 @@
+{
+  "Course Title": "Mechanics of Machines",
+  "Course Code": "RAPC-201",
+  "route": "course/rapc-201",
+  "credits": 3,
+  "prerequisites": "None",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "The course provides a comprehensive foundation in the principles of mechanisms and machines, focusing on their analysis and applications in engineering systems. It covers velocity and acceleration analysis to understand the motion of various machine components. Topics include static and dynamic analysis, essential for determining forces and motions in mechanical systems. The curriculum also delves into the design and functioning of cams and followers, belts, friction systems, clutches, and flywheels, which are critical for energy transmission and control. Additionally, the course explores the principles of balancing to minimize vibrations in rotating and reciprocating machinery. A significant emphasis is placed on mechanical vibrations, gear systems, and gear trains to equip students with the skills required for designing efficient and reliable mechanical systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Mechanism and Machines",
+      "hours": 5,
+      "body": "Introduction to Kinematics and Dynamics, introduction to analysis and synthesis of mechanisms, resistant body, link, types of link, kinematic pair, types of kinematic pairs, joints, types of joints including revolute, prismatic, cylindrical, spherical, Hook's joint and twisting joint, kinematic chain, mechanism, types of mechanism, machine, types of motion, degree of freedom, Kutzbach criteria, Grubler's criteria, types of mechanisms and their inversions."
+    },
+    {
+      "id": "I-A",
+      "title": "Velocity and Acceleration Analysis",
+      "hours": 9,
+      "body": "Velocity analysis: Introduction, absolute and relative motion, vectors, addition and subtraction of vectors, motion of a link, determination of velocities of a link in a mechanism by relative velocity method, velocity diagram of four-bar chain, slider-crank chain, quick return mechanism and other basic and complex mechanisms, rubbing velocity of pin joint. Acceleration analysis: Introduction, total acceleration of a point in a rigid link, absolute acceleration of a point in a rigid link, acceleration diagram of four-bar mechanism, slider-crank chain mechanism and other basic and complex mechanisms, Coriolis component of acceleration."
+    },
+    {
+      "id": "II",
+      "title": "Static and Dynamic Force Analysis",
+      "hours": 9,
+      "body": "Static force analysis: Introduction, static equilibrium, equilibrium of members, force convention, free body diagram, principle of superposition, static force analysis of four-bar mechanism, static force analysis of slider-crank mechanism. Dynamic force analysis: D'Alembert Principle, equivalent offset inertia force, dynamic force analysis of four-bar mechanism, dynamic force analysis of slider-crank mechanism."
+    },
+    {
+      "id": "III",
+      "title": "Gears and Gear Trains",
+      "hours": 4,
+      "body": "Types of gears, gear terminology, condition for correct gearing, cycloidal and involute profiles of gear teeth, pressure angle, path of contact, arc of contact, interference, minimum number of teeth to avoid interference. Simple, compound, reverted and epicyclic gear trains."
+    },
+    {
+      "id": "III-A",
+      "title": "Cams and Followers",
+      "hours": 4,
+      "body": "Types of cams and followers, various motions of the follower including simple harmonic motion, uniformly accelerated and decelerated motion, construction of cam profiles, analysis for velocities and accelerations of tangent and circular arc cams with roller and flat-faced followers."
+    },
+    {
+      "id": "IV",
+      "title": "Balancing and Mechanical Vibrations",
+      "hours": 4,
+      "body": "Balancing: Static and dynamic balancing of rotating parts. Mechanical Vibrations: Introduction to mechanical vibrations, free and forced vibrations with and without damping for single degree of freedom systems, forced vibrations due to rotating and reciprocating machine elements."
+    },
+    {
+      "id": "IV-A",
+      "title": "Friction, Belt Drive and Flywheel",
+      "hours": 5,
+      "body": "Friction: Types of friction, motion along inclined plane, screw threads, screw jack, wedge, pivots and collars, plate and cone clutches. Belt Drive: Open and crossed belt drives, velocity ratio, slip, material for belts, length of belt, tensions, centrifugal tension and power transmitted by belts. Flywheel: Turning moment diagram for single-cylinder engine, coefficient of fluctuation of energy, coefficient of fluctuation of speed, flywheel and its function."
+    }
+  ],
+  "outcomes": [
+    "Analyze and design mechanisms, and construct velocity and acceleration diagrams for mechanical systems to understand their motion behavior.",
+    "Analyze and solve forces in mechanical systems under static and dynamic loading conditions.",
+    "Analyze, design, and apply gears, gear trains, cams, and followers in mechanical systems for efficient motion transmission."
+  ],
+  "textbooks": [],
+  "referenceBooks": []
+}
