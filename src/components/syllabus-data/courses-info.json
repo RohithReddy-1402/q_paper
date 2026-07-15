@@ -3,18 +3,21 @@
     "Course Title": "Introduction to Automation",
     "Course Code": "RAPC-203",
     "route": "course/rapc-203",
-    "Branches": ["RA"]
+    "Branches": ["RA"],
+    "id":"nitkkr_2"
   },
   {
     "Course Title": "Discrete Mathematics",
     "Course Code": "MAIC-201",
     "route": "course/maic-201",
-    "Branches": ["CS", "IT", "AI & ML","RA","IIOT"]
+    "Branches": ["CS", "IT", "AI & ML","RA","IIOT"],
+    "id":"nitkkr_3"
   },
   {
     "Course Title": "Engineering Mechanics",
     "Course Code": "RAPC-101",
     "route": "course/rapc-101",
-    "Branches": ["RA"]
+    "Branches": ["RA"],
+    "id":"nitkkr_1"
   }
 ]
