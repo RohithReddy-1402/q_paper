@@ -103,7 +103,7 @@ const questionPapers = ({
       return;
     }
     const res = fetch(
-      `http://localhost:3001/api/syllabus/${paper.id}/download`,
+      `https://back-6j6v.onrender.com/api/syllabus/${paper.id}/download`,
       {
         method: "PATCH",
         body: JSON.stringify({ paper_id: paper.paper_id ,title: paper["Course Title"],courseId: paper["Course Code"]}),
