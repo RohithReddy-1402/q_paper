@@ -101,7 +101,7 @@ loadDownloads();
   text
     .toLowerCase().trim()
     .replace(/[^a-z0-9]/g, "");
-  const normalizedSearch = normalize(searchTerm);
+  const normalizedSearch = normalize(searchQuery);
   const handleDisplay = (event, paper) => {
     // console.log(paper);
     if (!paper) {
