@@ -41,10 +41,10 @@ export default function SyllabusPage() {
   return (
     <>
       <Helmet>
-        <title>{d?.["Course Code"]} Syllabus</title>
+        <title>{d?.["Course Code"]||""} Syllabus</title>
         <meta name="description" content={`Syllabus for ${d?.["Course Code"]} - ${d?.["Course Title"]}`} />
       </Helmet>
-      <div className="min-h-screen bg-white font-serif text-black">
+      <div className="min-h-screen bg-white font-serif text-black"> 
         <style>{`
         @media print {
           .no-print { display: none !important; }
