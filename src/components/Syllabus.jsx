@@ -25,6 +25,7 @@ const questionPapers = ({
   const [selectedBranch, setSelectedBranch] = useState("all");
   const [selectedYear, setSelectedYear] = useState("all");
   const [status, setStatus] = useState("idle");
+  const [syllabusData,setSyllabusData] = useState([]);
   const nav = useNavigate();
   const { addToast } = useToast();
   const handleNav = () => {
@@ -62,7 +63,8 @@ const questionPapers = ({
     // }, 2000);
     setStatus("done");
   };
-  async function loadDownloads() {
+  useEffect(() => {
+    async function loadDownloads() {
   try {
     const response = await fetch(
       "https://back-6j6v.onrender.com/api/syllabus"
@@ -73,8 +75,6 @@ const questionPapers = ({
     }
 
     const result = await response.json();
-
-    console.log("Backend response:", result);
 
     const backendData = Array.isArray(result)
       ? result
@@ -90,12 +90,18 @@ const questionPapers = ({
         downloads: backendPaper?.downloadCount ?? 0
       };
     });
-
-    setPapers(merged);
+    setSyllabusData(merged);
   } catch (error) {
     console.error("Failed to load download counts:", error);
   }
-}
+} 
+loadDownloads();
+  },[])
+  const normalize = (text = "") =>
+  text
+    .toLowerCase().trim()
+    .replace(/[^a-z0-9]/g, "");
+  const normalizedSearch = normalize(searchTerm);
   const handleDisplay = (event, paper) => {
     // console.log(paper);
     if (!paper) {
@@ -121,52 +127,33 @@ const questionPapers = ({
   };
 
 const branches = [
-  ...new Set(questionpapers.flatMap((paper) => paper.Branches))
+  ...new Set(syllabusData.flatMap((paper) => paper.Branches))
  ];
 //    console.log(branches);
-  let filteredPapers = questionpapers.filter((paper) => {
-    const matchesSearch =
-      paper["Course Title"]
-        .toLowerCase()
-        .includes(searchQuery.toLowerCase().trim()) ||
-      paper["Course Title"]
-        .toLowerCase()
-        .includes(searchQuery.toLowerCase().trim()) ||
-      paper["Course Code"]
-        .toLowerCase()
-        .includes(searchQuery.toLowerCase().trim()) ||
-      paper["Course Code"]
-        .replace("-", "")
-        .toLowerCase()
-        .includes(searchQuery.toLowerCase().trim()) ||
-      paper["Course Code"]
-        .replace(" ", "")
-        .includes(searchQuery.toLowerCase().trim());
-    const matchesSemester =
-      selectedSemester === "all" ||
-      paper.sem === selectedSemester.split("-")[1];
+  let filteredPapers = syllabusData.filter((paper) => {
+        // console.log(selectedBranch);
 
+    const matchesSearch =
+      normalize(paper["Course Code"]).includes(normalizedSearch) ||
+      normalize(paper["Course Title"]).includes(normalizedSearch);
+      
+    // const matchesSemester =
+    //   selectedSemester === "all" ||
+    //   paper.sem === selectedSemester.split("-")[1];
     const matchesBranch =
   selectedBranch === "all" ||
-  paper.Branch?.includes(selectedBranch);const matchesYear =
-      selectedYear === "all" || paper.Branch === selectedYear;
-    const matchesType =
-      selectedType === "all" || paper.examType === selectedType;
-
-    if (activeTab === "all")
-      return matchesSearch && matchesSemester && matchesBranch && matchesType;
+  paper.Branches?.includes(selectedBranch);
+      if (activeTab === "all")
+      return matchesSearch  && matchesBranch ;
     if (activeTab === "recent")
-      return matchesSearch && matchesSemester && matchesBranch && matchesType;
+      return matchesSearch&& matchesBranch ;
     if (activeTab === "popular")
-      return matchesSearch && matchesSemester && matchesBranch && matchesType;
-    
+      return matchesSearch && matchesBranch ;
 
     return (
-      paper.subject.toLowerCase() === activeTab.toLowerCase() &&
+      paper["Course Title"].toLowerCase() === activeTab.toLowerCase() &&
       matchesSearch &&
-      matchesSemester &&
-      matchesBranch &&
-      matchesType
+      matchesBranch 
     );
   });
   if (activeTab === "popular") {
@@ -189,6 +176,7 @@ const branches = [
 
   const additionalTabs = ["Sem", "Mid-1", "Mid-2"];
   // console.log(filteredPapers[0].route);
+
   return (
     <>
       {" "}
