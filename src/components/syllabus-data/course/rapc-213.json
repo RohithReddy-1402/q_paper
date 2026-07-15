@@ -1,0 +1,27 @@
+{
+  "Course Title": "Control Systems (Practical)",
+  "Course Code": "RAPC-213",
+  "route": "course/rapc-213",
+  "credits": 1,
+  "prerequisites": "None",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [0, 0, 2, 1],
+  "contactHours": 24,
+  "description": "This practical course develops hands-on understanding of control system characteristics, time-domain and frequency-domain analysis, error detectors, conventional controllers, motor control, compensator design and industrial process control.",
+  "experiments": [
+    "Obtain the step response of first-order and second-order systems and determine the time-domain specifications from their transfer functions.",
+    "Determine the characteristics of LVDT and potentiometer error detectors for control applications.",
+    "Obtain the response of P, PI, PD, PID and relay control actions on one-time-constant and two-time-constant processes with and without delay.",
+    "Study a thermal system and its temperature control by finding its transfer function from the open-loop time response, determining the closed-loop response using PID and relay control actions, and comparing the results.",
+    "Study the performance of DC motor position control.",
+    "Obtain the speed-torque characteristics of an AC servomotor and determine the speed-control characteristics of a DC motor with a control parameter.",
+    "Design a lag or lead compensator for a given system, obtain its frequency response and analyze the result.",
+    "For a given transfer-function or state-space system, perform simulations in MATLAB to obtain time-domain specifications, frequency-domain specifications and stability.",
+    "Study the performance of an industrial process for level control and flow control."
+  ],
+  "syllabus": [],
+  "outcomes": [],
+  "textbooks": [],
+  "referenceBooks": []
+}

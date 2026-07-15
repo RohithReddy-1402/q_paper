@@ -165,7 +165,17 @@ export default function SyllabusPage() {
               )}
             </div>
           ))}
+          {d["experiments"]?.length > 0 && (
+            <>
+              <SectionHeading>List of Experiments</SectionHeading>
 
+              <ol className="mt-2 list-decimal space-y-2 pl-6">
+                {d["experiments"].map((experiment, i) => (
+                  <li key={i}>{experiment}</li>
+                ))}
+              </ol>
+            </>
+          )}
           <SectionHeading>Course Outcomes</SectionHeading>
           <p className="mt-2">
             Upon successful completion of the course, students will:

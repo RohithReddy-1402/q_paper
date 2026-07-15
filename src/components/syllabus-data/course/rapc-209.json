@@ -1,0 +1,54 @@
+{
+  "Course Title": "Analog Electronics",
+  "Course Code": "RAPC-209",
+  "route": "course/rapc-209",
+  "credits": 3,
+  "prerequisites": "None",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "The aim of this course is to familiarize students with the analysis and design of basic transistor amplifier circuits, oscillators and wave-shaping circuits.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Amplifier Models and AC Analysis",
+      "hours": 10,
+      "body": "Voltage amplifier, current amplifier, transconductance amplifier and transresistance amplifier. Biasing schemes for BJT and FET amplifiers, bias stability, various configurations such as CE/CS, CB/CG and CC/CD and their features, small-signal analysis, low-frequency transistor models, estimation of voltage gain, input resistance and output resistance, design procedure for particular specifications, and low-frequency analysis of multistage amplifiers."
+    },
+    {
+      "id": "II",
+      "title": "Multistage Amplifiers and Power Amplifiers",
+      "hours": 10,
+      "body": "High-frequency transistor models, frequency response of single-stage and multistage amplifiers, cascode amplifier. Various classes of operation including Class A, B, AB and C, comparison of their power efficiency, types of distortion and linearity issues. Voltage regulators: discrete transistor voltage regulation, series and shunt voltage regulators."
+    },
+    {
+      "id": "III",
+      "title": "Op-Amp and Its Applications",
+      "hours": 10,
+      "body": "Differential amplifier basic structure and principle of operation, calculation of differential gain, common-mode gain, CMRR and ICMR. Op-amp design for a given specification. Applications including inverting and non-inverting amplifiers, integrator and differentiator, summing amplifier, precision rectifier, Schmitt trigger and its applications. Feedback concepts and types, practical feedback circuits, transfer gain, general characteristics of negative-feedback amplifiers, input resistance, output resistance, feedback topologies including voltage series, current series, voltage shunt and current shunt, and effect of feedback on gain and bandwidth."
+    },
+    {
+      "id": "IV",
+      "title": "Oscillators and Wave Shaping Circuits",
+      "hours": 10,
+      "body": "Basic concept of oscillators, Barkhausen criterion, RC oscillators including phase-shift and Wien bridge oscillators, LC oscillators including Hartley, Colpitts and Clapp oscillators, non-sinusoidal oscillators and frequency stability. Multivibrators including astable, monostable and bistable circuits. High-pass and low-pass filters using RC, RL and RLC circuits and their response to step, pulse, square and ramp inputs, attenuators. Active low-pass, high-pass, band-pass and band-stop filters and design guidelines. Digital-to-analog converters, analog-to-digital converters and case studies of practical circuits in typical electronic systems."
+    }
+  ],
+  "outcomes": [
+    "Acquire knowledge of single-stage, cascaded and feedback amplifier configurations and frequency response characteristics of BJT and FET circuits.",
+    "Analyze the performance of op-amp, power amplifier and oscillator circuits.",
+    "Analyze various filter and multivibrator circuits.",
+    "Apply the knowledge gained in the design of transistorized circuits, amplifiers and oscillators."
+  ],
+  "textbooks": [
+    "J. Millman and C. C. Halkias, \"Integrated Electronics\", Tata McGraw Hill, 2007.",
+    "J. Millman and H. Taub, \"Pulse, Digital and Switching Waveforms\", Tata McGraw Hill, 2007.",
+    "Robert L. Boylestad and Louis Nashelsky, \"Electronic Devices and Circuit Theory\", Pearson, 10th Edition, 2012."
+  ],
+  "referenceBooks": [
+    "Adel S. Sedra and Kenneth C. Smith, \"Microelectronic Circuits: Theory and Application\", 5th Edition.",
+    "Behzad Razavi, \"Fundamentals of Microelectronics\", John Wiley.",
+    "Malvino, \"Electronic Principles\", Tata McGraw Hill, 1998."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Course Title": "Actuators, Drives and Sensors (Practical)",
+  "Course Code": "RAPC-215",
+  "route": "course/rapc-215",
+  "credits": 1,
+  "prerequisites": "None",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [0, 0, 2, 1],
+  "contactHours": 24,
+  "description": "This course provides a comprehensive practical understanding of automation technologies covering sensors, actuators, drive systems and control techniques. Students learn to implement real-time data acquisition, feedback control and precision automation using microcontrollers and programmable logic controllers. The course emphasizes hands-on experimentation with proximity and distance sensors, stepper and servo drives, motor control algorithms and real-time automation challenges.",
+  "experiments": [
+    "Perform performance analysis of proximity and distance sensors for object detection and range measurement.",
+    "Control motors using various drive systems, including servo, stepper and DC drives.",
+    "Implement real-time data acquisition and feedback control using microcontrollers such as Arduino or Raspberry Pi.",
+    "Develop a basic program and control logic to turn an LED on and off at regular intervals using Arduino or Raspberry Pi.",
+    "Achieve real-time bed levelling using stepper motors and proximity sensors in a 3D printer.",
+    "Study the relationship between extrusion motor speed, temperature and layer consistency in fused deposition modeling.",
+    "Study single-acting and double-acting piston-cylinder mechanisms for a pneumatic system.",
+    "Study the working principle of an LVDT and characterize it by determining its linear range, sensitivity, non-linearity and hysteresis.",
+    "Perform object detection and generate a 3D map of a scene using depth data from a Time of Flight sensor.",
+    "Implement a gesture-recognition system using a Time of Flight sensor to control a robotic arm."
+  ],
+  "syllabus": [],
+  "outcomes": [
+    "Analyze and compare the performance of various proximity and distance sensors for object detection and range measurement.",
+    "Implement and control different drive systems, including servo, stepper and DC motors.",
+    "Develop real-time data acquisition and feedback control using microcontrollers such as Arduino and Raspberry Pi.",
+    "Investigate the effect of extrusion speed, temperature and layer consistency in FDM-based additive manufacturing.",
+    "Understand and analyze pneumatic actuation systems, including single-acting and double-acting piston-cylinder mechanisms.",
+    "Characterize the working principles of an LVDT sensor by determining parameters such as sensitivity, linearity and hysteresis."
+  ],
+  "textbooks": [],
+  "referenceBooks": []
+}
