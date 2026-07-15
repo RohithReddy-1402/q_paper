@@ -22,6 +22,7 @@ const questionPapers = ({
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedSemester, setSelectedSemester] = useState("all");
   const [selectedType, setSelectedType] = useState("all");
+  const [selectedBranch, setSelectedBranch] = useState("all");
   const [selectedYear, setSelectedYear] = useState("all");
   const [status, setStatus] = useState("idle");
   const nav = useNavigate();
@@ -36,9 +37,10 @@ const questionPapers = ({
       return;
     }
     const res = fetch(
-      `https://back-6j6v.onrender.com/papers/${paper.paper_id}/downloadcount`,
+      `https://localhost:3001/papers/${paper.paper_id}/downloadcount`,
       {
         method: "PATCH",
+        body: JSON.stringify({ paper_id: paper.paper_id ,title: paper["Course Title"],course_code: paper["Course Code"]}),
         headers: {
           "Content-Type": "application/json",
         },
@@ -60,41 +62,51 @@ const questionPapers = ({
     // }, 2000);
     setStatus("done");
   };
-  useEffect(() => {
   async function loadDownloads() {
-    try {
-      const response = await fetch("https://back-6j6v.onrender.com/api/syllabus");
-      const backendData = await response.json();
+  try {
+    const response = await fetch(
+      "https://back-6j6v.onrender.com/api/syllabus"
+    );
 
-      const merged = questionpapers.map((paper) => {
-        const backendPaper = backendData.find(
-          (item) => item.id === paper.id
-        );
-
-        return {
-          ...paper,
-          downloads: backendPaper?.downloadCount ?? 0
-        };
-      });
-
-      setPapers(merged);
-    } catch (error) {
-      console.error("Failed to load download counts:", error);
+    if (!response.ok) {
+      throw new Error(`HTTP error: ${response.status}`);
     }
-  }
 
-  loadDownloads();
-}, []);
-  const handleDisplay = (event, fileId) => {
-    console.log(fileId);
-    if (!fileId) {
+    const result = await response.json();
+
+    console.log("Backend response:", result);
+
+    const backendData = Array.isArray(result)
+      ? result
+      : result.data ?? [];
+
+    const merged = questionpapers.map((paper) => {
+      const backendPaper = backendData.find(
+        (item) => item.id === paper.id
+      );
+
+      return {
+        ...paper,
+        downloads: backendPaper?.downloadCount ?? 0
+      };
+    });
+
+    setPapers(merged);
+  } catch (error) {
+    console.error("Failed to load download counts:", error);
+  }
+}
+  const handleDisplay = (event, paper) => {
+    // console.log(paper);
+    if (!paper) {
       alert("Download link not available for this paper.");
       return;
     }
     const res = fetch(
-      `https://back-6j6v.onrender.com/api/syllabus/${fileId}/download`,
+      `https://back-6j6v.onrender.com/api/syllabus/${paper.id}/download`,
       {
         method: "PATCH",
+        body: JSON.stringify({ paper_id: paper.paper_id ,title: paper["Course Title"],courseId: paper["Course Code"]}),
         headers: {
           "Content-Type": "application/json",
         },
@@ -108,8 +120,10 @@ const questionPapers = ({
     dropdown.classList.toggle("hidden");
   };
 
-  const branches = [questionpapers.map((paper) => paper.Branch)].flat();
-  // console.log(branches);
+const branches = [
+  ...new Set(questionpapers.flatMap((paper) => paper.Branches))
+ ];
+//    console.log(branches);
   let filteredPapers = questionpapers.filter((paper) => {
     const matchesSearch =
       paper["Course Title"]
@@ -132,44 +146,26 @@ const questionPapers = ({
       selectedSemester === "all" ||
       paper.sem === selectedSemester.split("-")[1];
 
-    const matchesYear =
-      selectedYear === "all" || parseInt(paper.year) === parseInt(selectedYear);
+    const matchesBranch =
+  selectedBranch === "all" ||
+  paper.Branch?.includes(selectedBranch);const matchesYear =
+      selectedYear === "all" || paper.Branch === selectedYear;
     const matchesType =
       selectedType === "all" || paper.examType === selectedType;
 
     if (activeTab === "all")
-      return matchesSearch && matchesSemester && matchesYear && matchesType;
+      return matchesSearch && matchesSemester && matchesBranch && matchesType;
     if (activeTab === "recent")
-      return matchesSearch && matchesSemester && matchesYear && matchesType;
+      return matchesSearch && matchesSemester && matchesBranch && matchesType;
     if (activeTab === "popular")
-      return matchesSearch && matchesSemester && matchesYear && matchesType;
-    if (activeTab === "Mid-1")
-      return (
-        paper.examType === "Mid-1" &&
-        matchesSearch &&
-        matchesSemester &&
-        matchesYear
-      );
-    if (activeTab === "Mid-2")
-      return (
-        paper.examType === "Mid-2" &&
-        matchesSearch &&
-        matchesSemester &&
-        matchesYear
-      );
-    if (activeTab === "Sem")
-      return (
-        paper.examType === "Sem" &&
-        matchesSearch &&
-        matchesSemester &&
-        matchesYear
-      );
+      return matchesSearch && matchesSemester && matchesBranch && matchesType;
+    
 
     return (
       paper.subject.toLowerCase() === activeTab.toLowerCase() &&
       matchesSearch &&
       matchesSemester &&
-      matchesYear &&
+      matchesBranch &&
       matchesType
     );
   });
@@ -360,16 +356,15 @@ const questionPapers = ({
                     </svg>
                   </div>
                 </div>
-
                 <div className="relative cursor-not-allowed">
                   <select
-                    value={selectedYear}
-                    onChange={(e) => setSelectedYear(e.target.value)}
-                    disabled
+                    value={selectedBranch}
+                    onChange={(e) => setSelectedBranch(e.target.value)}
+                    
                   
                     className="block w-full rounded-md border-gray-300 pl-4 pr-10 py-3 focus:border-blue-500 focus:ring-blue-500 text-gray-900"
                   >
-                    <option value="all">All Years</option>
+                    <option value="all">All Branches</option>
                     {branches?.map((year) => (
                       <option key={year} value={year}>
                         {year}
@@ -536,7 +531,7 @@ const questionPapers = ({
               <div
                 key={paper["Course Title"]}
                 className="bg-white overflow-hidden shadow rounded-lg cursor-pointer"
-                onClick={(e) => handleDisplay(e, paper?.["id"])}
+                onClick={(e) => handleDisplay(e, paper)}
               >
                   <Link
                           key={paper["Course Code"]}

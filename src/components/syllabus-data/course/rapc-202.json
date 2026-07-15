@@ -1,0 +1,51 @@
+{
+  "Course Title": "Basic Electrical & Electronics Engineering",
+  "Course Code": "RAPC-202",
+  "route": "course/rapc-202",
+  "credits": 3,
+  "prerequisites": "None",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "Aims at the basic understanding of electrical components, basic circuit analysis, AC and DC circuits, and basic construction and operation of DC machines, transformers, and three-phase induction machines. This course also equips students with the ability to understand the operation of diodes, BJT, and FET. The course also covers the basics of measurement and instrumentation and usage of DSO.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Electrical Circuits and AC Systems",
+      "hours": 10,
+      "body": "Understanding of Resistor, Inductor, Capacitor, Ohm's Law, Kirchhoff's Laws, Independent and Dependent Sources, Nodal Analysis, Mesh Analysis, AC Systems, Waveform analysis with R, RL, LC, RLC loads, Average value, RMS value, Instantaneous power, real power, reactive power and apparent power, power factor, series and parallel resonance."
+    },
+    {
+      "id": "II",
+      "title": "Electrical Machines",
+      "hours": 12,
+      "body": "Construction and working principle of DC machines, types of DC motors and generators, EMF equation, Torque Equation, working principle and applications of Transformer, mathematical model of transformers, working principle and applications of three-phase and single-phase Induction Motor, mathematical model of Induction motor."
+    },
+    {
+      "id": "III",
+      "title": "Semiconductor Devices and Digital Logic",
+      "hours": 8,
+      "body": "Semiconductor Materials: Silicon & Germanium, conduction in the electronic circuit, PN Junction Diodes, Zener Diode, their characteristics and applications, Bipolar junction transistor and field effect transistors: construction, operation, and their biasing, their characteristics and applications, design of Rectifier and Inverters circuits. Review of number systems, binary codes, error detection and correction codes, logic gates, Combinational logic, representation of logic functions, simplification of logical expressions, De Morgan's Theorem."
+    },
+    {
+      "id": "IV",
+      "title": "Electrical Measuring Instruments",
+      "hours": 10,
+      "body": "Classification of Electrical Measuring Instruments, Principles of operation of electrical instruments, Essentials of Indicating Instruments, deflecting torque, controlling torque, damping torque, Operating Principle of Moving Coil, Moving Iron meters, PMMC and Induction Type Instruments, Ammeter, Voltmeter, galvanometer, wattmeter, Energy Meter, DSO, Block diagram, Data acquisition."
+    }
+  ],
+  "outcomes": [
+    "Understand the basic electrical parameters and solve AC circuits and DC circuits.",
+    "Describe the construction, working principles, and applications of various electrical machines including DC generators, DC motors, transformers, and three-phase induction motors.",
+    "Understand the role of PN junction diodes, Zener diodes, BJTs, JFETs in electronic circuits and the properties of semiconductor materials.",
+    "Explain the operating principles and applications of basic measurement instruments and digital storage oscilloscopes (DSO)."
+  ],
+  "textbooks": [
+    "D. P. Kothari and I. J. Nagrath, \"Theory and Problems of Basic Electrical Engineering\", PHI Learning.",
+    "V. Mittle and Arvind Mittle, \"Basic Electrical Engineering\", Tata McGraw Hill.",
+    "V. K. Mehta and Rohit Mehta, \"Basic Electrical Engineering\", S. Chand Publication.",
+    "Robert L. Boylestad, \"Electronic Devices and Circuit Theory\", Pearson."
+  ],
+  "referenceBooks": []
+}

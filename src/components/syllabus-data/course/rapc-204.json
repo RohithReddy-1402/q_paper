@@ -1,0 +1,53 @@
+{
+  "Course Title": "Signals and Systems",
+  "Course Code": "RAPC-204",
+  "route": "course/rapc-204",
+  "credits": 3,
+  "prerequisites": "None",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This syllabus typically covers fundamental concepts of signal processing and system analysis, with applications in robotic control, sensor processing, and automation. This course is a supplementary course for Robotics and Automation Engineers to acquire the skills to handle the ever-increasing automation in different domains.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Signals and Systems Fundamentals",
+      "hours": 10,
+      "body": "Basic definitions and terminology, Classification of signals and systems, Continuous-time and discrete-time signals, Signal operations: shifting, scaling, and reversal, System properties: linearity, time-invariance, causality, stability."
+    },
+    {
+      "id": "II",
+      "title": "LTI Systems and Fourier Series",
+      "hours": 10,
+      "body": "Continuous and discrete time LTI systems: response using convolution integral/sum, Properties of LTI systems, Modeling of continuous and discrete time LTI systems. Fourier series: representation of continuous and discrete time periodic signals, convergence, properties, Application to LTI systems. Fourier transform: introduction, representation of continuous and discrete time aperiodic and periodic signals, convergence, properties, Application to LTI systems."
+    },
+    {
+      "id": "III",
+      "title": "Laplace Transform and Z-Transform",
+      "hours": 10,
+      "body": "Laplace transform and its inverse, region of convergence, relation with Fourier transform, properties, Application to LTI systems, their interconnections and block diagram. Z-transform and its inverse, region of convergence, relation with Fourier transform, properties, Application to LTI systems, their interconnections and block diagram."
+    },
+    {
+      "id": "IV",
+      "title": "Sampling and Applications in Robotics and Automation",
+      "hours": 10,
+      "body": "Sampling of continuous time signals, sampling theorem, reconstruction, effect of under sampling. Applications in Robotics and Automation: Signal processing in robotic vision and sensors, control, filtering and noise reduction in automation, Speech and image processing in human-robot interaction and various other sustainable technologies with the inclusion of some case studies from the Indian knowledge system."
+    }
+  ],
+  "outcomes": [
+    "Characterize and analyze the properties of continuous-time and discrete-time signals and systems.",
+    "Represent continuous-time and discrete-time systems in the frequency domain using Fourier analysis and solve LTI problems.",
+    "Analyze continuous-time and discrete-time systems using Laplace transforms and Z-transforms.",
+    "Practice different systems in various applications."
+  ],
+  "textbooks": [],
+  "referenceBooks": [
+    "Alan V. Oppenheim, S. Hamid and Alan S. Willsky, \"Signals and Systems\", PHI/Pearson.",
+    "M. J. Roberts, \"Signals and Systems\", TMH.",
+    "Simon Haykin and Barry Van Veen, \"Signals and Systems\", Wiley.",
+    "R. F. Ziemer, W. H. Tranter and D. R. Fannin, \"Signals and Systems: Continuous and Discrete\", Prentice Hall.",
+    "Simon Haykin and Barry Van Veen, \"Signals and Systems\", Wiley.",
+    "Fred J. Taylor, \"Principles of Signals and Systems\", TMH."
+  ]
+}

@@ -1,5 +1,12 @@
 [
   {
+    "Course Title": "Engineering Mechanics",
+    "Course Code": "RAPC-101",
+    "route": "course/rapc-101",
+    "Branches": ["RA"],
+    "id":"nitkkr_1"
+  },
+  {
     "Course Title": "Introduction to Automation",
     "Course Code": "RAPC-203",
     "route": "course/rapc-203",
@@ -14,10 +21,16 @@
     "id":"nitkkr_3"
   },
   {
-    "Course Title": "Engineering Mechanics",
-    "Course Code": "RAPC-101",
-    "route": "course/rapc-101",
+    "Course Title": "Signals and Systems",
+    "Course Code": "RAPC-204",
+    "route": "course/rapc-204",
     "Branches": ["RA"],
-    "id":"nitkkr_1"
+    "id":"nitkkr_4"
+  },{
+    "Course Title": "Basic Electrical & Electronics Engineering",
+    "Course Code": "RAPC-202",
+    "route": "course/rapc-202",
+    "Branches": ["RA"],
+    "id":"nitkkr_5"
   }
 ]
