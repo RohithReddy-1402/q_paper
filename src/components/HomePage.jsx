@@ -17,6 +17,7 @@ import { useToast } from "./ToastContext";
 import { useNavigate } from "react-router-dom";
 import CrackerShotsEffect from "./celebration";
 import AutoHangingBoard from "./hangingBoard";
+import { Link } from "react-router-dom";
 const HomePage = ({
   isLoggedIn,
   user,
@@ -55,7 +56,7 @@ const HomePage = ({
   const handleVerifyPapers = () => {
     nav("/nit-kkr-pyqs/verifypaper");
   };
-
+  
   const handleContribute = () => {
     if (!isLoggedIn) {
       addToast("Please log in to Contribute", "error");
@@ -107,7 +108,7 @@ const HomePage = ({
           className={`w-full lg:w-${user?.role === "admin" ? "6/10" : "1/2"} flex flex-col xl:pl-48 justify-center items-center lg:items-start space-y-8 mb-12 lg:mb-0`}
         >
           <div
-            className={`text-center lg:text-left max-w-${user?.role === "admin" ? "2xl" : "lg"}`}
+            className={`text-center lg:text-left max-w-2xl}`}
           >
             <h2 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent leading-tight">
               NIT KKR Previous Year Question Papers
@@ -122,43 +123,55 @@ const HomePage = ({
                 onClick={handleQuestionPapers}
                 onMouseEnter={() => setActiveHover("papers")}
                 onMouseLeave={() => setActiveHover(null)}
-                className="relative overflow-hidden bg-gradient-to-r from-indigo-500 to-indigo-700 text-white 
+                className="relative cursor-pointer overflow-hidden bg-gradient-to-r from-indigo-500 to-indigo-700 text-white 
                 px-6 py-4 rounded-xl shadow-lg hover:shadow-xl group transition-all duration-300"
               >
                 <div className="flex items-center justify-center space-x-3 relative z-10">
-                  <BookOpen
-                    className={`w-6 h-6 transition-all duration-300 ${activeHover === "papers" ? "transform -translate-x-1" : ""}`}
-                  />
+                  
                   <span className="font-semibold text-lg">
                     Browse Question Papers
                   </span>
-                  <ArrowRight
-                    className={`w-5 h-5 transition-all duration-300 opacity-0 ${activeHover === "papers" ? "transform translate-x-1 opacity-100" : ""}`}
-                  />
+                  
                 </div>
                 <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                 {/* {!isLoggedIn && (
                   <Lock className="absolute top-2 right-2 w-4 h-4 text-white/70" />
                 )} */}
               </button>
-
               <button
-                onClick={handleContribute}
-                onMouseEnter={() => setActiveHover("contribute")}
-                onMouseLeave={() => setActiveHover(null)}
+                // onClick={handleQuestionPapers}
                 className="relative overflow-hidden bg-white border-2 border-indigo-500 text-indigo-600 
                 px-6 py-4 rounded-xl shadow-lg hover:shadow-xl group transition-all duration-300"
+                
+              >
+                <Link to="/nit-kkr/syllabus" className=" w-full h-full inset-0 z-10">
+                <div className="flex items-center justify-center space-x-3 relative z-10">
+                 <span>         </span>
+                  <span className="font-semibold text-lg">
+                    Browse Syllabus
+                  </span>
+                  <span>          </span>
+                </div>
+                <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                {/* {!isLoggedIn && (
+                  <Lock className="absolute top-2 right-2 w-4 h-4 text-white/70" />
+                )} */}
+                </Link>
+              </button>
+              <button
+                onClick={handleContribute}
+                
+                className="relative cursor-pointer overflow-hidden bg-gradient-to-r from-indigo-500 to-indigo-700 text-white 
+                px-6 py-4 rounded-xl shadow-lg hover:shadow-xl group transition-all duration-300 hover:shadow-xl hover:to-blue-400"
               >
                 <div className="flex items-center justify-center space-x-3 relative z-10">
                   <Upload
-                    className={`w-6 h-6 transition-all duration-300 ${activeHover === "contribute" ? "transform -translate-x-1" : ""}`}
+                    className={`w-6 h-6 transition-all duration-300 `}
                   />
                   <span className="font-semibold text-lg">
                     Contribute Papers
                   </span>
-                  <ArrowRight
-                    className={`w-5 h-5 transition-all duration-300 opacity-0 ${activeHover === "contribute" ? "transform translate-x-1 opacity-100" : ""}`}
-                  />
+                  
                 </div>
                 <div className="absolute inset-0 bg-indigo-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
                 {/* {!isLoggedIn && (
