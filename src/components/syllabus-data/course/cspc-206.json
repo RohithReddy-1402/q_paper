@@ -1,0 +1,67 @@
+{
+  "Course Title": "Database Management Systems",
+  "Course Code": "CSPC-206",
+  "route": "course/cspc-206",
+  "credits": 4,
+  "prerequisites": "NIL",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "contactHours": 40,
+  "description": "This course introduces the principles of Database Management Systems. Students learn data models, relational databases, SQL, normalization, transaction processing and concurrency control required to design, implement and maintain reliable database systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Database Systems",
+      "hours": 8,
+      "body": "Data, databases, Database Management Systems (DBMS), evolution from file systems to database systems, data models, relational data model, Entity-Relationship (ER) model, schemas and instances, database users and DBMS architecture."
+    },
+    {
+      "id": "II",
+      "title": "Relational Model and Query Language",
+      "hours": 8,
+      "body": "Theory of relational databases, keys, integrity constraints, relational algebra, domain relational calculus, tuple relational calculus, Structured Query Language (SQL) and SQL query writing."
+    },
+    {
+      "id": "III",
+      "title": "Database Design",
+      "hours": 8,
+      "body": "Normalization, database anomalies, functional dependencies, candidate keys, super keys, lossless decomposition, dependency preservation, First Normal Form (1NF), Second Normal Form (2NF), Third Normal Form (3NF) and Boyce-Codd Normal Form (BCNF)."
+    },
+    {
+      "id": "IV",
+      "title": "Transaction Processing",
+      "hours": 8,
+      "body": "Transaction concepts, transaction model, transaction states, ACID properties, implementation of ACID properties and serializability."
+    },
+    {
+      "id": "V",
+      "title": "Concurrency Control",
+      "hours": 8,
+      "body": "Need for concurrency control, lock-based protocols, deadlocks, starvation, deadlock handling techniques, timestamp-based protocols and validation-based protocols."
+    }
+  ],
+  "outcomes": [
+    "Understand database fundamentals, data models and relational database concepts.",
+    "Design relational databases using normalization and functional dependency analysis.",
+    "Write SQL queries using relational algebra and relational calculus concepts.",
+    "Understand transaction management, ACID properties and serializability.",
+    "Apply concurrency control techniques and deadlock handling mechanisms for reliable database systems."
+  ],
+  "textbooks": [
+    "Abraham Silberschatz, Henry F. Korth and S. Sudarshan, Database System Concepts, McGraw-Hill, 4th/5th/6th Edition.",
+    "Ramez Elmasri and Shamkant B. Navathe, Fundamentals of Database Systems, Pearson, 5th/6th/7th Edition."
+  ],
+  "referenceBooks": [
+    "C. J. Date, An Introduction to Database Systems, Pearson.",
+    "Raghu Ramakrishnan and Johannes Gehrke, Database Management Systems, McGraw-Hill.",
+    "Thomas Connolly and Carolyn Begg, Database Systems: A Practical Approach to Design, Implementation and Management, Pearson."
+  ]
+}

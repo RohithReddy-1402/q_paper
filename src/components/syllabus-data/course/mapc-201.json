@@ -1,0 +1,62 @@
+{
+  "Course Title": "Linear Algebra & Applications",
+  "Course Code": "MAPC-201",
+  "route": "course/mapc-201",
+  "credits": 3,
+  "prerequisites": "NIL",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course introduces the mathematical foundations of linear algebra and its engineering applications. Students learn techniques for solving systems of linear equations, study vector spaces, linear transformations, eigenvalue problems, matrix decompositions, and inner product spaces with applications in image processing, statistics, machine learning, and differential equations.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "System of Linear Equations",
+      "hours": 10,
+      "body": "Matrices and elementary row operations, row reduced echelon matrices, homogeneous systems of linear equations, elementary matrices, LU decomposition, and applications giving rise to linear system problems."
+    },
+    {
+      "id": "II",
+      "title": "Vector Spaces",
+      "hours": 10,
+      "body": "Fields, fields of numbers, finite fields, vector spaces over R and C, subspaces, linear independence, basis and dimension of vector spaces, ordered basis and coordinates, applications to difference equations and Markov chains."
+    },
+    {
+      "id": "III",
+      "title": "Linear Transformations",
+      "hours": 10,
+      "body": "Linear transformations, rank and nullity, algebra of linear transformations, isomorphism, invertible linear transformations, dual and double dual spaces, transpose of linear transformations, matrix representation, eigenvalues and eigenvectors, discrete dynamical systems, applications to differential equations."
+    },
+    {
+      "id": "IV",
+      "title": "Eigen Decomposition and Inner Product Spaces",
+      "hours": 10,
+      "body": "Diagonalizability of finite-dimensional linear operators, simultaneous triangularization and diagonalization, primary decomposition theorem, diagonal and nilpotent parts, applications to image processing and statistics, Gram-Schmidt orthogonalization, least square approximation, adjoint operators, Hermitian, unitary and normal operators, Singular Value Decomposition (SVD), spectral decomposition and applications of inner product spaces."
+    }
+  ],
+  "outcomes": [
+    "Solve systems of linear equations using matrices, row operations and LU decomposition.",
+    "Understand vector spaces, basis, dimension and their applications in engineering.",
+    "Analyze linear transformations, rank, nullity, eigenvalues and eigenvectors.",
+    "Study diagonalization, primary decomposition theorem and their practical applications.",
+    "Apply Gram-Schmidt orthogonalization, least squares, SVD and spectral decomposition to solve engineering problems."
+  ],
+  "textbooks": [
+    "G. Strang, Linear Algebra and its Applications, Cengage.",
+    "D. C. Lay, Linear Algebra and its Applications, Pearson.",
+    "K. Hoffman and R. Kunze, Linear Algebra, Pearson."
+  ],
+  "referenceBooks": [
+    "D. Poole, Linear Algebra: A Modern Introduction, Brooks/Cole.",
+    "S. Kumaresan, Linear Algebra: A Geometric Approach, Prentice Hall of India.",
+    "S. Lang, Linear Algebra, Springer."
+  ]
+}

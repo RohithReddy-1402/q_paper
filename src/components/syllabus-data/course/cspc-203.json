@@ -1,0 +1,71 @@
+{
+  "Course Title": "Computer Organization and Architecture",
+  "Course Code": "CSPC-203",
+  "route": "course/cspc-203",
+  "credits": 3,
+  "prerequisites": "Digital System Design",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course introduces the internal organization of modern computer systems. Students learn digital system fundamentals, processor organization, instruction execution, control unit design, memory hierarchy, input-output systems, pipelining and computer architecture concepts required for efficient computer system design.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "hours": 8,
+      "body": "Introduction to digital electronics, combinational circuits, sequential circuits, basic machine principles, computer organization, representation of real-world data, machine-level programming concepts, subroutines, branching and macro facilities."
+    },
+    {
+      "id": "II",
+      "title": "Processor Design",
+      "hours": 8,
+      "body": "Processor organization, information representation, number systems, instruction cycle, instruction formats, addressing modes, arithmetic operations, fixed-point addition, subtraction, multiplication and division, ALU design, parallel processing, performance considerations and pipeline processors."
+    },
+    {
+      "id": "III",
+      "title": "Control Design",
+      "hours": 8,
+      "body": "Instruction sequencing and interpretation, hardwired control unit design, microprogrammed control, control memory organization and execution of microinstructions."
+    },
+    {
+      "id": "IV",
+      "title": "Memory Organization",
+      "hours": 8,
+      "body": "Memory device characteristics, random access memory, serial access memory, virtual memory, memory hierarchy, page replacement policies, segmentation, paging, cache memory, associative memory and file organization."
+    },
+    {
+      "id": "V",
+      "title": "System Organization",
+      "hours": 8,
+      "body": "Programmed I/O, Direct Memory Access (DMA), interrupts, I/O processors, CPU-I/O interaction and system-level organization of computer systems."
+    }
+  ],
+  "outcomes": [
+    "Understand the fundamentals of digital electronics, machine organization and data representation.",
+    "Analyze processor organization, instruction execution, ALU design and pipelined processors.",
+    "Design and evaluate hardwired and microprogrammed control units.",
+    "Understand memory hierarchy, virtual memory, cache organization and storage management techniques.",
+    "Analyze input-output organization, DMA, interrupts and complete computer system architecture."
+  ],
+  "textbooks": [
+    "John L. Hennessy and David A. Patterson, Computer Architecture: A Quantitative Approach, Sixth Edition, Morgan Kaufmann.",
+    "Kai Hwang, Computer Architecture and Parallel Processing, McGraw Hill Education.",
+    "M. M. Mano, Computer System Architecture, Third Edition, PHI.",
+    "J. P. Hayes, Computer Architecture and Organization, Third Edition, TMH.",
+    "C. W. Gear, Computer Organization and Programming, TMH.",
+    "Andrew S. Tanenbaum, Computer System Organization, PHI."
+  ],
+  "referenceBooks": [
+    "William Stallings, Computer Organization and Architecture: Designing for Performance, Pearson.",
+    "Carl Hamacher, Zvonko Vranesic, Safwat Zaky and Naraig Manjikian, Computer Organization and Embedded Systems, McGraw Hill.",
+    "David A. Patterson and John L. Hennessy, Computer Organization and Design, Morgan Kaufmann."
+  ]
+}

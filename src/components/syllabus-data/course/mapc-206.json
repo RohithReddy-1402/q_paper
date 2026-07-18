@@ -1,0 +1,61 @@
+{
+  "Course Title": "Theory of Computation",
+  "Course Code": "MAPC-206",
+  "route": "course/mapc-206",
+  "credits": 3,
+  "prerequisites": "NIL",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course introduces the mathematical foundations of computation through finite automata, formal languages, grammars, pushdown automata, Turing machines, computability, undecidability and computational complexity. Students learn theoretical models used in compiler design, language processing and complexity analysis.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Finite State Machines",
+      "hours": 10,
+      "body": "Basic machines, finite state machines (FSM), transition graphs, transition matrices, deterministic and non-deterministic finite automata (DFA and NFA), equivalence of DFA and NFA, Mealy and Moore machines, minimization of finite automata and two-way finite automata."
+    },
+    {
+      "id": "II",
+      "title": "Regular Languages and Formal Grammars",
+      "hours": 10,
+      "body": "Regular sets and regular grammars, alphabets, words, operations on languages, finite automata and regular expressions, pumping lemma and its applications, closure properties of regular languages, formal grammars, Chomsky hierarchy, regular, context-free and context-sensitive grammars, context-free languages, non-context-free languages, Chomsky normal form and binary operations on languages."
+    },
+    {
+      "id": "III",
+      "title": "Turing Machines and Computability",
+      "hours": 10,
+      "body": "Turing machine model, representation, language acceptability, design of Turing machines, Universal Turing Machine, modified Turing machines, composite and iterated Turing machines, Pushdown Automata (PDA), acceptance by PDA, primitive recursive functions, partial recursive functions, recursive functions, decidability, Kleene's theorem, undecidability, recursively enumerable languages, Rice's theorem and other undecidable problems."
+    },
+    {
+      "id": "IV",
+      "title": "Computational Complexity Theory",
+      "hours": 10,
+      "body": "Complexity measures, linear speed-up theorem, tape compression, reduction in number of tapes, hierarchy theorem, relationships among complexity measures, transition lemmas, non-deterministic hierarchies, properties of general complexity measures, gap theorem, speed-up theorem, union theorem and automatic complexity theorem."
+    }
+  ],
+  "outcomes": [
+    "Understand deterministic and non-deterministic finite automata and their minimization techniques.",
+    "Develop formal computational models using regular expressions, grammars and the Chomsky hierarchy.",
+    "Apply Pushdown Automata and Turing Machines for language recognition and computability analysis.",
+    "Analyze decidability, undecidability and recursively enumerable languages.",
+    "Classify computational problems using computational complexity theory and complexity classes."
+  ],
+  "textbooks": [
+    "J. E. Hopcroft and J. D. Ullman, Introduction to Automata Theory, Languages and Computation, Narosa Publishers.",
+    "K. L. P. Mishra, Theory of Computer Science, Prentice Hall of India."
+  ],
+  "referenceBooks": [
+    "E. V. Krishnamurthy, Introductory Theory of Computer Science, East-West Press.",
+    "J. Martin, Introduction to Languages and the Theory of Computation, McGraw-Hill Education.",
+    "Peter Linz, An Introduction to Formal Languages and Automata, Narosa Publishers."
+  ]
+}

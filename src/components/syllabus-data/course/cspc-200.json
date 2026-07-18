@@ -1,0 +1,63 @@
+{
+  "Course Title": "Operating System",
+  "Course Code": "CSPC-200",
+  "route": "course/cspc-200",
+  "credits": 4,
+  "prerequisites": "NIL",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "contactHours": 40,
+  "description": "This course introduces the design and implementation of modern operating systems. Students learn process management, CPU scheduling, synchronization, deadlocks, memory management, file systems, protection, security, virtualization and operating system services required for modern computing environments.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Operating Systems",
+      "hours": 10,
+      "body": "Computer system architecture and organization, evolution of operating systems, distributed operating systems, real-time systems, multimedia systems, OS services, system calls, system programs, OS design and implementation, process concept, process scheduling policies, process operations, inter-process communication, multithreading models, thread issues, CPU scheduling criteria, scheduling algorithms, multiprocessor scheduling and thread scheduling."
+    },
+    {
+      "id": "II",
+      "title": "Process Synchronization and Deadlocks",
+      "hours": 10,
+      "body": "Critical section problem, classical two-process and n-process solutions, hardware synchronization primitives, semaphores, monitors, producer-consumer problem, readers-writers problem, dining philosophers problem, deadlock modeling, resource allocation, characterization, prevention, avoidance, detection and recovery."
+    },
+    {
+      "id": "III",
+      "title": "Memory Management and Input/Output",
+      "hours": 10,
+      "body": "Swapping, contiguous memory allocation, paging, multilevel paging, segmentation, demand paging, page replacement algorithms, frame allocation, thrashing, working set model, I/O systems and services, device controllers, device drivers, disk scheduling algorithms and disk management."
+    },
+    {
+      "id": "IV",
+      "title": "File Systems, Protection and Security",
+      "hours": 10,
+      "body": "File system interface, access methods, access control, directory structures, file organization, file sharing, protection mechanisms, system performance, OS security considerations, access control lists, operating system support, internet security, network security, operating system as a service provider, capability matrix, encryption and access permissions in Linux and Windows."
+    }
+  ],
+  "outcomes": [
+    "Understand operating system architecture, process management and CPU scheduling techniques.",
+    "Apply synchronization mechanisms and deadlock handling algorithms for concurrent systems.",
+    "Analyze memory management techniques including paging, segmentation and virtual memory.",
+    "Understand file system organization, protection mechanisms and operating system security.",
+    "Design and evaluate modern operating system components for efficient resource management."
+  ],
+  "textbooks": [
+    "Abraham Silberschatz, Peter B. Galvin and Greg Gagne, Operating System Concepts, Wiley.",
+    "H. Brinch Hansen, Operating System Principles, Prentice Hall of India.",
+    "D. M. Dhamdhere, Systems Programming and Operating Systems, Tata McGraw-Hill.",
+    "A. N. Habermann, Introduction to Operating System Design, Galgotia Publications.",
+    "Andrew S. Tanenbaum, Modern Operating Systems, Prentice Hall of India."
+  ],
+  "referenceBooks": [
+    "Abraham Silberschatz, Peter B. Galvin and Greg Gagne, Operating System Concepts, Latest Edition.",
+    "Andrew S. Tanenbaum, Modern Operating Systems, Latest Edition."
+  ]
+}

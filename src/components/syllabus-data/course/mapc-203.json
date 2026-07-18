@@ -1,0 +1,65 @@
+{
+  "Course Title": "Discrete Mathematics",
+  "Course Code": "MAPC-203",
+  "route": "course/mapc-203",
+  "credits": 4,
+  "prerequisites": "NIL",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    1,
+    0,
+    4
+  ],
+  "contactHours": 40,
+  "description": "This course provides the mathematical foundation required for computer science and engineering. It covers mathematical logic, combinatorics, recurrence relations, relations, graph theory concepts, and abstract algebra, enabling students to solve computational and mathematical problems using discrete structures.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Mathematical Logic",
+      "hours": 10,
+      "body": "Connectives, tautologies, equivalence of formulas, duality law, tautological implications, normal forms, theory of inference for statement calculus, methods of proof, predicate logic, statement functions, variables and quantifiers, free and bound variables, inference theory for predicate calculus."
+    },
+    {
+      "id": "II",
+      "title": "Counting Techniques",
+      "hours": 10,
+      "body": "Basics of counting, permutations and combinations, generalized permutations and combinations, Pascal's identity, Vandermonde identity, principles of inclusion and exclusion, pigeon-hole principle and its applications."
+    },
+    {
+      "id": "III",
+      "title": "Recurrence Relations and Relations",
+      "hours": 10,
+      "body": "Generating functions, generating functions of permutations and combinations, formulation as recurrence relations, solving recurrence relations by substitution and generating functions, characteristic root method, solving inhomogeneous recurrence relations, applications of recurrence relations. Binary relations, properties of binary relations, equivalence relations and partitions, matrix representation of relations, adjacency matrices, incidence matrices, transitive closure, Warshall algorithm, partial and total ordering relations, lattices."
+    },
+    {
+      "id": "IV",
+      "title": "Groups and Group Mappings",
+      "hours": 10,
+      "body": "Binary operations, groups, subgroups, cyclic groups, symmetric groups, cosets, Lagrange's theorem and its consequences, normal subgroups, quotient groups, centralizers, normalizers, centre of a group, homomorphism, kernel, isomorphism, fundamental theorem of isomorphism, permutation groups, Cayley's theorem, orbits, cycles and alternating groups."
+    }
+  ],
+  "outcomes": [
+    "Understand and apply propositional and predicate logic, inference rules and proof techniques.",
+    "Solve combinatorial problems using counting principles, permutations and combinations.",
+    "Analyze recurrence relations, binary relations, lattices and matrix representations.",
+    "Understand algebraic structures including groups, subgroups, homomorphisms and quotient groups.",
+    "Apply discrete mathematical concepts in computer science, algorithms and graph theory."
+  ],
+  "textbooks": [
+    "J. R. Mott, A. Kandel and Baker, Discrete Mathematics for Computer Scientists, PHI, 2006.",
+    "C. L. Liu, Elements of Discrete Mathematics, McGraw Hill, 1985.",
+    "J. P. Tremblay and R. Manohar, Discrete Mathematics with Applications to Computer Science, Tata McGraw-Hill, 1997."
+  ],
+  "referenceBooks": [
+    "K. H. Rosen, Discrete Mathematics and its Applications with Combinatorics and Graph Theory, Tata McGraw Hill, Seventh Edition, 2015.",
+    "Bernard Kolman, Robert C. Busby and Sharon Cutler Ross, Discrete Mathematical Structures, PHI, Sixth Edition, 2009.",
+    "R. Balakrishnan and K. Ranganathan, A Text Book of Graph Theory, Springer, 2000.",
+    "I. N. Herstein, Topics in Algebra, Wiley, Second Edition, 1975.",
+    "John B. Fraleigh, A First Course in Abstract Algebra, Pearson, Seventh Edition, 2013.",
+    "Joseph A. Gallian, Contemporary Abstract Algebra, Cengage Learning, Eighth Edition, 2013."
+  ]
+}

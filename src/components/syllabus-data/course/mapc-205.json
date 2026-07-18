@@ -1,0 +1,65 @@
+{
+  "Course Title": "Probability & Statistics",
+  "Course Code": "MAPC-205",
+  "route": "course/mapc-205",
+  "credits": 4,
+  "prerequisites": "NIL",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "contactHours": 40,
+  "description": "This course introduces probability theory and statistical methods for engineering and data analysis. Students learn random variables, probability distributions, hypothesis testing, estimation, correlation, regression, and practical statistical analysis using computer programs.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Random Variables",
+      "hours": 10,
+      "body": "Review of probability, probability distributions with discrete and continuous random variables, joint probability mass function, marginal distribution function, joint density function, independent random variables, mathematical expectation, moment generating function, Chebyshev's inequality, weak law of large numbers, Bernoulli trials."
+    },
+    {
+      "id": "II",
+      "title": "Theoretical Probability Distributions",
+      "hours": 10,
+      "body": "Binomial, Negative Binomial, Geometric, Poisson, Normal, Rectangular, Exponential, Gaussian, Beta and Gamma distributions, moment generating functions, fitting theoretical probability models to empirical data."
+    },
+    {
+      "id": "III",
+      "title": "Sampling and Testing of Hypothesis",
+      "hours": 10,
+      "body": "Introduction to hypothesis testing, tests of significance for large samples, t-test, F-test, Chi-square test, one-way and two-way ANOVA classifications."
+    },
+    {
+      "id": "IV",
+      "title": "Estimation, Correlation and Regression",
+      "hours": 10,
+      "body": "Characteristics of estimation, minimum variance unbiased estimator, maximum likelihood estimation, scatter diagram, linear and polynomial curve fitting using least squares, linear correlation, linear regression, rank correlation and correlation of bivariate frequency distributions."
+    },
+    {
+      "id": "Laboratory",
+      "title": "Practical Exercises",
+      "hours": 26,
+      "body": "Programs for calculation of mean, median, mode, quartiles, deciles, percentiles, measures of dispersion, skewness, kurtosis, raw and central moments, fitting Binomial, Poisson and Normal distributions, hypothesis testing using Normal, Chi-square, t and F distributions, and ANOVA."
+    }
+  ],
+  "outcomes": [
+    "Understand probability concepts, random variables and mathematical expectation.",
+    "Apply Binomial, Poisson, Normal, Gamma and other probability distributions to real-world data.",
+    "Perform hypothesis testing using t-test, Chi-square test, F-test and ANOVA.",
+    "Estimate statistical parameters using unbiased and maximum likelihood estimation techniques.",
+    "Analyze datasets using correlation, regression and least squares fitting methods."
+  ],
+  "textbooks": [
+    "S. C. Gupta and V. K. Kapur, Fundamentals of Mathematical Statistics, S. Chand & Sons, 2008.",
+    "V. K. Rohatgi and A. K. Md. Ehsanes Saleh, An Introduction to Probability Theory and Mathematical Statistics, Wiley, 2001."
+  ],
+  "referenceBooks": [
+    "Miller & Freund's Probability and Statistics for Engineers, Richard A. Johnson, Pearson, Ninth Edition, 2018."
+  ]
+}

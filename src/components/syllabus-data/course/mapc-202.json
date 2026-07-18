@@ -1,0 +1,70 @@
+{
+  "Course Title": "Real and Complex Analysis",
+  "Course Code": "MAPC-202",
+  "route": "course/mapc-202",
+  "credits": 3,
+  "prerequisites": "NIL",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course introduces the foundations of real and complex analysis. Students study topology, sequences, series, continuity, integration, analytic functions, contour integration, power series, conformal mappings, and their applications in mathematics and engineering.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Real Analysis",
+      "hours": 15,
+      "body": "Basic set topology including interior points, open sets, closed sets, bounded sets, compact sets, connected and simply connected regions, boundaries. Sequences and series, subsequences, convergence, Cauchy criterion, comparison, ratio and root tests. Limits, continuity, continuous curves. Riemann-Stieltjes integral, improper integrals and convergence tests. Uniform convergence, limit theorems, continuity of sum functions, term-by-term differentiation and integration, power series and their convergence."
+    },
+    {
+      "id": "II",
+      "title": "Functions of Complex Variables",
+      "hours": 8,
+      "body": "Complex variables, functions of a complex variable, continuity, differentiability and analytic functions."
+    },
+    {
+      "id": "III",
+      "title": "Complex Integration",
+      "hours": 7,
+      "body": "Cauchy's theorem, Cauchy's integral formula, Morera's theorem, Cauchy's inequality and Liouville's theorem."
+    },
+    {
+      "id": "IV",
+      "title": "Series Expansions and Contour Integration",
+      "hours": 10,
+      "body": "Taylor's theorem, Laurent's theorem, zeros of analytic functions, singularities, residues, Cauchy's residue theorem, contour integration, fundamental theorem of algebra, Poisson's integral formula, analytic continuation, branches of many-valued functions and Riemann surfaces."
+    },
+    {
+      "id": "V",
+      "title": "Conformal Mapping",
+      "hours": 5,
+      "body": "Maximum modulus theorem, mean values of analytic functions, conformal representation, bilinear transformations, elementary transformations, uniqueness of conformal mappings and representation of regions on a circle."
+    }
+  ],
+  "outcomes": [
+    "Understand topology, sequences, series, limits and uniform convergence in real analysis.",
+    "Evaluate Riemann-Stieltjes and improper integrals and analyze their convergence.",
+    "Understand analytic functions, differentiability and contour integration in complex analysis.",
+    "Apply Taylor series, Laurent series, singularities and residue calculus to solve complex function problems.",
+    "Use conformal mappings and analytic continuation for solving transformation problems."
+  ],
+  "textbooks": [
+    "Walter Rudin, Principles of Mathematical Analysis, McGraw Hill, Third Edition, 2017.",
+    "Brian S. Thomson, Andrew M. Bruckner and Judith B. Bruckner, Real Analysis, Prentice Hall International, 2008.",
+    "R. V. Churchill and J. W. Brown, Complex Variables and Applications, McGraw Hill, Eighth Edition, 2009.",
+    "E. T. Copson, Theory of Complex Variables, Oxford University Press, 1974."
+  ],
+  "referenceBooks": [
+    "N. L. Carothers, Real Analysis, Cambridge University Press, 2000.",
+    "Tom M. Apostol, Mathematical Analysis, Addison Wesley, Second Edition, 1974.",
+    "S. Ponnusamy and Herb Silverman, Complex Variables with Applications, Birkhäuser, 2006.",
+    "Murray Spiegel, Seymour Lipschutz, John Schiller and Dennis Spellman, Complex Variables, Schaum's Outline Series, McGraw Hill, Revised Second Edition, 2017."
+  ]
+}

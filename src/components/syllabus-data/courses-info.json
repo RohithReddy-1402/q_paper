@@ -95,5 +95,80 @@
     "route": "course/rapc-209",
     "Branches": ["RA"],
     "id":"nitkkr_15"
+  },
+  {
+    "Course Title": "Linear Algebra & Applications",
+    "Course Code": "MAPC-201",
+    "route": "course/mapc-201",
+    "Branches": ["M&C"],
+    "id":"nitkkr_16"
+  },{
+    "Course Title": "Discrete Mathematics",
+    "Course Code": "MAPC-203",
+    "route": "course/mapc-203",
+    "Branches": ["M&C"],
+    "id":"nitkkr_17"
+  },{
+    "Course Title": "Probability & Statistics",
+    "Course Code": "MAPC-205",
+    "route": "course/mapc-205",
+    "Branches": ["M&C"],
+    "id":"nitkkr_18"
+  },
+  {
+    "Course Title":"Design and Analysis of Algorithms",
+    "Course Code":"CSPC-201",
+    "route":"course/cspc-201",
+    "Branches": ["M&C"],
+    "id":"nitkkr_19"
+  },{
+     "Course Title":"Computer Organization and Architecture",
+    "Course Code":"CSPC-203",
+    "route":"course/cspc-203",
+    "Branches": ["M&C"],
+    "id":"nitkkr_20"
+  },
+  {
+     "Course Title":"Object-Oriented Programming using Java",
+    "Course Code":"CSPC-205",
+    "route":"course/cspc-205",
+    "Branches": ["M&C"],
+    "id":"nitkkr_21"
+  },{
+    "Course Title":"Operating System",
+    "Course Code":"CSPC-200",
+    "route":"course/cspc-200",
+    "Branches": ["M&C"],
+    "id":"nitkkr_22"
+  },{
+    "Course Title":"Artificial Intelligence and Soft Computing",
+    "Course Code":"CSPC-204",
+    "route":"course/cspc-204",
+    "Branches": ["M&C"],
+    "id":"nitkkr_23"
+  },{
+    "Course Title":"Database Management Systems",
+    "Course Code":"CSPC-206",
+    "route":"course/cspc-206",
+    "Branches": ["M&C"],
+    "id":"nitkkr_24"
+  },{
+    "Course Title":"Real and Complex Analysis",
+    "Course Code":"MAPC-202",
+    "route":"course/mapc-202",
+    "Branches": ["M&C"],
+    "id":"nitkkr_25"
+  },{
+    "Course Title":"Computer-Oriented Numerical Methods",
+    "Course Code":"MAPC-204",
+    "route":"course/mapc-204",
+    "Branches": ["M&C"],
+    "id":"nitkkr_26"
+  },{
+    "Course Title":"Theory of Computation",
+    "Course Code":"MAPC-206",
+    "route":"course/mapc-206",
+    "Branches": ["M&C"],
+    "id":"nitkkr_27"
   }
 ]
