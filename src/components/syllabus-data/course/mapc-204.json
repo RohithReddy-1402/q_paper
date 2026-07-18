@@ -1,0 +1,72 @@
+{
+  "Course Title": "Computer-Oriented Numerical Methods",
+  "Course Code": "MAPC-204",
+  "route": "course/mapc-204",
+  "credits": 4,
+  "prerequisites": "NIL",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "contactHours": 40,
+  "description": "This course introduces numerical techniques for solving engineering and scientific problems. Students learn floating-point arithmetic, iterative methods, interpolation, numerical differentiation, numerical integration, and numerical solutions of differential equations with practical implementation using Python.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Computer Arithmetic, Approximation and Errors",
+      "hours": 8,
+      "body": "Number systems, conversion of numbers, representation of numbers, floating-point representation, arithmetic operations with normalized floating-point numbers, consequences of normalization, pitfalls of computing, significant digits, types of errors, absolute error and relative error."
+    },
+    {
+      "id": "II",
+      "title": "Iterative Methods",
+      "hours": 8,
+      "body": "Introduction, order of convergence, Bisection method, Regula-Falsi method, Fixed-Point Iteration, Newton-Raphson method, Secant method, Generalized Newton's method, solution of systems of linear equations, Gauss-Jacobi method, Gauss-Seidel method, iterative methods, eigenvalues and eigenvectors using the Power method."
+    },
+    {
+      "id": "III",
+      "title": "Interpolation",
+      "hours": 8,
+      "body": "Finite difference operators, divided difference operators, relations between difference operators, applications of difference operators, polynomial interpolation, existence and uniqueness of interpolating polynomials, Lagrange interpolation, Newton's interpolation, Newton's forward and backward difference formulae, interpolation error."
+    },
+    {
+      "id": "IV",
+      "title": "Numerical Differentiation and Integration",
+      "hours": 8,
+      "body": "Numerical differentiation using interpolation and finite differences, approximation error, order of approximation. Numerical integration, quadrature formulae, Newton-Cotes methods, Trapezoidal rule, Simpson's rules, Gauss quadrature methods with error analysis."
+    },
+    {
+      "id": "V",
+      "title": "Numerical Solution of Differential Equations",
+      "hours": 8,
+      "body": "Picard's method, Taylor series method, Euler's method, Runge-Kutta methods for first-order and higher-order initial value problems and systems of first-order ordinary differential equations."
+    },
+    {
+      "id": "Laboratory",
+      "title": "Python Practical Exercises",
+      "hours": 26,
+      "body": "Implementation of nonlinear equation solvers, systems of nonlinear equations, direct and iterative methods for linear systems, eigenvalue computation, finite difference tables, interpolation techniques, numerical differentiation, numerical integration, and numerical solutions of ordinary differential equations using Python."
+    }
+  ],
+  "outcomes": [
+    "Understand number systems, floating-point representation and numerical errors.",
+    "Apply iterative techniques such as Bisection, Regula-Falsi, Newton-Raphson, Gauss-Jacobi and Gauss-Seidel methods.",
+    "Implement interpolation techniques using Newton's and Lagrange's methods.",
+    "Apply numerical differentiation and numerical integration techniques for engineering problems.",
+    "Solve ordinary differential equations numerically using Euler, Taylor and Runge-Kutta methods."
+  ],
+  "textbooks": [
+    "M. K. Jain, S. R. K. Iyengar and R. K. Jain, Numerical Methods for Engineers and Scientists, New Age International, 2008.",
+    "C. F. Gerald and P. O. Wheatley, Applied Numerical Analysis, Addison-Wesley, 1984."
+  ],
+  "referenceBooks": [
+    "D. Atkinson, Numerical Analysis, John Wiley & Sons, 2009.",
+    "C. F. Gerald and P. O. Wheatley, Applied Numerical Analysis, Pearson Education, 2004."
+  ]
+}

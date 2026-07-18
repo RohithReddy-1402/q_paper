@@ -134,5 +134,41 @@
     "route":"course/cspc-205",
     "Branches": ["M&C"],
     "id":"nitkkr_21"
+  },{
+    "Course Title":"Operating System",
+    "Course Code":"CSPC-200",
+    "route":"course/cspc-200",
+    "Branches": ["M&C"],
+    "id":"nitkkr_22"
+  },{
+    "Course Title":"Artificial Intelligence and Soft Computing",
+    "Course Code":"CSPC-204",
+    "route":"course/cspc-204",
+    "Branches": ["M&C"],
+    "id":"nitkkr_23"
+  },{
+    "Course Title":"Database Management Systems",
+    "Course Code":"CSPC-206",
+    "route":"course/cspc-206",
+    "Branches": ["M&C"],
+    "id":"nitkkr_24"
+  },{
+    "Course Title":"Real and Complex Analysis",
+    "Course Code":"MAPC-202",
+    "route":"course/mapc-202",
+    "Branches": ["M&C"],
+    "id":"nitkkr_25"
+  },{
+    "Course Title":"Computer-Oriented Numerical Methods",
+    "Course Code":"MAPC-204",
+    "route":"course/mapc-204",
+    "Branches": ["M&C"],
+    "id":"nitkkr_26"
+  },{
+    "Course Title":"Theory of Computation",
+    "Course Code":"MAPC-206",
+    "route":"course/mapc-206",
+    "Branches": ["M&C"],
+    "id":"nitkkr_27"
   }
 ]

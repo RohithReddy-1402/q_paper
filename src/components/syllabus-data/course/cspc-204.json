@@ -1,0 +1,69 @@
+{
+  "Course Title": "Artificial Intelligence and Soft Computing",
+  "Course Code": "CSPC-204",
+  "route": "course/cspc-204",
+  "credits": 4,
+  "prerequisites": "CSPC-201",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "contactHours": 40,
+  "description": "This course introduces the fundamentals of Artificial Intelligence and Soft Computing. Students study search techniques, knowledge representation, evolutionary computing, swarm intelligence and fuzzy logic to develop intelligent systems capable of solving complex real-world problems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Soft Computing",
+      "hours": 8,
+      "body": "Introduction to Soft Computing, comparison between Soft Computing and Hard Computing, various soft computing techniques and applications of soft computing."
+    },
+    {
+      "id": "II",
+      "title": "AI Problem Solving",
+      "hours": 8,
+      "body": "Uninformed search strategies, informed search strategies, local search strategies, adversarial search and search techniques for constraint satisfaction problems."
+    },
+    {
+      "id": "III",
+      "title": "Knowledge Representation and Reasoning",
+      "hours": 8,
+      "body": "Logical agents, First-Order Logic, inference in First-Order Logic, knowledge representation and automated planning."
+    },
+    {
+      "id": "IV",
+      "title": "Nature-Inspired Algorithms",
+      "hours": 8,
+      "body": "Genetic Algorithms, Genetic Programming, Evolutionary Programming, Swarm Intelligence, Ant Colony Optimization (ACO), Artificial Bee Colony (ABC) and Particle Swarm Optimization (PSO)."
+    },
+    {
+      "id": "V",
+      "title": "Fuzzy Logic",
+      "hours": 8,
+      "body": "Fuzzy sets, fuzzy rules, fuzzy reasoning, fuzzification methods, defuzzification methods and fuzzy inference systems."
+    }
+  ],
+  "outcomes": [
+    "Understand Artificial Intelligence problem-solving techniques and constraint satisfaction methods.",
+    "Apply evolutionary computing techniques including Genetic Algorithms and Genetic Programming.",
+    "Implement swarm intelligence algorithms such as Ant Colony Optimization, Artificial Bee Colony and Particle Swarm Optimization.",
+    "Develop fuzzy logic-based systems using fuzzy sets, reasoning and inference mechanisms.",
+    "Apply soft computing techniques to solve optimization and intelligent decision-making problems."
+  ],
+  "textbooks": [
+    "Stuart J. Russell and Peter Norvig, Artificial Intelligence: A Modern Approach, Fourth Edition, Prentice Hall, 2022.",
+    "Zbigniew Michalewicz, Genetic Algorithms + Data Structures = Evolutionary Programs, Springer, Third Edition.",
+    "James Kennedy, Russell C. Eberhart and Yuhui Shi, Swarm Intelligence, Morgan Kaufmann, First Edition.",
+    "J. S. R. Jang, C. T. Sun and E. Mizutani, Neuro-Fuzzy and Soft Computing: A Computational Approach to Learning and Machine Intelligence, Pearson Education India."
+  ],
+  "referenceBooks": [
+    "David E. Goldberg, Genetic Algorithms: Search, Optimization and Machine Learning, Addison-Wesley.",
+    "Marco Dorigo and Thomas Stützle, Ant Colony Optimization, The MIT Press.",
+    "Timothy J. Ross, Fuzzy Logic with Engineering Applications, Third Edition, McGraw-Hill."
+  ]
+}
