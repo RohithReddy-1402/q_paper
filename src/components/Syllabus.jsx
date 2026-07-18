@@ -183,6 +183,10 @@ const branches = [
       <Helmet>
         <title>Syllabus | NIT KKR</title>
         <meta name="description" content="Download Syllabus of NIT KKR" />
+        <meta
+          name="keywords"
+          content="NIT Kurukshetra syllabus, NIT KKR syllabus, NIT Kurukshetra syllabus PDF, NIT Kurukshetra CSE syllabus, NIT Kurukshetra IT syllabus, NIT Kurukshetra Robotics syllabus, NIT Kurukshetra Mathematics and Computing syllabus, semester wise syllabus"
+        />
       </Helmet>
       <div className="min-h-screen bg-gray-50">
         <header className="bg-white shadow">

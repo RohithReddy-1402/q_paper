@@ -43,6 +43,10 @@ export default function SyllabusPage() {
       <Helmet>
         <title>{d?.["Course Code"]||""} Syllabus</title>
         <meta name="description" content={`Syllabus for ${d?.["Course Code"]} - ${d?.["Course Title"]}`} />
+        <meta
+          name="keywords"
+          content={`NIT Kurukshetra syllabus, NIT KKR syllabus, NIT Kurukshetra syllabus PDF, NIT Kurukshetra CSE syllabus, NIT Kurukshetra IT syllabus, NIT Kurukshetra Robotics syllabus, NIT Kurukshetra Mathematics and Computing syllabus, semester wise syllabus ${d?.["Course Code"]} , ${d?.["Course Title"]} Syllabus ,NIT KKR `}
+        />
       </Helmet>
       <div className="min-h-screen bg-white font-serif text-black"> 
         <style>{`
