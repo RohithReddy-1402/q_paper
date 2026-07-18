@@ -1,0 +1,74 @@
+{
+  "Course Title": "Object-Oriented Programming using Java",
+  "Course Code": "CSPC-205",
+  "route": "course/cspc-205",
+  "credits": 4,
+  "prerequisites": "Programming Fundamentals",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "contactHours": 40,
+  "description": "This course introduces object-oriented programming concepts using Java. Students learn Java syntax, classes, inheritance, polymorphism, exception handling, multithreading, collections, file handling, GUI programming and database connectivity to develop robust object-oriented applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Java",
+      "hours": 8,
+      "body": "Overview of Java, Java Virtual Machine (JVM), Java Runtime Environment (JRE), Java Development Kit (JDK), Java program structure, data types, variables, operators, control statements, arrays, strings, methods, command line arguments and packages."
+    },
+    {
+      "id": "II",
+      "title": "Object-Oriented Programming Concepts",
+      "hours": 8,
+      "body": "Classes and objects, constructors, access modifiers, encapsulation, inheritance, method overriding, polymorphism, abstract classes, interfaces, packages, wrapper classes and inner classes."
+    },
+    {
+      "id": "III",
+      "title": "Exception Handling and Multithreading",
+      "hours": 8,
+      "body": "Exception hierarchy, try-catch-finally blocks, throw and throws keywords, user-defined exceptions, multithreading, thread life cycle, synchronization, thread priorities and inter-thread communication."
+    },
+    {
+      "id": "IV",
+      "title": "Collections, File Handling and GUI",
+      "hours": 8,
+      "body": "Java Collection Framework, List, Set, Map, iterators, generics, file handling using streams, serialization, AWT, Swing components, event handling and layout managers."
+    },
+    {
+      "id": "V",
+      "title": "Database Connectivity",
+      "hours": 8,
+      "body": "JDBC architecture, database connectivity, drivers, connection establishment, SQL statements, prepared statements, result sets, transaction management and development of database applications using Java."
+    },
+    {
+      "id": "Laboratory",
+      "title": "Practical Exercises",
+      "hours": 26,
+      "body": "Programs on Java syntax, classes, inheritance, interfaces, exception handling, multithreading, collections, file handling, GUI applications using Swing and database connectivity using JDBC."
+    }
+  ],
+  "outcomes": [
+    "Develop Java programs using object-oriented programming principles.",
+    "Implement inheritance, polymorphism, interfaces and exception handling in Java applications.",
+    "Develop concurrent applications using multithreading and synchronization.",
+    "Use Java Collection Framework, file handling and GUI programming to build desktop applications.",
+    "Develop database-driven applications using JDBC and Java."
+  ],
+  "textbooks": [
+    "Herbert Schildt, Java: The Complete Reference, McGraw-Hill Education.",
+    "E. Balagurusamy, Programming with Java, McGraw-Hill Education.",
+    "Cay S. Horstmann, Core Java Volume I – Fundamentals, Pearson."
+  ],
+  "referenceBooks": [
+    "Kathy Sierra and Bert Bates, Head First Java, O'Reilly.",
+    "Y. Daniel Liang, Introduction to Java Programming and Data Structures, Pearson.",
+    "Bruce Eckel, Thinking in Java, Prentice Hall."
+  ]
+}

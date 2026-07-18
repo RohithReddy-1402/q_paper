@@ -1,0 +1,62 @@
+{
+  "Course Title": "Design and Analysis of Algorithms",
+  "Course Code": "CSPC-201",
+  "route": "course/cspc-201",
+  "credits": 4,
+  "prerequisites": "NIL",
+  "Course Type": "PC",
+  "Branch": [
+    "MC"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "contactHours": 40,
+  "description": "This course introduces the design, implementation and analysis of efficient algorithms. Students learn algorithmic paradigms such as divide-and-conquer, dynamic programming, greedy methods, backtracking and graph algorithms along with suitable data structures for solving computational problems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "hours": 10,
+      "body": "Concept of time and space complexity, analysis of algorithms, asymptotic notation, recurrence relations, divide-and-conquer algorithms, Quick Sort, Heap Sort, priority queues, linear-time sorting algorithms, hashing and binary search trees."
+    },
+    {
+      "id": "II",
+      "title": "Graph Algorithms",
+      "hours": 10,
+      "body": "Graph representation and traversal, graph search, topological sorting, strongly connected components, minimum spanning trees using Kruskal's and Prim's algorithms, single-source shortest paths, relaxation, Dijkstra's algorithm, Bellman-Ford algorithm, shortest paths in directed acyclic graphs and all-pairs shortest path algorithms."
+    },
+    {
+      "id": "III",
+      "title": "B-Trees and Dynamic Programming",
+      "hours": 10,
+      "body": "Representation and operations of B-Trees, fundamentals of dynamic programming, stages of dynamic programming, matrix-chain multiplication and longest common subsequence."
+    },
+    {
+      "id": "IV",
+      "title": "Greedy and Backtracking Algorithms",
+      "hours": 10,
+      "body": "Greedy strategy, activity selection problem, Huffman coding, task scheduling, knapsack problem, backtracking, 8-Queens problem, graph coloring and Hamiltonian cycle."
+    }
+  ],
+  "outcomes": [
+    "Design, implement and analyze searching and sorting algorithms.",
+    "Apply divide-and-conquer, dynamic programming, greedy and backtracking techniques to solve computational problems.",
+    "Select appropriate data structures such as heaps, trees and hashing for efficient algorithm design.",
+    "Implement graph algorithms including shortest path, minimum spanning tree and topological sorting.",
+    "Analyze algorithm complexity using asymptotic notations and recurrence relations."
+  ],
+  "textbooks": [
+    "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein, Introduction to Algorithms, 3rd Edition, PHI.",
+    "Ellis Horowitz, Sartaj Sahni and Sanguthevar Rajasekaran, Fundamentals of Computer Algorithms, 2nd Edition, Universities Press.",
+    "A. V. Aho, J. E. Hopcroft and J. D. Ullman, The Design and Analysis of Computer Algorithms, Addison Wesley."
+  ],
+  "referenceBooks": [
+    "Anany Levitin, Introduction to the Design and Analysis of Algorithms, Pearson.",
+    "Michael T. Goodrich and Roberto Tamassia, Algorithm Design and Applications, Wiley.",
+    "Steven S. Skiena, The Algorithm Design Manual, Springer."
+  ]
+}

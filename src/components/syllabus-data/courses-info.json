@@ -95,5 +95,44 @@
     "route": "course/rapc-209",
     "Branches": ["RA"],
     "id":"nitkkr_15"
+  },
+  {
+    "Course Title": "Linear Algebra & Applications",
+    "Course Code": "MAPC-201",
+    "route": "course/mapc-201",
+    "Branches": ["M&C"],
+    "id":"nitkkr_16"
+  },{
+    "Course Title": "Discrete Mathematics",
+    "Course Code": "MAPC-203",
+    "route": "course/mapc-203",
+    "Branches": ["M&C"],
+    "id":"nitkkr_17"
+  },{
+    "Course Title": "Probability & Statistics",
+    "Course Code": "MAPC-205",
+    "route": "course/mapc-205",
+    "Branches": ["M&C"],
+    "id":"nitkkr_18"
+  },
+  {
+    "Course Title":"Design and Analysis of Algorithms",
+    "Course Code":"CSPC-201",
+    "route":"course/cspc-201",
+    "Branches": ["M&C"],
+    "id":"nitkkr_19"
+  },{
+     "Course Title":"Computer Organization and Architecture",
+    "Course Code":"CSPC-203",
+    "route":"course/cspc-203",
+    "Branches": ["M&C"],
+    "id":"nitkkr_20"
+  },
+  {
+     "Course Title":"Object-Oriented Programming using Java",
+    "Course Code":"CSPC-205",
+    "route":"course/cspc-205",
+    "Branches": ["M&C"],
+    "id":"nitkkr_21"
   }
 ]
