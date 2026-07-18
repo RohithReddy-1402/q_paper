@@ -139,4 +139,40 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://nitkkrpreviouspapers.vercel.app/nit-kkr/syllabus/course/cspc-201</loc>
+    <lastmod>2026-07-18T06:56:10+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpreviouspapers.vercel.app/nit-kkr/syllabus/course/cspc-203</loc>
+    <lastmod>2026-07-18T06:56:10+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpreviouspapers.vercel.app/nit-kkr/syllabus/course/rapc-205</loc>
+    <lastmod>2026-07-18T06:56:10+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpreviouspapers.vercel.app/nit-kkr/syllabus/course/mapc-201</loc>
+    <lastmod>2026-07-18T06:56:10+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpreviouspapers.vercel.app/nit-kkr/syllabus/course/mapc-203</loc>
+    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpreviouspapers.vercel.app/nit-kkr/syllabus/course/mapc-205</loc>
+    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
