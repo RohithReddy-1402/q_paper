@@ -175,8 +175,6 @@ const branches = [
   ];
 
   const additionalTabs = ["Sem", "Mid-1", "Mid-2"];
-  // console.log(filteredPapers[0].route);
-
   return (
     <>
       {" "}
@@ -521,7 +519,7 @@ const branches = [
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {filteredPapers.slice(0, 40).map((paper) => (
               <div
-                key={paper["Course Title"]}
+                key={paper["id"]}
                 className="bg-white overflow-hidden shadow rounded-lg cursor-pointer"
                 onClick={(e) => handleDisplay(e, paper)}
               >
@@ -620,7 +618,7 @@ const branches = [
                 />
               </svg>
               <h3 className="mt-2 text-sm font-medium text-gray-900">
-                No question papers found
+                No Syllabus content found
               </h3>
               <p className="mt-1 text-sm text-gray-500">
                 Try adjusting your search or filter to find what you're looking
