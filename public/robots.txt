@@ -1,2 +1,11 @@
+# robots.txt for NIT KKR PYQs
+
 User-agent: *
-Disallow:
+Allow: /
+
+# Block private/admin pages if they exist
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://nitkkrpyqs.in/sitemap.xml
