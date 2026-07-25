@@ -67,7 +67,7 @@ const questionPapers = ({
     async function loadDownloads() {
   try {
     const response = await fetch(
-      "https://back-6j6v.onrender.com/api/syllabus"
+      `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/syllabus`
     );
 
     if (!response.ok) {
@@ -109,7 +109,7 @@ loadDownloads();
       return;
     }
     const res = fetch(
-      `https://back-6j6v.onrender.com/api/syllabus/${paper.id}/download`,
+      `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/syllabus/${paper.id}/download`,
       {
         method: "PATCH",
         body: JSON.stringify({ paper_id: paper.paper_id ,title: paper["Course Title"],courseId: paper["Course Code"]}),

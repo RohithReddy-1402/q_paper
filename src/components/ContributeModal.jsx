@@ -41,7 +41,7 @@ function ContributeModal({ onClose, isContributeOpen, user,onLoadClose,isLoading
       );
       console.log("Uploaded:", response.$id);
       const fileId = response.$id;
-      const res = await fetch("https://back-6j6v.onrender.com/upload", {
+      const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/upload`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

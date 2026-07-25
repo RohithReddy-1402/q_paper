@@ -11,7 +11,7 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
     useEffect(() => {
         async function fetchPapers() {
             try {
-                const res = await fetch("https://back-6j6v.onrender.com/verifypapers");
+                const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/verifypapers`);
                 const data = await res.json();
                 setQuestionPapers(data);
             } catch (err) {
@@ -55,7 +55,7 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
     };
 
     const handleApprove = async () => {
-        const res = await fetch(`https://back-6j6v.onrender.com/verifiedpaper/${selectedPaper.fileId}`, {
+        const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/verifiedpaper/${selectedPaper.fileId}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -79,7 +79,7 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
     const handleDelete = async () => {
         if (window.confirm('Are you sure you want to delete this paper?')) {
             setQuestionPapers(papers => papers.filter(paper => paper.id !== selectedPaper.id));
-            const result = await fetch(`https://back-u7se.onrender.com/deletepaper/${selectedPaper.fileId}`, {
+            const result = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/${selectedPaper.fileId}`, {
                 method: "DELETE"
             });
         }
