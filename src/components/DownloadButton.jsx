@@ -16,8 +16,12 @@ export default function DownloadButton({ paper, addToast, getFileDownloadUrl }) 
                 'Content-Type': 'application/json',
             },
         })
+        // const link = document.createElement("a");
+        // link.href = getFileDownloadUrl(paper.paper_id);
         const link = document.createElement("a");
-        link.href = getFileDownloadUrl(paper.paper_id);
+
+    link.href =
+    `http://localhost:3001/api/download/${paper.paper_id}`;
         link.setAttribute("download", `${paper.title} - ${paper.examType}`);
         document.body.appendChild(link);
         link.click();
