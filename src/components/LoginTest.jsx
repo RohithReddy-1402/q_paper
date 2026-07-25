@@ -40,7 +40,7 @@ const LoginModalAuto = ({
     try {
       isLoading();
 
-      const response = await fetch("https://back-6j6v.onrender.com/login", {
+      const response = await fetch( `${import.meta.env.VITE_BACKEND_ENDPOINT}/login` , {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
@@ -129,7 +129,7 @@ const LoginModalAuto = ({
     e.preventDefault();
     try {
       isLoading();
-      const response = await fetch("https://back-6j6v.onrender.com/register", {
+      const response = await fetch( `${import.meta.env.VITE_BACKEND_ENDPOINT}/register`, {
         method: "POST",
         headers: { "Content-type": "application/json" },
         body: JSON.stringify({

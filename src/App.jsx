@@ -43,7 +43,7 @@ function App_main() {
     const checkAuth = async () => {
       try {
         const response = await fetch(
-          "https://back-6j6v.onrender.com/auth/check",
+          `${import.meta.env.VITE_BACKEND_ENDPOINT}/auth/check`,
           {
             method: "GET",
             credentials: "include",
@@ -78,7 +78,7 @@ function App_main() {
   useEffect(() => {
     async function fetchPapers() {
       try {
-        const res = await fetch("https://back-6j6v.onrender.com/papers");
+        const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/papers`);
         if (!res.ok) throw new Error("Failed to fetch papers");
         const data = await res.json();
         setQuestionPapers(data);
@@ -118,7 +118,7 @@ function App_main() {
     setUser(null);
 
     setIsLoggedIn(false);
-    const response = await fetch("https://back-6j6v.onrender.com/logout", {
+    const response = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/logout`, {
       method: "POST",
       credentials: "include",
       headers: { "Content-Type": "application/json" },

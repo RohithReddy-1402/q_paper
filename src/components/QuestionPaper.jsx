@@ -26,14 +26,26 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
       alert("Download link not available for this paper.");
       return;
     }
-    const res = fetch(`https://back-6j6v.onrender.com/papers/${paper.paper_id}/downloadcount`, {
+    const res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/papers/${paper.paper_id}/downloadcount`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
       },
     })
+    // const link = document.createElement("a");
+    // link.href = getFileDownloadUrl(paper.paper_id);
     const link = document.createElement("a");
-    link.href = getFileDownloadUrl(paper.paper_id);
+
+    link.href =
+    `http://localhost:3001/api/download/${paper.paper_id}`;
+    console.log("hello")
+    link.download = `${paper.title}-${paper.examType}.pdf`;
+
+    document.body.appendChild(link);
+
+    link.click();
+
+    document.body.removeChild(link);
     link.setAttribute("download", `${paper.title} - ${paper.examType}`);
     document.body.appendChild(link);
     link.click();
@@ -51,7 +63,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
       alert("Download link not available for this paper.");
       return;
     }
-    const res = fetch(`https://back-6j6v.onrender.com/papers/${fileId}/downloadcount`, {
+    const res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/papers/${fileId}/downloadcount`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',

@@ -82,7 +82,7 @@ export default function Header({isLoggedIn,
             <Link to="/nit-kkr/syllabus">Syllabus</Link>
           </h1>
           <h1 className="cursor-pointer hover:text-blue-500">
-            <Link to="/nit-kkr/events">Events</Link>
+            <Link to="/nit-kkr/events">Course Scheme</Link>
           </h1>
           <h1 className="cursor-pointer hover:text-blue-500">
             <Link to="/nit-kkr/gallery">Gallery</Link>
@@ -232,7 +232,7 @@ export default function Header({isLoggedIn,
             className="cursor-pointer hover:text-blue-500"
             onClick={() => handleNavigation("/events")}
           >
-            Events
+            Course Scheme
           </h1>
           <h1
             className="cursor-pointer hover:text-blue-500"
