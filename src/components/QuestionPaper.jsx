@@ -63,14 +63,10 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
       alert("Download link not available for this paper.");
       return;
     }
-    const res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/papers/${fileId}/downloadcount`, {
-      method: 'PATCH',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    })
-    const link = getFileViewUrl(fileId);
-    window.open(link, "_blank");
+    const link = document.createElement("a");
+
+    link.href =
+    `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/paper/viewS/${paper.paper_id}`;
   };
   const handleiconclick = () => {
     const dropdown = document.getElementById("userDropdown");

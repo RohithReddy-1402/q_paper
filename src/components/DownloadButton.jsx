@@ -21,7 +21,7 @@ export default function DownloadButton({ paper, addToast, getFileDownloadUrl }) 
         const link = document.createElement("a");
 
     link.href =
-    `http://localhost:3001/api/download/${paper.paper_id}`;
+    `https://back-6j6v.onrender.com/papers/api/download/${paper.paper_id}`;
         link.setAttribute("download", `${paper.title} - ${paper.examType}`);
         document.body.appendChild(link);
         link.click();
