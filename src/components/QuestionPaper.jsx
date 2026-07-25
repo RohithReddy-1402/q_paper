@@ -19,55 +19,23 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
   const handleNav = () => {
     nav('/nit-kkr-pyqs')
   }
-  const handleDownload = async (event, paper) => {
 
-    event.stopPropagation();
-    if (!paper.paper_id) {
-      alert("Download link not available for this paper.");
-      return;
-    }
-    const res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/papers/${paper.paper_id}/downloadcount`, {
-      method: 'PATCH',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    })
-    // const link = document.createElement("a");
-    // link.href = getFileDownloadUrl(paper.paper_id);
-    const link = document.createElement("a");
+const handleDisplay = async (event, fileId) => {
+    // event.stopPropagation();
 
-    link.href =
-    `http://localhost:3001/api/download/${paper.paper_id}`;
-    console.log("hello")
-    link.download = `${paper.title}-${paper.examType}.pdf`;
+    // console.log("fileId =", fileId);
 
-    document.body.appendChild(link);
+    // const url = `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/paper/view/${fileId}`;
 
-    link.click();
-
-    document.body.removeChild(link);
-    link.setAttribute("download", `${paper.title} - ${paper.examType}`);
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    addToast(`${paper.title} - ${paper.examType} downloaded successfully.`, 'success');
-    //  setTimeout(() => {
-    //   setStatus("loading");
-    //   setTimeout(() => setStatus("idle"), 2000);
-    // }, 2000);
-    setStatus("done");
-
-  };
-  const handleDisplay = (event, fileId) => {
-    if (!fileId) {
-      alert("Download link not available for this paper.");
-      return;
-    }
-    const link = document.createElement("a");
-
-    link.href =
-    `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/paper/viewS/${fileId}`;
-  };
+    // console.log("url =", url);
+  if(!fileId){
+    return
+  }
+  const url=getFileViewUrl(fileId)
+  const a = document.createElement("a");
+a.href = url;
+a.click();
+};
   const handleiconclick = () => {
     const dropdown = document.getElementById("userDropdown");
 
@@ -353,16 +321,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
                     </span>
                     <span className="ml-2 text-gray-500">{paper.downloads} downloads</span>
                   </div>
-                  {/* <button
-                      onClick={(e) => handleDownload(e, paper)}
-                      className="inline-flex items-center px-3 py-1 border border-transparent text-sm leading-4 font-medium cursor-pointer rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                    >
-                      {status === "idle" && <Download className="w-5 h-5 text-purple-800" />}
-                      {status === "loading" && <Loader2 className="w-5 h-5 text-red-600" />}
-                      {status === "done" && <Check className="w-5 h-5 text-green-600" />}
-
-
-                    </button> */}
+                 
                   <DownloadButton
                     key={paper.paper_id}
                     paper={paper}
