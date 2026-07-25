@@ -66,7 +66,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
     const link = document.createElement("a");
 
     link.href =
-    `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/paper/viewS/${paper.paper_id}`;
+    `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/paper/viewS/${fileId}`;
   };
   const handleiconclick = () => {
     const dropdown = document.getElementById("userDropdown");
