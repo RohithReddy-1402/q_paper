@@ -19,6 +19,7 @@ const Syllabus = lazy(() => import("./components/Syllabus"));
 const QuestionPapersVerification = lazy(
   () => import("./components/tobeVerifed"),
 );
+const Donate = lazy(() => import("./components/donate"));
 const ContactPage = lazy(() => import("./components/contactPage"));
 const Loginpage = lazy(() => import("./components/TerminalMode"));
 import { ToastProvider, useToast } from "./components/ToastContext";
@@ -193,13 +194,14 @@ function App_main() {
               />
             }
           />
-          <Route path="/nit-kkr-pyqs/contact" element={<ContactPage />} />
+          <Route path="/nit-kkr/contact" element={<ContactPage />} />
+          <Route path="/nit-kkr/donate" element={<Donate />} />
           <Route
             path="/nit-kkr-pyqs/login"
             element={<Loginpage Mode={mode} />}
           />
           {/* <Route path="/nit-kkr/syllabus/course/rapc-203" element={<SyllabusPage />} /> */}
-          <Route path="nit-kkr/syllabus/course/:code" element={<SyllabusPage />} />
+          <Route path="/nit-kkr/syllabus/course/:code" element={<SyllabusPage />} />
         </Routes>
         <Analytics />
         <Loading isLoadingOpen={isLoad} />
