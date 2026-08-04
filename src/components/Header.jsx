@@ -85,7 +85,7 @@ export default function Header({isLoggedIn,
             <Link to="/nit-kkr/events">Course Scheme</Link>
           </h1>
           <h1 className="cursor-pointer hover:text-blue-500">
-            <Link to="/nit-kkr/gallery">Gallery</Link>
+            <Link to="/nit-kkr/donate">Donate</Link>
           </h1>
           <h1 className="cursor-pointer hover:text-blue-500">
             <Link to="/nit-kkr-pyqs/contact">Contact</Link>
@@ -236,9 +236,9 @@ export default function Header({isLoggedIn,
           </h1>
           <h1
             className="cursor-pointer hover:text-blue-500"
-            onClick={() => handleNavigation("/gallery")}
+            onClick={() => handleNavigation("/donate")}
           >
-            Gallery
+            Donate
           </h1>
           <h1
             className="cursor-pointer hover:text-blue-500"
