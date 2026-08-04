@@ -20,16 +20,53 @@ export default function DownloadButton({ paper, addToast, getFileDownloadUrl }) 
         // link.href = getFileDownloadUrl(paper.paper_id);
         const link = document.createElement("a");
 
-    link.href =
-    `https://back-6j6v.onrender.com/api/papers/download/${paper.paper_id}`;
-        link.setAttribute("download", `${paper.title} - ${paper.examType}`);
+    // link.href =
+    // `https://back-6j6v.onrender.com/api/papers/download/${paper.paper_id}`;
+    //     link.setAttribute("download", `${paper.title} - ${paper.examType}`);
+    //     document.body.appendChild(link);
+    //     link.click();
+    //     document.body.removeChild(link);
+    //     addToast(`${paper.title} - ${paper.examType} downloaded successfully.`, 'success');
+       
+    //     setStatus("done");
+    //     setTimeout(() => setStatus("idle"), 2000);
+    try {
+        setStatus("loading");
+
+        const response = await fetch(
+            `https://back-6j6v.onrender.com/api/papers/download/${paper.paper_id}`
+        );
+
+        if (!response.ok) {
+            throw new Error("Download failed");
+        }
+
+        const blob = await response.blob();
+
+        const url = window.URL.createObjectURL(blob);
+
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = `${paper.title} - ${paper.examType}.pdf`;
+
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
-        addToast(`${paper.title} - ${paper.examType} downloaded successfully.`, 'success');
-       
+
+        window.URL.revokeObjectURL(url);
+
+        addToast(
+            `${paper.title} - ${paper.examType} downloaded successfully.`,
+            "success"
+        );
+
         setStatus("done");
+    } catch (err) {
+        addToast("Download failed. Please try again.", "error");
+        setStatus("error");
+    } finally {
         setTimeout(() => setStatus("idle"), 2000);
+    }
     };
     return (
         <button
