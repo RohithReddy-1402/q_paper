@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useToast } from "./ToastContext";
+
 import {
   Download,
   Zap,
@@ -486,7 +488,8 @@ const DonationCard = ({ sectionRef }) => {
   const [selected, setSelected] = useState(250);
   const [custom, setCustom] = useState("");
   const [useCustom, setUseCustom] = useState(false);
-
+    const { addToast } = useToast();
+  
   const activeAmount = useCustom ? Number(custom) || 0 : selected;
         const loadRazorpay = () => {
         return new Promise((resolve) => {
@@ -504,7 +507,7 @@ const DonationCard = ({ sectionRef }) => {
             const loaded = await loadRazorpay();
 
             if (!loaded) {
-                alert("Failed to load Razorpay.");
+                addToast("Failed to load Razorpay.", "error");
                 return;
             }
 
@@ -520,9 +523,12 @@ const DonationCard = ({ sectionRef }) => {
 
                 description: "Support the platform",
 
-                image: "/public/icon.png",
+                image: "/icon.png",
 
                 // order_id: data.orderId,
+                handler: function (response) {
+                    addToast(`Thank you for your support! Amount: ${activeAmount} received`, "success");
+                }
             };
 
             const paymentObject = new window.Razorpay(options);
@@ -530,7 +536,7 @@ const DonationCard = ({ sectionRef }) => {
             paymentObject.open();
         } catch (err) {
             console.error(err);
-            alert("Something went wrong.");
+            addToast("Something went wrong.", "error");
         }
     };
   return (
@@ -558,7 +564,7 @@ const DonationCard = ({ sectionRef }) => {
                 Support Ticket
               </p>
             </div>
-            <img src="/public/icon.png" width="80" height="80" alt="Icon" loading="lazy" />
+            <img src="/icon.png" width="80" height="80" alt="Icon" loading="lazy" />
           </div>
 
           <div className="px-7 pt-6">
