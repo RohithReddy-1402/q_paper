@@ -88,7 +88,7 @@ export default function Header({isLoggedIn,
             <Link to="/nit-kkr/donate">Donate</Link>
           </h1>
           <h1 className="cursor-pointer hover:text-blue-500">
-            <Link to="/nit-kkr-pyqs/contact">Contact</Link>
+            <Link to="/nit-kkr/contact">Contact</Link>
           </h1>
           
         </div>
@@ -236,13 +236,13 @@ export default function Header({isLoggedIn,
           </h1>
           <h1
             className="cursor-pointer hover:text-blue-500"
-            onClick={() => handleNavigation("/donate")}
+            onClick={() => handleNavigation("/nit-kkr/donate")}
           >
             Donate
           </h1>
           <h1
             className="cursor-pointer hover:text-blue-500"
-            onClick={() => handleNavigation("/nit-kkr-pyqs/contact")}
+            onClick={() => handleNavigation("/nit-kkr/contact")}
           >
             Contact
           </h1>
