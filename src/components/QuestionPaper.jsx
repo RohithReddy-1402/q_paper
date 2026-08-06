@@ -1,5 +1,5 @@
 import { title } from 'framer-motion/client';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState ,useRef} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getFileViewUrl, getFileDownloadUrl } from "../services/appWrite"
 import { useToast } from './ToastContext';
@@ -42,8 +42,12 @@ a.click();
     dropdown.classList.toggle("hidden");
 
   };
-
-
+  const searchRef=useRef(null);
+  useEffect(()=>{
+    if(searchRef.current){
+      searchRef.current.focus();
+    }
+  },[]);
   const years = [...new Set(questionPapers.map(paper => paper.year))].sort((a, b) => b - a);
 
   let filteredPapers = questionPapers.filter(paper => {
@@ -132,6 +136,7 @@ a.click();
           <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
             <div className="relative rounded-md shadow-sm flex-grow">
               <input
+              ref={searchRef}
                 type="text"
                 placeholder="Search question papers... (Name , Subject Code)"
                 className="block w-full rounded-md border-gray-300 pl-4 pr-10 py-3 focus:border-blue-500 focus:ring-blue-500 text-gray-900"
