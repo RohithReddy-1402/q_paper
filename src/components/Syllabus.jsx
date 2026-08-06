@@ -1,5 +1,5 @@
 import { title } from "framer-motion/client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { getFileViewUrl, getFileDownloadUrl } from "../services/appWrite";
 import { useToast } from "./ToastContext";
@@ -63,7 +63,12 @@ const questionPapers = ({
     // }, 2000);
     setStatus("done");
   };
+  const searchRef=useRef(null);
+  
   useEffect(() => {
+    if(searchRef.current){
+        searchRef.current.focus();
+      }
     async function loadDownloads() {
   try {
     const response = await fetch(
@@ -97,6 +102,7 @@ const questionPapers = ({
 } 
 loadDownloads();
   },[])
+
   const normalize = (text = "") =>
   text
     .toLowerCase().trim()
@@ -291,6 +297,7 @@ const branches = [
             <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
               <div className="relative rounded-md shadow-sm flex-grow">
                 <input
+                ref={searchRef}
                   type="text"
                   placeholder="Search Syllabus... (Name , Subject Code)"
                   className="block w-full rounded-md border-gray-300 pl-4 pr-10 py-3 focus:border-blue-500 focus:ring-blue-500 text-gray-900"
