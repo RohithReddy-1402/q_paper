@@ -6,6 +6,7 @@ import { useToast } from './ToastContext';
 import { Download, Loader2, Check } from 'lucide-react';
 import { Helmet } from "react-helmet-async";
 import DownloadButton from './DownloadButton';
+import { viewPaper } from '../services/r2.service';
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading, setDownloadCounts, setPapersLength, questionPapers }) => {
 
   const [activeTab, setActiveTab] = useState('all');
@@ -20,7 +21,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
     nav('/nit-kkr-pyqs')
   }
 
-const handleDisplay = async (event, fileId) => {
+const handleDisplay = async (event, key) => {
     // event.stopPropagation();
 
     // console.log("fileId =", fileId);
@@ -28,10 +29,19 @@ const handleDisplay = async (event, fileId) => {
     // const url = `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/paper/view/${fileId}`;
 
     // console.log("url =", url);
-  if(!fileId){
+  if(!key){
     return
   }
-  const url=getFileViewUrl(fileId)
+  const res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/papers/downloadcount`, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                r2Key: key
+        }),
+        })
+  const url= `https://pdf.nitkkrpyqs.in/${key}`;
   const a = document.createElement("a");
 a.href = url;
 a.click();
@@ -297,7 +307,7 @@ a.click();
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filteredPapers.slice(0, 40).map((paper) => (
-            <div key={paper.paper_id} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.paper_id)}>
+            <div key={paper.r2Key} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.r2Key)}>
               <div className="p-5 h-7/10">
                 <div className="flex items-center">
                   <div className="flex-shrink-0 bg-blue-500 rounded-md p-3">

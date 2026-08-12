@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Clock, FileText, Eye, Calendar, User, ArrowLeft, Edit3, Check, Trash2 } from 'lucide-react';
 import { getFileViewUrl } from '../services/appWrite';
+import { useToast } from './ToastContext';
+import { useNavigate } from 'react-router-dom';
 const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
 
     const [selectedPaper, setSelectedPaper] = useState(null);
@@ -8,11 +10,14 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
     const [editData, setEditData] = useState({});
     const [pdfUrl, setPdfUrl] = useState('');
     const [questionPapers, setQuestionPapers] = useState([]);
+    const { addToast } = useToast();
+    const navigate=useNavigate();
     useEffect(() => {
         async function fetchPapers() {
             try {
                 const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/verifypapers`);
                 const data = await res.json();
+                console.log(data)
                 setQuestionPapers(data);
             } catch (err) {
                 console.error("Error fetching papers:", err);
@@ -55,7 +60,7 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
     };
 
     const handleApprove = async () => {
-        const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/verifiedpaper/${selectedPaper.fileId}`, {
+        const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/verifiedpaper/${selectedPaper.r2Key}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -68,7 +73,8 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
           subjectCode: selectedPaper.subjectCode,
           year: selectedPaper.year,
           examType: selectedPaper.examType,
-
+            r2Key:selectedPaper.r2Key,
+      
         })
       })
         
@@ -78,21 +84,28 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
 
     const handleDelete = async () => {
         if (window.confirm('Are you sure you want to delete this paper?')) {
-            setQuestionPapers(papers => papers.filter(paper => paper.id !== selectedPaper.id));
-            const result = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/${selectedPaper.fileId}`, {
+            setQuestionPapers(papers => papers.filter(paper => paper.r2Key !== selectedPaper.r2Key));
+            const result = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/deletepaper/${selectedPaper.r2Key}`, {
                 method: "DELETE"
             });
+            if (result.status==200){
+                addToast("Paper Deleted","success");
+                await 
+        setSelectedPaper(null);
+            
+            }
         }
     };
     useEffect(()=>{
         if (selectedPaper) {
             const fetchPdfUrl = async () => {
-                const url = await getFileViewUrl( selectedPaper.fileId);
+                const url = await `https://pdf.nitkkrpyqs.in/${selectedPaper.r2Key}`
                 setPdfUrl(url);
             
             };
             fetchPdfUrl();
         }
+        console.log(selectedPaper)
     }, [selectedPaper]);
     if (selectedPaper) {
         return (
@@ -336,7 +349,7 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {questionPapers.map((paper) => (
                         <div
-                            key={paper.id}
+                            key={paper.r2Key}
                             className="bg-white rounded-xl border border-blue-100 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                         >
                             <div className="p-6 border-b border-blue-50">
