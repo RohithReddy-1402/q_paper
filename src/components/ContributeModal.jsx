@@ -3,8 +3,6 @@ import './Modal.css';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
 import { sub } from 'framer-motion/client';
-import { ID } from 'appwrite';
-import { storage } from "../services/appWrite";
 import {handleUpload }from "../services/r2.service"
 import { Mail } from 'lucide-react';
 function ContributeModal({ onClose, isContributeOpen, user,onLoadClose,isLoading }) {

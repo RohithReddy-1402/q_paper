@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Download, Loader2, Check } from "lucide-react";
 
-export default function DownloadButton({ paper, addToast, getFileDownloadUrl }) {
+export default function DownloadButton({ paper, addToast }) {
     const [status, setStatus] = useState("idle");
     const handleDownload = async (event) => {
         event.stopPropagation();

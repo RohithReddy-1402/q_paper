@@ -1,7 +1,6 @@
 import { title } from "framer-motion/client";
 import React, { useEffect, useState,useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { getFileViewUrl, getFileDownloadUrl } from "../services/appWrite";
 import { useToast } from "./ToastContext";
 import { Download, Loader2, Check } from "lucide-react";
 import { Helmet } from "react-helmet-async";
