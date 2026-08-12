@@ -10,11 +10,14 @@ export default function DownloadButton({ paper, addToast, getFileDownloadUrl }) 
             return;
         }
         setStatus("loading");
-        const res = fetch(`https://back-6j6v.onrender.com/papers/${paper.paper_id}/downloadcount`, {
+        const res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/papers/downloadcount`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
             },
+            body: JSON.stringify({
+                r2Key: paper.r2Key
+        }),
         })
         // const link = document.createElement("a");
         // link.href = getFileDownloadUrl(paper.paper_id);
@@ -34,7 +37,7 @@ export default function DownloadButton({ paper, addToast, getFileDownloadUrl }) 
         setStatus("loading");
 
         const response = await fetch(
-            `https://back-6j6v.onrender.com/api/papers/download/${paper.paper_id}`
+            `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/download/${paper.r2Key}`
         );
 
         if (!response.ok) {
