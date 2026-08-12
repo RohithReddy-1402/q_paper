@@ -76,6 +76,7 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
             r2Key:selectedPaper.r2Key,
       
         })
+        ,credentials: "include"
       })
         
       await 
