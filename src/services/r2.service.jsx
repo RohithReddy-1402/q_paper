@@ -50,7 +50,7 @@ export const handleUpload = async (file, metadata) => {
     );
 
     const result = await dbResponse.json();
-
+    console.log("Database response:", result);
     return {
         status: dbResponse.status,
         ...result,
