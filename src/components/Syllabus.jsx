@@ -47,7 +47,6 @@ const questionPapers = ({
       },
     );
     const link = document.createElement("a");
-    link.href = getFileDownloadUrl(paper.paper_id);
     link.setAttribute("download", `${paper.title} - ${paper.examType}`);
     document.body.appendChild(link);
     link.click();
@@ -600,7 +599,6 @@ const branches = [
                       key={paper.paper_id}
                       paper={paper}
                       addToast={addToast}
-                      getFileDownloadUrl={getFileDownloadUrl}
                     />
                   </div>
                 </div>
