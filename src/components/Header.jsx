@@ -52,29 +52,9 @@ export default function Header({isLoggedIn,
           <h1 className="cursor-pointer hover:text-blue-500">
             <Link to="/nit-kkr-pyqs">Home</Link>
           </h1>
-          <div className="relative group">
-            <h1 className="cursor-pointer hover:text-blue-500">
-              <Link to="/nit-kkr/about">About Us</Link>
-            </h1>
-
-            <div className="absolute top-full left-0 pt-2 hidden group-hover:flex flex-col bg-white shadow-lg rounded-md min-w-48 z-50">
-              <Link to="/nit-kkr/about/team" className="px-4 py-2 hover:bg-gray-100">
-                Our Team
-              </Link>
-              <Link
-                to="/nit-kkr/about/mission"
-                className="px-4 py-2 hover:bg-gray-100"
-              >
-                Mission
-              </Link>
-              <Link
-                to="/nit-kkr/about/history"
-                className="px-4 py-2 hover:bg-gray-100"
-              >
-                History
-              </Link>
-            </div>
-          </div>
+          <h1 className="cursor-pointer hover:text-blue-500">
+            <Link to="/nit-kkr/about">About Us</Link>
+          </h1>
           <h1 className="cursor-pointer hover:text-blue-500">
             <Link to="/nit-kkr/question-papers">Question Papers</Link>
           </h1>
@@ -82,7 +62,7 @@ export default function Header({isLoggedIn,
             <Link to="/nit-kkr/syllabus">Syllabus</Link>
           </h1>
           <h1 className="cursor-pointer hover:text-blue-500">
-            <Link to="/nit-kkr/events">Course Scheme</Link>
+            <Link to="/nit-kkr/tech-stack">Tech Stack</Link>
           </h1>
           <h1 className="cursor-pointer hover:text-blue-500">
             <Link to="/nit-kkr/donate">Donate</Link>
@@ -90,7 +70,9 @@ export default function Header({isLoggedIn,
           <h1 className="cursor-pointer hover:text-blue-500">
             <Link to="/nit-kkr/contact">Contact</Link>
           </h1>
-          
+          <h1 className="cursor-pointer hover:text-blue-500 text-sm text-gray-500">
+            <Link to="/nit-kkr/privacy-policy">Privacy</Link>
+          </h1>
         </div>
         <div className="flex h-16 items-center  justify-around lg:mx-8 gap-1">
           
@@ -209,13 +191,13 @@ export default function Header({isLoggedIn,
         <div className="z-10 flex w-full flex-col gap-4 items-start h-auto py-4 px-8">
           <h1
             className="cursor-pointer hover:text-blue-500"
-            onClick={() => handleNavigation("/")}
+            onClick={() => handleNavigation("/nit-kkr-pyqs")}
           >
             Home
           </h1>
           <h1
             className="cursor-pointer hover:text-blue-500"
-            onClick={() => handleNavigation("/about")}
+            onClick={() => handleNavigation("/nit-kkr/about")}
           >
             About Us
           </h1>
@@ -226,13 +208,13 @@ export default function Header({isLoggedIn,
             Question Papers
           </h1>
           <h1 onClick={() => handleNavigation("/nit-kkr/syllabus")} className="cursor-pointer hover:text-blue-500">
-            syllabus
+            Syllabus
           </h1>
           <h1
             className="cursor-pointer hover:text-blue-500"
-            onClick={() => handleNavigation("/events")}
+            onClick={() => handleNavigation("/nit-kkr/tech-stack")}
           >
-            Course Scheme
+            Tech Stack
           </h1>
           <h1
             className="cursor-pointer hover:text-blue-500"
@@ -246,7 +228,12 @@ export default function Header({isLoggedIn,
           >
             Contact
           </h1>
-          
+          <h1
+            className="cursor-pointer hover:text-blue-500"
+            onClick={() => handleNavigation("/nit-kkr/privacy-policy")}
+          >
+            Privacy Policy
+          </h1>
         </div>
       )}
     </main>

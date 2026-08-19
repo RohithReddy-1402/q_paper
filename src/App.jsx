@@ -22,6 +22,10 @@ const QuestionPapersVerification = lazy(
 const Donate = lazy(() => import("./components/donate"));
 const ContactPage = lazy(() => import("./components/contactPage"));
 const Loginpage = lazy(() => import("./components/TerminalMode"));
+const AboutUs = lazy(() => import("./components/AboutUs"));
+const TechStack = lazy(() => import("./components/TechStack"));
+const PrivacyPolicy = lazy(() => import("./components/PrivacyPolicy"));
+const NotFound = lazy(() => import("./components/NotFound"));
 import { ToastProvider, useToast } from "./components/ToastContext";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -84,7 +88,6 @@ function App_main() {
         const data = await res.json();
         setQuestionPapers(data);
       } catch (err) {
-        setError(err.message);
         console.error("Error fetching papers:", err);
       } finally {
       }
@@ -129,6 +132,13 @@ function App_main() {
   return (
     <ToastProvider>
       <BrowserRouter>
+        <Suspense
+          fallback={
+            <div className="min-h-screen flex items-center justify-center bg-white">
+              <div className="w-10 h-10 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin" />
+            </div>
+          }
+        >
         <Routes>
           <Route path="/" element={<Navigate to="/nit-kkr-pyqs" replace />} />
           <Route
@@ -202,6 +212,10 @@ function App_main() {
           />
           {/* <Route path="/nit-kkr/syllabus/course/rapc-203" element={<SyllabusPage />} /> */}
           <Route path="/nit-kkr/syllabus/course/:code" element={<SyllabusPage />} />
+          <Route path="/nit-kkr/about" element={<AboutUs />} />
+          <Route path="/nit-kkr/tech-stack" element={<TechStack />} />
+          <Route path="/nit-kkr/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Analytics />
         <Loading isLoadingOpen={isLoad} />
@@ -221,6 +235,7 @@ function App_main() {
           isLoading={handleLoading}
           onLogin={handleLogin}
         />
+        </Suspense>
       </BrowserRouter>
     </ToastProvider>
   );

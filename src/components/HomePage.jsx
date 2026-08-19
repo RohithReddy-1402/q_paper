@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Header from "./Header";
+import Footer from "./Footer";
 import {
   Lock,
   BookOpen,
@@ -274,11 +275,7 @@ const HomePage = ({
           </div>
         </div>
       </main>
-      <footer className="relative z-10 py-6 px-8 text-center text-gray-600 bg-white/20 backdrop-blur-sm border-t border-indigo-100">
-        <div className="max-w-7xl mx-auto">
-          <h1>© 2026 NIT KKR PYQS. All rights reserved.</h1>
-        </div>
-      </footer>
+      <Footer />
       {/* <CrackerShotsEffect/> */}
     </div>
   );

@@ -4,7 +4,10 @@ import { useNavigate } from 'react-router-dom';
 import { useToast } from './ToastContext';
 import { Download, Loader2, Check } from 'lucide-react';
 import { Helmet } from "react-helmet-async";
+import Fuse from 'fuse.js';
 import DownloadButton from './DownloadButton';
+import SearchAutocomplete from './SearchAutocomplete';
+import Footer from './Footer';
 import { viewPaper } from '../services/r2.service';
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading, setDownloadCounts, setPapersLength, questionPapers }) => {
 
@@ -57,24 +60,53 @@ a.click();
       searchRef.current.focus();
     }
   },[]);
+  const subjectSuggestions = React.useMemo(() => {
+    const map = new Map();
+    questionPapers.forEach((p) => {
+      if (!map.has(p.subjectCode)) {
+        map.set(p.subjectCode, { subject: p.subject, subjectCode: p.subjectCode });
+      }
+    });
+    return Array.from(map.values());
+  }, [questionPapers]);
+
   const years = [...new Set(questionPapers.map(paper => paper.year))].sort((a, b) => b - a);
 
-  let filteredPapers = questionPapers.filter(paper => {
-    const matchesSearch = paper.title.toLowerCase().includes(searchQuery.toLowerCase().trim()) ||
-      paper.subject.toLowerCase().includes(searchQuery.toLowerCase().trim()) || paper.subjectCode.toLowerCase().includes(searchQuery.toLowerCase().trim()) || paper.subjectCode.replace("-", "").toLowerCase().includes(searchQuery.toLowerCase().trim())||paper.subjectCode.replace(" ","").includes(searchQuery.toLowerCase().trim());
+  const papersFuse = React.useMemo(
+    () =>
+      new Fuse(questionPapers, {
+        keys: [
+          { name: 'title', weight: 0.4 },
+          { name: 'subject', weight: 0.4 },
+          { name: 'subjectCode', weight: 0.2 },
+        ],
+        threshold: 0.35,
+        ignoreLocation: true,
+        minMatchCharLength: 2,
+      }),
+    [questionPapers],
+  );
+
+  const searchMatchedPapers = React.useMemo(() => {
+    const q = searchQuery.trim();
+    if (!q) return questionPapers;
+    return papersFuse.search(q).map(r => r.item);
+  }, [papersFuse, searchQuery, questionPapers]);
+
+  let filteredPapers = searchMatchedPapers.filter(paper => {
     const matchesSemester = selectedSemester === 'all' || paper.sem === selectedSemester.split('-')[1];
 
     const matchesYear = selectedYear === 'all' || parseInt(paper.year) === parseInt(selectedYear);
     const matchesType = selectedType === 'all' || paper.examType === selectedType;
 
-    if (activeTab === 'all') return matchesSearch && matchesSemester && matchesYear && matchesType;
-    if (activeTab === 'recent') return matchesSearch && matchesSemester && matchesYear && matchesType;
-    if (activeTab === 'popular') return matchesSearch && matchesSemester && matchesYear && matchesType;
-    if (activeTab === 'Mid-1') return paper.examType === 'Mid-1' && matchesSearch && matchesSemester && matchesYear;
-    if (activeTab === 'Mid-2') return paper.examType === 'Mid-2' && matchesSearch && matchesSemester && matchesYear;
-    if (activeTab === 'Sem') return paper.examType === 'Sem' && matchesSearch && matchesSemester && matchesYear;
+    if (activeTab === 'all') return matchesSemester && matchesYear && matchesType;
+    if (activeTab === 'recent') return matchesSemester && matchesYear && matchesType;
+    if (activeTab === 'popular') return matchesSemester && matchesYear && matchesType;
+    if (activeTab === 'Mid-1') return paper.examType === 'Mid-1' && matchesSemester && matchesYear;
+    if (activeTab === 'Mid-2') return paper.examType === 'Mid-2' && matchesSemester && matchesYear;
+    if (activeTab === 'Sem') return paper.examType === 'Sem' && matchesSemester && matchesYear;
 
-    return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSearch && matchesSemester && matchesYear && matchesType;
+    return paper.subject.toLowerCase() === activeTab.toLowerCase() && matchesSemester && matchesYear && matchesType;
   });
   if (activeTab === 'popular') {
     filteredPapers = filteredPapers.sort((a, b) => b.downloads - a.downloads);
@@ -143,21 +175,21 @@ a.click();
       <main className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
         <div className="mb-8">
           <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
-            <div className="relative rounded-md shadow-sm flex-grow">
-              <input
-              ref={searchRef}
-                type="text"
-                placeholder="Search question papers... (Name , Subject Code)"
-                className="block w-full rounded-md border-gray-300 pl-4 pr-10 py-3 focus:border-blue-500 focus:ring-blue-500 text-gray-900"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-              <div className="absolute inset-y-0 right-0 pr-3 flex items-center poclassinter-events-none">
-                <svg className="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clipRule="evenodd" />
-                </svg>
-              </div>
-            </div>
+            <SearchAutocomplete
+              inputRef={searchRef}
+              value={searchQuery}
+              onChange={setSearchQuery}
+              items={subjectSuggestions}
+              searchKeys={[
+                { name: "subject", weight: 0.7 },
+                { name: "subjectCode", weight: 0.3 },
+              ]}
+              getLabel={(s) => s.subject}
+              getSublabel={(s) => s.subjectCode}
+              getKey={(s) => s.subjectCode}
+              onSelect={(s) => setSearchQuery(s.subject)}
+              placeholder="Search question papers... (Name , Subject Code)"
+            />
 
             <div className="grid grid-cols-3 gap-4">
               <div className="relative">
@@ -357,6 +389,7 @@ a.click();
           </div>
         )}
       </main>
+      <Footer />
     </div>
     </>
   );
