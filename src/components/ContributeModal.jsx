@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Modal.css';
+import { Helmet } from 'react-helmet-async';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
 import { sub } from 'framer-motion/client';
@@ -72,9 +73,16 @@ function ContributeModal({ onClose, isContributeOpen, user,onLoadClose,isLoading
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
   };
-  if (!isContributeOpen) return null;
+  if (!isContributeOpen) return (
+    <Helmet>
+      <meta name="robots" content="noindex, nofollow" />
+    </Helmet>
+  );
   return (
     <div className="modal-overlay fixed inset-0 flex items-center justify-center overflow-y-auto  bg-gray-500 bg-opacity-75 transition-opacity" >
+      <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
+      </Helmet>
       <div className="modal contribute-modal">
         <div className="modal-header">
           <h2>Contribute Question Paper</h2>

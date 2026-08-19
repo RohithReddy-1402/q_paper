@@ -633,6 +633,26 @@ const branches = [
             </div>
           )}
         </main>
+
+        <section className="bg-gray-50 border-t border-gray-200">
+          <div className="max-w-7xl mx-auto px-4 py-10 sm:px-6 lg:px-8">
+            <div className="bg-white rounded-lg shadow max-w-3xl mx-auto px-6 py-8 sm:px-8">
+              <h2 className="text-lg font-semibold text-gray-900 mb-3">
+                About This Syllabus
+              </h2>
+              <p className="text-gray-600 leading-relaxed">
+                Browse the official syllabus for NIT Kurukshetra courses, organized
+                by branch. Each course page lists the full unit-by-unit breakdown,
+                credit structure (L-T-P), course outcomes, and textbook and
+                reference book recommendations, mirroring the official course
+                structure so you can check exactly what a subject covers before
+                an exam. Search by course title or course code, or filter by
+                branch above.
+              </p>
+            </div>
+          </div>
+        </section>
+
         <Footer />
       </div>
     </>

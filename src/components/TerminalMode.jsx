@@ -1,4 +1,5 @@
 import { React, useEffect, useState, useRef, useCallback } from "react";
+import { Helmet } from "react-helmet-async";
 import "./TerminalView.css";
 const fileSystem = {
   home: {
@@ -938,6 +939,9 @@ export default function TerminalPage({ Mode }) {
 
   return (
     <>
+      <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
+      </Helmet>
       {mode === "terminal" && (
         <TerminalMode onExit={() => setMode(null)} Mode={Mode} />
       )}

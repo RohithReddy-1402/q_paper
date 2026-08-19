@@ -958,8 +958,8 @@ function NormalMode({ onExit,terminalMode,onSelect}) {
           </div>
           <div style={{ display: "flex", gap: 40, flexWrap: "wrap" }}>
             {[
-              ["Email", "nitkkrpreviouspapers.vercel.app"],
-              
+              ["Website", "nitkkrpyqs.in"],
+
             ].map(([k, v]) => (
               <div key={k}>
                 <div style={{ color: "#00ff4166", fontSize: 10, letterSpacing: 2, marginBottom: 2 }}>
@@ -1020,7 +1020,7 @@ function NormalMode({ onExit,terminalMode,onSelect}) {
 }
 
 export default function ContactPage() {
-  const [mode, setMode] = useState(null);
+  const [mode, setMode] = useState("normal");
 
   return (
     <>
