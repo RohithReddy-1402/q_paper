@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node scripts/prerender.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -24,6 +25,7 @@
     "crypto": "^1.0.1",
     "firebase": "^11.10.0",
     "framer-motion": "^12.6.0",
+    "fuse.js": "^7.5.0",
     "i": "^0.3.7",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.484.0",
@@ -32,8 +34,7 @@
     "react-dom": "^18.3.1",
     "react-helmet-async": "^2.0.5",
     "react-router-dom": "^7.4.0",
-    "styled-components": "^6.4.3",
-    "vite-plugin-prerender": "^1.0.8"
+    "styled-components": "^6.4.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -44,7 +45,9 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "express": "^5.2.1",
     "globals": "^15.15.0",
+    "playwright-core": "^1.62.1",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.15",
     "vite": "^6.2.0"

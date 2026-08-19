@@ -26,5 +26,6 @@ dist-ssr
 Targets.txt
 data.xlsx
 .~lock.data.xlsx#
+.~lock.data.ods#
 .env
 data.ods

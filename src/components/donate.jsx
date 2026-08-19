@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Helmet } from "react-helmet-async";
 import { useToast } from "./ToastContext";
 
 import {
@@ -691,6 +692,13 @@ export default function DonationPage() {
 
   return (
     <div className="nkp-root min-h-screen w-full" style={{ backgroundColor: "var(--paper)" }}>
+      <Helmet>
+        <title>Donate | NIT KKR PYQs</title>
+        <meta
+          name="description"
+          content="Support NIT KKR PYQs to help keep question papers and syllabus resources free for every NIT Kurukshetra student. See how donations are used and donate securely via Razorpay."
+        />
+      </Helmet>
       <Tokens />
       <Hero onDonateClick={scrollToDonate} />
       {/* <WhyDonate /> */}

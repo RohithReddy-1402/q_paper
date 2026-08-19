@@ -35,7 +35,7 @@ function ContributeModal({ onClose, isContributeOpen, user,onLoadClose,isLoading
     console.log('Contributing paper:', { title, subject, year, institution, file, semester });
     try {
       const response = await handleUpload(file,{title,subject,semester,subCode,year,institution,name:user?.name,mail:user?.email})
-      console.log("Uploaded:", response.status);
+      console.log("Uploaded:", response);
       // const fileId = response.$id;
       // const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/upload`, {
       //   method: "POST",
@@ -54,6 +54,7 @@ function ContributeModal({ onClose, isContributeOpen, user,onLoadClose,isLoading
       //     mail: user?.email
       // //   })
       // })
+      
       if(response.status===201){onLoadClose();addToast("Details sent for verification", "success");}
       else{
         addToast("Please Upload Again , Error Occured","error")

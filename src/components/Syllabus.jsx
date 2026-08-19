@@ -4,7 +4,10 @@ import { useNavigate } from "react-router-dom";
 import { useToast } from "./ToastContext";
 import { Download, Loader2, Check } from "lucide-react";
 import { Helmet } from "react-helmet-async";
+import Fuse from "fuse.js";
 import DownloadButton from "./DownloadButton";
+import SearchAutocomplete from "./SearchAutocomplete";
+import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import questionpapers from "./syllabus-data/courses-info.json";
 const questionPapers = ({
@@ -47,7 +50,6 @@ const questionPapers = ({
       },
     );
     const link = document.createElement("a");
-    link.href = getFileDownloadUrl(paper.paper_id);
     link.setAttribute("download", `${paper.title} - ${paper.examType}`);
     document.body.appendChild(link);
     link.click();
@@ -102,11 +104,27 @@ const questionPapers = ({
 loadDownloads();
   },[])
 
-  const normalize = (text = "") =>
-  text
-    .toLowerCase().trim()
-    .replace(/[^a-z0-9]/g, "");
-  const normalizedSearch = normalize(searchQuery);
+  const syllabusFuse = React.useMemo(
+    () =>
+      new Fuse(syllabusData, {
+        keys: [
+          { name: "Course Title", weight: 0.6 },
+          { name: "Course Code", weight: 0.3 },
+          { name: "Branches", weight: 0.1 },
+        ],
+        threshold: 0.35,
+        ignoreLocation: true,
+        minMatchCharLength: 2,
+      }),
+    [syllabusData],
+  );
+
+  const searchMatchedCourses = React.useMemo(() => {
+    const q = searchQuery.trim();
+    if (!q) return syllabusData;
+    return syllabusFuse.search(q).map((r) => r.item);
+  }, [syllabusFuse, searchQuery, syllabusData]);
+
   const handleDisplay = (event, paper) => {
     // console.log(paper);
     if (!paper) {
@@ -135,30 +153,16 @@ const branches = [
   ...new Set(syllabusData.flatMap((paper) => paper.Branches))
  ];
 //    console.log(branches);
-  let filteredPapers = syllabusData.filter((paper) => {
-        // console.log(selectedBranch);
-
-    const matchesSearch =
-      normalize(paper["Course Code"]).includes(normalizedSearch) ||
-      normalize(paper["Course Title"]).includes(normalizedSearch);
-      
-    // const matchesSemester =
-    //   selectedSemester === "all" ||
-    //   paper.sem === selectedSemester.split("-")[1];
+  let filteredPapers = searchMatchedCourses.filter((paper) => {
     const matchesBranch =
-  selectedBranch === "all" ||
-  paper.Branches?.includes(selectedBranch);
-      if (activeTab === "all")
-      return matchesSearch  && matchesBranch ;
-    if (activeTab === "recent")
-      return matchesSearch&& matchesBranch ;
-    if (activeTab === "popular")
-      return matchesSearch && matchesBranch ;
+      selectedBranch === "all" || paper.Branches?.includes(selectedBranch);
+    if (activeTab === "all") return matchesBranch;
+    if (activeTab === "recent") return matchesBranch;
+    if (activeTab === "popular") return matchesBranch;
 
     return (
       paper["Course Title"].toLowerCase() === activeTab.toLowerCase() &&
-      matchesSearch &&
-      matchesBranch 
+      matchesBranch
     );
   });
   if (activeTab === "popular") {
@@ -294,29 +298,22 @@ const branches = [
         <main className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <div className="mb-8">
             <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
-              <div className="relative rounded-md shadow-sm flex-grow">
-                <input
-                ref={searchRef}
-                  type="text"
-                  placeholder="Search Syllabus... (Name , Subject Code)"
-                  className="block w-full rounded-md border-gray-300 pl-4 pr-10 py-3 focus:border-blue-500 focus:ring-blue-500 text-gray-900"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                />
-                <div className="absolute inset-y-0 right-0 pr-3 flex items-center poclassinter-events-none">
-                  <svg
-                    className="h-5 w-5 text-gray-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
-              </div>
+              <SearchAutocomplete
+                inputRef={searchRef}
+                value={searchQuery}
+                onChange={setSearchQuery}
+                items={syllabusData}
+                searchKeys={[
+                  { name: "Course Title", weight: 0.6 },
+                  { name: "Course Code", weight: 0.3 },
+                  { name: "Branches", weight: 0.1 },
+                ]}
+                getLabel={(c) => c["Course Title"]}
+                getSublabel={(c) => c["Course Code"]}
+                getKey={(c) => c.id}
+                onSelect={(c) => setSearchQuery(c["Course Title"])}
+                placeholder="Search Syllabus... (Name , Subject Code)"
+              />
 
               <div className="grid grid-cols-3 gap-4 cursor-not-allowed">
                 <div className="relative cursor-not-allowed">
@@ -600,7 +597,6 @@ const branches = [
                       key={paper.paper_id}
                       paper={paper}
                       addToast={addToast}
-                      getFileDownloadUrl={getFileDownloadUrl}
                     />
                   </div>
                 </div>
@@ -633,6 +629,7 @@ const branches = [
             </div>
           )}
         </main>
+        <Footer />
       </div>
     </>
   );

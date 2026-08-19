@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import { Helmet } from "react-helmet-async";
 import { useToast } from './ToastContext';
 import "./TerminalView.css"
 const COMMANDS = {
@@ -1023,6 +1024,13 @@ export default function ContactPage() {
 
   return (
     <>
+      <Helmet>
+        <title>Contact Us | NIT KKR PYQs</title>
+        <meta
+          name="description"
+          content="Get in touch with the NIT KKR PYQs team for questions, feedback, or help contributing question papers and syllabus resources."
+        />
+      </Helmet>
       {mode === null && <ModeModal onSelect={setMode} />}
       {mode === "terminal" && <TerminalMode onExit={() => setMode(null)}/>}
       {mode === "normal" && <NormalMode onSelect={setMode} onExit={() => setMode(null)}terminalMode={()=>setMode("terminal")}  />}
