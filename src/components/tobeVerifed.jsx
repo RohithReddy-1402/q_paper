@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Clock, FileText, Eye, Calendar, User, ArrowLeft, Edit3, Check, Trash2 } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
 const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
@@ -310,6 +311,9 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white p-6">
+            <Helmet>
+                <meta name="robots" content="noindex, nofollow" />
+            </Helmet>
             <div className="max-w-7xl mx-auto">
 
                 <div className="mb-8">

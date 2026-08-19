@@ -275,6 +275,62 @@ const HomePage = ({
           </div>
         </div>
       </main>
+
+      <section className="relative z-0 px-8 py-16  border-t border-indigo-100">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 text-center">
+            Why NIT KKR PYQs Exists
+          </h2>
+          <p className="text-gray-600 leading-relaxed mb-4">
+            Before this site existed, finding a specific previous year question
+            paper at NIT Kurukshetra usually meant scrolling through old
+            WhatsApp groups, messaging seniors, or hoping a random Google Drive
+            link still worked. Papers were scattered, often mislabeled, and
+            rarely covered more than a semester or two. NIT KKR PYQs was built
+            to fix that: a single, searchable place where any student, from any
+            branch and any semester, can find the papers and syllabus they
+            actually need.
+          </p>
+          <p className="text-gray-600 leading-relaxed mb-4">
+            Every paper here is tagged with its subject, subject code,
+            semester, year and exam type (Mid-1, Mid-2 or End-Semester), so you
+            can filter down to exactly what you're preparing for instead of
+            scrolling through unrelated results. Alongside papers, the{" "}
+            <Link to="/nit-kkr/syllabus" className="text-indigo-600 underline">
+              Syllabus section
+            </Link>{" "}
+            mirrors the official course structure course-by-course, unit-by-unit,
+            with credit structure, textbooks and reference material, so you can
+            cross-check exactly what a subject covers before an exam without
+            digging through a PDF handbook.
+          </p>
+          <p className="text-gray-600 leading-relaxed">
+            The collection grows because students contribute to it. If you have
+            a paper this site doesn't yet have, you can{" "}
+            <Link to="/nit-kkr-pyqs/contribute" className="text-indigo-600 underline">
+              upload it
+            </Link>{" "}
+            to help the next batch of students, the same way earlier
+            contributors built the base collection you're browsing now. The
+            project is free to use, run by students rather than an institution,
+            and funded by whatever the{" "}
+            <Link to="/nit-kkr/donate" className="text-indigo-600 underline">
+              Donate page
+            </Link>{" "}
+            brings in to cover hosting and storage. You can read more about how
+            it's built on the{" "}
+            <Link to="/nit-kkr/tech-stack" className="text-indigo-600 underline">
+              Tech Stack page
+            </Link>
+            , or about the project itself on the{" "}
+            <Link to="/nit-kkr/about" className="text-indigo-600 underline">
+              About Us page
+            </Link>
+            .
+          </p>
+        </div>
+      </section>
+
       <Footer />
       {/* <CrackerShotsEffect/> */}
     </div>

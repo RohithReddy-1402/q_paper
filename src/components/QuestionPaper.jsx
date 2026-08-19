@@ -393,6 +393,25 @@ a.click();
           </div>
         )}
       </main>
+
+      <section className="bg-gray-50 border-t border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 py-10 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-lg shadow max-w-3xl mx-auto px-6 py-8 sm:px-8">
+            <h2 className="text-lg font-semibold text-gray-900 mb-3">
+              About These Question Papers
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              Browse previous year question papers from NIT Kurukshetra, organized
+              by subject, semester, year and exam type. Search by subject name or
+              subject code, then narrow the results using the semester, year and
+              exam type filters above. Papers cover Mid-1, Mid-2 and End-Semester
+              exams across branches, and new papers are added as students
+              contribute them, so the collection keeps growing each semester.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
     </>

@@ -7,5 +7,10 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
+# Block behavioural/utility screens with no publisher content
+Disallow: /nit-kkr-pyqs/login
+Disallow: /nit-kkr-pyqs/contribute
+Disallow: /nit-kkr-pyqs/verifypaper
+
 # Sitemap
 Sitemap: https://nitkkrpyqs.in/sitemap.xml
