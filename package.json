@@ -24,6 +24,7 @@
     "crypto": "^1.0.1",
     "firebase": "^11.10.0",
     "framer-motion": "^12.6.0",
+    "fuse.js": "^7.5.0",
     "i": "^0.3.7",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.484.0",
