@@ -22,6 +22,7 @@ const questionPapers = ({
 }) => {
   const [activeTab, setActiveTab] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
+  const [exactCourseId, setExactCourseId] = useState(null);
   const [selectedSemester, setSelectedSemester] = useState("all");
   const [selectedType, setSelectedType] = useState("all");
   const [selectedBranch, setSelectedBranch] = useState("all");
@@ -120,10 +121,13 @@ loadDownloads();
   );
 
   const searchMatchedCourses = React.useMemo(() => {
+    if (exactCourseId) {
+      return syllabusData.filter((c) => c.id === exactCourseId);
+    }
     const q = searchQuery.trim();
     if (!q) return syllabusData;
     return syllabusFuse.search(q).map((r) => r.item);
-  }, [syllabusFuse, searchQuery, syllabusData]);
+  }, [syllabusFuse, searchQuery, syllabusData, exactCourseId]);
 
   const handleDisplay = (event, paper) => {
     // console.log(paper);
@@ -301,7 +305,7 @@ const branches = [
               <SearchAutocomplete
                 inputRef={searchRef}
                 value={searchQuery}
-                onChange={setSearchQuery}
+                onChange={(v) => { setSearchQuery(v); setExactCourseId(null); }}
                 items={syllabusData}
                 searchKeys={[
                   { name: "Course Title", weight: 0.6 },
@@ -311,7 +315,7 @@ const branches = [
                 getLabel={(c) => c["Course Title"]}
                 getSublabel={(c) => c["Course Code"]}
                 getKey={(c) => c.id}
-                onSelect={(c) => setSearchQuery(c["Course Title"])}
+                onSelect={(c) => { setSearchQuery(c["Course Title"]); setExactCourseId(c.id); }}
                 placeholder="Search Syllabus... (Name , Subject Code)"
               />
 

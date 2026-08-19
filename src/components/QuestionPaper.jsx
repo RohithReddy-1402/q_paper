@@ -13,6 +13,7 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
 
   const [activeTab, setActiveTab] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
+  const [exactSubjectCode, setExactSubjectCode] = useState(null);
   const [selectedSemester, setSelectedSemester] = useState('all');
   const [selectedType, setSelectedType] = useState('all');
   const [selectedYear, setSelectedYear] = useState('all');
@@ -88,10 +89,13 @@ a.click();
   );
 
   const searchMatchedPapers = React.useMemo(() => {
+    if (exactSubjectCode) {
+      return questionPapers.filter(paper => paper.subjectCode === exactSubjectCode);
+    }
     const q = searchQuery.trim();
     if (!q) return questionPapers;
     return papersFuse.search(q).map(r => r.item);
-  }, [papersFuse, searchQuery, questionPapers]);
+  }, [papersFuse, searchQuery, questionPapers, exactSubjectCode]);
 
   let filteredPapers = searchMatchedPapers.filter(paper => {
     const matchesSemester = selectedSemester === 'all' || paper.sem === selectedSemester.split('-')[1];
@@ -178,7 +182,7 @@ a.click();
             <SearchAutocomplete
               inputRef={searchRef}
               value={searchQuery}
-              onChange={setSearchQuery}
+              onChange={(v) => { setSearchQuery(v); setExactSubjectCode(null); }}
               items={subjectSuggestions}
               searchKeys={[
                 { name: "subject", weight: 0.7 },
@@ -187,7 +191,7 @@ a.click();
               getLabel={(s) => s.subject}
               getSublabel={(s) => s.subjectCode}
               getKey={(s) => s.subjectCode}
-              onSelect={(s) => setSearchQuery(s.subject)}
+              onSelect={(s) => { setSearchQuery(s.subject); setExactSubjectCode(s.subjectCode); }}
               placeholder="Search question papers... (Name , Subject Code)"
             />
 
