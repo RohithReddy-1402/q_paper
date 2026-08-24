@@ -1,0 +1,51 @@
+{
+  "Course Title": "Data Acquisition Systems",
+  "Course Code": "RAPE-305",
+  "route": "course/rape-305",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course focuses on the principles, methods, and technologies related to data acquisition (DAQ) systems in the context of Industrial Internet of Things (IIoT). Students will gain an understanding of various sensors, actuators, and communication technologies used to collect and process data from industrial systems, and will explore how data acquisition systems play a key role in IIoT architectures for automation, monitoring, and control in industrial environments.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Data Acquisition Systems (DAQ)",
+      "hours": 10,
+      "body": "Overview of Data Acquisition Systems (DAQ): Definition, importance, and components of DAQ systems in IIoT, Role of DAQ in industrial automation and monitoring, Key components: Sensors, actuators, signal conditioning, and data processing. Industrial Automation and Control Systems: Basics of Industrial Control Systems (ICS), Integration of DAQ systems in industrial automation, Data flow, feedback, and control mechanisms. Types of Data Acquisition Systems: Analog vs. Digital DAQ systems, Wired and wireless methods of data acquisition."
+    },
+    {
+      "id": "II",
+      "title": "Data Conversion and Processing",
+      "hours": 10,
+      "body": "Analog-to-Digital Conversion (ADC): Basics of ADC: Types, resolution, sampling rate, and accuracy, Techniques for efficient data conversion. Digital Signal Processing (DSP) in DAQ Systems: Overview of DSP techniques for data analysis, Time-domain and frequency-domain processing, Filtering and noise reduction in IIoT systems. Data Storage and Management: Real-time data storage techniques, Cloud integration for data storage and management, Data visualization and analytics."
+    },
+    {
+      "id": "III",
+      "title": "IIoT Data Acquisition System Design",
+      "hours": 10,
+      "body": "System Architecture for IIoT Data Acquisition: Components of a DAQ system in IIoT: Sensing, conditioning, processing, communication, and storage, System design considerations for industrial environments. Data Acquisition in Industrial Automation: Case studies of IIoT applications for industrial automation, implementing predictive maintenance and monitoring systems using DAQ. Design and Implementation Project: Hands-on project: Design and implement a basic data acquisition system, Data collection, processing, and communication, Cloud integration for real-time monitoring."
+    },
+    {
+      "id": "IV",
+      "title": "Advanced Topics in IIoT Data Acquisition",
+      "hours": 10,
+      "body": "Edge Computing and IIoT: Introduction to edge computing and its role in IIoT data acquisition, Advantages of edge computing over cloud processing, Edge analytics in industrial data processing. Data Security in IIoT DAQ Systems: Security challenges in IIoT and DAQ systems, Techniques for data encryption, authentication, and access control, Ensuring the integrity and confidentiality of data. Emerging Trends in IIoT: Integration of AI and machine learning in DAQ systems, Blockchain for secure data acquisition, Future trends and innovations in IIoT data acquisition technologies."
+    }
+  ],
+  "outcomes": [
+    "Understand the architecture of data acquisition systems in industrial environments.",
+    "Learn the types of sensors, actuators, and transducers used in IIoT applications.",
+    "Explore the importance of processing in data acquisition.",
+    "Design a Data Acquisition system.",
+    "Understand edge computing, data security and emerging trends in Data Acquisition Systems."
+  ],
+  "textbooks": [
+    "Bogdan M. Wilamowski, J. David Irwin, \"Industrial Communication Systems\", CRC Press, 2nd Edition, 2017.",
+    "David G. Alciatore, Michael B. Histand, \"Introduction to Mechatronics and Measurement Systems\", McGraw Hill, 4th Edition, 2012.",
+    "Maurizio Di Paolo Emilio, \"Data Acquisition Systems: From Fundamentals to Applied Design\", Springer, 1st Edition, 2013.",
+    "Samuel Greengard, \"The Internet of Things: A Look at Real-World Use Cases and Concerns\", MIT Press, Kindle Edition, 2015."
+  ]
+}

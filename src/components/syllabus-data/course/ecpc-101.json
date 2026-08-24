@@ -1,0 +1,47 @@
+{
+  "Course Title": "Circuit Theory",
+  "Course Code": "ECPC-101",
+  "route": "course/ecpc-101",
+  "credits": 4,
+  "prerequisites": "Mathematics (MAIR-11)",
+  "Course Type": "PC",
+  "Branch": ["ECE", "IIOT"],
+  "semester": "1st",
+  "ltpc": [3, 0, 2, 4],
+  "description": "This program-core course, offered by the Electronics & Communication Engineering Department for B.Tech ECE & IIoT, aims to make students competent in analyzing electrical circuits, applying Kirchhoff's current and voltage laws to circuits in order to determine voltage, current and power in branches of any circuits excited by DC voltages and current sources.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Basic Circuits & Network Theorems",
+      "body": "Ohm's Law - Kirchhoffs laws - DC and AC Circuits - Resistors in series and parallel circuits - Mesh current and node voltage method of analysis for D.C and A.C. circuits - Initial conditions. Network reduction: voltage and current division, source transformation - star delta conversion. Theorems: Thevenin's and Norton's, Superposition, Maximum power transfer, Substitution, and Reciprocity Theorems."
+    },
+    {
+      "id": "II",
+      "title": "RL, RC and RLC Circuits & Resonance",
+      "body": "Series and parallel resonance - their frequency response - Quality factor and Bandwidth - Self and mutual inductance - Coefficient of coupling - Tuned circuits - Single tuned circuits - Transient response of RL, RC and RLC Circuits using Laplace transform for DC input and A.C. with sinusoidal input - Bandwidth and High Q circuits."
+    },
+    {
+      "id": "III",
+      "title": "S-Domain Analysis of Circuits",
+      "body": "Complex Frequency - Definition of the Laplace Transform - Laplace Transforms of Simple Time Functions - Inverse Transform Techniques - Basic Theorems for the Laplace Transform - The Initial-Value and Final-Value Theorems - Z(s) & Y(s) - Nodal and Mesh Analysis in s-Domain - Additional Circuit Analysis Techniques - Poles, Zeros, and Transfer Functions - Convolution Transfer Function."
+    },
+    {
+      "id": "IV",
+      "title": "Two-Port Networks",
+      "body": "One-Port Networks - Admittance Parameters - Some Equivalent Networks - Impedance Parameters - Hybrid Parameters - Transmission Parameters."
+    }
+  ],
+  "outcomes": [
+    "Apply KCL and KVL in electrical circuits to calculate currents, voltages and powers in typical linear electric circuits.",
+    "Apply circuit theorems and reduce more complicated circuits into the Thevenin's and Norton's equivalent circuits.",
+    "Analyze AC and DC Circuits.",
+    "Describe circuit elements in phasor domain and perform steady-state analysis using phasors.",
+    "Analyze resonance circuits and develop transfer functions.",
+    "Understand Two-Port networks and its parameters."
+  ],
+  "referenceBooks": [
+    "William H. Hayt Jr, Jack E. Kemmerly and Steven M. Durbin, \"Engineering Circuits Analysis\", Tata McGraw Hill publishers, 6th edition, New Delhi, 2003.",
+    "Joseph A. Edminister, Mahmood Nahri, \"Electric circuits\", Schaum's series, Tata McGraw Hill, New Delhi, 2001, 4th ED",
+    "M.E. Van Valkenburg, Ahmed Rumel, \"Network Analysis\", Prentice-Hall of India Pvt. Ltd.; 3rd edition"
+  ]
+}

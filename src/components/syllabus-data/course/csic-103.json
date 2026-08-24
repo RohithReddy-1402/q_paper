@@ -1,0 +1,45 @@
+{
+  "Course Title": "Problem Solving and Programming Skills",
+  "Course Code": "CSIC-103",
+  "route": "course/csic-103",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["ECE", "EE", "ME", "PIE", "CE"],
+  "semester": "1st",
+  "ltpc": [3, 0, 2, 4],
+  "description": "This course, offered for ECE, EE, ME, PIE and CE by the Department of Computer Engineering, provides fundamentals of problem solving using C language programming, with additional coverage of file handling.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Programming Fundamentals & Control Statements",
+      "body": "Block Diagram of Computer, Hardware vs software, Concept of Operating System and Compiler, Software Development Life Cycle. Introduction to C Programming, Basic Programming using Input And Output Operators And Expressions, Programming using if and if-else, Programming using looping-for, while, do-while; use of switch and break."
+    },
+    {
+      "id": "2",
+      "title": "Arrays based Programming",
+      "body": "Defining and Processing 1-D and 2-D Arrays for Problem Solving."
+    },
+    {
+      "id": "3",
+      "title": "Programming using Functions",
+      "body": "Defining and calling a function, Programming using Functions, Passing Arguments and Arrays to Functions, Functions of Void and Returning Values."
+    },
+    {
+      "id": "4",
+      "title": "Programming using Strings, Structures and File Handling",
+      "body": "String as Array of character, Use of Null Char, Defining and Processing Structures, Passing Strings and Structures to Functions, Files Opening and Closing, Reading and Writing into Files Using Commands like fprintf, fscanf, fclose, fread, fwrite etc. Handling of formatted and unformatted Files."
+    }
+  ],
+  "outcomes": [
+    "Understand the use of software and programming for problem solving.",
+    "Learn programming using simple concepts of input, output and control statements.",
+    "Use arrays, functions and strings for problem solving.",
+    "Use File Handling and Structures for Standard Problems."
+  ],
+  "referenceBooks": [
+    "Byron S. Gottfried, Programming with C Language, Schaum Series, Tata McGraw Hill, 2015.",
+    "E Balaguruswamy, Programming with C, Tata McGraw Hill, 2015.",
+    "Kernighan & Richie, C Programming, Prentice Hall of India, 2002."
+  ]
+}

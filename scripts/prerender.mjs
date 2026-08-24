@@ -27,7 +27,13 @@ const staticRoutes = [
 
 const courseRoutes = coursesInfo.map((c) => `/nit-kkr/syllabus/${c.route}`);
 
-const routes = [...staticRoutes, ...courseRoutes];
+const branchSemesterRoutes = [
+  "/nit-kkr/syllabus/branch",
+  "/nit-kkr/syllabus/branch/robotics-automation",
+  "/nit-kkr/syllabus/branch/robotics-automation/semester/5",
+];
+
+const routes = [...staticRoutes, ...courseRoutes, ...branchSemesterRoutes];
 
 function findChromium() {
   if (process.env.PRERENDER_CHROMIUM_PATH) return process.env.PRERENDER_CHROMIUM_PATH;

@@ -16,6 +16,9 @@ const Loading = lazy(() => import("./components/Loading"));
 const ContributeModal = lazy(() => import("./components/ContributeModal"));
 const SyllabusPage = lazy(() => import("./components/test"));
 const Syllabus = lazy(() => import("./components/Syllabus"));
+const BranchSemester = lazy(() => import("./components/BranchSemester"));
+const BranchList = lazy(() => import("./components/BranchList"));
+const BranchDetail = lazy(() => import("./components/BranchDetail"));
 const QuestionPapersVerification = lazy(
   () => import("./components/tobeVerifed"),
 );
@@ -38,7 +41,6 @@ function App_main() {
   const [isSignUpPageOpen, setSignUpPageOpen] = useState(false);
   const [isForgotPass, setIsForgotPass] = useState(false);
   const [isLoad, setIsLoad] = useState(false);
-  const [ContributeModalOpen, setContributeModalOpen] = useState(false);
   const { addToast } = useToast();
   const [papersLength, setPapersLength] = useState(0);
   const [downloadCount, setDownloadCounts] = useState(0);
@@ -151,7 +153,6 @@ function App_main() {
                 onLogin={handleLogin}
                 onLogout={handleLogout}
                 onSignUpClick={handleSignUpPage}
-                onContributeClick={() => setContributeModalOpen(true)}
                 papersLength={papersLength}
                 downloadCount={downloadCount}
                 questionPapers={questionPapers}
@@ -178,8 +179,6 @@ function App_main() {
             path="/nit-kkr-pyqs/contribute"
             element={
               <ContributeModal
-                onClose={() => setContributeModalOpen(false)}
-                isContributeOpen={ContributeModalOpen}
                 user={user}
                 isLoading={handleLoading}
                 onLoadClose={() => setIsLoad(false)}
@@ -212,6 +211,15 @@ function App_main() {
           />
           {/* <Route path="/nit-kkr/syllabus/course/rapc-203" element={<SyllabusPage />} /> */}
           <Route path="/nit-kkr/syllabus/course/:code" element={<SyllabusPage />} />
+          <Route path="/nit-kkr/syllabus/branch" element={<BranchList />} />
+          <Route
+            path="/nit-kkr/syllabus/branch/:branchSlug"
+            element={<BranchDetail />}
+          />
+          <Route
+            path="/nit-kkr/syllabus/branch/:branchSlug/semester/:semNumber"
+            element={<BranchSemester />}
+          />
           <Route path="/nit-kkr/about" element={<AboutUs />} />
           <Route path="/nit-kkr/tech-stack" element={<TechStack />} />
           <Route path="/nit-kkr/privacy-policy" element={<PrivacyPolicy />} />

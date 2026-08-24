@@ -1,0 +1,44 @@
+{
+  "Course Title": "Human Values & Social Responsibility",
+  "Course Code": "HSNC-101",
+  "route": "course/hsnc-101",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Audit Course)",
+  "Branch": ["All"],
+  "semester": "Odd/Even",
+  "ltpc": [2, 0, 0, 2],
+  "description": "This Non-Conventional Institute Core (audit) course, offered by the Department of Humanities and Social Sciences, helps students understand the essential complementarity between 'VALUES' and 'SKILLS' to ensure sustained happiness & prosperity, which are core aspirations of all human beings. It facilitates the development of a holistic perspective among students towards life and profession as well as towards happiness and prosperity, and enables students to understand harmony and its relevance at all levels and to create awareness about social responsibility among students, making them socially responsible citizens. As a Non-Conventional Institute Core course it is qualifying in nature (Internal: 50 Marks, Total: 50 Marks).",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Human Values",
+      "body": "Definition Features and Importance. Classification of Values: Intrinsic and Extrinsic Values, Universal and Situational Values, Personal and Social Values, Physical, Environmental, and Economic Values, Aesthetic, Moral and Religious Values. The Problem of Hierarchy of Values and their Choice."
+    },
+    {
+      "id": "II",
+      "title": "Ethics and Holistic Life",
+      "body": "Human Life, its Aim and Significance: The Concept of a successful life, happy life and a meaningful life. Harmony in Personal and Social Life: Concept of Personal, Group and Business Ethics. Creating a Value Based Work Culture in hostel, classroom and other places in the Campus and Society."
+    },
+    {
+      "id": "III",
+      "title": "Social Responsibility",
+      "body": "Social Responsibility: Meaning and Importance, Different Approaches of Social Responsibility. Social Responsibility of Business towards different Stakeholders. Evolution and Legislation of CSR in India."
+    }
+  ],
+  "outcomes": [
+    "Understand the concept of contemporary ethics at different levels: Individual, Local and Global and be able to cross examine the ethical and social consequences of the decisions of their life-view and world view.",
+    "Identify personal, professional and social values and integrate them in their personality after cross examination."
+  ],
+  "referenceBooks": [
+    "Lillie William, An Introduction of Ethics, Allied Publisher, Indian Reprint 1955.",
+    "William, K Frankena, Ethics, Prentice Hall of India, 1988.",
+    "Dr. Awadesh Pradhan, Mahamana ke Vichara, B.H.U. Varanasi, 2007.",
+    "RR Gaur, R Sangal, G P Bagaria, Human Values and Professional Ethics, Excel Books, New Delhi, 2010",
+    "A.N. Tripathi, Human Values, New Age Intl. Publishers, New Delhi, 2004.",
+    "Fernado A.C. Business Ethics. An Indian Perspective, Pearson Education, New Delhi.",
+    "Cambell Jones, Martin Parker & Rene Ten Bos, For Business Ethics, Routledge, New York, 2005.",
+    "Philip Kotler & Nancy Lee, Corporate Social Responsibility, Wiley- India Edition, New Delhi.",
+    "William B. Werther Jr. & David Chandler, Strategic Corporate Social Responsibility, Sage Publications, California."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Course Title": "Integral Calculus and Difference Equations",
+  "Course Code": "MAIC-102",
+  "route": "course/maic-102",
+  "credits": 4,
+  "prerequisites": "The basic knowledge of Differentiation, Integration, Summation, Scalars, Vectors and Trigonometrical functions.",
+  "Course Type": "IC",
+  "Branch": ["All"],
+  "semester": "2nd",
+  "ltpc": [3, 1, 0, 4],
+  "contactHours": 40,
+  "description": "This course provides students with sufficient knowledge of Integral Calculus and its applications, the knowledge of vector calculus and its physical interpretation with applications, the idea of difference equations and Z-transforms with engineering applications, and the fundamental concept of Fourier series and its applications.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Power Series Solutions and Special Functions",
+      "hours": 8,
+      "body": "The Strum-Liouville Problem, Orthogonality of eigen functions, Ordinary and singular points of an equation, Series solution about an ordinary point using Power series solutions, Series solution about a regular singular point using Frobenius method, Solution of Legendre's and Bessel's differential equations, Legendre's and Bessel's functions."
+    },
+    {
+      "id": "2",
+      "title": "Multiple Integrals",
+      "hours": 8,
+      "body": "Evaluation of double integrals (Cartesian and polar coordinates), Change of order of integration, Change of variables between cartesian and polar coordinates, Applications of Double Integrals, Triple integrals, Change of variables between Cartesian, cylindrical and spherical polar co-ordinates, Applications of triple integrals, Beta and Gamma functions, Dirichlet integrals."
+    },
+    {
+      "id": "3",
+      "title": "Vector Calculus",
+      "hours": 8,
+      "body": "Scalar and vector valued functions, Gradient of a scalar point function and its geometrical interpretation, Directional derivative, Divergence and curl of a vector point function and their physical interpretations, Statement of vector identities, Scalar and velocity potentials, Line, surface and volume integrals, Statement of Green's, Stoke's and Gauss divergence theorems, Verification and evaluation of vector integrals using these theorems."
+    },
+    {
+      "id": "4",
+      "title": "Difference Equations and Z-Transforms",
+      "hours": 8,
+      "body": "Difference Equation - Definition of Difference equation, First and second order difference equations with constant coefficients, Fibonacci sequence, Solution of difference equations (complementary functions and particular integrals). Z-transform - Definition of Z-transform, Relation between Z-transform and Laplace transforms, Z-transforms of standard functions, Inverse Z-transforms, Inverse Z-transforms by partial fraction method, Inverse Z-transforms by convolution method, Solution of simple difference equations using Z-transforms."
+    },
+    {
+      "id": "5",
+      "title": "Fourier Series",
+      "hours": 8,
+      "body": "Fourier series, Euler's formula, Dirichlet's conditions, Fourier series expansion of functions having point of discontinuity, Change of interval, Expansion of even and odd functions, Half range series, Typical wave-forms, Parseval's formula, Practical Harmonic Analysis."
+    }
+  ],
+  "outcomes": [
+    "Understand and analyze the practical aspects of series solution and special functions.",
+    "Interpret the line, surface and volume integrals.",
+    "Use Z-transforms to solve difference equations analytically.",
+    "Apply the analytical technique to express periodic functions as a Fourier series."
+  ],
+  "textbooks": [
+    "Erwin Kreyszig, Advanced Engineering Mathematics, 9th Edition, Wiley India Pvt. Ltd., 2011.",
+    "Paras Ram, Engineering Mathematics through Applications, 2nd Edition, CBS Publishers, 2015."
+  ],
+  "referenceBooks": [
+    "Michale D. Greenberg, Advanced Engineering Mathematics, 2nd Edition, Pearson Education, First Indian reprint, 2002.",
+    "Peter V. O' Neil, Advanced Engineering Mathematics, 5th Edition, Thomson, Book/Cole, 2003."
+  ]
+}

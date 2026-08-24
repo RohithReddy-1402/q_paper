@@ -1,0 +1,65 @@
+{
+  "Course Title": "Chemistry",
+  "Course Code": "CHIC-103",
+  "route": "course/chic-103",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["ECE", "EE"],
+  "semester": "2nd",
+  "ltpc": [2, 1, 1, 4],
+  "contactHours": 30,
+  "description": "This course, offered for ECE and EE by the Department of Chemistry, introduces advanced polymers and their applications in modern science, the basic principles of batteries and fuel cell construction and their applications, important aspects of corrosion and its prevention, and advanced engineering materials and their applications.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Polymers",
+      "hours": 8,
+      "body": "Introduction, classification, industrially important polymers: Liquid Crystal Polymers (LCP), Conducting polymers (CP), Interpenetrating Polymer Network (IPN), Polymer Blends and Polymer Composites, Smart Polymers or Stimuli-responsive Polymers, Biodegradable polymers, Flame retardant and thermally insulating polymers."
+    },
+    {
+      "id": "2",
+      "title": "Batteries",
+      "hours": 9,
+      "body": "Introduction to primary, secondary and flow batteries, Construction, working principle, operation and applications of Zn-AgO, Zinc-air cell, Nickel-metal hydride, Lead-acid, and Lithium-ion batteries, Fuel cells: Methanol-Oxygen fuel cell, Solid oxide fuel cell (SOFC), Polymer electrolyte fuel cell (PEFC) and Molten carbonate fuel cell (MCFC)."
+    },
+    {
+      "id": "3",
+      "title": "Corrosion",
+      "hours": 6,
+      "body": "Introduction, dry and wet corrosion, electrochemical theory of corrosion, factors influencing corrosion (nature of metal and nature of environment), types of corrosion: Galvanic corrosion, stress corrosion, microbial corrosion, differential aeration corrosion (water line and pitting corrosion), corrosion control methods: protective coatings, inorganic coatings, cathodic protection (sacrificial anodic protection, impressed current cathodic protection), use of inhibitors."
+    },
+    {
+      "id": "4",
+      "title": "Engineering Materials",
+      "hours": 7,
+      "body": "Photovoltaic materials: Introduction, present status in India, solar energy utilization and conversion, solar cells and dye sensitized solar cells - principle and applications. Nanomaterials: Introduction, Synthesis of nanomaterials (bottom-up and top-down approach), and nano materials (fullerene, graphene, and carbon nanotubes), their applications."
+    }
+  ],
+  "experiments": [
+    "Preparation of Phenol-formaldehyde resin.",
+    "Determination of viscosity of lubricants by Redwood viscometer.",
+    "Determination of the strength (gL-1) of strong acid and strong base/weak acid and strong base using conductometric titration method.",
+    "To prepare Urea formaldehyde (U-F) resin.",
+    "To synthesize Thiokol rubber using sodium tetra sulphide with 1,2-dichloro ethane.",
+    "Determination of iron in iron ore solution.",
+    "Determination of calcium in cement extract solution.",
+    "Potentiometric titration of an acid vs base.",
+    "Investigatory project based on syllabus."
+  ],
+  "outcomes": [
+    "Learn the significance and applications of industrially important advanced polymers.",
+    "Understand the basics of some important types of batteries and their working principles.",
+    "Evaluate techniques to protect different metals from corrosion.",
+    "Understand the chemistry involved in the synthesis and characterization of nanomaterials."
+  ],
+  "referenceBooks": [
+    "W. D. Callister, D. G. Rethwisch, Materials Science and Engineering: An introduction: Wiley India Pvt. Ltd., New Delhi, 10th Edition, 2018.",
+    "P.C. Jain and M. Jain, Engineering Chemistry: Dhanpat Rai Publishing Company, New Delhi, 16th Edition, 2015.",
+    "S. Chawla, A Text Book of Engineering Chemistry: Dhanpat Rai Publishing Company, New Delhi, 3rd Edition, 2017.",
+    "S. S. Dara and S. S. Umare, A Text Book of Engineering Chemistry: S. Chand Publishing Company, New Delhi, 12th Edition, 2018.",
+    "D. Hull and T. W. Clyne, An Introduction to Composite Materials: Cambridge University Press, 2nd Edition, 1996, Online Edition 2012.",
+    "O. G. Palanna, A Text Book of Engineering Chemistry: McGraw Hill, New Delhi, 4th Reprint, 2012.",
+    "Puri, Sharma and Pathania, Principles of Physical chemistry: W. H. Freeman and Company, 48th Edition, 2021."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "Course Title": "Microprocessors and Microcontrollers (P)",
+  "Course Code": "RAPC-314",
+  "route": "course/rapc-314",
+  "credits": 1,
+  "prerequisites": "RAPC302",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [0, 0, 3, 1],
+  "description": "Laboratory experiments for this course are based upon the corresponding theory course RAPC-302 (Microprocessors & Microcontrollers). An updated list of experiments is floated by the course coordinator before the beginning of each semester.",
+  "outcomes": [
+    "Write and execute assembly language programs for 8085 microprocessor and 8051 microcontroller.",
+    "Interface peripheral devices such as ADC/DAC, timers, and I/O ports with microprocessors and microcontrollers.",
+    "Develop simple embedded system applications using 8051 microcontroller.",
+    "Test, debug, and troubleshoot microprocessor and microcontroller-based circuits and systems."
+  ]
+}

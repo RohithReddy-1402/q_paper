@@ -1,0 +1,55 @@
+{
+  "Course Title": "Advanced Engineering Physics",
+  "Course Code": "PHIC-105",
+  "route": "course/phic-105",
+  "credits": 4,
+  "prerequisites": "PHIC101",
+  "Course Type": "IC",
+  "Branch": ["IIOT"],
+  "semester": "2nd",
+  "ltpc": [2, 1, 2, 4],
+  "contactHours": 60,
+  "description": "This course, offered for the IIoT branch by the Department of Physics, is focused on the working principle of different types of sensors and development of sensors utilizing advanced sensing materials. Fabrication techniques and applications in AI and IIoT are elaborated.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Principles of Sensors and Actuators",
+      "hours": 7,
+      "body": "Fundamentals and Physics of sensors and Actuators (sensing and actuation mechanisms), physical effects, measurement, measurement standards, measurement errors, Static and Dynamic Characteristics, reliability, aging test, failure mechanisms and their evaluation and stability study, Sensor signal amplification and filtering, Analog-to-digital conversion, Noise reduction techniques, Digital signal processing for sensor data."
+    },
+    {
+      "id": "II",
+      "title": "Materials and Fabrication Methods for Sensors",
+      "hours": 7,
+      "body": "Semiconductors, Metal Oxides, Polymers, Metals, piezoelectric materials, optical glass fibres and Organic Materials; Sensor configurations and geometries, Thin/thick film formation techniques: Physical, chemical and Langmuir-Blodgett film formation techniques, Screen Printing Techniques, Lithography."
+    },
+    {
+      "id": "III",
+      "title": "Sensors",
+      "hours": 7,
+      "body": "Optoelectronic sensors, Mechanical sensors, Thermal sensors, Magnetic sensors, Gas sensors, pressure sensors, chemical and bio sensors, Calibration methods and standards, Error sources and compensation techniques, Sensor fusion and multi-sensor systems."
+    },
+    {
+      "id": "IV",
+      "title": "Sensor Systems and Applications",
+      "hours": 7,
+      "body": "Sensors for AI and IoT: Agriculture, health care, environmental monitoring and control, smart home, transportation, Smart Energy monitoring; robotic, nautical, aeronautical and space measurement systems; Flexible and wearable sensors; Sensors for lab on chip, sensor networks, Nanosensors and MEMS technology."
+    }
+  ],
+  "outcomes": [
+    "Design various sensors.",
+    "Learn about various materials and methods of fabrication of sensors.",
+    "Become familiarized with the practical approaches for different sensors and their utilization for AI and IIoT Applications."
+  ],
+  "textbooks": [
+    "Clarence W. de Silva, \"Sensors and Actuators - Engineering System and Instrumentation\", CRC Press, Taylor & Francis Group, 2016.",
+    "S.C. Mukhopadhyay, \"Next Generation Sensors And Systems\", Springer, 2016."
+  ],
+  "referenceBooks": [
+    "J. Fraden, \"Handbook of Modern Sensors: Physical, Designs, and Applications\", AIP Press, Springer, 2010.",
+    "D. Patranabis, \"Sensors and Transducers\", PHI Publication, New Delhi, 2003.",
+    "Ezzat G. Bakhoum, \"Micro- and Nanoscale Sensors and Transducers\", CRC press, 2019.",
+    "P.T. Moseley, B.C. Toefield, \"Solid State Gas Sensors\", CRC Press, 1987.",
+    "S. M. Sze, \"Semiconductor Sensors\", Wiley-Interscience, 1994. ISBN: 978-0471546092."
+  ]
+}

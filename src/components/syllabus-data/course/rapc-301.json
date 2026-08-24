@@ -1,0 +1,50 @@
+{
+  "Course Title": "Robot Programming and Control",
+  "Course Code": "RAPC-301",
+  "route": "course/rapc-301",
+  "credits": 3,
+  "prerequisites": "RAPC211, RAPC208",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course introduces the students to the fundamentals of robot programming in addition to the basic and advanced concepts of robot control. The students will gain knowledge about the historical development of different robot programming languages along with their general structure, requirements and problems. This course also covers the important aspects related to robot programming, such as online, offline, robot-oriented and task-space programming with an introduction to augmented reality. Besides, the students will also develop the skills required for designing linear and non-linear robot controllers. This course will impart a comprehensive knowledge pertaining to the performance and stability analysis of feedback control systems, selection of PID controller gains, design aspects of joint controllers etc. This course also covers the important areas like multivariable robot control, computed torque control, hybrid control etc. Furthermore, the students will also be introduced to the advanced topics like robust control and adaptive control.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Robot Programming",
+      "hours": 10,
+      "body": "Introduction; Robot programming languages, Generations of robot languages, Structure, requirements and problems of a robot language; Online programming, Offline programming, Robot-oriented programming, Task-level programming, Programming using augmented reality; Introduction to latest software frameworks like Robot Operating System (ROS), Comparison of modern programming languages like Python and C++ for robotic applications."
+    },
+    {
+      "id": "II",
+      "title": "Robot Control",
+      "hours": 8,
+      "body": "Linear Control. Robot Joint: Dynamics of a dc motor, Actuator dynamics; Performance and Stability of Feedback Control Systems: Performance, Lyapunov stability; Selection of PID Controller Gains: State-feedback Control; Joint Controllers (P, PD, PID)."
+    },
+    {
+      "id": "III",
+      "title": "Nonlinear Control",
+      "hours": 12,
+      "body": "Control of a Moving Block; Multivariable Robot Control: Stability of Multi-Degree-of-Freedom Robot; Linearized Control; PD Position Control; Computed Torque Control; Feedforward Control; Robust and Adaptive Control; Cartesian Control: Resolved motion control, Feedback linearization in Cartesian space."
+    },
+    {
+      "id": "IV",
+      "title": "Force Control and Hardware",
+      "hours": 10,
+      "body": "Force Control of robotic manipulators: Hybrid position/force control; Impedance Force/Torque Control. Robot Control Considerations; Hardware Architecture; Hardware for Joint Controllers; Computational Speed."
+    }
+  ],
+  "outcomes": [
+    "Understand the history, general structure, requirements and problems of robot programming languages along with the various levels of robot programming, i.e., online, offline, robot-oriented, task-level programming etc.",
+    "Design linear robot controller and understand how to select controller parameters for robot joints and evaluate its performance and stability.",
+    "Design non-linear robot controller and understand the concepts of multi-variable control, robust control, adaptive control so as to design a robot controller according to the requirements.",
+    "Understand and apply the concepts of force control, hybrid force/position control, impedance force/torque control etc. along with the hardware requirements for robot controllers."
+  ],
+  "textbooks": [
+    "S. K. Saha, “Introduction to Robotics”, McGraw Hill Education (India) Pvt. Ltd.",
+    "Mark W. Spong, Seth Hutchinson, and M. Vidyasagar, “Robot Modeling and Control”, John Wiley & Sons, Inc.",
+    "John J. Craig, “Introduction to Robotics Mechanics and Control”, Pearson Prentice Hall.",
+    "Saeed B. Niku, “Introduction to Robotics”, Pearson Education Asia."
+  ]
+}

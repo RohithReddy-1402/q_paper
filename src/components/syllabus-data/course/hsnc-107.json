@@ -1,0 +1,40 @@
+{
+  "Course Title": "Teachings of Gita",
+  "Course Code": "HSNC-107",
+  "route": "course/hsnc-107",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Audit Course)",
+  "Branch": ["All"],
+  "semester": "Odd/Even",
+  "ltpc": [2, 0, 0, 2],
+  "description": "This Non-Conventional Institute Core (audit) course, offered by the Department of Humanities and Social Sciences, develops a deeper understanding of the Bhagavad Gita, inculcates its teachings in real life to lead a more meaningful and spiritual life, and initiates a culture of contemplation and spirituality for maintaining a balance between material and spiritual needs. It is qualifying in nature (Internal: 50 Marks, Total: 50 Marks).",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Bhagavad Gita",
+      "body": "Bhagavad Gita: Meaning, Origin and History. Reading and understanding of the text, analysis of the Bhagavad Gita with reference to the age in which it was composed and its contemporary relevance. Ethical Teachings of Bhagavad Gita."
+    },
+    {
+      "id": "II",
+      "title": "Teachings of Bhagavad Gita: Chapter 2",
+      "body": "The focus will be on how teachings of Gita as mentioned in Chapter 2 can be applied to overcome problems in real life like management of stress, control over mind, ethical decision making, leadership skills and problems of justice etc. Concept of Jyanayoga, Karmayoga and Bhaktiyoga."
+    },
+    {
+      "id": "III",
+      "title": "Teachings of Bhagavad Gita: Chapter 3",
+      "body": "The focus will be on how teachings of Gita as mentioned in Chapter 3 can be applied to overcome problems in real life like management of stress, control over mind, ethical decision making and leadership skills etc."
+    }
+  ],
+  "outcomes": [
+    "Develop an understanding of the Bhagavad Gita.",
+    "Learn to implement the teachings of the Bhagavad Gita in real life situations."
+  ],
+  "referenceBooks": [
+    "Sri Aurobindo, \"Bhagavad Gita and Its Message\" by Shri Aurobindo. Lotus Publishers, 1996.",
+    "Shrimad Bhagavad Gita, Geeta Press, Gorakhpur, 1923.",
+    "Juan Macaro, The Bhagavad Gita, Penguin Books, 2003.",
+    "Pandit Aryamuni, Vedic Gita, 2019.",
+    "Jack Hawley, The Bhagavad Gita: A Walkthrough for Westerners, New World Library, 2011."
+  ]
+}

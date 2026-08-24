@@ -1,0 +1,68 @@
+{
+  "Course Title": "Chemistry",
+  "Course Code": "CHIC-102",
+  "route": "course/chic-102",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["CE", "ME", "PIE"],
+  "semester": "2nd",
+  "ltpc": [2, 1, 1, 4],
+  "contactHours": 30,
+  "description": "This course, offered for CE, ME and PIE by the Department of Chemistry, enables students to acquire knowledge of the principles of chemistry involving hardness of water and softening of water, introduces the concept of phase rule and its application in making alloys and freezing mixtures, educates students about mechanisms of corrosion of metals and their controlling processes, introduces advanced engineering materials such as polymers, cement and high energy materials, and provides knowledge about conventional and sustainable fuels and lubricants.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Softening of Water and Phase Rule",
+      "hours": 8,
+      "body": "Softening of Water: Boiler problems, Remedial Measures, Demineralization, Desalination, Advanced reverse osmosis (RO), Electro dialysis, Zeolite process, Ion-exchange process, MBD, Polished water. Phase Rule: Description of various terms (phase, component and degrees of freedom), One component system (water), Two component system (Pb-Ag, KI-H2O), Technical applications: freezing mixtures, solders, safety plugs and freeze drying."
+    },
+    {
+      "id": "2",
+      "title": "Corrosion",
+      "hours": 5,
+      "body": "Introduction, Corrosion mechanisms: dry corrosion and wet corrosion, Types of corrosion: concentration corrosion, water-line corrosion, stress corrosion (caustic embrittlement in boilers and seasonal cracking), pitting corrosion, Factors affecting the rate of corrosion, Remedial measures against corrosion: design, cathodic protection, modification of environment, Protective coatings (galvanizing and tinning by hot dipping, metal cladding)."
+    },
+    {
+      "id": "3",
+      "title": "Advanced Engineering Materials",
+      "hours": 10,
+      "body": "Polymers: Introduction and Classification, Preparation, properties and Technical applications of: Thermosetting polymers (Phenol-formaldehyde resins and Epoxy resins), Thermoplastic polymers (HDPE and LDPE), Elastomers (Natural rubbers and Synthetic rubbers i.e. Buna-S and Buna-N), Inorganic polymers (Silicones), Advantages of Inorganic polymers over Organic polymers. Conducting Polymers: Intrinsic and extrinsic polymers, Properties and applications of: Conducting polymers (Polythiophene and Polyaniline), Biodegradable polymers (Cellulose acetate and Polyhydroxy-Urethanes). Construction Material: Composition, setting and hardening of Portland cement. High Energy Materials (HEM): Introduction, Classification and Requirements of HEM, Some important explosives: RDX, DDNP, TNT, PETN (Structure and properties) and plastic explosives."
+    },
+    {
+      "id": "4",
+      "title": "Fuels and Lubricants",
+      "hours": 7,
+      "body": "Fuels: Introduction, Calorific value (HCV and LCV), Determination of HCV by Bomb's calorimeter, Proximate and ultimate analysis of coal, Coal liquefaction (Fischer-Tropsch method), Coal gasification (water gas), Sustainable fuels: Bio-diesel, Green-diesel, Power-alcohol and Hydrogen economy. Lubricants: Introduction, Classification, Significant properties and their determination (viscosity and viscosity index, cloud and pour point, flash and fire point, aniline point, acid value, saponification value, iodine value), Semi-solid lubricants (Greases), Solid lubricants (Graphite and MoS2)."
+    }
+  ],
+  "experiments": [
+    "Preparation of Phenol-formaldehyde resin.",
+    "To prepare Urea formaldehyde (U-F) resin.",
+    "Determination of the strength of strong acid and strong base/weak acid and strong base using conductometric titration method.",
+    "Determination of viscosity of lubricants by Redwood viscometer.",
+    "Determination of acid value of lubricant oil.",
+    "Determination of saponification value of lubricant oil.",
+    "Determination of flash and fire point of lubricant.",
+    "Determination of calcium as calcium oxide volumetrically in cement extract solution.",
+    "Preparation of different freezing mixtures and determination of their eutectic temperatures.",
+    "Investigatory project based on syllabus."
+  ],
+  "outcomes": [
+    "Gain the basic knowledge about hardness of water, its disadvantages and the methods available to soften the water.",
+    "Understand the concepts of phase rule and its application in making the alloys, freeze drying, freezing mixture, etc.",
+    "Understand the mechanism of corrosion and ways to control the corrosion.",
+    "Appreciate the concepts and applications involving advanced engineering materials such as polymers, cement and high energy materials.",
+    "Understand the concepts of non-sustainable and sustainable fuels and gain the knowledge about the lubricants."
+  ],
+  "referenceBooks": [
+    "P.C. Jain and M. Jain, Engineering Chemistry: Dhanpat Rai Publishing Company, New Delhi, 16th Edition, 2015.",
+    "G. Odian, Principles of Polymerization: Wiley, 4th Edition, 2004.",
+    "S. Chawla, A Text Book of Engineering Chemistry: Dhanpat Rai Publishing Company, New Delhi, 3rd Edition, 2017.",
+    "S. S. Dara and S. S. Umare, A Text Book of Engineering Chemistry: S. Chand Publishing Company, New Delhi, 12th Edition, 2018.",
+    "R. Sivakumar and N. Sivakumar, Engineering Chemistry: Tata McGraw-Hill Publishing Company Limited, New Delhi, 1st Edition, 2008.",
+    "O. G. Palanna, A Text Book of Engineering Chemistry: McGraw Hill, New Delhi, 4th Reprint, 2012.",
+    "Puri, Sharma and Pathania, Principles of Physical chemistry: W. H. Freeman and Company, 48th Edition, 2021.",
+    "V. R. Gowariker, N V Viswanathan, Jayadev Sreedhar, Polymer Science: New Age International Publishers, 4th Edition, 2021."
+  ]
+}

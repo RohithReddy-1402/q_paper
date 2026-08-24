@@ -1,0 +1,42 @@
+{
+  "Course Title": "Programming using Python",
+  "Course Code": "CSIC-104",
+  "route": "course/csic-104",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["All"],
+  "semester": "2nd",
+  "description": "This course, offered by the Department of Computer Engineering, focuses on building robust applications using Python programming, and building multithreaded, platform-independent and GUI based Python applications for business problems.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "The Concept of Data Types",
+      "body": "Variables, Assignments; Immutable Variables; Numerical Types; Arithmetic Operators And Expressions; comments in the program; understanding error messages; Conditions, boolean logic, logical operators; ranges; Control statements: if-else, loops (for, while); short-circuit (lazy) evaluation; Strings and text files; manipulating files and directories, os and sys modules; text files: reading/writing text and numbers from/to a file; creating and reading a formatted file (csv or tab-separated); String manipulations: subscript operator, indexing, slicing a string."
+    },
+    {
+      "id": "2",
+      "title": "Lists, Tuples, and Dictionaries",
+      "body": "Basic list operators, replacing, inserting, removing an element; searching and sorting lists; dictionary literals, adding and removing keys, accessing and replacing values; traversing dictionaries; Design with functions: hiding redundancy, complexity; arguments and return values; formal vs actual arguments, named arguments."
+    },
+    {
+      "id": "3",
+      "title": "Simple Graphics, Image Processing and OOP",
+      "body": "\"turtle\" module; simple 2d drawing - colors, shapes; digital images, image file formats, image processing: Simple image manipulations with 'image' module (convert to bw, greyscale, blur, etc). Classes and OOP: classes, objects, attributes and methods; defining classes; design with classes, data modeling; persistent storage of objects; inheritance, polymorphism, operator overloading (_eq_, _str_, etc); abstract classes; exception handling, try block."
+    },
+    {
+      "id": "4",
+      "title": "Graphical User Interfaces",
+      "body": "Event-driven programming paradigm; tkinter module, creating simple GUI; buttons, labels, entry fields, dialogs; widget attributes - sizes, fonts, colors layouts, nested frames."
+    }
+  ],
+  "outcomes": [
+    "Programming ability for solving simple business problems.",
+    "Design of robust and multithreaded python applications.",
+    "Familiarity of simple GUI interfaces."
+  ],
+  "referenceBooks": [
+    "T.R. Padmanabhan, Programming with Python, Springer, 1st Ed., 2016.",
+    "Kenneth Lambert, Fundamentals of Python: First Programs, Cengage Learning, 1st Ed., 2012."
+  ]
+}

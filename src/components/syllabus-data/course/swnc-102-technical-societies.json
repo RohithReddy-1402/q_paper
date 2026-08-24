@@ -1,0 +1,13 @@
+{
+  "Course Title": "Technical Societies (NSS/Clubs/Technical Societies option)",
+  "Course Code": "SWNC-102",
+  "route": "course/swnc-102-technical-societies",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Co-curricular)",
+  "Branch": ["All"],
+  "semester": "1st-6th (Continuous Evaluation)",
+  "ltpc": [0, 0, 4, 2],
+  "description": "SWNC-102 is compulsory up to B.Tech 6th Semester, and students choose one of NSS, Students Clubs or Technical Societies. This is the Technical Societies option. Twelve societies/clubs operate under Technical Societies, conducting events (competitions, workshops, guest lectures, meetings) throughout the year, plus the annual technical festival TECHSPARDHA. Each society/club is headed by a student team (usually final year) under a faculty-in-charge. Students earn course credit by participating in and helping coordinate events organized by these societies; the selected heads ensure each member is engaged for at least 40 hours per semester (240 hours across 6 semesters), and credit is awarded at the end of the 6th semester by a committee of faculty-in-charges based on: Participation (1/event in Sem I-II, max 20 marks; 1.5/event in Sem III-IV, max 30 marks; 2/event in Sem V-VI, max 50 marks); Prize/Award/Recognition intra-college events (2/3/4 per event across the three semester pairs respectively); Prize/Award/Recognition inter-college events (4/6/8 per event); Organization (4/6/8 per event); and Sponsorship (4 points per Rs. 10K, 6 per Rs. 20K, 8 per Rs. 40K of individual sponsorship, across the three semester pairs respectively). The committee verifies credentials and awards a grade per institute norms, based on participation certificates, prize/recognition certificates, event organization certificates, and sponsorship letters signed by the appropriate faculty-in-charge, Head of Institute, Dean (R&C), or Professor-in-charge of Technical Societies.",
+  "syllabus": []
+}

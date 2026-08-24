@@ -1,0 +1,49 @@
+{
+  "Course Title": "Thought Lab and Practices",
+  "Course Code": "HSNC-111",
+  "route": "course/hsnc-111",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Audit Course)",
+  "Branch": ["All"],
+  "semester": "Odd/Even",
+  "ltpc": [2, 0, 0, 2],
+  "description": "This introductory Non-Conventional Institute Core (audit) course, offered by the Department of Humanities and Social Sciences, is intended to introduce the importance of mind power, meditation and positive thoughts; to give students insights and experience of these; and to preserve and disseminate this knowledge for further research and societal applications. It is qualifying in nature (Internal: 50 Marks, Total: 50 Marks).",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Thoughts",
+      "body": "What are thoughts, Source of thoughts, Types of thoughts, Effect of thoughts on emotional and physical health, Understanding interrelationship between thoughts and actions, Tree of consciousness, Exercises."
+    },
+    {
+      "id": "II",
+      "title": "Meditation",
+      "body": "Introduction to Meditation, Knowing the self, Understanding and connecting to the supreme, Benefits of meditation, achieving The Eight Powers using meditation, Exercises."
+    },
+    {
+      "id": "III",
+      "title": "Mind and Body Management",
+      "body": "Stress Management, Sleep management, nourishing various body organs using innate qualities of the self, exploring 7 energy centers of the body, Body Mind Detoxification, Exercises."
+    },
+    {
+      "id": "IV",
+      "title": "The Law of Attraction",
+      "body": "Positive affirmations, the art of Visualization, Karma Philosophy, Happiness, Exercises."
+    },
+    {
+      "id": "V",
+      "title": "Applications",
+      "body": "Exploring various instruments to identify the mind and body health status using Karada Scan, Muse, VR headset etc., Case Study on power of thoughts - Water experiment by Masaru Emoto, SWOC analysis of the self, Exercises."
+    }
+  ],
+  "outcomes": [
+    "Learn the importance of mind power, meditation, positive thoughts etc.",
+    "Gain proficiency in interdisciplinary aspects of mind power, meditation, positive thoughts etc.",
+    "Learn about mind power, meditation, positive thoughts etc. for further research and societal applications."
+  ],
+  "referenceBooks": [
+    "BK Shivani, \"Happiness Unlimited\".",
+    "Jagdish Chandra Hasija, \"Yog ki vidhi aur sidhi\".",
+    "Dr Girish Patel, \"Positive Health\"."
+  ]
+}

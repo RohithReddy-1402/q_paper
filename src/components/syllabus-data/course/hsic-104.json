@@ -1,0 +1,44 @@
+{
+  "Course Title": "Business Studies",
+  "Course Code": "HSIC-104",
+  "route": "course/hsic-104",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["All"],
+  "semester": "1st/2nd",
+  "ltpc": [2, 1, 0, 3],
+  "examScheme": { "internal": 50, "theory": 50, "total": 100, "time": "3 hrs" },
+  "description": "This course, offered by the Department of Humanities & Social Sciences, is designed to introduce the concepts of business to students and aims to acquaint them with business processes from beginning to the end.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fundamentals of Business",
+      "body": "Business: Meaning and Characteristics of Business, Objectives of Business. Classification of Business Activities: Industry and Commerce, Industry types: Primary, Secondary and Tertiary. Types of Businesses: Sole Proprietorship, Partnership, Limited Liability Company, Private and Public company. Formation of Company: stages and required documents."
+    },
+    {
+      "id": "II",
+      "title": "Sources of Business Finance",
+      "body": "Business Finance: Concept and Importance. Types of Sources of Finance: Long-term Sources (Equity Shares, Preference shares, Debentures, Term Loans, Retained earnings, Loan from financial institutions, etc.), Short Term Sources (Trade Credit, Accrued Expenses, Commercial Papers, Public Deposits etc.)"
+    },
+    {
+      "id": "III",
+      "title": "Small Business and Entrepreneurship Development",
+      "body": "Entrepreneurship Development (ED): Concept, Characteristics and Need. Process of Entrepreneurship Development: Start-up India Scheme, Intellectual Property Rights and Entrepreneurship. Small Scale Enterprise: Classification and Roles; Issues and Challenges faced by Small Scale Enterprises, Government schemes for small scale industries."
+    },
+    {
+      "id": "IV",
+      "title": "Business Services and Social Responsibility of Businesses",
+      "body": "Business services: Meaning and Types, Emerging Modes of Business, E-business: Concept, Scope and Benefits, E-commerce, EDI, Web-based Marketing, Role of Internet and Risk Management; Social Responsibility of Business. Role of Business in Sustainable Development."
+    }
+  ],
+  "outcomes": [
+    "Understand different forms and numerous processes of a business.",
+    "Practice the ethical behaviour of businesses."
+  ],
+  "textbooks": [
+    "Business Studies: Learners Book, Oxford Successful",
+    "Business Studies: 2018/19 Undergraduate Guide, University of Huddersfield",
+    "Business Studies, Fourth Edition, Ian Chambers and David Gray, CP."
+  ]
+}

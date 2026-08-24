@@ -1,0 +1,19 @@
+{
+  "Course Title": "NSS (NSS/Clubs/Technical Societies option)",
+  "Course Code": "SWNC-102",
+  "route": "course/swnc-102-nss",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Co-curricular)",
+  "Branch": ["All"],
+  "semester": "1st-6th (Continuous Evaluation)",
+  "ltpc": [0, 0, 4, 2],
+  "description": "SWNC-102 is compulsory up to B.Tech 6th Semester, and students choose one of NSS, Students Clubs or Technical Societies. This is the National Service Scheme (NSS) option. Overall objective: development of a student's personality through community service. Aims include understanding the community and one's relation to it, identifying and solving community needs and problems, developing a sense of social and civic responsibility, gaining skills in mobilizing community participation, acquiring leadership qualities and a democratic attitude, and developing capacity to meet emergencies and natural disasters. Students join NSS by enrolling/registering through the NSS Programme Coordinator/Officer concerned. For the curriculum's 1-credit-per-semester award, students must engage in NSS activities for at least 240 hours across three years (minimum 40 hrs/semester), with attendance maintained by the unit's Programme Officer; hours earned per activity depend on role - Audience (up to 5 hours), Active Participation (up to 7 hours), Organizer (up to 10 hours). Marks are distributed as: Class Attendance (20), Discipline & Punctuality (20), Event Knowledge (20), and a Comprehensive Viva covering all activities held during the semester (40), out of a Total of 100.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Tentative NSS Activities (Annexure-1)",
+      "body": "Vanmohotsava Week (5-7 days, Environment Enrichment & Tree Plantation); Disaster Management (workshops, awareness camps for relief/rescue, inoculation and immunization, distribution of medicines/essential goods); Adopted Village (literacy promotion and basic facilities like drinking water, roads, school buildings, cooperative/self-employment schemes); Independence Day celebration; Literacy Week (pledge-taking ceremony, visits to adopted village/slum, hoardings and banners); Health Service & Awareness (Integrated Child Development Programme, Health Education, HIV/AIDS Awareness, motivating parents to send children to school); Annual NSS Day Celebrations; Digital Transactions Awareness Programs (Startup India - Stand up India); Blood Donation Camp in collaboration with NITKAA; Autumn Camp (4-6 days, Youth for Sustainable Development, Watershed Management & Wasteland Development); Gandhi Jayanti (quiz, speech, Communal Harmony Day); Quami Ekta Week (National Integration Day, Welfare of Minorities Day, Cultural Unity Day, Women's Day, Conservation Day); Swachhta Pakhwada (cleanliness campaigns, road safety); Legal Literacy-Social Justice (lectures); World AIDS Day (awareness, public discussions, film shows, rallies, street plays); Energy Conservation Day; National Youth Week (lectures/symposia on Swami Vivekanand and Mahatma Gandhi, debates, essay/drawing competitions); Republic Day celebration; Nasha Mukti Abhiyan (Tobacco Free Society awareness, campaigns, posters in hostels); Women's Week (programmes on the role of women and girl child, prominent women leaders' lectures); National Safety Day/Week (theme-based activities from the National Safety Council, GOI); Life Skills and Vocational Training Programmes (industry professional lectures, competitions); Career Guidance (for college students through prominent speakers; NSS volunteers guiding 9th-12th grade students); Environment Enrichment & Climate Change (lectures, campaigns, posters); World Bicycle Day Celebration; and other activities suggested by the Institute, State NSS Unit, or GOI Ministries."
+    }
+  ]
+}

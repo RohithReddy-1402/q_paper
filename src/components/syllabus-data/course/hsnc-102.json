@@ -1,0 +1,41 @@
+{
+  "Course Title": "Sanskrit Language Skills",
+  "Course Code": "HSNC-102",
+  "route": "course/hsnc-102",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Audit Course)",
+  "Branch": ["All"],
+  "semester": "Odd/Even",
+  "ltpc": [2, 0, 0, 2],
+  "description": "This Non-Conventional Institute Core (audit) course, offered by the Department of Humanities and Social Sciences, makes students acquainted with the journey of Sanskrit literature and helps them develop a comprehensive idea about Sanskrit language, literature, and philosophy. It is qualifying in nature (Internal: 50 Marks, Total: 50 Marks).",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "शब्द स्वरूप एवं भेद",
+      "body": "उच्चारण-स्थान एवं प्रयत्न; पद संरचना - (क) पदस्वरूप, भेद एवं प्रयोग, (ख) सुबन्तपद, (ग) तिङन्तपद।"
+    },
+    {
+      "id": "2",
+      "title": "वाक्य संरचना",
+      "body": "(क) वाक्य स्वरूप भेद एवं प्रयोग, (ख) कर्तृवाच्य, (ग) कर्मवाच्य, (घ) भाववाच्य।"
+    },
+    {
+      "id": "3",
+      "title": "कारक परिचय",
+      "body": "(क) कारक स्वरूप, भेद एवं प्रयोग, (ख) विभक्तियों का अर्थ।"
+    },
+    {
+      "id": "4",
+      "title": "सन्धि एवं शब्द बोध",
+      "body": "सन्धि परिचय - सन्धि स्वरूप, भेद एवं प्रयोग; शब्द बोध-प्रक्रिया एवं कारण; संस्कृत सम्भाषण।"
+    }
+  ],
+  "outcomes": [
+    "Attain greater understanding of different areas of Sanskrit Language and Literature.",
+    "Understand issues pertaining to origin and evolution of Sanskrit Language."
+  ],
+  "textbooks": [
+    "Sanskrit Chayanika, Published by KU, Kurukshetra"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Course Title": "Problem Solving and Programming Skills",
+  "Course Code": "CSIC-101",
+  "route": "course/csic-101",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["CoE", "IT", "AI & ML"],
+  "semester": "1st",
+  "ltpc": [3, 0, 2, 4],
+  "description": "This course, offered for Computer Engineering, IT and AI & ML by the Department of Computer Engineering, provides fundamentals of problem solving using C language programming.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Programming Fundamentals & Control Statements",
+      "body": "Block Diagram of Computer, Hardware vs software, concept of operating system and compiler, Introduction to C programming, basic programming using input and output operators and expressions, programming using if and if-else, programming using looping-for, while, do-while; use of switch and break."
+    },
+    {
+      "id": "2",
+      "title": "Arrays based Programming",
+      "body": "Defining and processing 1-D and 2-D Arrays for Problem Solving and Strings."
+    },
+    {
+      "id": "3",
+      "title": "Modular programming using Functions",
+      "body": "Structured Programming, Defining and calling a function, modular programming using functions, passing arguments and arrays to functions, functions of void and returning values."
+    },
+    {
+      "id": "4",
+      "title": "Programming using pointers, structures and unions",
+      "body": "Pointers in C: Pointer declaration, Passing Pointer to functions, pointers vs arrays, dynamic memory allocation. Structures and Unions, Programming Using Array of Structures and Unions, Memory Requirements for Unions."
+    }
+  ],
+  "outcomes": [
+    "Understand the use of software and programming for problem solving.",
+    "Learn programming using simple concepts of input, output and control statements.",
+    "Use arrays, functions, strings, structures and pointers for problem solving."
+  ],
+  "referenceBooks": [
+    "Byron S. Gottfried, Programming with C Language, Schaum Series, Tata McGraw Hill, 2015.",
+    "E Balaguruswamy, Programming with C, Tata McGraw Hill, 2015.",
+    "Kernighan & Richie, C Programming, Prentice Hall of India, 2002."
+  ]
+}

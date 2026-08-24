@@ -1,0 +1,49 @@
+{
+  "Course Title": "Economics for Engineers",
+  "Course Code": "HSIC-102",
+  "route": "course/hsic-102",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["All"],
+  "semester": "1st/2nd",
+  "ltpc": [2, 1, 0, 3],
+  "examScheme": { "internal": 50, "theory": 50, "total": 100, "time": "3 hrs" },
+  "description": "This course, offered by the Department of Humanities & Social Sciences, enables students to understand economics principles applicable to engineering, learn the techniques of economic decision making, and familiarizes them with the basic fundamentals of the Indian financial economy.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Demand Analysis",
+      "body": "Principles of economics, how markets work: market forces of supply and demand, Elasticity and its application, Consumer equilibrium."
+    },
+    {
+      "id": "II",
+      "title": "Theory of Production, Cost and Firms",
+      "body": "Firms' production, cost and revenue behavior; resources optimization; Firms' behavior under competitive markets, monopoly, monopolistic competition and oligopoly."
+    },
+    {
+      "id": "III",
+      "title": "Engineering Economy",
+      "body": "Time value of money: Single-Payment and Uniform Series, Nominal and Effective Interest Rates, Evaluation Methods: Present Worth Analysis, Annual Worth Analysis, Rate of Return Analysis."
+    },
+    {
+      "id": "IV",
+      "title": "Indian Economy",
+      "body": "Nature and size of Indian Economy, Problems - Poverty, Unemployment, Inflation, measures for controlling these problems, Monetary policy - meaning, objectives, tools, fiscal policy - meaning, objectives, tools."
+    }
+  ],
+  "outcomes": [
+    "Understand the concepts of economics and use the principles of economics in the engineering discipline.",
+    "Develop insight into consumer and production behavior and the functioning of a market economy.",
+    "Learn the implications of monetary and fiscal policies in the Indian economy."
+  ],
+  "textbooks": [
+    "N. Gregory Mankiw, Principles of Microeconomics",
+    "Krugman, Paul, and Robin Wells, Microeconomics, New York, NY",
+    "WG Sulliman, EM Wicks and CP Koelling, Engineering Economy, Pearson",
+    "Chan S Park, Fundamentals of Engineering Economics, Always Learning",
+    "Anindya Sen, Microeconomics, OUP India",
+    "Hal R. Varian, Intermediate Microeconomics, W. W. Norton and Company",
+    "Ruder Dutt and Sundaram, Indian Economy, S. Chand"
+  ]
+}

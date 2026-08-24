@@ -1,0 +1,13 @@
+{
+  "Course Title": "Students Clubs (NSS/Clubs/Technical Societies option)",
+  "Course Code": "SWNC-102",
+  "route": "course/swnc-102-clubs",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Co-curricular)",
+  "Branch": ["All"],
+  "semester": "1st-6th (Continuous Evaluation)",
+  "ltpc": [0, 0, 4, 2],
+  "description": "SWNC-102 is compulsory up to B.Tech 6th Semester, and students choose one of NSS, Students Clubs or Technical Societies. This is the Students Clubs option. Twelve different clubs operate under Students Clubs, organizing events (workshops, guest lectures etc.) and competitions throughout the year, including the national-level mega cultural festival CONFLUENCE. Students earn course credit by participating in events organized by their club and by assisting in coordinating these events as a member. Students must engage in club activities for 240 hours across three years (40 hours per semester). Evaluation criteria and hour credit (Total Marks 100, weightage 80% for activity + 20% comprehensive viva-voce at the end of each semester): Participation as Audience (0.5 hour per event hour, no marks weightage); Participation as Performer (6 hours for a full-day activity = 10 marks, 3 hours for a half-day activity = 5 marks); Prize/Award/Recognition intra-college events (5 hours = 20 marks); Prize/Award/Recognition inter-college events (10 hours = 30 marks); Organization of event (12 hours full-day = 20 marks, 6 hours half-day = 10 marks); Sponsorship (15 hours for sponsorship up to Rs. 1 Lakh = 15 marks, 30 hours up to Rs. 5 Lakh = 30 marks, 40 hours for more than Rs. 5 Lakh = 40 marks, with a minimum of Rs. 25,000 per student and hours/marks divided equally among students involved). Required proof includes participation certificates, prize/recognition certificates, event organization certificates, and sponsorship letters, each duly signed by the organizing club's faculty-in-charge or the Head of Institute/Dean (SW)/Professor-in-charge as applicable.",
+  "syllabus": []
+}

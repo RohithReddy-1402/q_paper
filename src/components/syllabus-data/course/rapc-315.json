@@ -1,0 +1,33 @@
+{
+  "Course Title": "Mechanics of Materials (P)",
+  "Course Code": "RAPC-315",
+  "route": "course/rapc-315",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [0, 0, 2, 1],
+  "description": "This laboratory course introduces students to the instruments and experimental methods used in material testing, covering the behavior of materials under hardness, impact and tensile tests, the basic principles of strength of materials and structural analysis, the concept of stress and strain under different loading conditions, and the mechanics of testing machines like Servo hydraulic UTM and Servo electric UTM.",
+  "experiments": [
+    "To study the Impact testing machine and to perform the impact tests (Izod and Charpy impact test).",
+    "To study the Rockwell Hardness testing machine and find the Rockwell Hardness of the given specimen.",
+    "To study the Vickers Hardness testing machine and find the Vickers Hardness of the given specimen.",
+    "To study the Brinell Hardness Testing machine and find the Brinell Hardness of the given specimen.",
+    "To study the Erichsen Cupping machine and find out the Erichsen value of the given specimen of Sheet Metal.",
+    "To study the Bending stress in a Beam Structure and to find the Bending Stress in a Beam.",
+    "To study the Torsion testing machine and to perform the Torsion test on a given specimen.",
+    "To study the Universal Testing Machine (UTM) and to perform the Tensile test.",
+    "To perform the Compression test on Universal Testing Machine (UTM).",
+    "To perform the Bending Test on Universal Testing Machine (UTM).",
+    "To study the Strut-Testing Structure and to determine the Buckling Load of a Pinned-End Strut.",
+    "To study the effect of End Conditions on the Buckling Load."
+  ],
+  "outcomes": [
+    "Understand the procedure of doing different tests like hardness, compression, torsion, tension, impact, etc. in various materials.",
+    "Understand the effect of stress and strain in different types of machines/structures under different loading conditions.",
+    "Describe the behavior of materials upon normal external loads.",
+    "Predict the behavior of the material under impact conditions.",
+    "Recognize the mechanical behavior of materials.",
+    "Measure the properties of the materials such as impact strength, tensile strength, compressive strength, hardness, ductility, etc."
+  ]
+}

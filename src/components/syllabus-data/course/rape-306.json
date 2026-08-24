@@ -1,0 +1,51 @@
+{
+  "Course Title": "Introduction to MEMS",
+  "Course Code": "RAPE-306",
+  "route": "course/rape-306",
+  "credits": 3,
+  "prerequisites": "RAPC203, RAPC210",
+  "Course Type": "PE",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course introduces the students to the foundations of micro electro mechanical systems and the basic and recent applications of real-world MEMS. It offers a foundational understanding of MEMS technology, which integrates mechanical elements, sensors, actuators, and electronics on a common silicon substrate, and is designed to equip Robotics and Automation students with the knowledge and skills to explore miniaturized systems used in modern robotics, biomedical devices, and smart sensors.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction of Micro Electro Mechanical Systems",
+      "hours": 8,
+      "body": "Intrinsic Characteristics of MEMS, Energy Domains and Transducers, Sensors and Actuators, Introduction to Micro fabrication, Silicon based MEMS processes, New Materials, Review of Electrical and Mechanical concepts in MEMS, Semiconductor devices, Stress and strain analysis, Flexural beam bending, Torsional deflection."
+    },
+    {
+      "id": "II",
+      "title": "Micro Fabrication Technologies",
+      "hours": 14,
+      "body": "Silicon Anisotropic Etching, Anisotropic Wet Etching, Dry Etching of Silicon, Plasma Etching, Deep Reaction Ion Etching (DRIE), Isotropic Wet Etching, Gas Phase Etchants, Basic surface micro machining processes, Structural and Sacrificial Materials, Acceleration of sacrificial Etch, Striction and Antistriction methods, LIGA Process, Assembly of 3D MEMS, Foundry process."
+    },
+    {
+      "id": "III",
+      "title": "Electrostatic Sensing and Actuators",
+      "hours": 10,
+      "body": "Electrostatic sensors, Parallel plate capacitors, Applications, Interdigitated Finger capacitor, Comb drive devices, Micro Grippers, Micro Motors, Thermal Sensing and Actuation, Thermal expansion, Thermal couples, Thermal resistors, Thermal Bimorph, Applications, Magnetic Actuators, Micromagnetic components, Case studies of MEMS in magnetic actuators, Actuation using Shape Memory Alloys."
+    },
+    {
+      "id": "IV",
+      "title": "Piezoresistive Sensing and Actuators",
+      "hours": 8,
+      "body": "Piezoresistive sensors, Piezoresistive sensor materials, Stress analysis of mechanical elements, Applications to Inertia, Pressure, Tactile and Flow sensors, Piezoelectric sensors and actuators, piezoelectric effects, piezoelectric materials, Applications to Inertia, Acoustic, Tactile and Flow sensors."
+    }
+  ],
+  "outcomes": [
+    "Describe the fundamentals of Micro Electro Mechanical Systems (MEMS).",
+    "Explain standard micro fabrication techniques.",
+    "Understand and describe electrostatic sensing and actuation techniques of MEMS.",
+    "Understand and describe piezoresistive sensing and actuation techniques of MEMS.",
+    "Summarize the applications of MEMS in real-world systems."
+  ],
+  "textbooks": [
+    "Chang Liu, “Foundations of MEMS”, 2nd edition, Pearson, 2012.",
+    "Tai-Ran Hsu, “MEMS and Microsystems Design and Manufacture”, 2nd edition, Tata McGraw Hill, 2008.",
+    "Senturia, S.D., “Microsystem Design”, Kluwer Academic Publisher, 2000.",
+    "Rai-Choudhury P., “MEMS and MOEMS Technology and Applications”, Prentice Hall of India Learning Private Limited, 2009."
+  ]
+}

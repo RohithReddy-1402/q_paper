@@ -1,0 +1,50 @@
+{
+  "Course Title": "Introduction to Communication Systems",
+  "Course Code": "RAPE-308",
+  "route": "course/rape-308",
+  "credits": 3,
+  "prerequisites": "RAPC204",
+  "Course Type": "PE",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course provides the fundamentals and basic concepts of different analog and digital modulation and demodulation schemes, and the effect of AWGN noise on these systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Analog Modulation and Demodulation",
+      "hours": 10,
+      "body": "Amplitude Modulation (AM) and Demodulation, Double Sideband Suppressed Carrier (DSB-SC) Modulation and Demodulation, Single Sideband Modulation (SSB), Vestigial Sideband Modulation (VSB), Angle Modulation, Frequency Modulation (FM), Phase Modulation (PM), Modulation Index, Instantaneous Frequency, Carson's Rule for FM Bandwidth, FM Demodulation, Super-heterodyne receivers."
+    },
+    {
+      "id": "II",
+      "title": "Sampling, Quantization and Pulse Modulation",
+      "hours": 10,
+      "body": "Introduction to Sampling, Nyquist Criterion, Signal Reconstruction from Sampled Signal, Pulse Amplitude Modulation, Quantization, Uniform Quantizers - Midrise and Midtread, Quantization noise, Non-Uniform Quantizers, Pulse Code Modulation, DPCM, Delta Modulation, Inter-Symbol Interference."
+    },
+    {
+      "id": "III",
+      "title": "Digital Modulation Fundamentals",
+      "hours": 10,
+      "body": "Geometric Representation of Signals, Maximum likelihood detection, Matched filter, Correlation receiver, Coherent Binary Digital Modulation Schemes (Binary PAM, BPSK, QPSK, BFSK), their Spectral Efficiency and Error Performance."
+    },
+    {
+      "id": "IV",
+      "title": "M-ary and Spread Spectrum Systems",
+      "hours": 10,
+      "body": "M-ary Digital Modulation Schemes, Noncoherent Modulation and Demodulation, Principle of Spread Spectrum systems, Pseudo-Noise Sequences, Direct Sequence Spread Spectrum and Frequency-Hopped Spread Spectrum systems, CDMA."
+    }
+  ],
+  "outcomes": [
+    "Understanding of communication fundamentals.",
+    "Understand different analog modulation and demodulation schemes.",
+    "Understand different digital modulation and demodulation schemes and analyse their performance.",
+    "Understand different spread spectrum systems and their applications."
+  ],
+  "textbooks": [
+    "Simon Haykins, Communication Systems, Wiley & Sons, 3rd Edition, 2008.",
+    "Herbert Taub and Donald L. Schilling, Principles of Communication Systems, McGraw-Hill, 2020.",
+    "B.P. Lathi, Modern Digital and Analog Communications, Oxford, 4th Edition, 2011.",
+    "George Kennedy and Bernard Davis, Electronics & Communication Systems, Tata McGraw Hill, 4th Edition, 2008."
+  ]
+}

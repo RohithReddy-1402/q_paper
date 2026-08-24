@@ -1,0 +1,78 @@
+{
+  "Course Title": "Engineering Mechanics",
+  "Course Code": "CEPC-101",
+  "route": "course/cepc-101",
+  "credits": 4,
+  "prerequisites": "Applied Physics",
+  "Course Type": "PC",
+  "Branch": ["CE"],
+  "semester": "1st",
+  "ltpc": [3, 0, 2, 4],
+  "contactHours": 5,
+  "description": "This course, offered by the Department of Civil Engineering, is a problem-focused engineering class that helps civil engineering students develop the ability to understand and analyze static forces on a variety of structures and engineering applications. The course begins with fundamental concepts and principles to explain the importance of mechanics in the context of engineering and conservation equations, and introduces techniques for analyzing forces in bodies, plane trusses and frames. It covers the fundamental principles of stresses, strain and their relationship; the estimation of various loads and load distributions on beams; evaluation of principal stresses and strains using Mohr's Circle; and the concepts in analysis and design of columns.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Basic Concepts",
+      "hours": 8,
+      "body": "Concept of Rigid body and deformable bodies, Free body diagrams, Types of beams, simple and continuous beams, type of supports and reactions. Fundamentals of Determinate and Indeterminate structures, Analysis of plane trusses, Analysis of Plane frames."
+    },
+    {
+      "id": "II",
+      "title": "Stresses and Strains",
+      "hours": 8,
+      "body": "Concept of stress and strain (linear, lateral, shear and volumetric), Hooke's law, elastic constants and their relationship, stress-strain diagrams for brittle, elastic and plastic materials, generalized Hooke's law. Analysis of axially loaded members: Stresses, strains and deformations of the structures under concentrated loads, self-weight and temperature changes."
+    },
+    {
+      "id": "III",
+      "title": "Shear Force and Bending Moment Diagram",
+      "hours": 7,
+      "body": "Concept of shear force diagram (SFD) and bending moment diagram (BMD) for different beams under various types of loading. Stresses due transverse loading on beams (bending and shear stresses), concept of shear stresses due to twisting moment (Torsion)."
+    },
+    {
+      "id": "IV",
+      "title": "Principal Stresses and Strains",
+      "hours": 7,
+      "body": "Principal stresses and strains: concept of principal planes and principal stresses, normal and shear stresses on an oblique plane, magnitude and orientation of principal stresses and maximum shear stress. Theories of failure: maximum normal stress, maximum shear stress and maximum strain theory."
+    },
+    {
+      "id": "V",
+      "title": "Axially and Eccentrically Loaded Columns",
+      "hours": 6,
+      "body": "Axially loaded columns: concept of critical load and buckling load, Euler's formula for buckling load for various end conditions of columns, concept of equivalent length, Rankine's formula, safe load on column and limitations of Euler's formula."
+    }
+  ],
+  "experiments": [
+    "Stress-strain relationship for brittle and ductile materials (Concrete Cube and Steel Bars).",
+    "Shear test on Concrete.",
+    "Compression test on timber/mortar Cube",
+    "Bending test on concrete beam/timber/plywood.",
+    "Compressive strength test on bricks",
+    "Flexural strength of flooring/roofing tiles.",
+    "Experimental and analytical study of behaviour of struts with various end conditions.",
+    "To determine elastic properties of a beam.",
+    "Experimental and analytical study of an elastically coupled beam.",
+    "Sway in portal frames - demonstration."
+  ],
+  "outcomes": [
+    "Define static indeterminacy and kinematic indeterminacy of structures, apply methods of analysis and be able to analyse trusses.",
+    "Understand the stress strain behaviour of brittle and ductile materials, State of Stress and also be able to define the relationship between various elastic constants.",
+    "Draw Shear force and bending moment diagram and also able to plot through thickness variation of bending stresses and shear stress.",
+    "Apply the concept of principal stresses and theories of failure to determine stresses on a 2-D element.",
+    "Analyse the behaviour of columns under uniaxial loading."
+  ],
+  "textbooks": [
+    "Merian, J. L., Kraige, L.G. Engineering Mechanics - Statics, 5th Edition, Wiley Publishers.",
+    "Beer & Johnston, Mechanics for Engineers, 4th Edition, McGraw-Hill.",
+    "Timoshenko, S.P., Young, D.H., Rao, J.V. Engineering Machines, 4th Edition, McGraw-Hill.",
+    "Singer, F.L. Strength of Materials, Third Edition, Harper and Row Publishers.",
+    "Hearn, E.J., Mechanics of Materials, Pergaman Press.",
+    "Beer and Johnston E. R. Mechanics of Materials, 3rd Edition, Tata McGraw Hill.",
+    "R. K. Bansal, \"Strength of Materials\", Laxmi Publications",
+    "S. Ramamurtham, \"Strength of material\", Dhanpat Rai Publication",
+    "S.S. Rattan, \"Strength of Material\", Tata McGraw-Hill Publication Co. Ltd.",
+    "B.K. Sarkar, \"Strength of Material\", McGraw-Hill.",
+    "Singer and Pytel, \"Strength of materials\", Harper and Row Publication.",
+    "R. C. Hibbeler, \"Mechanics of Materials\", Prentice Hall Publication."
+  ]
+}

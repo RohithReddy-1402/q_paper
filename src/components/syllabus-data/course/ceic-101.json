@@ -1,0 +1,50 @@
+{
+  "Course Title": "Engineering Graphics",
+  "Course Code": "CEIC-101",
+  "route": "course/ceic-101",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["CE"],
+  "semester": "1st",
+  "ltpc": [2, 0, 3, 3],
+  "contactHours": 5,
+  "description": "This course, offered for Civil Engineering by the Department of Civil Engineering, provides students with adequate knowledge and experience in preparing engineering drawings using AutoCAD and helps students acquire the skills pertinent to the production of properly detailed, formatted and dimensioned engineering drawings.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Orthographic Projections",
+      "hours": 6,
+      "body": "Basics of lettering, dimensioning, types of scales and their uses, types of projections, reference planes and quadrants, projection of points keeping it in different quadrants, auxiliary planes. Theory of orthographic projections, planes of projection, four quadrants, first angle projection, third angle projection, BIS Code of practice, view analysis, orientation of the object, laying out three view drawings, hidden lines and curves surfaces, conventional lines, conversion of pictorial view into orthographic views, development of missing views."
+    },
+    {
+      "id": "2",
+      "title": "Projections of Straight Lines and Planes",
+      "hours": 6,
+      "body": "Planes in different quadrants, projections of lines parallel to one or both the planes, contained by one or both the planes, perpendicular to plane, inclined to one plane and parallel to other, inclined to both the planes, contained by a plane perpendicular to both the planes, true length of a line and its inclinations with the reference plane, traces of line. Types of planes, perpendicular planes, oblique planes, traces of planes, projections of planes parallel to one plane, perpendicular to both the planes, perpendicular to one plane and inclined to another plane."
+    },
+    {
+      "id": "3",
+      "title": "Projections of Solids",
+      "hours": 8,
+      "body": "Types of solid-polyhedral, solids of revolution, projections of solids, axis perpendicular to one plane, axis parallel to both the planes, axis parallel to one plane and perpendicular to other, axis inclined to both the planes. Section planes, sections, true shape of sections, sections of prisms, pyramids, cylinders, cone placed in simple position."
+    },
+    {
+      "id": "4",
+      "title": "Generating Drawings in AutoCAD",
+      "hours": 4,
+      "body": "Drawing of projection of lines, planes and solids using AutoCAD, Drawing of building and its components - front view, top view and sectional views of a typical residential building through AutoCAD. Perspective view of a building."
+    }
+  ],
+  "outcomes": [
+    "Produce geometric construction, multi-view, dimensioning and detail drawings of typical 3-D engineering objects.",
+    "Apply the skill for preparing detail drawing of engineering objects.",
+    "Understand and visualize the 3-D view of engineering objects.",
+    "Understand and apply computer software to prepare engineering drawing."
+  ],
+  "textbooks": [
+    "Engineering Drawing by P. S. Gill",
+    "Elementary Engineering Drawing by N. D. Bhatt",
+    "Engineering Drawing & Graphics using AutoCAD by T. Jeyapoovan"
+  ]
+}

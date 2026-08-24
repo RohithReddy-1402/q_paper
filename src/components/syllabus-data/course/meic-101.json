@@ -1,0 +1,54 @@
+{
+  "Course Title": "Engineering Graphics",
+  "Course Code": "MEIC-101",
+  "route": "course/meic-101",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["ME", "PIE"],
+  "semester": "1st",
+  "ltpc": [1, 0, 3, 3],
+  "contactHours": 40,
+  "description": "This course, offered for Mechanical Engineering and Production & Industrial Engineering by the Department of Mechanical Engineering, develops the ability of visualization of different objects through technical drawings. It is also useful in developing the computer drafting skill for communication of concepts and ideas in the design of engineering products. It is not to be treated as an integrated course.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Lines, Lettering, Dimensioning and Orthographic Projections",
+      "hours": 10,
+      "body": "Introduction: Overview of the course, Lines Lettering and Dimensioning: Types of lines, Lettering, Dimensioning, Geometrical Construction of Polygons, Scales. Orthographic Projections: Principles of Orthographic Projections - Conventions - Projections of Points and Lines, Projections of Plane regular geometric figures. Projection and section of solids."
+    },
+    {
+      "id": "II",
+      "title": "Isometric Projections and Curves",
+      "hours": 10,
+      "body": "Isometric Projections: Isometric scale. Isometric projections of simple solids and their combinations. Curves: Conics, Cycloid, Epicycloid, Hypocycloid, Involute, Spiral."
+    },
+    {
+      "id": "III",
+      "title": "Intersections",
+      "hours": 10,
+      "body": "Interpenetration of simple solids i.e. prism with prism, Cylinder with prism, cone with cylinder and cone with prism (axis of solids horizontal or vertical only)."
+    },
+    {
+      "id": "IV",
+      "title": "Development and Computer Aided Drafting",
+      "hours": 10,
+      "body": "Development: Development of right and oblique prism, Cylinder, Cone and pyramids, Sectioned solids. Computer Aided Drafting: Practicing projections, intersections and development using drafting software such as AUTOCAD."
+    }
+  ],
+  "outcomes": [
+    "Sketch conics and different types of solids.",
+    "Appreciate the need of Sectional views of solids and Development of surfaces of solids.",
+    "Perform conversion of orthographic projection into isometric view and vice versa manually and by using computer aided drafting."
+  ],
+  "textbooks": [
+    "Luzadder W.J., Fundamentals of Engineering Drawing, Prentice Hall India, 1993",
+    "French and Vierk, Fundamentals of Engineering Drawing, McGraw Hill, 1996",
+    "Narayana K.L., Kannaiah P., Engineering Drawing, Scitech Publications, Chennai, 2014.",
+    "Venugopal K., Engineering Drawing, New Age International, 2004",
+    "Natarajan K.V., A text book on Engineering Drawing, Classic prints, 2000",
+    "Gopalakrishna K.R., Engineering Drawing, Subash Stores, 2000",
+    "Bhatt N.D., Engineering Drawing, Charotar Publications, 2000",
+    "Sham Tickoo, AutoCAD 2017 for Engineers & Designers, Dreamtech Press, 23rd Edition, 2016."
+  ]
+}
