@@ -1,0 +1,59 @@
+{
+  "Course Title": "Optimization Techniques",
+  "Course Code": "RAPE-311",
+  "route": "course/rape-311",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course introduces students to the theory and application of optimization methods used in engineering, robotics, and intelligent systems. It covers classical optimization, linear and nonlinear programming, numerical techniques, and advanced metaheuristic algorithms. Students also explore soft computing tools such as fuzzy logic and neural networks for intelligent decision-making, with emphasis on mathematical formulation, algorithmic implementation, and solving real-world engineering optimization problems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fundamentals of Optimization",
+      "hours": 6,
+      "body": "Introduction: Optimization in engineering and robotics, Problem formulation: Decision variables, objective functions, constraints, Classification: Linear, nonlinear, integer, combinatorial, multi-objective, Classical optimization: Unconstrained and constrained methods."
+    },
+    {
+      "id": "II",
+      "title": "Linear and Nonlinear Programming",
+      "hours": 10,
+      "body": "Linear Programming: Graphical, Simplex, Big-M, Two-phase, Sensitivity analysis, Nonlinear Programming: Gradient-based, Penalty and barrier methods, Integer & Mixed-Integer Programming."
+    },
+    {
+      "id": "III",
+      "title": "Numerical Optimization and Specialized Methods",
+      "hours": 6,
+      "body": "Golden Section and Fibonacci search, Sequential Quadratic Programming (SQP), Interior Point Methods, Multi-objective optimization."
+    },
+    {
+      "id": "IV",
+      "title": "Metaheuristic Optimization Techniques",
+      "hours": 10,
+      "body": "Genetic Algorithms (GA), Particle Swarm Optimization (PSO), Simulated Annealing (SA), Overview of ACO, ABC, Firefly, GWO, DE."
+    },
+    {
+      "id": "V",
+      "title": "Soft Computing Techniques",
+      "hours": 8,
+      "body": "Fuzzy Logic: Sets, membership functions, rules, inference, defuzzification. ANN: Neuron model, MLP, Backpropagation, Applications."
+    }
+  ],
+  "outcomes": [
+    "Formulate and analyze optimization problems.",
+    "Apply linear and nonlinear programming techniques.",
+    "Use numerical methods for optimization.",
+    "Implement metaheuristic algorithms.",
+    "Apply fuzzy logic and neural networks."
+  ],
+  "textbooks": [
+    "S. N. Sivanandam & S. N. Deepa, Principles of Soft Computing, 3rd Edition, Wiley India Pvt. Ltd., New Delhi, 2019.",
+    "S. Rajasekaran & G. A. Vijayalakshmi Pai, Neural Networks, Fuzzy Systems and Evolutionary Algorithms: Synthesis and Applications, 2nd Edition, PHI Learning Pvt. Ltd., New Delhi, 2017.",
+    "Xin-She Yang, Nature-Inspired Optimization Algorithms, 1st Edition, Elsevier/Academic Press, 2014.",
+    "S. S. Rao, Engineering Optimization: Theory and Practice, 4th Edition, John Wiley & Sons, New York, 2009.",
+    "Suresh Chandra, Jayadeva & Aparna Mehra, Numerical Optimization with Applications, Narosa Publishing House, New Delhi, 2009.",
+    "Hari Arora, Numerical Methods and Optimization, S.K. Kataria & Sons, New Delhi, 2008."
+  ]
+}

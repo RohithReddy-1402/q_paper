@@ -26,7 +26,6 @@ const HomePage = ({
   onLogin,
   onLogout,
   onSignUpClick,
-  onContributeClick,
   questionPapers,
 }) => {
   const [activeHover, setActiveHover] = useState(null);
@@ -57,12 +56,11 @@ const HomePage = ({
   const handleVerifyPapers = () => {
     nav("/nit-kkr-pyqs/verifypaper");
   };
-  
+
   const handleContribute = () => {
     if (!isLoggedIn) {
       addToast("Please log in to Contribute", "error");
     } else {
-      onContributeClick();
       nav("/nit-kkr-pyqs/contribute");
     }
   };
@@ -93,24 +91,28 @@ const HomePage = ({
           }}
         ></div>
       </div>
-      <Header isLoggedIn={isLoggedIn} user={user} onLoginClick={onLoginClick} onLogin={onLogin} onLogout={onLogout} onSignUpClick={onSignUpClick} />
+      <Header
+        isLoggedIn={isLoggedIn}
+        user={user}
+        onLoginClick={onLoginClick}
+        onLogin={onLogin}
+        onLogout={onLogout}
+        onSignUpClick={onSignUpClick}
+      />
       <div
         className={`absolute inset-0 z-50  bg-indigo-600 flex items-center justify-center transition-opacity duration-1000 ease-in-out ${showWelcome ? "opacity-100" : "opacity-0 pointer-events-none"}`}
       >
-        
         <div className="text-white text-4xl font-bold flex items-center">
           <span className="mr-3">NexSphere</span>
           <Book className="w-10 h-10" />
         </div>
       </div>
-      
+
       <main className="flex-1 relative z-10 flex flex-col lg:flex-row px-8 py-12">
         <div
           className={`w-full lg:w-${user?.role === "admin" ? "6/10" : "1/2"} flex flex-col xl:pl-48 justify-center items-center lg:items-start space-y-8 mb-12 lg:mb-0`}
         >
-          <div
-            className={`text-center lg:text-left max-w-2xl}`}
-          >
+          <div className={`text-center lg:text-left max-w-2xl}`}>
             <h2 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent leading-tight">
               NIT KKR Previous Year Question Papers
             </h2>
@@ -128,11 +130,9 @@ const HomePage = ({
                 px-6 py-4 rounded-xl shadow-lg hover:shadow-xl group transition-all duration-300"
               >
                 <div className="flex items-center justify-center space-x-3 relative z-10">
-                  
                   <span className="font-semibold text-lg">
                     Browse Question Papers
                   </span>
-                  
                 </div>
                 <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
                 {/* {!isLoggedIn && (
@@ -143,36 +143,34 @@ const HomePage = ({
                 // onClick={handleQuestionPapers}
                 className="relative overflow-hidden bg-white border-2 border-indigo-500 text-indigo-600 
                 px-6 py-4 rounded-xl shadow-lg hover:shadow-xl group transition-all duration-300"
-                
               >
-                <Link to="/nit-kkr/syllabus" className=" w-full h-full inset-0 z-10">
-                <div className="flex items-center justify-center space-x-3 relative z-10">
-                 <span>         </span>
-                  <span className="font-semibold text-lg">
-                    Browse Syllabus
-                  </span>
-                  <span>          </span>
-                </div>
-                <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
-                {/* {!isLoggedIn && (
+                <Link
+                  to="/nit-kkr/syllabus"
+                  className=" w-full h-full inset-0 z-10"
+                >
+                  <div className="flex items-center justify-center space-x-3 relative z-10">
+                    <span> </span>
+                    <span className="font-semibold text-lg">
+                      Browse Syllabus
+                    </span>
+                    <span> </span>
+                  </div>
+                  <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                  {/* {!isLoggedIn && (
                   <Lock className="absolute top-2 right-2 w-4 h-4 text-white/70" />
                 )} */}
                 </Link>
               </button>
               <button
                 onClick={handleContribute}
-                
                 className="relative cursor-pointer overflow-hidden bg-gradient-to-r from-indigo-500 to-indigo-700 text-white 
                 px-6 py-4 rounded-xl shadow-lg hover:shadow-xl group transition-all duration-300 hover:shadow-xl hover:to-blue-400"
               >
                 <div className="flex items-center justify-center space-x-3 relative z-10">
-                  <Upload
-                    className={`w-6 h-6 transition-all duration-300 `}
-                  />
+                  <Upload className={`w-6 h-6 transition-all duration-300 `} />
                   <span className="font-semibold text-lg">
                     Contribute Papers
                   </span>
-                  
                 </div>
                 <div className="absolute inset-0 bg-indigo-500 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
                 {/* {!isLoggedIn && (
@@ -292,22 +290,25 @@ const HomePage = ({
             actually need.
           </p>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Every paper here is tagged with its subject, subject code,
-            semester, year and exam type (Mid-1, Mid-2 or End-Semester), so you
-            can filter down to exactly what you're preparing for instead of
-            scrolling through unrelated results. Alongside papers, the{" "}
+            Every paper here is tagged with its subject, subject code, semester,
+            year and exam type (Mid-1, Mid-2 or End-Semester), so you can filter
+            down to exactly what you're preparing for instead of scrolling
+            through unrelated results. Alongside papers, the{" "}
             <Link to="/nit-kkr/syllabus" className="text-indigo-600 underline">
               Syllabus section
             </Link>{" "}
-            mirrors the official course structure course-by-course, unit-by-unit,
-            with credit structure, textbooks and reference material, so you can
-            cross-check exactly what a subject covers before an exam without
-            digging through a PDF handbook.
+            mirrors the official course structure course-by-course,
+            unit-by-unit, with credit structure, textbooks and reference
+            material, so you can cross-check exactly what a subject covers
+            before an exam without digging through a PDF handbook.
           </p>
           <p className="text-gray-600 leading-relaxed">
             The collection grows because students contribute to it. If you have
             a paper this site doesn't yet have, you can{" "}
-            <Link to="/nit-kkr-pyqs/contribute" className="text-indigo-600 underline">
+            <Link
+              to="/nit-kkr-pyqs/contribute"
+              className="text-indigo-600 underline"
+            >
               upload it
             </Link>{" "}
             to help the next batch of students, the same way earlier
@@ -319,7 +320,10 @@ const HomePage = ({
             </Link>{" "}
             brings in to cover hosting and storage. You can read more about how
             it's built on the{" "}
-            <Link to="/nit-kkr/tech-stack" className="text-indigo-600 underline">
+            <Link
+              to="/nit-kkr/tech-stack"
+              className="text-indigo-600 underline"
+            >
               Tech Stack page
             </Link>
             , or about the project itself on the{" "}

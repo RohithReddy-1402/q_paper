@@ -1,0 +1,72 @@
+{
+  "Course Title": "Communication Skills in English",
+  "Course Code": "HSIC-101",
+  "route": "course/hsic-101",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["All"],
+  "semester": "1st/2nd",
+  "ltpc": [2, 0, 2, 3],
+  "examScheme": { "internal": 50, "theory": 50, "total": 100, "time": "3 hrs" },
+  "description": "This course, offered by the Department of Humanities & Social Sciences, aims to develop communication skills among engineering students: to build confidence in speaking English with correct pronunciation, to develop basic writing skills and vocabulary, and to develop the ability to comprehend text in various contexts. It is taught in two parts — Theory Teaching and Language Laboratory.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Communication Skills",
+      "body": "Meaning and definition of communication, forms of communication, barriers to effective communication, ways to overcome barriers in communication; Communication Skills: Listening Skills, Speaking Skills, Reading Skills, Writing Skills; Technical Communication; Digital Communication."
+    },
+    {
+      "id": "II",
+      "title": "Soft Skills for Professional Excellence",
+      "body": "Introduction to soft skills: meaning, nature, scope and importance of soft skills in the present organizational set up; managing interpersonal relationships: leadership skills, team work, attitude, creativity, resilience etc.; nonverbal communication: body language and gestures, significance and role of body language in effective communication across cultures."
+    },
+    {
+      "id": "III",
+      "title": "Written Communication",
+      "body": "Formal letters, curriculum vitae and resume writing, writing e-mails, technical reports with an emphasis on different styles and structures/formats."
+    },
+    {
+      "id": "IV",
+      "title": "Grammar and Punctuation",
+      "body": "Parts of speech, tenses, subject verb, active passive, interjections, capitalization etc. Use of comma, period, exclamation marks, ellipsis, question mark, colon, semi-colon, quotation marks, apostrophe etc. Common errors and acceptable forms of English language."
+    }
+  ],
+  "languageLab": [
+    {
+      "id": "I",
+      "title": "Listening Skills",
+      "body": "Listening Process and practice - introduction to recorded lectures, poems, interviews and speeches, listening tests, problems in comprehension and retention, importance of listening in organizational set up."
+    },
+    {
+      "id": "II",
+      "title": "Reading and Pronunciation Skills",
+      "body": "Phonetics and Phonology: Introduction to sounds, vowel and consonant sounds, diphthongs etc. IPA transcription of words, word stress, weak forms, voice, intonation, tone etc."
+    },
+    {
+      "id": "III",
+      "title": "Soft Skills",
+      "body": "Proper use of Body Language: facial expressions, eye contact, gestures, postures and dressing; emotions displayed by body language; different types of handshakes; desirable and undesirable body language under different professional situations."
+    },
+    {
+      "id": "IV",
+      "title": "Speaking Skills",
+      "body": "Standard and formal speech: Activities like Group discussion, oral presentations, public speaking, business presentations etc. Conversation practice and role playing, mock interviews etc."
+    }
+  ],
+  "outcomes": [
+    "Communicate effectively with an increase in their confidence to read, write and speak English fluently.",
+    "Demonstrate a significant increase in word power.",
+    "Participate in a conversation like listening carefully and respectfully to others' viewpoints; articulating their own ideas and questions clearly.",
+    "Prepare, organize, and deliver an engaging oral presentation."
+  ],
+  "textbooks": [
+    "Daniel Jones. The Pronunciation of English. Cambridge: Cambridge University Press, 1956.",
+    "James Hartman & et al. Ed. English Pronouncing Dictionary. Cambridge: Cambridge University Press, 2006.",
+    "J.D.O' Connor. Better English Pronunciation. Cambridge: Cambridge University Press, 1980.",
+    "Lindley Murray. An English Grammar: Comprehending Principles and Rules. London: Wilson and Sons, 1908.",
+    "Margaret M. Maison. Examine your English. Orient Longman: New Delhi, 1964.",
+    "M. Ashraf Rizvi. Effective Technical Communication. Mc-Graw Hill: Delhi, 2002.",
+    "William Sanborn and T.V.S Padmaja. Technical Communication: A Practical Approach. 6th ed. Delhi: Pearson, 2007."
+  ]
+}

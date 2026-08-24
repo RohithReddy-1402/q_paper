@@ -1,0 +1,52 @@
+{
+  "Course Title": "Introduction to Database Management Systems",
+  "Course Code": "RAPE-309",
+  "route": "course/rape-309",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course develops an understanding of data models and database systems, relational database theory, database design and normalization, transaction processing and management, and concurrency control techniques, along with practical skill in using MySQL DBMS.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "hours": 8,
+      "body": "Data, Database, Database management system, Historical background from file systems to Database Systems, Data Models, Relational Data Model, ER model, Schemas and Instances, Database users, DBMS architecture."
+    },
+    {
+      "id": "II",
+      "title": "Relational Model and Query Language",
+      "hours": 8,
+      "body": "Theory of Relational Database, Key Integrity constraint, Relational Algebra, Relational Calculus: Domain Relational Calculus, Tuple Relational Calculus, SQL, queries writing in SQL."
+    },
+    {
+      "id": "III",
+      "title": "Database Design",
+      "hours": 8,
+      "body": "Normalization, Database Anomalies, Functional Dependencies, Candidate and Super Key, Non-loss Decomposition, Dependency Preservation, First, Second, Third Normal Form, BCNF, etc."
+    },
+    {
+      "id": "IV",
+      "title": "Transaction Processing",
+      "hours": 8,
+      "body": "Transaction concept, a simple transaction model, states, ACID Properties, implementation of ACID properties, Serializability."
+    },
+    {
+      "id": "V",
+      "title": "Concurrency Control",
+      "hours": 8,
+      "body": "Need for Concurrency, Lock-based protocols, Deadlock, Starvation, deadlock handling, time-stamp based protocols, validation-based protocols."
+    }
+  ],
+  "outcomes": [
+    "Design and implement a small database for applications using MySQL DBMS.",
+    "Apply the concepts of normalization to database design."
+  ],
+  "referenceBooks": [
+    "A Silberschatz, H.F. Korth & S. Sudarshan: Database System Concepts, McGraw Hill, 4th, 5th or 6th edition.",
+    "Elmasri & Navathe: Fundamentals of Database Systems, 5th, 6th, or 7th edition, Pearson."
+  ]
+}

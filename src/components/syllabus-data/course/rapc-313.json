@@ -1,0 +1,33 @@
+{
+  "Course Title": "Robot Programming & Control (P)",
+  "Course Code": "RAPC-313",
+  "route": "course/rapc-313",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [0, 0, 2, 1],
+  "description": "This laboratory course accompanies RAPC-301 (Robot Programming and Control). Students learn the structure, components, and coordinate systems of industrial robots and their control mechanisms; develop and implement robot programs for basic and advanced industrial tasks such as pick-and-place, palletizing, and path planning; integrate sensors, vision systems, and external control devices (e.g. PLCs) with robots for adaptive automation; and analyze robot performance parameters such as trajectory accuracy, repeatability, and operational safety using real-time data and simulations.",
+  "experiments": [
+    "To study robot architecture, coordinate systems, DOF, controller interface.",
+    "To practice joint, world, tool, and user frame jogging.",
+    "To calibrate TCP using 4-point and 6-point calibration methods.",
+    "To write basic motion programs using PTP commands.",
+    "To execute linear (LIN) and circular (CIRC) trajectories.",
+    "To control trajectory smoothing using blending zones.",
+    "To verify Forward Kinematics / Inverse Kinematics using software and physical robot.",
+    "To perform Pick-and-Place Programming with Grippers.",
+    "To perform Programming of End-Effector Control (Digital I/O).",
+    "To study Vision-Guided Robotics: Object Detection & Alignment based on camera coordinates.",
+    "To study Force/Torque Controlled Operations with an objective to implement compliant motion for surface-follow or insertion.",
+    "To study Path Optimization & Workspace Analysis to optimize cycle time, avoid singularities, map workspace.",
+    "To study PLC-Robot Integration using Industrial Protocols.",
+    "To study Safety Programming & Emergency Handling of industrial robot."
+  ],
+  "outcomes": [
+    "Demonstrate understanding of robot configurations, kinematics, and control architectures.",
+    "Write, execute, and troubleshoot robot programs for industrial operations using teach pendants and offline simulators.",
+    "Integrate and interface robots with vision systems, sensors, and PLCs to perform coordinated tasks.",
+    "Evaluate robot motion characteristics and performance metrics through experiments and simulation tools."
+  ]
+}

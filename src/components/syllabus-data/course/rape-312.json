@@ -1,0 +1,48 @@
+{
+  "Course Title": "Introduction to Internet of Things",
+  "Course Code": "RAPE-312",
+  "route": "course/rape-312",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course focuses on introducing students to new trends, applications, system architecture and challenges involved in developing and deploying Internet of Things systems using real industrial use cases, including analysing data from multiple sensors, choosing the right hardware given power and performance trade-offs, hardware heterogeneity and security.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to IoT",
+      "hours": 10,
+      "body": "Concept of IoT, Vision, Impact, Challenges in IoT, IoT network architecture, Reference Model, Functional stack, Machine to Machine Communication, Standardization."
+    },
+    {
+      "id": "II",
+      "title": "IoT Devices and Data Analytics",
+      "hours": 10,
+      "body": "Smart 'Things', Sensors, Actuators, Devices for IoT, Interfaces, Data Aggregation, Data analytics for IoT, Big data analytics, IoT security and Privacy."
+    },
+    {
+      "id": "III",
+      "title": "IoT Communication Technologies",
+      "hours": 10,
+      "body": "Communication technologies - IEEE 802.15.24, IEEE 802.15.4e, IEEE 802.11ah, NB-IoT, IoT network layer, 6LoWPAN, 6Lo, IoT application layer, Transport methods - CoAP, MQTT, AMQP."
+    },
+    {
+      "id": "IV",
+      "title": "IoT Applications and Case Studies",
+      "hours": 10,
+      "body": "Applications and Case Studies, Implementation of IoT with Raspberry Pi, Case studies: smart homes, smart cities, connected vehicles, Agriculture, Healthcare, environmental monitoring, smart manufacturing."
+    }
+  ],
+  "outcomes": [
+    "Understand fundamentals of IoT and its architectural framework.",
+    "Ability to use sensors and wireless sensor networks for data collection.",
+    "Ability to perform big data analysis.",
+    "Ability to use IoT technology in real life scenarios."
+  ],
+  "textbooks": [
+    "David Hanes, Gonzalo Salgueiro, Patrick Grossetete, Robert Barton, Jerome Henry, \"IoT Fundamentals: Networking Technologies, Protocols and Use Cases for the Internet of Things\", Pearson India, 2018.",
+    "Rajkumar Buyya, Amir V. Dastjerdi, \"Internet of Things: Principles and Paradigms\", Morgan Kaufmann Publisher, 2016."
+  ]
+}

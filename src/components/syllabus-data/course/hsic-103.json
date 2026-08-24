@@ -1,0 +1,44 @@
+{
+  "Course Title": "Financial Education",
+  "Course Code": "HSIC-103",
+  "route": "course/hsic-103",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["All"],
+  "semester": "1st/2nd",
+  "ltpc": [2, 1, 0, 3],
+  "examScheme": { "internal": 50, "theory": 50, "total": 100, "time": "3 hrs" },
+  "description": "This course, offered by the Department of Humanities & Social Sciences, aims to empower students with sound financial knowledge and financial management skills for their long-term financial being. The course is designed with the strong belief that financial well-being has a positive correlation with the overall well-being of an individual as well as society. The examination will set six questions covering the entire syllabus, of which examinees must attempt five, all carrying equal marks.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Foundations of Finance",
+      "body": "Need for Financial Planning, Financial Goals, Financial Management: Concept, Finance Function. Banking in India: Concepts of Banking, Types of Bank Accounts and Deposits."
+    },
+    {
+      "id": "II",
+      "title": "Investment Management-I",
+      "body": "Investment Goals: Basic Investment Objectives, Time Frame, Assessing Risk Profile, Diversification and Asset Allocation."
+    },
+    {
+      "id": "III",
+      "title": "Investment Management-II",
+      "body": "Investment and Saving alternatives for a Common Investor: Insurance, Stocks, Bonds, etc. Stock Markets: Primary and Secondary Markets. Criteria for Stock Selection."
+    },
+    {
+      "id": "IV",
+      "title": "Financial Planning and Mutual Funds",
+      "body": "Financial Planning: Concept and Objectives. Mutual Funds: Concept and History of Mutual Funds in India. Types of Mutual Funds."
+    }
+  ],
+  "outcomes": [
+    "Acquire financial management skills - essential life skills for the 21st Century.",
+    "Enhance their financial literacy and equip them with knowledge and skills critical to make financial decisions."
+  ],
+  "textbooks": [
+    "Financial Management - I.M. Pandey (Vikas Publishing House, New Delhi)",
+    "Financial Management - M.Y. Khan & P.K. Jain (Tata McGraw Hill)",
+    "Financial Management - Sheeba Kapil (Pearson)"
+  ]
+}

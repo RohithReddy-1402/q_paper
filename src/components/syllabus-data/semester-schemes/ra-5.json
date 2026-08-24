@@ -1,0 +1,47 @@
+{
+  "branch": "RA",
+  "branchName": "Robotics & Automation",
+  "semester": 5,
+  "title": "B. Tech. Robotics & Automation 5th Semester",
+  "totalCredits": 23,
+  "rows": [
+    { "type": "core", "code": "RAPC-301", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "RAPC-302", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "RAPC-303", "ltpc": [3, 0, 0, 3] },
+    {
+      "type": "elective",
+      "group": "III",
+      "label": "Any one subject from Group III",
+      "ltpc": [3, 0, 0, 3],
+      "options": ["RAPE-304", "RAPE-305", "RAPE-306", "RAPE-307", "RAPE-308"]
+    },
+    {
+      "type": "elective",
+      "group": "IV",
+      "label": "Any one subject from Group IV",
+      "ltpc": [3, 0, 0, 3],
+      "options": ["RAPE-309", "RAPE-310", "RAPE-311", "RAPE-312"]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective",
+      "ltpc": [3, 0, 0, 3]
+    },
+    { "type": "core", "code": "RAPC-313", "ltpc": [0, 0, 2, 1] },
+    { "type": "core", "code": "RAPC-314", "ltpc": [0, 0, 3, 1] },
+    { "type": "core", "code": "RAPC-315", "ltpc": [0, 0, 2, 1] },
+    { "type": "core", "code": "RAIC-316", "ltpc": [0, 0, 0, 2] },
+    {
+      "type": "coCurricular",
+      "label": "NCC/Sports/Yoga",
+      "ltpc": [0, 0, 2, 1],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance."
+    },
+    {
+      "type": "coCurricular",
+      "label": "NSS/Clubs/Technical Societies",
+      "ltpc": [0, 0, 2, 1],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance."
+    }
+  ]
+}

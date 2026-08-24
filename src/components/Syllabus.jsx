@@ -636,6 +636,23 @@ const branches = [
 
         <section className="bg-gray-50 border-t border-gray-200">
           <div className="max-w-7xl mx-auto px-4 py-10 sm:px-6 lg:px-8">
+            <div className="bg-white rounded-lg shadow max-w-3xl mx-auto px-6 py-8 sm:px-8 mb-6">
+              <h2 className="text-lg font-semibold text-gray-900 mb-3">
+                Browse by Branch & Semester
+              </h2>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                Prefer to browse subjects the way they're taught, semester by
+                semester? Pick a branch to see its semester scheme, every
+                core course and program elective, and each subject's full
+                syllabus in one place.
+              </p>
+              <Link
+                to="/nit-kkr/syllabus/branch"
+                className="inline-flex items-center px-4 py-2 rounded-md bg-blue-600 text-white text-sm font-medium hover:bg-blue-700"
+              >
+                Browse Branches
+              </Link>
+            </div>
             <div className="bg-white rounded-lg shadow max-w-3xl mx-auto px-6 py-8 sm:px-8">
               <h2 className="text-lg font-semibold text-gray-900 mb-3">
                 About This Syllabus

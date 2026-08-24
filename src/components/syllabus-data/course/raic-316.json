@@ -1,0 +1,11 @@
+{
+  "Course Title": "Internship / Industrial Training / Project Viva-Voce",
+  "Course Code": "RAIC-316",
+  "route": "course/raic-316",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [0, 0, 0, 2],
+  "description": "A 4-6 week Internship, Industrial Training or Project undertaken after the 4th semester examination. The student presents the work carried out during the Internship/Industrial Training/Project before a group of faculty members and is evaluated by them."
+}

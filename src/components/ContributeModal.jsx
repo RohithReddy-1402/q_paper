@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import { sub } from 'framer-motion/client';
 import {handleUpload }from "../services/r2.service"
 import { Mail } from 'lucide-react';
-function ContributeModal({ onClose, isContributeOpen, user,onLoadClose,isLoading }) {
+function ContributeModal({ user,onLoadClose,isLoading }) {
 
 
   const [title, setTitle] = useState('');
@@ -67,17 +67,11 @@ function ContributeModal({ onClose, isContributeOpen, user,onLoadClose,isLoading
 
   };
   const handleClose = () => {
-    onClose();
     nav("/nit-kkr-pyqs")
   }
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
   };
-  if (!isContributeOpen) return (
-    <Helmet>
-      <meta name="robots" content="noindex, nofollow" />
-    </Helmet>
-  );
   return (
     <div className="modal-overlay fixed inset-0 flex items-center justify-center overflow-y-auto  bg-gray-500 bg-opacity-75 transition-opacity" >
       <Helmet>

@@ -1,0 +1,52 @@
+{
+  "Course Title": "Mechanics of Materials",
+  "Course Code": "RAPC-303",
+  "route": "course/rapc-303",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course introduces the students to a thorough understanding of structural members and their strength, stiffness, and stability, and develops an understanding of, and the capability to, solve practical engineering problems involving stress and strain analysis in elementary structural members such as bars and beams. The learning objectives of the course are to learn about simple and compound stresses at a point in a material; to study the various theories of failure of materials; to know about the shear forces, bending moments, bending stresses and shear stresses in a beam; to study torsion of shafts and to find the deflection of beams; and to learn about various types of stresses in thin cylinders and columns.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Simple Stress and Strain, Compound Stress and Theories of Failure",
+      "hours": 10,
+      "body": "Simple Stress and Strain: Mechanical Properties of Materials, Concept of stress and strain, various types of stresses, stress-strain diagrams, composite sections, Thermal stresses, strain analysis, relation between elastic constants. Compound Stress: Principal stresses and principal planes, Mohr's stress circle. Theories of Failure: Different theories of failure, Significance, graphical representation."
+    },
+    {
+      "id": "II",
+      "title": "Shear Force and Bending Moment Diagrams, Bending and Shear Stress in Beams",
+      "hours": 10,
+      "body": "Shear Force and Bending Moment Diagrams: Shear force and bending moment diagrams for various types of loading and supports, Point of contra flexure. Bending Stress in Beams: Stresses due to simple bending, Composite beams. Shear Stress in Beams: Shear stress distribution, Variation of shear stress in beams of various sections."
+    },
+    {
+      "id": "III",
+      "title": "Torsion, Slope and Deflection",
+      "hours": 10,
+      "body": "Torsion: Derivation of torsion equation and its assumptions, applications of the equation to the hollow and solid circular shafts. Slope and Deflection: Slope and deflection at a point using different methods, deflection of beams due to shear stress."
+    },
+    {
+      "id": "IV",
+      "title": "Thin Cylinders, Spheres and Columns",
+      "hours": 10,
+      "body": "Thin Cylinders and Spheres: Thin cylinders and spheres subjected to internal pressure, wire winding of thin cylinders. Columns: Euler's theory for initially straight columns, assumptions and limitations, empirical formulae."
+    }
+  ],
+  "outcomes": [
+    "Determine the values of stresses in materials.",
+    "Explain different theories of failure.",
+    "Draw shear force and bending moment diagrams.",
+    "Find shear and bending stresses in beams.",
+    "Find stresses in shafts under torsion and find the slope and deflection of beams.",
+    "Find stresses in thin cylinders and calculate the crippling load in columns."
+  ],
+  "textbooks": [
+    "G H Ryder, “Strength of Materials”, ELBS, 3rd edition, 1969.",
+    "S S Rattan, “Strength of Materials”, Tata McGraw Hill, India, 3rd Edition, 2017.",
+    "Beer P F and Johnston (Jr) E R, “Mechanics of Materials”, McGraw Hill Education, 7th edition, 2015.",
+    "Popov E P, “Engineering Mechanics of Solids”, Prentice Hall of India, New Delhi, 2nd edition, 1999."
+  ]
+}

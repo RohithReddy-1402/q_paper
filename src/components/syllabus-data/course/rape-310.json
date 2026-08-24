@@ -1,0 +1,51 @@
+{
+  "Course Title": "Natural Language Processing",
+  "Course Code": "RAPE-310",
+  "route": "course/rape-310",
+  "credits": 3,
+  "prerequisites": "CSIC104, RAPE304",
+  "Course Type": "PE",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 32,
+  "description": "This course covers the fundamentals of Natural Language Processing and its algorithms, machine translation and applications of NLP, and a basic understanding of deep learning models for NLP.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to NLP",
+      "hours": 8,
+      "body": "Characteristics of Natural Language, Language structure, Sentence Structure, Language analyzer, Lexicon, word formation, Morphology, syntax analysis (parsing), semantics, ambiguity, pragmatics and discourse."
+    },
+    {
+      "id": "II",
+      "title": "NLP Algorithms",
+      "hours": 8,
+      "body": "Understanding Corpus and data attributes, Corpus Formats CSV, JSON, XML, LibSVM, Operations on Text Corpus, Tokenisation, stop words, Term Frequency Inverse Document Frequency (TF-IDF), Text Analysis and word embedding using word2vec, doc2vec, GLoVe, Bag-of-words (BoW)."
+    },
+    {
+      "id": "III",
+      "title": "Machine Translation and Applications of NLP",
+      "hours": 8,
+      "body": "Introduction to Machine Translation (MT), Approaches, Structure of Anusaraka: an Interlingua based MT system, Example/Analogy based MT, Word/phrase based MT, Neural MT. Applications of NLP: Sentiment analysis, chatbots, conversational models (Question Answering system) for Digital Assistants."
+    },
+    {
+      "id": "IV",
+      "title": "Deep Learning Models for NLP",
+      "hours": 8,
+      "body": "Neural Net based NLP models: Study of Convolutional Neural Network (CNN), Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU) using Natural Language Toolkit (NLTK)."
+    }
+  ],
+  "outcomes": [
+    "Understand the algorithmic approach to NLP.",
+    "Understand the sentence structure and the computational model of natural languages.",
+    "Understand the data science approach to machine translation and its applications.",
+    "Understand the machine learning approach to NLP."
+  ],
+  "textbooks": [
+    "Thanaki, Jalaj, \"Python Natural Language Processing\", Packet Publishing Ltd, 2017.",
+    "Cole Howard, Hannes Max Hapke, and Hobson Lane, \"Natural Language Processing in Action: Understanding, Analyzing, and Generating Text with Python\", Manning, 2019.",
+    "Daniel Jurafsky, James H. Martin, \"Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics and Speech\", Pearson Publication, 2014.",
+    "Lawrence Rabiner and Biing-Hwang Juang, \"Fundamentals of Speech Recognition\", Pearson Education, 2003.",
+    "Samuel Burns, \"Natural Language Processing: A Quick Introduction to NLP with Python and NLTK\", Independently Published, 2019."
+  ]
+}

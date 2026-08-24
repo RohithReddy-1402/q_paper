@@ -1,0 +1,51 @@
+{
+  "Course Title": "Microprocessors & Microcontrollers",
+  "Course Code": "RAPC-302",
+  "route": "course/rapc-302",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "The objective of this course is to develop a comprehensive understanding of microprocessor and microcontroller architectures, their instruction sets and interfacing techniques. Students will study the architecture of 8085 and 8051, understand addressing modes, interrupts and timing mechanisms and gain hands-on experience in assembly language programming. The course also introduces the concept of embedded systems, highlighting their design principles, applications and integration with microprocessors and microcontrollers. Emphasis is placed on developing skills in program writing, hardware interfacing and understanding peripheral ICs used in embedded applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Microprocessor Architecture and Programming",
+      "hours": 10,
+      "body": "Architecture of 8085 Microprocessor: Functional blocks, timing and control unit, bus organization and interrupt structure. Machine Cycles and Timing Diagrams: Instruction execution, control signals and timing concepts. Programming with 8085: Addressing modes, instruction set, assembly language programming, programs for multi-byte addition/subtraction, multiplication, division, block transfer and other arithmetic/logic operations."
+    },
+    {
+      "id": "II",
+      "title": "Interfacing Techniques",
+      "hours": 10,
+      "body": "Principles of Interfacing: Input/output interfacing concepts and data transfer techniques, programmed I/O, interrupt-driven I/O and DMA. Peripheral Interfacing Devices: Detailed study of 8255 (PPI) and 8253 (Timer/Counter). A/D and D/A Converter Interfacing: Interfacing of digital-to-analog and analog-to-digital converters with 8085 microprocessors."
+    },
+    {
+      "id": "III",
+      "title": "Microcontrollers and Embedded Systems",
+      "hours": 10,
+      "body": "Introduction to Embedded Systems: Definition, characteristics, components and applications of embedded systems. Relationship between microcontrollers and embedded systems. Architecture of 8051 Microcontroller: Internal structure, memory organization, ports and oscillator circuits. Instruction Set and Programming: Addressing modes, instruction types and assembly programming examples. Peripheral Interfacing: Timer/counter operations, serial communication, interrupts and interfacing with A/D and D/A converters."
+    },
+    {
+      "id": "IV",
+      "title": "Memory and System Design",
+      "hours": 10,
+      "body": "Semiconductor Memories: ROM, PROM, EPROM, EEPROM and RAM structure and operation. Memory Interfacing: Design and interfacing of external memories with 8085 and 8051. Case Studies: Practical examples of small embedded system designs using microcontroller-based interfacing."
+    }
+  ],
+  "outcomes": [
+    "Understand and analyse the architecture of microprocessors, microcontrollers and embedded systems.",
+    "Design and implement assembly programs for 8085 microprocessor and 8051 microcontroller.",
+    "Develop interfacing solutions for peripheral devices and memory with microprocessors and microcontrollers.",
+    "Build small-scale embedded systems integrating sensors, actuators and memory."
+  ],
+  "textbooks": [
+    "R.S. Gaonkar, Microprocessor Architecture, Programming and Applications, Penram International, 6th Edition, 2013.",
+    "A.P. Mathur, Introduction to Microprocessor, TMH, 3rd Edition, 1990.",
+    "K.J. Ayala, The 8051 Microcontroller, Penram International, 2nd Edition, 1996.",
+    "D.V. Hall, Advanced Microprocessors.",
+    "Muhammad Ali Mazidi & Janice Gillispie Mazidi, The 8051 Microcontroller and Embedded Systems, PHI, 2nd Edition, 2009."
+  ]
+}

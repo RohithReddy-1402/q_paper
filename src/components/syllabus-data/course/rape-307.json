@@ -1,0 +1,53 @@
+{
+  "Course Title": "Advanced Control System",
+  "Course Code": "RAPE-307",
+  "route": "course/rape-307",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": ["RA"],
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "This course provides a comprehensive understanding of modern control theory, covering digital control systems, nonlinear control fundamentals, optimal control principles, and adaptive control methodologies. The syllabus emphasizes modeling, stability analysis, controller design, and real-world applications across these four major domains of advanced control engineering.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Digital Control Systems",
+      "hours": 10,
+      "body": "Digital control design concepts; sampling, quantization, reconstruction; discretization methods (impulse/step invariance, bilinear transform, finite-difference); discrete-time modeling using pulse transfer functions and state-space forms; time/frequency response of discrete systems; stability analysis using z-plane, Jury test, and Lyapunov methods; basics of digital controller design (PID, lead/lag compensators)."
+    },
+    {
+      "id": "II",
+      "title": "Nonlinear Control Systems",
+      "hours": 10,
+      "body": "Characteristics and effects of nonlinearities; phase-plane analysis and phase portraits; singular points and qualitative behavior; describing function and quasi-linearization; limit cycles, bifurcation, jump resonance; Lyapunov-based methods for stability of nonlinear systems."
+    },
+    {
+      "id": "III",
+      "title": "Optimal Control",
+      "hours": 10,
+      "body": "Optimal control fundamentals and performance indices; calculus of variations and optimality conditions; Hamiltonian and Pontryagin's Minimum Principle; design of linear quadratic regulator (LQR); overview of Linear Quadratic Gaussian (LQG) control; basics of dynamic programming and Bellman's principle; engineering applications of optimal control."
+    },
+    {
+      "id": "IV",
+      "title": "Adaptive Control",
+      "hours": 10,
+      "body": "Introduction to adaptive control; types of adaptive control (direct, indirect, hybrid); model reference adaptive control (MRAC); self-tuning regulators; parameter estimation and convergence in adaptive systems; applications in robotics, process control, and aerospace. Industry-oriented case studies: hands-on simulation modules for real-time advanced control implementation, visits to Siemens Centre of Excellence (SCoE) Labs, seminars, workshops, etc."
+    }
+  ],
+  "outcomes": [
+    "Understand the principles, modeling, and stability analysis of digital control systems.",
+    "Analyze nonlinear system behavior and apply nonlinear control techniques for stability and control design.",
+    "Apply optimal control concepts including LQR/LQG and Pontryagin's principles for optimal controller design.",
+    "Design adaptive controllers and understand parameter estimation, MRAC, and self-tuning regulators."
+  ],
+  "textbooks": [
+    "K. Ogata, Discrete-Time Control Systems, Prentice Hall.",
+    "M. Gopal, Digital Control and State Variable Methods, Tata McGraw-Hill.",
+    "H. K. Khalil, Nonlinear Systems, Prentice Hall.",
+    "J. E. Slotine & W. Li, Applied Nonlinear Control, Prentice Hall.",
+    "D. P. Bertsekas, Dynamic Programming and Optimal Control.",
+    "B. D. O. Anderson & J. B. Moore, Optimal Control: Linear Quadratic Methods.",
+    "K. J. Åström & B. Wittenmark, Adaptive Control, Addison-Wesley."
+  ]
+}

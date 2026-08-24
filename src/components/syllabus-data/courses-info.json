@@ -170,5 +170,133 @@
     "route":"course/mapc-206",
     "Branches": ["M&C"],
     "id":"nitkkr_27"
+  },
+  {
+    "Course Title": "Robot Programming and Control",
+    "Course Code": "RAPC-301",
+    "route": "course/rapc-301",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_28"
+  },
+  {
+    "Course Title": "Microprocessors & Microcontrollers",
+    "Course Code": "RAPC-302",
+    "route": "course/rapc-302",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_29"
+  },
+  {
+    "Course Title": "Mechanics of Materials",
+    "Course Code": "RAPC-303",
+    "route": "course/rapc-303",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_30"
+  },
+  {
+    "Course Title": "Data Structures & Algorithm",
+    "Course Code": "RAPE-304",
+    "route": "course/rape-304",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_31"
+  },
+  {
+    "Course Title": "Data Acquisition Systems",
+    "Course Code": "RAPE-305",
+    "route": "course/rape-305",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_32"
+  },
+  {
+    "Course Title": "Introduction to MEMS",
+    "Course Code": "RAPE-306",
+    "route": "course/rape-306",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_33"
+  },
+  {
+    "Course Title": "Advanced Control System",
+    "Course Code": "RAPE-307",
+    "route": "course/rape-307",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_34"
+  },
+  {
+    "Course Title": "Introduction to Communication Systems",
+    "Course Code": "RAPE-308",
+    "route": "course/rape-308",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_35"
+  },
+  {
+    "Course Title": "Introduction to Database Management Systems",
+    "Course Code": "RAPE-309",
+    "route": "course/rape-309",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_36"
+  },
+  {
+    "Course Title": "Natural Language Processing",
+    "Course Code": "RAPE-310",
+    "route": "course/rape-310",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_37"
+  },
+  {
+    "Course Title": "Optimization Techniques",
+    "Course Code": "RAPE-311",
+    "route": "course/rape-311",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_38"
+  },
+  {
+    "Course Title": "Introduction to Internet of Things",
+    "Course Code": "RAPE-312",
+    "route": "course/rape-312",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_39"
+  },
+  {
+    "Course Title": "Robot Programming & Control (P)",
+    "Course Code": "RAPC-313",
+    "route": "course/rapc-313",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_40"
+  },
+  {
+    "Course Title": "Microprocessors and Microcontrollers (P)",
+    "Course Code": "RAPC-314",
+    "route": "course/rapc-314",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_41"
+  },
+  {
+    "Course Title": "Mechanics of Materials (P)",
+    "Course Code": "RAPC-315",
+    "route": "course/rapc-315",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_42"
+  },
+  {
+    "Course Title": "Internship / Industrial Training / Project Viva-Voce",
+    "Course Code": "RAIC-316",
+    "route": "course/raic-316",
+    "Branches": ["RA"],
+    "semester": 5,
+    "id": "nitkkr_43"
   }
 ]
