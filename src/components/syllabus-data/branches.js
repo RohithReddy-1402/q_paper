@@ -5,7 +5,7 @@ export const BRANCHES = {
     name: "Robotics & Automation",
     description:
       "Covers robotics, automation, control systems, sensors and actuators, microprocessors and embedded systems, mechanics of materials, and electives spanning MEMS, IoT, data acquisition and data structures.",
-    semestersAvailable: [5],
+    semestersAvailable: [4, 5],
   },
 };
 

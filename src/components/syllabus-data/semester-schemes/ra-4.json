@@ -1,0 +1,30 @@
+{
+  "branch": "RA",
+  "branchName": "Robotics & Automation",
+  "semester": 4,
+  "title": "B. Tech. Robotics & Automation 4th Semester",
+  "totalCredits": 21,
+  "rows": [
+    { "type": "core", "code": "MAIC-204", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "RAPC-208", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "RAPC-209", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "RAPC-210", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "RAPC-211", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "RAPC-212", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "RAPC-213", "ltpc": [0, 0, 2, 1] },
+    { "type": "core", "code": "RAPC-214", "ltpc": [0, 0, 2, 1] },
+    { "type": "core", "code": "RAPC-215", "ltpc": [0, 0, 2, 1] },
+    {
+      "type": "coCurricular",
+      "label": "NCC/Sports/Yoga",
+      "ltpc": [0, 0, 2, 1],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance."
+    },
+    {
+      "type": "coCurricular",
+      "label": "NSS/Clubs/Technical Societies",
+      "ltpc": [0, 0, 2, 1],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance."
+    }
+  ]
+}

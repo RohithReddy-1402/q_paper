@@ -82,10 +82,20 @@ export default function BranchSemester() {
 
   const coreRows = scheme.rows.filter((r) => r.type === "core");
   const electiveRows = scheme.rows.filter((r) => r.type === "elective");
+  const openElectiveCount = scheme.rows.filter((r) => r.type === "openElective").length;
 
   const coreSubjectCount = coreRows.filter((r) => courseByCode.get(r.code)).length;
   const subjectCount =
     coreSubjectCount + electiveRows.reduce((sum, r) => sum + r.options.length, 0);
+
+  const electiveDescription = [
+    electiveRows.length > 0
+      ? `${electiveRows.length} program-elective group${electiveRows.length > 1 ? "s" : ""} (choose one subject from each)`
+      : null,
+    openElectiveCount > 0
+      ? `${openElectiveCount} open elective${openElectiveCount > 1 ? "s" : ""}`
+      : null,
+  ].filter(Boolean);
 
   const title = `${branch.name} Semester ${scheme.semester} – Subjects & Syllabus | NIT KKR`;
   const description = `Subjects, credit scheme (L-T-P-C) and full syllabus for NIT Kurukshetra B.Tech ${branch.name} Semester ${scheme.semester}: ${coreRows
@@ -115,10 +125,13 @@ export default function BranchSemester() {
             {scheme.title}
           </h1>
           <p className="mt-2 text-gray-600 max-w-3xl">
-            {subjectCount} subjects across core courses, program electives and
-            an open elective, totalling {scheme.totalCredits} credits. Every
-            subject below links to its full unit-wise syllabus, textbooks and
-            course outcomes.
+            {subjectCount} subjects
+            {electiveDescription.length > 0
+              ? ` across core courses, ${electiveDescription.join(", and ")}`
+              : " across core courses"}
+            , totalling {scheme.totalCredits} credits. Every subject below
+            links to its full unit-wise syllabus, textbooks and course
+            outcomes.
           </p>
         </div>
       </header>
@@ -241,10 +254,9 @@ export default function BranchSemester() {
           <p className="text-gray-600 leading-relaxed">
             Semester {scheme.semester} of the {branch.name} program carries{" "}
             {scheme.totalCredits} credits across {coreSubjectCount} core
-            courses, two program-elective groups (choose one subject from
-            each), and one open elective. Click any subject above to view its
-            full unit-wise syllabus, prerequisites, course outcomes and
-            reference books.
+            courses{electiveDescription.length > 0 ? `, ${electiveDescription.join(", and ")}` : ""}.
+            {" "}Click any subject above to view its full unit-wise syllabus,
+            prerequisites, course outcomes and reference books.
           </p>
           <div className="mt-4 flex flex-wrap gap-3 text-sm">
             <Link

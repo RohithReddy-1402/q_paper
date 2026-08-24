@@ -64,7 +64,8 @@
     "Branches": [
       "RA"
     ],
-    "id": "nitkkr_7"
+    "id": "nitkkr_7",
+    "semester": 4
   },
   {
     "Course Title": "Control Systems",
@@ -73,7 +74,8 @@
     "Branches": [
       "RA"
     ],
-    "id": "nitkkr_8"
+    "id": "nitkkr_8",
+    "semester": 4
   },
   {
     "Course Title": "Actuators, Drives and Sensors",
@@ -82,7 +84,8 @@
     "Branches": [
       "RA"
     ],
-    "id": "nitkkr_9"
+    "id": "nitkkr_9",
+    "semester": 4
   },
   {
     "Course Title": "Control Systems (Practical)",
@@ -91,7 +94,8 @@
     "Branches": [
       "RA"
     ],
-    "id": "nitkkr_10"
+    "id": "nitkkr_10",
+    "semester": 4
   },
   {
     "Course Title": "Analog Electronics (Practical)",
@@ -100,7 +104,8 @@
     "Branches": [
       "RA"
     ],
-    "id": "nitkkr_11"
+    "id": "nitkkr_11",
+    "semester": 4
   },
   {
     "Course Title": "Actuators, Drives and Sensors (Practical)",
@@ -109,7 +114,8 @@
     "Branches": [
       "RA"
     ],
-    "id": "nitkkr_12"
+    "id": "nitkkr_12",
+    "semester": 4
   },
   {
     "Course Title": "Manufacturing Processes",
@@ -118,7 +124,8 @@
     "Branches": [
       "RA"
     ],
-    "id": "nitkkr_13"
+    "id": "nitkkr_13",
+    "semester": 4
   },
   {
     "Course Title": "Introduction to Robotics",
@@ -127,7 +134,8 @@
     "Branches": [
       "RA"
     ],
-    "id": "nitkkr_14"
+    "id": "nitkkr_14",
+    "semester": 4
   },
   {
     "Course Title": "Analog Electronics",
@@ -136,7 +144,8 @@
     "Branches": [
       "RA"
     ],
-    "id": "nitkkr_15"
+    "id": "nitkkr_15",
+    "semester": 4
   },
   {
     "Course Title": "Linear Algebra & Applications",
