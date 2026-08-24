@@ -1,0 +1,38 @@
+{
+  "Course Title": "German Language Skills",
+  "Course Code": "HSNC-109",
+  "route": "course/hsnc-109",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Audit Course)",
+  "Branch": ["All"],
+  "semester": "Odd/Even",
+  "ltpc": [2, 0, 0, 2],
+  "description": "This Non-Conventional Institute Core (audit) course, offered by the Department of Humanities and Social Sciences, introduces basic language skills in German and builds confidence among students in speaking German with correct pronunciation. It is qualifying in nature (Internal: 50 Marks, Total: 50 Marks).",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Basic Elements of Grammar",
+      "body": "Wo, woher, wohin; Wer, was, wie; Wie viel, wie viele, wie lange, Uhrzeiten; Akkusativ, einen, keinen, doch usw.; Modalverben; Wenn, weil, wann, warum; Praepositionen mit Akkusativ und Dativ wie aus, bei, durch, fuer usw.; Perfekt mit haben und sein."
+    },
+    {
+      "id": "II",
+      "title": "Translation",
+      "body": "English to German, German to English."
+    },
+    {
+      "id": "III",
+      "title": "Introduction to Culture and Civilization",
+      "body": "Short questions on day-to-day life in Germany i.e. names of cities, rivers, mountains, periodicals, authors, important abbreviations, etc."
+    }
+  ],
+  "outcomes": [
+    "Learn and communicate effectively in German Language on a day-to-day basis.",
+    "Manage basic communication in German."
+  ],
+  "referenceBooks": [
+    "Deutsch als Fremdsprache, IA (BNS 1A)",
+    "Deutsch als Fremdsprache 1B (BNS 1B)",
+    "Sprachkurs 3"
+  ]
+}

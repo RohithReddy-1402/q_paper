@@ -1,0 +1,67 @@
+{
+  "Course Title": "Energy and Environmental Science",
+  "Course Code": "CHIC-101",
+  "route": "course/chic-101",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["All"],
+  "semester": "1st",
+  "ltpc": [2, 0, 1, 3],
+  "contactHours": 30,
+  "description": "This course, common for all branches, discusses the complexity of issues and challenges relating to energy and environmental science, explores the environmental impact of various energy sources and the effects of different types of pollutants, introduces the principal renewable energy systems, and discusses human impact on the environment and human exposure to environmental contaminants.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Environment, Ecosystems and Biodiversity",
+      "hours": 6,
+      "body": "Environment: Multidisciplinary nature, scope and importance, Need for public awareness. Ecosystems: Concept, types, structure and functions, Producers, consumers and decomposers, Food chains, food webs and ecological pyramids, Energy flow in an ecosystem. Biodiversity: Values of biodiversity, hot spots and threats to biodiversity, conservation."
+    },
+    {
+      "id": "2",
+      "title": "Natural Resources",
+      "hours": 8,
+      "body": "Renewable and non-renewable resources: Natural resources and associated problems. Forest resources: Use and over-exploitation, deforestation, case studies, Timber extraction, Mining, Dams and their effects on forest and tribal people. Water resources: Use and over-exploitation of surface and ground water, floods, droughts, conflicts over water, Dams - benefits and problems. Mineral resources: Use and exploitation, Environmental effects of extracting and using mineral resources, case studies. Food resources: World food problems, Changes caused by agriculture and overgrazing, Effects of modern agriculture, Fertilizer-pesticide problems, Water logging, Salinity, case studies. Energy resources: Present energy resources in India and its sustainability, Energy demand scenario in India, Growing energy needs, Renewable and non-renewable energy sources, Use of alternate energy sources. Solar energy: Basics of solar energy, solar thermal energy, photovoltaic (PV) solar cells, advantages and disadvantages, environmental impacts and safety. Wind energy: Energy from wind turbines, India's wind energy potential, off shore wind energy, environmental benefits and impacts."
+    },
+    {
+      "id": "3",
+      "title": "Environmental Pollution",
+      "hours": 10,
+      "body": "Air pollution: Sources and effects of pollutants, primary and secondary pollutants, control measures. Acid rain: Impacts on human communities and agriculture. Green-house effect: Definition, causes and consequences. Depletion of ozone layer, destruction of ozone layer by CFC, consequences, effect of ozone modification, Photochemical smog, Bhopal gas tragedy. Water pollution: Water characteristics, water quality (WHO standard), natural water pollutants their origin and effects: oxygen demanding wastes, pathogens, nutrients, salts, heavy metals, pesticides, volatile organic compounds. River/lake/ground water pollution: DO, BOD, COD, pH and eutrophication. Thermal pollution: Causes, effects and control measures. Solid waste management: Causes, effects and control measures of urban and industrial wastes. Nuclear hazards: Causes, effects and control measures."
+    },
+    {
+      "id": "4",
+      "title": "Social Issues and the Environment",
+      "hours": 6,
+      "body": "From unsustainable to sustainable development: Urban problems related to energy, Water conservation, Rain water harvesting, Watershed management. Environmental Ethics: Issues and possible solutions, consumerism and waste products. Acts: Environment Protection Act, Air (Prevention and Control of Pollution) Act, Water (Prevention and Control of Pollution) Act, Public awareness, Population explosion, Environment and human health, Role of Information Technology in environment and human health."
+    }
+  ],
+  "experiments": [
+    "Determination of alkalinity in the water sample",
+    "Determination of dissolved oxygen (DO) in the water sample.",
+    "Determination of chemical oxygen demand (COD) in the water sample.",
+    "Determination of residual chlorine in the water sample.",
+    "Determination of total dissolved solids in water/effluent sample.",
+    "Determination of total Ca2+ and Mg2+ hardness in water.",
+    "Determination of strength of nitrite ions in water samples.",
+    "Analysis of BTX through Gas-Chromatography in air samples.",
+    "Analysis of heavy metal ions in industrial effluent by Atomic Absorption Spectroscopy (AAS).",
+    "Determination of moisture and pH of soil sample."
+  ],
+  "outcomes": [
+    "Know the environmental pollutants and their health effects and environmental remediation and management.",
+    "Understand the principles of renewable energy systems and explore the environmental impact of various energy sources.",
+    "Understand interrelationships among science, technology, and environment.",
+    "Appreciate the importance of saving energy and environment."
+  ],
+  "referenceBooks": [
+    "A. Basak, Environmental Studies: Pearson Education; 1st Edition, 2009.",
+    "E. Bharucha, Environmental Studies for Undergraduate Courses of all Branches of Higher Education for University Grants Commission, 2013.",
+    "D. Dave and S.S. Katewa, Text Book of Environmental Studies: Cenage Learning India Private Limited, 2nd Edition, 2012.",
+    "S. Somvanshi and R. Dhupper, Fundamentals of Environmental Studies: S. K. Kataria and Sons, Reprint 2019.",
+    "A. K. De, Environmental Chemistry: New Age International (P) Limited, 8th Edition, 2017.",
+    "R. J. Daniels and J. Krishnaswamy, Environmental Studies: Wiley India Private Limited, Reprint 2013.",
+    "B. Joseph, Environmental Studies: McGraw-Hill Education (India) Private Limited, 3rd Edition, 2017.",
+    "A. Kaushik and C.P. Kaushik, Perspectives in Environmental Studies: New Age International (P) Limited, 7th Edition, 2021."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "Course Title": "French Language Skills",
+  "Course Code": "HSNC-108",
+  "route": "course/hsnc-108",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Audit Course)",
+  "Branch": ["All"],
+  "semester": "Odd/Even",
+  "ltpc": [2, 0, 0, 2],
+  "description": "This Non-Conventional Institute Core (audit) course, offered by the Department of Humanities and Social Sciences, introduces basic language skills in French and builds confidence among students in speaking French with correct pronunciation. It is qualifying in nature (Internal: 50 Marks, Total: 50 Marks).",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Basic Elements of Grammar",
+      "body": "Determinants; Preposition; Adjective: demonstrative, interrogative and possessive; Pronoun: Personal, possessive, demonstrative, interrogative; Present Tense, Past tense, Future tense and Imperfect tense; Adverb; Imperative; Comparative and superlative."
+    },
+    {
+      "id": "II",
+      "title": "Translation",
+      "body": "English to French, French to English."
+    },
+    {
+      "id": "III",
+      "title": "Introduction to Culture and Civilization",
+      "body": "Short questions on day-to-day life in France i.e. names of cities, rivers, mountains, periodicals, authors, important abbreviations, etc."
+    }
+  ],
+  "outcomes": [
+    "Learn and communicate effectively in French Language on a day-to-day basis.",
+    "Manage basic communication in French."
+  ],
+  "referenceBooks": [
+    "Connexions - I Didier",
+    "Connexions - II Didier",
+    "Connexions-3 by Régine Mérieux et Yves Loiseau"
+  ]
+}

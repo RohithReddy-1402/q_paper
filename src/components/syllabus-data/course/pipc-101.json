@@ -1,0 +1,51 @@
+{
+  "Course Title": "Manufacturing Processes",
+  "Course Code": "PIPC-101",
+  "route": "course/pipc-101",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": ["PIE"],
+  "semester": "1st",
+  "ltpc": [4, 0, 0, 4],
+  "contactHours": 52,
+  "description": "This course, offered by the Mechanical Engineering Department for Production & Industrial Engineering, gives an extensive view of manufacturing process techniques in different manufacturing environments and value addition of finished good products. The various manufacturing techniques covered include Casting, semi-finished to finished products through machining operations, Forming, sheet metal operations, and value-enabling welding techniques. It helps students understand the fundamental concepts and principles of different manufacturing process techniques and cost-effective selection decisions in different production environment requirements.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Manufacturing and Materials",
+      "hours": 10,
+      "body": "Introduction to manufacturing, classification of manufacturing, fundamental properties of Engineering materials including metals and alloys, polymers, ceramics and composites, plastic processing techniques: compression molding and injection molding, thermoforming molding, molding cycle time."
+    },
+    {
+      "id": "II",
+      "title": "Casting and Machining",
+      "hours": 16,
+      "body": "Casting: Pattern materials, types of allowances, type of patterns, type of mould, desirable properties of molding materials, core, core print, type of cores, CO2 casting, expandable and permanent mould casting, sand casting, shell casting, plaster casting, investment casting, die casting, centrifugal castings, casting defects & remedies advantages, disadvantages and application of casting. Machining: definition, classification, Lathe: parts and accessories, specifications, various operations on lathe."
+    },
+    {
+      "id": "III",
+      "title": "Forming and Sheet Metal Processes",
+      "hours": 12,
+      "body": "Forming: deformation of metals, elastic and plastic deformation, metal working processes: cold and hot working, forging, rolling, extrusion, wire and tube drawing. Sheet metal processes and operations: Introduction to shearing, blanking and punching, notching, trimming, lancing, nibbling, bending, stretching, embossing and coining, Sheet metal forming, Sheet metal cutting, Slitting Process."
+    },
+    {
+      "id": "IV",
+      "title": "Welding",
+      "hours": 14,
+      "body": "Welding: definition and classification, thermite welding, electric arc welding: MMAW, SAW, TIG, MIG, gas welding, resistance welding, brazing and soldering, welding defects and remedies, factor affecting sustainability in welding process."
+    }
+  ],
+  "outcomes": [
+    "Understand the fundamental concepts of Manufacturing process techniques in different production environments.",
+    "Learn the various manufacturing defects and remedies in production environments.",
+    "Understand the cost-effective and value enabling manufacturing technique selection in different industrial environments.",
+    "Understand the fundamental & sustainable welding techniques in different manufacturing environments."
+  ],
+  "textbooks": [
+    "P N Rao, Manufacturing Technology (Vol. 1 & 2), McGraw Hill Education.",
+    "M P Groover, Principles of Modern Manufacturing, Wiley.",
+    "Kalpakjian, Manufacturing Processes for Engineering Materials, Pearson Education India.",
+    "Amitabha Ghosh & A K Mallik, Manufacturing Science, Affiliated East-West Press Pvt. Ltd."
+  ]
+}

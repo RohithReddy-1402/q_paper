@@ -1,0 +1,50 @@
+{
+  "Course Title": "Engineering Graphics (Web Design)",
+  "Course Code": "CSIC-102",
+  "route": "course/csic-102",
+  "credits": 2.5,
+  "prerequisites": "NA",
+  "Course Type": "IC (treated as practical course)",
+  "Branch": ["CoE", "ECE", "IT", "AI & ML", "IIOT", "M&C"],
+  "semester": "2nd",
+  "ltpc": [1, 0, 3, 2.5],
+  "description": "This course, offered by the Department of Computer Engineering, introduces the World Wide Web (WWW), web essentials (HTML, XHTML, CSS), web standards, client requirements and principles of web page design, and web architecture. It is treated as a practical course (not integrated); evaluation is as per practical course norms.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Introduction to world wide web, Web Browsers, Web Servers, Hypertext Transfer Protocol, URLs, Domain Names, Internet Service Provider, Basic steps for Developing Website, Choosing the Contents, Planning and Designing Web Site, Creating a Website, Web Publishing, Hosting Site, Types of hosting packages, Five golden rules of web designing."
+    },
+    {
+      "id": "2",
+      "title": "Web Essentials and Standards",
+      "body": "Clients, servers, introduction to Markup languages, scripting languages, Introduction to elements of HTML, XHTML and CSS, Introduction to Document object model (DOM), working with text, list, tables, frames, hyperlinks, Images, forms and controls. CSS properties, Id and Class, Box Model."
+    },
+    {
+      "id": "3",
+      "title": "JavaScript",
+      "body": "Javascript as programming language, Data types, Values, Variables, Expressions and Operators. JavaScript Statements, loops, arrays, strings, methods, Defining and Invoking functions and their closure, random functions and maths library, representing dates, Pattern Matching and Regular Expressions, difference between server side and client side javascript, embedding javascript in HTML, hiding HTML elements, showing hidden HTML elements. DOM and event handling, error handling, mouse, text, and keyboard events and cookies."
+    },
+    {
+      "id": "4",
+      "title": "XML",
+      "body": "XML: Introduction - benefits of XML, well formed XML documents, XML syntax, XML declaration, XML schema, XML with CSS, Document Type Definition (DTD), creating DTD - Types (internal DTD, external DTD), XSL."
+    }
+  ],
+  "outcomes": [
+    "Knowledge of basic principles of website design.",
+    "Design proficiency of websites adhering to current web standards (HTML, XML, CSS).",
+    "Knowledge of various scripting languages."
+  ],
+  "referenceBooks": [
+    "Thomas A Powell, HTML: The Complete Reference, Tata McGraw Hill Publications.",
+    "Scott Guelich, Shishir Gundavaram, Gunther Birzniek; CGI Programming with Perl 2/e, O'Reilly",
+    "Doug Tidwell, James Snell, Pavel Kulchenko; Programming Web Services with SOAP, O'Reilly",
+    "Robert. W. Sebesta, \"Programming the World Wide Web\", Fourth Edition, Pearson Education, 2007.",
+    "Yong, XML Step by Step, PHI.",
+    "Chris Bales, \"Web programming - Building Internet Application\".",
+    "Deitel, Deitel, Goldberg, \"Internet & World Wide Web How To Program\", Third Edition, Pearson Education, 2006.",
+    "Marty Hall and Larry Brown, \"Core Web Programming\" Second Edition, Volume I and II, Pearson Education, 2001.",
+    "Bayross Ivan, \"Web Enabled Commercial Applications Development using HTML, Javascript, DHTML & PHP\", BPB Publication, 2005."
+  ]
+}

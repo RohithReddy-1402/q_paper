@@ -1,0 +1,45 @@
+{
+  "Course Title": "Telugu Language Skills",
+  "Course Code": "HSNC-104",
+  "route": "course/hsnc-104",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Audit Course)",
+  "Branch": ["All"],
+  "semester": "Odd/Even",
+  "ltpc": [2, 0, 0, 2],
+  "description": "This Non-Conventional Institute Core (audit) course, offered by the Department of Humanities and Social Sciences, introduces students to Telugu script, grammar and composition, from the alphabet through paragraph writing. It is qualifying in nature (Internal: 50 Marks, Total: 50 Marks).",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Varna Mala (Telugu Script Basics)",
+      "hours": 7,
+      "body": "తెలుగు వర్ణమాల :: అచ్చులు, హల్లులు, క చ ట త ప, గ జ డ ద బ లు :: సరళ పదాలు (వ్రాయడం) : రెండు అక్షరాల పదాలు, మూడు అక్షరాల పదాలు, నాలుగు అక్షరాల పదాలు, అచ్చులు మరియు హల్లులను గుర్తించడము. Varna Mala: alphabets of Telugu script; Achhulu (vowels), Hallulu (consonants); writing simple Telugu words of two, three and four letters; identification of vowels and consonants."
+    },
+    {
+      "id": "II",
+      "title": "Gunintalu (Combining Vowels and Consonants)",
+      "hours": 8,
+      "body": "గుణింతాలు: గుణింత పదాలు మరియు గుణింత అక్షరాలు. తలకట్టు, దీర్ఘం, గుడి, గుడి దీర్ఘం, కొమ్ము, కొమ్మ దీర్ఘం, ఎత్వం, ఏత్వం, ఇత్వం, ఒత్వం, ఔత్వం, సున్న (అనుస్వారం, విసర్గ) :: వ్రాయడం. How to read and write Telugu script of letters and words: how to add vowels to consonants (Gunintalu) and their pronunciation; combination and clubbing of letters."
+    },
+    {
+      "id": "III",
+      "title": "Ditvaksharam and Telugu Verses",
+      "hours": 8,
+      "body": "ద్విత్వాక్షరం, సంయుక్త అక్షరం, మరియు సంశ్లేష అక్షరం :: వ్రాయడం, చదవడం. పదజాల వినియోగం. తెలుగు పద్యాలు: భాస్కర, వేమన, సుమతి పద్యాలు, మరియు తాత్పర్యాలు. Combination and clubbing of two or more alphabets (same or different): reading and writing; usage of combined Telugu letters in words; basic 4-line stanzas/poems by poets Bhaskara, Vemana and Sumati, with their literal meaning (idiom/proverb style hidden messages)."
+    },
+    {
+      "id": "IV",
+      "title": "Composition and Grammar",
+      "hours": 7,
+      "body": "స్వీయరచన, పదజాల వినియోగం, ప్రతి పదార్థాలు, వ్యాకరణం :: సంధులు, సమాసములు. Paragraph writing (self-writing) and constructing sentences; synonyms and antonyms in Telugu; Telugu grammar: sandhulu (conjunctions), samasalu (compounds)."
+    }
+  ],
+  "outcomes": [
+    "Read and write basic Telugu script, words and simple verses.",
+    "Construct sentences and short paragraphs in Telugu using correct grammar."
+  ],
+  "referenceBooks": [
+    "Learn Telugu in 30 days: by Dr. Diwakarla Venkata Avadhani, Publishers: Andhra Pradesh Sahitya Academy, Saifabad, Hyderabad - 500004"
+  ]
+}

@@ -145,49 +145,63 @@ export default function SyllabusPage() {
                     {d["Course Type"]}
                   </td>
                 </tr>
+                {d["examScheme"] && (
+                  <tr>
+                    <td className="border border-black px-3 py-2 font-semibold">
+                      Marks (Internal / Theory / Total)
+                    </td>
+                    <td className="border border-black px-3 py-2">
+                      {d["examScheme"].internal} / {d["examScheme"].theory} /{" "}
+                      {d["examScheme"].total} &nbsp;(Exam duration:{" "}
+                      {d["examScheme"].time})
+                    </td>
+                  </tr>
+                )}
               </tbody>
             </table>
 
-            <table className="mt-3 w-full border-collapse border border-black text-center text-[18px]">
-              <thead>
-                <tr>
-                  <th className="border border-black px-3 py-2 font-semibold">
-                    L
-                  </th>
-                  <th className="border border-black px-3 py-2 font-semibold">
-                    T
-                  </th>
-                  <th className="border border-black px-3 py-2 font-semibold">
-                    P
-                  </th>
-                  <th className="border border-black px-3 py-2 font-semibold">
-                    Credits
-                  </th>
-                  <th className="border border-black px-3 py-2 font-semibold">
-                    Total contact hours
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="border border-black px-3 py-2">
-                    {d["ltpc"][0]}
-                  </td>
-                  <td className="border border-black px-3 py-2">
-                    {d["ltpc"][1]}
-                  </td>
-                  <td className="border border-black px-3 py-2">
-                    {d["ltpc"][2]}
-                  </td>
-                  <td className="border border-black px-3 py-2">
-                    {d["ltpc"][3]}
-                  </td>
-                  <td className="border border-black px-3 py-2">
-                    {d["contactHours"]}
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            {d["ltpc"] && (
+              <table className="mt-3 w-full border-collapse border border-black text-center text-[18px]">
+                <thead>
+                  <tr>
+                    <th className="border border-black px-3 py-2 font-semibold">
+                      L
+                    </th>
+                    <th className="border border-black px-3 py-2 font-semibold">
+                      T
+                    </th>
+                    <th className="border border-black px-3 py-2 font-semibold">
+                      P
+                    </th>
+                    <th className="border border-black px-3 py-2 font-semibold">
+                      Credits
+                    </th>
+                    <th className="border border-black px-3 py-2 font-semibold">
+                      Total contact hours
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="border border-black px-3 py-2">
+                      {d["ltpc"][0]}
+                    </td>
+                    <td className="border border-black px-3 py-2">
+                      {d["ltpc"][1]}
+                    </td>
+                    <td className="border border-black px-3 py-2">
+                      {d["ltpc"][2]}
+                    </td>
+                    <td className="border border-black px-3 py-2">
+                      {d["ltpc"][3]}
+                    </td>
+                    <td className="border border-black px-3 py-2">
+                      {d["contactHours"]}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            )}
             <SectionHeading>Brief Description about the course</SectionHeading>
             <p className="mt-2 text-justify">{d["description"]}</p>
 
@@ -200,7 +214,9 @@ export default function SyllabusPage() {
                 <h3 className="mt-1 text-[22px] font-bold">{u.title}</h3>
                 <p className="mt-2 text-justify">
                   {u.body}{" "}
-                  <span className="whitespace-nowrap  ">({u.hours} hrs)</span>
+                  {u.hours != null && (
+                    <span className="whitespace-nowrap  ">({u.hours} hrs)</span>
+                  )}
                 </p>
 
                 {u?.subsection && (
@@ -218,6 +234,20 @@ export default function SyllabusPage() {
                 )}
               </div>
             ))}
+            {d["languageLab"]?.length > 0 && (
+              <>
+                <SectionHeading>Part II: Language Laboratory</SectionHeading>
+                {d["languageLab"].map((u) => (
+                  <div key={u.id}>
+                    <h2 className="mt-8 text-[15px] font-bold uppercase tracking-wide text-black">
+                      Unit - {u.id}
+                    </h2>
+                    <h3 className="mt-1 text-[22px] font-bold">{u.title}</h3>
+                    <p className="mt-2 text-justify">{u.body}</p>
+                  </div>
+                ))}
+              </>
+            )}
             {d["experiments"]?.length > 0 && (
               <>
                 <SectionHeading>List of Experiments</SectionHeading>

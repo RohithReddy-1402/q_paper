@@ -3,179 +3,256 @@
     "Course Title": "Engineering Mechanics",
     "Course Code": "RAPC-101",
     "route": "course/rapc-101",
-    "Branches": ["RA"],
-    "id":"nitkkr_1"
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_1"
   },
   {
     "Course Title": "Introduction to Automation",
     "Course Code": "RAPC-203",
     "route": "course/rapc-203",
-    "Branches": ["RA"],
-    "id":"nitkkr_2"
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_2"
   },
   {
     "Course Title": "Discrete Mathematics",
     "Course Code": "MAIC-201",
     "route": "course/maic-201",
-    "Branches": ["CS", "IT", "AI & ML","RA","IIOT"],
-    "id":"nitkkr_3"
+    "Branches": [
+      "CS",
+      "IT",
+      "AI & ML",
+      "RA",
+      "IIOT"
+    ],
+    "id": "nitkkr_3"
   },
   {
     "Course Title": "Signals and Systems",
     "Course Code": "RAPC-204",
     "route": "course/rapc-204",
-    "Branches": ["RA"],
-    "id":"nitkkr_4"
-  },{
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_4"
+  },
+  {
     "Course Title": "Basic Electrical & Electronics Engineering",
     "Course Code": "RAPC-202",
     "route": "course/rapc-202",
-    "Branches": ["RA"],
-    "id":"nitkkr_5"
-  },{
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_5"
+  },
+  {
     "Course Title": "Mechanics of Machines",
     "Course Code": "RAPC-201",
     "route": "course/rapc-201",
-    "Branches": ["RA"],
-    "id":"nitkkr_6"
-  },{
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_6"
+  },
+  {
     "Course Title": "Applied Linear Algebra",
     "Course Code": "MAIC-204",
     "route": "course/maic-204",
-    "Branches": ["RA"],
-    "id":"nitkkr_7"
-  },{
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_7"
+  },
+  {
     "Course Title": "Control Systems",
     "Course Code": "RAPC-208",
     "route": "course/rapc-208",
-    "Branches": ["RA"],
-    "id":"nitkkr_8"
-  },{
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_8"
+  },
+  {
     "Course Title": "Actuators, Drives and Sensors",
     "Course Code": "RAPC-210",
     "route": "course/rapc-210",
-    "Branches": ["RA"],
-    "id":"nitkkr_9"
-  },{
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_9"
+  },
+  {
     "Course Title": "Control Systems (Practical)",
     "Course Code": "RAPC-213",
     "route": "course/rapc-213",
-    "Branches": ["RA"],
-    "id":"nitkkr_10"
-  },{
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_10"
+  },
+  {
     "Course Title": "Analog Electronics (Practical)",
     "Course Code": "RAPC-214",
     "route": "course/rapc-214",
-    "Branches": ["RA"],
-    "id":"nitkkr_11"
-  },{
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_11"
+  },
+  {
     "Course Title": "Actuators, Drives and Sensors (Practical)",
     "Course Code": "RAPC-215",
     "route": "course/rapc-215",
-    "Branches": ["RA"],
-    "id":"nitkkr_12"
-  },{
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_12"
+  },
+  {
     "Course Title": "Manufacturing Processes",
     "Course Code": "RAPC-212",
     "route": "course/rapc-212",
-    "Branches": ["RA"],
-    "id":"nitkkr_13"
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_13"
   },
   {
     "Course Title": "Introduction to Robotics",
     "Course Code": "RAPC-211",
     "route": "course/rapc-211",
-    "Branches": ["RA"],
-    "id":"nitkkr_14"
-    
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_14"
   },
   {
     "Course Title": "Analog Electronics",
     "Course Code": "RAPC-209",
     "route": "course/rapc-209",
-    "Branches": ["RA"],
-    "id":"nitkkr_15"
+    "Branches": [
+      "RA"
+    ],
+    "id": "nitkkr_15"
   },
   {
     "Course Title": "Linear Algebra & Applications",
     "Course Code": "MAPC-201",
     "route": "course/mapc-201",
-    "Branches": ["M&C"],
-    "id":"nitkkr_16"
-  },{
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_16"
+  },
+  {
     "Course Title": "Discrete Mathematics",
     "Course Code": "MAPC-203",
     "route": "course/mapc-203",
-    "Branches": ["M&C"],
-    "id":"nitkkr_17"
-  },{
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_17"
+  },
+  {
     "Course Title": "Probability & Statistics",
     "Course Code": "MAPC-205",
     "route": "course/mapc-205",
-    "Branches": ["M&C"],
-    "id":"nitkkr_18"
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_18"
   },
   {
-    "Course Title":"Design and Analysis of Algorithms",
-    "Course Code":"CSPC-201",
-    "route":"course/cspc-201",
-    "Branches": ["M&C"],
-    "id":"nitkkr_19"
-  },{
-     "Course Title":"Computer Organization and Architecture",
-    "Course Code":"CSPC-203",
-    "route":"course/cspc-203",
-    "Branches": ["M&C"],
-    "id":"nitkkr_20"
+    "Course Title": "Design and Analysis of Algorithms",
+    "Course Code": "CSPC-201",
+    "route": "course/cspc-201",
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_19"
   },
   {
-     "Course Title":"Object-Oriented Programming using Java",
-    "Course Code":"CSPC-205",
-    "route":"course/cspc-205",
-    "Branches": ["M&C"],
-    "id":"nitkkr_21"
-  },{
-    "Course Title":"Operating System",
-    "Course Code":"CSPC-200",
-    "route":"course/cspc-200",
-    "Branches": ["M&C"],
-    "id":"nitkkr_22"
-  },{
-    "Course Title":"Artificial Intelligence and Soft Computing",
-    "Course Code":"CSPC-204",
-    "route":"course/cspc-204",
-    "Branches": ["M&C"],
-    "id":"nitkkr_23"
-  },{
-    "Course Title":"Database Management Systems",
-    "Course Code":"CSPC-206",
-    "route":"course/cspc-206",
-    "Branches": ["M&C"],
-    "id":"nitkkr_24"
-  },{
-    "Course Title":"Real and Complex Analysis",
-    "Course Code":"MAPC-202",
-    "route":"course/mapc-202",
-    "Branches": ["M&C"],
-    "id":"nitkkr_25"
-  },{
-    "Course Title":"Computer-Oriented Numerical Methods",
-    "Course Code":"MAPC-204",
-    "route":"course/mapc-204",
-    "Branches": ["M&C"],
-    "id":"nitkkr_26"
-  },{
-    "Course Title":"Theory of Computation",
-    "Course Code":"MAPC-206",
-    "route":"course/mapc-206",
-    "Branches": ["M&C"],
-    "id":"nitkkr_27"
+    "Course Title": "Computer Organization and Architecture",
+    "Course Code": "CSPC-203",
+    "route": "course/cspc-203",
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_20"
+  },
+  {
+    "Course Title": "Object-Oriented Programming using Java",
+    "Course Code": "CSPC-205",
+    "route": "course/cspc-205",
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_21"
+  },
+  {
+    "Course Title": "Operating System",
+    "Course Code": "CSPC-200",
+    "route": "course/cspc-200",
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_22"
+  },
+  {
+    "Course Title": "Artificial Intelligence and Soft Computing",
+    "Course Code": "CSPC-204",
+    "route": "course/cspc-204",
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_23"
+  },
+  {
+    "Course Title": "Database Management Systems",
+    "Course Code": "CSPC-206",
+    "route": "course/cspc-206",
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_24"
+  },
+  {
+    "Course Title": "Real and Complex Analysis",
+    "Course Code": "MAPC-202",
+    "route": "course/mapc-202",
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_25"
+  },
+  {
+    "Course Title": "Computer-Oriented Numerical Methods",
+    "Course Code": "MAPC-204",
+    "route": "course/mapc-204",
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_26"
+  },
+  {
+    "Course Title": "Theory of Computation",
+    "Course Code": "MAPC-206",
+    "route": "course/mapc-206",
+    "Branches": [
+      "M&C"
+    ],
+    "id": "nitkkr_27"
   },
   {
     "Course Title": "Robot Programming and Control",
     "Course Code": "RAPC-301",
     "route": "course/rapc-301",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_28"
   },
@@ -183,7 +260,9 @@
     "Course Title": "Microprocessors & Microcontrollers",
     "Course Code": "RAPC-302",
     "route": "course/rapc-302",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_29"
   },
@@ -191,7 +270,9 @@
     "Course Title": "Mechanics of Materials",
     "Course Code": "RAPC-303",
     "route": "course/rapc-303",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_30"
   },
@@ -199,7 +280,9 @@
     "Course Title": "Data Structures & Algorithm",
     "Course Code": "RAPE-304",
     "route": "course/rape-304",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_31"
   },
@@ -207,7 +290,9 @@
     "Course Title": "Data Acquisition Systems",
     "Course Code": "RAPE-305",
     "route": "course/rape-305",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_32"
   },
@@ -215,7 +300,9 @@
     "Course Title": "Introduction to MEMS",
     "Course Code": "RAPE-306",
     "route": "course/rape-306",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_33"
   },
@@ -223,7 +310,9 @@
     "Course Title": "Advanced Control System",
     "Course Code": "RAPE-307",
     "route": "course/rape-307",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_34"
   },
@@ -231,7 +320,9 @@
     "Course Title": "Introduction to Communication Systems",
     "Course Code": "RAPE-308",
     "route": "course/rape-308",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_35"
   },
@@ -239,7 +330,9 @@
     "Course Title": "Introduction to Database Management Systems",
     "Course Code": "RAPE-309",
     "route": "course/rape-309",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_36"
   },
@@ -247,7 +340,9 @@
     "Course Title": "Natural Language Processing",
     "Course Code": "RAPE-310",
     "route": "course/rape-310",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_37"
   },
@@ -255,7 +350,9 @@
     "Course Title": "Optimization Techniques",
     "Course Code": "RAPE-311",
     "route": "course/rape-311",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_38"
   },
@@ -263,7 +360,9 @@
     "Course Title": "Introduction to Internet of Things",
     "Course Code": "RAPE-312",
     "route": "course/rape-312",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_39"
   },
@@ -271,7 +370,9 @@
     "Course Title": "Robot Programming & Control (P)",
     "Course Code": "RAPC-313",
     "route": "course/rapc-313",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_40"
   },
@@ -279,7 +380,9 @@
     "Course Title": "Microprocessors and Microcontrollers (P)",
     "Course Code": "RAPC-314",
     "route": "course/rapc-314",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_41"
   },
@@ -287,7 +390,9 @@
     "Course Title": "Mechanics of Materials (P)",
     "Course Code": "RAPC-315",
     "route": "course/rapc-315",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_42"
   },
@@ -295,8 +400,482 @@
     "Course Title": "Internship / Industrial Training / Project Viva-Voce",
     "Course Code": "RAIC-316",
     "route": "course/raic-316",
-    "Branches": ["RA"],
+    "Branches": [
+      "RA"
+    ],
     "semester": 5,
     "id": "nitkkr_43"
+  },
+  {
+    "Course Title": "Communication Skills in English",
+    "Course Code": "HSIC-101",
+    "route": "course/hsic-101",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_44",
+    "semester": "1st/2nd"
+  },
+  {
+    "Course Title": "Economics for Engineers",
+    "Course Code": "HSIC-102",
+    "route": "course/hsic-102",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_45",
+    "semester": "1st/2nd"
+  },
+  {
+    "Course Title": "Financial Education",
+    "Course Code": "HSIC-103",
+    "route": "course/hsic-103",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_46",
+    "semester": "1st/2nd"
+  },
+  {
+    "Course Title": "Business Studies",
+    "Course Code": "HSIC-104",
+    "route": "course/hsic-104",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_47",
+    "semester": "1st/2nd"
+  },
+  {
+    "Course Title": "Differential Calculus and Differential Equations",
+    "Course Code": "MAIC-101",
+    "route": "course/maic-101",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_48",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Engineering Physics",
+    "Course Code": "PHIC-101",
+    "route": "course/phic-101",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_49",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Engineering Graphics",
+    "Course Code": "CEIC-101",
+    "route": "course/ceic-101",
+    "Branches": [
+      "CE"
+    ],
+    "id": "nitkkr_50",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Engineering Graphics",
+    "Course Code": "MEIC-101",
+    "route": "course/meic-101",
+    "Branches": [
+      "ME",
+      "PIE"
+    ],
+    "id": "nitkkr_51",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Engineering Practice",
+    "Course Code": "MEIC-102",
+    "route": "course/meic-102",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_52",
+    "semester": "1st/2nd"
+  },
+  {
+    "Course Title": "Problem Solving and Programming Skills",
+    "Course Code": "CSIC-101",
+    "route": "course/csic-101",
+    "Branches": [
+      "CoE",
+      "IT",
+      "AI & ML"
+    ],
+    "id": "nitkkr_53",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Problem Solving and Programming Skills",
+    "Course Code": "CSIC-103",
+    "route": "course/csic-103",
+    "Branches": [
+      "ECE",
+      "EE",
+      "ME",
+      "PIE",
+      "CE"
+    ],
+    "id": "nitkkr_54",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Energy and Environmental Science",
+    "Course Code": "CHIC-101",
+    "route": "course/chic-101",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_55",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Human Values & Social Responsibility",
+    "Course Code": "HSNC-101",
+    "route": "course/hsnc-101",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_56",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "Sanskrit Language Skills",
+    "Course Code": "HSNC-102",
+    "route": "course/hsnc-102",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_57",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "Hindi Language Skills",
+    "Course Code": "HSNC-103",
+    "route": "course/hsnc-103",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_58",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "Telugu Language Skills",
+    "Course Code": "HSNC-104",
+    "route": "course/hsnc-104",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_59",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "Constitution of India",
+    "Course Code": "HSNC-105",
+    "route": "course/hsnc-105",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_60",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "Indian Knowledge System",
+    "Course Code": "HSNC-106",
+    "route": "course/hsnc-106",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_61",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "Teachings of Gita",
+    "Course Code": "HSNC-107",
+    "route": "course/hsnc-107",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_62",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "French Language Skills",
+    "Course Code": "HSNC-108",
+    "route": "course/hsnc-108",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_63",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "German Language Skills",
+    "Course Code": "HSNC-109",
+    "route": "course/hsnc-109",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_64",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "Japanese Language Skills",
+    "Course Code": "HSNC-110",
+    "route": "course/hsnc-110",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_65",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "Thought Lab and Practices",
+    "Course Code": "HSNC-111",
+    "route": "course/hsnc-111",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_66",
+    "semester": "Odd/Even"
+  },
+  {
+    "Course Title": "Sports (NCC/Sports/Yoga option)",
+    "Course Code": "SWNC-101",
+    "route": "course/swnc-101-sports",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_67",
+    "semester": "1st-6th (Continuous Evaluation)"
+  },
+  {
+    "Course Title": "Yoga (NCC/Sports/Yoga option)",
+    "Course Code": "SWNC-101",
+    "route": "course/swnc-101-yoga",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_68",
+    "semester": "1st-6th (Continuous Evaluation)"
+  },
+  {
+    "Course Title": "NCC (NCC/Sports/Yoga option)",
+    "Course Code": "SWNC-101",
+    "route": "course/swnc-101-ncc",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_69",
+    "semester": "1st-6th (Continuous Evaluation)"
+  },
+  {
+    "Course Title": "Integral Calculus and Difference Equations",
+    "Course Code": "MAIC-102",
+    "route": "course/maic-102",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_70",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "Advanced Engineering Physics",
+    "Course Code": "PHIC-102",
+    "route": "course/phic-102",
+    "Branches": [
+      "CE",
+      "ME",
+      "PIE"
+    ],
+    "id": "nitkkr_71",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "Advanced Engineering Physics",
+    "Course Code": "PHIC-103",
+    "route": "course/phic-103",
+    "Branches": [
+      "ECE"
+    ],
+    "id": "nitkkr_72",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "Advanced Engineering Physics",
+    "Course Code": "PHIC-104",
+    "route": "course/phic-104",
+    "Branches": [
+      "EE"
+    ],
+    "id": "nitkkr_73",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "Advanced Engineering Physics",
+    "Course Code": "PHIC-105",
+    "route": "course/phic-105",
+    "Branches": [
+      "IIOT"
+    ],
+    "id": "nitkkr_74",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "Digital System Design",
+    "Course Code": "CSIC-100",
+    "route": "course/csic-100",
+    "Branches": [
+      "CoE",
+      "IT",
+      "AI & ML",
+      "M&C"
+    ],
+    "id": "nitkkr_75",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "Engineering Graphics (Web Design)",
+    "Course Code": "CSIC-102",
+    "route": "course/csic-102",
+    "Branches": [
+      "CoE",
+      "ECE",
+      "IT",
+      "AI & ML",
+      "IIOT",
+      "M&C"
+    ],
+    "id": "nitkkr_76",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "NSS (NSS/Clubs/Technical Societies option)",
+    "Course Code": "SWNC-102",
+    "route": "course/swnc-102-nss",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_77",
+    "semester": "1st-6th (Continuous Evaluation)"
+  },
+  {
+    "Course Title": "Students Clubs (NSS/Clubs/Technical Societies option)",
+    "Course Code": "SWNC-102",
+    "route": "course/swnc-102-clubs",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_78",
+    "semester": "1st-6th (Continuous Evaluation)"
+  },
+  {
+    "Course Title": "Technical Societies (NSS/Clubs/Technical Societies option)",
+    "Course Code": "SWNC-102",
+    "route": "course/swnc-102-technical-societies",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_79",
+    "semester": "1st-6th (Continuous Evaluation)"
+  },
+  {
+    "Course Title": "Chemistry",
+    "Course Code": "CHIC-102",
+    "route": "course/chic-102",
+    "Branches": [
+      "CE",
+      "ME",
+      "PIE"
+    ],
+    "id": "nitkkr_80",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "Chemistry",
+    "Course Code": "CHIC-103",
+    "route": "course/chic-103",
+    "Branches": [
+      "ECE",
+      "EE"
+    ],
+    "id": "nitkkr_81",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "Programming using Python",
+    "Course Code": "CSIC-104",
+    "route": "course/csic-104",
+    "Branches": [
+      "All"
+    ],
+    "id": "nitkkr_82",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "Engineering Mechanics",
+    "Course Code": "CEPC-101",
+    "route": "course/cepc-101",
+    "Branches": [
+      "CE"
+    ],
+    "id": "nitkkr_83",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Data Structures",
+    "Course Code": "CSPC-100 / ITPC-100",
+    "route": "course/cspc-100",
+    "Branches": [
+      "CoE",
+      "IT"
+    ],
+    "id": "nitkkr_84",
+    "semester": "2nd"
+  },
+  {
+    "Course Title": "Electric Circuit Theory",
+    "Course Code": "EEPC-101",
+    "route": "course/eepc-101",
+    "Branches": [
+      "EE"
+    ],
+    "id": "nitkkr_85",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Circuit Theory",
+    "Course Code": "ECPC-101",
+    "route": "course/ecpc-101",
+    "Branches": [
+      "ECE",
+      "IIOT"
+    ],
+    "id": "nitkkr_86",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Thermodynamics",
+    "Course Code": "MEPC-103",
+    "route": "course/mepc-103",
+    "Branches": [
+      "ME"
+    ],
+    "id": "nitkkr_87",
+    "semester": "1st"
+  },
+  {
+    "Course Title": "Manufacturing Processes",
+    "Course Code": "PIPC-101",
+    "route": "course/pipc-101",
+    "Branches": [
+      "PIE"
+    ],
+    "id": "nitkkr_88",
+    "semester": "1st"
   }
 ]

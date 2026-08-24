@@ -1,0 +1,72 @@
+{
+  "Course Title": "Engineering Physics",
+  "Course Code": "PHIC-101",
+  "route": "course/phic-101",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["All"],
+  "semester": "1st",
+  "ltpc": [2, 1, 2, 4],
+  "contactHours": 60,
+  "description": "This course, offered by the Department of Physics, includes the fundamentals of physics essential for various engineering disciplines pertaining to quantum mechanics, electromagnetism, lasers and optical fiber technology. Moreover, the theory of relativity and nuclear technology for sustainable energy applications are included.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Quantum Mechanics and Electromagnetic Theory",
+      "hours": 7,
+      "body": "Quantum Mechanics: Basics of quantum mechanics, De-Broglie's hypothesis, Uncertainty principle, Probability and Wave function, Postulates of quantum mechanics, Time-dependent and Time-independent Schrodinger wave equations, Particle in 1-D potential box, Quantum Tunnelling Phenomenon. Electromagnetic Theory: Maxwell's equations in vacuum and medium, Electromagnetic Waves, Propagation Energy and Poynting Vector."
+    },
+    {
+      "id": "II",
+      "title": "Physics of Solids",
+      "hours": 7,
+      "body": "Crystal Structure, Space Lattice, Translation vectors; Crystal Symmetry, Miller indices, Simple and close-packed crystal structures with examples, Free electron theory: Drude's Theory of Conduction; Quantum theory of free electrons, Fermi-Dirac distribution function, Fermi-level and Fermi Energy; Density of States, equilibrium and extrinsic carrier concentration."
+    },
+    {
+      "id": "III",
+      "title": "Laser Physics and Optical Fiber",
+      "hours": 7,
+      "body": "Laser Physics: Basic principle and characteristics of lasers, Einstein's coefficients, Types of Lasers: He-Ne laser, Semiconductor Laser, Applications of Lasers in research and industry, Safety protocols of lasers. Fundamentals of Optical Fiber: Acceptance angle, Numerical aperture, Classification of optical fibres, Fiber losses, Fiber manufacturing, Applications of optical fibre in industry and communications."
+    },
+    {
+      "id": "IV",
+      "title": "Special Theory of Relativity and Nuclear Technology",
+      "hours": 7,
+      "body": "Special Theory of Relativity: Frame of references: inertial and non-inertial, Galilean transformation, The Michelson-Morley experiment, Postulates of Special Theory of Relativity, Lorentz transformations, Length contraction, Time dilation, Velocity addition, Variation of mass with velocity, Mass-energy equivalence. Nuclear Technology: Interaction of radiation with matter, Neutron cross-section, Nuclear Reaction, Moderators, Reactor criticality, Nuclear reactors for power generation, Safety protocols."
+    }
+  ],
+  "experiments": [
+    "To find the wavelength of Sodium light by using diffraction grating.",
+    "To find the wavelength of different colours of white light by using diffraction grating.",
+    "To study Polarization of light and verification of Malus's law.",
+    "To find the wavelength of light by using Newton's rings.",
+    "To find the specific rotation of a solution by using a polarimeter.",
+    "To find the temperature coefficient of resistance of platinum by using platinum resistance thermometer.",
+    "To study the variation of magnetic field along the axis of a circular coil carrying current and to estimate the radius of the coil.",
+    "To find the frequency of AC mains using sonometer.",
+    "To plot a graph between the difference of temperature of two junctions and thermo e.m.f. for a thermocouple using a potentiometer.",
+    "To study I-V characteristics and rectification properties of a semiconductor diode.",
+    "To find high resistance by leakage method.",
+    "To find a) the wavelength of sodium light b) the thickness of a thin transparent sheet by Michelson's interferometer.",
+    "Wavelength, angle of divergence and Particle size determination using Diode Laser.",
+    "To determine the acceptance angle and numerical aperture of an optical fibre.",
+    "To study the characteristics of a GM Tube and determination of its operating voltage and Plateau length."
+  ],
+  "outcomes": [
+    "Develop the skills to apply various Physics concepts in tackling real life engineering problems.",
+    "Apply the ideas of Quantum Mechanics and Electromagnetic Theory for designing and development of various technological equipments.",
+    "Understand various technological domains of applicability of Crystal Physics, Theory of Relativity, and Nuclear technology.",
+    "Design and develop relevant applications based on fundamentals of Optics, LASERs, and Optical Fibers."
+  ],
+  "textbooks": [
+    "S.O. Pillai, \"Solid State Physics\", New Age International Publishers, 2012.",
+    "A. Beiser, \"Concepts of Modern Physics\", McGraw-Hill, 2008."
+  ],
+  "referenceBooks": [
+    "D.J. Griffiths, \"Introduction to Electrodynamics\", PHI Learning Publishers, New Delhi, 2012.",
+    "S. M. Sze, K. K. Ng, \"Physics of Semiconductor Devices\", United Kingdom, Wiley, 2021.",
+    "M. A. Wahab, \"Solid State Physics\", Narosa, 2022.",
+    "John Lilley, \"Nuclear Physics, Principles and Applications\", Wiley, 2016."
+  ]
+}

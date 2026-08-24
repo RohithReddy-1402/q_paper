@@ -1,0 +1,38 @@
+{
+  "Course Title": "Indian Knowledge System",
+  "Course Code": "HSNC-106",
+  "route": "course/hsnc-106",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Audit Course)",
+  "Branch": ["All"],
+  "semester": "Odd/Even",
+  "ltpc": [2, 0, 0, 2],
+  "description": "This Non-Conventional Institute Core (audit) course, offered by the Department of Humanities and Social Sciences, facilitates students with the concepts of Indian traditional knowledge, helps them understand the importance of the roots of the knowledge system, and enables them to understand traditional knowledge, analyse it and apply it to their day-to-day life. It is qualifying in nature (Internal: 50 Marks, Total: 50 Marks).",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Traditional Knowledge",
+      "body": "Define traditional knowledge, nature and characteristics, scope and importance, kinds of traditional knowledge, Indigenous Knowledge (IK), characteristics, the vedic corpus, Philosophical system, wisdom through ages."
+    },
+    {
+      "id": "II",
+      "title": "Cognitive Biomarkers of Creativity with IKS Perspectives",
+      "body": "Positivity: Traditional approaches. Happiness: objective and subjective measures of wellbeing, life satisfaction, positive affect, negative affect and happiness. Resilience: Developmental and clinical perspectives. Self-regulation and self-control, optimism, self-esteem. Spirituality and well-being. Self and Identity in modern Psychology and Indian thought."
+    },
+    {
+      "id": "III",
+      "title": "Health and Psychology",
+      "body": "Health and Psychology; Emotional intelligence, yoga way of life, Indian approach to Psychology. Consciousness; levels, body-mind relationship. Indigenous perspective of Psychology: self and motivation."
+    }
+  ],
+  "outcomes": [
+    "Identify the concept of traditional knowledge and its importance with the need and importance of protecting traditional knowledge.",
+    "Understand, connect & explain basics of Indian traditional knowledge to modern scientific perspective."
+  ],
+  "referenceBooks": [
+    "Mahadevan, M., Bhat, V.R. & Pavana N. (2022). Introduction to Indian Knowledge System: Concepts and Applications. PHI Learning",
+    "Baumgardner, SR & Crothers, MK (2009). Positive Psychology. Prentice Hall/Pearson Education.",
+    "Cornelissen, R.M., Misra G. & Varma S. (2014). Foundations & Applications of Indian Psychology. Pearson Education."
+  ]
+}

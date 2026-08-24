@@ -1,0 +1,60 @@
+{
+  "Course Title": "Differential Calculus and Differential Equations",
+  "Course Code": "MAIC-101",
+  "route": "course/maic-101",
+  "credits": 4,
+  "prerequisites": "The basic knowledge of matrix theory, Limit, Continuity, Differentiability for functions of one variable, Basic knowledge of ordinary differential equations of first order and first degree.",
+  "Course Type": "IC",
+  "Branch": ["All"],
+  "semester": "1st",
+  "ltpc": [3, 1, 0, 4],
+  "contactHours": 40,
+  "description": "This course covers matrix algebra and its applicability in different engineering fields, the knowledge of calculus and its subsequent engineering applications, forming and solving ordinary differential equations with engineering applications, and Laplace transforms with engineering applications.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Matrix Theory",
+      "hours": 8,
+      "body": "Matrices, Related matrices, Rank of a matrix, Linear dependence and independence of vectors, Consistency of linear systems of equations, Solution of linear system of equations, Eigen value problem, Eigen values and Eigen vectors with their properties, Cayley-Hamilton theorem and its applications, Similarity of matrices, Diagonalization of a real symmetric matrix, Quadratic form and their reduction to canonical form."
+    },
+    {
+      "id": "2",
+      "title": "Multivariable Calculus",
+      "hours": 8,
+      "body": "Limits, continuity and differentiability of multivariable functions, Partial differentiation and its geometrical interpretation, Total differential, Composite function, Taylor's and Maclaurins expansion for the functions of two variables, Maxima and minima, Lagrange's method of undetermined multipliers, Jacobian, Difference between total derivative and Jacobian."
+    },
+    {
+      "id": "3",
+      "title": "Ordinary Differential Equations",
+      "hours": 8,
+      "body": "Linear higher order ordinary differential equations with constant coefficients, Solutions of homogenous and non-homogenous equations, Method of variation of parameters, Method of undetermined coefficients, Equations reducible to linear equations with constant coefficients (Euler-Cauchy and Legendres linear differential equations)."
+    },
+    {
+      "id": "4",
+      "title": "Applications of Differential Equations",
+      "hours": 8,
+      "body": "First order differential equations: Newton's law of cooling, Radioactive decay, L-R and C-R circuits. Second order differential equations: Mechanical Vibrations - Free undamped and damped vibrations, Forced Oscillations, Resonance phenomenon. Electrical Vibrations, Series LCR circuit, Analogy with mass spring system, LCR circuit with voltage source, Complex impedance and Resonance phenomena."
+    },
+    {
+      "id": "5",
+      "title": "Laplace Transforms",
+      "hours": 8,
+      "body": "Laplace transforms - Definition, Laplace transforms of standard functions and their properties, Inverse Laplace transforms and its properties, Convolution theorem, Initial and final values theorems, Laplace transforms of periodic functions, Heaviside unit step function, Dirac-delta function, Solution of ordinary differential equations."
+    }
+  ],
+  "outcomes": [
+    "Understand and analyze the theoretical and practical aspects of matrix applications.",
+    "Identify extreme values of functions and interpret the engineering problems.",
+    "Model simple physical problems as differential equations, analyze and interpret the solutions.",
+    "Use Laplace transforms to solve ordinary differential equations."
+  ],
+  "textbooks": [
+    "Erwin Kreyszig, Advanced Engineering Mathematics, 9th Edition, Wiley India Pvt. Ltd., 2011.",
+    "Paras Ram, Engineering Mathematics through Applications, 2nd Edition, CBS Publishers, 2015."
+  ],
+  "referenceBooks": [
+    "G. B. Thomas and R.L. Finney, Calculus and analytical geometry, 9th Edition, Pearson Education, 5th Indian Reprint, 2002.",
+    "Peter V. O' Neil, Advanced Engineering Mathematics, 5th Edition, Thomson, Book/Cole, 2003.",
+    "A. K. Nandakumaran, P. S. Datti, and Raju K. George, Ordinary Differential Equations, Principles and Applications, Cambridge University Press, 2017."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "Course Title": "NCC (NCC/Sports/Yoga option)",
+  "Course Code": "SWNC-101",
+  "route": "course/swnc-101-ncc",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Co-curricular)",
+  "Branch": ["All"],
+  "semester": "1st-6th (Continuous Evaluation)",
+  "ltpc": [0, 4, 0, 2],
+  "description": "SWNC-101 is compulsory up to B.Tech 6th Semester, and students choose one of NCC, Sports or Yoga. This is the NCC option, following the National Cadet Corps Institutional Training Syllabus. Institutional training conducted in colleges and schools is the principal means of training in the NCC, aiming to nurture core values, enhance awareness, and give exposure to basic military skills and knowledge, with emphasis on practical training. Common subjects comprise about 70% of periods and Specialised Service Subjects 30%, differing by wing (Army/Navy/Air). Evaluation for NCC cadets: Internal Evaluation during the semester covers Attendance (20, full marks for 90% attendance), Discipline (10), Drill performance & Body bearing (10), Participation in social activities (10), and Domain knowledge via oral viva (10) - 60 marks total. End-semester evaluation (at the end of the semester) covers Discipline (10), Drill performance & Body bearing (15), and Domain knowledge via oral viva (15) - 40 marks total. After the end of the 6th semester, bonus marks of 10 for each B and C certificate are added to the final marks, subject to the total not exceeding 100.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Common Subjects (Senior Division/Wing, All Wings)",
+      "body": "The NCC (3 periods), National Integration and Awareness (18), Drill (43), Weapon Training (32), Personality Development & Leadership (45), Disaster Management (10), Social Awareness & Community Development (16), Health & Hygiene (16), Adventure (15), Environment Awareness and Conservation (6), Obstacle Training (6) - 210 periods total across the 3 years of Senior Division/Wing."
+    },
+    {
+      "id": "2",
+      "title": "Specialised Subjects - Army Wing",
+      "body": "Armed Forces (10 periods), Map Reading (24), Field Craft & Battle Craft (21), Introduction to Infantry Weapons & Equipment (11), Military History (13), Communication (11) - 90 periods total across the 3 years."
+    },
+    {
+      "id": "3",
+      "title": "Specialised Subjects - Air Wing",
+      "body": "General Service Knowledge (6 periods), Air Campaigns (6), Aircraft Recognition (4), Modern Trends (2), Principles of Flight (10), Airmanship (10), Navigation (5), Meteorology (5), Aero-Engines (6), Airframes (6), Instruments (7), Aircraft Particulars (2), Aeromodelling (21) - 90 periods total across the 3 years."
+    },
+    {
+      "id": "4",
+      "title": "Specialised Subjects - Naval Wing",
+      "body": "Naval Orientation (17 periods), Naval Warfare and its Components (7), Naval Communication (8), Navigation (9), Searmanship: Anchor Work (2), Rigging (3), Boat Work (10), Fire Fighting/Flooding and Damage Control (4), Ship and Boat Modelling (19), Search and Rescue (2), Swimming (9) - 90 periods total across the 3 years."
+    }
+  ]
+}

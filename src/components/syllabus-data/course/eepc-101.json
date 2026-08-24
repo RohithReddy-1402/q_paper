@@ -1,0 +1,50 @@
+{
+  "Course Title": "Electric Circuit Theory",
+  "Course Code": "EEPC-101",
+  "route": "course/eepc-101",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "1st",
+  "ltpc": [4, 0, 0, 4],
+  "description": "This program-core course, offered by the Department of Electrical Engineering, aims to make students understand the behaviour of electric circuit elements; the concept of poles, zeros, frequency response, and Laplace transforms of electrical networks; standard signals, sources and their transformation, and how to apply network theorems to solve electrical circuits; magnetically coupled circuits and their electrical circuit equivalence, DC/AC circuit transient behaviour, and resonance in circuits; and to analyse and determine multi-port networks, their characteristics, parameters, and characteristic impedances.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Mathematical Preliminaries",
+      "body": "Introduction to linear time invariant differential equations, free and forced solutions for simple electrical networks, Study of Laplace transform, its various properties and inverse Laplace transform, Introduction to the concept of network poles and zeros, frequency response. Introduction to graph theory."
+    },
+    {
+      "id": "II",
+      "title": "Network Graphs and Network Theorems",
+      "body": "Classification of circuits, sources and signals, standard signals, source transformations, Network topology, graph matrices, network ports, formulation and solution of circuit equations based on graph theory, using different analysis techniques - circuit, cut set and mixed. Concept of duality, Network theorems and their applications - Superposition, reciprocity, Thevenin, Norton, Maximum power transfer, Millman, Substitution, Compensation and Tellegen's theorem."
+    },
+    {
+      "id": "III",
+      "title": "Network Analysis and Behaviour",
+      "body": "Introduction to non-linear circuits and their analysis. Analysis of circuits with dependent sources, Time constants and Transient response under DC and AC excitations. Analysis of magnetically coupled circuits, Series and parallel resonance circuits, bandwidth and Q-factor, response with variation in parameters and frequency."
+    },
+    {
+      "id": "IV",
+      "title": "Multi Port Network Representation and Analysis",
+      "body": "Two-port networks, characteristics and parameters, interrelationships of parameters, image & iterative impedance, concept of characteristic impedance, scattering parameters, insertion loss, interconnection of 2-port networks, analysis of terminated 2-port networks, extensions to multiport networks."
+    }
+  ],
+  "outcomes": [
+    "Analyse behaviour of linear circuits by using Laplace transform and Fourier transform.",
+    "Represent and analyse an electric network by using graph theory and analyse an electric circuit considering multiport network concept and understanding the basics of network theorems and applying the same for analysing the circuit behaviour.",
+    "Understand and apply electricity and magnetism concepts to magnetically coupled circuits, analysis of series and parallel resonant circuits.",
+    "Represent and analyse characteristics and parameters of multiport networks and concept of characteristic impedance."
+  ],
+  "textbooks": [
+    "W. H. Hayt, J. E. Kemmerley, J. D. Phillips and S. M. Durbin, \"Engineering Circuit Analysis\", 9th Edition, McGraw Hill, New Delhi.",
+    "M. E. Van Valkenburg and T. S. Rathore, \"Network Analysis\", Revised 3rd Edition, PHI, New Delhi, 2019."
+  ],
+  "referenceBooks": [
+    "Franklin. F, Kuo, \"Network Analysis and Synthesis\", 2nd Edition, Wiley India Ltd., New Delhi, 2006",
+    "K. S. Suresh Kumar, \"Electric Circuits and Networks\", Pearson Learning, New Delhi, 2008.",
+    "Charles K. Alexander and Matthew N.O. Sadiku \"Fundamentals of Electric Circuits\", Textbook.",
+    "M Nahvi, Joseph Edminister, K Rao, \"Electric Circuits, Schaum's Outline Series\", 1 July 2017"
+  ]
+}

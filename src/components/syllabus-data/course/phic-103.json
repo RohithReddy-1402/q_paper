@@ -1,0 +1,74 @@
+{
+  "Course Title": "Advanced Engineering Physics",
+  "Course Code": "PHIC-103",
+  "route": "course/phic-103",
+  "credits": 4,
+  "prerequisites": "PHIC101",
+  "Course Type": "IC",
+  "Branch": ["ECE"],
+  "semester": "2nd",
+  "ltpc": [2, 1, 2, 4],
+  "contactHours": 60,
+  "description": "This course, offered for the ECE branch by the Department of Physics, is focused on the electronic and semiconducting properties of materials to understand theories relevant to the engineering principles of Semiconductor devices. The content consists of topics related to technical and strategic problems, electronic devices, their operations and applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Band Theory of Solids",
+      "hours": 7,
+      "body": "Periodic structures, Origin of Energy Bands - Bloch Theorem, Kronig-Penney Model (qualitative), E-K diagram, Brillouin Zones - extended, reduced and periodic zone schemes, Electrons and Holes, Concept of effective mass, Material classification, Direct and Indirect Band gap semiconductors."
+    },
+    {
+      "id": "II",
+      "title": "Semiconductor Physics",
+      "hours": 7,
+      "body": "Crystal properties, Elemental and Compound semiconductors, Density of States, Doping - donors and acceptors, Equilibrium and extrinsic carrier concentration, Carrier transport, Drift and Diffusion current, Mobility, Einstein relation, Excess carrier generation and recombination."
+    },
+    {
+      "id": "III",
+      "title": "Physics of Junctions",
+      "hours": 7,
+      "body": "Types of junctions: Metal-Metal; Metal-Semiconductor; Semiconductor-Semiconductor - Homo-junction and Hetero-junction, Metal-Insulator junction, Metal-Insulator-Semiconductor junction, Concepts of Quasi-Fermi levels, Carrier transport equations and solutions, PN Junctions - Abrupt junction: Electric field, Potential, Capacitance profiles, ideal diode, real diode and their characteristics."
+    },
+    {
+      "id": "IV",
+      "title": "Devices and Applications",
+      "hours": 7,
+      "body": "Bipolar Junction Transistor - Structure, Operation, and Transport Characteristics, BJT as amplifiers; JFET - Structure, Operation, and Transport Characteristics; MOSFET - Structure, Operation-Condition of inversion, and Transport Characteristics, C-V characteristics, MOSFET types. Compound Semiconductors - Requirements for high speed circuits, Materials - Binary and Ternary compound semiconductors, Dopants and impurities in GaAs and InP."
+    }
+  ],
+  "experiments": [
+    "To find the value of Planck's constant by photo electric cell.",
+    "To measure Hall's co-efficient of Germanium and calculation of charge carrier concentration.",
+    "To measure the velocity of ultrasonic waves in organic liquids.",
+    "To study the decay of charge on a capacitor and to find its capacitance.",
+    "To determine the resistivity of a semiconductor by four probe method.",
+    "To determine the band gap of germanium from the variation of its resistivity with temperature.",
+    "To study the intensity response of a cadmium sulphide cell.",
+    "To calibrate a voltmeter by using potentiometer.",
+    "To study the shunting effect of a voltmeter on voltage measurement.",
+    "To measure i) Saturation magnetization ii) coercivity and iii) retentivity in a given ferromagnetic material.",
+    "To study the dielectric properties of a dielectric at different frequencies by resonance method.",
+    "To draw the I-V characteristics of a solar cell under constant illumination.",
+    "To verify Stefan's radiation law by using incandescent filament.",
+    "To verify the inverse square law of gamma ray using GM counter.",
+    "To calibrate an electromagnet using Guoy's balance.",
+    "To determine the moment of inertia using flywheel about its own axis of rotation.",
+    "To determine the acceleration due to gravity by compound pendulum."
+  ],
+  "outcomes": [
+    "Solve and realize Electronics Engineering problems and challenges.",
+    "Understand fundamentals of semiconducting properties of materials for technological applications.",
+    "Realize the operation mechanism of various electronic devices.",
+    "Solve technical and strategic problems related to electronic devices and operations."
+  ],
+  "textbooks": [
+    "Charles Kittel, \"Introduction to Solid State Physics\", John Wiley publication, 2013.",
+    "S. M. Sze, \"Semiconductor Devices: Physics and Technology\", John Wiley publication, 2013."
+  ],
+  "referenceBooks": [
+    "Ben G. Streetman, \"Solid State Electronic Devices\", Prentice-Hall of India, 2012.",
+    "Jaspreet Singh, \"Semiconductor Devices - Basic Principles\", John Wiley publication, 2008.",
+    "Donald A. Neamen, \"Semiconductor Physics and Devices: Basic Principles\", 4th Edition, McGraw-Hill publication, 2012.",
+    "M.S.Tyagi, \"Introduction to Semiconductor Materials and Devices\", Wiley, 1991."
+  ]
+}

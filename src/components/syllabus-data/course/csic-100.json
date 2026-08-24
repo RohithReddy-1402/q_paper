@@ -1,0 +1,49 @@
+{
+  "Course Title": "Digital System Design",
+  "Course Code": "CSIC-100",
+  "route": "course/csic-100",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": ["CoE", "IT", "AI & ML", "M&C"],
+  "semester": "2nd",
+  "ltpc": [4, 0, 0, 4],
+  "description": "This course, offered by the Department of Computer Engineering, builds awareness of intricate design details of components in any digital system, knowledge of number systems and conceptual understanding of different codes, design fundamentals of computing machinery, and introduces the computational automation process.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Number Systems and Coding Schemes",
+      "body": "Number Systems and Codes: Introduction to the positional number system, signed magnitude numbers, floating point numbers, binary arithmetic: addition, subtraction, multiplication and division, Base conversion, conversion formulas with examples, one's and two's compliment arithmetic, Computer codes - BCD codes, gray codes, excess-3 codes, parity checks, Hamming and alphanumeric codes."
+    },
+    {
+      "id": "2",
+      "title": "Combinational Logic",
+      "body": "Design Introduction, standard representations for logical functions, Karnaugh map representation, simplification of logical functions using K-map, minimization of logical functions specified in minterms/maxterms or Truth Table, minimization of logical functions not specified in minterms/maxterms, Don't care conditions, design examples, Ex-or and Ex-nor simplification of Kmaps, five and six-variable K-maps, QM method, MEV method, Introduction of multiplexers and their use in combinational logic design, demultiplexers/decoders and their use in combinational logic design, adders and their use as subtractors, digital comparators, parity generators/checkers, code converters, priority encoders."
+    },
+    {
+      "id": "3",
+      "title": "Synchronous Sequential Circuits",
+      "body": "Introduction, FSM model, memory elements and their excitation functions. Synthesis of synchronous sequential circuits, capabilities and limitation of FSM, state equivalence and minimization, simplification of incompletely specified machines, registers and counters, RAM design, ROM design and programmable logic array."
+    },
+    {
+      "id": "4",
+      "title": "Asynchronous Sequential Circuits",
+      "body": "Fundamental mode and Pulse mode Circuits Analysis and Design."
+    }
+  ],
+  "outcomes": [
+    "Clarity of application of different number system and coding schemes.",
+    "Proficiency in design and analysis of combinational and sequential circuits.",
+    "Circuit level understanding of computer addressing and memory layouts.",
+    "Application of digital circuits for design of finite automaton."
+  ],
+  "textbooks": [
+    "M. Morris Mano and Michael D. Ciletti: Digital Logic Design, Sixth Edition, Pearson Education.",
+    "R.P. Jain: Modern Digital Electronics, Fifth Edition, TMH."
+  ],
+  "referenceBooks": [
+    "Z Kohavi and Niraj. K. Jha: Switching And Finite Automata Theory, Third Edition, Cambridge University Press.",
+    "Kumar A. Anand: Fundamentals of Digital Circuits, Fourth Edition, PHI.",
+    "James Bignell and Robert Donovan: Digital Electronics, Fifth Edition, Cengage Learning."
+  ]
+}

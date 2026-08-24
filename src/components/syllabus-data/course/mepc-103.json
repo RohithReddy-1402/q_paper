@@ -1,0 +1,51 @@
+{
+  "Course Title": "Thermodynamics",
+  "Course Code": "MEPC-103",
+  "route": "course/mepc-103",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": ["ME"],
+  "semester": "1st",
+  "ltpc": [3, 1, 0, 4],
+  "contactHours": 4,
+  "description": "Thermodynamics, as a fundamental branch of physics, plays a crucial role in the field of Mechanical Engineering. While an engineer's education encompasses various areas of study, thermodynamics stands out by highlighting some of nature's fundamental physical laws: the First, Second, Third, and even the Zeroth Laws of Thermodynamics. For a mechanical engineer, achieving a comprehensive education involves grasping the essence of these basic laws, which is essential for true intellectual development, and, moreover, it becomes imperative to not only comprehend the essence but also apply these laws effectively in practical engineering scenarios.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Concepts of Thermodynamics and the First Law",
+      "hours": 10,
+      "body": "Concepts of Thermodynamics: Definition, Classical and statistical thermodynamics, Macroscopic and microscopic approaches, thermodynamic system, state, boundary, surroundings and universe, thermodynamic properties, thermodynamic equilibrium, Quasi-static process, zeroth law of thermodynamics, work and heat transfer. The First Law of Thermodynamics: First law for a closed system; Application of the First Law to non-flow processes viz constant volume, constant pressure, constant internal energy processes; Reversible adiabatic and reversible polytropic processes; Steady Flow Energy Equation and its application to water, steam and gas turbines, pumps, compressors boilers, condensers, nozzles etc; Transient flow processes; PMM-I, Enthalpy."
+    },
+    {
+      "id": "II",
+      "title": "Properties of Fluids",
+      "hours": 12,
+      "body": "Properties of liquids and vapours; P-V, P-T, T-S and H-S diagrams for a pure substance (water), Tables of properties, Expansion of steam, hyperbolic, Isentropic and throttling processes; determination of dryness fraction, Properties of a perfect gas; Equation of state; Property relation for internal energy, enthalpy & heat capacities of an ideal gas, P-V-T surface, Triple point, Real gases, properties of real gases, Vander Waals equation, Reduced equation of state, Generalized compressibility charts, Virial equation. Properties of ideal gas mixtures."
+    },
+    {
+      "id": "III",
+      "title": "The Second Law of Thermodynamics",
+      "hours": 10,
+      "body": "Limitations of the First Law, Heat source & sink, Heat engine, Refrigerator & Heat Pump, The Second Law, Kelvin Planck and Clausius statements; Reversible & Irreversible processes; the Carnot theorem, Absolute temperature scale, Inequality of Clausius, characteristics of Entropy, Entropy change for open & closed systems, Third Law of Thermodynamics, Validity & limitations of the Laws of Thermodynamics."
+    },
+    {
+      "id": "IV",
+      "title": "General Thermodynamic Relations",
+      "hours": 8,
+      "body": "Maxwell Relations, specific heat relations, energy equations; relations between internal energy and entropy, Joule Thomson Coefficient, Clausius Clapeyron's equation, Application of thermodynamic relations. Availability and the Gibbs function, Availability of a closed system, Availability of steady flow system, The Gibbs function and the steady flow system."
+    }
+  ],
+  "outcomes": [
+    "Understand the basic concepts of thermodynamics such as heat, work, state etc.",
+    "Identify the properties of substances on property diagrams and obtain the data from property tables.",
+    "Apply First Law of Thermodynamics to open and closed systems.",
+    "Apply the Second Law of Thermodynamics and the concept of entropy to analyse the thermal efficiencies of heat engines."
+  ],
+  "textbooks": [
+    "Rogers, GFC & Mayhew, Y.R, Engg. Thermodynamics, ELBS",
+    "Nag, P.K., Engg. Thermodynamics, TMH",
+    "Achuthan, M., Engg. Thermodynamics, TMH.",
+    "Cengel and Boles, Thermodynamics: An Engineering Approach, McGraw Hill, 8th edition, 2015."
+  ]
+}

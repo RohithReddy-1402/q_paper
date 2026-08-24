@@ -1,0 +1,73 @@
+{
+  "Course Title": "Advanced Engineering Physics",
+  "Course Code": "PHIC-102",
+  "route": "course/phic-102",
+  "credits": 4,
+  "prerequisites": "PHIC101",
+  "Course Type": "IC",
+  "Branch": ["CE", "ME", "PIE"],
+  "semester": "2nd",
+  "ltpc": [2, 1, 2, 4],
+  "contactHours": 60,
+  "description": "This course, offered for CE, ME & PIE by the Department of Physics, consists of the mechanical and thermal properties of materials and their applications. The concepts of Magnetic Materials, Superconductors, and Nanotechnology are included for application in futuristic technologies.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Mechanical Properties of Materials",
+      "hours": 7,
+      "body": "Phase diagram, Gibbs phase rule, Binary phase diagram its types, solid solution: Hume Rothery Rules, Concepts of stress and strain, Stress-Strain diagrams; Tensile test; Elastic deformation, Plastic deformation. Impact Testing & toughness behavior. Hardness of materials, Imperfections and dislocations."
+    },
+    {
+      "id": "II",
+      "title": "Thermal Physics",
+      "hours": 7,
+      "body": "Seebeck effect, Peltier effect, Thomson effect, Kelvin relationships, Wiedemann-Franz law, Thermal equilibrium, Entropy, The laws of thermodynamics, Thermal conductivity of bulk materials, Phonons: lattice vibration heat transfer, specific heat of solids, classical, Einstein and Debye Model, Ideal quantum gases: Maxwell-Boltazmann, Bose-Einstein, and Fermi-Dirac statistics."
+    },
+    {
+      "id": "III",
+      "title": "Magnetic Materials and Superconductors",
+      "hours": 7,
+      "body": "Orbital diamagnetism, Magnetic moments, Classical theory of Paramagnetism, Ferromagnetism, Molecular field theory and domains, applications of magnetic materials, Type I and II Superconductors, London equation, Applications of superconductivity."
+    },
+    {
+      "id": "IV",
+      "title": "Nanotechnology",
+      "hours": 7,
+      "body": "Classifications of nanomaterials (3D, 2D, 1D and 0D) and their density of states, Nanocomposites, Carbon nanotubes (CNTs), Graphene, Nanoclusters, Structural, thermal and mechanical properties of nanomaterials, Bottom-up and Top-down synthesis processes, Basic characterization techniques for nanomaterials, Applications of nanotechnology."
+    }
+  ],
+  "experiments": [
+    "To find the value of Planck's constant by photo electric cell.",
+    "To measure Hall's co-efficient of Germanium and calculation of charge carrier concentration.",
+    "To measure the velocity of ultrasonic waves in organic liquids.",
+    "To study the decay of charge on a capacitor and to find its capacitance.",
+    "To determine the resistivity of a semiconductor by four probe method.",
+    "To determine the band gap of germanium from the variation of its resistivity with temperature.",
+    "To study the intensity response of a cadmium sulphide cell.",
+    "To calibrate a voltmeter by using potentiometer.",
+    "To study the shunting effect of a voltmeter on voltage measurement.",
+    "To measure i) Saturation magnetization ii) coercivity and iii) retentivity in a given ferromagnetic material.",
+    "To study the dielectric properties of a dielectric at different frequencies by resonance method.",
+    "To draw the I-V characteristics of a solar cell under constant illumination.",
+    "To verify Stefan's radiation law by using incandescent filament.",
+    "To verify the inverse square law of gamma ray using GM counter.",
+    "To calibrate an electromagnet using Guoy's balance.",
+    "To determine the moment of inertia using flywheel about its own axis of rotation.",
+    "To determine the acceleration due to gravity by compound pendulum."
+  ],
+  "outcomes": [
+    "Develop the skill to apply various physics concepts for advance engineering problems.",
+    "Apply fundamentals of mechanical and thermal properties of materials for technological applications.",
+    "Apply the concepts of Magnetic Materials, Superconductors, and Nanotechnology.",
+    "Design and develop materials for industrial applications."
+  ],
+  "textbooks": [
+    "D. K. Bhattacharya, \"Engineering Physics\", Oxford University Press, 2015.",
+    "Schroeder, V. Daniel, \"An introduction to thermal physics\", 1999."
+  ],
+  "referenceBooks": [
+    "Charles P. Poole, Jr and Frank J. Owens, \"Introduction to Nanotechnology\", John Wiley & Sons, 2006.",
+    "S. C. Garg, R. M. Bansal and C. K. Ghosh, \"Thermal physics\", Tata McGraw-Hill Education, 2013.",
+    "Wole Soboyejo, \"Mechanical Properties of Engineered Materials\", Marcel Dekker, 2003."
+  ]
+}

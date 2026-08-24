@@ -1,0 +1,40 @@
+{
+  "Course Title": "Constitution of India",
+  "Course Code": "HSNC-105",
+  "route": "course/hsnc-105",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Audit Course)",
+  "Branch": ["All"],
+  "semester": "Odd/Even",
+  "ltpc": [2, 0, 0, 2],
+  "description": "This Non-Conventional Institute Core (audit) course, offered by the Department of Humanities and Social Sciences, helps students from all walks of life realise the significance of the Constitution of India and understand its basic concepts, identify the importance of fundamental rights as well as fundamental duties, and understand the functioning of the Union, State and Local governments in the Indian federal system. It is qualifying in nature (Internal: 50 Marks, Total: 50 Marks).",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Constitution",
+      "body": "Meaning and Importance of the Constitution, Salient features of Indian Constitution. Preamble of the Constitution of India. Fundamental Rights. Directive Principles of State Policy and Fundamental Duties: their enforcement and their relevance."
+    },
+    {
+      "id": "II",
+      "title": "Union Government and Judiciary",
+      "body": "Union Executive: President, Vice-president, Prime Minister, Council of Ministers. Union Legislature: Parliament and Parliamentary proceedings. Appointment and Transfer of Supreme Court and High Court Judges, Powers and Functions."
+    },
+    {
+      "id": "III",
+      "title": "State Governments",
+      "body": "State Executive: Governor, Chief Minister, Council of Ministers. State Legislature: State Legislative Assembly and State Legislative Council."
+    }
+  ],
+  "outcomes": [
+    "Understand and explain the significance of Indian Constitution as the fundamental law of the land.",
+    "Exercise his fundamental rights in proper sense.",
+    "Analyse the Indian political and judiciary system."
+  ],
+  "referenceBooks": [
+    "M.V. Pylee, \"Introduction to the Constitution of India\", 4th Edition, Vikas publication, 2005.",
+    "Durga Das Basu, \"Introduction to the constitution of India\", (Student Edition), 19th edition, Prentice-Hall EEE, 2008.",
+    "Merunandan, \"Multiple Choice Questions on Constitution of India\", 2nd Edition, Meraga Publication.",
+    "R.C. Agarwal, (1997) \"Indian Political System\", S. Chand and Company, New Delhi."
+  ]
+}

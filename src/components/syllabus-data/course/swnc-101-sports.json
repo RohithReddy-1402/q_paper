@@ -1,0 +1,28 @@
+{
+  "Course Title": "Sports (NCC/Sports/Yoga option)",
+  "Course Code": "SWNC-101",
+  "route": "course/swnc-101-sports",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Co-curricular)",
+  "Branch": ["All"],
+  "semester": "1st-6th (Continuous Evaluation)",
+  "ltpc": [0, 4, 0, 2],
+  "description": "SWNC-101 is compulsory up to B.Tech 6th Semester, and students choose one of NCC, Sports or Yoga. This is the Sports option: Physical Education and Sports develop confidence, contributing to academic performance and mental health, and are a great way to relieve stress while promoting positive physical and mental health and enhanced learning aptitude. Each 90-minute class is split into an interactive orientation segment (Unit 1 topics) and a 60-minute practice segment (Unit 2) in a game/sport of the student's choice. Marks are distributed as: Class Attendance/Punctuality (10), Active Participation in Sports Related Activities such as CITIUS, RUN for Unity, Prabhat Pheri (30), Viva/Subject Knowledge (20), and a Practical Exam at the end of 6th Semester - Modified Fitness Test (40), out of a Total of 100. PWD students are exempted from physical activities and the Modified Physical Fitness Test.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Physical Education, Fitness and Sports Science",
+      "body": "Introduction to Physical Education: meaning, definition, aims and objectives. Sports awards and honours in India (Dronacharya Award, Arjuna Award, Dhyanchand Award, Rajiv Gandhi Khel Ratna Award etc.). Olympic Movement: Ancient & Modern Olympics (Summer & Winter), Olympic Symbols, Ideals, Objectives & Values. Physical Fitness, Wellness & Lifestyle: meaning, importance and components of physical and health-related fitness, preventing health threats through lifestyle change, concept of positive lifestyle and balanced diet. Fundamentals of Anatomy & Physiology: definition and importance, effect of exercise on circulatory, respiratory and neuro-muscular systems. Kinesiology, Biomechanics & Sports: meaning, importance, and biomechanical principles (laws of motion, friction, projectile etc.) applied to sports. Postures: meaning, causes of bad posture, advantages/disadvantages of weight training, common postural deformities (Knock Knee, Flat Foot, Round Shoulders, Lordosis, Kyphosis, Bow Legs, Scoliosis) and corrective measures. Training and Planning in Sports: meaning of training, warming up and limbering down, skill, technique & style. Psychology & Sports: definition and importance of psychology in physical education, growth vs development, adolescent problems and their management, emotions and their control, aggression in sports. Doping: meaning, concept, prohibited substances & methods, side effects. Sports Medicine: first aid definition/aims/objectives, classification, causes, prevention and management of soft tissue and bone & joint injuries."
+    },
+    {
+      "id": "2",
+      "title": "Practical - Sport Specific",
+      "body": "Each student compulsorily opts for one game/sport (out of Athletics, Badminton, Basketball, Chess, Cricket, Kabaddi, Lawn Tennis, Swimming, Table Tennis, Volleyball etc.) and is assessed on performance in that sport across all three years. For the chosen game/sport, students gain practical knowledge of: history of the game/sport, latest general rules, specifications of play fields and related sports equipment, important tournaments and venues, sports personalities, and proper sports gear and its importance."
+    }
+  ],
+  "referenceBooks": [
+    "Modern Trends and Physical Education by Prof. Ajmer Singh.",
+    "Health and Physical Education - NCERT"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "Course Title": "Yoga (NCC/Sports/Yoga option)",
+  "Course Code": "SWNC-101",
+  "route": "course/swnc-101-yoga",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Co-curricular)",
+  "Branch": ["All"],
+  "semester": "1st-6th (Continuous Evaluation)",
+  "ltpc": [0, 4, 0, 2],
+  "description": "SWNC-101 is compulsory up to B.Tech 6th Semester, and students choose one of NCC, Sports or Yoga. This is the Yoga option: Yoga education can immensely contribute to the health of students by disseminating knowledge and awareness about the value of health, and inculcating and nurturing health-promoting habits and lifestyle. Objectives are to enable good physical and mental health, improve cognitive ability, and improve the level of consciousness. Marks are distributed as: Class Attendance/Punctuality (10), Active Participation in Sports Related Activities (30), Viva/Subject Knowledge (20), and an End Semester Practical Exam - Yogic Practice (40), out of a Total of 100.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Yog",
+      "body": "Brief introduction to origin of Yog, Psychological aspects leading to origin of Yog, Hindu Mythological concepts about origin of Yog. History and Development of Yog. Etymology and Definitions of Yog, Aim and Objectives of Yog, Misconceptions about Yog, True Nature of Yog. General Introduction to Schools of Yog. Principles of Yog, Yog Practices for Health and Harmony."
+    },
+    {
+      "id": "II",
+      "title": "Yog and You",
+      "body": "Concept of Health - Aahaar, Nidra, Bharmacharaya, Viyayaam. Aarogya - Prevention, Cure and Remedies. Life Management and Development."
+    },
+    {
+      "id": "III",
+      "title": "Yog for Health Promotion",
+      "body": "Brief introduction to human body, Role of Yog for health promotion, Yogic attitudes and practices, Holistic approach of Yog towards health and diseases, Introduction to Yog diet and its relevance and importance in Yog Sadhana, Dincharya and Ritucharya with respect to Yogic lifestyle."
+    },
+    {
+      "id": "IV",
+      "title": "Yog as a Preventive Measure for Lifestyle Diseases",
+      "body": "Obesity: Procedure, Benefits & Contraindications for Tadasana, Katichakrasana, Pavanmuktasana, Matsyasana, Halasana, Pachimottansana, Ardha-Matsyendrasana, Dhanurasana, Ushtrasana, Suryabedhan pranayama. Diabetes: Procedure, Benefits & Contraindications for Katichakrasana, Pavanmuktasana, Bhujangasana, Shalabhasana, Dhanurasana, Supta-vajarasana, Paschimottanasana, Ardha-Mastendrasana, Mandukasana, Gomukhasana, Yogmudra, Ushtrasana, Kapalbhati. Asthma: Procedure, Benefits & Contraindications for Tadasana, Urdhwahastottansana, UttanMandukasana, Bhujangasana, Dhanurasana, Ushtrasana, Vakrasana, Kapalbhati, Gomukhasana, Matsyaasana, Anuloma-Viloma. Hypertension: Procedure, Benefits & Contraindications for Tadasana, Katichakransan, Uttanpadasana, Ardha Halasana, Sarala Matyasana, Gomukhasana, UttanMandukasana, Vakrasana, Bhujangasana, Makarasana, Shavasana, Nadishodhanapranayam, Sitlipranayam."
+    },
+    {
+      "id": "V",
+      "title": "Yogic Practice",
+      "body": "Yogic Suksma Vyayama (subtle exercises) for the throat and voice, will power, memory, intellect, eyes, cheeks, ears, neck, shoulders, arms, wrists, fingers, chest, abdomen, waist, rectum, genital organs, kundalini, thighs, knees, calves, ankles, feet and toes, including Uccharana-sthalatatha Vishudha-chakra-shuddhi and Prarthana (Prayer). Yogasana: sitting postures (Dandasana, Swastikasana, Padmasana, Vajrasana, Supta Vajrasana, Kagasana, Utkatasana, Gomukhasana, Ushtrasana, Shashankasana, Janusirasana, Paschimottanasana, Bhramacharyasana, Mandukasana, Uttha Mandukasana, Vakrasana, Ardha Matsyendrasana, Marichyasana, Simhasana); supine lying postures (Pavanamuktasan, Utthana-padasana, Ardha Halasana, Halasana, Setubandha Sarvangasana, Sarvangasana, Matsyasana, Chakrasana, Shavasana); prone lying postures (Makarasana, Bhujangasana, Shalabhasana, Dhanurasana, Kapotasana, Raja Kapotasana); and further advanced postures (Siddhasana, Bhadrasana, Baddha Padmasana, Uttitha Padmasana, Bhunamanasana, Hanumanasana, Bakasana, Kukkutasana, Garbhasana, Matsyendrasana, Marjariasana, Padangusthasana, Hastapadangusthasana, Garudasana, Vatayanasana, Natarajasana, Mayurasana, Padma Mayurasana, Sirshasana and its variations, Ekapada and Dwipada Kandarasana). Pranayama (with Antar & Bahya Kumbhaka): Surya-bhedi and Chandra-bhedi Pranayama, Ujjayi Pranayama, Sheetali Pranayama, Shitkari Pranayama, Bhastrika Pranayama. Bandha: Jivha Bandha, Jalandhara Bandha, Uddiyana Bandha, Mula Bandha, Maha Bandha, Tri Bandha. Practices leading to Meditation: Ajapa Dharana, Yog Nidra, practices leading to Breath Meditation and Om Meditation. Mudras: Yog Mudra, Maha Mudra, Shanmukhi Mudra, Shambhavi Mudra, Kaki Mudra, Tadagi Mudra, Vipareet Karni Mudra, Simha Mudra."
+    }
+  ]
+}

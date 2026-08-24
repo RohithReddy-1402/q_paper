@@ -1,0 +1,74 @@
+{
+  "Course Title": "Advanced Engineering Physics",
+  "Course Code": "PHIC-104",
+  "route": "course/phic-104",
+  "credits": 4,
+  "prerequisites": "PHIC101",
+  "Course Type": "IC",
+  "Branch": ["EE"],
+  "semester": "2nd",
+  "ltpc": [2, 1, 2, 4],
+  "contactHours": 60,
+  "description": "This course, offered for the EE branch by the Department of Physics, provides the knowledge of the electrical and magnetic fields for simple configurations under static and dynamic electromagnetism relevant to engineering systems and devices. The propagation of EM waves and Maxwell's equation in different forms and different media are elaborated.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Vector Calculus, Electrodynamics and Electrostatics",
+      "hours": 6,
+      "body": "Vector Calculus & Electrodynamics: Vectors, Gradient, Divergence, Curl and their physical significance, Divergence theorem, Stoke's theorem. Electrostatics: Electric field due to distributed charges configurations lines of charges, Uniform plane surface and spherical volume charge distributions: Behavior of conductors and dielectric in electrostatic fields, Boundary conditions."
+    },
+    {
+      "id": "II",
+      "title": "Magnetostatics",
+      "hours": 8,
+      "body": "Biot-Savart's Law, Ampere's Circuital Law and their Applications, capacitance and inductance calculations for simple configurations; Time varying fields - displacement current, wave equation for Poynting vector, electromagnetic radiation, electromagnetic wave propagation in free space and isotropic dielectric medium, Boundary conditions, Poynting theorem, Maxwell's equations."
+    },
+    {
+      "id": "III",
+      "title": "Magnetic Materials and Superconductors",
+      "hours": 6,
+      "body": "Magnetization M, relation between B, H & M, Bohr magneton, Hysteresis loss, Antiferromagnetism, Ferromagnetism & Ferrites, Orbital diamagnetism, Atomic magnetic moments, orbital diamagnetism, Classical theory of Paramagnetism, Ferromagnetism, molecular field theory and domains, applications of magnetic materials, Type I and II Superconductors, London equation, Applications of superconductivity."
+    },
+    {
+      "id": "IV",
+      "title": "Electromagnetic Theory and Wave Guides",
+      "hours": 8,
+      "body": "Electromagnetic Theory: Wave equation, Uniform plane waves, Plane wave propagation in dielectric and conducting media, Reflection and refraction of plane wave (Normal incidence), Wave propagation in bounded media, Ground waves, Sky waves and space waves. Wave Guides: Parallel plane guide, TE, TM and TEM waves, Rectangular and cylindrical wave guides, resonators and Planes transmission line; Strip lines, Micro strip line."
+    }
+  ],
+  "experiments": [
+    "To find the value of Planck's constant by photo electric cell.",
+    "To measure Hall's co-efficient of Germanium and calculation of charge carrier concentration.",
+    "To measure the velocity of ultrasonic waves in organic liquids.",
+    "To study the decay of charge on a capacitor and to find its capacitance.",
+    "To determine the resistivity of a semiconductor by four probe method.",
+    "To determine the band gap of germanium from the variation of its resistivity with temperature.",
+    "To study the intensity response of a cadmium sulphide cell.",
+    "To calibrate a voltmeter by using potentiometer.",
+    "To study the shunting effect of a voltmeter on voltage measurement.",
+    "To measure i) Saturation magnetization ii) coercivity and iii) retentivity in a given ferromagnetic material.",
+    "To study the dielectric properties of a dielectric at different frequencies by resonance method.",
+    "To draw the I-V characteristics of a solar cell under constant illumination.",
+    "To verify Stefan's radiation law by using incandescent filament.",
+    "To verify the inverse square law of gamma ray using GM counter.",
+    "To calibrate an electromagnet using Guoy's balance.",
+    "To determine the moment of inertia using flywheel about its own axis of rotation.",
+    "To determine the acceleration due to gravity by compound pendulum."
+  ],
+  "outcomes": [
+    "Understand the physics underlying the electric and magnetic fields.",
+    "Understand the operation mechanism of basic laws of electromagnetism relevant to the engineering principles of materials and devices.",
+    "Understand the applications of EM waves, Maxwell's equation in different forms and different media."
+  ],
+  "textbooks": [
+    "M. N. O. Sadiku, Elements of Electromagnetics, Oxford University Publication, 2014.",
+    "W. Hayt, Engineering Electromagnetics, McGraw Hill Education, 2012."
+  ],
+  "referenceBooks": [
+    "A. Pramanik, Electromagnetism-Problems with solution, Prentice Hall India, 2012.",
+    "Jaspreet Singh, John Wiley, Semiconductor Devices-Basic Principles, publication 2008.",
+    "Arthur Beiser, Tata McGraw Hill, Concept of Modern Physics, publication 2003.",
+    "Pramanik, Electromagnetism - Theory and applications, PHI Learning Pvt. Ltd, New Delhi, 2009.",
+    "A. S. Vasudeva, Modern Engineering Physics, S. Chand."
+  ]
+}

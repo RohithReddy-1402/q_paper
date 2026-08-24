@@ -1,0 +1,36 @@
+{
+  "Course Title": "Japanese Language Skills",
+  "Course Code": "HSNC-110",
+  "route": "course/hsnc-110",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "NC (Audit Course)",
+  "Branch": ["All"],
+  "semester": "Odd/Even",
+  "ltpc": [2, 0, 0, 2],
+  "description": "This Non-Conventional Institute Core (audit) course, offered by the Department of Humanities and Social Sciences, introduces basic language skills in Japanese and builds confidence among students in speaking Japanese with correct pronunciation. It is qualifying in nature (Internal: 50 Marks, Total: 50 Marks).",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Basic Elements of Vocabulary and Grammar",
+      "body": "Introduction to fundamental Japanese vocabulary and grammar structures."
+    },
+    {
+      "id": "II",
+      "title": "Translation",
+      "body": "English to Japanese, Japanese to English."
+    },
+    {
+      "id": "III",
+      "title": "Introduction to Culture and Civilization",
+      "body": "Short questions on day-to-day life in Japan i.e. names of cities, rivers, mountains, periodicals, authors, important abbreviations, etc."
+    }
+  ],
+  "outcomes": [
+    "Learn and communicate effectively in Japanese Language on a day-to-day basis.",
+    "Manage basic communication in Japanese."
+  ],
+  "referenceBooks": [
+    "Minna no Nihongo (1-1), Goyal Publishers - Chapters 01 to 12"
+  ]
+}
