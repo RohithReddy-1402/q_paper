@@ -5,9 +5,20 @@
   "credits": 4,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["CoE", "IT", "AI & ML", "M&C"],
+  "Branch": [
+    "CS",
+    "CoE",
+    "IT",
+    "AI & ML",
+    "M&C"
+  ],
   "semester": "2nd",
-  "ltpc": [4, 0, 0, 4],
+  "ltpc": [
+    4,
+    0,
+    0,
+    4
+  ],
   "description": "This course, offered by the Department of Computer Engineering, builds awareness of intricate design details of components in any digital system, knowledge of number systems and conceptual understanding of different codes, design fundamentals of computing machinery, and introduces the computational automation process.",
   "syllabus": [
     {

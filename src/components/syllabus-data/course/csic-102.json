@@ -5,9 +5,22 @@
   "credits": 2.5,
   "prerequisites": "NA",
   "Course Type": "IC (treated as practical course)",
-  "Branch": ["CoE", "ECE", "IT", "AI & ML", "IIOT", "M&C"],
+  "Branch": [
+    "CS",
+    "CoE",
+    "ECE",
+    "IT",
+    "AI & ML",
+    "IIOT",
+    "M&C"
+  ],
   "semester": "2nd",
-  "ltpc": [1, 0, 3, 2.5],
+  "ltpc": [
+    1,
+    0,
+    3,
+    2.5
+  ],
   "description": "This course, offered by the Department of Computer Engineering, introduces the World Wide Web (WWW), web essentials (HTML, XHTML, CSS), web standards, client requirements and principles of web page design, and web architecture. It is treated as a practical course (not integrated); evaluation is as per practical course norms.",
   "syllabus": [
     {

@@ -1,0 +1,69 @@
+{
+  "branch": "CS",
+  "branchName": "Computer Science and Engineering",
+  "semester": 3,
+  "title": "B. Tech. Computer Science and Engineering Semester 3",
+  "totalCredits": 20,
+  "rows": [
+    {
+      "type": "core",
+      "code": "MAIC-201",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-201",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-203",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-205",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-207",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-209",
+      "ltpc": [
+        1,
+        0,
+        2,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Course Title": "Software Development using UML and Agile Methodology",
+  "Course Code": "CSPE-210",
+  "route": "course/cspe-210",
+  "credits": 4,
+  "prerequisites": "CSPC-207 (Software Engineering)",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "The objective of this course is to prepare students for software development using UML and agile methodology.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "UML Fundamentals",
+      "body": "Overview of UML, modelling concepts - systems, models and views, data types, classes, abstract classes and objects, event classes, events and messages, object-oriented modelling. A deeper view: use case, object, class, sequence, collaboration, interaction overview, state machine, activity, component, deployment, package and timing diagrams."
+    },
+    {
+      "id": "2",
+      "title": "Agile Fundamentals",
+      "body": "What is Agile? Why Agile? Scrum, overview of PMI-ACP certification, the Agile Manifesto and its twelve principles. Agile concepts: Scrum, Extreme Programming, Test Driven Development, Continuous Integration, Refactoring, Pair Programming, Simple Design, User Stories, Agile Testing, Agile Tools, Burndown chart."
+    },
+    {
+      "id": "3",
+      "title": "Managing Projects with Scrum",
+      "body": "The rules of Scrum, Scrum roles – Product Owner, Scrum Master, Scrum Team, Scrum events, artifacts, product backlog, sprint backlog, user stories, sprint planning."
+    },
+    {
+      "id": "4",
+      "title": "Agile Software Development in Practice",
+      "body": "Lean Software Development, Kanban, Jira, Asana, Trello, Slack, Version Control. Using Patterns: what is a pattern, properties of patterns, Layer Pattern, Broker Pattern, Pipe and Filter Pattern, Model-View-Controller Pattern."
+    }
+  ],
+  "outcomes": [
+    "Understand the concepts of UML and UML diagrams during object-oriented analysis and design.",
+    "Perform software development and process control using agile and scrum methodology.",
+    "Use tools and techniques such as Kanban, Jira, Asana, Trello, Slack for Agile Software Development.",
+    "Justify designs based on design principles, patterns, and heuristics."
+  ],
+  "textbooks": [
+    "Bernd Bruegge & Allen H. Dutoit, Object-Oriented Software Engineering Using UML, Patterns, and Java, Third Edition, Pearson.",
+    "Andrew Stellman & Jennifer Greene, Head First Agile, O'Reilly Media, 2017.",
+    "Len Bass, Paul Clements, Rick Kazman, Software Architecture in Practice, Pearson Education, Third edition, 2013."
+  ],
+  "referenceBooks": [
+    "Ken Schawber, Mike Beedle, Agile Software Development with Scrum, Pearson, 2001."
+  ]
+}

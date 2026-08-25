@@ -1,0 +1,60 @@
+{
+  "Course Title": "Modern Network Security",
+  "Course Code": "CSPE-409",
+  "route": "course/cspe-409",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To comprehend the importance of network security and recognize various network security threats. To apply knowledge of IP security protocols, transport-level security mechanisms, and email security standards to secure network communications. To understand the security concerns in wireless networks and implement security measures for wireless LANs and mobile devices. To deploy and configure firewalls and intrusion detection/prevention systems to protect network infrastructure. To understand and secure modern network architectures.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Fundamentals of Network Security",
+      "body": "Need for network security, challenges for a secure network, OSI security architecture, introduction to cryptography, network security threats: brute force, DDoS, botnets, ARP poisoning, IP spoofing, malware, SQL injection, XSS vulnerability."
+    },
+    {
+      "id": "2",
+      "title": "End-to-End Security",
+      "body": "IP security: the IPSec protocol, authentication header, encapsulating security payload, internet key exchange, IPv6 and mobile IPv6 security; transport-level security: SSL and TLS; electronic mail security: S/MIME, DNS security, DomainKeys Identified Mail."
+    },
+    {
+      "id": "3",
+      "title": "Wireless Network Security",
+      "body": "Wireless security, mobile device security, IEEE 802.11 wireless LAN overview, IEEE 802.11i wireless LAN security."
+    },
+    {
+      "id": "4",
+      "title": "Firewalls and IDS/IPS",
+      "body": "Need for firewalls, types of firewalls, firewall location and configurations, virtual private networks, honeypots, intrusion prevention systems, applications of machine and deep learning for intrusion detection."
+    },
+    {
+      "id": "5",
+      "title": "Modern Network Architectures Security",
+      "body": "SDN architecture and components, traditional networks vs. SDN, security requirements and threats to SDN, software-defined security; NFV security: attack surfaces, security techniques."
+    }
+  ],
+  "outcomes": [
+    "Ability to articulate the fundamental principles of network security, and analyze different network security threats.",
+    "Ability to implement end-to-end security, including IPSec, SSL/TLS, and S/MIME, to ensure secure communication.",
+    "Ability to apply security measures to protect wireless networks and mobile devices against potential threats.",
+    "Ability to configure and manage firewalls and intrusion detection/prevention systems to enhance network security.",
+    "Ability to understand and secure modern network architectures such as SDN and NFV."
+  ],
+  "textbooks": [
+    "William Stallings and Brown Lowrie, Computer Security: Principles and Practice, Pearson, Fourth Edition, 2018.",
+    "William Stallings, Cryptography and Network Security: Principles and Practice, Seventh Edition, Pearson, 2017.",
+    "William Stallings, Foundations of Modern Networking: SDN, NFV, QoE, IoT, and Cloud, Pearson, 2016."
+  ],
+  "referenceBooks": [
+    "Atul Kahate, Cryptography and Network Security, Tata McGraw-Hill, Third Edition, 2013."
+  ]
+}

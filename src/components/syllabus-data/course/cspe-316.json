@@ -1,0 +1,56 @@
+{
+  "Course Title": "Advanced Topics in Computer Networks",
+  "Course Code": "CSPE-316",
+  "route": "course/cspe-316",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To give the students an understanding of the principles behind the latest advances in network technology from the physical to application layer.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to IPv6",
+      "body": "IPv6 protocol architecture, addressing, headers, static & automatic address configuration, ICMPv6, neighbor discovery, IPsec, authentication header, encapsulation security payload, transport and tunnel mode, interoperation concepts, dual stack servers, tunnelling and header translation."
+    },
+    {
+      "id": "2",
+      "title": "Mobile IP",
+      "body": "Mobile IPv4, mobile IPv6, enhanced/fast handover schemes, network mobility (NEMO), hierarchical mobile IPv6, security in mobile IP, VPN problems & solutions, bidirectional tunneling & route optimization, DHCPv6."
+    },
+    {
+      "id": "3",
+      "title": "Software Defined Networking",
+      "body": "SDN background and motivation, SDN data plane and OpenFlow, control plane, application plane, Network Function Virtualization (NFV) architecture and concepts."
+    },
+    {
+      "id": "4",
+      "title": "Congestion Control in Wired and Wireless Networks",
+      "body": "TCP congestion control – fairness, scheduling and delay modeling, QoS issues, differentiated services, transport layer in wireless networks, IEEE 802.11a/b/n/g/p, 802.15 standards for wireless."
+    },
+    {
+      "id": "5",
+      "title": "IoT and Cloud",
+      "body": "IoT architecture, working with IoT technologies - Bluetooth, Zigbee, BLE and LoRA, CoAP and MQTT, IoT security, cloud system architectures and working with virtualization, cloud security."
+    }
+  ],
+  "outcomes": [
+    "Understand computer network basics, different models used for study of computer networks, and issues surrounding wired and wireless networks.",
+    "Design, calculate, and apply subnet masks to fulfil networking requirements and build routing skills.",
+    "Analyse the features and operations of various application layer protocols such as HTTP, DNS, SMTP and FTP.",
+    "Analyse the requirements for a given organizational structure and select the most appropriate networking architecture and technologies."
+  ],
+  "referenceBooks": [
+    "Youngsong Mun and Hyewon Keren Lee, Understanding IPv6, Springer, 2010.",
+    "William Stallings, Foundations of Modern Networking: SDN, NFV, QoE, IoT, and Cloud, 2015.",
+    "Rajeev S. Koodli and Charles E. Perkins, Mobile Inter-networking with IPv6, Wiley, 2007."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Course Title": "Knowledge Representation and Reasoning",
+  "Course Code": "CSTC-310",
+  "route": "course/cstc-310",
+  "credits": 4,
+  "prerequisites": "Some exposure to formal languages, logic and programming",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "An understanding of formal logic. Familiarity with representations for several core domains. Hands-on experience creating and using knowledge representations.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Logic Foundations",
+      "body": "Propositional logic: syntax and semantics, proof systems, natural deduction, tableau method, resolution method; First Order Logic (FOL): syntax and semantics, unification, forward chaining."
+    },
+    {
+      "id": "2",
+      "title": "Rule-Based and FOL Representation",
+      "body": "The Rete algorithm, programming rule based systems, representation in FOL, categories and properties, reification, event calculus, deductive retrieval, backward chaining, logic programming with Prolog."
+    },
+    {
+      "id": "3",
+      "title": "Description Logic",
+      "body": "Resolution refutation in FOL, FOL with equality, complexity of theorem proving, Description Logic (DL), structure matching, classification, the ALC language, inheritance in taxonomies."
+    },
+    {
+      "id": "4",
+      "title": "Non-monotonic Reasoning",
+      "body": "Default reasoning, circumscription, the event calculus revisited, default logic, autoepistemic logic, epistemic logic, multi agent scenarios."
+    }
+  ],
+  "outcomes": [
+    "Describe, apply and demonstrate syntactic and semantic formal models for natural language processing.",
+    "Apply and demonstrate knowledge-based learning methods.",
+    "Write Prolog programs to solve automated reasoning tasks and explain how they will execute.",
+    "Apply reasoning techniques (transformation to clausal form, resolution, saturation) to establish properties of first-order problems."
+  ],
+  "textbooks": [
+    "Ronald J. Brachman, Hector J. Levesque, Knowledge Representation and Reasoning, Morgan Kaufmann, 2004.",
+    "Deepak Khemani, A First Course in Artificial Intelligence, McGraw Hill Education (India), 2013."
+  ]
+}

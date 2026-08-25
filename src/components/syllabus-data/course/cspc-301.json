@@ -1,0 +1,52 @@
+{
+  "Course Title": "Theory of Computation",
+  "Course Code": "CSPC-301",
+  "route": "course/cspc-301",
+  "credits": 3,
+  "prerequisites": "MAIC-201",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "The objective of this course is to give students a clear understanding of concepts of formal languages, grammars and formal methods of computation.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Finite Automata",
+      "body": "Introduction to Finite State Machine, Moore and Mealy FSMs, Equivalence, Minimal Finite Automata, unions, Intersections and complement of FA, NFA, NFA with null transitions, Equivalence."
+    },
+    {
+      "id": "2",
+      "title": "Regular Languages",
+      "body": "Regular expressions, memory required to recognize a language, Distinguishing one string from another, Criterion for Regularity, The pumping lemma, decision problems, Equivalence of FA and regular expressions, Arden's Theorem, Non-determinism and Kleene's Theorem."
+    },
+    {
+      "id": "3",
+      "title": "Context-Free Grammars",
+      "body": "Definition of CFG, examples of familiar languages, unions, concatenations and closures of CFLs, Derivation Tree, Ambiguity, unambiguous CFG for algebraic expressions, CNF, GNF, Push down automata, deterministic PDA, PDA to CFG and vice versa, Context Free and Non Context Free Languages, Pumping lemma for CFG, Intersection and complements of CFL."
+    },
+    {
+      "id": "4",
+      "title": "Turing Machines",
+      "body": "Turing Machine Definition, Turing Machines as Language acceptors, combining TM, computing Partial Functions with TM. Recursively Enumerable and Recursive Languages, Regular Grammars, Context Sensitive grammars, Chomsky Hierarchy. Concept of insolvability & reducibility, Halting Problem, Post correspondence Problem, Rice theorem, P and NP, Polynomial-Time reductions and NP-Completeness."
+    }
+  ],
+  "outcomes": [
+    "Understand the foundations of finite automata (deterministic or non-deterministic), FSM and master regular languages.",
+    "Be exposed to types of languages (type-0, type-1, type-2, type-3), context-free languages (type-2) and using pushdown automata (PDA) as its acceptor.",
+    "Design Turing machines for various mathematical function and string function problems.",
+    "Demonstrate the concept of decidability, unsolvability and recursive languages."
+  ],
+  "referenceBooks": [
+    "John C. Martin: Introduction to Languages and the Theory of Computation, MGH.",
+    "Lewis & Papadimitriou: Elements of the Theory of Computation, PHI.",
+    "Daniel I.A. Cohen: Introduction to Computer Theory, John Wiley.",
+    "J.E. Hopcroft and J.D. Ullman: Introduction to Automata Theory Languages and Computation, Narosa."
+  ]
+}

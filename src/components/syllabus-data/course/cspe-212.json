@@ -1,0 +1,56 @@
+{
+  "Course Title": "Competitive Programming and Efficient Coding For Problem Solving",
+  "Course Code": "CSPE-212",
+  "route": "course/cspe-212",
+  "credits": 4,
+  "prerequisites": "CSPC-100, CSPC-201 (Data Structures, Design and Analysis of Algorithms)",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Identifying multiple alternate coding solutions of problems discussed in programming tests and competitive problems (CP) and developing understanding of their efficiency issues. Designing and developing brute-force solutions followed by time/space efficient solutions for CP problems. Learning commonly used problem solving approaches and applying them for coding solutions to new problems.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Overview of Efficient Coding for Problem Solving and CP",
+      "body": "Introduction to competitive programming; revisit of complexity analysis; introduction to online platforms such as CodeChef, Codeforces and online submission; constraints during CP, online testing process and common errors such as TLE; use of STL."
+    },
+    {
+      "id": "2",
+      "title": "Use of Number Theory for Problem-Solving",
+      "body": "Reducing time/space complexity of brute force coding solution of Sieve Method, Inverse Module, Euclidean Method of factorization; efficient coding for Permutation Combination; XORing based and pattern-based solutions."
+    },
+    {
+      "id": "3",
+      "title": "Coding for Optimizing Time and Space using Sequential Storage",
+      "body": "Two pointer approach; problem-solving using arrays and strings such as rotation on sorted arrays, duplicate removal, string matching algorithms; Kadane's algorithm, stacks, priority-queues and hashing based efficient coding; median based problems and alternate solutions."
+    },
+    {
+      "id": "4",
+      "title": "Applying Non-Linear Data Structures for Real-life Problems",
+      "body": "Design of efficient solutions for problems such as finding loops in a linked list, memory efficient DLL, block reversal in LL; problem solving using trees and binary trees, Catalan numbers, applications of graphs, spanning tree and path algorithms for CP problems with reduced time/space complexity."
+    },
+    {
+      "id": "5",
+      "title": "CP Problem Solving using Advanced Topics",
+      "body": "Concept of disjoint sets and their efficient representation, algorithmic approaches such as Greedy, Backtracking, Dynamic Programming and applying them for CP problems using bottom-up dynamic programming."
+    }
+  ],
+  "outcomes": [
+    "Understanding the issues of online platforms and Competitive Programming (CP) and developing brute force coding for commonly asked CP problems.",
+    "Analyzing the space and time complexity of brute force solutions and designing efficient solutions.",
+    "Evaluating the applicability of suitable algorithmic approaches to solve relevant CP problems.",
+    "Creating efficient solutions of CP problems using the learnt algorithmic approaches."
+  ],
+  "textbooks": [
+    "Karumanchi, Data Structures and Algorithms Made Easy, CareerMonk Publications, 2017.",
+    "G L McDowell, Cracking the Coding Interviews, CareerCup Publications, 2016.",
+    "geeksforgeeks.org; codechef.com, spoj.com, codeforces.com, interviewbit.com."
+  ]
+}

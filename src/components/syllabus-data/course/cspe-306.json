@@ -1,0 +1,57 @@
+{
+  "Course Title": "Image Processing",
+  "Course Code": "CSPE-306",
+  "route": "course/cspe-306",
+  "credits": 4,
+  "prerequisites": "Basic knowledge of mathematics and programming",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Introduction to image processing. The understanding of simple mathematics applied for image processing. Implement image processing algorithms. Learning the simple filters and transformation methods. Introduction to color image processing.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Digital image processing applications, fundamental steps and components of an image processing system, image sensing and acquisition, image sampling and quantization, basic relationships between pixels, mathematical tools used in digital image processing."
+    },
+    {
+      "id": "2",
+      "title": "Intensity Transformations and Spatial Filtering",
+      "body": "Image negatives, log and power-law (gamma) transformations, piecewise-linear transformation functions, histogram equalization and matching, local histogram processing, spatial filtering, correlation and convolution, smoothing linear filters, Laplacian, the gradient."
+    },
+    {
+      "id": "3",
+      "title": "Frequency Domain Processing",
+      "body": "Complex numbers, Fourier series, the Fourier transform of continuous and sampled functions, the sampling theorem, discrete Fourier transform (DFT) and its properties."
+    },
+    {
+      "id": "4",
+      "title": "Filtering in the Frequency Domain",
+      "body": "Ideal, Butterworth and Gaussian lowpass and highpass filters, the Laplacian in the frequency domain, unsharp masking, highboost filtering, homomorphic filtering, the Fast Fourier Transform (FFT)."
+    },
+    {
+      "id": "5",
+      "title": "Color Image Processing",
+      "body": "The RGB, CMY/CMYK and HSI color models, intensity slicing, intensity to color transformations, color complements, color slicing, tone and color corrections, color image smoothing and sharpening."
+    }
+  ],
+  "outcomes": [
+    "Students will be able to understand the basics of image processing.",
+    "They will understand the applications of matrix, Fourier transformation and other mathematics.",
+    "Hands-on practice in the lab will provide deep knowledge and connectivity for the students."
+  ],
+  "textbooks": [
+    "Gonzalez and Woods, Digital Image Processing, 3/e, Prentice Hall, 2007.",
+    "M Sonka et al., Image Processing: Analysis and Machine Vision, 3/e, Cole Pub. Co., 2008."
+  ],
+  "referenceBooks": [
+    "Wilhelm Burger and Mark J. Burge, Principles of Digital Image Processing, Springer, 2009."
+  ]
+}

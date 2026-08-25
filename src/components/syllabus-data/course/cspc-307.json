@@ -1,0 +1,57 @@
+{
+  "Course Title": "Information Security",
+  "Course Code": "CSPC-307",
+  "route": "course/cspc-307",
+  "credits": 3,
+  "prerequisites": "CSPC-202 (Computer Networks)",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To introduce the concept of information security, and number theory. To make students familiar with different aspects of access control, system security and its applications. To make students familiar with various cryptographic algorithms. To design security solutions for different operating systems and networks.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Information Security",
+      "body": "Meaning of information security, privacy, vulnerability, threat, attack, CIA Triad, CNSS Security Model, components of an information system, OSI Security Architecture, model for network security, network access security model, access control."
+    },
+    {
+      "id": "2",
+      "title": "Introduction to Number Theory",
+      "body": "Divisibility, Division Algorithm, Euclidean Algorithm, Extended Euclidean Algorithm, Fast exponentiation Algorithm; Modular Arithmetic, Congruences, Chinese Remainder Theorem, Algebraic structures, Galois Fields."
+    },
+    {
+      "id": "3",
+      "title": "Introduction to Cryptography",
+      "body": "Private Key Cryptography: traditional and modern symmetric-key ciphers, DES, AES, block cipher modes of operation; Public Key Cryptography: trapdoor one-way function, RSA, Diffie-Hellman key exchange, cryptographic hash function, digital signature."
+    },
+    {
+      "id": "4",
+      "title": "System and Operating Security",
+      "body": "Overview, security policy, file protection mechanisms, user authentication, security models, trusted OS design, host/network based intrusion detection and prevention systems."
+    },
+    {
+      "id": "5",
+      "title": "Network Security",
+      "body": "Network security concepts, network threats, security controls, firewalls, protecting programs and data, secure program, sniffing, spoofing, malware, viruses and other malicious code, honeypot, SDN security, IoT security."
+    }
+  ],
+  "outcomes": [
+    "Understand the information security and number theory concepts.",
+    "Analyse different aspects of access control, system security and its applications.",
+    "Understand and analyse various cryptographic algorithms.",
+    "Design and develop security solutions for different operating systems and networks."
+  ],
+  "textbooks": [
+    "Charles P. Pfleeger, Share Lawrence Pfleeger, Security in Computing, Pearson Education, 2/e.",
+    "William Stallings, Cryptography and Network Security, PHI, 7/e.",
+    "Neal Koblitz, A Course in Number Theory and Cryptography, Springer 2006.",
+    "B.A. Forouzan, Cryptography and Network Security, McGraw-Hill, 3/e."
+  ]
+}

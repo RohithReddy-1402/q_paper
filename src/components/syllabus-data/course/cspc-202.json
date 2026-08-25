@@ -1,0 +1,53 @@
+{
+  "Course Title": "Computer Networks",
+  "Course Code": "CSPC-202",
+  "route": "course/cspc-202",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understand computer network basics, different models used for study of computer networks, ability to identify different designs, understanding of the issues surrounding wired and wireless networks. Design, calculate, and apply subnet masks to fulfil networking requirements and build routing skills. Analyse the features and operations of various application layer protocols such as HTTP, DNS, SMTP and FTP. Analyse the requirements for a given organizational structure and select the most appropriate networking architecture and technologies. Familiarity with the basic protocols of computer networks, and how they can be used to assist in network design and implementation.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "History and development of computer networks, Network Functions, Network Topology, Network Services, Switching Approaches, Transmission media and systems, OSI Reference Model, Overview of TCP/IP architecture."
+    },
+    {
+      "id": "2",
+      "title": "Physical, MAC and Data Link Layer",
+      "body": "Different types of transmission media, errors in transmission, multiplexing and signalling techniques, Encoding (NRZ, NRZI, Manchester, 4B/5B, etc). Aloha, CSMA, CSMA/CD, CSMA/CA protocols, Ethernet including Gigabit Ethernet and WiFi (802.11), Token Ring, Bluetooth and Zigbee. Error detection, Sliding Window, Stop and Wait protocols, ARQ, HDLC, PPP protocols."
+    },
+    {
+      "id": "3",
+      "title": "Network Layer",
+      "body": "Internet Protocol, IPv6, ARP, DHCP, ICMP, Routing algorithms: Distance vector, Link state, Metrics, Inter-domain routing. Subnetting, Classless addressing, Network Address Translation, IPv4 to IPv6 Translation strategies, Datagrams and Virtual Circuits, Structure of Switch/Router, Traffic management and QoS – FIFO, Priority Queues, Fair Queuing, MPLS."
+    },
+    {
+      "id": "4",
+      "title": "Transport and Application Layer",
+      "body": "UDP, TCP. Connection establishment and termination, sliding window revisited, flow and congestion control, timers, retransmission, TCP extensions, etc. Client Server Model, HTTP, DNS, SMTP, FTP, and TFTP."
+    }
+  ],
+  "outcomes": [
+    "Understand computer network basics, different models used for study of computer networks, and issues surrounding wired and wireless networks.",
+    "Design, calculate, and apply subnet masks to fulfil networking requirements and build routing skills.",
+    "Analyse the features and operations of various application layer protocols such as HTTP, DNS, SMTP and FTP.",
+    "Analyse the requirements for a given organizational structure and select the most appropriate networking architecture and technologies.",
+    "Familiarity with the basic protocols of computer networks, and how they can be used to assist in network design and implementation."
+  ],
+  "textbooks": [
+    "Behrouz A. Forouzan: Data Communications and Networks, Fifth Edition, McGraw Hill, 2017.",
+    "Leon Garcia and Indra Widjaja: Communication Networks – Fundamental Concepts and Key Architectures, Second Edition TMH.",
+    "A.S. Tanenbaum: Computer Networks, Sixth Edition, Pearson Education, 2022.",
+    "William Stallings: Data and Computer Communications 10/e, Pearson Education."
+  ]
+}

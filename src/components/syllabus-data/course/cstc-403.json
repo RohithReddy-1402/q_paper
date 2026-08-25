@@ -1,0 +1,50 @@
+{
+  "Course Title": "Cloud Architecture and Networking",
+  "Course Code": "CSTC-403",
+  "route": "course/cstc-403",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To understand the concepts of cloud computing. To learn taxonomy of virtualization techniques. To learn cloud computing architecture. To acquire knowledge on cloud application platforms. To understand cloud networking issues.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Cloud Computing",
+      "body": "Cloud computing (NIST model), cloud service provider properties, characteristics & disadvantages, benefits of cloud computing, cloud vs. cluster vs. grid computing, role of open standards."
+    },
+    {
+      "id": "2",
+      "title": "Cloud Computing Architecture and Service Models",
+      "body": "Cloud computing architecture compared with traditional client/server architecture, role of networks and web services; Infrastructure/Hardware as a Service, Platform as a Service, Software as a Service; public, private, hybrid and community clouds; economics of the cloud."
+    },
+    {
+      "id": "3",
+      "title": "Virtualization",
+      "body": "Need for virtualization, types of hardware virtualization: full, partial, para virtualization; desktop, software, memory, storage, data and network virtualization."
+    },
+    {
+      "id": "4",
+      "title": "Service Management and Security",
+      "body": "Service Level Agreements (SLAs), billing & accounting, scalability & cloud services, database & data stores in cloud, large scale data processing; infrastructure/network/host/application-level security, data security and privacy issues, identity & access management, authentication in cloud computing."
+    }
+  ],
+  "outcomes": [
+    "Understand the concept of virtualization and how this has enabled the development of Cloud Computing.",
+    "Know the fundamentals of cloud, cloud architectures and types of services in cloud.",
+    "Understand scaling, cloud security and network management.",
+    "Design different applications in cloud."
+  ],
+  "referenceBooks": [
+    "Barrie Sosinsky, Cloud Computing Bible, Wiley-India, 2010.",
+    "Rajkumar Buyya, James Broberg, Andrzej M. Goscinski (eds.), Cloud Computing: Principles and Paradigms, Wiley, 2011."
+  ]
+}

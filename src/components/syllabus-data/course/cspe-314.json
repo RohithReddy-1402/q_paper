@@ -1,0 +1,56 @@
+{
+  "Course Title": "Bio-Informatics",
+  "Course Code": "CSPE-314",
+  "route": "course/cspe-314",
+  "credits": 3,
+  "prerequisites": "CSPC-201 (Design and Analysis of Algorithms)",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "This course aims to introduce the bioinformatics concepts, techniques and tools related to biological databases, sequence analysis, phylogenetic analysis, genomics and protein analysis with a focus on drug discovery application.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Bioinformatics as an interdisciplinary approach, genome, DNA sequence, central dogma, transcription, translation, DNA structure and modifications."
+    },
+    {
+      "id": "2",
+      "title": "Biological Databases",
+      "body": "Types of biological information, biological database search and data retrieval, techniques for extracting DNA sequence, protein sequence and protein structure information, conventions for database indexing and search terms."
+    },
+    {
+      "id": "3",
+      "title": "Sequence Alignment",
+      "body": "Pairwise alignment of sequences, scoring matrices, tools for similarity search and sequence alignment, dynamic programming algorithms."
+    },
+    {
+      "id": "4",
+      "title": "Phylogenetic Analysis and Genomics",
+      "body": "Introduction to phylogenetics, comparative genomics, orthologs, paralogs, methods of phylogenetic analysis, whole genome analysis, gene prediction, protein structure overview, search and visualization, protein structure and function prediction."
+    },
+    {
+      "id": "5",
+      "title": "Drug Discovery",
+      "body": "Technologies and strategies, structural biology and virtual screening for drug discovery, emerging role of biomarkers in drug development, potential drug targets."
+    }
+  ],
+  "outcomes": [
+    "To search and extract information from different biological databases.",
+    "To apply different alignment techniques to biological sequences.",
+    "To perform phylogenetic analysis and genome analysis using different tools.",
+    "To analyze protein structure and functions."
+  ],
+  "textbooks": [
+    "Letovsky, Stanley I., ed. Bioinformatics: databases and systems. Springer Science & Business Media, 2006.",
+    "Jones, Neil C., and Pavel A. Pevzner. An introduction to bioinformatics algorithms. MIT press, 2004.",
+    "Baxevanis, Andreas D., Gary D. Bader, and David S. Wishart, eds. Bioinformatics. John Wiley & Sons, 2020."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Course Title": "Machine Learning",
+  "Course Code": "CSIC-301",
+  "route": "course/csic-301",
+  "credits": 4,
+  "prerequisites": "CSPC-204, MAIC-201",
+  "Course Type": "IC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Be able to understand and apply supervised and unsupervised learning algorithms. Understand the fundamental concepts in machine learning and popular machine learning algorithms. Interpretation of data and results using statistics and analysis. Be able to solve real-life problems using machine learning algorithms with programming in Python.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Basic definitions, types of learning, hypothesis space and inductive bias, probability distributions and hypothesis testing using statistical tests, data pre-processing."
+    },
+    {
+      "id": "2",
+      "title": "Regression Techniques and Analysis",
+      "body": "Supervised learning using regression, types of regression, linear regression: simple and multiple, logistic regression, overview of other types of regression; model diagnostics using residual and outlier, handling of multi-collinearity."
+    },
+    {
+      "id": "3",
+      "title": "Classification",
+      "body": "Supervised learning using classification, linear models: regression & SVM; non-linear models: decision tree induction, attribute selection measures: information gain, gain ratio, Gini index; tree pruning; Naive Bayes classifier; kNN; classification model evaluation metrics; improving accuracy using ensemble, random forest, bagging, boosting."
+    },
+    {
+      "id": "4",
+      "title": "Clustering",
+      "body": "Basic clustering concepts, Standard k-Means clustering, finding optimal number of clusters, Modifications to the k-Means; hierarchical clustering."
+    },
+    {
+      "id": "5",
+      "title": "Advances in Machine Learning",
+      "body": "Gradient descent algorithm, bias-variance, cross-validation, recommender systems: association rules, collaborative filtering, use of similarity, overview of use of neural networks for learning."
+    }
+  ],
+  "outcomes": [
+    "Compare and differentiate among different machine learning techniques.",
+    "Implement the studied regression and classification techniques and analyze the results.",
+    "Apply the suitable supervised and unsupervised techniques and models for real-life problems, and predict the outcome.",
+    "Explain the applicability of advanced concepts for recommender systems.",
+    "Hands-on problem solving with programming in Python."
+  ],
+  "referenceBooks": [
+    "M. Pradhan, U. Dinesh Kumar, Machine Learning using Python, Wiley India, Latest Edition.",
+    "J. Han, M. Kamber, J. Pei, Data Mining Concepts and Techniques, Latest Edition.",
+    "Christopher Bishop, Pattern Recognition and Machine Learning, 2e.",
+    "Tom Mitchell, Machine Learning, First Edition, McGraw-Hill, 1997.",
+    "Ethem Alpaydin, Introduction to Machine Learning, Edition 2."
+  ]
+}

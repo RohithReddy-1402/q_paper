@@ -1,5 +1,12 @@
 
 export const BRANCHES = {
+  "computer-science-engineering": {
+    code: "CS",
+    name: "Computer Science and Engineering",
+    description:
+      "Covers programming, data structures, algorithms, computer organization, operating systems, computer networks, databases, AI/ML, software engineering, and electives spanning security, data science, cloud, distributed systems and more.",
+    semestersAvailable: [1, 2, 3, 4, 5, 6, 7, 8],
+  },
   "robotics-automation": {
     code: "RA",
     name: "Robotics & Automation",

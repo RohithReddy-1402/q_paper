@@ -1,0 +1,51 @@
+{
+  "Course Title": "DevOps",
+  "Course Code": "CSPE-413",
+  "route": "course/cspe-413",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understand the principles and objectives of DevOps: collaboration, automation, continuous integration, continuous delivery, and continuous deployment. Gain familiarity with DevOps tools and technologies such as Git, Jenkins, Ansible, Docker, and Kubernetes. Gain proficiency in configuration management and infrastructure as code (IaC). Understand CI/CD pipelines and cloud computing/virtualization models supporting DevOps practices. Explore monitoring and logging practices in DevOps.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to DevOps and CI/CD",
+      "body": "Definition, principles, and benefits of DevOps, DevOps culture and mindset, CI/CD pipelines, version control systems, automated build and deployment processes, testing and quality assurance, release management, Infrastructure as Code."
+    },
+    {
+      "id": "2",
+      "title": "Infrastructure Automation and Containerization",
+      "body": "Configuration management tools (Ansible, Chef, Puppet), provisioning and managing infrastructure using IaC; containerization (Docker) and orchestration (Kubernetes), containerizing applications and microservices, scaling containers in production."
+    },
+    {
+      "id": "3",
+      "title": "Monitoring, Cloud and Security",
+      "body": "Importance of monitoring and logging in DevOps, monitoring tools, log management and performance optimization; cloud computing models (IaaS, PaaS, SaaS), deploying and managing applications in the cloud; DevOps security principles, securing CI/CD pipelines, compliance and vulnerability scanning."
+    },
+    {
+      "id": "4",
+      "title": "Collaboration and Emerging Trends",
+      "body": "Cross-functional collaboration, communication and feedback loops, Agile methodologies and DevOps integration, continuous learning; case studies of DevOps adoption; emerging technologies and trends in DevOps."
+    }
+  ],
+  "outcomes": [
+    "Apply DevOps practices to improve collaboration, communication, and efficiency between development and operations teams.",
+    "Demonstrate proficiency in setting up and managing CI/CD pipelines.",
+    "Implement infrastructure automation using configuration management tools and infrastructure-as-code (IaC) practices.",
+    "Apply security practices and compliance considerations in the DevOps process.",
+    "Analyze and troubleshoot issues in the DevOps pipeline and identify areas for improvement."
+  ],
+  "textbooks": [
+    "Kim G, Humble J, Debois P, Willis J, Forsgren N. The DevOps handbook, IT Revolution, 2021.",
+    "Humble J, Farley D. Continuous delivery: reliable software releases through build, test, and deployment automation. Pearson Education, 2010."
+  ]
+}

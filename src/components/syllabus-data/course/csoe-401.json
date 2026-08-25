@@ -1,0 +1,47 @@
+{
+  "Course Title": "Advanced Data Structures and Algorithms",
+  "Course Code": "CSOE-401",
+  "route": "course/csoe-401",
+  "credits": 3,
+  "prerequisites": "CSPC-201 (Design and Analysis of Algorithms)",
+  "Course Type": "OE",
+  "Branch": [],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To develop the understanding of advanced data structures. To develop the understanding of algorithmic design paradigms.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Complexity",
+      "body": "Revision of performance analysis - time complexity and space complexity using asymptotic notation, amortized complexity."
+    },
+    {
+      "id": "2",
+      "title": "Advanced Data Structures",
+      "body": "Threaded binary trees, Binomial heaps, Fibonacci heaps, balanced trees - AVL, multi-way search trees, red-black trees, splay trees, segment trees, suffix tries."
+    },
+    {
+      "id": "3",
+      "title": "String Matching",
+      "body": "String-matching algorithm, Rabin-Karp algorithm, string matching with automata, Knuth-Morris-Pratt algorithm."
+    },
+    {
+      "id": "4",
+      "title": "NP-Hard and NP-Complete Problems",
+      "body": "Concepts of NP-hard & NP complete problems, Clique Decision problem, Node Cover decision problem, Travelling Salesperson decision problem."
+    }
+  ],
+  "outcomes": [
+    "Compare, contrast, and apply key data structures: trees, heaps, string algorithms etc.",
+    "Compare, contrast, and apply algorithmic tradeoffs: time vs. space, deterministic vs. randomized, and exact vs. approximate.",
+    "Implement, empirically compare, and apply fundamental algorithms and data structures to real-world problems."
+  ],
+  "referenceBooks": [
+    "E Horowitz and S. Sahni, Fundamentals of Data Structures, Universities Press.",
+    "Cormen, Leiserson and Rivest, Introduction to Algorithms, 3/e, PHI."
+  ]
+}

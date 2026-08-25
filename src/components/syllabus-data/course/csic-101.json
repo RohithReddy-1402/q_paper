@@ -5,9 +5,19 @@
   "credits": 4,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["CoE", "IT", "AI & ML"],
+  "Branch": [
+    "CS",
+    "CoE",
+    "IT",
+    "AI & ML"
+  ],
   "semester": "1st",
-  "ltpc": [3, 0, 2, 4],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
   "description": "This course, offered for Computer Engineering, IT and AI & ML by the Department of Computer Engineering, provides fundamentals of problem solving using C language programming.",
   "syllabus": [
     {

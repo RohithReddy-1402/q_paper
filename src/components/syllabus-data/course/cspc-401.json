@@ -1,0 +1,30 @@
+{
+  "Course Title": "Project",
+  "Course Code": "CSPC-401",
+  "route": "course/cspc-401",
+  "credits": 6,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    0,
+    0,
+    6,
+    6
+  ],
+  "description": "To provide students hands-on experience of identifying, designing and implementing a substantial software/hardware project applying the concepts learnt across the programme, working individually or in small teams under faculty guidance.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Project Work",
+      "body": "Problem identification and literature survey, requirement analysis and design, implementation, testing and evaluation, and documentation/presentation of a semester-long project executed under faculty supervision."
+    }
+  ],
+  "outcomes": [
+    "Apply concepts and skills learnt across the curriculum to solve a real engineering problem.",
+    "Demonstrate ability to plan, design, implement and evaluate a substantial project.",
+    "Communicate technical work effectively through a report and presentation."
+  ]
+}

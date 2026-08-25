@@ -1,0 +1,48 @@
+{
+  "Course Title": "Design and Analysis of Algorithms",
+  "Course Code": "CSOE-302",
+  "route": "course/csoe-302",
+  "credits": 3,
+  "prerequisites": "CSPC-100 (Data Structures)",
+  "Course Type": "OE",
+  "Branch": [],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Able to design, implement and analyse standard searching and sorting algorithms. Implement standard divide and conquer, dynamic programming, greedy and backtracking algorithms. Able to select appropriate data structures such as trees and heaps for a given design situation. Able to implement the major graph algorithms and their analysis.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Time and space complexity, analysis of algorithms, asymptotic notation, recurrence relations, design and analysis of divide & conquer problems like quick sort, heap sort, priority queues, sorting in linear time, hashing, binary search trees."
+    },
+    {
+      "id": "2",
+      "title": "Graph Algorithms",
+      "body": "Graph representation & traversal (search), topological sort, strongly connected components, minimum spanning trees – Kruskal and Prim's, single source shortest paths, relaxation, Dijkstra's algorithm, Bellman-Ford algorithm, all-pairs shortest path."
+    },
+    {
+      "id": "3",
+      "title": "B-Trees and Dynamic Programming",
+      "body": "B-Trees: representation and operations; elements of dynamic programming, structure and steps, matrix-chain multiplication, longest common subsequence."
+    },
+    {
+      "id": "4",
+      "title": "Greedy and Backtracking Approaches",
+      "body": "Greedy algorithms – elements, activity-selection problem, Huffman codes, task scheduling problem, knapsack problem; backtracking – elements, 8-Queens, graph coloring, Hamiltonian cycles."
+    }
+  ],
+  "outcomes": [
+    "Able to design, implement and analyse standard searching and sorting algorithms.",
+    "Implement standard divide and conquer, dynamic programming, greedy and backtracking algorithms.",
+    "Able to select an appropriate data structure for any given design situation.",
+    "Able to implement the major graph algorithms and their analysis."
+  ],
+  "referenceBooks": [
+    "Cormen, Leiserson and Rivest, Introduction to Algorithms, 3/e, PHI.",
+    "Horowitz, Sahni, and Rajasekaran, Fundamentals of Computer Algorithms, Second Edition, Universities Press, Hyderabad."
+  ]
+}

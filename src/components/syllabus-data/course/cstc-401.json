@@ -1,0 +1,49 @@
+{
+  "Course Title": "Parallel and Distributed Algorithms",
+  "Course Code": "CSTC-401",
+  "route": "course/cstc-401",
+  "credits": 4,
+  "prerequisites": "Operating Systems, Data Structure and Algorithms, Distributed Systems",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To study basics of parallel and distributed computing systems. To learn several techniques and methods for the creation of algorithms and be familiar with design constraints. To explore various application areas of parallel and distributed algorithms.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Models of parallel and distributed computation, complexity measures; parallel programming models: shared-memory model (PRAM, MIMD, SIMD), network model (line, ring, mesh, hypercube), performance measurement of parallel algorithms."
+    },
+    {
+      "id": "2",
+      "title": "Parallel Algorithm Design for the PRAM Model",
+      "body": "Balancing, divide and conquer, parallel prefix computation, pointer jumping, symmetry breaking, pipelining, accelerated cascading; list ranking, Euler tour, sorting, searching and merging, graph and string algorithms; parallel complexity classes NC, P-completeness, lower bounds."
+    },
+    {
+      "id": "3",
+      "title": "Parallel Algorithms for Network Models",
+      "body": "Interconnection network topologies (arrays and mesh networks, trees, systolic networks, hypercubes, butterfly) and fundamental algorithms, matrix algorithms, sorting, graph algorithms, routing, relationship with PRAM models, asynchronous parallel computation, multiprocessor algorithms."
+    },
+    {
+      "id": "4",
+      "title": "Distributed Algorithms",
+      "body": "Models and complexity measures, safety, liveness, termination, logical time and event ordering, global state and snapshot algorithms, mutual exclusion, clock synchronization, election, termination detection, routing, distributed graph algorithms and their applications."
+    }
+  ],
+  "outcomes": [
+    "The students will be able to construct parallel and distributed algorithms.",
+    "They will be able to execute several instructions simultaneously on different processing devices and combine individual outputs to produce a common result."
+  ],
+  "textbooks": [
+    "Michael J Quinn, Parallel Computing, TMH.",
+    "Joseph Jaja, An Introduction to Parallel Algorithms, Addison Wesley.",
+    "Ananth Grama, Anshul Gupta, George Karypis, Vipin Kumar, Introduction to Parallel Computing, Pearson."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "Course Title": "Stochastic Processes and Queuing Theory",
+  "Course Code": "CSPE-322",
+  "route": "course/cspe-322",
+  "credits": 3,
+  "prerequisites": "Probability & Statistics",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "It provides an essential base for mathematical modelling which is normally used to solve problems of pattern recognition and machine learning. It is used in the research of various science and engineering problems.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Random Variables",
+      "body": "Random variables, functions of random variables, jointly distributed random variables, expectation, covariance and correlation, auto and cross correlation, correlation coefficient, parameter estimation – Maximum Likelihood Estimation and Maximum a Posteriori."
+    },
+    {
+      "id": "2",
+      "title": "Stochastic Processes",
+      "body": "Classification of stochastic processes, stationary random processes, ergodic process, the Bernoulli process, the Poisson process, renewal process, advanced renewal theory, renewal function, alternating renewal processes."
+    },
+    {
+      "id": "3",
+      "title": "Markov Chains",
+      "body": "Computation of n-step transition probabilities, Chapman-Kolmogorov theorem, classification of states of a Markov chain, distribution of times between state changes, birth and death processes, pure birth/death process, analysis of program execution time."
+    },
+    {
+      "id": "4",
+      "title": "Queuing Theory",
+      "body": "Introduction to queuing theory, components of a queuing system, deterministic queues, (M/M/1) and (M/M/k) queues, Engset loss formula, M/G/1 queuing system, queues with time-varying arrival rate."
+    }
+  ],
+  "outcomes": [
+    "Develop an understanding of the basic concepts of random processes, expectations and parameter estimation.",
+    "Able to understand and apply stochastic processes to science and engineering problems and applications.",
+    "Able to calculate n-step transition probabilities for any Markov chain and understand birth and death processes.",
+    "Able to apply Markov chain & birth-death process to real life problems.",
+    "Develop an understanding of various queuing systems."
+  ],
+  "referenceBooks": [
+    "A. Populis and S.U. Pillai, Probability, Random Variables, and Stochastic Process, 4th Edition, McGraw-Hill.",
+    "S. Palaniammal, Probability and Queueing theory, Prentice Hall of India."
+  ]
+}

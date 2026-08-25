@@ -1,0 +1,50 @@
+{
+  "Course Title": "Cognitive Applications of ML",
+  "Course Code": "CSTC-407",
+  "route": "course/cstc-407",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understand the fundamental concepts and principles of machine learning and cognitive computing. Identify and describe the various cognitive applications of machine learning in different domains. Critically evaluate the challenges and limitations of cognitive applications of machine learning.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Cognitive Applications of ML",
+      "body": "Overview of machine learning and its applications, introduction to cognitive computing and its significance, ethical considerations in cognitive applications, neural networks and deep learning."
+    },
+    {
+      "id": "2",
+      "title": "Cognitive Computing and Perception",
+      "body": "Natural language processing: text classification, sentiment analysis, named entity recognition, question answering systems; computer vision: image classification, object detection, segmentation, image-to-text generation, applications in healthcare and autonomous vehicles."
+    },
+    {
+      "id": "3",
+      "title": "Deep Learning and Cognitive Systems",
+      "body": "Deep learning and neural networks: CNNs for image analysis, RNNs for sequence data, generative models and reinforcement learning; cognitive architecture, knowledge representation and reasoning, cognitive agents and multi-agent systems, explainable AI."
+    },
+    {
+      "id": "4",
+      "title": "Applications",
+      "body": "Intelligent virtual assistants and chatbots, recommendation systems, cognitive analytics and decision support systems, healthcare applications and medical diagnosis, ethical and social implications of cognitive machine learning."
+    }
+  ],
+  "outcomes": [
+    "Understand the principles and concepts of cognitive applications of machine learning.",
+    "Identify and describe various cognitive applications of machine learning in different domains, such as NLP, computer vision, and human-robot interaction.",
+    "Apply machine learning techniques to develop cognitive applications for tasks such as text classification, image recognition, and decision-making.",
+    "Evaluate the ethical and societal implications of cognitive applications of machine learning."
+  ],
+  "textbooks": [
+    "Judith Hurwitz, Marcia Kaufman, and Adrian Bowles, Cognitive Computing and Big Data Analytics, Wiley, 2015.",
+    "Vinit Kumar Gunjan and Jacek M. Zurada, Modern Approaches in Machine Learning & Cognitive Science: A Walkthrough, Springer, 2022."
+  ]
+}

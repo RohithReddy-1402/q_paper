@@ -1,0 +1,47 @@
+{
+  "Course Title": "Object-Oriented Programming using Java",
+  "Course Code": "CSOE-306",
+  "route": "course/csoe-306",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "OE",
+  "Branch": [],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Building robust applications using Java's object-oriented features. Understanding the usage of Java class libraries. Building multithreaded, platform-independent and GUI based Java applications for business problems.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Java Fundamentals",
+      "body": "Overview of Java's architecture and the Java Virtual Machine (JVM); classes, objects, basic language elements, primitive data types, variable and method declarations, constructors and constructor overloading, arrays, the main() method and program arguments."
+    },
+    {
+      "id": "2",
+      "title": "Packages, Control Flow and Exceptions",
+      "body": "Defining and using packages, scope rules and accessibility modifiers, operators and expressions, control flow statements; exception handling: try, catch, finally, throw, throws, checked and unchecked exceptions."
+    },
+    {
+      "id": "3",
+      "title": "Object-Oriented Programming",
+      "body": "Single implementation inheritance, overriding and hiding members, the super reference, chaining constructors; interfaces: definition, abstract methods, polymorphism and dynamic method lookup; fundamental classes: Object, wrapper classes, String, StringBuilder, StringBuffer."
+    },
+    {
+      "id": "4",
+      "title": "Multithreading and GUI",
+      "body": "Overview of threads, thread creation, synchronization and thread transitions; basics of event handling and graphics programming using JavaFX."
+    }
+  ],
+  "outcomes": [
+    "Write Java programs that solve simple business problems.",
+    "Create Java applications that are robust and multithreaded.",
+    "Write simple GUI interfaces and understand event-based GUI handling principles."
+  ],
+  "referenceBooks": [
+    "Y. Daniel Liang, Introduction to Java Programming, Comprehensive Version, Pearson Education, 12th Ed.",
+    "Cay S. Horstmann & Gary Cornell, Core Java Volume I, Fundamentals, Sun Microsystems Press, 8th Ed."
+  ]
+}

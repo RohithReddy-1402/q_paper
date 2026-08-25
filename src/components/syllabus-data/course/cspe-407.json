@@ -1,0 +1,53 @@
+{
+  "Course Title": "Medical Image Computing",
+  "Course Code": "CSPE-407",
+  "route": "course/cspe-407",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "The goal of the course is to give students the background and skills of medical image computing.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Medical Imaging",
+      "body": "Basic image processing techniques, noise and error propagation and methods to handle it, medical image enhancement, introduction to medical imaging modalities and image analysis software."
+    },
+    {
+      "id": "2",
+      "title": "Image Registration and Segmentation",
+      "body": "Rigid and non-rigid registration models with demonstration, texture in medical images, medical image segmentation: region growing and clustering, random walks, active contours, systematic evaluation and validation, decision trees, random forests, and neural networks for segmentation and classification."
+    },
+    {
+      "id": "3",
+      "title": "Image Analysis",
+      "body": "Analysis of speckle images: ultrasound, Doppler and tissue harmonic, speckle reduction, beam steering, image compounding and filtering, cardiovascular and ophthalmic imaging, learning based and deep learning based image analysis."
+    },
+    {
+      "id": "4",
+      "title": "Applications",
+      "body": "Retinal vessel segmentation and classification, vessel segmentation in CT scan of lungs, lesion segmentation in brain MRI, tissue characterization in ultrasound, learning based diagnosis: classification and diagnosis of brain tumor, lung cancer, retinal disease, cardiovascular disease and other diseases."
+    }
+  ],
+  "outcomes": [
+    "Develop skills that are vital to medical image-based diagnosis.",
+    "Have fundamental skills and understanding of medical image modalities and basic processing approaches.",
+    "Have segmentation, analysis and learning based diagnosis approach."
+  ],
+  "textbooks": [
+    "G. R. Sinha, Bhagwati Charan Patel, Medical Image Processing Concepts and Applications, PHI, 2014.",
+    "Rasmus R. Paulsen, Thomas B. Moeslund, Introduction to Medical Image Analysis, Springer, 2020.",
+    "S. Kevin Zhou, Hayit Greenspan, Dinggang Shen, Deep Learning for Medical Image Analysis, Academic Press, 2017."
+  ],
+  "referenceBooks": [
+    "Geoff Dougherty, Digital Image Processing for Medical Applications, Cambridge University Press, 2010."
+  ]
+}

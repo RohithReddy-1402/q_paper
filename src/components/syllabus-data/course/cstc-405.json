@@ -1,0 +1,55 @@
+{
+  "Course Title": "Quantum Computing",
+  "Course Code": "CSTC-405",
+  "route": "course/cstc-405",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Be familiar with basic quantum algorithms and their analysis. Be familiar with basic quantum protocols such as teleportation and super dense coding. See how the quantum model relates to classical models of deterministic and probabilistic computation. Appreciate the importance of efficient error-suppression for quantum computation to yield an advantage over classical computation. Gain a general understanding of near-term quantum computing, including adiabatic quantum computing.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Foundations",
+      "body": "Bits and qubits, introduction to quantum states and measurements, review of linear algebra: vector spaces, linear operators, Dirac notation, tensor product, postulates of quantum mechanics including evolution and measurement."
+    },
+    {
+      "id": "2",
+      "title": "Quantum Circuit Model and Search",
+      "body": "The circuit model of quantum computation, quantum gates and circuits, universality of the quantum circuit model; Grover's search algorithm: analysis and lower bounds."
+    },
+    {
+      "id": "3",
+      "title": "Quantum Fourier Transform and Factoring",
+      "body": "Definition of the Quantum Fourier Transform (QFT) and its circuit representation, application of QFT to Quantum Phase Estimation (QPE); Shor's algorithm: reduction of factoring to period finding using the QFT."
+    },
+    {
+      "id": "4",
+      "title": "Complexity and Error Correction",
+      "body": "Quantum complexity classes and their relationship to classical complexity, comparison with probabilistic computation, introduction to quantum error correction, elements of fault tolerant computing and the threshold theorem."
+    },
+    {
+      "id": "5",
+      "title": "Adiabatic Quantum Computing",
+      "body": "The quantum adiabatic theorem and adiabatic optimisation, quantum annealing and D-Wave, case studies in near-term quantum computation including superconducting and networked quantum computers."
+    }
+  ],
+  "outcomes": [
+    "The basic principles of quantum computing.",
+    "The fundamental differences between conventional computing and quantum computing.",
+    "Several basic quantum computing algorithms.",
+    "The classes of problems that can be expected to be solved well by quantum computers."
+  ],
+  "textbooks": [
+    "Nielsen M.A., Chuang I.L., Quantum Computation and Quantum Information, Cambridge University Press, 2010.",
+    "Mermin N.D., Quantum Computer Science: An Introduction, Cambridge University Press, 2007."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "Course Title": "Operating System",
+  "Course Code": "CSOE-304",
+  "route": "course/csoe-304",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "OE",
+  "Branch": [],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To understand the services and design of an operating system. To understand the structure and organization of the file system. To understand process states and concepts such as scheduling and synchronization. To understand different memory management approaches.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction and Process Management",
+      "body": "Computer system architecture and organization, evolution of OS, OS services, system calls, process concept, scheduling policies and algorithms, inter-process communication, threads and multithreading models, CPU scheduling."
+    },
+    {
+      "id": "2",
+      "title": "Process Synchronization and Deadlocks",
+      "body": "Critical sections, hardware primitives for synchronization, semaphores, monitors, classical problems in synchronization (producer-consumer, readers-writer, dining philosophers); deadlocks: modelling, prevention, avoidance, detection and recovery."
+    },
+    {
+      "id": "3",
+      "title": "Memory Management",
+      "body": "Swapping, contiguous memory allocation, paging, multilevel paging, segmentation, demand paging, page replacement algorithms, thrashing, working set model; I/O system and services, device drivers, disk scheduling."
+    },
+    {
+      "id": "4",
+      "title": "File Systems and Security",
+      "body": "File system interface: access methods, access control, directory structures, file sharing and protection; OS design considerations for security, access control lists, capability matrix, encryption and access permissions in Linux and Windows."
+    }
+  ],
+  "outcomes": [
+    "Understand functions, structures and history of operating systems.",
+    "Master various process management concepts such as scheduling, synchronization, multithreading and deadlocks.",
+    "Understand memory management concepts such as virtual memory, demand paging and page replacement algorithms.",
+    "Be familiar with various protection and security mechanisms."
+  ],
+  "referenceBooks": [
+    "A. Silberschatz, Peter B. Galvin and G. Gagne, Operating System Concepts (9th or newer edition), Wiley.",
+    "A.S. Tanenbaum, Modern Operating Systems, Prentice Hall of India."
+  ]
+}

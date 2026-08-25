@@ -1,0 +1,57 @@
+{
+  "Course Title": "Human Centered Computing",
+  "Course Code": "CSPE-324",
+  "route": "course/cspe-324",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Understand the principles and concepts of Human-Centered Computing including human-computer interaction, user-centered design, usability, and user experience. Apply user-centered design principles and methodologies focusing on creating interfaces that meet users' needs and preferences. Develop skills in interaction design for effective user interfaces and interactive systems. Understand the social and ethical implications of computing, including privacy, accessibility, inclusivity, and the digital divide.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Human-Centered Computing",
+      "body": "Overview of human-centered computing, historical perspectives and key milestones in HCI, human factors and cognitive psychology in computing, ethical considerations in human-centered design."
+    },
+    {
+      "id": "2",
+      "title": "User-Centered Design",
+      "body": "Principles of user-centered design, user research methods (interviews, surveys, observations), task analysis and user modelling, conceptual design and prototyping, iterative design and evaluation."
+    },
+    {
+      "id": "3",
+      "title": "Usability Engineering",
+      "body": "Usability principles and guidelines, usability testing methods (think-aloud protocol, heuristic evaluation), quantitative and qualitative data analysis, usability metrics and evaluation frameworks, accessibility and inclusive design."
+    },
+    {
+      "id": "4",
+      "title": "User Experience Design and Practice",
+      "body": "User interface design principles, information architecture and interaction design, visual design and aesthetics, UX evaluation techniques, human-centered computing across web, mobile and wearable domains, case studies."
+    },
+    {
+      "id": "5",
+      "title": "Social Implications and Future Directions",
+      "body": "Ethical considerations in human-centered computing, privacy, security and trust in interactive systems, human-centered AI and machine learning, designing for diverse user populations, emerging trends in HCI."
+    }
+  ],
+  "outcomes": [
+    "Apply user-centered design methodologies to the development of interactive systems.",
+    "Evaluate and critique the usability and user experience of interactive systems.",
+    "Demonstrate proficiency in designing and prototyping user interfaces.",
+    "Apply human-centered computing principles to different domains, such as web, mobile, and wearable technologies.",
+    "Identify ethical considerations and social implications related to human-centered computing."
+  ],
+  "textbooks": [
+    "Judith S. Olson and Wendy A. Kellogg, eds., Ways of Knowing in HCI, Springer, 2014.",
+    "Don Norman, The Psychology of Everyday Things, Basic Books, 1988.",
+    "Jennifer Preece, Yvonne Rogers, and Helen Sharp, Interaction Design: Beyond Human-Computer Interaction, John Wiley & Sons, 2015."
+  ]
+}
