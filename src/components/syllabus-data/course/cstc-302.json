@@ -1,0 +1,51 @@
+{
+  "Course Title": "Randomized Algorithm and Probabilistic Analysis",
+  "Course Code": "CSTC-302",
+  "route": "course/cstc-302",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To develop the understanding of advanced algorithms. To study the complexity of advanced algorithms. To design new algorithms or modify existing ones for new applications and analyze their space & time efficiency.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Models of computation, randomized polynomial identity testing algorithm (Schwartz-Zippel), Karger's randomized min-cut algorithm, randomized primality testing, Markov's and Chebyshev's inequality, moment generating functions and Chernoff bounds, randomized routing."
+    },
+    {
+      "id": "2",
+      "title": "Moments and Deviations",
+      "body": "Second-moment method, numerical probabilistic algorithms, Lovász local lemma with applications, Poissonization technique, power of two choices, metric embeddings."
+    },
+    {
+      "id": "3",
+      "title": "Markov Chains and Martingales",
+      "body": "Intro to Markov chains, mixing times, strong stationary times, and coupling; martingales, stopping times, the martingale stopping theorem and applications."
+    },
+    {
+      "id": "4",
+      "title": "Approximation Algorithms",
+      "body": "Greedy approximation algorithms, dynamic programming and weakly polynomial-time algorithms, linear programming relaxations, randomized rounding, load balancing."
+    }
+  ],
+  "outcomes": [
+    "Apply basic concepts of approximation, randomization and distributed computing in algorithmic context.",
+    "Design randomized parallel, approximation and distributed algorithms that run fast or return correct output with high probability.",
+    "Derive good upper bounds for the expected running time of advanced algorithms.",
+    "Apply the probabilistic method to show the existence of certain combinatorial objects."
+  ],
+  "textbooks": [
+    "Cormen, Leiserson, Rivest and Stein, Introduction to Algorithms, Third Edition, MIT Press and PHI, 2010.",
+    "Rajeev Motwani, Prabhakar Raghavan, Randomized Algorithms, Cambridge University Press, 2014.",
+    "Mitzenmacher and Upfal, Probability and Computing: Randomized Algorithms and Probabilistic Analysis, Cambridge University Press, 2nd edition, 2017."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "Course Title": "Software Engineering",
+  "Course Code": "CSPC-207",
+  "route": "course/cspc-207",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To inculcate software design abilities. Impart knowledge-based awareness of user requirements. To enable the students to conduct feasibility analysis. Knowledge of software quality testing for its sustainability, reliability and durability.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Software Crisis, Software Characteristics, and Software Processes; Software life cycle models – Build & Fix, waterfall prototype evolutionary, spiral model."
+    },
+    {
+      "id": "2",
+      "title": "Problem Analysis",
+      "body": "DFD, Data dictionaries, ER diagrams, object diagrams; approaches to problems analysis; SRS; specifying behavioral & non-behavioral requirements, software configuration management."
+    },
+    {
+      "id": "3",
+      "title": "Software Design and Implementation",
+      "body": "Modularity, strategy of design, function-oriented design, object-oriented design, User interface design, UML modelling, Software implementation."
+    },
+    {
+      "id": "4",
+      "title": "Software Quality",
+      "body": "Size metrics, data structure metrics, information flow metrics, entropy-based measures, metric analysis, Software Quality Frameworks, ISO 9001 Model, SEI-CMM Model."
+    },
+    {
+      "id": "5",
+      "title": "Software Validation and Reliability",
+      "body": "Software Testing, verification and validation, errors, failures, faults, fault tolerance, Software Maintenance, reliability models – macro, basic, logarithmic Poisson, calendar time component, micro models."
+    }
+  ],
+  "outcomes": [
+    "Apply the concepts to choose appropriate software process models as per user requirements.",
+    "Analyze requirement techniques, including Data flow diagram, Entity relationship diagram, and Object diagram.",
+    "Understand the various Software Design strategies for software implementation and emphasize different software metrics used for analyzing the software.",
+    "Design and test the various software reliability measures to assess software quality in case of multiple faults and failures."
+  ],
+  "textbooks": [
+    "Pressman, R.S. and Maxim, B.R., Software Engineering: A Practitioner's Approach, 9th ed., McGraw Hill, 2020.",
+    "Sommerville, Ian, Software Engineering, 10th ed., Pearson Education 2017.",
+    "K.K.Aggarwal, Yogesh Singh: Software Engineering, New Age International Ltd, 2001.",
+    "Pankaj Jalote, An Integrated Approach to Software Engineering 3rd Ed., 2005 Narosa Publishing."
+  ],
+  "referenceBooks": [
+    "Singh, Y., Software Testing, Cambridge University Press, 2013."
+  ]
+}

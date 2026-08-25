@@ -1,0 +1,76 @@
+{
+  "branch": "CS",
+  "branchName": "Computer Science and Engineering",
+  "semester": 7,
+  "title": "B. Tech. Computer Science and Engineering Semester 7",
+  "totalCredits": 20,
+  "rows": [
+    {
+      "type": "core",
+      "code": "IC",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "label": "Entrepreneurship and Start-ups"
+    },
+    {
+      "type": "elective",
+      "label": "Department Elective – IV",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "options": [
+        "CSPE-407",
+        "CSPE-409",
+        "CSPE-411",
+        "CSPE-413"
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Track Course – II (choose one, per specialization track)",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "options": [
+        "CSTC-401",
+        "CSTC-403",
+        "CSTC-405",
+        "CSTC-407",
+        "CSTC-409",
+        "CSTC-411",
+        "CSTC-413",
+        "CSTC-415"
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective – III (a list of courses is published for branches other than CO/IT)",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-401",
+      "ltpc": [
+        0,
+        0,
+        6,
+        6
+      ]
+    }
+  ]
+}

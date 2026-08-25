@@ -1,0 +1,52 @@
+{
+  "Course Title": "Cloud, IoT and Big Data Security",
+  "Course Code": "CSPC-402",
+  "route": "course/cspc-402",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To understand the fundamental concepts of Cloud Computing, IoT, and Big Data analytics. To identify and understand various security threats and vulnerabilities in Cloud, IoT, and Big Data environments. To implement security technologies and practices in the Cloud, including identity and access management, end-to-end access control, and security-as-a-service. To apply IoT security frameworks, including IoT network design, protocols, and device security. To utilize tools and technologies for securing big data environments.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Overview of Cloud Computing, IoT, and Big Data",
+      "body": "Cloud services and deployment models, benefits and challenges of cloud computing, architecture and applications of IoT and Big Data analytics, threats and vulnerabilities in the Cloud, IoT, and Big Data environments."
+    },
+    {
+      "id": "2",
+      "title": "Cloud Security Technologies",
+      "body": "Identity and Access Management (IAM): authentication and authorization mechanisms, identity federation and SSO, security management in the cloud, end-to-end access control, security vulnerability/patch/configuration management, Security-as-a-Service."
+    },
+    {
+      "id": "3",
+      "title": "IoT Security Framework",
+      "body": "Introduction to IoT security framework, IoT network design, IoT protocols, IoT stack, utilizing IPv6 security features, trusting the IoT device."
+    },
+    {
+      "id": "4",
+      "title": "Big Data Security Techniques",
+      "body": "Tools and technologies for the implementation of Big Data, secure data storage and processing, mining of social networks for crime, practical big data security solutions, security frameworks and standards for big data."
+    }
+  ],
+  "outcomes": [
+    "Demonstrate a comprehensive understanding of cloud computing, IoT, and big data.",
+    "Identify and analyze various threats and vulnerabilities in Cloud, IoT, and Big Data environments.",
+    "Apply identity and access management, end-to-end access control, and other cloud security technologies effectively.",
+    "Design and implement secure IoT networks using appropriate frameworks and protocols.",
+    "Employ tools and technologies to implement secure data storage and processing in big data environments."
+  ],
+  "textbooks": [
+    "Tim Mather, Subra Kumaraswamy, and Shahed Latif, Cloud security and privacy: an enterprise perspective on risks and compliance, O'Reilly Media, First Edition, 2009.",
+    "Alasdair Gilchrist, IoT Security Issues, de Gruyter, First Edition, 2017.",
+    "Babak Akhgar et al., Application of Big Data for National Security, Butterworth-Heinemann, 2015."
+  ]
+}

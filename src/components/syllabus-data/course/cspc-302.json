@@ -1,0 +1,51 @@
+{
+  "Course Title": "Big Data Analytics",
+  "Course Code": "CSPC-302",
+  "route": "course/cspc-302",
+  "credits": 4,
+  "prerequisites": "CSPC-303 (Data Mining and Analytics)",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To understand the concepts, challenges and applications of big data. To gain knowledge of various concepts and techniques in data stream mining. To learn about big data storage technologies and algorithms for big data processing.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Big Data",
+      "body": "Why Big Data? The four dimensions of Big Data: Volume, Velocity, Variety, Veracity, Drivers for Big Data, Data Streams: models, basic streaming methods, data synopsis, sampling, histograms, wavelets."
+    },
+    {
+      "id": "2",
+      "title": "Clustering and Frequent Pattern Mining from Data Streams",
+      "body": "Basic concepts, Leader algorithm, clustering algorithms, search space, landmark windows, mining recent frequent item sets."
+    },
+    {
+      "id": "3",
+      "title": "Classification from Data Streams",
+      "body": "Decision Trees, VFDT base algorithm, extensions to basic algorithm, exhaustive search, functional tree leaves, detecting changes."
+    },
+    {
+      "id": "4",
+      "title": "Big Data Enabling Technologies",
+      "body": "Hadoop stack, HDFS, Hadoop MapReduce, introduction to Spark, Spark Streaming and sliding window analytics, CAP theorem, key-value storage model (Amazon's Dynamo), document storage model (Facebook's Cassandra)."
+    }
+  ],
+  "outcomes": [
+    "Analyze the attributes and associated issues of big data as well as propose solutions for them.",
+    "Design efficient algorithms for mining different patterns from data streams.",
+    "Develop big data processing pipelines using different big data technologies."
+  ],
+  "textbooks": [
+    "Baesens, Bart. Analytics in a big data world: The essential guide to data science and its applications. John Wiley & Sons, 2014.",
+    "Gama, Joao. Knowledge discovery from data streams. CRC Press, 2010.",
+    "Aggarwal, Charu C., ed. Data streams: models and algorithms. Springer, 2007.",
+    "Dirk Deroos et al., Hadoop for Dummies, Dreamtech Press, 2014."
+  ]
+}

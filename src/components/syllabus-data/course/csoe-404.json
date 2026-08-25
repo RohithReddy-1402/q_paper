@@ -1,0 +1,48 @@
+{
+  "Course Title": "Information Security",
+  "Course Code": "CSOE-404",
+  "route": "course/csoe-404",
+  "credits": 3,
+  "prerequisites": "CSPC-202 (Computer Networks)",
+  "Course Type": "OE",
+  "Branch": [],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To introduce the concept of information security, and number theory. To make students familiar with different aspects of access control, system security and its applications. To make students familiar with various cryptographic algorithms. To design security solutions for different operating systems and networks.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Information Security",
+      "body": "Meaning of information security, privacy, vulnerability, threat, attack, CIA Triad, CNSS security model, OSI security architecture, network access security model, access control."
+    },
+    {
+      "id": "2",
+      "title": "Number Theory",
+      "body": "Divisibility, Division Algorithm, Euclidean and Extended Euclidean Algorithms, fast exponentiation, modular arithmetic, congruences, Chinese Remainder Theorem, Galois Fields."
+    },
+    {
+      "id": "3",
+      "title": "Cryptography",
+      "body": "Private key cryptography: symmetric-key ciphers, DES, AES, block cipher modes; public key cryptography: RSA, Diffie-Hellman key exchange, cryptographic hash function, digital signature."
+    },
+    {
+      "id": "4",
+      "title": "System, Operating and Network Security",
+      "body": "Security policy, file protection mechanisms, user authentication, trusted OS design, intrusion detection/prevention systems; firewalls, malware, viruses, honeypot, SDN and IoT security."
+    }
+  ],
+  "outcomes": [
+    "Understand information security and number theory concepts.",
+    "Analyse different aspects of access control, system security and its applications.",
+    "Understand and analyse various cryptographic algorithms.",
+    "Design and develop security solutions for different operating systems and networks."
+  ],
+  "referenceBooks": [
+    "Charles P. Pfleeger, Share Lawrence Pfleeger, Security in Computing, Pearson Education, 2/e.",
+    "William Stallings, Cryptography and Network Security, PHI, 7/e."
+  ]
+}

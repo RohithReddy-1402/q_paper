@@ -1,0 +1,56 @@
+{
+  "Course Title": "Introduction to Statistical Modelling and R-Programming",
+  "Course Code": "CSTC-314",
+  "route": "course/cstc-314",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To develop an ability to learn how to solve problems by statistical methods and design efficient algorithms to solve real time problems using R-programming.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Random Variables",
+      "body": "Engineering applications of random variables, discrete random vectors, PMF, PDF, CDF, probability generating function, discrete and continuous distributions (Bernoulli, Binomial, Geometric, Poisson, Exponential, Gamma, Normal etc.), functions of random variables, jointly distributed random variables."
+    },
+    {
+      "id": "2",
+      "title": "Expectation and Stochastic Processes",
+      "body": "Moments, expectation of functions of more than one random variable, conditional PMF/PDF and expectation, moments and transforms of common distributions, computation of mean time to failure, Bernoulli process, Poisson process, renewal process."
+    },
+    {
+      "id": "3",
+      "title": "Markov Chains and Regression",
+      "body": "Computation of n-step transition probabilities, M/G/1 queuing system, discrete/continuous parameter birth-death processes, maximum likelihood and Bayesian estimation, expectation maximization, linear regression and its application in pattern recognition."
+    },
+    {
+      "id": "4",
+      "title": "R Programming",
+      "body": "R interpreter, major R data structures (vectors, matrices, arrays, lists, data frames), control structures, functions, reading/writing data from files and web sources, cleaning and transforming data, string functions."
+    },
+    {
+      "id": "5",
+      "title": "Visualizing Data and Designing GUI",
+      "body": "Statistical analysis and visualization using scatter plot, line plot, bar chart, histogram and box plot, building interactive applications connected to a database, building packages."
+    }
+  ],
+  "outcomes": [
+    "Understand the basic concepts of probability and expectation.",
+    "Apply probability theory to formulate discrete and continuous distributions.",
+    "Apply Markov chain, queuing theory, birth-death process and regression techniques in computational algorithms.",
+    "Develop real-world applications using R-Programming."
+  ],
+  "referenceBooks": [
+    "Trivedi, Kishor S., Probability, Statistics with Reliability, Queuing and Computer Science Applications, 2nd Ed., Wiley-India.",
+    "Ross, Sheldon M., Introduction to Probability Models, 11th Ed., Academic Press Inc, 2014.",
+    "Cotton, R., Learning R: a step by step function guide to data analysis, O'Reilly Media Inc."
+  ]
+}

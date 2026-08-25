@@ -1,0 +1,52 @@
+{
+  "Course Title": "Advanced Database Management System (Distributed Database Systems)",
+  "Course Code": "CSPE-302",
+  "route": "course/cspe-302",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To develop understanding of distributed database design and query processing.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction and Distributed Database Design",
+      "body": "What is a Distributed Database System? Data delivery alternatives, promises of DDBSs, design issues, distributed DBMS architecture. Data fragmentation, allocation, combined approaches, adaptive approaches, data directory."
+    },
+    {
+      "id": "2",
+      "title": "Distributed Data Control",
+      "body": "View management, access control, and semantic integrity control."
+    },
+    {
+      "id": "3",
+      "title": "Distributed Query Processing",
+      "body": "Overview, data localization, join ordering in distributed queries, distributed cost model, distributed query optimization, adaptive query processing."
+    },
+    {
+      "id": "4",
+      "title": "Distributed Transaction Processing",
+      "body": "Background and terminology, distributed query control, distributed concurrency control using snapshot isolation, distributed DBMS reliability, modern approaches to scaling out transaction management."
+    },
+    {
+      "id": "5",
+      "title": "Data Replication",
+      "body": "Consistency of replicated databases, update management strategies, replication protocols, group communication, replication and failures."
+    }
+  ],
+  "outcomes": [
+    "To comprehend issues and solutions of distributed databases.",
+    "To develop understanding of design and implementation of distributed databases."
+  ],
+  "textbooks": [
+    "M. Tamer Özsu and Patrick Valduriez, Principles of Distributed Database Systems, Fourth Edition, Springer."
+  ]
+}

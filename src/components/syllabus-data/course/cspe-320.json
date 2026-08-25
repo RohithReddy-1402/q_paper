@@ -1,0 +1,51 @@
+{
+  "Course Title": "Compiler Design",
+  "Course Code": "CSPE-320",
+  "route": "course/cspe-320",
+  "credits": 3,
+  "prerequisites": "CSPC-301 (Theory of Computation)",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "The objective of this course is to give students a clear understanding of the major concept areas of language translation and to enrich knowledge in various phases of compiler design, parsing techniques, code optimization techniques, machine code generation, and use of symbol table.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction and Parsing",
+      "body": "Types of translators, structure of a compiler, design of lexical analyzer. Parsers: shift-reduce parsing, operator precedence parsing, top-down parsing, recursive descent parsing, predictive parsers."
+    },
+    {
+      "id": "2",
+      "title": "LR Parsing and Syntax-Directed Translation",
+      "body": "Canonical collection of LR(0) items, construction of SLR, canonical LR, and LALR parsing tables. Syntax-directed translation schemes, parse trees and syntax trees, three address code, quadruples and triples, translation of assignment statements, Boolean expressions, control statements."
+    },
+    {
+      "id": "3",
+      "title": "Symbol Table and Error Handling",
+      "body": "Symbol table data structures, representing scope information, implementation of a simple stack allocation scheme, block structured languages, storage allocation; lexical, syntactic and semantic errors."
+    },
+    {
+      "id": "4",
+      "title": "Code Optimization and Generation",
+      "body": "Principal sources of optimization, loop optimization, DAG representation of basic blocks, problems in code generation, a simple code generator, code generation techniques: DAGs, loop optimizations (unrolling, fusion, interchange), peephole optimization."
+    }
+  ],
+  "outcomes": [
+    "Learn the fundamentals of language translation and compiler design.",
+    "Ability to design algorithms for parsers (top-down and bottom-up).",
+    "Classify and discuss intermediate code generation and optimization techniques to improve the performance of a program.",
+    "Gain knowledge of techniques of symbol table organization, fundamentals of runtime environment and code generation."
+  ],
+  "referenceBooks": [
+    "Aho A.V. and Ullman J.D., Principles of Compiler Design, Addison Wesley.",
+    "Donovan, J, System Programming, TMH.",
+    "D.M. Dhamdhere, Compiler Construction-Principles and Practice, McMillan India."
+  ]
+}

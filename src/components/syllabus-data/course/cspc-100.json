@@ -5,7 +5,11 @@
   "credits": 4,
   "prerequisites": "Problems Solving and Programming Skills",
   "Course Type": "PC",
-  "Branch": ["CoE", "IT"],
+  "Branch": [
+    "CS",
+    "CoE",
+    "IT"
+  ],
   "semester": "2nd",
   "description": "This program-specific course, offered for Computer Engineering and IT, introduces the concept of Data Structures used in various computer science applications. Students are introduced to understand and efficiently apply various data structures such as stacks, queues, linked lists, trees and graphs for solving various computing problems using the C programming language.",
   "syllabus": [

@@ -1,0 +1,64 @@
+{
+  "branch": "CS",
+  "branchName": "Computer Science and Engineering",
+  "semester": 4,
+  "title": "B. Tech. Computer Science and Engineering Semester 4",
+  "totalCredits": 20,
+  "rows": [
+    {
+      "type": "core",
+      "code": "CSPC-200",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-202",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-204",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-206",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Department Elective – I",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "options": [
+        "CSPE-210",
+        "CSPE-212",
+        "CSPE-214"
+      ]
+    }
+  ]
+}

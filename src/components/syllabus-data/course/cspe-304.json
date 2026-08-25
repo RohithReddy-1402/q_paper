@@ -1,0 +1,50 @@
+{
+  "Course Title": "Game Theory and Applications",
+  "Course Code": "CSPE-304",
+  "route": "course/cspe-304",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Objective of the course is to make students understand the concepts of game theory and its applications to various engineering disciplines.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction and Outline",
+      "body": "Definitions, utilities, rationality, intelligence, common knowledge, classification of games and real-world scenarios."
+    },
+    {
+      "id": "2",
+      "title": "Non-Cooperative Game Theory",
+      "body": "Extensive and strategic form games, dominant strategy equilibria, pure and mixed strategy Nash equilibrium with key results such as the Nash theorem, computation of Nash equilibria, matrix games: saddle points, minimax theorem, Bayesian games and Bayesian Nash equilibrium, evolutionary game theory (ESS strategies), repeated games."
+    },
+    {
+      "id": "3",
+      "title": "Mechanism Design",
+      "body": "The mechanism design environment, social choice functions, implementation of social choice functions, incentive compatibility and revelation theorem, Gibbard-Satterthwaite and Arrow impossibility theorem, Vickrey-Clarke-Groves (VCG) mechanisms, Bayesian mechanisms, revenue equivalence theorem, Myerson optimal auction."
+    },
+    {
+      "id": "4",
+      "title": "Cooperative Game Theory",
+      "body": "Correlated strategies and correlated equilibrium, the Nash bargaining problem, coalitional games (transferable utility games), the core, the Shapley value, other solution concepts: kernel, nucleolus."
+    }
+  ],
+  "outcomes": [
+    "To understand the concepts of game theory and its mathematical foundation.",
+    "To identify fields of application of game theory in real-life.",
+    "To design and implement game theoretic algorithms for automation.",
+    "To apply game theoretic strategies in industrial engineering problems."
+  ],
+  "textbooks": [
+    "Martin J. Osborne, An Introduction to Game Theory, Oxford University Press, Indian Edition, 2003.",
+    "Roger B. Myerson, Game Theory: Analysis of Conflict, Harvard University Press, 1991."
+  ]
+}

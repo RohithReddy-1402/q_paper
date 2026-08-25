@@ -1,0 +1,51 @@
+{
+  "Course Title": "Multicore and GPU Programming",
+  "Course Code": "CSPC-406",
+  "route": "course/cspc-406",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Describe different multicore architectures and programming models. Given a problem, develop an efficient parallel algorithm to solve it. Given a parallel algorithm, analyze its time complexity as a function of the problem size and number of processors. Given a parallel algorithm, implement it using OpenMP, CUDA OpenCL/OpenACC. Given a parallel code, debug it and fix the errors.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Multi-core Architecture",
+      "body": "Motivation for concurrency in software, parallel computing platforms, parallel computing in microprocessors, multi-core vs. hyper-threading technology, multi-threading on single-core vs. multi-core platforms, understanding performance. Threading: defining threads, system view of threads, threading above and inside the OS, threads inside the hardware, application programming models and threading."
+    },
+    {
+      "id": "2",
+      "title": "Fundamental Concepts of Parallel Programming",
+      "body": "Designing for threads: task decomposition, data decomposition, data flow decomposition, implications of different decompositions, parallel programming patterns. Threading and parallel programming constructs: synchronization, critical sections, deadlock, synchronization primitives, semaphores, locks, condition variables, messages, flow control-based concepts, barrier."
+    },
+    {
+      "id": "3",
+      "title": "OpenMP",
+      "body": "Structure of OpenMP programs, parallelism in OpenMP programs, compiling and execution of an OpenMP program, OpenMP support functions, synchronization primitives, managing shared and private data, loop scheduling and partitioning, using barrier and no-wait, data copy-in/copy-out, protecting updates of shared variables."
+    },
+    {
+      "id": "4",
+      "title": "GPU Programming",
+      "body": "History, GPU architecture, clock speeds, CPU/GPU comparisons, heterogeneity, accelerators, parallel programming with CUDA OpenCL/OpenACC, kernel launch parameters, thread hierarchy, warps/wavefronts, threadblocks/workgroups, streaming multiprocessors, 1D/2D/3D thread mapping, device properties."
+    }
+  ],
+  "outcomes": [
+    "Identify the limitations and the need for multicore architectures.",
+    "Define fundamental concepts of parallel programming and its design issues.",
+    "Make out the salient features of different multicore architectures and how they exploit parallelism.",
+    "Demonstrate the role of OpenMP and its programming concepts.",
+    "Demonstrate the role of CUDA OpenCL/OpenACC concepts."
+  ],
+  "referenceBooks": [
+    "Shameem Akhter and Jason Roberts, Multicore Programming: Increased Performance through Software Multi-threading, Intel Press, 2006.",
+    "Yan Solihin, Fundamentals of Parallel Multicore Architecture, 1st Edition, CRC Press/Taylor and Francis, 2015."
+  ]
+}

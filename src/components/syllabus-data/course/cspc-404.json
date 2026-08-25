@@ -1,0 +1,51 @@
+{
+  "Course Title": "Mobile Application Development",
+  "Course Code": "CSPC-404",
+  "route": "course/cspc-404",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Introduction and characteristics of mobile applications. Application models of mobile application frameworks. Managing application data and user-interface design for mobile applications. Integrating with cloud services. Integrating networking, the OS and hardware into mobile applications. Addressing enterprise requirements in mobile applications – performance, scalability, modifiability, availability and security. Testing methodologies for mobile applications – publishing, deployment, maintenance and management.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Mobile Devices",
+      "body": "Introduction to mobile computing and the Android development environment, mobile vs. desktop devices, ARM and Intel architectures, power management, screen resolution, touch interfaces, application deployment, App Store/Google Play/Windows Store, development environments, native vs. web applications, factors in developing mobile applications, graphics and multimedia, performance and multithreading."
+    },
+    {
+      "id": "2",
+      "title": "Mobile OS Architectures",
+      "body": "Comparing and contrasting architectures of Android, iOS and Windows, underlying OS, kernel structure and native level programming, approaches to power management and security. Building a simple 'Hello World' app: app structure, built-in controls, file access, basic graphics. Development process, architecture, design, technology selection, mobile app development hurdles, testing."
+    },
+    {
+      "id": "3",
+      "title": "Platform Apps",
+      "body": "DB access, network access, contacts/photos/etc. Native level programming on Android, low-level programming on (jailbroken) iOS, Windows low level APIs. Android Intents and Services, storing and retrieving data, synchronization and replication of mobile data, content providers, packaging and deploying, performance best practices."
+    },
+    {
+      "id": "4",
+      "title": "Advanced Topics",
+      "body": "Power management: wake locks and assertions, low-level OS support, writing power-smart applications. Augmented reality via GPS and other sensors: GPS, accelerometer, camera. Mobile device security: mobile malware, device protections, iOS 'jailbreaking', Android 'rooting'; security and hacking."
+    }
+  ],
+  "outcomes": [
+    "Understand technology and business trends impacting mobile applications.",
+    "Be competent with the characterization and architecture of mobile applications.",
+    "Understand enterprise scale requirements of mobile applications.",
+    "Design and develop mobile applications using one application development framework."
+  ],
+  "referenceBooks": [
+    "Bill Phillips, Chris Stewart, Brian Hardy, and Kristin Marsicano, Android Programming: The Big Nerd Ranch Guide, 2nd edition, 2015.",
+    "Valentino Lee, Heather Schneider, and Robbie Schell, Mobile Applications: Architecture, Design and Development, Prentice Hall, 2004.",
+    "Brian Fling, Mobile Design and Development, O'Reilly Media, Inc., 2009."
+  ]
+}

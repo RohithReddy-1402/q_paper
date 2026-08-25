@@ -28,7 +28,8 @@
       "RA",
       "IIOT"
     ],
-    "id": "nitkkr_3"
+    "id": "nitkkr_3",
+    "semester": 3
   },
   {
     "Course Title": "Signals and Systems",
@@ -179,54 +180,66 @@
     "Course Code": "CSPC-201",
     "route": "course/cspc-201",
     "Branches": [
+      "CS",
       "M&C"
     ],
-    "id": "nitkkr_19"
+    "id": "nitkkr_19",
+    "semester": 3
   },
   {
     "Course Title": "Computer Organization and Architecture",
     "Course Code": "CSPC-203",
     "route": "course/cspc-203",
     "Branches": [
+      "CS",
       "M&C"
     ],
-    "id": "nitkkr_20"
+    "id": "nitkkr_20",
+    "semester": 3
   },
   {
     "Course Title": "Object-Oriented Programming using Java",
     "Course Code": "CSPC-205",
     "route": "course/cspc-205",
     "Branches": [
+      "CS",
       "M&C"
     ],
-    "id": "nitkkr_21"
+    "id": "nitkkr_21",
+    "semester": 3
   },
   {
     "Course Title": "Operating System",
     "Course Code": "CSPC-200",
     "route": "course/cspc-200",
     "Branches": [
+      "CS",
       "M&C"
     ],
-    "id": "nitkkr_22"
+    "id": "nitkkr_22",
+    "semester": 4
   },
   {
     "Course Title": "Artificial Intelligence and Soft Computing",
     "Course Code": "CSPC-204",
     "route": "course/cspc-204",
     "Branches": [
+      "CS",
       "M&C"
     ],
-    "id": "nitkkr_23"
+    "id": "nitkkr_23",
+    "semester": 4
   },
   {
     "Course Title": "Database Management Systems",
     "Course Code": "CSPC-206",
     "route": "course/cspc-206",
     "Branches": [
+      "CS",
       "M&C"
     ],
-    "id": "nitkkr_24"
+    "id": "nitkkr_24",
+    "semester": 4
   },
   {
     "Course Title": "Real and Complex Analysis",
@@ -511,12 +524,13 @@
     "Course Code": "CSIC-101",
     "route": "course/csic-101",
     "Branches": [
+      "CS",
       "CoE",
       "IT",
       "AI & ML"
     ],
     "id": "nitkkr_53",
-    "semester": "1st"
+    "semester": 1
   },
   {
     "Course Title": "Problem Solving and Programming Skills",
@@ -739,19 +753,21 @@
     "Course Code": "CSIC-100",
     "route": "course/csic-100",
     "Branches": [
+      "CS",
       "CoE",
       "IT",
       "AI & ML",
       "M&C"
     ],
     "id": "nitkkr_75",
-    "semester": "2nd"
+    "semester": 2
   },
   {
     "Course Title": "Engineering Graphics (Web Design)",
     "Course Code": "CSIC-102",
     "route": "course/csic-102",
     "Branches": [
+      "CS",
       "CoE",
       "ECE",
       "IT",
@@ -760,7 +776,7 @@
       "M&C"
     ],
     "id": "nitkkr_76",
-    "semester": "2nd"
+    "semester": 2
   },
   {
     "Course Title": "NSS (NSS/Clubs/Technical Societies option)",
@@ -820,10 +836,11 @@
     "Course Code": "CSIC-104",
     "route": "course/csic-104",
     "Branches": [
+      "CS",
       "All"
     ],
     "id": "nitkkr_82",
-    "semester": "2nd"
+    "semester": 2
   },
   {
     "Course Title": "Engineering Mechanics",
@@ -840,11 +857,12 @@
     "Course Code": "CSPC-100 / ITPC-100",
     "route": "course/cspc-100",
     "Branches": [
+      "CS",
       "CoE",
       "IT"
     ],
     "id": "nitkkr_84",
-    "semester": "2nd"
+    "semester": 2
   },
   {
     "Course Title": "Electric Circuit Theory",
@@ -886,5 +904,599 @@
     ],
     "id": "nitkkr_88",
     "semester": "1st"
+  },
+  {
+    "Course Title": "Software Engineering",
+    "Course Code": "CSPC-207",
+    "route": "course/cspc-207",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 3,
+    "id": "nitkkr_89"
+  },
+  {
+    "Course Title": "IoT Programming",
+    "Course Code": "CSPC-209",
+    "route": "course/cspc-209",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 3,
+    "id": "nitkkr_90"
+  },
+  {
+    "Course Title": "Computer Networks",
+    "Course Code": "CSPC-202",
+    "route": "course/cspc-202",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 4,
+    "id": "nitkkr_91"
+  },
+  {
+    "Course Title": "Machine Learning",
+    "Course Code": "CSIC-301",
+    "route": "course/csic-301",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 5,
+    "id": "nitkkr_92"
+  },
+  {
+    "Course Title": "Theory of Computation",
+    "Course Code": "CSPC-301",
+    "route": "course/cspc-301",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 5,
+    "id": "nitkkr_93"
+  },
+  {
+    "Course Title": "Data Mining and Analytics",
+    "Course Code": "CSPC-303",
+    "route": "course/cspc-303",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 5,
+    "id": "nitkkr_94"
+  },
+  {
+    "Course Title": "Advanced Data Structures and Algorithms",
+    "Course Code": "CSPC-305",
+    "route": "course/cspc-305",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 5,
+    "id": "nitkkr_95"
+  },
+  {
+    "Course Title": "Information Security",
+    "Course Code": "CSPC-307",
+    "route": "course/cspc-307",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 5,
+    "id": "nitkkr_96"
+  },
+  {
+    "Course Title": "Big Data Analytics",
+    "Course Code": "CSPC-302",
+    "route": "course/cspc-302",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_97"
+  },
+  {
+    "Course Title": "Distributed Computing",
+    "Course Code": "CSPC-304",
+    "route": "course/cspc-304",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_98"
+  },
+  {
+    "Course Title": "Cloud, IoT and Big Data Security",
+    "Course Code": "CSPC-402",
+    "route": "course/cspc-402",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 8,
+    "id": "nitkkr_99"
+  },
+  {
+    "Course Title": "Mobile Application Development",
+    "Course Code": "CSPC-404",
+    "route": "course/cspc-404",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 8,
+    "id": "nitkkr_100"
+  },
+  {
+    "Course Title": "Multicore and GPU Programming",
+    "Course Code": "CSPC-406",
+    "route": "course/cspc-406",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 8,
+    "id": "nitkkr_101"
+  },
+  {
+    "Course Title": "Software Development using UML and Agile Methodology",
+    "Course Code": "CSPE-210",
+    "route": "course/cspe-210",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 4,
+    "id": "nitkkr_102"
+  },
+  {
+    "Course Title": "Competitive Programming and Efficient Coding For Problem Solving",
+    "Course Code": "CSPE-212",
+    "route": "course/cspe-212",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 4,
+    "id": "nitkkr_103"
+  },
+  {
+    "Course Title": "Scripting Languages",
+    "Course Code": "CSPE-214",
+    "route": "course/cspe-214",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 4,
+    "id": "nitkkr_104"
+  },
+  {
+    "Course Title": "Advanced Database Management System (Distributed Database Systems)",
+    "Course Code": "CSPE-302",
+    "route": "course/cspe-302",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_105"
+  },
+  {
+    "Course Title": "Game Theory and Applications",
+    "Course Code": "CSPE-304",
+    "route": "course/cspe-304",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_106"
+  },
+  {
+    "Course Title": "Image Processing",
+    "Course Code": "CSPE-306",
+    "route": "course/cspe-306",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_107"
+  },
+  {
+    "Course Title": "Software Verification and Validation",
+    "Course Code": "CSPE-308",
+    "route": "course/cspe-308",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_108"
+  },
+  {
+    "Course Title": "Ethical Hacking",
+    "Course Code": "CSPE-310",
+    "route": "course/cspe-310",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_109"
+  },
+  {
+    "Course Title": "Full Stack Development",
+    "Course Code": "CSPE-312",
+    "route": "course/cspe-312",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_110"
+  },
+  {
+    "Course Title": "Bio-Informatics",
+    "Course Code": "CSPE-314",
+    "route": "course/cspe-314",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_111"
+  },
+  {
+    "Course Title": "Advanced Topics in Computer Networks",
+    "Course Code": "CSPE-316",
+    "route": "course/cspe-316",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_112"
+  },
+  {
+    "Course Title": "Software Project Management",
+    "Course Code": "CSPE-318",
+    "route": "course/cspe-318",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_113"
+  },
+  {
+    "Course Title": "Compiler Design",
+    "Course Code": "CSPE-320",
+    "route": "course/cspe-320",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_114"
+  },
+  {
+    "Course Title": "Stochastic Processes and Queuing Theory",
+    "Course Code": "CSPE-322",
+    "route": "course/cspe-322",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_115"
+  },
+  {
+    "Course Title": "Human Centered Computing",
+    "Course Code": "CSPE-324",
+    "route": "course/cspe-324",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_116"
+  },
+  {
+    "Course Title": "Medical Image Computing",
+    "Course Code": "CSPE-407",
+    "route": "course/cspe-407",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_117"
+  },
+  {
+    "Course Title": "Modern Network Security",
+    "Course Code": "CSPE-409",
+    "route": "course/cspe-409",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_118"
+  },
+  {
+    "Course Title": "Number Theory and Cryptography",
+    "Course Code": "CSPE-411",
+    "route": "course/cspe-411",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_119"
+  },
+  {
+    "Course Title": "DevOps",
+    "Course Code": "CSPE-413",
+    "route": "course/cspe-413",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_120"
+  },
+  {
+    "Course Title": "Randomized Algorithm and Probabilistic Analysis",
+    "Course Code": "CSTC-302",
+    "route": "course/cstc-302",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_121"
+  },
+  {
+    "Course Title": "High Performance Computing",
+    "Course Code": "CSTC-304",
+    "route": "course/cstc-304",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_122"
+  },
+  {
+    "Course Title": "Distributed Blockchain Technologies",
+    "Course Code": "CSTC-306",
+    "route": "course/cstc-306",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_123"
+  },
+  {
+    "Course Title": "Deep Learning",
+    "Course Code": "CSTC-308",
+    "route": "course/cstc-308",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_124"
+  },
+  {
+    "Course Title": "Knowledge Representation and Reasoning",
+    "Course Code": "CSTC-310",
+    "route": "course/cstc-310",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_125"
+  },
+  {
+    "Course Title": "Information Retrieval",
+    "Course Code": "CSTC-312",
+    "route": "course/cstc-312",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_126"
+  },
+  {
+    "Course Title": "Introduction to Statistical Modelling and R-Programming",
+    "Course Code": "CSTC-314",
+    "route": "course/cstc-314",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_127"
+  },
+  {
+    "Course Title": "Optimization Techniques for Data Science",
+    "Course Code": "CSTC-316",
+    "route": "course/cstc-316",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 6,
+    "id": "nitkkr_128"
+  },
+  {
+    "Course Title": "Parallel and Distributed Algorithms",
+    "Course Code": "CSTC-401",
+    "route": "course/cstc-401",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_129"
+  },
+  {
+    "Course Title": "Cloud Architecture and Networking",
+    "Course Code": "CSTC-403",
+    "route": "course/cstc-403",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_130"
+  },
+  {
+    "Course Title": "Quantum Computing",
+    "Course Code": "CSTC-405",
+    "route": "course/cstc-405",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_131"
+  },
+  {
+    "Course Title": "Cognitive Applications of ML",
+    "Course Code": "CSTC-407",
+    "route": "course/cstc-407",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_132"
+  },
+  {
+    "Course Title": "Natural Language Processing",
+    "Course Code": "CSTC-409",
+    "route": "course/cstc-409",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_133"
+  },
+  {
+    "Course Title": "Semantic Web",
+    "Course Code": "CSTC-411",
+    "route": "course/cstc-411",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_134"
+  },
+  {
+    "Course Title": "Advances in Data Science",
+    "Course Code": "CSTC-413",
+    "route": "course/cstc-413",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_135"
+  },
+  {
+    "Course Title": "Natured Inspired Optimization Techniques",
+    "Course Code": "CSTC-415",
+    "route": "course/cstc-415",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_136"
+  },
+  {
+    "Course Title": "Data Structures",
+    "Course Code": "CSOE-301",
+    "route": "course/csoe-301",
+    "Branches": [],
+    "id": "nitkkr_137"
+  },
+  {
+    "Course Title": "Design and Analysis of Algorithms",
+    "Course Code": "CSOE-302",
+    "route": "course/csoe-302",
+    "Branches": [],
+    "id": "nitkkr_138"
+  },
+  {
+    "Course Title": "Machine Learning",
+    "Course Code": "CSOE-303",
+    "route": "course/csoe-303",
+    "Branches": [],
+    "id": "nitkkr_139"
+  },
+  {
+    "Course Title": "Operating System",
+    "Course Code": "CSOE-304",
+    "route": "course/csoe-304",
+    "Branches": [],
+    "id": "nitkkr_140"
+  },
+  {
+    "Course Title": "Database Management Systems",
+    "Course Code": "CSOE-305",
+    "route": "course/csoe-305",
+    "Branches": [],
+    "id": "nitkkr_141"
+  },
+  {
+    "Course Title": "Object-Oriented Programming using Java",
+    "Course Code": "CSOE-306",
+    "route": "course/csoe-306",
+    "Branches": [],
+    "id": "nitkkr_142"
+  },
+  {
+    "Course Title": "Advanced Data Structures and Algorithms",
+    "Course Code": "CSOE-401",
+    "route": "course/csoe-401",
+    "Branches": [],
+    "id": "nitkkr_143"
+  },
+  {
+    "Course Title": "Artificial Intelligence",
+    "Course Code": "CSOE-402",
+    "route": "course/csoe-402",
+    "Branches": [],
+    "id": "nitkkr_144"
+  },
+  {
+    "Course Title": "Computer Networks",
+    "Course Code": "CSOE-403",
+    "route": "course/csoe-403",
+    "Branches": [],
+    "id": "nitkkr_145"
+  },
+  {
+    "Course Title": "Information Security",
+    "Course Code": "CSOE-404",
+    "route": "course/csoe-404",
+    "Branches": [],
+    "id": "nitkkr_146"
+  },
+  {
+    "Course Title": "Deep Learning",
+    "Course Code": "CSOE-405",
+    "route": "course/csoe-405",
+    "Branches": [],
+    "id": "nitkkr_147"
+  },
+  {
+    "Course Title": "Theory of Computation",
+    "Course Code": "CSOE-406",
+    "route": "course/csoe-406",
+    "Branches": [],
+    "id": "nitkkr_148"
+  },
+  {
+    "Course Title": "Seminar and Group Discussion",
+    "Course Code": "CSPC-309",
+    "route": "course/cspc-309",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 5,
+    "id": "nitkkr_149"
+  },
+  {
+    "Course Title": "Project",
+    "Course Code": "CSPC-401",
+    "route": "course/cspc-401",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 7,
+    "id": "nitkkr_150"
+  },
+  {
+    "Course Title": "Term Work",
+    "Course Code": "CSPC-408",
+    "route": "course/cspc-408",
+    "Branches": [
+      "CS"
+    ],
+    "semester": 8,
+    "id": "nitkkr_151"
   }
 ]

@@ -1,0 +1,49 @@
+{
+  "Course Title": "Software Project Management",
+  "Course Code": "CSPE-318",
+  "route": "course/cspe-318",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Define the scope of Software Project Management (SPM) Understanding a few problems related to SPM Need for careful planning, monitoring, and control",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to SPM",
+      "body": "Software project vs. other types of project, activities covered by SPM, categorising software projects, problems with software projects, management control, stakeholders, information and control in organizations; overview of step-wise project planning."
+    },
+    {
+      "id": "2",
+      "title": "Project Evaluation and Software Effort Estimation",
+      "body": "Strategic and technical assessment, cost-benefit analysis, cash flow forecasting, risk evaluation; problems with over/under-estimates, software effort estimation techniques, Function Point Analysis, COCOMO model."
+    },
+    {
+      "id": "3",
+      "title": "Activity Planning, Risk and Resource Management",
+      "body": "Objectives of activity planning, project schedules, sequencing & scheduling activities, network planning models; risk management: identification, analysis, evaluating risks to the schedule; resource allocation."
+    },
+    {
+      "id": "4",
+      "title": "Project Execution and Closure",
+      "body": "Project monitoring and control: project tracking, milestone analysis, activity-level analysis, defect analysis and prevention, process monitoring and audit; project closure analysis."
+    }
+  ],
+  "outcomes": [
+    "Able to identify project planning objectives, along with various cost/effort estimation models.",
+    "Organize & schedule various project activities.",
+    "Capable of monitoring and controlling project activities."
+  ],
+  "textbooks": [
+    "Bob Hughes & Mike Cotterell, Software Project Management, McGraw-Hill Education, 3rd Edition.",
+    "Pankaj Jalote, Software Project Management In Practice, Pearson Education India; First Edition."
+  ]
+}

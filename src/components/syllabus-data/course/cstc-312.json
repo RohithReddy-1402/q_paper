@@ -1,0 +1,51 @@
+{
+  "Course Title": "Information Retrieval",
+  "Course Code": "CSTC-312",
+  "route": "course/cstc-312",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understand the fundamentals of Information Retrieval: the retrieval process, indexing, query formulation, relevance ranking, and result presentation. Familiarity with IR models: Boolean, vector space, probabilistic, and language models. Study retrieval evaluation metrics and methodologies. Study advanced retrieval techniques and applications such as relevance feedback, clustering, recommendation systems. Understand web search and ranking algorithms.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Fundamental Notions",
+      "body": "Data vs. information processing, DIKW model, search system vs. search engine, components and types of search systems, IR vs. web search, search system computing modules overview."
+    },
+    {
+      "id": "2",
+      "title": "Building Blocks of IR (Indexing Process)",
+      "body": "Text acquisition: crawling & feed, meta-crawlers; text transformation: stopping, stemming; link analysis; indexing: inverted indices, web indexes, near-duplicate detection, index compression."
+    },
+    {
+      "id": "3",
+      "title": "Internals of the Retrieval Process",
+      "body": "Retrieval models: Boolean and vector-space, language model based IR, probabilistic IR; relevance estimation: term weighting, TF-IDF, cosine similarity; relevance feedback and query expansion; user interface and visualization."
+    },
+    {
+      "id": "4",
+      "title": "Web Search and IR Paradigms",
+      "body": "Web search overview, evolution of the web, meta-search, web search architectures, SEO; link analysis: hubs and authorities, PageRank and HITS; recommendation systems, hidden web, web-snippet generation, summarization, question answering, cross-lingual retrieval & social media search."
+    }
+  ],
+  "outcomes": [
+    "Demonstrate knowledge of various retrieval models, such as Boolean, vector space, probabilistic, and language models.",
+    "Develop proficiency in implementing indexing techniques to efficiently organize and retrieve information.",
+    "Evaluate the effectiveness of retrieval systems using appropriate evaluation metrics and methodologies.",
+    "Understand the challenges and techniques involved in web search, including web crawling, link analysis, and ranking algorithms.",
+    "Explore the application of information retrieval techniques in areas such as text mining and question answering."
+  ],
+  "textbooks": [
+    "Ricardo Baeza-Yates and Berthier Ribeiro Neto, Modern Information Retrieval: The Concepts and Technology behind Search, 2nd Edition, ACM Press Books 2011.",
+    "C. Manning, P. Raghavan, and H. Schütze, Introduction to Information Retrieval, Cambridge University Press, 2008."
+  ]
+}

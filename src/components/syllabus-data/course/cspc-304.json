@@ -1,0 +1,52 @@
+{
+  "Course Title": "Distributed Computing",
+  "Course Code": "CSPC-304",
+  "route": "course/cspc-304",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To understand fundamental concepts of distributed computing. To acquire knowledge to design and develop protocols for distributed systems and networks.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Fundamental issues in distributed systems, models of distributed computations, handling time through clocks, physical and hardware clock synchronization, logical time and software clocks, message ordering protocols, interprocess communication, shared memory vs. message passing models, distributed and localized algorithms, evaluation of correctness and performance."
+    },
+    {
+      "id": "2",
+      "title": "Routing and Virtual Constructs",
+      "body": "Protocols for routing and designing virtual constructs, MST, MIS, and CDS, distributed mutual exclusion, leader election."
+    },
+    {
+      "id": "3",
+      "title": "Deadlock and Termination",
+      "body": "Distributed deadlock detection, termination detection, global state computation and snapshot recording."
+    },
+    {
+      "id": "4",
+      "title": "Fault Tolerance and Consensus",
+      "body": "Global predicate detection, fault-tolerance issues, checkpointing and rollback recovery, Z-path and Z-cycles, consensus and agreement protocols, FLP impossibility, Byzantine Generals Problem, failure detectors, wait freedom, self-stabilization, peer-to-peer computing, overlay structures, distributed scheduling and load balancing, naming, security."
+    }
+  ],
+  "outcomes": [
+    "Apply knowledge of operating systems and networks to distributed systems.",
+    "Design distributed algorithms for complex computing problems.",
+    "Analyze the performance of algorithms and evaluate the scalability of solutions.",
+    "Adapt existing centralized algorithms to a distributed setup.",
+    "Simulate the algorithms in a distributed environment."
+  ],
+  "referenceBooks": [
+    "A D Kshemkalyani and Mukesh Singhal, Distributed Computing: Principles, Algorithms, and Systems, Cambridge University Press 2008.",
+    "G Colouris, J Dollimore, and T Kindberg, Distributed Systems: Concepts and Design, 3/e Pearson Ed. 2002.",
+    "A S Tanenbaum and M van Steen, Distributed Systems: Principles and Paradigms, 3/e Pearson Ed. 2002."
+  ]
+}

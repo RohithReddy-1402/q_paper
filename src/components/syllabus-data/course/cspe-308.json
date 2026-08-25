@@ -1,0 +1,49 @@
+{
+  "Course Title": "Software Verification and Validation",
+  "Course Code": "CSPE-308",
+  "route": "course/cspe-308",
+  "credits": 4,
+  "prerequisites": "CSPC-207, CSPE-210 (Software Engineering, Software Development using UML and Agile Methodology)",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "The objectives of the course are to prepare students for learning different techniques of verification and validation of object oriented and web based software.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Preliminaries",
+      "body": "Fundamentals of software testing, errors and testing, software quality, requirements, behavior and correctness, correctness versus reliability, testing and debugging, verification and validation, types of testing, testing process."
+    },
+    {
+      "id": "2",
+      "title": "Introduction to Testing and Software Verification",
+      "body": "Functional testing: boundary value analysis, equivalence class testing, decision table based testing, cause-effect graphing. Structural testing: control flow, data flow, slice based and mutation based testing. Software verification: SRS/SDD/source code/user document review, software project audit."
+    },
+    {
+      "id": "3",
+      "title": "Test Case Generation and Regression Testing",
+      "body": "Test case generation from requirements and use cases, validity checking, data validation strategies, database testing; test generation from finite state models; introduction to regression testing, test case selection methods, risk analysis, code coverage prioritization, test selection using execution trace and dynamic slicing."
+    },
+    {
+      "id": "4",
+      "title": "Object Oriented Testing and Test Generation from Combinatorial Designs",
+      "body": "Combinatorial designs, fault model, Latin squares, mutually orthogonal Latin squares, pairwise design; object oriented testing: path testing, state based testing, class testing."
+    }
+  ],
+  "outcomes": [
+    "Describe techniques in the areas of software inspection, software testing and software validation.",
+    "Apply different techniques for verification of the software.",
+    "Generate test cases for validating object-oriented software."
+  ],
+  "textbooks": [
+    "Yogesh Singh, Software Testing, Cambridge Publication, 2013.",
+    "Aditya P. Mathur, Foundations of Software Testing, Second edition, Pearson Education, 2013."
+  ]
+}

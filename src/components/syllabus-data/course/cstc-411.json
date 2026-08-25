@@ -1,0 +1,51 @@
+{
+  "Course Title": "Semantic Web",
+  "Course Code": "CSTC-411",
+  "route": "course/cstc-411",
+  "credits": 4,
+  "prerequisites": "Knowledge representation and reasoning, AI, data structures and algorithms, Web technologies, Databases",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To offer an introduction to knowledge and logic-based information technologies, using logic programming as the primary example of knowledge-based reasoning and the Semantic Web as the primary application area. To introduce the W3C standard Web Ontology Language, OWL, and its underlying Description Logics. To provide experience using established patterns for developing OWL ontologies. To understand linked data technologies and applications.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Knowledge Engineering and Semantic Web Standards",
+      "body": "Uniform Resource Identifier (URI), RDF, ontology engineering, OWL, SPARQL, semantic web mission, concepts of semantic interoperability, integration and automation, metadata and ontology, description logics."
+    },
+    {
+      "id": "2",
+      "title": "Ontology Development",
+      "body": "Methods for developing and evaluating ontologies, application development using the OWL API, tableaux algorithm, DL reasoning problems, OWL and RDF(S) semantics, open and closed world assumptions, rules for inferring knowledge, First Order Logic, RDF-S semantics, SWRL, FOAF."
+    },
+    {
+      "id": "3",
+      "title": "Query Languages and Ontology Engineering",
+      "body": "SPARQL, SWRL (Semantic Web Rules Language), semantic technology, rules, Protégé, ontology alignment and evaluation, monolithic vs. modular ontology, ontology design methodology, ontology learning from text."
+    },
+    {
+      "id": "4",
+      "title": "Linked Data Engineering",
+      "body": "Semantic (web) infrastructure, applications and services, relation to Big Data and Industry 4.0, linked data programming, semantic annotation, named entity resolution, semantic search, exploratory search, linked data analytics, semantic recommendations."
+    }
+  ],
+  "outcomes": [
+    "Apply RDF, OWL, and SWRL syntax for semantic annotations and rule specification for web resources.",
+    "Build and visualize rich ontologies using editors such as Protégé.",
+    "Describe Linked Data principles and architecture, as in DBpedia, Wiki, FOAF etc.",
+    "Perform Linked data analysis and visualization using SPARQL with R/Python.",
+    "Develop insight into state-of-the-art semantic search engine, semantic web browser and semantic recommender systems."
+  ],
+  "textbooks": [
+    "Grigoris Antoniou, Paul Groth, Frank van Harmelen and Rinke Hoekstra, A Semantic Web Primer, MIT Press, 3rd edition, 2012.",
+    "David Wood, Marsha Zaidman, Luke Ruth, and Michael Hausenblas, Linked Data: Structured Data on the Web, Manning Publications, 2014."
+  ]
+}

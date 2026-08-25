@@ -1,0 +1,102 @@
+{
+  "branch": "CS",
+  "branchName": "Computer Science and Engineering",
+  "semester": 2,
+  "title": "B. Tech. Computer Science and Engineering Semester 2",
+  "totalCredits": 21,
+  "rows": [
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "label": "Economics for Engineers / Business Studies"
+    },
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "label": "Integral Calculus and Difference Equations"
+    },
+    {
+      "type": "core",
+      "code": "CSIC-100",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSIC-102",
+      "ltpc": [
+        1,
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSIC-104",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-100 / ITPC-100",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "label": "AU2"
+    },
+    {
+      "type": "coCurricular",
+      "label": "Sports",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "coCurricular",
+      "label": "NCC/Yoga/Clubs/NSS",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    }
+  ]
+}

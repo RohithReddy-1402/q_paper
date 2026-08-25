@@ -1,0 +1,48 @@
+{
+  "Course Title": "Artificial Intelligence",
+  "Course Code": "CSOE-402",
+  "route": "course/csoe-402",
+  "credits": 3,
+  "prerequisites": "CSPC-100 (Data Structures)",
+  "Course Type": "OE",
+  "Branch": [],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "It aims to give an introduction to the fundamentals of artificial intelligence. The course is designed to develop a basic understanding of problem solving, knowledge representation, reasoning and learning methods of AI. To learn about major topics of artificial intelligence, their fundamental differences and applicability.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Introduction to AI, foundations and history, problems, nature and structure of intelligent agents."
+    },
+    {
+      "id": "2",
+      "title": "Problem-Solving",
+      "body": "Solving problems by searching, heuristic search techniques, metaheuristic search, beyond classical search, adversarial search, constraint satisfaction problems."
+    },
+    {
+      "id": "3",
+      "title": "Knowledge, Reasoning, and Planning",
+      "body": "Logical agents, First-Order Logic, inference in First-Order Logic, classical planning, knowledge representation, uncertain knowledge and reasoning."
+    },
+    {
+      "id": "4",
+      "title": "Learning and Agents",
+      "body": "Learning from examples, knowledge in learning, definition of agents, agent architectures, multi-agent systems."
+    }
+  ],
+  "outcomes": [
+    "Understand basic concepts of AI and apply those concepts in the field of Artificial Intelligence.",
+    "Identify problems where artificial intelligence techniques are applicable.",
+    "Apply various AI search algorithms, knowledge representation, reasoning to real-world problems.",
+    "Design systems that act intelligently and learn from experience."
+  ],
+  "textbooks": [
+    "Russell, S. J. and Norvig, P., Artificial Intelligence: A Modern Approach, Pearson Education, 3rd Edition, 2014.",
+    "Elaine Rich, Kevin Knight and Shivashankar B Nair, Artificial Intelligence, Tata McGraw Hill, 3rd Edition, 2009."
+  ]
+}

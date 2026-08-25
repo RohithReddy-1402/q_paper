@@ -1,0 +1,54 @@
+{
+  "Course Title": "Deep Learning",
+  "Course Code": "CSTC-308",
+  "route": "course/cstc-308",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To cover the fundamentals of neural networks as well as advanced topics such as recurrent neural networks, LSTM cells and convolutional neural networks, and the basic applications of deep learning.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "History of deep learning, biological neuron, McCulloch–Pitts unit and thresholding logic, linear perceptron, perceptron learning algorithm, linear separability, convergence theorem for perceptron learning algorithm."
+    },
+    {
+      "id": "2",
+      "title": "Feedforward and Deep Networks",
+      "body": "Multilayer perceptron, gradient descent, backpropagation, empirical risk minimization, regularization, autoencoders, difficulty of training deep neural networks, greedy layerwise training."
+    },
+    {
+      "id": "3",
+      "title": "Optimization and Recurrent Networks",
+      "body": "Newer optimization methods (Adagrad, Adadelta, RMSprop, Adam, NAG), saddle point problem, regularization methods (dropout, drop connect, batch normalization); Recurrent Neural Networks: backpropagation through time, LSTM, GRU, bidirectional LSTMs/RNNs."
+    },
+    {
+      "id": "4",
+      "title": "Convolutional and Generative Models",
+      "body": "CNN architectures: LeNet, AlexNet, ZF-Net, VGGNet, visualizing CNNs, guided backpropagation, Deep Dream, Deep Art; generative models: Restricted Boltzmann Machines, MCMC and Gibbs sampling, Deep Boltzmann Machines."
+    },
+    {
+      "id": "5",
+      "title": "Recent Trends",
+      "body": "Variational autoencoders, generative adversarial networks, multi-task and multi-view deep learning, applications in image classification, vision and NLP."
+    }
+  ],
+  "outcomes": [
+    "Fundamental understanding of neural networks.",
+    "Basic and advanced concepts of deep learning.",
+    "Application of deep learning."
+  ],
+  "textbooks": [
+    "Ian J. Goodfellow, Bengio Yoshua, and Aaron Courville, Deep Learning, MIT Press.",
+    "Charu C. Aggarwal, Neural Networks and Deep Learning: A Textbook, Springer Nature, 2018."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "Course Title": "Ethical Hacking",
+  "Course Code": "CSPE-310",
+  "route": "course/cspe-310",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To impart students with basic information of prevalent vulnerabilities and threats. Awareness of required safety practices with regards to internet usage and safety protocols. Accurate overview of the hacking methodologies and solutions therein.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Ethical hacking introduction, networking fundamentals: TCP/IP stack, IP addressing and routing, TCP and UDP, IP subnets, routing protocols, IPv6, network scanning."
+    },
+    {
+      "id": "2",
+      "title": "Cryptography",
+      "body": "Private-key and public-key encryption, cryptographic hash functions, digital signature and certificate, applications, steganography, biometric authentication, network-based attacks, DNS and email security."
+    },
+    {
+      "id": "3",
+      "title": "Attacks",
+      "body": "Packet sniffing, password attack, social engineering attacks and denial of service attacks, password cracking, privilege escalation, remote code execution, elements of hardware security, side-channel attacks, physically unclonable functions, hardware Trojans, malware analysis."
+    },
+    {
+      "id": "4",
+      "title": "Web and Wireless Hacking",
+      "body": "Session hijacking, attack on web servers: password attack, SQL injection, cross site scripting, web applications hacking, wireless networks hacking, mobile platforms hacking, evading IDS/firewalls/honeypots, IoT hacking."
+    },
+    {
+      "id": "5",
+      "title": "Case Studies",
+      "body": "Threats and remedies."
+    }
+  ],
+  "outcomes": [
+    "Assess various vulnerabilities of the system.",
+    "Aptly judge the security credentials of any software or hardware applications.",
+    "Be able to decide upon the communication and computation models for a reasonably secure system."
+  ],
+  "textbooks": [
+    "Dr. Daniel Graham, Ethical Hacking, 1st edition, No Starch Press.",
+    "Stallings, W., Data and computer communications, 9th Edition, Pearson Education India.",
+    "Forouzan, B. A., Data Communications and Networking Global Edition, 5th edition, McGraw Hill."
+  ]
+}

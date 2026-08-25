@@ -1,0 +1,95 @@
+{
+  "branch": "CS",
+  "branchName": "Computer Science and Engineering",
+  "semester": 6,
+  "title": "B. Tech. Computer Science and Engineering Semester 6",
+  "totalCredits": 21,
+  "rows": [
+    {
+      "type": "core",
+      "code": "CSPC-302",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-304",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Track Course – I (choose one, per specialization track: Algorithms & Computing / AI & Machine Learning / Data Science)",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "options": [
+        "CSTC-302",
+        "CSTC-304",
+        "CSTC-306",
+        "CSTC-308",
+        "CSTC-310",
+        "CSTC-312",
+        "CSTC-314",
+        "CSTC-316"
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Department Elective – II",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "options": [
+        "CSPE-302",
+        "CSPE-304",
+        "CSPE-306",
+        "CSPE-308",
+        "CSPE-310",
+        "CSPE-312"
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Department Elective – III",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "CSPE-314",
+        "CSPE-316",
+        "CSPE-318",
+        "CSPE-320",
+        "CSPE-322",
+        "CSPE-324"
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective – II (a list of courses is published for branches other than CO/IT)",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    }
+  ]
+}

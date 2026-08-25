@@ -1,0 +1,79 @@
+{
+  "branch": "CS",
+  "branchName": "Computer Science and Engineering",
+  "semester": 5,
+  "title": "B. Tech. Computer Science and Engineering Semester 5",
+  "totalCredits": 22,
+  "rows": [
+    {
+      "type": "core",
+      "code": "CSIC-301",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-301",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-303",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-305",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-307",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective – I (a list of courses is published for branches other than CO/IT; CO/IT students take an elective from another department)",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-309",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "Course Title": "Scripting Languages",
+  "Course Code": "CSPE-214",
+  "route": "course/cspe-214",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understanding the basics of scripting, history of scripting and use of scripting languages for webpages. Understand the use of HTML5 elements and differentiate with HTML for authoring web pages. Able to apply Cascading Style Sheets for applying stylistic information to web pages. Able to apply JavaScript logic on webpages for creating interactive web pages. Understands and applies PHP and the basis of database connectivity.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Introduction to scripting, scripts and programs, origin of scripting, characteristics and uses of scripting languages, shell scripts, web scripting, and the universe of scripting languages."
+    },
+    {
+      "id": "2",
+      "title": "HTML",
+      "body": "HTML, HTML5, and XHTML basics, elements, attributes and tags, basic and advanced tags, frames, images, relative URLs, forms, creating HTML documents."
+    },
+    {
+      "id": "3",
+      "title": "Style Sheet",
+      "body": "CSS - introduction to cascading style sheets, features, core syntax, style sheets and HTML box model."
+    },
+    {
+      "id": "4",
+      "title": "JavaScript & AJAX",
+      "body": "JavaScript: variables, literals, operators, control structures, arrays, functions, objects, predefined objects, events and event handlers, forms, data entry and validation, tables. AJAX introduction, XMLHttpRequest object, callback methods, DHTML with JavaScript."
+    },
+    {
+      "id": "5",
+      "title": "PHP",
+      "body": "Essential PHP - operators and flow control, strings and arrays, creating functions, reading data in web pages, file handling, session handling in PHP, cookies, connection with MySQL."
+    }
+  ],
+  "outcomes": [
+    "Understanding the basics of scripting history of scripting and use of scripting languages to webpages.",
+    "Able to use HTML5 elements and differentiate with HTML.",
+    "Able to apply style sheet and JavaScript logic on webpage.",
+    "Build a dynamic web page using JavaScript & Ajax.",
+    "Able to write a script for webpage using PHP."
+  ],
+  "textbooks": [
+    "Jeffrey C. Jackson, Web Technologies - A Computer Science Perspective, Pearson Education.",
+    "Rasmus Lerdorf and Levin Tatroe, Programming PHP, O'Reilly, Third Edition.",
+    "Chris Bates, Web Programming – Building Intranet Applications, 3rd Edition, Wiley Publications, 2009."
+  ]
+}

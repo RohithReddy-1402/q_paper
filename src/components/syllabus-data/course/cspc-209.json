@@ -1,0 +1,59 @@
+{
+  "Course Title": "IoT Programming",
+  "Course Code": "CSPC-209",
+  "route": "course/cspc-209",
+  "credits": 2,
+  "prerequisites": "Programming on the Raspberry Pi",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    1,
+    0,
+    2,
+    2
+  ],
+  "description": "Familiarity with sensors, actuators and microcontroller-based Arduino and Raspberry Pi platform. Writing C programs in Arduino IDE. Understanding of the communication between microcontroller and PC using serial communication. Knowledge of the design of IoT based applications.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Internet of Things",
+      "body": "Applications/Devices, Protocols and Communication Model, the Physical Design/Logical Design of IoT, Functional blocks of IoT and Communication Models, Development Tools used in IoT."
+    },
+    {
+      "id": "2",
+      "title": "Things and Connections",
+      "body": "Working of Controlled Systems: Real-time systems with feedback loop, Connectivity models, different type of modes using wired and wireless methodology."
+    },
+    {
+      "id": "3",
+      "title": "Sensors, Actuators and Microcontrollers",
+      "body": "Types of sensors, actuator and actuators controller, Microcontroller vs microprocessor, different types of microcontrollers in embedded ecosystem."
+    },
+    {
+      "id": "4",
+      "title": "Building IoT applications using Arduino",
+      "body": "Introduction to Arduino IDE, Embedded 'C' Language basics, interfacing sensors, interfacing LED, Button, Sensors-DHT, LDR, MQ135, IR."
+    },
+    {
+      "id": "5",
+      "title": "Building IoT applications using Raspberry Pi",
+      "body": "Raspberry Pi Hardware, Versions, Accessories, Precautions, Raspberry Pi Software – Operating System, Communicating and Connecting, Programming on the Raspberry Pi."
+    }
+  ],
+  "outcomes": [
+    "Awareness of basic concepts, principles and challenges in IoT.",
+    "Understanding of the functioning of hardware devices and sensors used for IoT.",
+    "Ability to analyze network communication aspects and protocols used in IoT.",
+    "Apply IoT for developing applications using Arduino programming."
+  ],
+  "textbooks": [
+    "Macro Schwartz, \"Internet of Things with Arduino – Cookbook\", Packt 2016.",
+    "Arshdeep Bajga and Vijay Madisetti, \"Internet of Things- A Hands-on Approach\" Universities Press, 2014.",
+    "Derek Molloy, \"Exploring Raspberry Pi: Interfacing to the Real World with Embedded Linux\", John Wiley & Sons, 2016."
+  ],
+  "referenceBooks": [
+    "G. R. Kanagachidambaresan, \"Internet of Things Using Single Board Computers: Principles of IoT and Python Programming\", Apress, 2022."
+  ]
+}

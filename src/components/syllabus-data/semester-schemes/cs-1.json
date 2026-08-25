@@ -1,0 +1,105 @@
+{
+  "branch": "CS",
+  "branchName": "Computer Science and Engineering",
+  "semester": 1,
+  "title": "B. Tech. Computer Science and Engineering Semester 1",
+  "totalCredits": 21,
+  "rows": [
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        2,
+        0,
+        2,
+        3
+      ],
+      "label": "Communication Skills in English / Financial Education"
+    },
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "label": "Differential Calculus and Differential Equations"
+    },
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "label": "Engineering Physics"
+    },
+    {
+      "type": "core",
+      "code": "CSIC-101",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        2,
+        0,
+        2,
+        3
+      ],
+      "label": "Energy & Environmental Science"
+    },
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "label": "Engineering Practices (P)"
+    },
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "label": "AU1"
+    },
+    {
+      "type": "coCurricular",
+      "label": "Sports",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "coCurricular",
+      "label": "NCC/NSS/Yoga",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    }
+  ]
+}

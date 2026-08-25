@@ -1,0 +1,47 @@
+{
+  "Course Title": "Deep Learning",
+  "Course Code": "CSOE-405",
+  "route": "course/csoe-405",
+  "credits": 3,
+  "prerequisites": "CSIC-301 (Machine Learning)",
+  "Course Type": "OE",
+  "Branch": [],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To cover the fundamentals of neural networks as well as advanced topics such as recurrent neural networks, LSTM cells and convolutional neural networks, and basic applications of deep learning.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "History of deep learning, biological neuron, McCulloch–Pitts unit and thresholding logic, linear perceptron, perceptron learning algorithm, linear separability."
+    },
+    {
+      "id": "2",
+      "title": "Feedforward and Deep Networks",
+      "body": "Multilayer perceptron, gradient descent, backpropagation, regularization, autoencoders, difficulty of training deep networks, greedy layerwise training."
+    },
+    {
+      "id": "3",
+      "title": "Optimization and Recurrent Networks",
+      "body": "Newer optimization methods (Adagrad, Adadelta, RMSprop, Adam), regularization methods (dropout, batch normalization); Recurrent Neural Networks: backpropagation through time, LSTM, GRU, bidirectional RNNs."
+    },
+    {
+      "id": "4",
+      "title": "Convolutional Networks and Recent Trends",
+      "body": "CNN architectures: LeNet, AlexNet, VGGNet; generative models: Restricted Boltzmann Machines; recent trends: variational autoencoders, GANs, applications in image classification, vision and NLP."
+    }
+  ],
+  "outcomes": [
+    "Fundamental understanding of neural networks.",
+    "Basic and advanced concepts of deep learning.",
+    "Application of deep learning."
+  ],
+  "textbooks": [
+    "Ian J. Goodfellow, Bengio Yoshua, and Aaron Courville, Deep Learning, MIT Press.",
+    "Charu C. Aggarwal, Neural Networks and Deep Learning: A Textbook, Springer Nature, 2018."
+  ]
+}

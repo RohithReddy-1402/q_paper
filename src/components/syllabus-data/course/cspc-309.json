@@ -1,0 +1,30 @@
+{
+  "Course Title": "Seminar and Group Discussion",
+  "Course Code": "CSPC-309",
+  "route": "course/cspc-309",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "description": "To develop the ability to research a technical topic independently and present it clearly, and to build skills in structured group discussion and technical communication.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Seminar and Group Discussion",
+      "body": "Each student identifies a recent topic/technology in Computer Science and Engineering, prepares a technical report and delivers a seminar presentation, followed by a moderated group discussion and peer evaluation on contemporary topics in the discipline."
+    }
+  ],
+  "outcomes": [
+    "Independently research and present a technical topic.",
+    "Participate effectively in structured technical group discussions.",
+    "Improve written and oral technical communication skills."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "Course Title": "Data Structures",
+  "Course Code": "CSOE-301",
+  "route": "course/csoe-301",
+  "credits": 3,
+  "prerequisites": "CSIC-101 (Problems Solving and Programming Skills)",
+  "Course Type": "OE",
+  "Branch": [],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "This course introduces the concept of Data Structures used in various computer science applications. Students are introduced to understand and efficiently apply various data structures such as stacks, queues, linked lists, trees and graphs for solving various computing problems using C programming language.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Pointers & File Handling",
+      "body": "Revision of pointers and dynamic memory, files and related operations. Searching techniques: linear and binary; sorting techniques: selection, bubble, insertion, merge sort, quicksort."
+    },
+    {
+      "id": "2",
+      "title": "Simple Data Structures",
+      "body": "Arrays based linear data structures: array storage, sparse arrays; transpose, addition and multiplication of sparse matrices; stacks and queues and their applications, multiple stacks and queues in an array."
+    },
+    {
+      "id": "3",
+      "title": "Linked Data Structures",
+      "body": "Singly, doubly & circular linked lists; representation, operations and applications, linked stacks and queues, linked lists based polynomial addition."
+    },
+    {
+      "id": "4",
+      "title": "Advanced Data Structures",
+      "body": "Trees, basic concepts and definitions of a tree and binary tree and associated terminology, binary tree traversal techniques, some more operations on binary trees, heaps and heapsort."
+    }
+  ],
+  "outcomes": [
+    "Develop skill to identify and determine the usage of various data structures, operations, associated algorithms and implement their applications.",
+    "Apply knowledge of pointers, memory allocation and string handling for solving programming problems.",
+    "Understand the concept of trees and graphs, their implementation and applications.",
+    "Able to implement standard algorithms for searching and sorting.",
+    "Analyze efficiency of different algorithms using time and space complexity."
+  ],
+  "referenceBooks": [
+    "E Horowitz and S. Sahni, Fundamentals of Data Structures in C, Second Edition, Universities Press, Hyderabad.",
+    "R.L. Kruse, Data Structures & Program Design in C, PHI."
+  ]
+}

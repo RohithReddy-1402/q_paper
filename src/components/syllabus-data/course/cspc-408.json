@@ -1,0 +1,29 @@
+{
+  "Course Title": "Term Work",
+  "Course Code": "CSPC-408",
+  "route": "course/cspc-408",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    0,
+    0,
+    2,
+    2
+  ],
+  "description": "To consolidate and demonstrate practical proficiency gained across the semester's courses through supervised term work/laboratory assignments.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Term Work",
+      "body": "Continuous laboratory/assignment work spanning the semester's courses, evaluated through practical demonstrations, viva-voce and a term work file/report."
+    }
+  ],
+  "outcomes": [
+    "Demonstrate practical proficiency across the semester's courses.",
+    "Develop a habit of continuous, well-documented lab work."
+  ]
+}

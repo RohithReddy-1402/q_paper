@@ -1,0 +1,59 @@
+{
+  "branch": "CS",
+  "branchName": "Computer Science and Engineering",
+  "semester": 8,
+  "title": "B. Tech. Computer Science and Engineering Semester 8",
+  "totalCredits": 15,
+  "rows": [
+    {
+      "type": "core",
+      "code": "CSPC-402",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-404",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-406",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective – IV (a list of courses is published for branches other than CO/IT)",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSPC-408",
+      "ltpc": [
+        0,
+        0,
+        2,
+        2
+      ]
+    }
+  ]
+}

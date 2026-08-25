@@ -1,0 +1,52 @@
+{
+  "Course Title": "Distributed Blockchain Technologies",
+  "Course Code": "CSTC-306",
+  "route": "course/cstc-306",
+  "credits": 4,
+  "prerequisites": "Data Structures and Algorithms, Cryptographic Techniques, Programming Fundamentals",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To provide conceptual understanding of blockchain technology and its working along with fundamental knowledge of cryptocurrency. To give students the understanding of emerging abstract models for blockchain technology and to familiarise with the functional/operational aspects of the cryptocurrency eco-system. To study the security issues and safeguards related to blockchain network attacks. To familiarise students to real-time application development using blockchain with different tools.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Need for distributed record keeping, modeling faults and adversaries, fault-tolerant distributed computing, Paxos, Byzantine Generals Problem, consensus algorithms and their scalability problems, Nakamoto's concept with blockchain based cryptocurrency (Bitcoin), technical concepts: block, hash pointers and Merkle tree, digital signature, public-key cryptography, digital cash, zero-knowledge systems, public vs private blockchain, permissioned model, concept of smart contract."
+    },
+    {
+      "id": "2",
+      "title": "Bitcoin and Blockchain",
+      "body": "Creation of coins, payments and double spending problem, Bitcoin scripts, P2P network, transactions, block mining, propagation and relay; consensus in Bitcoin, Proof of Work and Proof of Stake, mining pools; Ethereum basics – Ethereum and smart contracts, writing smart contracts using Solidity & JavaScript."
+    },
+    {
+      "id": "3",
+      "title": "Security and Privacy Issues",
+      "body": "Pseudo-anonymity vs. anonymity, Zcash and Zk-SNARKS for anonymity preservation, scalability problems, network attacks; attacks on blockchains: Sybil attacks, selfish mining, 51% attacks, advent of Algorand, sharding-based consensus algorithms to prevent these attacks."
+    },
+    {
+      "id": "4",
+      "title": "Blockchain Application Development and Case Studies",
+      "body": "Hyperledger Fabric architecture, identities and policies, membership and access control, channels, transaction validation, writing smart contracts using Hyperledger Fabric and Ethereum, overview of Ripple and Corda; case studies in financial services, supply chain management and government services."
+    }
+  ],
+  "outcomes": [
+    "Describe the blockchain technology, its distributed computing, cryptographic and cryptocurrency primitives.",
+    "Develop blockchain-based solutions and write smart contracts using Hyperledger Fabric and Ethereum frameworks.",
+    "Illustrate the concepts of Bitcoin and their usage.",
+    "Implement Ethereum blockchain contracts for real-world project development.",
+    "Apply security features in blockchain technologies."
+  ],
+  "textbooks": [
+    "Josh Thompsons, Block Chain: The Block Chain for Beginners, Createspace Independent Pub, 2017.",
+    "Imran Bashir, Mastering Block Chain: Distributed Ledger Technology, Decentralization and Smart Contracts Explained, Packt Publishing, 2nd ed., 2018.",
+    "Narayanan, Bonneau, Felten, Miller and Goldfeder, Bitcoin and Cryptocurrency Technologies, Princeton University Press, 2016."
+  ]
+}

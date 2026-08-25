@@ -1,0 +1,55 @@
+{
+  "Course Title": "Optimization Techniques for Data Science",
+  "Course Code": "CSTC-316",
+  "route": "course/cstc-316",
+  "credits": 4,
+  "prerequisites": "Linear algebra, multivariate calculus, basic analysis and probability",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To introduce students to the arsenal of first-order gradient optimization algorithms essential in data science, replacing the classic interior-point methods for large-scale problems. Aim is to understand which algorithm is good for solving what kind of data science problems.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Data analysis and optimization, least squares, matrix factorization problems, support vector machines, logistic regression, deep learning."
+    },
+    {
+      "id": "2",
+      "title": "Foundations of Smooth Optimization",
+      "body": "A taxonomy of solutions to optimization problems, Taylor's theorem, characterizing minima of smooth functions, convex sets and functions, strongly convex functions."
+    },
+    {
+      "id": "3",
+      "title": "Descent Methods",
+      "body": "Descent directions, line search, acceptability of step sizes, general minimization algorithm, steepest-descent method and convergence, mirror descent, the KL and PL properties."
+    },
+    {
+      "id": "4",
+      "title": "Gradient and Constrained Optimization Methods",
+      "body": "Gradient methods, stochastic gradient, coordinate descent; first-order methods for constrained optimization: optimality conditions, Euclidean projection, projected gradient algorithm, conditional gradient (Frank–Wolfe) method."
+    },
+    {
+      "id": "5",
+      "title": "Duality and Algorithms",
+      "body": "Quadratic penalty function, Lagrangians and duality, first-order optimality conditions, strong duality, dual algorithms, dual subgradient, augmented Lagrangian method, Alternating Direction Method of Multipliers."
+    }
+  ],
+  "outcomes": [
+    "Recognize and formulate convex, nonconvex, and structured optimization problems.",
+    "Understand the basic theory and algorithms for solving large-scale problems.",
+    "Gain programming experience on numerical implementations.",
+    "Use the material in current or future research."
+  ],
+  "textbooks": [
+    "Stephen J. Wright and Benjamin Recht, Optimization for Data Analysis, Cambridge University Press, 2022.",
+    "Amir Beck, First-Order Methods in Optimization, SIAM, 2017."
+  ]
+}

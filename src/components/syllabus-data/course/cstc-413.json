@@ -1,0 +1,49 @@
+{
+  "Course Title": "Advances in Data Science",
+  "Course Code": "CSTC-413",
+  "route": "course/cstc-413",
+  "credits": 4,
+  "prerequisites": "CSPC-303 (Data Mining and Analytics)",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "This course aims to introduce students to different pattern mining tools and techniques for complex data considering different real time constraints on data analysis pertaining to different application domains.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Pattern Mining",
+      "body": "Maximal and closed patterns, pattern mining in multilevel and multidimensional space, constraint-based pattern generation, mining high-dimensional data and colossal patterns, mining compressed patterns by pattern clustering, sequential pattern mining."
+    },
+    {
+      "id": "2",
+      "title": "Advanced Clustering",
+      "body": "Clustering high-dimensional data, challenges in subspace clustering, CLIQUE, PROCLUS, clustering graph and network data, similarity measures, clustering with constraints."
+    },
+    {
+      "id": "3",
+      "title": "Anomaly Detection",
+      "body": "Types of anomalies, statistical approaches, proximity based approaches, supervised approaches, mining contextual and collective anomalies."
+    },
+    {
+      "id": "4",
+      "title": "Analysis of Complex Data and Case Studies",
+      "body": "Algorithms for analysis of spatial data, graph data, text data, time series data; case studies in medical, finance, environment, and transportation domains."
+    }
+  ],
+  "outcomes": [
+    "Design efficient algorithms for finding patterns and clusters in complex data.",
+    "Design techniques for detecting anomalies in data.",
+    "Analyse real data coming from different domains such as medical, transport, environment etc."
+  ],
+  "textbooks": [
+    "Tan, Pang-Ning, Michael Steinbach, and Vipin Kumar, Introduction to Data Mining, Pearson Education India, 2016.",
+    "Han, Jiawei, et al., Data Mining: Concepts and Techniques, Third Edition, Morgan Kaufmann Publishers, 2012."
+  ]
+}

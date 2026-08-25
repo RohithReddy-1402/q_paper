@@ -1,0 +1,52 @@
+{
+  "Course Title": "Full Stack Development",
+  "Course Code": "CSPE-312",
+  "route": "course/cspe-312",
+  "credits": 4,
+  "prerequisites": "CSPC-207 (Software Engineering)",
+  "Course Type": "PE",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "The main objective of the course is to enable the students to develop a complete web application that includes frontend, backend and data-exchange technologies.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Planning Your Work",
+      "body": "Rise of the web, mobile web, applications vs. web sites, identifying and tracking requirements, Scrum, Kanban, continuous improvement, prioritization & estimation, managing bugs, continuous delivery."
+    },
+    {
+      "id": "2",
+      "title": "Designing Systems",
+      "body": "System architectures, identifying concepts and user interactions, handling commonalities, working with legacy and external dependencies, component interactions, cross-functional requirements, caching, designing for failure, designing modules, refactoring."
+    },
+    {
+      "id": "3",
+      "title": "Front End",
+      "body": "HTML: from server to browser, styling, components, responsive design, progressive enhancement, SEO, build tools, test-driven development. JavaScript: in the browser, offline-first development, DOM, server-side JavaScript, JavaScript modules and structuring."
+    },
+    {
+      "id": "4",
+      "title": "Back-End Development and Storing Data",
+      "body": "Server-side programming languages (e.g., Node.js, Python, Ruby), APIs, designing and securing a REST API, storing data, types of databases, SQL vs. NoSQL, accessing and managing data, protecting your data."
+    }
+  ],
+  "outcomes": [
+    "Learn about the most recent web development technologies.",
+    "Understand the basics of HTML, CSS, and Bootstrap to structure and style web pages.",
+    "Acquire awareness about the front end and back-end tools."
+  ],
+  "textbooks": [
+    "Chris Northwood, The Full Stack Developer: Your Essential Guide to the Everyday Skills Expected of a Modern Full Stack Web Developer, Apress, 2018."
+  ],
+  "referenceBooks": [
+    "Jon Duckett, Web Design with HTML, CSS, JavaScript and JQuery Set, Wiley, 2014.",
+    "Nicholas C. Zakas, Professional JavaScript for Web Developers, Wiley, 2012."
+  ]
+}

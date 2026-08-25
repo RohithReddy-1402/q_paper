@@ -1,0 +1,51 @@
+{
+  "Course Title": "Natured Inspired Optimization Techniques",
+  "Course Code": "CSTC-415",
+  "route": "course/cstc-415",
+  "credits": 4,
+  "prerequisites": "CSPC-201 (Design and Analysis of Algorithms)",
+  "Course Type": "TC",
+  "Branch": [
+    "CS"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Provide the mathematical background for carrying out optimization associated with nature inspired techniques, and provide an introduction to the basic principles, techniques, and applications of nature inspired optimization techniques.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Algorithms",
+      "body": "Optimization, search for optimality, nature-inspired metaheuristics, analysis of optimization algorithms, parameter tuning and parameter control."
+    },
+    {
+      "id": "2",
+      "title": "Random Walks and Simulated Annealing",
+      "body": "Random variables, optimization as Markov chains, step sizes and search efficiency, modality and intermittent search strategy, importance of randomization, eagle strategy; simulated annealing: annealing and Boltzmann distribution, SA algorithm, basic convergence properties, stochastic tunneling."
+    },
+    {
+      "id": "3",
+      "title": "Evolutionary and Swarm Algorithms",
+      "body": "Genetic algorithms: role of genetic operators, choice of parameters, GA variants, convergence analysis; particle swarm optimization: swarm intelligence, PSO algorithm; firefly algorithms; cuckoo search: cuckoo breeding behavior."
+    },
+    {
+      "id": "4",
+      "title": "Advanced Topics",
+      "body": "A framework for self-tuning algorithms, handling constraints, multi-objective optimization, other and hybrid algorithms: ant algorithms, bee-inspired algorithms, differential evolution."
+    }
+  ],
+  "outcomes": [
+    "Learn the mathematical basis as well as general principles of various nature-inspired optimization techniques and algorithms.",
+    "Understand and implement the concept of optimization techniques.",
+    "Develop familiarity with current research problems and research methods in this field."
+  ],
+  "textbooks": [
+    "Xin-She Yang, Nature-Inspired Optimization Algorithms, Elsevier publications, First Edition, 2014."
+  ],
+  "referenceBooks": [
+    "Nazmul Siddique, Hojjat Adeli, Nature-Inspired Computing Physics- and Chemistry-based Algorithms, First Edition, 2017."
+  ]
+}
