@@ -1,0 +1,55 @@
+{
+  "Course Title": "Deep Learning",
+  "Course Code": "AIPC-300",
+  "route": "course/aipc-300",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "The objective Deep Learning course is to cover the fundamentals of neural networks as well as some advanced topics such as recurrent neural networks, long short-term memory cells and convolutional neural networks. This course also covers the basic applications of deep learning.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "History of deep learning, biological neuron, idea of computational units, McCulloch-Pitts unit and thresholding logic, linear perceptron, perceptron learning algorithm, linear separability, convergence theorem for perceptron learning algorithm."
+    },
+    {
+      "id": "2",
+      "title": "Feedforward and Deep Networks",
+      "body": "Multilayer perceptron, gradient descent, backpropagation, empirical risk minimization, regularization, autoencoders; difficulty of training deep neural networks, greedy layerwise training."
+    },
+    {
+      "id": "3",
+      "title": "Optimization and Recurrent Networks",
+      "body": "Newer optimization methods for neural networks (Adagrad, adadelta, rmsprop, adam, NAG), second order methods for training, saddle point problem, regularization methods (dropout, drop connect, batch normalization); recurrent neural networks: backpropagation through time, LSTM, gated recurrent units, bidirectional LSTMs and RNNs."
+    },
+    {
+      "id": "4",
+      "title": "Convolutional Neural Networks",
+      "body": "LeNet, AlexNet, ZF-Net, VGGNet, visualizing CNNs, guided backpropagation, Deep Dream, Deep Art, fooling CNNs; generative models: Restricted Boltzmann Machines (RBMs), introduction to MCMC and Gibbs sampling, gradient computations in RBMs, Deep Boltzmann Machines."
+    },
+    {
+      "id": "5",
+      "title": "Recent Trends",
+      "body": "Variational autoencoders, generative adversarial networks, multi-task deep learning, multi-view deep learning; applications: image based classification, vision, NLP."
+    }
+  ],
+  "outcomes": [
+    "Fundamental understanding of neural networks.",
+    "Basic and advanced concepts of deep learning.",
+    "Application of deep learning."
+  ],
+  "textbooks": [
+    "Ian J. Goodfellow, Bengio Yoshua, and Aaron Courville, Deep Learning, MIT Press, 2016.",
+    "Charu C. Aggarwal, Neural Networks and Deep Learning: A Textbook, Springer Nature, 2018.",
+    "Seth Weidman, Deep Learning from Scratch: Building with Python from First Principles, O'REILLY, 2019."
+  ]
+}

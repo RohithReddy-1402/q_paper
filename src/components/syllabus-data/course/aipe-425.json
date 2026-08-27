@@ -1,0 +1,52 @@
+{
+  "Course Title": "High Performance Computing",
+  "Course Code": "AIPE-425",
+  "route": "course/aipe-425",
+  "credits": 4,
+  "prerequisites": "COA, DSA, OS",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understand the architecture of modern high-performance computing systems. Analyze parallelism in computational problems. Design efficient shared-memory and distributed-memory parallel programs. Optimize applications for multicore CPUs and GPUs. Evaluate the performance and scalability of HPC applications. Apply HPC techniques to solve scientific and engineering problems.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to High Performance Computing",
+      "body": "Evolution of HPC, need for and applications of HPC, Flynn's taxonomy, parallel computing models, types of parallelism, HPC system architecture, multicore and many-core processors, memory hierarchy, performance metrics, speedup, efficiency, scalability, Amdahl's law, Gustafson's law."
+    },
+    {
+      "id": "2",
+      "title": "Parallel Computer Architecture and Programming Models",
+      "body": "Shared memory systems, distributed memory systems, cluster computing, NUMA architecture, cache coherence, interconnection networks, parallel programming paradigms, thread-based programming, data and task parallelism, SIMD, MIMD architectures, introduction to OpenMP, directives, parallel regions, synchronization, work sharing constructs."
+    },
+    {
+      "id": "3",
+      "title": "Distributed Computing using MPI",
+      "body": "Message passing model, MPI architecture and environment, point-to-point and collective communication, communicators and groups, process topologies, non-blocking communication, parallel I/O, synchronization techniques, parallel algorithms using MPI."
+    },
+    {
+      "id": "4",
+      "title": "GPU Computing and Performance Optimization",
+      "body": "Introduction to GPU architecture, CUDA programming model, CUDA memory hierarchy, kernel programming, thread organization, memory optimization, load balancing, vectorization, loop optimization, cache optimization, performance profiling, benchmarking, parallel debugging tools."
+    }
+  ],
+  "outcomes": [
+    "Understand the architecture of high-performance computers and how it affects program speed.",
+    "Understand how memory access affects the speed of HPC programs.",
+    "Understand Amdahl's law for parallel and serial computing and the importance of communication overhead.",
+    "Understand the general types of parallel computers and which types of problems suit each.",
+    "Understand practical aspects of message passing on MIMD machines."
+  ],
+  "referenceBooks": [
+    "Thomas Sterling, Maciej Brodowicz, and Matthew Anderson, High Performance Computing: Modern Systems and Practices.",
+    "David B. Kirk and Wen-mei W. Hwu, Programming Massively Parallel Processors: A Hands-on Approach.",
+    "Ananth Grama, Anshul Gupta, George Karypis, and Vipin Kumar, Introduction to Parallel Computing."
+  ]
+}

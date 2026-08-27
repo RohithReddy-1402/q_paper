@@ -1,0 +1,73 @@
+{
+  "branch": "RA",
+  "branchName": "Robotics & Automation",
+  "semester": 2,
+  "title": "B. Tech. Robotics & Automation 2nd Semester",
+  "totalCredits": 21,
+  "rows": [
+    {
+      "type": "core",
+      "code": "CSIC-100",
+      "ltpc": [
+        4,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSIC-104",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MAIC-102",
+      "ltpc": [
+        3,
+        1,
+        0,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "RAPC-101",
+      "ltpc": [
+        3,
+        1,
+        0,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEIC-102",
+      "ltpc": [
+        1,
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Communication Skills in English / Financial Education",
+      "ltpc": [
+        2,
+        0,
+        2,
+        3
+      ],
+      "options": [
+        "HSIC-101",
+        "HSIC-103"
+      ]
+    }
+  ]
+}

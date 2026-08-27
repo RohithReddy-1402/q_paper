@@ -1,0 +1,53 @@
+{
+  "Course Title": "Social Network Analysis",
+  "Course Code": "AIPE-444",
+  "route": "course/aipe-444",
+  "credits": 3,
+  "prerequisites": "Data Mining and Analytics",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To understand the concepts, challenges and applications of social networks. To gain the knowledge of various tools and techniques in social network analysis. To analyse sustainability and ethical issues in social networks.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Social Networks",
+      "body": "Social network data as big data, applications of social network analysis, levels of social network analysis, data stream model, data synopsis, sampling, histograms, NetworkX, Gephi."
+    },
+    {
+      "id": "2",
+      "title": "Network Measures",
+      "body": "Network basics, node centrality, assortativity, transitivity and reciprocity, similarity, degeneracy, properties of real-world networks, network growth models."
+    },
+    {
+      "id": "3",
+      "title": "Link Analysis",
+      "body": "Applications of link analysis, signed networks, strong and weak ties, link analysis algorithms, applications of community detection, community detection methods, evaluation of community detection methods, link prediction."
+    },
+    {
+      "id": "4",
+      "title": "Network Dynamics, Ethics, and Sustainability",
+      "body": "Cascade behaviours and network effects, network-based anomalies and their detection, sustainability aspects of social networks: algorithmic bias, echo chambers, carbon footprints, guardrails in social networks."
+    }
+  ],
+  "outcomes": [
+    "Explain foundational big data components and data stream architectures in social networks.",
+    "Compute structural network metrics and analyze evolutionary growth models.",
+    "Deploy link analysis and community detection algorithms to social networks.",
+    "Appraise the ethical and sustainability dimensions of social networks."
+  ],
+  "textbooks": [
+    "Tanmoy Chakraborty, Social Network Analysis, Wiley, 2021."
+  ],
+  "referenceBooks": [
+    "Leskovec, Jure, Anand Rajaraman, and Jeffrey David Ullman, Mining of Massive Data Sets, Cambridge University Press, 2020.",
+    "Rutkowski, Leszek, Maciej Jaworski, and Piotr Duda, Stream Data Mining: Algorithms and Their Probabilistic Properties, Springer, 2020."
+  ]
+}

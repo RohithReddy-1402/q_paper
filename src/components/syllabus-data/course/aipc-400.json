@@ -1,0 +1,30 @@
+{
+  "Course Title": "Project - II",
+  "Course Code": "AIPC-400",
+  "route": "course/aipc-400",
+  "credits": 4,
+  "prerequisites": "AIPC-304 (Project - I)",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    0,
+    0,
+    8,
+    4
+  ],
+  "description": "To carry forward the AI/ML project undertaken in Project-I to completion, with full implementation, evaluation, and documentation, demonstrating readiness for industry or research.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Project Work",
+      "body": "Continuation and completion of the project initiated in Project-I: refined implementation, thorough testing and evaluation, and final documentation and presentation."
+    }
+  ],
+  "outcomes": [
+    "Deliver a complete, working AI/ML system addressing a real-world problem.",
+    "Demonstrate independent research, design and engineering ability.",
+    "Communicate the completed work through a comprehensive report and presentation."
+  ]
+}

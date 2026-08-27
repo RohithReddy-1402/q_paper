@@ -1,0 +1,81 @@
+{
+  "branch": "AIML",
+  "branchName": "Artificial Intelligence & Machine Learning",
+  "semester": 4,
+  "title": "B. Tech. Artificial Intelligence & Machine Learning Semester 4",
+  "totalCredits": 19,
+  "rows": [
+    {
+      "type": "core",
+      "code": "MAIC-204",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-200",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-202",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-204",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-206",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "coCurricular",
+      "label": "NCC/Sports/Yoga",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance."
+    },
+    {
+      "type": "coCurricular",
+      "label": "NSS/Club/Technical Societies",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance."
+    }
+  ]
+}

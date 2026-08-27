@@ -6,7 +6,8 @@
     "Branches": [
       "RA"
     ],
-    "id": "nitkkr_1"
+    "id": "nitkkr_1",
+    "semester": 2
   },
   {
     "Course Title": "Introduction to Automation",
@@ -63,7 +64,8 @@
     "Course Code": "MAIC-204",
     "route": "course/maic-204",
     "Branches": [
-      "RA"
+      "RA",
+      "AIML"
     ],
     "id": "nitkkr_7",
     "semester": 4
@@ -433,60 +435,66 @@
     "Course Code": "HSIC-101",
     "route": "course/hsic-101",
     "Branches": [
+      "RA",
       "All"
     ],
     "id": "nitkkr_44",
-    "semester": "1st/2nd"
+    "semester": 2
   },
   {
     "Course Title": "Economics for Engineers",
     "Course Code": "HSIC-102",
     "route": "course/hsic-102",
     "Branches": [
+      "RA",
       "All"
     ],
     "id": "nitkkr_45",
-    "semester": "1st/2nd"
+    "semester": 1
   },
   {
     "Course Title": "Financial Education",
     "Course Code": "HSIC-103",
     "route": "course/hsic-103",
     "Branches": [
+      "RA",
       "All"
     ],
     "id": "nitkkr_46",
-    "semester": "1st/2nd"
+    "semester": 2
   },
   {
     "Course Title": "Business Studies",
     "Course Code": "HSIC-104",
     "route": "course/hsic-104",
     "Branches": [
+      "RA",
       "All"
     ],
     "id": "nitkkr_47",
-    "semester": "1st/2nd"
+    "semester": 1
   },
   {
     "Course Title": "Differential Calculus and Differential Equations",
     "Course Code": "MAIC-101",
     "route": "course/maic-101",
     "Branches": [
+      "RA",
       "All"
     ],
     "id": "nitkkr_48",
-    "semester": "1st"
+    "semester": 1
   },
   {
     "Course Title": "Engineering Physics",
     "Course Code": "PHIC-101",
     "route": "course/phic-101",
     "Branches": [
+      "RA",
       "All"
     ],
     "id": "nitkkr_49",
-    "semester": "1st"
+    "semester": 1
   },
   {
     "Course Title": "Engineering Graphics",
@@ -503,21 +511,23 @@
     "Course Code": "MEIC-101",
     "route": "course/meic-101",
     "Branches": [
+      "RA",
       "ME",
       "PIE"
     ],
     "id": "nitkkr_51",
-    "semester": "1st"
+    "semester": 1
   },
   {
     "Course Title": "Engineering Practice",
     "Course Code": "MEIC-102",
     "route": "course/meic-102",
     "Branches": [
+      "RA",
       "All"
     ],
     "id": "nitkkr_52",
-    "semester": "1st/2nd"
+    "semester": 2
   },
   {
     "Course Title": "Problem Solving and Programming Skills",
@@ -527,7 +537,8 @@
       "CS",
       "CoE",
       "IT",
-      "AI & ML"
+      "AI & ML",
+      "AIML"
     ],
     "id": "nitkkr_53",
     "semester": 1
@@ -537,6 +548,7 @@
     "Course Code": "CSIC-103",
     "route": "course/csic-103",
     "Branches": [
+      "RA",
       "ECE",
       "EE",
       "ME",
@@ -544,17 +556,18 @@
       "CE"
     ],
     "id": "nitkkr_54",
-    "semester": "1st"
+    "semester": 1
   },
   {
     "Course Title": "Energy and Environmental Science",
     "Course Code": "CHIC-101",
     "route": "course/chic-101",
     "Branches": [
+      "RA",
       "All"
     ],
     "id": "nitkkr_55",
-    "semester": "1st"
+    "semester": 1
   },
   {
     "Course Title": "Human Values & Social Responsibility",
@@ -701,10 +714,12 @@
     "Course Code": "MAIC-102",
     "route": "course/maic-102",
     "Branches": [
-      "All"
+      "RA",
+      "All",
+      "AIML"
     ],
     "id": "nitkkr_70",
-    "semester": "2nd"
+    "semester": 2
   },
   {
     "Course Title": "Advanced Engineering Physics",
@@ -753,11 +768,13 @@
     "Course Code": "CSIC-100",
     "route": "course/csic-100",
     "Branches": [
+      "RA",
       "CS",
       "CoE",
       "IT",
       "AI & ML",
-      "M&C"
+      "M&C",
+      "AIML"
     ],
     "id": "nitkkr_75",
     "semester": 2
@@ -773,7 +790,8 @@
       "IT",
       "AI & ML",
       "IIOT",
-      "M&C"
+      "M&C",
+      "AIML"
     ],
     "id": "nitkkr_76",
     "semester": 2
@@ -836,8 +854,10 @@
     "Course Code": "CSIC-104",
     "route": "course/csic-104",
     "Branches": [
+      "RA",
       "CS",
-      "All"
+      "All",
+      "AIML"
     ],
     "id": "nitkkr_82",
     "semester": 2
@@ -1498,5 +1518,445 @@
     ],
     "semester": 8,
     "id": "nitkkr_151"
+  },
+  {
+    "Course Title": "Statistical Distribution",
+    "Course Code": "MAIC-202",
+    "route": "course/maic-202",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 3,
+    "id": "nitkkr_152"
+  },
+  {
+    "Course Title": "Optimization Techniques",
+    "Course Code": "MAIC-203",
+    "route": "course/maic-203",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 3,
+    "id": "nitkkr_153"
+  },
+  {
+    "Course Title": "Data Structures",
+    "Course Code": "AIPC-100",
+    "route": "course/aipc-100",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 2,
+    "id": "nitkkr_154"
+  },
+  {
+    "Course Title": "Knowledge Representation and Problem Searching",
+    "Course Code": "AIPC-201",
+    "route": "course/aipc-201",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 3,
+    "id": "nitkkr_155"
+  },
+  {
+    "Course Title": "Design and Analysis of Algorithms",
+    "Course Code": "AIPC-203",
+    "route": "course/aipc-203",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 3,
+    "id": "nitkkr_156"
+  },
+  {
+    "Course Title": "Database Management Systems",
+    "Course Code": "AIPC-205",
+    "route": "course/aipc-205",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 3,
+    "id": "nitkkr_157"
+  },
+  {
+    "Course Title": "Decision Making Using AI",
+    "Course Code": "AIPC-200",
+    "route": "course/aipc-200",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 4,
+    "id": "nitkkr_158"
+  },
+  {
+    "Course Title": "Operating Systems",
+    "Course Code": "AIPC-202",
+    "route": "course/aipc-202",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 4,
+    "id": "nitkkr_159"
+  },
+  {
+    "Course Title": "Neural Networks",
+    "Course Code": "AIPC-204",
+    "route": "course/aipc-204",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 4,
+    "id": "nitkkr_160"
+  },
+  {
+    "Course Title": "Fuzzy Systems and Evolutionary Computing",
+    "Course Code": "AIPC-206",
+    "route": "course/aipc-206",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 4,
+    "id": "nitkkr_161"
+  },
+  {
+    "Course Title": "Machine Learning",
+    "Course Code": "AIIC-301",
+    "route": "course/aiic-301",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 5,
+    "id": "nitkkr_162"
+  },
+  {
+    "Course Title": "Distributed Computing",
+    "Course Code": "AIPC-303",
+    "route": "course/aipc-303",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 5,
+    "id": "nitkkr_163"
+  },
+  {
+    "Course Title": "Data Mining and Analytics",
+    "Course Code": "AIPC-305",
+    "route": "course/aipc-305",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 5,
+    "id": "nitkkr_164"
+  },
+  {
+    "Course Title": "Computer Vision",
+    "Course Code": "AIPC-307",
+    "route": "course/aipc-307",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 5,
+    "id": "nitkkr_165"
+  },
+  {
+    "Course Title": "Deep Learning",
+    "Course Code": "AIPC-300",
+    "route": "course/aipc-300",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 6,
+    "id": "nitkkr_166"
+  },
+  {
+    "Course Title": "Generative AI",
+    "Course Code": "AIPC-302",
+    "route": "course/aipc-302",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 6,
+    "id": "nitkkr_167"
+  },
+  {
+    "Course Title": "Project - I",
+    "Course Code": "AIPC-304",
+    "route": "course/aipc-304",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 6,
+    "id": "nitkkr_168"
+  },
+  {
+    "Course Title": "Semantic Web",
+    "Course Code": "AIPC-401",
+    "route": "course/aipc-401",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 7,
+    "id": "nitkkr_169"
+  },
+  {
+    "Course Title": "Term Paper",
+    "Course Code": "AIPC-403",
+    "route": "course/aipc-403",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 7,
+    "id": "nitkkr_170"
+  },
+  {
+    "Course Title": "Large Language Models",
+    "Course Code": "AIPC-405",
+    "route": "course/aipc-405",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 7,
+    "id": "nitkkr_171"
+  },
+  {
+    "Course Title": "Project - II",
+    "Course Code": "AIPC-400",
+    "route": "course/aipc-400",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_172"
+  },
+  {
+    "Course Title": "Seminar",
+    "Course Code": "AIPC-402",
+    "route": "course/aipc-402",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_173"
+  },
+  {
+    "Course Title": "Information Security",
+    "Course Code": "AIPC-404",
+    "route": "course/aipc-404",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_174"
+  },
+  {
+    "Course Title": "AI/ML for Security",
+    "Course Code": "AIPE-321",
+    "route": "course/aipe-321",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 6,
+    "id": "nitkkr_175"
+  },
+  {
+    "Course Title": "Number Theory and Cryptography",
+    "Course Code": "AIPE-323",
+    "route": "course/aipe-323",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 6,
+    "id": "nitkkr_176"
+  },
+  {
+    "Course Title": "Natural Language Processing",
+    "Course Code": "AIPE-325",
+    "route": "course/aipe-325",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 6,
+    "id": "nitkkr_177"
+  },
+  {
+    "Course Title": "Information Retrieval",
+    "Course Code": "AIPE-320",
+    "route": "course/aipe-320",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 6,
+    "id": "nitkkr_178"
+  },
+  {
+    "Course Title": "Information Security",
+    "Course Code": "AIPE-322",
+    "route": "course/aipe-322",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 6,
+    "id": "nitkkr_179"
+  },
+  {
+    "Course Title": "Speech Processing",
+    "Course Code": "AIPE-324",
+    "route": "course/aipe-324",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 6,
+    "id": "nitkkr_180"
+  },
+  {
+    "Course Title": "Mining Large Networks",
+    "Course Code": "AIPE-421",
+    "route": "course/aipe-421",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 7,
+    "id": "nitkkr_181"
+  },
+  {
+    "Course Title": "Object-Oriented Programming using Java",
+    "Course Code": "AIPE-423",
+    "route": "course/aipe-423",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 7,
+    "id": "nitkkr_182"
+  },
+  {
+    "Course Title": "High Performance Computing",
+    "Course Code": "AIPE-425",
+    "route": "course/aipe-425",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 7,
+    "id": "nitkkr_183"
+  },
+  {
+    "Course Title": "Computer Networks",
+    "Course Code": "AIPE-461",
+    "route": "course/aipe-461",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 7,
+    "id": "nitkkr_184"
+  },
+  {
+    "Course Title": "Data Stream Mining",
+    "Course Code": "AIPE-463",
+    "route": "course/aipe-463",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 7,
+    "id": "nitkkr_185"
+  },
+  {
+    "Course Title": "Time Series Analysis",
+    "Course Code": "AIPE-465",
+    "route": "course/aipe-465",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 7,
+    "id": "nitkkr_186"
+  },
+  {
+    "Course Title": "Artificial Intelligence in Industrial and Management Engineering",
+    "Course Code": "AIPE-420",
+    "route": "course/aipe-420",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_187"
+  },
+  {
+    "Course Title": "Affective Computing",
+    "Course Code": "AIPE-424",
+    "route": "course/aipe-424",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_188"
+  },
+  {
+    "Course Title": "Internet of Things",
+    "Course Code": "AIPE-426",
+    "route": "course/aipe-426",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_189"
+  },
+  {
+    "Course Title": "Business Intelligence & Analytics",
+    "Course Code": "AIPE-428",
+    "route": "course/aipe-428",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_190"
+  },
+  {
+    "Course Title": "Reinforcement Learning",
+    "Course Code": "AIPE-430",
+    "route": "course/aipe-430",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_191"
+  },
+  {
+    "Course Title": "Multi-Criteria Decision Making and Applications",
+    "Course Code": "AIPE-432",
+    "route": "course/aipe-432",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_192"
+  },
+  {
+    "Course Title": "Software Engineering with Automation",
+    "Course Code": "AIPE-440",
+    "route": "course/aipe-440",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_193"
+  },
+  {
+    "Course Title": "Game Theory and Applications",
+    "Course Code": "AIPE-442",
+    "route": "course/aipe-442",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_194"
+  },
+  {
+    "Course Title": "Social Network Analysis",
+    "Course Code": "AIPE-444",
+    "route": "course/aipe-444",
+    "Branches": [
+      "AIML"
+    ],
+    "semester": 8,
+    "id": "nitkkr_195"
   }
 ]

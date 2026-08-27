@@ -1,0 +1,64 @@
+{
+  "Course Title": "Decision Making Using AI",
+  "Course Code": "AIPC-200",
+  "route": "course/aipc-200",
+  "credits": 4,
+  "prerequisites": "Basic understanding of computer science concepts and algorithms; familiarity with introductory statistics and probability is beneficial but not mandatory.",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understand the fundamentals of AI and its potential for decision making. To introduce the concept of artificial intelligence, methods, techniques and applications. Gain practical experience through case studies and hands-on projects.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to AI and Decision Making",
+      "body": "Fundamentals of AI: definitions, history, key concepts. Decision-making frameworks: rationality, bounded rationality, intuition. The role of AI in decision making: opportunities and challenges."
+    },
+    {
+      "id": "2",
+      "title": "Problem Solving",
+      "body": "State space search; production systems, search space control; depth first search, breadth-first search. Heuristic based search: hill climbing, best-first search, A* algorithm and AO* algorithm, min-max algorithms, game playing - alpha beta pruning branch and bound, problem reduction, constraint satisfaction, means-end analysis."
+    },
+    {
+      "id": "3",
+      "title": "Representing and Reasoning with Uncertain Knowledge",
+      "body": "Probability, connection to logic, independence, Bayes rule, Bayesian networks, probabilistic inference, sample applications."
+    },
+    {
+      "id": "4",
+      "title": "Decision-Making",
+      "body": "Basics of utility theory, decision theory, sequential decision problems, elementary game theory, sample applications."
+    },
+    {
+      "id": "5",
+      "title": "Machine Learning",
+      "body": "Introduction, machine learning process, supervised, unsupervised, and reinforcement learning; feature engineering - extraction and selection, data visualization: line chart, bar chart, pie chart, histograms, scatter plot; learning nearest neighbour, naive Bayes, and decision tree classifiers, Q-learning for learning action policies, applications."
+    },
+    {
+      "id": "6",
+      "title": "Applications of AI",
+      "body": "AI in healthcare: diagnosis, treatment, and medical imaging; AI in finance: fraud detection, algorithmic trading, and risk assessment; AI in transportation: autonomous vehicles and traffic optimization; AI in customer service and chatbots; AI in education: personalized learning and intelligent tutoring systems."
+    }
+  ],
+  "outcomes": [
+    "Demonstrate fundamental understanding of Artificial Intelligence (AI) and its foundation.",
+    "Analyse basic and advanced search techniques.",
+    "Illustrate the concept of decision-making and machine learning.",
+    "Apply basic principles of ML algorithms and models in various application domains."
+  ],
+  "textbooks": [
+    "Rich E., Knight K. and Nair B. S., Artificial Intelligence, Tata McGraw Hills, 3rd ed., 2009.",
+    "Luger F. G., Artificial Intelligence: Structures and Strategies for Complex Problem Solving, Pearson Education Asia, 6th ed., 2009."
+  ],
+  "referenceBooks": [
+    "Patterson W. D., Introduction to Artificial Intelligence and Expert Systems, Pearson, 1st ed., 2015.",
+    "Russel S., Norvig P., Artificial Intelligence: A Modern Approach, Prentice Hall, 3rd ed., 2014."
+  ]
+}

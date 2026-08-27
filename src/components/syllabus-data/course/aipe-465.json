@@ -1,0 +1,51 @@
+{
+  "Course Title": "Time Series Analysis",
+  "Course Code": "AIPE-465",
+  "route": "course/aipe-465",
+  "credits": 4,
+  "prerequisites": "Statistics and Probability",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understand the fundamental concepts, components, statistical properties, and forecasting principles of time series data and their applications in diverse domains. Apply statistical and spectral analysis techniques, including correlation functions and frequency-domain methods, to analyze and interpret time series data. Analyze classical time series forecasting models, including exponential smoothing, AR, MA, ARMA, and ARIMA, and evaluate their forecasting performance. Develop advanced time series forecasting solutions using estimation techniques, machine learning methods, probabilistic models, and fuzzy time series approaches. Evaluate and apply appropriate time series forecasting models to solve real-world problems in finance, economics, healthcare, environmental sciences, and other application domains through case studies.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Fundamentals of Time Series Analysis",
+      "body": "Introduction to time series and its applications, classification and components of time series (trend, seasonality, cyclic and irregular), forecasting concepts and terminology, single-step vs. multi-step ahead forecasting, point vs. interval forecasting, random processes, stationarity and ergodicity, review of probability and statistics relevant to time series."
+    },
+    {
+      "id": "2",
+      "title": "Time Series Visualization and Statistical Analysis",
+      "body": "Time series graphics, white noise processes, auto-correlation function (ACF), partial auto-correlation function (PACF), cross-correlation function (CCF), spectral analysis, Fourier analysis of deterministic signals, discrete Fourier transform (DFT), periodogram and spectral density, Wiener-Khinchin theorem."
+    },
+    {
+      "id": "3",
+      "title": "Classical Time Series Forecasting Models",
+      "body": "Average, naïve, seasonal naïve and drift forecasting methods, forecast accuracy measures, exponential smoothing models, Autoregressive (AR), Moving Average (MA), ARMA and ARIMA models, trends and heteroskedasticity in time series."
+    },
+    {
+      "id": "4",
+      "title": "Advanced Time Series Forecasting Techniques and Applications",
+      "body": "Estimation theory: least squares, weighted and non-linear least squares, maximum likelihood and Bayesian estimation; time series analysis using machine learning, probabilistic forecasting, additive and multiplicative models, fuzzy time series forecasting; real-world applications: financial forecasting, economic forecasting, environmental and climate data analysis, healthcare and epidemiological forecasting."
+    }
+  ],
+  "outcomes": [
+    "Explain the fundamental concepts, components, statistical properties, and forecasting principles of time series data.",
+    "Apply visualization, correlation, and spectral analysis techniques to explore, analyze, and interpret time series data.",
+    "Analyze and implement classical time series forecasting models for predictive analytics.",
+    "Evaluate advanced forecasting techniques using estimation, machine learning, probabilistic, and fuzzy time series models.",
+    "Design and develop time series forecasting solutions for real-world applications by selecting and interpreting appropriate forecasting models."
+  ],
+  "referenceBooks": [
+    "Robert H. Shumway and David S. Stoffer, Time Series Analysis and Its Applications: With R Examples, 4th Edition, Springer, 2017.",
+    "George E. P. Box, Gwilym M. Jenkins, Gregory C. Reinsel, and Greta M. Ljung, Time Series Analysis: Forecasting and Control, 5th Edition, Wiley, 2015."
+  ]
+}

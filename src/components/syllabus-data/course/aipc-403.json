@@ -1,0 +1,30 @@
+{
+  "Course Title": "Term Paper",
+  "Course Code": "AIPC-403",
+  "route": "course/aipc-403",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    0,
+    2,
+    0,
+    1
+  ],
+  "description": "To develop the ability to survey recent literature on a chosen topic in AI/ML, critically analyze it, and present the findings as a well-structured written term paper.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Term Paper",
+      "body": "Selection of a contemporary topic in Artificial Intelligence & Machine Learning under faculty guidance, literature survey, critical analysis, and preparation of a written term paper along with its presentation."
+    }
+  ],
+  "outcomes": [
+    "Independently survey and critically analyze recent literature on a chosen topic.",
+    "Develop technical writing skills through a structured term paper.",
+    "Present findings effectively to an academic audience."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "Course Title": "Information Security",
+  "Course Code": "AIPC-404",
+  "route": "course/aipc-404",
+  "credits": 4,
+  "prerequisites": "Computer Networks & Cloud Architecture",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To introduce the concept of information security, and number theory. To make students familiar with different aspects of access control, system security and its applications. To make students familiar with various cryptographic algorithms. To design security solutions for various systems and networks.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Information Security and Number Theory",
+      "body": "Information security introduction, privacy, vulnerability, threat, attack, CIA Triad, components of an information system, OSI Security Architecture, access control, divisibility, division algorithm, Euclidean algorithm, Chinese Remainder Theorem, algebraic structures, Galois Fields."
+    },
+    {
+      "id": "2",
+      "title": "Introduction to Cryptography",
+      "body": "Private key cryptography: traditional symmetric-key ciphers, modern symmetric key ciphers, DES, AES, block cipher modes of operation; public key cryptography: trapdoor one-way function, RSA, Diffie-Hellman key exchange, cryptographic hash function, digital signature."
+    },
+    {
+      "id": "3",
+      "title": "System Security",
+      "body": "Overview, security policy, file protection mechanisms, user authentication, security models, trusted operating system design, host based and network based intrusion detection and prevention systems."
+    },
+    {
+      "id": "4",
+      "title": "Network Security",
+      "body": "Network security concepts, network threats, security controls, firewalls, protecting programs and data, sniffing, spoofing, non-malicious program errors, malware, viruses and other malicious code, control against programs, SDN security, IoT security."
+    }
+  ],
+  "outcomes": [
+    "Able to understand the information security and number theory concepts.",
+    "Able to analyse different aspects of access control, system security and its applications.",
+    "Able to understand and analyse various cryptographic algorithms.",
+    "Able to design and develop security solutions for different networks."
+  ],
+  "textbooks": [
+    "Charles P. Pfleeger, Share Lawrence Pfleeger, Security in Computing, Pearson Education, 6/e.",
+    "William Stallings, Cryptography and Network Security, PHI, 8/e.",
+    "B.A. Forouzan, Cryptography and Network Security, McGraw-Hill, 3/e."
+  ],
+  "referenceBooks": [
+    "Charlie Kaufman, Radia Perlman, Mike Speciner, Ray Perlner, Network Security: Private Communications in a Public World, Pearson, 3/e.",
+    "Niels Ferguson, Bruce Schneier, Tadayoshi Kohno, Cryptography Engineering, Wiley."
+  ]
+}

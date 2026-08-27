@@ -5,9 +5,17 @@
   "credits": 3,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["All"],
+  "Branch": [
+    "RA",
+    "All"
+  ],
   "semester": "1st",
-  "ltpc": [2, 0, 1, 3],
+  "ltpc": [
+    2,
+    0,
+    1,
+    3
+  ],
   "contactHours": 30,
   "description": "This course, common for all branches, discusses the complexity of issues and challenges relating to energy and environmental science, explores the environmental impact of various energy sources and the effects of different types of pollutants, introduces the principal renewable energy systems, and discusses human impact on the environment and human exposure to environmental contaminants.",
   "syllabus": [

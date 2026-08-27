@@ -1,0 +1,60 @@
+{
+  "Course Title": "Knowledge Representation and Problem Searching",
+  "Course Code": "AIPC-201",
+  "route": "course/aipc-201",
+  "credits": 4,
+  "prerequisites": "Some exposure to formal languages, logic and programming",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Be able to model simple application domains in a logic-based language. Understand the notion of a reasoning service. Master the fundamentals of the reasoning algorithms underlying current systems. Understand the fundamental trade-off between representation power and computational properties of a logic-based representation language. Be conversant with several widely used knowledge representation languages. Understand how the theoretical material covered in the course is currently being applied in practice.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Problem Solving",
+      "body": "Intelligent agent: sensors, actuators, agent program; solving problems by searching, problem-solving agent; blind search strategies: breadth-first search, depth-first search (completeness, optimality, complexity); informed search strategies: greedy best-first search, A* search (completeness, optimality, complexity)."
+    },
+    {
+      "id": "2",
+      "title": "Knowledge and Reasoning - Logical Agents",
+      "body": "Knowledge base, models, and knowledge-based agents; propositional logic knowledge representation language, syntax and semantics; logical reasoning: entailment and inference (soundness, completeness); propositional theorem proving: validity, satisfiability, reduction to absurd; MP inference rule, resolution inference rule, Horn form, CNF."
+    },
+    {
+      "id": "3",
+      "title": "Knowledge and Reasoning - First-Order Logic",
+      "body": "Propositional logic vs. first-order logic: objects, relations (unary, n-ary), functions; first-order logic: syntax and semantics (predicates, variables, quantifiers); first-order logic knowledge representation language, model, interpretation; first-order logic knowledge base."
+    },
+    {
+      "id": "4",
+      "title": "Uncertain Knowledge and Reasoning - Quantifying Uncertainty",
+      "body": "Acting under uncertainty; probability (model, atomic event, conditional), random variables (propositional, discrete, continuous); syntax and semantics: probability distribution, joint probability distribution; inference by enumeration, normalization; independence, conditional independence, and Bayes' rule."
+    },
+    {
+      "id": "5",
+      "title": "Learning - Machine Learning",
+      "body": "Inductive learning; decision tree learning; unsupervised learning; supervised learning."
+    }
+  ],
+  "outcomes": [
+    "Discuss the foundations of knowledge representation and reasoning (KRR).",
+    "Explain different categories of representation and reasoning tasks.",
+    "Assess the tradeoff between representation and reasoning.",
+    "Identify which knowledge-based techniques are appropriate for which tasks.",
+    "Apply KRR systems to challenging real-world problems."
+  ],
+  "textbooks": [
+    "S. Russell and P. Norvig, Artificial Intelligence: A Modern Approach, 3rd edition, Prentice Hall, 2010.",
+    "Frank Van Harmelen, Vladimir Lifschitz, and Bruce Porter, eds., Handbook of Knowledge Representation, Elsevier, 2008."
+  ],
+  "referenceBooks": [
+    "Martin Gebser, Roland Kaminski, Benjamin Kaufmann, and Torsten Schaub, Answer Set Solving in Practice, 2012.",
+    "Grigoris Antoniou and Frank Van Harmelen, A Semantic Web Primer, 3rd ed., 2012."
+  ]
+}

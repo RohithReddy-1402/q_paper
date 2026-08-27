@@ -5,10 +5,23 @@
   "credits": 3,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["All"],
+  "Branch": [
+    "RA",
+    "All"
+  ],
   "semester": "1st/2nd",
-  "ltpc": [2, 1, 0, 3],
-  "examScheme": { "internal": 50, "theory": 50, "total": 100, "time": "3 hrs" },
+  "ltpc": [
+    2,
+    1,
+    0,
+    3
+  ],
+  "examScheme": {
+    "internal": 50,
+    "theory": 50,
+    "total": 100,
+    "time": "3 hrs"
+  },
   "description": "This course, offered by the Department of Humanities & Social Sciences, aims to empower students with sound financial knowledge and financial management skills for their long-term financial being. The course is designed with the strong belief that financial well-being has a positive correlation with the overall well-being of an individual as well as society. The examination will set six questions covering the entire syllabus, of which examinees must attempt five, all carrying equal marks.",
   "syllabus": [
     {

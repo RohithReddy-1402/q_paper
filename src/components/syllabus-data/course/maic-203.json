@@ -1,0 +1,56 @@
+{
+  "Course Title": "Optimization Techniques",
+  "Course Code": "MAIC-203",
+  "route": "course/maic-203",
+  "credits": 3,
+  "prerequisites": "Background in differential calculus and basic maths.",
+  "Course Type": "IC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Analyze various methods of solving the unconstrained minimization problem. Understand the concept of multivariable optimization technique. Analyze the optimality criteria for various optimization techniques. Understand the concept of single variable optimization problems. Analyze solutions of nonlinear programming problems. Analyze various optimization methodologies.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction and Basic Concepts",
+      "body": "Historical development; engineering applications of optimization; art of modeling; objective function; constraints and constraint surface; formulation of design problems as mathematical programming problems; classification of optimization problems; optimization techniques - classical and advanced."
+    },
+    {
+      "id": "2",
+      "title": "Optimization using Calculus",
+      "body": "Stationary points; functions of single and two variables; global optimum; convexity and concavity; optimization of functions of one and multiple variables; gradient vectors; optimization subject to equality constraints; Lagrangian function; Hessian matrix formulation; Eigen values."
+    },
+    {
+      "id": "3",
+      "title": "Linear Programming",
+      "body": "Standard and canonical form of LP problem; assumptions in LP models; elementary operations; graphical method for two variable optimization; motivation of simplex method, simplex algorithm and construction of simplex tableau; simplex criterion; minimization versus maximization problems."
+    },
+    {
+      "id": "4",
+      "title": "Dynamic Programming",
+      "body": "Sequential optimization; representation of multistage decision process; types of multistage decision problems; concept of sub optimization and the principle of optimality; recursive equations - forward and backward recursions; computational procedure in DP; discrete versus continuous DP; multiple state variables; curse of dimensionality in DP."
+    }
+  ],
+  "outcomes": [
+    "Comprehend the techniques and applications of engineering optimization.",
+    "Analyze characteristics of a general linear programming problem.",
+    "Apply basic concepts of mathematics to formulate an optimization problem.",
+    "Analyse various methods of solving the unconstrained minimization problem.",
+    "Analyze and appreciate a variety of performance measures for various optimization problems."
+  ],
+  "textbooks": [
+    "S.S. Rao, Engineering Optimization: Theory and Practice, New Age International Pvt. Ltd., New Delhi, 2000.",
+    "G. Hadley, Linear programming, Narosa Publishing House, New Delhi, 1990.",
+    "H.A. Taha, Operations Research: An Introduction, 5th Edition, Macmillan, New York, 1992."
+  ],
+  "referenceBooks": [
+    "D. G. Luenberger and Y. Ye, Linear and Nonlinear Programming, 3rd Ed., Springer India, 2010.",
+    "D.P. Bertsekas, Nonlinear Programming, 2nd Ed., Athena Scientific, 1999."
+  ]
+}

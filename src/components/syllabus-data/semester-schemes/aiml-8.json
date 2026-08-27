@@ -1,0 +1,82 @@
+{
+  "branch": "AIML",
+  "branchName": "Artificial Intelligence & Machine Learning",
+  "semester": 8,
+  "title": "B. Tech. Artificial Intelligence & Machine Learning Semester 8",
+  "totalCredits": 18,
+  "rows": [
+    {
+      "type": "core",
+      "code": "AIPC-400",
+      "ltpc": [
+        0,
+        0,
+        8,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-402",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-404",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective - VII",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "AIPE-420",
+        "AIPE-424",
+        "AIPE-426",
+        "AIPE-428",
+        "AIPE-430",
+        "AIPE-432"
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective - VIII",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "AIPE-440",
+        "AIPE-442",
+        "AIPE-444"
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective - IV",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    }
+  ]
+}

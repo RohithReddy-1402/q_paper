@@ -1,0 +1,73 @@
+{
+  "branch": "RA",
+  "branchName": "Robotics & Automation",
+  "semester": 1,
+  "title": "B. Tech. Robotics & Automation 1st Semester",
+  "totalCredits": 21,
+  "rows": [
+    {
+      "type": "core",
+      "code": "MAIC-101",
+      "ltpc": [
+        3,
+        1,
+        0,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSIC-103",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEIC-101",
+      "ltpc": [
+        1,
+        0,
+        3,
+        3
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Economics for Engineers / Business Studies",
+      "ltpc": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "options": [
+        "HSIC-102",
+        "HSIC-104"
+      ]
+    },
+    {
+      "type": "core",
+      "code": "PHIC-101",
+      "ltpc": [
+        2,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CHIC-101",
+      "ltpc": [
+        2,
+        0,
+        1,
+        3
+      ]
+    }
+  ]
+}

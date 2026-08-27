@@ -1,0 +1,80 @@
+{
+  "branch": "AIML",
+  "branchName": "Artificial Intelligence & Machine Learning",
+  "semester": 7,
+  "title": "B. Tech. Artificial Intelligence & Machine Learning Semester 7",
+  "totalCredits": 20,
+  "rows": [
+    {
+      "type": "core",
+      "code": "IC",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "label": "Entrepreneurship and Start-ups"
+    },
+    {
+      "type": "core",
+      "code": "AIPC-401",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-403",
+      "ltpc": [
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-405",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective - IV",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "options": [
+        "AIPE-421",
+        "AIPE-423",
+        "AIPE-425"
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective - V",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "options": [
+        "AIPE-461",
+        "AIPE-463",
+        "AIPE-465"
+      ]
+    }
+  ]
+}

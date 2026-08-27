@@ -5,10 +5,23 @@
   "credits": 3,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["All"],
+  "Branch": [
+    "RA",
+    "All"
+  ],
   "semester": "1st/2nd",
-  "ltpc": [2, 1, 0, 3],
-  "examScheme": { "internal": 50, "theory": 50, "total": 100, "time": "3 hrs" },
+  "ltpc": [
+    2,
+    1,
+    0,
+    3
+  ],
+  "examScheme": {
+    "internal": 50,
+    "theory": 50,
+    "total": 100,
+    "time": "3 hrs"
+  },
   "description": "This course, offered by the Department of Humanities & Social Sciences, is designed to introduce the concepts of business to students and aims to acquaint them with business processes from beginning to the end.",
   "syllabus": [
     {

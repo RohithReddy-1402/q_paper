@@ -1,0 +1,53 @@
+{
+  "Course Title": "Statistical Distribution",
+  "Course Code": "MAIC-202",
+  "route": "course/maic-202",
+  "credits": 3,
+  "prerequisites": "Calculus",
+  "Course Type": "IC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To identify a random variable that describes randomness or an uncertainty in certain realistic situation. To learn important probability distributions like: in the discrete case, study of the Binomial and the Poisson Distributions and in the continuous case the Normal Distributions. To check the relationship between two variables and also to predict behaviour of variable changes based on other variable. To interpret the types of sampling, sampling distribution of means and variance, Estimations of statistical parameters.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Random Variables",
+      "body": "Single random variables - discrete and continuous, probability distribution function, probability mass and density functions, mathematical expectation and variance. Multiple random variables: discrete and continuous, joint probability distribution, marginal probability density functions, conditional probability distribution function and density functions."
+    },
+    {
+      "id": "2",
+      "title": "Probability Distributions",
+      "body": "Bernoulli distribution, Binomial distribution - properties, mean, variance and recurrence formula, Poisson distribution as limiting case of Binomial distribution, properties, mean, variance and recurrence formula, Normal distribution, Exponential distribution - mean, variance, median, mode and characteristics of Normal distribution."
+    },
+    {
+      "id": "3",
+      "title": "Correlation and Regression",
+      "body": "Bivariate and multivariate distributions, joint and marginal distributions, covariance and correlation, regression coefficients, lines of regression."
+    },
+    {
+      "id": "4",
+      "title": "Sampling and Testing of Hypothesis for Large Samples",
+      "body": "Sampling: definitions, types of sampling, expected values of sample mean and variance, standard error, sampling distribution of means and variance. Estimation: point and interval estimation. Testing of hypothesis: null and alternative hypothesis, Type I and Type II errors, critical region, confidence interval, level of significance, one tailed and two tailed test."
+    }
+  ],
+  "outcomes": [
+    "Evaluate randomness in certain realistic situations, which can be either discrete or continuous type, and compute statistical constants of these random variables.",
+    "Higher up thinking skills to make objective, data-driven decisions by using correlation and regression.",
+    "Analyze and interpret statistical inference using samples of a given size, taken from a population."
+  ],
+  "textbooks": [
+    "Steven F. Arnold, Mathematical Statistics, Prentice Hall.",
+    "R.V. Hogg, J. W. McKean and A. T. Craig, An Introduction to Mathematical Statistics, Sixth Edition, Pearson Education."
+  ],
+  "referenceBooks": [
+    "V.K. Rohatgi and Md.E. Saleh, An Introduction to Probability and Statistics, Second Edition, Wiley.",
+    "E. J. Dudewicz and S. N. Mishra, Modern Mathematical Statistics, Wiley & Sons."
+  ]
+}

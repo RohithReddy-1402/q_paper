@@ -1,0 +1,55 @@
+{
+  "Course Title": "Software Engineering with Automation",
+  "Course Code": "AIPE-440",
+  "route": "course/aipe-440",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To understand the Software Development Life Cycle (SDLC) and compare their applicability. To collect and document the requirements for a software using applicable techniques. To create different levels of design using suitable strategies ensuring good design principles. To effectively test and maintain a software for ensuring software quality. To use AI in different phases of software development like requirement specification, coding & testing.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction and Problem Analysis",
+      "body": "Software crisis, software characteristics, and software processes; software life cycle models - build & fix, waterfall, prototype, evolutionary, spiral, agile model; problem analysis - requirements: types and analysis techniques like DFD, ER-diagrams, object-diagrams, SRS."
+    },
+    {
+      "id": "2",
+      "title": "Software Design",
+      "body": "Modularity, coupling vs. cohesion, design levels: architecture, high level design & low level design, strategy of design: function-oriented design, object-oriented design."
+    },
+    {
+      "id": "3",
+      "title": "Software Validation & Maintenance",
+      "body": "Software testing terminology, functional testing, structural testing, levels of testing; software maintenance: categories, models, regression testing, reverse engineering vs. re-engineering."
+    },
+    {
+      "id": "4",
+      "title": "Use of AI in Software Engineering",
+      "body": "AI-assisted requirement engineering using generative AI - prompts and prompting patterns, assessing the role of LLMs; generative AI for software development: code generation using LLM, generative AI enhanced software management."
+    }
+  ],
+  "outcomes": [
+    "Apply the concepts to choose appropriate software process models as per user requirements.",
+    "Create a good quality SRS and design documents by choosing the suitable techniques.",
+    "Validate the implementation of the software as per customer needs.",
+    "Develop and maintain the software using traditional as well as AI techniques."
+  ],
+  "textbooks": [
+    "K.K. Aggarwal, Yogesh Singh, Software Engineering, New Age International Ltd, Latest Edition.",
+    "Pankaj Jalote, An Integrated Approach to Software Engineering, Narosa Publishing, Latest Edition.",
+    "A. Nguyen-Duc, P Abrahamsson, F Khomh, Generative AI for Effective Software Development, Springer."
+  ],
+  "referenceBooks": [
+    "Pressman, R.S. and Maxim, B.R., Software Engineering: A Practitioner's Approach, 9th ed., McGraw Hill, Latest Edition.",
+    "Sommerville, Ian, Software Engineering, Pearson Education, Latest Edition."
+  ]
+}

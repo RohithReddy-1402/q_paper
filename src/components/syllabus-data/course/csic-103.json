@@ -5,9 +5,21 @@
   "credits": 4,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["ECE", "EE", "ME", "PIE", "CE"],
+  "Branch": [
+    "RA",
+    "ECE",
+    "EE",
+    "ME",
+    "PIE",
+    "CE"
+  ],
   "semester": "1st",
-  "ltpc": [3, 0, 2, 4],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
   "description": "This course, offered for ECE, EE, ME, PIE and CE by the Department of Computer Engineering, provides fundamentals of problem solving using C language programming, with additional coverage of file handling.",
   "syllabus": [
     {

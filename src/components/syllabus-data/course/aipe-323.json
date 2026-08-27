@@ -1,0 +1,52 @@
+{
+  "Course Title": "Number Theory and Cryptography",
+  "Course Code": "AIPE-323",
+  "route": "course/aipe-323",
+  "credits": 3,
+  "prerequisites": "Computer Networks",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To emphasize the application of number theory in the design of cryptographic algorithms. To understand the strength and weakness of cryptosystems. To introduce elliptic curve cryptography.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Elementary Number Theory",
+      "body": "Divisibility, Division Algorithm, Euclidean Algorithm, Extended Euclidean Algorithm, fast exponentiation algorithm; modular arithmetic, congruences, Chinese Remainder Theorem, algebraic structures, Galois Fields."
+    },
+    {
+      "id": "2",
+      "title": "Primality Testing and Factorization",
+      "body": "Prime numbers, Fermat's theorem, Euler's totient function and theorem, testing of primality, Miller-Rabin algorithm, deterministic primality algorithm, fundamental theorem of arithmetic, factorization methods: trial division, Fermat method, Pollard's Rho method."
+    },
+    {
+      "id": "3",
+      "title": "Private and Public Key Cryptosystems",
+      "body": "Traditional and modern symmetric-key ciphers, DES, AES, block cipher modes of operation; public key cryptography: discrete logarithm problem, one-way and trapdoor functions, Diffie-Hellman key exchange, RSA cryptosystem, cryptographic hash function, RSA signature scheme."
+    },
+    {
+      "id": "4",
+      "title": "Elliptic Curve Cryptography",
+      "body": "Introduction to elliptic curves, geometry of elliptic curves over reals, point at infinity, addition of two points, elliptic curves over finite fields, discrete log problem for elliptic curves, elliptic curve cryptography, ElGamal public key cryptosystem for elliptic curves."
+    }
+  ],
+  "outcomes": [
+    "Understand the significance of cryptography to the modern world.",
+    "Learn basic elements of number theory and its applications in cryptography.",
+    "Understand the mathematical foundations of cryptographic algorithms.",
+    "Understand Public Key Cryptography, discrete logarithm problem, RSA cryptosystem, ECC and various attacks.",
+    "Solve elementary problems in number theory relating to cryptography."
+  ],
+  "textbooks": [
+    "Neal Koblitz, A Course in Number Theory and Cryptography, Springer, 2006.",
+    "William Stallings, Cryptography and Network Security, PHI, 7/e.",
+    "Lawrence C. Washington, Elliptic curves: Number theory and cryptography, Chapman & Hall/CRC, 2003."
+  ]
+}

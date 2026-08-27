@@ -5,9 +5,17 @@
   "credits": 4,
   "prerequisites": "The basic knowledge of matrix theory, Limit, Continuity, Differentiability for functions of one variable, Basic knowledge of ordinary differential equations of first order and first degree.",
   "Course Type": "IC",
-  "Branch": ["All"],
+  "Branch": [
+    "RA",
+    "All"
+  ],
   "semester": "1st",
-  "ltpc": [3, 1, 0, 4],
+  "ltpc": [
+    3,
+    1,
+    0,
+    4
+  ],
   "contactHours": 40,
   "description": "This course covers matrix algebra and its applicability in different engineering fields, the knowledge of calculus and its subsequent engineering applications, forming and solving ordinary differential equations with engineering applications, and Laplace transforms with engineering applications.",
   "syllabus": [

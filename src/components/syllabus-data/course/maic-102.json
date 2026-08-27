@@ -5,9 +5,18 @@
   "credits": 4,
   "prerequisites": "The basic knowledge of Differentiation, Integration, Summation, Scalars, Vectors and Trigonometrical functions.",
   "Course Type": "IC",
-  "Branch": ["All"],
+  "Branch": [
+    "RA",
+    "All",
+    "AIML"
+  ],
   "semester": "2nd",
-  "ltpc": [3, 1, 0, 4],
+  "ltpc": [
+    3,
+    1,
+    0,
+    4
+  ],
   "contactHours": 40,
   "description": "This course provides students with sufficient knowledge of Integral Calculus and its applications, the knowledge of vector calculus and its physical interpretation with applications, the idea of difference equations and Z-transforms with engineering applications, and the fundamental concept of Fourier series and its applications.",
   "syllabus": [

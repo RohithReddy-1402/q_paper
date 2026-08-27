@@ -1,0 +1,49 @@
+{
+  "Course Title": "Game Theory and Applications",
+  "Course Code": "AIPE-442",
+  "route": "course/aipe-442",
+  "credits": 3,
+  "prerequisites": "Linear Algebra, Probability Theory",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To understand the fundamental concepts and terminology of game theory. To analyze strategic interactions and decision-making in competitive environments. To learn equilibrium concepts and methods for solving game-theoretic problems. To understand the principles of mechanism design and auction models. To apply game theory concepts to engineering, economic, and social problems.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction and Non-Cooperative Game Theory",
+      "body": "Introduction to game theory, current trends and modern applications; key notions, strategic and extensive form games, preferences, utilities, rationality, intelligence, classification of games, dominant strategy equilibrium, pure and mixed strategy Nash equilibrium, two player zero sum games, existence and computation of Nash equilibrium, complexity analysis, Bayesian games."
+    },
+    {
+      "id": "2",
+      "title": "Mechanism Design",
+      "body": "Introduction, common examples and history, mechanism design environment, direct and indirect mechanisms, social choice functions, incentive compatibility and revelation theorem, Gibbard-Satterthwaite and Arrow's impossibility theorems, VCG mechanisms, quasilinear environment, revenue equivalence theorem, optimal mechanisms and Myerson auction."
+    },
+    {
+      "id": "3",
+      "title": "Cooperative Game Theory",
+      "body": "Correlated strategies, correlated equilibrium, the two person bargaining problem, coalition games, core of coalition games, characterization of games with non-empty core, the core of convex and cost games, Shapley value, Banzhaf index, stable matching."
+    }
+  ],
+  "outcomes": [
+    "Model strategic situations using appropriate game-theoretic frameworks.",
+    "Analyze and solve non-cooperative games using equilibrium concepts.",
+    "Evaluate mechanisms and auction designs based on incentive and efficiency criteria.",
+    "Apply cooperative game theory concepts to bargaining, coalition, and matching problems."
+  ],
+  "textbooks": [
+    "Y. Narahari, Game Theory and Mechanism Design, IISc Press and World Scientific, 2014.",
+    "Michael Maschler, Eilon Solan, and Schmuel Zamir, Game Theory, Cambridge University Press, 2013.",
+    "Roger B. Myerson, Game Theory: Analysis of Conflict, Harvard University Press, 1997."
+  ],
+  "referenceBooks": [
+    "Martin J. Osborne, Ariel Rubinstein, A Course in Game Theory, The MIT Press, 1994."
+  ]
+}

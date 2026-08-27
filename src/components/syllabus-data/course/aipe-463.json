@@ -1,0 +1,52 @@
+{
+  "Course Title": "Data Stream Mining",
+  "Course Code": "AIPE-463",
+  "route": "course/aipe-463",
+  "credits": 4,
+  "prerequisites": "Data Mining, ML, Probability and Statistics",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understand the fundamental concepts, characteristics, architectures, and challenges of data stream mining, along with efficient stream processing and data summarization techniques. Apply stream mining algorithms and probabilistic data structures for sampling, filtering, frequency estimation, similarity search, and mining patterns from continuous data streams. Analyze concept drift, adaptive learning models, and stream clustering techniques to build robust and scalable real-time data stream analytics systems. Evaluate the performance of stream learning algorithms using appropriate evaluation methodologies, frameworks, and metrics for dynamic and evolving data environments. Develop intelligent data stream mining solutions using modern frameworks and advanced techniques for real-world applications such as IoT, recommender systems, anomaly detection, distributed stream mining, and explainable AI.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Data Streams",
+      "body": "Static vs. stream data, need for stream mining, characteristics of data streams, applications in IoT, finance, social media and network monitoring; stream processing architecture and challenges, one-pass algorithms; sampling data in a stream: reservoirs; filtering streams: the Bloom filter; sketching for data summarization: counting distinct elements (Flajolet-Martin algorithm), estimating moments (AMS algorithm)."
+    },
+    {
+      "id": "2",
+      "title": "Concept Drift, Change Detection, and Adaptive Models",
+      "body": "Concept drift: sudden, gradual, recurring, and incremental; change detection strategies, statistical process control (CUSUM), adaptive windowing (ADWIN), adaptive Hoeffding trees, ensemble methods for streaming data: online bagging and boosting, dynamic weighted majority; evaluation of stream learning algorithms, interleaved test-then-train evaluation."
+    },
+    {
+      "id": "3",
+      "title": "Advanced Streaming Algorithms and Data Structures",
+      "body": "Similarity search and dimensionality: curse of dimensionality, locality-sensitive hashing (LSH), MinHash for approximate similarity, near-duplicate document detection; clustering data streams: CluStream, BIRCH adaptation (CF-Trees), DenStream; frequent pattern mining: lossy counting, sticky sampling, space-saving algorithms for top-K elements."
+    },
+    {
+      "id": "4",
+      "title": "Stream Mining Frameworks and Distributed Mining",
+      "body": "Introduction to MOA, overview of SAMOA, River, and CapyMOA; one-class classification for outlier detection, cluster-based novelty detection, real-time anomaly detection in sensor networks; mining over distributed data streams (peer-to-peer), communication costs, evolving network mining, case study: real-time recommender systems and click-stream analysis; deep learning for data streams and explainability (XAI) in streaming models."
+    }
+  ],
+  "outcomes": [
+    "Explain the concepts, characteristics, architectures, and challenges of data streams, and apply probabilistic data structures and sampling techniques for efficient stream processing.",
+    "Apply concept drift detection, adaptive learning algorithms, ensemble methods, and evaluation methodologies for learning from evolving data streams.",
+    "Analyze advanced stream mining algorithms, including similarity search, stream clustering, frequent pattern mining, and data summarization techniques.",
+    "Utilize modern stream mining frameworks and anomaly detection techniques to design and implement real-time stream analytics solutions.",
+    "Design and develop intelligent data stream mining applications using distributed stream processing, deep learning, explainable AI, and real-world case studies."
+  ],
+  "referenceBooks": [
+    "Aggarwal, C. C. (Ed.), Data Streams: Models and Algorithms, Springer, 2007.",
+    "Bifet, A., Gavalda, R., Holmes, G., & Pfahringer, B., Machine Learning for Data Streams, MIT Press, 2018.",
+    "Gama, J., Knowledge Discovery from Data Streams, Chapman & Hall/CRC, 2010."
+  ]
+}

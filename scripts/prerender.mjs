@@ -30,10 +30,16 @@ const courseRoutes = coursesInfo.map((c) => `/nit-kkr/syllabus/${c.route}`);
 const branchSemesterRoutes = [
   "/nit-kkr/syllabus/branch",
   "/nit-kkr/syllabus/branch/robotics-automation",
-  "/nit-kkr/syllabus/branch/robotics-automation/semester/5",
+  ...[1, 2, 4, 5].map(
+    (n) => `/nit-kkr/syllabus/branch/robotics-automation/semester/${n}`,
+  ),
   "/nit-kkr/syllabus/branch/computer-science-engineering",
   ...[1, 2, 3, 4, 5, 6, 7, 8].map(
     (n) => `/nit-kkr/syllabus/branch/computer-science-engineering/semester/${n}`,
+  ),
+  "/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning",
+  ...[1, 2, 3, 4, 5, 6, 7, 8].map(
+    (n) => `/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning/semester/${n}`,
   ),
 ];
 

@@ -1,0 +1,53 @@
+{
+  "Course Title": "Database Management Systems",
+  "Course Code": "AIPC-205",
+  "route": "course/aipc-205",
+  "credits": 4,
+  "prerequisites": "Set Theory",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To understand data models and database systems. To understand relational database theory. To learn database design and its normalization. To understand concepts of transaction, its processing, and management. To learn concurrency control techniques. To develop practical skill in using MySQL DBMS.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Data, database, database management system, historical background from file systems to database systems, data models, relational data model, ER model, schemas and instances, database users, DBMS architecture."
+    },
+    {
+      "id": "2",
+      "title": "Relational Model and Query Language",
+      "body": "Theory of relational database, key integrity constraint, relational algebra, relational calculus: domain relational calculus, tuple relational calculus, SQL, writing queries in SQL."
+    },
+    {
+      "id": "3",
+      "title": "Database Design",
+      "body": "Normalization, database anomalies, functional dependencies, candidate and super key, non-loss decomposition, dependency preservation, first, second, third normal form, BCNF, etc."
+    },
+    {
+      "id": "4",
+      "title": "Transaction Processing",
+      "body": "Transaction concept, a simple transaction model, states, ACID properties, implementation of ACID properties, serializability."
+    },
+    {
+      "id": "5",
+      "title": "Concurrency Control",
+      "body": "Need for concurrency, lock-based protocols, deadlock, starvation, deadlock handling, time-stamp based protocols, validation-based protocols."
+    }
+  ],
+  "outcomes": [
+    "To design and implement a small database for applications using MySQL DBMS.",
+    "To apply the concepts of normalization to database design."
+  ],
+  "textbooks": [
+    "A Silberschatz, H.F. Korth & S. Sudarshan, Data Base System Concepts, McGraw Hill, 4th, 5th or 6th edition.",
+    "Elmasri & Navathe, Fundamentals of Database Systems, 5th, 6th, or 7th edition Pearson."
+  ]
+}

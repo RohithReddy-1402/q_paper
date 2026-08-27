@@ -1,0 +1,57 @@
+{
+  "Course Title": "Data Mining and Analytics",
+  "Course Code": "AIPC-305",
+  "route": "course/aipc-305",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "The course explores the concepts and techniques of data mining, a promising and flourishing frontier in data science. Data Mining deals with automated extraction of useful information or patterns representing knowledge implicitly stored in large databases, data warehouses, and other massive data repositories. The course is designed to provide students with a broad understanding in the design and use of data mining algorithms. The course will provide algorithmic as well as application perspectives of data mining.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Data Mining and Data Pre-processing",
+      "body": "Introduction to data mining, motivation, data mining tasks, issues in data mining applications, types of data, data quality, data pre-processing, similarity and dissimilarity, outlier analysis."
+    },
+    {
+      "id": "2",
+      "title": "Clustering",
+      "body": "Introduction, applications, K-Means algorithm, hierarchical algorithms, density based algorithms, fuzzy c-Mean algorithm, silhouette coefficient, DB-index."
+    },
+    {
+      "id": "3",
+      "title": "Association Rule Mining",
+      "body": "Introduction, applications, market-basket analysis, frequent itemsets, Apriori algorithm, alternative methods, FP Growth algorithm."
+    },
+    {
+      "id": "4",
+      "title": "Dimension Reduction and Introduction to Analytics",
+      "body": "Feature selection techniques, Principal Component Analysis, classification overview."
+    },
+    {
+      "id": "5",
+      "title": "Web Data Mining",
+      "body": "Social network analysis: preliminaries and properties, homophily, triadic closure, clustering coefficient, centrality, community detection in graphs and networks."
+    }
+  ],
+  "outcomes": [
+    "Choose an appropriate data pre-processing technique based on the given data.",
+    "Identify and design an appropriate data mining analysis technique given a problem.",
+    "Gain practical hands-on experience in implementing data mining algorithms."
+  ],
+  "textbooks": [
+    "Tan, Pang-Ning & others, Introduction to Data Mining, Pearson Education, 2006."
+  ],
+  "referenceBooks": [
+    "Han J & Kamber M, Data Mining: Concepts and Techniques, Morgan Kaufmann Publishers, Second Edition, 2006.",
+    "Charu C. Aggarwal, Outlier Analysis, Springer International Publishing, 2017."
+  ]
+}
