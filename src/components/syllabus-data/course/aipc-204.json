@@ -1,0 +1,59 @@
+{
+  "Course Title": "Neural Networks",
+  "Course Code": "AIPC-204",
+  "route": "course/aipc-204",
+  "credits": 4,
+  "prerequisites": "Probability and Random Processes, Linear Algebra",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understand the difference between a biological neuron and artificial neuron. Understand building blocks of neural networks. Understand recent advances made in applying neural network or deep learning models. Understand the application areas of neural networks.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Basics",
+      "body": "Biological neuron, idea of computational units, McCulloch-Pitts unit and thresholding logic, linear perceptron, perceptron learning algorithm, linear separability, convergence theorem for perceptron learning algorithm, historical development of neural networks, comparison between artificial and biological neural networks."
+    },
+    {
+      "id": "2",
+      "title": "Artificial Neural Networks",
+      "body": "Basic concepts of artificial neurons, single and multi layer perceptrons, perceptron learning algorithm and its convergence proof, different activation functions, softmax cross entropy loss function, gradient descent, backpropagation, empirical risk minimization, autoencoders."
+    },
+    {
+      "id": "3",
+      "title": "Deep Neural Networks",
+      "body": "Difficulty of training deep neural networks, greedy layerwise training, newer optimization methods (Adagrad, Adadelta, RMSprop, Adam, NAG), second order methods for training, saddle point problem, regularization methods (dropout, drop connect, batch normalization), types of errors, bias-variance trade-off, overfitting-underfitting."
+    },
+    {
+      "id": "4",
+      "title": "Convolutional Neural Networks (CNNs)",
+      "body": "Introduction to CNNs - convolution, pooling, deep CNNs, different deep CNN architectures - LeNet, AlexNet, VGG, PlacesNet; training a CNN: weights initialization, batch normalization, hyperparameter optimization, regularization, dropout; understanding and visualizing CNNs."
+    },
+    {
+      "id": "5",
+      "title": "RNNs, Generative Models and Applications",
+      "body": "Recurrent architectures, transformers, vision transformers, LSTM architectures, Restricted Boltzmann Machines (RBMs), stacking RBMs, belief nets, learning sigmoid belief nets, deep belief nets. Applications in vision, speech and natural language processing."
+    }
+  ],
+  "outcomes": [
+    "Able to demonstrate knowledge and understanding of neural networks.",
+    "Understand various deep learning models such as CNN, autoencoders, RNN, transformer, etc.",
+    "Analyze various applications solved through the use of deep learning models.",
+    "Design and implement their own deep learning models for the problem of their choice."
+  ],
+  "textbooks": [
+    "Ian Goodfellow, Yoshua Bengio and Aaron Courville, Deep Learning, In preparation for MIT Press, 2016."
+  ],
+  "referenceBooks": [
+    "Raúl Rojas, Neural Networks: A Systematic Introduction, 1996.",
+    "S. Haykin, Neural Networks and Learning Machines, Prentice Hall of India, 2010.",
+    "Satish Kumar, Neural Networks - A Class Room Approach, Second Edition, Tata McGraw-Hill, 2013."
+  ]
+}

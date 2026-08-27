@@ -1,0 +1,59 @@
+{
+  "Course Title": "Internet of Things",
+  "Course Code": "AIPE-426",
+  "route": "course/aipe-426",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To study the fundamentals about IoT. To study about IoT access technologies. To study the design methodology and different IoT hardware platforms. To study the basics of IoT data analytics and supporting services. To study various IoT case studies and industrial applications.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Fundamentals of IoT",
+      "body": "Evolution of Internet of Things, enabling technologies, M2M communication, IoT World Forum (IoTWF) standardized architecture, simplified IoT architecture, core IoT functional stack, fog, edge and cloud in IoT, functional blocks of an IoT ecosystem, sensors, actuators, smart objects and connecting smart objects."
+    },
+    {
+      "id": "2",
+      "title": "IoT Protocols",
+      "body": "IoT access technologies: physical and MAC layers, topology and security of IEEE 802.15.4, 802.11ah and LoRaWAN; network layer: IP versions, constrained nodes and networks, 6LoWPAN; application transport methods: SCADA; application layer protocols: CoAP and MQTT."
+    },
+    {
+      "id": "3",
+      "title": "Design and Development",
+      "body": "Design methodology, embedded computing logic, microcontroller, microprocessor, system on chips, IoT system building blocks; IoT platform overview: Arduino board details, Raspberry Pi."
+    },
+    {
+      "id": "4",
+      "title": "Data Analytics and Supporting Services",
+      "body": "Data analytics: structured versus unstructured data, data in motion versus data at rest, IoT data analytics challenges, data acquiring and organizing in IoT/M2M; supporting services: computing using a cloud platform for IoT/M2M applications/services, everything as a service and cloud service models."
+    },
+    {
+      "id": "5",
+      "title": "Case Studies / Industrial Applications",
+      "body": "IoT applications in home, infrastructures, buildings, security, industries, home appliances, other IoT electronic equipment, Industry 4.0 concepts."
+    }
+  ],
+  "outcomes": [
+    "Understand the basics of IoT.",
+    "Implement the state of the architecture of an IoT system.",
+    "Understand design methodology and hardware platforms involved in IoT.",
+    "Understand how to analyze and organize IoT data.",
+    "Compare IoT applications in industrial and real-world settings."
+  ],
+  "textbooks": [
+    "David Hanes, Gonzalo Salgueiro, Patrick Grossetete, Rob Barton and Jerome Henry, IoT Fundamentals: Networking Technologies, Protocols and Use Cases for Internet of Things, Cisco Press, 2017.",
+    "Arshdeep Bahga, Vijay Madisetti, Internet of Things - A Hands-on Approach, Universities Press, 2015."
+  ],
+  "referenceBooks": [
+    "Olivier Hersent, David Boswarthick, Omar Elloumi, The Internet of Things - Key Applications and Protocols, Wiley, 2012."
+  ]
+}

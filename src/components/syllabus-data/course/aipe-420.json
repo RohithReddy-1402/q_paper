@@ -1,0 +1,54 @@
+{
+  "Course Title": "Artificial Intelligence in Industrial and Management Engineering",
+  "Course Code": "AIPE-420",
+  "route": "course/aipe-420",
+  "credits": 3,
+  "prerequisites": "AIPC-300, AIIC-301",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Understand the principles, techniques, and applications of Artificial Intelligence in Industrial and Management Engineering. Apply knowledge representation, intelligent search, reasoning, and expert systems to solve industrial decision-making problems. Develop AI-based predictive and decision-support models using machine learning and natural language processing techniques. Analyze and evaluate AI-driven optimization methods for production scheduling, facility layout planning, and smart manufacturing. Evaluate emerging AI technologies such as Explainable AI, Digital Twins, Industry 4.0, and Industry 5.0 for sustainable and intelligent manufacturing systems.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Fundamentals of AI and Knowledge Representation",
+      "body": "Introduction to AI, evolution and types of AI, symbolic AI and data-driven AI, fundamentals of industrial engineering, applications of AI in industrial and management engineering, knowledge representation techniques, logic and reasoning systems, intelligent agents, explainable AI, responsible AI and ethical considerations in industrial applications."
+    },
+    {
+      "id": "2",
+      "title": "Intelligent Search and Expert Systems",
+      "body": "State space representation, problem formulation, uninformed search (BFS, DFS, uniform cost search), heuristic search algorithms (best first search, A* search), local search techniques, constraint satisfaction problems, expert systems architecture, knowledge base and inference engine, forward and backward chaining, AI-based decision support systems, industrial case studies."
+    },
+    {
+      "id": "3",
+      "title": "AI Techniques for Industrial Decision Support",
+      "body": "Natural language processing for business and industry, speech processing pipeline and industrial automation, inductive learning, decision tree induction, neural networks, AI-based prediction, classification, and data-driven decision support in industry."
+    },
+    {
+      "id": "4",
+      "title": "AI Applications in Industrial and Management Engineering",
+      "body": "Production scheduling and metaheuristic algorithms for scheduling, facility layout problems and metaheuristic optimization, AI-based facility layout planning; Industry 4.0 and smart manufacturing, digital twins in industrial systems, transition to human-centric Industry 5.0 paradigms, industrial case studies."
+    }
+  ],
+  "outcomes": [
+    "Explain the principles, evolution, and industrial applications of Artificial Intelligence.",
+    "Apply knowledge representation, reasoning, expert systems, and search algorithms to solve industrial engineering problems.",
+    "Design and implement AI solutions using Natural Language Processing and Machine Learning techniques.",
+    "Evaluate AI-based optimization, metaheuristic techniques and emerging technologies for intelligent industrial decision-making."
+  ],
+  "textbooks": [
+    "Russell, S. J., & Norvig, P., Artificial Intelligence: A Modern Approach, 4th Global Edition, Pearson, 2020.",
+    "Nilsson, N. J., The Quest for Artificial Intelligence, Cambridge University Press, 2009."
+  ],
+  "referenceBooks": [
+    "Sutton, R. S., & Barto, A. G., Reinforcement Learning: An Introduction, 2nd ed., MIT Press, 2018.",
+    "Goodfellow, I., Bengio, Y., & Courville, A., Deep Learning, MIT Press, 2016."
+  ]
+}

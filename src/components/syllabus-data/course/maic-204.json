@@ -5,8 +5,16 @@
   "credits": 3,
   "prerequisites": "MAIC-102",
   "Course Type": "IC",
-  "Branch": ["RA"],
-  "ltpc": [3, 0, 0, 3],
+  "Branch": [
+    "RA",
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
   "contactHours": 36,
   "description": "This course introduces applications of linear algebra and matrices in different branches of mathematics and develops the theoretical aspects of linear algebra required for emerging areas such as machine learning and data analysis. It extensively covers generalized inverse, QR decomposition, singular value decomposition, the Perron-Frobenius theorem, quadratic forms, Sylvester inertia theorem, linear functionals and bilinear mappings.",
   "syllabus": [

@@ -1,0 +1,51 @@
+{
+  "Course Title": "Design and Analysis of Algorithms",
+  "Course Code": "AIPC-203",
+  "route": "course/aipc-203",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Able to design, implement and analysis of standard searching and sorting algorithms. Implement standard divide and conquer, dynamic programming, greedy and backtracking algorithms. Able to implement between different data structures i.e., trees, heaps etc. also, able to pick an appropriate data structure for any given design situation. Able to implement the major graph algorithms and their analysis.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "Concept of time and space complexity, analysis of algorithms, asymptotic notation, recurrence relations, design and analysis of D&C problems like quick sort etc., heap sort, priority queues, sorting in linear time, hashing, binary search trees."
+    },
+    {
+      "id": "2",
+      "title": "Graph Algorithms",
+      "body": "Graph representation & traversal (search), topological sort, strongly connected components, minimum spanning trees - Kruskal and Prim's, single source shortest paths, relaxation, Dijkstra's algorithm, Bellman-Ford algorithm, single source shortest paths for directed acyclic graphs, all-pairs shortest path."
+    },
+    {
+      "id": "3",
+      "title": "B-Trees and Dynamic Programming",
+      "body": "B-Trees: representation and operations; elements of dynamic programming, structure and steps, matrix-chain multiplication, longest common subsequence."
+    },
+    {
+      "id": "4",
+      "title": "Greedy & Backtracking Approaches",
+      "body": "Greedy algorithms - elements, activity-selection problem, Huffman codes, task scheduling problem, knapsack problem; backtracking - elements, 8-queens, graph coloring, Hamiltonian cycles."
+    }
+  ],
+  "outcomes": [
+    "Able to design, implement and analysis of standard searching and sorting algorithms.",
+    "Implement standard divide and conquer, dynamic programming, greedy and backtracking algorithms.",
+    "Able to implement between different data structures i.e., trees, heaps etc. also, able to pick an appropriate data structure for any given design situation.",
+    "Able to implement the major graph algorithms and their analysis."
+  ],
+  "referenceBooks": [
+    "Cormen, Leiserson and Rivest, Introduction to Algorithms, 3/e, PHI.",
+    "Horowitz, Sahni, and Rajasekaran, Fundamentals of Computer Algorithms, Second Edition, Universities Press, Hyderabad.",
+    "Aho, Hopcroft, and Ullman, The Design and Analysis of Computer Algorithms, Addison Wesley."
+  ]
+}

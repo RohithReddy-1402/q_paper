@@ -1,0 +1,52 @@
+{
+  "Course Title": "Computer Networks",
+  "Course Code": "AIPE-461",
+  "route": "course/aipe-461",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Understand computer network basics, different models used for study of computer networks, and issues surrounding wired and wireless networks. Design, calculate, and apply subnet masks to fulfil networking requirements and build routing skills. Analyse the features and operations of various application layer protocols such as HTTP, DNS, SMTP and FTP. Analyse the requirements for a given organizational structure and select the most appropriate networking architecture and technologies. Familiarity with the basic protocols of computer networks, and how they can be used to assist in network design and implementation.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "History and development of computer networks, network functions, topology, services, switching approaches, transmission media, OSI reference model, overview of TCP/IP architecture."
+    },
+    {
+      "id": "2",
+      "title": "Physical, MAC and Data Link Layer",
+      "body": "Transmission media, errors in transmission, multiplexing and signalling, encoding schemes; Aloha, CSMA, CSMA/CD, CSMA/CA protocols, Ethernet, WiFi, Bluetooth and Zigbee; error detection, sliding window and stop-and-wait protocols, ARQ, HDLC, PPP."
+    },
+    {
+      "id": "3",
+      "title": "Network Layer",
+      "body": "Internet Protocol, IPv6, ARP, DHCP, ICMP, routing algorithms: distance vector, link state; subnetting, classless addressing, NAT, IPv4 to IPv6 translation strategies, datagrams and virtual circuits, structure of switch/router, traffic management and QoS."
+    },
+    {
+      "id": "4",
+      "title": "Transport and Application Layer",
+      "body": "UDP, TCP: connection establishment/termination, flow and congestion control, timers, retransmission; client-server model, HTTP, DNS, SMTP, FTP, and TFTP."
+    }
+  ],
+  "outcomes": [
+    "Understand computer network basics and the issues surrounding wired and wireless networks.",
+    "Design, calculate, and apply subnet masks and routing mechanisms.",
+    "Analyse the features and operations of various application layer protocols.",
+    "Select the most appropriate networking architecture and technologies for a given organizational structure.",
+    "Assist in network design and implementation using basic networking protocols."
+  ],
+  "textbooks": [
+    "Behrouz A. Forouzan, Data Communications and Networks, Fifth Edition, McGraw Hill, 2017.",
+    "Leon Garcia and Indra Widjaja, Communication Networks - Fundamental Concepts and Key Architectures, Second Edition TMH.",
+    "A.S. Tanenbaum, Computer Networks, Sixth Edition, Pearson Education, 2022."
+  ]
+}

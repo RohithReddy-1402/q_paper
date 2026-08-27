@@ -6,11 +6,13 @@
   "prerequisites": "NA",
   "Course Type": "IC",
   "Branch": [
+    "RA",
     "CS",
     "CoE",
     "IT",
     "AI & ML",
-    "M&C"
+    "M&C",
+    "AIML"
   ],
   "semester": "2nd",
   "ltpc": [

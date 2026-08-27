@@ -1,0 +1,29 @@
+{
+  "Course Title": "Seminar",
+  "Course Code": "AIPC-402",
+  "route": "course/aipc-402",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "description": "To develop the ability to research a recent topic in AI/ML independently and present it clearly to an academic audience.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Seminar",
+      "body": "Each student identifies a recent topic/technology in Artificial Intelligence & Machine Learning, prepares a technical report, and delivers a seminar presentation followed by a question-answer session."
+    }
+  ],
+  "outcomes": [
+    "Independently research and present a technical topic.",
+    "Improve written and oral technical communication skills."
+  ]
+}

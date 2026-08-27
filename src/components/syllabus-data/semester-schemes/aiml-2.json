@@ -1,0 +1,101 @@
+{
+  "branch": "AIML",
+  "branchName": "Artificial Intelligence & Machine Learning",
+  "semester": 2,
+  "title": "B. Tech. Artificial Intelligence & Machine Learning Semester 2",
+  "totalCredits": 21,
+  "rows": [
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "label": "Economics for Engineers / Business Studies"
+    },
+    {
+      "type": "core",
+      "code": "MAIC-102",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSIC-100",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSIC-102",
+      "ltpc": [
+        1,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "type": "core",
+      "code": "CSIC-104",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-100",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": null,
+      "ltpc": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "label": "AU2"
+    },
+    {
+      "type": "coCurricular",
+      "label": "Sports",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "coCurricular",
+      "label": "NCC/Yoga/Clubs/NSS",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    }
+  ]
+}

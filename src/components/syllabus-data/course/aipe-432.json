@@ -1,0 +1,55 @@
+{
+  "Course Title": "Multi-Criteria Decision Making and Applications",
+  "Course Code": "AIPE-432",
+  "route": "course/aipe-432",
+  "credits": 3,
+  "prerequisites": "Engineering Mathematics, Probability & Statistics",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Understand the fundamental concepts, methodologies, and applications of Multi-Criteria Decision Analysis (MCDA) for solving complex decision-making problems. Apply full aggregation, outranking, and reference-level approaches to evaluate, rank, and select alternatives based on multiple decision criteria. Analyze and compare different MCDA techniques to identify appropriate decision-making methods for diverse engineering and real-world applications. Develop decision-support solutions using optimization techniques, integrated MCDA systems, and software tools for multi-criteria decision problems. Demonstrate the application of MCDA methods in engineering, business, healthcare, supply chain, and other multidisciplinary domains.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "General Introduction",
+      "body": "Introduction, decision problems, MCDA methods and software, selection of MCDA methods, choice, ranking, sorting and description problems, applications of MCDA."
+    },
+    {
+      "id": "2",
+      "title": "Full Aggregation Approach",
+      "body": "Analytic Hierarchy Process (AHP): problem structuring, priority calculation, consistency check, sensitivity analysis, extensions; Analytic Network Process (ANP): inner/outer dependency, influence matrix, supermatrix; Multi-Attribute Utility Theory (MAUT): additive model, utility functions; UTA method, MACBETH, value tree, score calculation, robustness analysis."
+    },
+    {
+      "id": "3",
+      "title": "Outranking Approach",
+      "body": "PROMETHEE: unicriterion preference degrees, positive/negative/net flows, GAIA plane, sensitivity analysis, PROMETHEE I and II ranking; ELECTRE: outranking relations, partial/global concordance and discordance degree, outranking degree, partial ranking, ELECTRE-Tri."
+    },
+    {
+      "id": "4",
+      "title": "Goal, Aspiration or Reference-Level Approach and Integrated Systems",
+      "body": "TOPSIS: ideal and anti-ideal solution, separation measures, relative closeness; Goal Programming: weighted, lexicographic, Chebyshev; Data Envelopment Analysis (DEA): efficiency measurement, constant and variable returns to scale, sensitivity analysis; multi-method platforms, GIS, group decision support systems, applications of MCDA."
+    }
+  ],
+  "outcomes": [
+    "Explain the principles, classifications, and applications of MCDA and identify appropriate methods for different decision-making scenarios.",
+    "Apply full aggregation methods such as AHP, ANP, MAUT, UTA, and MACBETH to structure decision problems and evaluate alternatives.",
+    "Analyze and compare alternatives using outranking methods such as PROMETHEE and ELECTRE.",
+    "Evaluate decision alternatives using reference-level approaches, including TOPSIS, Goal Programming, and DEA.",
+    "Design and implement decision support models by integrating MCDA methods with software tools for real-world decision-making problems."
+  ],
+  "textbooks": [
+    "Alessio Ishizaka and Philippe Nemery, Multi-Criteria Decision Analysis: Methods and Software, Wiley, 2013.",
+    "Zilany, Milan, Multi Criteria Decision Making, McGraw Hill Book Company, 1982."
+  ],
+  "referenceBooks": [
+    "R. Steuer, Multiple Criteria Optimization: Theory, Computation and Application, John Wiley & Sons, 1985.",
+    "Ching-Lai Hwang and Kwangsun Yoon, Multiple Attribute Decision Making: Methods and Applications, Springer."
+  ]
+}

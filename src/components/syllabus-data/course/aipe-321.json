@@ -1,0 +1,57 @@
+{
+  "Course Title": "AI/ML for Security",
+  "Course Code": "AIPE-321",
+  "route": "course/aipe-321",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To learn about role of AI in security. To implement AI models for handling cyber security tasks and different types of attacks. To understand different types of attacks on AI systems.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Fundamentals of AI and Security",
+      "body": "Overview of AI with use cases from cyber security, classification of threats, attacks, vulnerabilities, malware, Trojans etc."
+    },
+    {
+      "id": "2",
+      "title": "Classification of Malwares",
+      "body": "Supervised and unsupervised learning based on signatures and profiling, Decision Tree, SVM and its variants, BBN and context based malicious event detection."
+    },
+    {
+      "id": "3",
+      "title": "Time Series Analysis for Security",
+      "body": "Time series analysis, different types of ensemble learning to detect abnormal behavior, reconnaissance detection - case study."
+    },
+    {
+      "id": "4",
+      "title": "AI for Anomaly Detection in Networks",
+      "body": "Network anomaly detection; pipeline of network attack, deep neural architectures for detection and prognosis of attacks, designing intrusion detection systems."
+    },
+    {
+      "id": "5",
+      "title": "Attacks on AI Systems",
+      "body": "Adversarial attacks, white box attacks, black box attacks, model poisoning."
+    }
+  ],
+  "outcomes": [
+    "Students will be able to develop AI models for classification of malwares.",
+    "Students will be able to implement intrusion detection systems using deep neural architecture.",
+    "Students will be able to detect vulnerabilities in AI systems."
+  ],
+  "textbooks": [
+    "Halder, Soma, and Sinan Ozdemir, Hands-On Machine Learning for Cybersecurity, Packt Publishing Ltd, 2018.",
+    "Sikos, Leslie F., ed., AI in Cybersecurity, Vol. 151, Springer, 2018."
+  ],
+  "referenceBooks": [
+    "David Freeman, Clarence Chi, Machine Learning and Security, O'Reilly Media, 2018."
+  ]
+}

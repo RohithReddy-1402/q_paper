@@ -5,9 +5,17 @@
   "credits": 4,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["All"],
+  "Branch": [
+    "RA",
+    "All"
+  ],
   "semester": "1st",
-  "ltpc": [2, 1, 2, 4],
+  "ltpc": [
+    2,
+    1,
+    2,
+    4
+  ],
   "contactHours": 60,
   "description": "This course, offered by the Department of Physics, includes the fundamentals of physics essential for various engineering disciplines pertaining to quantum mechanics, electromagnetism, lasers and optical fiber technology. Moreover, the theory of relativity and nuclear technology for sustainable energy applications are included.",
   "syllabus": [

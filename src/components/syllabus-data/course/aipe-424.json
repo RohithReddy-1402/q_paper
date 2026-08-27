@@ -1,0 +1,55 @@
+{
+  "Course Title": "Affective Computing",
+  "Course Code": "AIPE-424",
+  "route": "course/aipe-424",
+  "credits": 3,
+  "prerequisites": "Python Programming, Deep Learning, Natural Language Processing (NLP), Computer Vision (CV)",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Understand the fundamental concepts of emotions, emotion theories, and affective computing. Explore emotion recognition techniques using text, speech, facial expressions, physiological signals, and multimodal data. Design and evaluate AI-based models for emotion recognition using modern machine learning and deep learning techniques. Analyze the ethical, privacy, fairness, and societal implications of affective computing while exploring its real-world applications.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Affective Computing",
+      "body": "Human emotion recognition, interpretation, and simulation, history and evolution, emotion theories and models, emotion representation and annotation, experimental design, affect elicitation, research and development tools."
+    },
+    {
+      "id": "2",
+      "title": "Emotion in Text and Voice",
+      "body": "Emotion analysis from text, sentiment analysis, traditional and contextual word embeddings, transformer-based language models for emotion detection (BERT, RoBERTa, LLMs); speech emotion recognition, acoustic features: MFCC, pitch, energy, prosody, spectrogram features, CNN, CNN-LSTM, transformer models, self-supervised speech models."
+    },
+    {
+      "id": "3",
+      "title": "Emotion in Facial Expressions and Physiological Signals",
+      "body": "Facial Action Coding System (FACS), face detection, facial landmarks detection, face alignment, CNN-based recognition, vision transformers, micro-expression recognition, cross-domain facial emotion recognition; physiological signals analysis: EEG, ECG, EMG, GSR, HRV, wearable sensors."
+    },
+    {
+      "id": "4",
+      "title": "Advanced Topics and Ethical Issues",
+      "body": "Multimodal emotion recognition, emotion-aware and empathetic intelligent agents and social robots, real-time online and adaptive recognition of emotions, ethical legal and social implications; case studies: smart healthcare, mental health support, education and autism therapy, human-robot interaction, explainable AI for emotion recognition, edge AI for emotion recognition, generative AI in affective computing."
+    }
+  ],
+  "outcomes": [
+    "Explain the fundamental concepts, theories of human emotions, and principles of affective computing.",
+    "Apply machine learning and deep learning techniques to recognize emotions from text, speech, facial expressions, and physiological signals.",
+    "Develop and evaluate unimodal and multimodal emotion recognition systems using modern AI techniques.",
+    "Analyze ethical, privacy, fairness, and societal challenges associated with affective computing applications."
+  ],
+  "textbooks": [
+    "Rosalind W. Picard, Affective Computing, MIT Press.",
+    "Rafael A. Calvo and Sidney D'Mello, The Oxford Handbook of Affective Computing."
+  ],
+  "referenceBooks": [
+    "Christopher Bishop, Pattern Recognition and Machine Learning.",
+    "Jurafsky and Martin, Speech and Language Processing.",
+    "Richard Szeliski, Computer Vision: Algorithms and Applications."
+  ]
+}

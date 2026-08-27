@@ -1,0 +1,52 @@
+{
+  "Course Title": "Operating Systems",
+  "Course Code": "AIPC-202",
+  "route": "course/aipc-202",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To understand the services and design of an operating system. To understand the structure and organization of file system. To understand the process states and various concepts such as scheduling and synchronization related with it. To understand different memory management approaches. Students should be able to use system calls for managing processes, memory and file system. Students should understand the data structures and algorithms for implementation of OS.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction and Process Management",
+      "body": "Computer system architecture and organization, introduction and evolution of OS, introduction to distributed OS, real time systems and multimedia systems. OS structures: OS services, system calls and programs, OS design and implementation. Processes: process concept, scheduling policies, algorithms, multilevel queuing, operations on process, inter-process communication. Threads: multithreading models and threading issues. CPU scheduling: criteria and algorithms, multiprocessor and thread scheduling."
+    },
+    {
+      "id": "2",
+      "title": "Process Synchronization and Deadlocks",
+      "body": "Process synchronization: critical sections, classical two process and n-process solutions, hardware primitives for synchronization, semaphores, monitors, classical problems in synchronization (producer-consumer, readers-writer, dining philosophers). Deadlocks: modelling, resource allocation, characterization, prevention and avoidance, detection and recovery."
+    },
+    {
+      "id": "3",
+      "title": "Memory Management and I/O",
+      "body": "Memory management: swapping, contiguous memory allocation, paging, multilevel paging, segmentation, demand paging, page replacement algorithms, allocation of frames, thrashing, working set model. Input/Output: I/O system and services, device controllers and device drivers, disks, scheduling algorithms and management."
+    },
+    {
+      "id": "4",
+      "title": "File Systems, Security and Virtualization",
+      "body": "File system interface: access methods, access control, directory structures, file organization, file sharing and protection, system performance. Access control matrix, access control list, capability matrix, encryption and access permissions in Linux and Windows; OS based security threats: viruses and worms, Trojan horses, trapdoors and keyloggers, buffer overflow attacks, phishing and social engineering, logic bomb, denial of service; virtual machines: history, benefits, building blocks, types of virtual machines and their implementation, virtualization and operating system components."
+    }
+  ],
+  "outcomes": [
+    "Understand functions, structures and history of operating systems.",
+    "Able to know the design issues associated with operating systems.",
+    "Master various process management concepts such as scheduling, synchronization, multithreading and deadlocks.",
+    "Understand the various concepts associated with memory management such as virtual memory, demand paging, page replacement algorithms.",
+    "Be familiar with various protection and security mechanisms.",
+    "Be familiar with virtualization and operating system components."
+  ],
+  "referenceBooks": [
+    "A. Silberschatz, Peter B. Galvin and G. Gagne, Operating System Concepts, (6th or newer edition), Wiley.",
+    "A.S. Tanenbaum, Modern Operating Systems, Prentice Hall of India."
+  ]
+}

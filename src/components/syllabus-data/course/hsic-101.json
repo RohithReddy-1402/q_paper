@@ -5,10 +5,23 @@
   "credits": 3,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["All"],
+  "Branch": [
+    "RA",
+    "All"
+  ],
   "semester": "1st/2nd",
-  "ltpc": [2, 0, 2, 3],
-  "examScheme": { "internal": 50, "theory": 50, "total": 100, "time": "3 hrs" },
+  "ltpc": [
+    2,
+    0,
+    2,
+    3
+  ],
+  "examScheme": {
+    "internal": 50,
+    "theory": 50,
+    "total": 100,
+    "time": "3 hrs"
+  },
   "description": "This course, offered by the Department of Humanities & Social Sciences, aims to develop communication skills among engineering students: to build confidence in speaking English with correct pronunciation, to develop basic writing skills and vocabulary, and to develop the ability to comprehend text in various contexts. It is taught in two parts — Theory Teaching and Language Laboratory.",
   "syllabus": [
     {

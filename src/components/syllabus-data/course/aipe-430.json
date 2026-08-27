@@ -1,0 +1,60 @@
+{
+  "Course Title": "Reinforcement Learning",
+  "Course Code": "AIPE-430",
+  "route": "course/aipe-430",
+  "credits": 3,
+  "prerequisites": "Probability and Statistics, ML",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Understand the fundamentals of reinforcement learning. Model sequential decision-making problems using Markov Decision Processes. Design and analyze value-based and policy-based reinforcement learning algorithms. Apply temporal difference learning methods. Implement Monte Carlo and Dynamic Programming algorithms. Develop reinforcement learning solutions for real-world applications. Understand advanced reinforcement learning methods including function approximation and policy gradients.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Reinforcement Learning",
+      "body": "Learning paradigms, elements of RL, agent-environment interaction, rewards and returns, policies, value functions, exploration vs. exploitation; multi-armed bandit problem, action-value methods, incremental implementation, Upper Confidence Bound (UCB), gradient bandit algorithms."
+    },
+    {
+      "id": "2",
+      "title": "Markov Decision Processes and Dynamic Programming",
+      "body": "Markov property, Markov reward processes, Markov Decision Processes, Bellman equations, optimal value functions, policy evaluation, policy improvement, policy iteration, value iteration, generalized policy iteration, asynchronous dynamic programming."
+    },
+    {
+      "id": "3",
+      "title": "Monte Carlo and Temporal Difference Learning",
+      "body": "Monte Carlo prediction and control, exploring starts, on-policy and off-policy prediction, importance sampling; temporal difference learning: TD(0), SARSA, expected SARSA, Q-learning, double Q-learning, maximization bias."
+    },
+    {
+      "id": "4",
+      "title": "n-Step Methods, Eligibility Traces and Planning",
+      "body": "n-step prediction, n-step SARSA, tree backup, eligibility traces, TD(λ), SARSA(λ), forward and backward views; planning and learning, Dyna-Q, prioritized sweeping."
+    },
+    {
+      "id": "5",
+      "title": "Function Approximation and Advanced Reinforcement Learning",
+      "body": "Approximate value functions, linear function approximation, gradient descent methods, semi-gradient TD, neural network approximation; policy gradient methods: policy parameterization, REINFORCE algorithm, actor-critic architecture."
+    }
+  ],
+  "outcomes": [
+    "Explain the reinforcement learning framework and formulate RL problems.",
+    "Apply Dynamic Programming and Monte Carlo methods for solving MDPs.",
+    "Implement Temporal Difference learning algorithms including SARSA and Q-learning.",
+    "Develop reinforcement learning models using function approximation and deep neural networks.",
+    "Evaluate advanced reinforcement learning algorithms for practical applications."
+  ],
+  "textbooks": [
+    "Richard S. Sutton, Andrew G. Barto, Francis Bach, Reinforcement Learning: An Introduction, 2nd Edition, MIT Press, 2018.",
+    "Csaba Szepesvari, Algorithms for Reinforcement Learning, Morgan and Claypool, 2010."
+  ],
+  "referenceBooks": [
+    "Maxim Lapan, Deep Reinforcement Learning Hands-On.",
+    "Phil Winder, Reinforcement Learning: Industrial Applications of Intelligent Agents, O'Reilly Media, 2020."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Course Title": "Natural Language Processing",
+  "Course Code": "AIPE-325",
+  "route": "course/aipe-325",
+  "credits": 3,
+  "prerequisites": "Artificial Intelligence, Data structures and algorithms, programming languages",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "To learn the fundamentals of Natural Language Processing and its algorithms. To understand machine translation and applications of NLP. Basic understanding of deep learning models for NLP.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to NLP",
+      "body": "Characteristics of natural language, language and sentence structure, language analyzer, lexicon, word formation, morphology, syntax analysis (parsing), semantics, ambiguity, pragmatics and discourse."
+    },
+    {
+      "id": "2",
+      "title": "NLP Algorithms",
+      "body": "Understanding corpus and data attributes, corpus formats (CSV, JSON, XML, LibSVM), operations on text corpus, tokenisation, stop words, TF-IDF, text analysis and word embedding using word2vec, doc2vec, GLoVe, Bag-of-Words."
+    },
+    {
+      "id": "3",
+      "title": "Machine Translation and Applications of NLP",
+      "body": "Introduction to machine translation, approaches, structure of Anusaraka (an Interlingua based MT system), example/analogy based MT, word/phrase based MT, neural MT; applications: sentiment analysis, chatbots, conversational models for digital assistants."
+    },
+    {
+      "id": "4",
+      "title": "Deep Learning Models for NLP",
+      "body": "Neural net based NLP models: CNN, RNN, LSTM and GRU using the Natural Language Toolkit (NLTK)."
+    }
+  ],
+  "outcomes": [
+    "Understand the algorithmic approach to NLP.",
+    "Understand the sentence structure and the computational model of natural languages.",
+    "Understand the data science approach to machine translation and its applications.",
+    "Understand the machine learning approach to NLP."
+  ],
+  "textbooks": [
+    "Thanaki, Jalaj, Python Natural Language Processing, Packt Publishing Ltd, 2017.",
+    "Daniel Jurafsky, James H. Martin, Speech and Language Processing, Pearson Publication, 2014."
+  ]
+}

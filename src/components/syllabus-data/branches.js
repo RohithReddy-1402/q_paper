@@ -12,7 +12,14 @@ export const BRANCHES = {
     name: "Robotics & Automation",
     description:
       "Covers robotics, automation, control systems, sensors and actuators, microprocessors and embedded systems, mechanics of materials, and electives spanning MEMS, IoT, data acquisition and data structures.",
-    semestersAvailable: [4, 5],
+    semestersAvailable: [1, 2, 4, 5],
+  },
+  "artificial-intelligence-machine-learning": {
+    code: "AIML",
+    name: "Artificial Intelligence & Machine Learning",
+    description:
+      "Covers programming, data structures, algorithms, databases, knowledge representation, machine learning, neural networks, deep learning, computer vision, generative AI and large language models, with electives spanning security, NLP, HPC, IoT and business analytics.",
+    semestersAvailable: [1, 2, 3, 4, 5, 6, 7, 8],
   },
 };
 

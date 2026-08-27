@@ -1,0 +1,54 @@
+{
+  "Course Title": "Large Language Models",
+  "Course Code": "AIPC-405",
+  "route": "course/aipc-405",
+  "credits": 4,
+  "prerequisites": "Machine Learning",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "Provide a strong foundation in Natural Language Processing (NLP), including linguistic analysis, statistical language modelling, and text representation. Develop an understanding of Large Language Models (LLMs), including transformer architectures, attention mechanisms, contextual embeddings, instruction tuning, and model alignment. Familiarize students with modern LLM applications, including information retrieval, Retrieval-Augmented Generation (RAG), machine translation, and LLM evaluation.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Foundations of NLP and Statistical Language Modeling",
+      "body": "Introduction to NLP, applications of NLP, levels of linguistic analysis, words and tokenization, regular expressions, minimum edit distance, N-gram language models, language model evaluations, smoothing techniques, text classification using logistic regression, word representations and embeddings (Word2Vec, GloVe, fastText), distributional semantics."
+    },
+    {
+      "id": "2",
+      "title": "Transformers and Large Language Models",
+      "body": "Introduction to LLMs, architectures for language models, conditional generation of text, prompting, sampling strategies, training of LLMs, ethical and safety issues, attention mechanism, self-attention, positional encoding, transformer architecture, transformer training and inference."
+    },
+    {
+      "id": "3",
+      "title": "Pre-trained Language Models",
+      "body": "Masked language modeling, bidirectional transformer encoders (BERT), training bidirectional encoders, contextual embeddings, fine-tuning of bidirectional encoders for classification, instruction tuning in LLMs, learning via preference, LLM alignment via preference-based learning (RLHF), test-time compute."
+    },
+    {
+      "id": "4",
+      "title": "LLM Applications, Retrieval, and Evaluation",
+      "body": "Introduction to information retrieval, evaluation of information-retrieval systems, information retrieval with dense vectors, Retrieval-Augmented Generation (RAG), language divergences and typology, machine translation, beam search, bias and ethical issues in LLMs, explainability and interpretability of LLMs, overview of recent foundation models (GPT, Llama, Claude, Gemini, Mistral)."
+    }
+  ],
+  "outcomes": [
+    "Explain the fundamental concepts of Natural Language Processing, statistical language models, tokenization, word embeddings, and distributional semantics.",
+    "Apply transformer architectures, attention mechanisms, prompting strategies, and large language models for natural language understanding and text generation tasks.",
+    "Analyze the architecture, training, fine-tuning, and alignment of pre-trained language models such as BERT and modern LLMs for solving NLP problems.",
+    "Evaluate information retrieval systems, retrieval-augmented generation (RAG), machine translation techniques, and large language models using appropriate evaluation metrics while considering ethical, bias, and explainability aspects.",
+    "Design and implement intelligent NLP solutions using foundation models, retrieval techniques, and advanced language modeling approaches for real-world applications."
+  ],
+  "textbooks": [
+    "Daniel Jurafsky and James H. Martin, Speech and Language Processing, 3rd Edition (Draft), Volume I, Stanford University."
+  ],
+  "referenceBooks": [
+    "Lewis Tunstall, Leandro von Werra and Thomas Wolf, Natural Language Processing with Transformers, O'Reilly.",
+    "Tanmoy Chakraborty, Introduction to Large Language Models, Cambridge University Press."
+  ]
+}

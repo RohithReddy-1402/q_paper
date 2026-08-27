@@ -1,0 +1,56 @@
+{
+  "Course Title": "Mining Large Networks",
+  "Course Code": "AIPE-421",
+  "route": "course/aipe-421",
+  "credits": 4,
+  "prerequisites": "DSA, Linear Algebra, Machine Learning",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To understand the structural properties and characteristics of large-scale networks. To apply graph mining techniques to analyze networked data. To analyze massive graph datasets using scalable mining algorithms. To employ machine learning techniques for mining complex networks. To design intelligent network analytics solutions for real-world applications.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Foundations of Large Network Analysis",
+      "body": "Introduction to large networks, types of networks: social and biological, graph theory concepts, properties, and algorithms, random graph models, small-world and scale-free networks, network visualization."
+    },
+    {
+      "id": "2",
+      "title": "Network Mining and Information Extraction",
+      "body": "Centrality measures: degree, closeness, betweenness and eigenvector centrality, degree correlations, community detection, link prediction, similarity measures, network motifs, graph clustering, mining frequent patterns in networks, extracting structural patterns, links, and information flow."
+    },
+    {
+      "id": "3",
+      "title": "Mining Massive Graphs and Intelligent Graph Analytics",
+      "body": "Mining data streams, locality sensitive hashing, similarity search, mining large graphs using MapReduce, link analysis, PageRank algorithm, recommendation systems, web graph mining."
+    },
+    {
+      "id": "4",
+      "title": "Machine Learning on Networks and Emerging Applications",
+      "body": "Random walks on graphs, information diffusion, influence propagation models, graph representation learning, knowledge graphs, graph neural networks, applications in recommendation systems, social networks, and fraud detection."
+    }
+  ],
+  "outcomes": [
+    "Ability to explain the concepts and properties of large-scale networks.",
+    "Ability to apply graph mining algorithms for network analysis and pattern discovery.",
+    "Ability to analyze large networks using scalable mining techniques.",
+    "Ability to evaluate network mining methods for link prediction, recommendation and influence analysis.",
+    "Ability to design AI-based solutions using graph learning techniques for large network applications."
+  ],
+  "textbooks": [
+    "Jure Leskovec, Anand Rajaraman, and Jeffrey D. Ullman, Mining of Massive Datasets, 3rd Edition, Cambridge University Press, 2020.",
+    "Bogumil Kaminski, Pawel Pralat, François Théberge, Mining Complex Networks, 1st Edition, Chapman and Hall/CRC, 2021.",
+    "Mark Newman, Networks, 2nd Edition, Oxford University Press, 2018."
+  ],
+  "referenceBooks": [
+    "William L. Hamilton, Graph Representation Learning, Morgan & Claypool Publishers, 2020.",
+    "Mohammed J. Zaki and Wagner Meira Jr., Data Mining and Machine Learning: Fundamental Concepts and Algorithms, 2nd Edition, Cambridge University Press, 2020."
+  ]
+}

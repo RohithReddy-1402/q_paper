@@ -3,589 +3,1377 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
   <url>
     <loc>https://nitkkrpyqs.in/</loc>
-    <lastmod>2025-05-31T06:56:10+00:00</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr-pyqs</loc>
-    <lastmod>2025-05-31T06:56:10+00:00</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr-pyqs</loc>
-    <lastmod>2025-08-05T06:56:10+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr-pyqs/login</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/question-papers</loc>
-    <lastmod>2025-05-31T06:56:10+00:00</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-   <url>
+  <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/contact</loc>
-    <lastmod>2026-07-13T06:56:10+00:00</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/donate</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/about</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/tech-stack</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/privacy-policy</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
-
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr-pyqs/login</loc>
-    <lastmod>2025-05-31T06:56:10+00:00</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-101</loc>
-    <lastmod>2026-07-13T06:56:10+00:00</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/computer-science-engineering</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-203</loc>
-    <lastmod>2026-07-13T06:56:10+00:00</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/computer-science-engineering/semester/1</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/maic-201</loc>
-    <lastmod>2026-07-13T06:56:10+00:00</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/computer-science-engineering/semester/2</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-202</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/computer-science-engineering/semester/3</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-204</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/computer-science-engineering/semester/4</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-208</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/computer-science-engineering/semester/5</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/maic-204</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/computer-science-engineering/semester/6</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-201</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/computer-science-engineering/semester/7</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-208</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-210</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-213</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-214</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-215</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-212</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-211</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-209</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-201</loc>
-    <lastmod>2026-07-18T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-203</loc>
-    <lastmod>2026-07-18T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-205</loc>
-    <lastmod>2026-07-18T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/mapc-201</loc>
-    <lastmod>2026-07-18T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/mapc-203</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/mapc-205</loc>
-    <lastmod>2026-07-15T06:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch</loc>
-    <lastmod>2026-08-25</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/computer-science-engineering/semester/8</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/robotics-automation</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/robotics-automation/semester/1</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/robotics-automation/semester/2</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/robotics-automation/semester/4</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/robotics-automation/semester/5</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-301</loc>
-    <lastmod>2026-08-25</lastmod>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning/semester/1</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning/semester/2</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning/semester/3</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning/semester/4</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning/semester/5</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning/semester/6</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning/semester/7</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning/semester/8</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-101</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-203</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/maic-201</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-204</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-202</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-201</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/maic-204</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-208</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-210</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-213</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-214</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-215</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-212</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-211</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-209</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/mapc-201</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/mapc-203</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/mapc-205</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-201</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-203</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-205</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-200</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-204</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-206</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/mapc-202</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/mapc-204</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/mapc-206</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-301</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-302</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-303</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rape-304</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rape-305</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rape-306</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rape-307</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rape-308</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rape-309</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rape-310</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rape-311</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rape-312</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-313</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-314</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/rapc-315</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/raic-316</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.6</priority>
   </url>
-
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsic-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsic-102</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsic-103</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsic-104</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/maic-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/phic-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/ceic-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/meic-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/meic-102</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csic-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csic-103</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/chic-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-102</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-103</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-104</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-105</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-106</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-107</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-108</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-109</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-110</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/hsnc-111</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/swnc-101-sports</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/swnc-101-yoga</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/swnc-101-ncc</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/maic-102</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/phic-102</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/phic-103</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/phic-104</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/phic-105</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csic-100</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csic-102</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/swnc-102-nss</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/swnc-102-clubs</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/swnc-102-technical-societies</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/chic-102</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/chic-103</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csic-104</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cepc-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-100</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/eepc-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/ecpc-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/mepc-103</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/pipc-101</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-207</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-209</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-202</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csic-301</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-301</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-303</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-305</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-307</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-302</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-304</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-402</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-404</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-406</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-210</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-212</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-214</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-302</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-304</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-306</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-308</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-310</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-312</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-314</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-316</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-318</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-320</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-322</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-324</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-407</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-409</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-411</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspe-413</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-302</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-304</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-306</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-308</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-310</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-312</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-314</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-316</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-401</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-403</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-405</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-407</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-409</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-411</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-413</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cstc-415</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-301</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-302</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-303</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-304</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-305</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-306</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-401</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-402</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-403</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-404</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-405</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/csoe-406</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-309</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-401</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/cspc-408</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/maic-202</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/maic-203</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-100</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-201</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-203</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-205</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-200</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-202</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-204</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-206</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aiic-301</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-303</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-305</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-307</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-300</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-302</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-304</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-401</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-403</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-405</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-400</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-402</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipc-404</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-321</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-323</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-325</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-320</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-322</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-324</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-421</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-423</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-425</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-461</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-463</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-465</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-420</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-424</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-426</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-428</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-430</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-432</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-440</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-442</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nitkkrpyqs.in/nit-kkr/syllabus/course/aipe-444</loc>
+    <lastmod>2026-08-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

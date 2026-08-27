@@ -1,0 +1,112 @@
+{
+  "branch": "AIML",
+  "branchName": "Artificial Intelligence & Machine Learning",
+  "semester": 6,
+  "title": "B. Tech. Artificial Intelligence & Machine Learning Semester 6",
+  "totalCredits": 25,
+  "rows": [
+    {
+      "type": "core",
+      "code": "AIPC-300",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-302",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "AIPC-304",
+      "ltpc": [
+        0,
+        0,
+        10,
+        5
+      ]
+    },
+    {
+      "type": "core",
+      "code": "HSXX-XXX",
+      "ltpc": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "label": "Principles of Management"
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective - I",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "AIPE-321",
+        "AIPE-323",
+        "AIPE-325"
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective - II",
+      "ltpc": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "options": [
+        "AIPE-320",
+        "AIPE-322",
+        "AIPE-324"
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective - II",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "coCurricular",
+      "label": "NCC/Sports/Yoga",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance."
+    },
+    {
+      "type": "coCurricular",
+      "label": "NSS/Club/Technical Societies",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance."
+    }
+  ]
+}

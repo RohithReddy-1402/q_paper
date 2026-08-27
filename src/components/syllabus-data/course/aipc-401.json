@@ -1,0 +1,50 @@
+{
+  "Course Title": "Semantic Web",
+  "Course Code": "AIPC-401",
+  "route": "course/aipc-401",
+  "credits": 4,
+  "prerequisites": "Web Design",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To introduce the core concepts and technologies that make web content understandable to machines.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction",
+      "body": "The World Wide Web, limitations of today's web, the next generation web, Semantic Web layers and technologies, semantics in the Semantic Web; XML basics, well-formed and valid documents, namespaces, XML schema, addressing, querying, Document Object Model (DOM), XML applications and limitations."
+    },
+    {
+      "id": "2",
+      "title": "RDF and OWL",
+      "body": "RDF basic ideas, RDF specification, RDF syntax: XML and non-XML, RDF elements, RDF relationships: reification, container, and collaboration, RDF Schema, editing/parsing/browsing RDF/XML, discovering information, querying (RQL, SPARQL), Web Ontology Language (OWL), classes, instances and properties in OWL, complex classes, property restrictions - role inclusion."
+    },
+    {
+      "id": "3",
+      "title": "Logic and Inference",
+      "body": "Rules, examples of monotonic rules: family relationships, monotonic rules syntax and semantics, Description Logic Programs (DLP), Semantic Web Rules Language (SWRL), nonmonotonic rules: motivation and syntax, example: brokered trade, Rule Markup Language (RuleML)."
+    },
+    {
+      "id": "4",
+      "title": "Ontology Engineering and Linked Data",
+      "body": "Ontology types - logic, description logics, rules, inference and reasoning; ontology engineering: constructing ontologies, tools (Sesame, Jena, Protégé, NeOn), reusing ontologies, ontology reasoning; the web of data, shallow and deep web, linked open data, linked data principles and design, publishing, consuming and aggregating linked data."
+    }
+  ],
+  "outcomes": [
+    "Understand and discuss fundamental concepts, advantages and limits of the semantic web.",
+    "Understand and use ontologies in the context of Computer Science and the semantic web.",
+    "Apply the RDF framework for Semantic Web.",
+    "Understand the concepts of metadata, semantics of knowledge and resource, ontology, and their descriptions in XML-based syntax and web ontology language (OWL)."
+  ],
+  "referenceBooks": [
+    "Paul Groth, Frank van Harmelen, Rinke Hoekstra, A Semantic Web Primer, Third Edition, MIT Press, 2012.",
+    "Yu, Liyang, A Developer's Guide to the Semantic Web, Second Edition, Springer Science & Business Media, 2014."
+  ]
+}

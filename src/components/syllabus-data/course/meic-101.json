@@ -5,9 +5,18 @@
   "credits": 3,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["ME", "PIE"],
+  "Branch": [
+    "RA",
+    "ME",
+    "PIE"
+  ],
   "semester": "1st",
-  "ltpc": [1, 0, 3, 3],
+  "ltpc": [
+    1,
+    0,
+    3,
+    3
+  ],
   "contactHours": 40,
   "description": "This course, offered for Mechanical Engineering and Production & Industrial Engineering by the Department of Mechanical Engineering, develops the ability of visualization of different objects through technical drawings. It is also useful in developing the computer drafting skill for communication of concepts and ideas in the design of engineering products. It is not to be treated as an integrated course.",
   "syllabus": [

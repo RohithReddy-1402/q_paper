@@ -1,0 +1,50 @@
+{
+  "Course Title": "Object-Oriented Programming using Java",
+  "Course Code": "AIPE-423",
+  "route": "course/aipe-423",
+  "credits": 4,
+  "prerequisites": "C; Data Structures",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To develop a clear understanding of Java features and object-orientation. To implement useful programs for real-life problem solving using standard object-oriented features like encapsulation, polymorphism, etc. To design and develop robust programs with object-orientation through Strings, packages, inheritance, interfaces, etc. To implement threads, event handling & GUI features for simple programs.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Java Features and Elementary Programming",
+      "body": "Overview of Java's architecture and the JVM, basic Java program & its structure, primitive data types, concept of abstraction and encapsulation; classes & objects: declarations, use and programming, constructors, this reference; arrays: single & multi-dimension and programming using array of objects."
+    },
+    {
+      "id": "2",
+      "title": "Key Features of OOP using Java",
+      "body": "Thinking in classes & objects, polymorphism, method overloading; Strings in Java, StringBuilder & StringBuffer; inheritance, overriding methods, hiding members, the object reference super, chaining constructors using this() and super()."
+    },
+    {
+      "id": "3",
+      "title": "Additional Features for Object-Orientation",
+      "body": "Programming using interfaces, extending interfaces, interface references, constants in interfaces; defining and using packages, scope rules, accessibility modifiers; overview of the java.lang package, the Object class, the wrapper classes; static members of classes, main() & its arguments."
+    },
+    {
+      "id": "4",
+      "title": "Advanced Features of Java",
+      "body": "Exception handling: try, catch, finally, throw, throws, checked and unchecked exceptions, defining new exceptions; multithreading: overview of threads, the main thread, thread creation, synchronization, thread transitions; event handling & GUI: basics of event handling, graphics programming using JavaFX."
+    }
+  ],
+  "outcomes": [
+    "Write Java programs that solve simple computing problems.",
+    "Design & develop programs for real-life problem solving using object-oriented features and incorporate the advantages of OOP over procedural programming.",
+    "Write simple thread based & GUI based programs to have an understanding of parallelization & event handling principles."
+  ],
+  "referenceBooks": [
+    "Y. Daniel Liang, Introduction to Java Programming, Comprehensive Version, Pearson Education, 12th Ed. or Latest Edition.",
+    "Bruce Eckel, Thinking In Java, Pearson Education, Latest Edition.",
+    "Cay S. Horstmann & Gary Cornell, Core Java Volume I, Fundamentals, Sun Microsystems Press, Latest Edition."
+  ]
+}

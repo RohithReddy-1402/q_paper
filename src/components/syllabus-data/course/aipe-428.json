@@ -1,0 +1,61 @@
+{
+  "Course Title": "Business Intelligence & Analytics",
+  "Course Code": "AIPE-428",
+  "route": "course/aipe-428",
+  "credits": 3,
+  "prerequisites": "Probability & Statistics, Data Mining",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "description": "Introduce the concepts, architecture, applications, and business drivers of Business Intelligence and Analytics. Develop an understanding of databases, data warehouses, OLTP, OLAP, and multidimensional data models. Apply descriptive analytics, visualization, regression, classification, clustering, and text-mining techniques. Evaluate analytical models using appropriate performance measures. Implement selected business analytics techniques using Python and R. Convert analytical results into actionable business insights.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Business Intelligence and Data Management",
+      "body": "Business Intelligence and Analytics; need, drivers, applications, and types of analytics; BIA architecture and components; fundamentals of data management; database design; OLTP; relational databases; keys and relationships; normalization; basic SQL queries; AT&T Long Distance case study."
+    },
+    {
+      "id": "2",
+      "title": "Data Warehousing, OLAP and Descriptive Analytics",
+      "body": "Data warehouses and data marts; ETL process; fact and dimension tables; star and snowflake schemas; OLAP and data cubes; roll-up, drill-down, slice, dice, and pivot operations; descriptive analytics; exploratory data analysis; charts, dashboards, and effective data visualization; ShopSense case study."
+    },
+    {
+      "id": "3",
+      "title": "Customer Analytics and Data Mining",
+      "body": "Customer behaviour analysis; customer lifetime value; survival, retention, and churn analysis; data-mining process and CRISP-DM; data preprocessing; handling missing values, duplicates, noise, and outliers; regression analysis and business applications."
+    },
+    {
+      "id": "4",
+      "title": "Classification and Decision-Tree Analytics",
+      "body": "Classification techniques; scoring and predictive models; confusion matrix; accuracy, precision, recall, specificity, F1-score, ROC curve, AUC, Precision-Recall curve; decision-tree concepts; entropy, information gain, Gini index; pruning and ensemble methods; targeted-mailing case study."
+    },
+    {
+      "id": "5",
+      "title": "Clustering, Neural Networks and Text Analytics",
+      "body": "Cluster analysis; distance measures; K-means and hierarchical clustering; cluster-quality measures; customer and store segmentation; RFM analysis; Artificial Neural Networks: structure, activation functions, forward propagation, backpropagation; text-mining process: tokenization, stop-word removal, stemming, lemmatization, Bag-of-Words, TF-IDF, sentiment analysis and text classification."
+    }
+  ],
+  "outcomes": [
+    "Explain the concepts, architecture, components, and applications of Business Intelligence and Analytics.",
+    "Design and analyse relational databases, data warehouses, OLAP systems, and multidimensional data models.",
+    "Apply data preprocessing, descriptive analytics, visualization, and regression techniques to business datasets.",
+    "Develop and evaluate classification and decision-tree models using suitable performance measures.",
+    "Perform customer and store segmentation using clustering and RFM analysis.",
+    "Apply neural-network and text-mining techniques to solve business problems using Python and R."
+  ],
+  "textbooks": [
+    "Ramesh Sharda, Dursun Delen and Efraim Turban, Business Intelligence, Analytics, Data Science, and AI: A Managerial Perspective, Pearson.",
+    "Galit Shmueli, Peter C. Bruce, Peter Gedeck and Nitin R. Patel, Data Mining for Business Analytics, Wiley."
+  ],
+  "referenceBooks": [
+    "Foster Provost and Tom Fawcett, Data Science for Business, O'Reilly Media.",
+    "Jiawei Han, Micheline Kamber and Jian Pei, Data Mining: Concepts and Techniques, Morgan Kaufmann."
+  ]
+}

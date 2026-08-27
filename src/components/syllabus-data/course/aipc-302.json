@@ -1,0 +1,58 @@
+{
+  "Course Title": "Generative AI",
+  "Course Code": "AIPC-302",
+  "route": "course/aipc-302",
+  "credits": 4,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To learn about working principles of different GANs. To learn about VAEs and Diffusion Models. To implement and apply different generative models in different application domains. To understand the ethical concerns of Generative AI.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Foundations of Generative AI",
+      "body": "Deep learning and neural networks, key concepts: activation functions, back propagation, gradient descent; different types of neural networks - CNNs, RNNs, transformers; generative vs. discriminative models."
+    },
+    {
+      "id": "2",
+      "title": "Generative Adversarial Networks (GANs)",
+      "body": "Core concepts of GANs: generator and discriminator, training process and challenges, advanced GAN variants: DCGAN, WGAN, StyleGAN, applications of GANs: image generation, data augmentation."
+    },
+    {
+      "id": "3",
+      "title": "Variational Autoencoders (VAEs)",
+      "body": "Concepts of VAEs and their architecture, difference between VAEs and GANs, mathematical foundation: latent space representation, encoding and decoding process, applications of VAEs: anomaly detection, dimensionality reduction."
+    },
+    {
+      "id": "4",
+      "title": "Diffusion Models",
+      "body": "Understanding the diffusion process, forward and reverse diffusion, applications of diffusion models: text generation, audio synthesis."
+    },
+    {
+      "id": "5",
+      "title": "Generative AI and Ethical Concerns",
+      "body": "Bias, copyright issues, adversarial attacks, responsible AI development and deployment, future trends and research directions in generative AI."
+    }
+  ],
+  "outcomes": [
+    "Students will be equipped with the knowledge of different types of GANs, VAEs and Diffusion Models.",
+    "Students will be able to implement and apply the concept of generative AI to different applications.",
+    "Students will be well aware of ethical concerns of Generative AI and future directions."
+  ],
+  "textbooks": [
+    "Altaf Rehmani, Generative AI for everyone: Understanding the essentials and applications of this breakthrough technology, Kindle Edition, 2024.",
+    "Dhamani, Numa, Introduction to Generative AI, Simon and Schuster, 2024.",
+    "Charu C. Aggarwal, Neural Networks and Deep Learning: A Textbook, Springer, 2018."
+  ],
+  "referenceBooks": [
+    "Goodfellow, Ian, et al., Generative Adversarial Networks, Communications of the ACM 63.11 (2020): 139-144."
+  ]
+}

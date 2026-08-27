@@ -5,7 +5,11 @@
   "credits": 4,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["All"],
+  "Branch": [
+    "RA",
+    "All",
+    "AIML"
+  ],
   "semester": "2nd",
   "description": "This course, offered by the Department of Computer Engineering, focuses on building robust applications using Python programming, and building multithreaded, platform-independent and GUI based Python applications for business problems.",
   "syllabus": [

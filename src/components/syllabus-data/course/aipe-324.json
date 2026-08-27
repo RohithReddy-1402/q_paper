@@ -1,0 +1,51 @@
+{
+  "Course Title": "Speech Processing",
+  "Course Code": "AIPE-324",
+  "route": "course/aipe-324",
+  "credits": 4,
+  "prerequisites": "Basics of Signal Processing, Probability & Statistics, Machine Learning",
+  "Course Type": "PE",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To introduce the fundamentals of speech production and perception. To understand the various techniques used in speech signal processing. To learn feature extraction methods for speech recognition and speaker identification. To explore machine learning and deep learning approaches for speech applications. To apply speech processing techniques in real-world AI/ML systems.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Speech Processing",
+      "body": "Speech communication process, speech production mechanism, speech perception and auditory system, applications of speech processing: ASR, TTS, speaker recognition, emotion detection, challenges in speech processing."
+    },
+    {
+      "id": "2",
+      "title": "Feature Extraction Techniques",
+      "body": "Time-domain and frequency-domain representations, windowing techniques and pre-emphasis, pitch and formants, speech signal analysis and cepstral analysis, Mel Frequency Cepstral Coefficients (MFCC), delta and delta-delta features, Linear Predictive Coding (LPC) and PLP features, spectrogram and filterbank features."
+    },
+    {
+      "id": "3",
+      "title": "Statistical and Deep Learning Models",
+      "body": "Template-based methods, Hidden Markov Models (HMM) and Gaussian Mixture Models (GMM), Viterbi decoding, DNNs and CNNs for speech feature learning, RNNs and LSTMs for sequential modeling, attention and transformers in speech tasks, end-to-end speech recognition."
+    },
+    {
+      "id": "4",
+      "title": "Speech Applications and Case Studies",
+      "body": "Automatic Speech Recognition (ASR) systems, Text-to-Speech (TTS) synthesis: Tacotron, WaveNet, speaker recognition and diarization, emotion and sentiment detection from speech, voice assistants and real-world AI integrations."
+    }
+  ],
+  "outcomes": [
+    "Understand the fundamentals of speech production and perception.",
+    "Apply feature extraction techniques for speech recognition and speaker identification.",
+    "Design statistical and deep learning models for speech applications.",
+    "Build real-world speech processing AI/ML systems."
+  ],
+  "textbooks": [
+    "Lawrence Rabiner and Ronald Schafer, Digital Processing of Speech Signals, Pearson.",
+    "Thomas F. Quatieri, Discrete-Time Speech Signal Processing, Pearson.",
+    "Daniel Jurafsky & James H. Martin, Speech and Language Processing, Pearson."
+  ]
+}

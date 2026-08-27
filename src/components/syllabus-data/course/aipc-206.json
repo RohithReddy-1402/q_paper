@@ -1,0 +1,56 @@
+{
+  "Course Title": "Fuzzy Systems and Evolutionary Computing",
+  "Course Code": "AIPC-206",
+  "route": "course/aipc-206",
+  "credits": 4,
+  "prerequisites": "Basics of Calculus and classical set theory",
+  "Course Type": "PC",
+  "Branch": [
+    "AIML"
+  ],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
+  "description": "To understand the fundamental theory and concept of fuzzy logic and sets. To introduce concepts of various fuzzy systems and their functions, and fuzzy rules for reasoning. To understand the biologically inspired evolutionary algorithms such as neural networks, genetic algorithms, ant colony optimization, and bee colony optimization.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Fuzzy Logic, Classical Sets and Fuzzy Sets",
+      "body": "Classical sets, fuzzy sets, classical and fuzzy relations, Cartesian product of relations, tolerance and equivalence relations, non-iterative fuzzy sets; membership functions, fuzzification, methods of membership value assignment; defuzzification: lambda-cuts for fuzzy sets and relations, defuzzification methods; fuzzy arithmetic and fuzzy measures."
+    },
+    {
+      "id": "2",
+      "title": "Fuzzy Rule Base and Approximate Reasoning",
+      "body": "Basic definitions and terminology, set-theoretic operations, membership function formulation and parameterization, fuzzy rules and fuzzy reasoning, extension principle and fuzzy relations, fuzzy if-then rules, fuzzy inference systems: Mamdani, Sugeno, and Tsukamoto fuzzy models, input space partitioning and fuzzy modeling."
+    },
+    {
+      "id": "3",
+      "title": "Neural Networks",
+      "body": "Single layer networks, perceptrons: Adaline, multilayer perceptrons and supervised learning, back-propagation, LM method, radial basis function networks, unsupervised learning neural networks, competitive learning networks, Kohonen self-organizing networks, associative memory, learning vector quantization, Hebbian learning, recurrent neural networks, adaptive neuro-fuzzy inference systems (ANFIS), hybrid learning algorithm, applications to control and pattern recognition."
+    },
+    {
+      "id": "4",
+      "title": "Derivative-Free Optimization",
+      "body": "Genetic algorithms: basic concepts, basic operators, encoding, crossover and mutation properties, genetic algorithm cycle, fitness function, reproduction, applications, differences between GA and traditional optimization methods, basic genetic programming concepts and applications. Evolutionary computing, simulated annealing, random search, downhill simplex search, swarm optimization, ant colony optimization, bee colony optimization."
+    }
+  ],
+  "outcomes": [
+    "Understand the concepts of classical and fuzzy sets.",
+    "Understand the basic ideas of fuzzy logic, operations and properties of fuzzy sets and fuzzy relations.",
+    "Understand neural networks and their applications.",
+    "Solve single objective optimization problems using genetic algorithms.",
+    "Understand biologically inspired evolutionary algorithms such as neural networks, genetic algorithms, ant colony optimization, and bee colony optimization."
+  ],
+  "textbooks": [
+    "B.K. Tripathy and J. Anuradha, Soft Computing - Advances and Applications, Cengage Learning, 2015.",
+    "Timothy J. Ross, Fuzzy Logic with Engineering Applications, Third Edition."
+  ],
+  "referenceBooks": [
+    "S.N. Sivanandam, S. N. Deepa, Principles of Soft Computing, John Wiley & Sons.",
+    "S. Haykin, Neural Networks and Learning Machines, Prentice Hall of India.",
+    "D.E. Goldberg, Genetic Algorithms in Search, Optimization and Machine Learning, Pearson."
+  ]
+}

@@ -5,9 +5,17 @@
   "credits": 2,
   "prerequisites": "NA",
   "Course Type": "IC",
-  "Branch": ["All"],
+  "Branch": [
+    "RA",
+    "All"
+  ],
   "semester": "1st/2nd",
-  "ltpc": [1, 0, 3, 2],
+  "ltpc": [
+    1,
+    0,
+    3,
+    2
+  ],
   "contactHours": 14,
   "description": "This course, offered by the Department of Mechanical Engineering, is a subject that aims at imparting knowledge and skill components in the field of basic workshop technology. It encompasses the understanding of tools and materials used in various sections of a workshop for making simple components.",
   "syllabus": [
