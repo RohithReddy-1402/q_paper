@@ -1,0 +1,38 @@
+{
+  "Course Title": "Control Systems Lab-I",
+  "Course Code": "EEPC-306",
+  "route": "course/eepc-306",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    0,
+    0,
+    3,
+    1
+  ],
+  "contactHours": 42,
+  "description": "Laboratory experiments are based upon the corresponding theory course EEPC-208. An updated list of experiments is floated by the course coordinator before the beginning of each semester.",
+  "syllabus": [],
+  "outcomes": [
+    "Understand the time response of various control systems.",
+    "Describe the transfer function of different control systems.",
+    "Analyse the closed loop operation of different types of controllers.",
+    "Understand the frequency response of control operations."
+  ],
+  "experiments": [
+    "Obtain the step response of first and second order systems and determine time-domain specifications from their transfer functions.",
+    "Determine the characteristics of LVDT and potentiometer error detectors for control applications.",
+    "Obtain the response of P, PI, PD, PID and relay control actions on one-time-constant and two-time-constant processes with and without delay.",
+    "Study a thermal system and its temperature control: obtain the transfer function from open-loop time response, determine the closed-loop response using PID and relay control actions, and compare the results.",
+    "Study the performance of a magnetic levitation system using P and PD control action and of DC motor position control.",
+    "Obtain the speed-torque characteristics of an AC servomotor and the speed control characteristics of a DC motor with a control parameter.",
+    "Design a lag or lead compensator for a given system, obtain its frequency response and analyze the result.",
+    "For a given transfer-function or state-space system, perform MATLAB simulations to obtain time-domain specifications, frequency-domain specifications and stability.",
+    "Study the performance of an industrial process for level control and flow control."
+  ]
+}

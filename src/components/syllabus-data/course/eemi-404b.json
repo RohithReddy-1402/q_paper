@@ -1,0 +1,56 @@
+{
+  "Course Title": "Metaheuristic Optimization Techniques",
+  "Course Code": "EEMI-404B",
+  "route": "course/eemi-404b",
+  "credits": 3,
+  "prerequisites": "MAIC-11, MAIC-12, EEPC-237",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course introduces students to the basic principles of metaheuristic methods such as population-based and swarm-based techniques and how to implement metaheuristic algorithms for solving real-world problems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "body": "Concept of optimization, limitations of conventional optimization methods such as linear and nonlinear programming and dynamic programming, concept of metaheuristic optimization, overview of objective functions, constraints, parameter tuning and performance analysis.",
+      "hours": 6
+    },
+    {
+      "id": "II",
+      "title": "Population-based Metaheuristics",
+      "body": "Main components of population-based metaheuristics (exploration and exploitation operators), Genetic Algorithm (GA) vs traditional algorithm, terminologies and operations in GA, stopping criteria, constraints, problem solving using GA. Differential Evolution: basic DE, difference vectors, operations in DE, control parameters, variations including gradient-based hybrid DE, or any other two population-based metaheuristics.",
+      "hours": 13
+    },
+    {
+      "id": "III",
+      "title": "Swarm-based Metaheuristics",
+      "body": "Main components of swarm-based metaheuristics such as Particle Swarm Optimization (PSO) - global best, local best, velocity and position calculation, geometric illustration, stopping conditions. Artificial Bee Colony (ABC) optimization - initialization phase, employed bees phase, onlooker bees phase, scout bees phase, or any other two swarm-based metaheuristics.",
+      "hours": 13
+    },
+    {
+      "id": "IV",
+      "title": "Applications",
+      "body": "Case studies related to engineering problem solving using metaheuristic-based optimization algorithms, tuning of ANN and fuzzy model parameters.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Identify the metaheuristic technique appropriate for a specific problem.",
+    "Implement and validate a computational model based on metaheuristic algorithms.",
+    "Solve a real-world problem using computational intelligence tools.",
+    "Apply metaheuristic algorithms for parameter tuning."
+  ],
+  "textbooks": [
+    "A. P. Engelbrecht, Computational Intelligence: An Introduction, John Wiley and Sons, 2007.",
+    "Z. Michalewicz and D. B. Fogel, How to Solve It: Modern Heuristics, Springer, 1999."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Course Title": "EHV AC and DC Transmission",
+  "Course Code": "EEPE-406A",
+  "route": "course/eepe-406a",
+  "credits": 3,
+  "prerequisites": "EEPC-209, EEPC-301",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective covers the basic concepts of EHV AC and DC transmission, HVDC links and converters, their configuration, analysis of valve conduction modes, HVDC control, travelling wave theory and the impact of overvoltages and their protection.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to EHV and HVDC",
+      "body": "Necessity for EHV transmission, problems involved, operational aspects, standard voltage levels, hierarchical levels of the transmission network, gas insulated EHV lines, environmental and biological aspects, advantages and limitations of AC and DC transmission. HVDC transmission: need for power system interconnections, evolution of AC and DC transmission, comparison of HVDC and HVAC, types of DC links, components of an HVDC system, modern trends.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Analysis of HVDC Converters",
+      "body": "Pulse number, choice of converter configurations, analysis of the Graetz circuit with and without overlap, voltage waveforms, analysis of two and three valve conduction modes, converter bridge characteristics, inverter mode of operation, voltage waveforms.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "HVDC Control, Harmonics and Filters",
+      "body": "Principles of DC link control, converter control characteristics, control hierarchy, constant current control, CEA control, firing angle control of valves, starting and stopping of a DC link, power control. Harmonics and filters: effects of harmonics, sources of harmonic generation, types of filters, design examples.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Line Parameters, UHV and Travelling Waves",
+      "body": "Average values of line parameters, power handling capacity and line losses, bundled conductors, mechanical considerations, introduction to UHV AC and DC lines, development of UHV lines in India, giant power pools. Travelling wave theory: travelling waves on transmission systems, their shape, attenuation and distortion, effect of junction and termination on propagation, overvoltages in the transmission system, lightning, switching and temporary overvoltages, control of lightning and switching overvoltages.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand EHV AC and DC transmission and HVDC link operation.",
+    "Analyze converter configurations for HVDC and their performance metrics.",
+    "Understand the operation of HVDC converter control.",
+    "Determine the impact of attenuation of travelling waves and the concept of UHV AC and DC transmission."
+  ],
+  "textbooks": [
+    "K. R. Padiyar, HVDC Power Transmission Systems: Technology and System Interactions, New Age International, 3rd Edition, 2017.",
+    "E. W. Kimbark, Direct Current Transmission, Vol. 1, Wiley, 1971.",
+    "Rakosh Das Begamudre, Extra High Voltage AC Transmission Engineering, 3rd Edition, New Age International, 2009."
+  ],
+  "referenceBooks": [
+    "Jos Arrillaga, High Voltage Direct Current Transmission, IET, 2nd Edition, 1998.",
+    "S. Rao, EHV AC and DC Transmission, Khanna Publishers.",
+    "Narain G. Hingorani and L. Gyugyi, Understanding FACTS: Concepts and Technology, John Wiley and Sons."
+  ]
+}

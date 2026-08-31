@@ -1,0 +1,57 @@
+{
+  "Course Title": "AC-DC Micro-grids",
+  "Course Code": "EEPE-406F",
+  "route": "course/eepe-406f",
+  "credits": 3,
+  "prerequisites": "MAIC-12, EEPC-101, EEPC-210, EEPC-304",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course helps students understand advanced modelling, control, resilience and security technologies for grid modernization from the perspective of microgrid design, analysis and operation.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Microgrid",
+      "body": "Power system resilience, the concept of microgrids, introduction to distributed energy resources (PV system, micro-turbine, energy storage, wind energy system, diesel generators), microgrid converter structure, different topologies of microgrids, brief introduction to AC and DC microgrids.",
+      "hours": 9
+    },
+    {
+      "id": "II",
+      "title": "DC Microgrid",
+      "body": "Introduction to DC microgrids, merits and challenges, modelling of PV system, DC-DC converters, MPPT and battery tied standalone DC system, DC bus voltage regulation and stability issues, centralized control, hierarchical principle (primary, secondary and tertiary control), distributed control.",
+      "hours": 9
+    },
+    {
+      "id": "III",
+      "title": "AC Microgrid",
+      "body": "Introduction to AC microgrids, merits and challenges, grid-tied interface, microgrid inverter structures, distribution power flow, power flow analysis for droop-control-based microgrids and networked microgrids.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Hybrid Microgrid",
+      "body": "Introduction to hybrid microgrids, merits and challenges, interface of AC and DC microgrids, load line control (DC bus and AC bus), voltage regulation control, active and reactive power control, power sharing concept of inverters, distributed and centralized control. Case study: simulation of a DC microgrid using a PV system and battery with AC and DC loads.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand the concepts of microgrids and networked microgrids.",
+    "Demonstrate the performance of different power converters in a microgrid.",
+    "Analyze distribution grid power flow in different microgrid scenarios.",
+    "Design and analyze various microgrid topologies."
+  ],
+  "textbooks": [
+    "P. Zhang, Networked Microgrids, Cambridge University Press, 2020.",
+    "Stephen A. Roosa, Fundamentals of Microgrids: Development and Implementation, CRC Press, 2021.",
+    "Puladasu Sudhakar, Yogini Dilip Borole and Anurag Shrivastava, Autonomous Microgrid Operation, Protection and Control, INSC International Publisher, 2021."
+  ]
+}

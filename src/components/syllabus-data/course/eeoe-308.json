@@ -1,0 +1,60 @@
+{
+  "Course Title": "Fuzzy Systems and Applications",
+  "Course Code": "EEOE-308",
+  "route": "course/eeoe-308",
+  "credits": 3,
+  "prerequisites": "MAIC-11, MAIC-12, EEPC-207",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This open elective gives a solid grounding of the fundamental concepts of fuzzy logic and its applications, dealing with fuzzy systems theory, the multiple values that fuzzy logic systems handle, and case studies of fuzzy logic usage in real life.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fuzzy Sets and Logic",
+      "body": "Introduction to fuzzy sets, logic and systems and applications, classical set theory, fuzzy sets versus crisp sets, representation of a fuzzy set, operations on fuzzy sets - complement, union and intersection, properties of fuzzy sets.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Membership Functions and Fuzzy Inference",
+      "body": "Mathematical notation, features of membership functions, linguistic variables, linguistic hedges, fuzzy relations and fuzzy quantities, fuzzy intervals, fuzzy numbers, fuzzy arithmetic, extension principle, fuzzy reasoning, fuzzy implications, generalized modus ponens, fuzzy if-then rule base, inference engine, Mamdani, Takagi-Sugeno and Tsukamoto fuzzy models, defuzzification, fuzzy decision making and optimization.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Fuzzy Logic Controllers and Applications",
+      "body": "Fuzzy logic controllers, principles, review of control systems theory, industrial applications of FLC, adaptive fuzzy systems, fuzzy decision making, multi-objective decision making, fuzzy classification, c-means clustering, fuzzy pattern recognition, image processing applications, fuzzy optimization.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Simulations and Case Studies",
+      "body": "MATLAB simulations using the fuzzy toolbox, case studies and applications, intelligent control of complex systems.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the basic ideas of fuzzy sets and crisp sets, operations and properties of fuzzy sets, membership functions and fuzzy relations and reasoning.",
+    "Explore the knowledge of fuzzy inference systems, their classification and the defuzzification process.",
+    "Combine decision theory and fuzzy set theory to solve problems that include uncertainty.",
+    "Develop and implement a fuzzy logic controller for various systems."
+  ],
+  "textbooks": [
+    "Timothy J. Ross, Fuzzy Logic with Engineering Applications, John Wiley and Sons, 2010.",
+    "J.-S. R. Jang, C.-T. Sun and E. Mizutani, Neuro-Fuzzy and Soft Computing, Pearson Education.",
+    "G. J. Klir and B. Yuan, Fuzzy Sets and Fuzzy Logic, Prentice Hall of India, 1997."
+  ],
+  "referenceBooks": [
+    "S. Rajasekaran and G. A. Vijayalakshmi Pai, Neural Networks, Fuzzy Logic and Genetic Algorithms: Synthesis and Applications, Prentice Hall."
+  ]
+}

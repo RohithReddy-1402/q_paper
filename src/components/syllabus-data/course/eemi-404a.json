@@ -1,0 +1,61 @@
+{
+  "Course Title": "Artificial Intelligence",
+  "Course Code": "EEMI-404A",
+  "route": "course/eemi-404a",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course enriches students with various AI techniques and makes them familiar with the applicability, strengths and weaknesses of basic knowledge representation, problem-solving, machine learning, knowledge acquisition and learning methods for solving engineering problems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "body": "Concept of AI, history, current status, scope, reactive, deliberative, goal-driven, utility-driven and learning agents, environments and problem formulation.",
+      "hours": 8
+    },
+    {
+      "id": "II",
+      "title": "Learning Deterministic Models",
+      "body": "Supervised learning algorithms, regression - simple and multiple linear regression, underfitting, overfitting and cross validation, parameter estimation for simple linear regression, gradient descent optimization and its variants.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Statistical Learning and Data Clustering",
+      "body": "Bayes theorem, general Bayes theorem, Naive Bayes classifier, Bayesian belief networks, k-nearest neighbor classifier, linear regression with least square error criterion, minimal sum-of-error-squares and the pseudo-inverse, least mean square (LMS) algorithm, partitional, hierarchical and spectral clustering, clustering using self-organizing maps, K-means clustering.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Convolutional and Recurrent Neural Networks",
+      "body": "Image classification, text classification, hyper-parameter tuning, emerging NN architectures, building recurrent NNs, Long Short-Term Memory, time series forecasting, case studies involving AI applications in engineering problem solving.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand the fundamentals and development of AI.",
+    "Acquire knowledge of various strategies for AI systems.",
+    "Analyze basic and advanced search techniques.",
+    "Apply CNN and RNN for various applications."
+  ],
+  "textbooks": [
+    "E. Rich, K. Knight and B. Nair, Artificial Intelligence, Tata McGraw Hills, 3rd Edition, 2009.",
+    "G. F. Luger, Artificial Intelligence: Structures and Strategies for Complex Problem Solving, Pearson Education Asia, 6th Edition, 2009.",
+    "M. Gopal, Applied Machine Learning, McGraw-Hill Education, 2019."
+  ],
+  "referenceBooks": [
+    "R. E. Neapolitan and X. Jiang, Artificial Intelligence: With an Introduction to Machine Learning, CRC Press, 2018.",
+    "S. Haykin, Neural Networks and Learning Machines, 3rd Edition, Pearson Education India, 2009."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "branch": "EE",
+  "branchName": "Electrical Engineering",
+  "semester": 4,
+  "title": "B. Tech. Electrical Engineering (New Scheme) Semester IV",
+  "totalCredits": 21,
+  "rows": [
+    { "type": "core", "code": "MAIC-203 (EE)", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-208", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-209", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-210", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-211", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-212", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-213", "ltpc": [0, 0, 3, 1] },
+    { "type": "core", "code": "EEPC-214", "ltpc": [0, 0, 3, 1] },
+    { "type": "core", "code": "EEPC-215", "ltpc": [0, 0, 3, 1] },
+    {
+      "type": "coCurricular",
+      "label": "NCC/Sports/Yoga",
+      "ltpc": [0, 0, 4, 2],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance up to 6th semester."
+    },
+    {
+      "type": "coCurricular",
+      "label": "NSS/Club/Technical Societies",
+      "ltpc": [0, 0, 4, 2],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance up to 6th semester. After the end of the 4th semester, students undertake a two-month internship / industrial training programme of one credit, with the viva voce examination conducted in the 5th semester."
+    }
+  ]
+}

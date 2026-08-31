@@ -1,0 +1,61 @@
+{
+  "Course Title": "Power System Dynamics and Control",
+  "Course Code": "EEPE-412D",
+  "route": "course/eepe-412d",
+  "credits": 3,
+  "prerequisites": "EEPC-211, EEPC-209, EEPC-311",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective covers the dynamic modeling, stability analysis and control of multi-machine power systems, single-machine and multi-machine dynamic modeling, network differential-algebraic equations and solution methods, small-signal stability analysis and the design of power system stabilizers.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "body": "Basics of system dynamics, concept and importance of power system stability in operation and design, distinction between transient and dynamic stability, complexity of the stability problem in large systems, necessity for reduced models, stability of interconnected systems, numerical techniques, introduction to software packages.",
+      "hours": 8
+    },
+    {
+      "id": "II",
+      "title": "Synchronous Machine Modelling",
+      "body": "Synchronous machine flux linkage equations, Park's transformation, per unit conversion, normalizing the equations, equivalent circuit, current space model, flux linkage state space model, sub-transient and transient inductances and time constants, simplified models (one axis and constant flux linkage), steady state equations and phasor diagrams.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Machine Controllers",
+      "body": "Exciter and voltage regulators, function and types of excitation systems, typical excitation system configuration, block diagram and state space representation of the IEEE Type 1 excitation system, saturation function, stabilizing circuit, function of speed governing systems, block diagram and state space representation of IEEE mechanical-hydraulic and electrical-hydraulic governors for hydro and steam turbines.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Transient and Dynamic Stability",
+      "body": "State equations for a multi-machine system with the one axis model and simulation, modeling of a multi-machine power system with excitation and speed governing systems and simulation using the fourth order Runge-Kutta method, power system stabilizer, system response to small disturbances, linear model of the unregulated and regulated synchronous machine, effect of excitation on dynamic stability, supplementary stabilizing signals, small signal performance measures.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand synchronous machine models, automatic voltage controllers, turbine models and speed governors.",
+    "Derive single machine and multi-machine power system dynamic models.",
+    "Evaluate and apply numerical solution methods of differential-algebraic equations governing multi-machine power systems.",
+    "Analyze methods of small-signal stability and transient stability of multi-machine power systems."
+  ],
+  "textbooks": [
+    "P. M. Anderson and A. A. Fouad, Power System Control and Stability, Galgotia Publications, New Delhi, 2003.",
+    "P. Kundur, Power System Stability and Control, McGraw Hill Inc., USA, 1994.",
+    "R. Ramanujam, Power System Dynamics: Analysis and Simulation, PHI, 2009."
+  ],
+  "referenceBooks": [
+    "M. A. Pai and P. W. Sauer, Power System Dynamics and Stability, Pearson Education Asia, 2002.",
+    "K. R. Padiyar, Power System Dynamics: Stability and Control, BS Publications."
+  ]
+}

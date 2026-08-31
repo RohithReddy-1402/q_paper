@@ -1,0 +1,61 @@
+{
+  "Course Title": "Microprocessors and Microcontrollers",
+  "Course Code": "EEPC-302",
+  "route": "course/eepc-302",
+  "credits": 3,
+  "prerequisites": "EEPC-203",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "The objective is to study the architecture of the 8085 and 8051, their addressing modes and instruction sets, the need and use of the interrupt structure, to develop skill in program writing and applications, and to understand peripheral and interfacing ICs.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Microprocessor Architecture and Programming",
+      "body": "8085 microprocessor architecture, timing and control unit, machine cycles, interrupt diagram. Addressing modes, instruction set, assembly language programming, programs for multibyte addition/subtraction, multiplication, division and block transfer.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Interfacing",
+      "body": "Basic principles of interfacing I/O devices with a microprocessor. Data transfer techniques: programmed, interrupt and DMA. Details of interfacing devices 8255 and 8253. Interfacing of D/A and A/D converters.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Microcontroller",
+      "body": "Architecture of the 8051 microcontroller. Interrupt, serial and timer control. Instruction set and programming. Interfacing with D/A and A/D converters.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Semiconductor Memory",
+      "body": "Read only memories, random access memories. Case study of interfacing of memories with the 8085 and 8051.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Develop a basic understanding of microprocessor and microcontroller architecture.",
+    "Design and implement programs on the 8085 microprocessor and 8051 microcontroller.",
+    "Understand the concept of interfacing peripheral devices with a microprocessor and microcontroller.",
+    "Design memory interfacing circuits with microprocessors and microcontrollers."
+  ],
+  "textbooks": [
+    "R. S. Gaonkar, Microprocessor Architecture, Programming and Applications, Penram International, 6th Edition, 2013.",
+    "A. P. Mathur, Introduction to Microprocessor, TMH, 3rd Edition, 1990.",
+    "K. J. Ayala, 8051 Microcontroller, Penram International, 2nd Edition, 1996."
+  ],
+  "referenceBooks": [
+    "D. V. Hall, Advanced Microprocessor.",
+    "Muhammad Ali Mazidi and Mazidi, The 8051 Microcontrollers and Embedded Systems, PHI, 2nd Edition, 2009."
+  ]
+}

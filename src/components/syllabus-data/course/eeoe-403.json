@@ -1,0 +1,61 @@
+{
+  "Course Title": "Virtual Instrumentation",
+  "Course Code": "EEOE-403",
+  "route": "course/eeoe-403",
+  "credits": 3,
+  "prerequisites": "EEPC-212",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "In this course students learn the basic building blocks of virtual instrumentation and the LabVIEW software on which a VI is implemented, how sensor signals are communicated to a computer and processed by algorithms built in LabVIEW, and how to design systems for solving engineering problems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Virtual Instrumentation",
+      "body": "Brief history of the development of virtual instrumentation (VI) systems, block diagram of a VI, role of hardware and software in a VI, VI for test, industrial I/O and control and design, VI applications in the engineering process, difference between traditional instruments and the VI, data-flow techniques, graphical and textual programming, comparison with conventional programming.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "VI Programming Techniques",
+      "body": "Front panel and block diagram, controls, indicators and data types, functions and operations in the block diagram, sub-VIs, icon and connector pane, repetition and loops (for and while loops), case and sequence structures, structure tunnels, shift and stacked registers, feedback nodes, local and global variables, charts, arrays, matrices and clusters, polymorphism, waveform graphs and charts, formula nodes, string and file I/O.",
+      "hours": 14
+    },
+    {
+      "id": "III",
+      "title": "Data Acquisition Basics",
+      "body": "Analog, discrete and digital signals, resolution, registers and counters, analog to digital converters (R-2R ladder network, weighted resistor method), digital to analog converters (counter type, tracking type, dual slope, flash type, SAR), timing and interrupts, data acquisition systems - sensor module, signal conditioning, multiplexing, sample and hold circuit.",
+      "hours": 14
+    },
+    {
+      "id": "IV",
+      "title": "Applications",
+      "body": "Case studies and applications of VI related to control systems, power electronics and power systems, development of a PID controller.",
+      "hours": 6
+    }
+  ],
+  "outcomes": [
+    "Be familiarized with virtual instrumentation.",
+    "Perform graphical language programming.",
+    "Have knowledge of various functionalities of the LabVIEW software.",
+    "Build a VI for various applications."
+  ],
+  "textbooks": [
+    "Gary Johnson, LabVIEW Graphical Programming, 2nd Edition, McGraw Hill, New York, 1997.",
+    "Lisa K. Wells and Jeffery Travis, LabVIEW for Everyone, Prentice Hall, New Jersey, 1997.",
+    "Jeffrey Travis, LabVIEW for Everyone, Dorling Kindersley, 2009."
+  ],
+  "referenceBooks": [
+    "Kevin James, PC Interfacing and Data Acquisition: Techniques for Measurement, Instrumentation and Control, Newnes.",
+    "S. Gupta and J. P. Gupta, PC Interfacing for Data Acquisition and Process Control, Instrument Society of America, 2nd Edition, 1994."
+  ]
+}

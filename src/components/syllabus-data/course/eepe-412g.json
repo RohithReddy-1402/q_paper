@@ -1,0 +1,61 @@
+{
+  "Course Title": "Industrial Drives",
+  "Course Code": "EEPE-412G",
+  "route": "course/eepe-412g",
+  "credits": 3,
+  "prerequisites": "EEPC-201, EEPC-210, EEPC-211, EEPC-304, EEPC-401, EEPE-310C",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective explores various DC and AC machine drives for industrial applications, open loop and closed loop control schemes for drives, and hardware implementation of basic controllers using real-time simulators.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Control Techniques for Electrical Drives",
+      "body": "Rating and heating of motors, basic features of an electric drive, block diagram and signal flow graph representation of drive systems, transfer functions, transient response of closed loop drive systems, frequency response approach, stability of controlled drives, compensation and use of controllers to improve performance.",
+      "hours": 11
+    },
+    {
+      "id": "II",
+      "title": "Drives for Specific Applications",
+      "body": "Drive considerations for textile mills, steel rolling mills, cranes and hoist drives, cement mills, sugar mills, machine tools, paper mills, coal mines, centrifugal pumps and turbo compressors, summary of thyristorised AC and DC drives.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Microprocessors and Control of Electrical Drives",
+      "body": "Introduction, dedicated hardware systems versus microprocessor control, application areas and functions of microprocessors in drive technology, control of electric drives using microprocessors, aspects of control system design of microprocessor based variable speed drives and stepper motors.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Sensorless Drives",
+      "body": "Permanent magnet synchronous motor - field oriented control, direct torque control, sensorless control, brushless DC (BLDC) machine control strategies, voltage source inverter fed BLDC torque ripple minimization applications.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Describe the basic components of the drive system from an automation perspective and various industrial drive systems.",
+    "Apply knowledge of specific applications of drive systems.",
+    "Learn advanced real time controller methods of basic motor drive systems.",
+    "Understand sensorless control based motor drives."
+  ],
+  "textbooks": [
+    "G. K. Dubey, Fundamentals of Electric Drives, 2nd Edition, Narosa Publishing House, 2007.",
+    "Vedam Subramanyam, Electric Drives: Concepts and Applications, Tata McGraw Hill, 2011.",
+    "R. Krishnan, Permanent Magnet Synchronous and Brushless DC Motor Drives, Taylor and Francis, 2010."
+  ],
+  "referenceBooks": [
+    "G. K. Dubey, Power Semiconductor Controlled Drives, Prentice Hall International Edition, 1989.",
+    "B. K. Bose, Power Electronics and Variable Frequency Drives, IEEE Press, 2001."
+  ]
+}

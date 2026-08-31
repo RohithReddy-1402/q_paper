@@ -1,0 +1,52 @@
+{
+  "Course Title": "AC Machines",
+  "Course Code": "EEPC-201",
+  "route": "course/eepc-201",
+  "credits": 3,
+  "prerequisites": "PHIC-12",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "3rd",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 42,
+  "description": "This program-core course, offered by the Department of Electrical Engineering, aims to give a basic understanding of AC machine fundamentals and machine parts, and helps students gain the skills required for operating AC machines. The course equips students with the ability to understand and analyse single-phase transformers and induction motors as well as three-phase transformers and induction motors, along with their applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Single-Phase Transformer",
+      "body": "Transformer construction, ideal and practical transformer, exact and approximate equivalent circuits, no-load and on-load operation, phasor diagrams, power and energy efficiency, voltage regulation, parallel operation, effect of load on power factor, per unit system, excitation phenomenon in transformers, switching transients, auto transformers, variable frequency transformer, voltage and current transformers, welding transformers, pulse transformer and applications.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Three-Phase Transformer",
+      "body": "Three-phase transformers: constructional features of three-phase transformers, cooling methodology, standard and special transformer connections, phase conversion, parallel operation of three-phase transformers, three-winding transformers and their equivalent circuit, on-load tap changing of transformers, modern trends in transformers, type and routine tests, standards.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Three-Phase Induction Machines",
+      "body": "Types of induction motor, flux and mmf waves, development of circuit model, power across air gap, torque and power output, OC and SC tests, circle diagram, starting methods, cogging and crawling, speed control, deep bar / double cage rotor, induction generator, induction machine dynamics, high efficiency induction motors.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Single-Phase Induction Machines",
+      "body": "Introduction, single-phase induction motors, double revolving field theory, circuit model of single-phase induction motor, determination of circuit parameters, and case study of MATLAB based problems of electrical machines.",
+      "hours": 8
+    }
+  ],
+  "outcomes": [
+    "Analyze the merit of single and three phase transformers with respect to different performance indices.",
+    "Examine the different operating conditions of single and three phase transformers for standalone and parallel operation.",
+    "Recommend a suitable starting and speed control method for a specific polyphase induction motor.",
+    "Compare the merits and demerits of several single-phase and fractional kW machines."
+  ],
+  "referenceBooks": [
+    "Arthur Eugene Fitzgerald and Charles Kingsley, Electric Machinery, Tata McGraw Hill Education Publications.",
+    "T. J. E. Miller, Brushless Permanent Magnet and Reluctance Motor Drives, Clarendon Press.",
+    "P. S. Bhimbra, Electrical Machinery, Khanna Publications.",
+    "I. J. Nagrath and D. P. Kothari, Electrical Machines, Tata McGraw Hill Education Private Limited.",
+    "M. G. Say, Performance and Design of Alternating Current Machines, CBS Publishers & Distributors Pvt. Ltd., New Delhi."
+  ]
+}

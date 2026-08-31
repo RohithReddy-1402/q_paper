@@ -1,0 +1,58 @@
+{
+  "Course Title": "Introduction to Microcontrollers",
+  "Course Code": "EEOE-401",
+  "route": "course/eeoe-401",
+  "credits": 3,
+  "prerequisites": "EEPC-202",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This open elective covers the study of the architecture of the PIC microcontroller, its addressing modes and instruction set, the need and use of the interrupt structure, program writing and applications, and peripheral and interfacing ICs.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Microcontroller Architecture and Programming",
+      "body": "PIC microcontroller architecture, timing and control unit, machine cycles, interrupt diagram, addressing modes, instruction set, assembly language programming, programs for multibyte addition/subtraction, multiplication, division and block transfer.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Interfacing",
+      "body": "Basic principles of interfacing I/O devices with a microcontroller, data transfer techniques - programmed, interrupt and DMA, interfacing of D/A and A/D converters.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Timers and Watchdog",
+      "body": "PIC timer control, watchdog timer and its use.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Semiconductor Memory",
+      "body": "Read only memories, random access memories, EEPROM memory access and programming.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Develop a basic understanding of microcontroller architecture.",
+    "Design and implement programs on the PIC microcontroller.",
+    "Understand the concept of interfacing peripheral devices with a microcontroller.",
+    "Design memory interfacing circuits with microprocessors and microcontrollers."
+  ],
+  "textbooks": [
+    "Datasheet of the PIC microcontroller from Microchip Technology."
+  ],
+  "referenceBooks": [
+    "Muhammad Ali Mazidi, Rolin McKinlay and Danny Causey, PIC Microcontroller and Embedded Systems, Pearson."
+  ]
+}

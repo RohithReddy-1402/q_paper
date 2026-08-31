@@ -1,0 +1,52 @@
+{
+  "Course Title": "Linear System Theory",
+  "Course Code": "EEPC-206",
+  "route": "course/eepc-206",
+  "credits": 3,
+  "prerequisites": "MAIC-11, PHIC-11, MAIC-12, PHIC-12, EEPC-101",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "3rd",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 42,
+  "description": "The course aims to introduce the conceptualization of linear systems as a natural extension of systems of simultaneous linear equations. It provides applications of linear algebra results to describe, analyze and manipulate linear systems via state space representation, and introduces ways to convert nonlinear systems into an approximate linear behaviour.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Linear Algebra for Systems",
+      "body": "Linear systems as sets of linear equations / linear differential equations, matrices as linear systems, Gaussian algorithm, vector spaces and subspaces, linear combinations and linear independence, basis and dimensions, linear transformations, kernel and image, eigenvalues and eigenvectors, characteristic equation, diagonalization, complex eigenvalues, applications to image transformations.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Inner Product Spaces and Optimization",
+      "body": "Inner product spaces and the concept of orthogonality, orthogonal projections, Gram-Schmidt procedure, least square problems and applications to linear systems, systems as operators, introduction to norms, signals and systems norms, symmetric matrices, diagonalization, quadratic forms and constrained optimization problems, application to system examples.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "State Space Representation of LTI Systems",
+      "body": "Linear system properties, stability, LTI systems, state space representation of LTI systems, linearizing nonlinear systems, linear parameter varying systems, state space representation of simple electric circuits, state space realization of LTI systems, similarity transformations, Jordan form, non-uniqueness of state space representation, free and forced response, Cayley-Hamilton theorem.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Controllability, Observability and State Feedback",
+      "body": "Solution of state equations, state transition matrix and its properties, controllability and observability of LTI systems, canonical forms, Kalman decomposition, minimal realization, stability analysis using state space methods, pole placement by state feedback, design of state observers, and case studies.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Apply linear algebra concepts such as vector spaces, bases, linear transformations and eigen-analysis to the description of linear systems.",
+    "Use inner product spaces, orthogonality and quadratic forms to formulate and solve least square and constrained optimization problems for linear systems.",
+    "Obtain and manipulate state space representations of continuous LTI systems, including linearization of nonlinear systems.",
+    "Analyze controllability, observability and stability of state space systems and design state feedback and observers."
+  ],
+  "referenceBooks": [
+    "W. K. Nicholson, Linear Algebra with Applications, Lyryx / McGraw Hill.",
+    "Gilbert Strang, Introduction to Linear Algebra, Wellesley-Cambridge Press.",
+    "C. T. Chen, Linear System Theory and Design, Oxford University Press.",
+    "T. Kailath, Linear Systems, Prentice Hall.",
+    "J. P. Hespanha, Linear Systems Theory, Princeton University Press."
+  ]
+}

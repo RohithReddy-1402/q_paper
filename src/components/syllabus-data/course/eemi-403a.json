@@ -1,0 +1,60 @@
+{
+  "Course Title": "Power Quality",
+  "Course Code": "EEMI-403A",
+  "route": "course/eemi-403a",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course covers the terminologies of power quality problems in distribution systems and power converter-based products, the drawbacks, causes and mitigation methods of power quality problems, and the reduction in energy consumption by power quality improvement.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Power Quality and its Standards",
+      "body": "Overview of power quality, voltage and current-based power quality problems, power quality standards, EMC standards, loads that cause power quality problems, harmonic analysis.",
+      "hours": 11
+    },
+    {
+      "id": "II",
+      "title": "Harmonic Mitigation Using Passive Filters",
+      "body": "Classification, principle of operation, selection criteria, limitations, design of passive tuned filters for single and three-phase non-linear loads.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Power Quality Improvement Using Active Filters",
+      "body": "Classification, principle of operation, control techniques for single-phase and three-phase shunt active power filters, design of single-phase and three-phase shunt and series active power filters.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Design of Improved Power Quality Converters",
+      "body": "Classification, operating principle, design and simulation of single-phase and three-phase power factor corrected buck, boost and buck-boost converters in continuous conduction mode.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the concept of power quality and its standards.",
+    "Understand the causes and mitigation of power quality problems in distribution systems.",
+    "Understand the role of various passive and active filters for power quality improvement.",
+    "Design power factor corrected converters for efficiency improvement."
+  ],
+  "textbooks": [
+    "Math H. Bollen, Understanding Power Quality Problems, John Wiley IEEE Press, 2000.",
+    "Roger C. Dugan, Mark McGranaghan, Surya Santoso and H. Wayne Beaty, Electrical Power Systems Quality, 3rd Edition, McGraw Hill, 2012.",
+    "Bhim Singh, Ambrish Chandra and Kamal Al-Haddad, Power Quality Problems and Mitigation Techniques, Wiley, 2015."
+  ],
+  "referenceBooks": [
+    "G. T. Heydt, Electric Power Quality, Stars in a Circle Publications, 1994."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "Course Title": "Power System Analysis",
+  "Course Code": "EEPC-209",
+  "route": "course/eepc-209",
+  "credits": 3,
+  "prerequisites": "EEPC-203",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "4th",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 42,
+  "description": "This course provides modelling of various power system components and covers load flow analysis, fault analysis and stability analysis of a power system network, along with computer methods for power system studies.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "body": "Review of per unit system. Modeling of power system components, single line impedance and reactance diagram, incidence matrices using graph theory, bus admittance and impedance matrix using graph theory. Y-bus formulation with phase shifter and transformers.",
+      "hours": 4
+    },
+    {
+      "id": "II",
+      "title": "Load Flow Analysis",
+      "body": "Introduction, bus classification, nodal admittance matrix, Gauss-Seidel method, Newton-Raphson method, fast decoupled method, algorithms, flow charts, merits and demerits of the above methods.",
+      "hours": 9
+    },
+    {
+      "id": "III",
+      "title": "Fault Analysis",
+      "body": "Symmetrical fault analysis: transient on a transmission line, three-phase short-circuit on a synchronous machine, algorithm for Z-bus formulation, analysis through impedance matrix, current limiting reactors. Symmetrical components: symmetrical components transformation, sequence impedance and sequence networks of power system components. Unsymmetrical fault analysis: LG, LL, LLG using transformation matrix method, analysis through impedance matrix.",
+      "hours": 16
+    },
+    {
+      "id": "IV",
+      "title": "Stability Analysis and Computer Methods in Power Systems",
+      "body": "Power system stability: steady-state, transient and dynamic stability, rotor dynamics and the swing equation, equal area criterion and its applications, step-by-step solution of swing equation, factors affecting transient stability, methods to improve steady state and transient stability, introduction to voltage stability. Computer methods in power systems: simulation of various load flow methods, simulation of various faults in a power system network, transient stability algorithm using modified Euler's method and fourth order Runge-Kutta method.",
+      "hours": 13
+    }
+  ],
+  "outcomes": [
+    "Understand the graph theory approach for formulation of Y-bus and Z-bus and application of the p.u. system.",
+    "Apply Gauss-Seidel and Newton-Raphson techniques for load flow analysis.",
+    "Analyze symmetrical and unsymmetrical faults using symmetrical component theory.",
+    "Investigate the stability of a power system under small-signal and large-signal disturbances."
+  ],
+  "textbooks": [
+    "J. J. Grainger and W. D. Stevenson, Power System Analysis, McGraw Hill Education, 1st Edition, 2003.",
+    "D. P. Kothari and I. J. Nagrath, Modern Power System Analysis, Tata McGraw Hill Education, 4th Edition, 2011.",
+    "H. Saadat, Power System Analysis, Tata McGraw Hill Education, 2nd Edition, 2002."
+  ],
+  "referenceBooks": [
+    "G. W. Stagg and A. H. El-Abiad, Computer Methods in Power System Analysis, McGraw Hill ISE, 1986.",
+    "NPTEL course: https://nptel.ac.in/courses/108105067",
+    "NPTEL course: https://nptel.ac.in/courses/108107127"
+  ]
+}

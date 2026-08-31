@@ -1,0 +1,60 @@
+{
+  "Course Title": "Electrical Machines",
+  "Course Code": "EEOE-302",
+  "route": "course/eeoe-302",
+  "credits": 3,
+  "prerequisites": "EEPC-101",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This open elective helps students of other departments understand different types of electrical machines, their basic operation and steady state analysis, focusing on electromechanical energy conversion, machine parts, and the concepts and methods behind electrical machines and their applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Transformer",
+      "body": "Basics of magnetic circuits, operation of an ideal transformer, dot convention, phasor diagram, equivalent circuit of an ideal transformer, analysis of a practical transformer, losses, voltage regulation and efficiency, various tests.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "DC Machines",
+      "body": "Introduction to DC machines, single conductor DC machine operation, construction features, types of DC generator, characteristics, armature reaction, losses and power flow, types of DC motors, characteristics and control of DC motors, losses and efficiency, armature windings.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Induction Machines",
+      "body": "Rotating magnetic fields, synchronous speed and induced voltage in a coil, three-phase induction motor, equivalent circuit and phasor diagram, air-gap power, torque expression, torque-slip characteristics, starting methods and speed control, single-phase induction motor operation and types.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Synchronous Machines",
+      "body": "Synchronous machine construction, synchronous generator operation, OC and SC characteristics, voltage regulation methods, analysis of cylindrical and salient pole synchronous machines, phasor diagrams, expressions for load angle and power.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the working of different types of transformers and rotating machines.",
+    "Analyze the equivalent circuit of electrical machines and evaluate their performance.",
+    "Evaluate the suitability of electrical machines in different applications.",
+    "Illustrate the characteristics and various tests performed to evaluate their performance."
+  ],
+  "textbooks": [
+    "A. E. Fitzgerald and C. Kingsley, Electric Machinery, McGraw Hill Education, 2013.",
+    "P. S. Bimbhra, Electrical Machinery, Khanna Publishers, 2011.",
+    "I. J. Nagrath and D. P. Kothari, Electric Machines, McGraw Hill Education, 2010."
+  ],
+  "referenceBooks": [
+    "Stephen J. Chapman, Electric Machinery Fundamentals, 5th Edition, McGraw Hill."
+  ]
+}

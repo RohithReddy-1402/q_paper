@@ -1,0 +1,54 @@
+{
+  "Course Title": "Network Synthesis and Filters",
+  "Course Code": "EEPC-205",
+  "route": "course/eepc-205",
+  "credits": 3,
+  "prerequisites": "EEPC-101",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "3rd",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 42,
+  "description": "The course has two parts: synthesis and filters. In the synthesis part, students learn to obtain a network from a given network function. In the filter part, students learn the basic concepts and design of constant K, m-derived and active filters. They also use these concepts to solve some real-world engineering problems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fundamental Concepts",
+      "body": "Network functions, positive real functions, Hurwitz polynomials, basic synthesis technique.",
+      "hours": 8
+    },
+    {
+      "id": "II",
+      "title": "One-Port and Two-Port Synthesis",
+      "body": "Synthesis of one-port network functions with two kinds of elements - Foster and Cauer forms for LC, RC and RL immittance functions. Certain RLC function realizations. Fundamentals of two-port synthesis.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Passive Filters",
+      "body": "Analysis and design of constant k and m-derived low pass, high pass, band pass and band stop filters.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Active Filters",
+      "body": "Theory of active filters, filter function definitions and specifications, the realization of active low pass and high pass filters. Maximally flat filters. Cascading of filters - Butterworth and Chebyshev filters. Frequency transformations. Case study and simulations.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Determine whether a given driving function can be synthesized or not.",
+    "Obtain one / two-port networks from a given network function.",
+    "Understand and design different passive filters.",
+    "Understand and design active filters and implement the course contents in real-life problems."
+  ],
+  "textbooks": [
+    "M. E. Van Valkenburg, Introduction to Modern Network Synthesis, Wiley Eastern, 1960 (reprint 1986).",
+    "M. E. Van Valkenburg, Network Analysis, Prentice Hall India, 2014.",
+    "Abhijit Chakrabarti, Circuit Theory: Analysis and Synthesis, Dhanpat Rai & Company, 2007."
+  ],
+  "referenceBooks": [
+    "F. F. Kuo, Network Analysis and Synthesis, Wiley International Edition, 2008.",
+    "Steve Winder, Analog and Digital Filter Design, 2nd Edition, Newnes, Elsevier Science, 2002."
+  ]
+}

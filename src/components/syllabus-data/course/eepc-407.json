@@ -1,0 +1,60 @@
+{
+  "Course Title": "Electric Vehicles",
+  "Course Code": "EEPC-407",
+  "route": "course/eepc-407",
+  "credits": 3,
+  "prerequisites": "EEPC-210, EEPC-208, EEPC-304, EEPC-211, EEPC-401",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course helps students explore and understand the components of electric vehicles and the complexity requirements of EV technology, existing EV architecture models, the fundamentals of batteries, battery management systems, charging/discharging and the electric motor drives suitable for EVs.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to EVs",
+      "body": "Introduction to EV, motivation, history, overview, basic definitions, interesting vehicle concepts, problems and challenges of EVs, future directions. Architecture of an EV (conventional and in-wheel mounted motors) and its operation from pedal to wheels. EV types, their merits and demerits.",
+      "hours": 8
+    },
+    {
+      "id": "II",
+      "title": "Vehicle Dynamics and Battery Basics",
+      "body": "Drive cycles and their impact on vehicle operation, basic concepts and terminology, longitudinal and lateral dynamics. Introduction to battery energy storage and battery technologies, Lithium-ion battery and its charging/discharging guidelines.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Battery Management System and Charging System",
+      "body": "Introduction to battery management system (BMS), modeling techniques of Li-ion battery cells, estimation of state of charge (SoC) - model based and data driven, battery pack system and battery cell balancing. Introduction to battery chargers - on-board and off-board chargers, standards, AC-DC power conversion and power factor correction, isolated DC-DC power conversion and battery chargers.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Power-train Modelling and Control",
+      "body": "Powertrain architectures and major components, power electronics, 3-phase DC-AC inverter and space vector PWM, modelling of DC motor and closed loop control, dynamic modelling of IM, design of FOC and DTC control schemes for IM, introduction and basic operation of BLDC/PMSM motor, modelling and vector control of PMSM, modelling and control of SRM. Case study: MATLAB simulation of DTC control for speed control of IM.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Analyze the battery as an energy storage device and charging techniques for electric vehicles.",
+    "Understand battery management systems and state-of-charge estimation.",
+    "Evaluate the suitability of electric motors and their control for EVs.",
+    "Illustrate the characteristics, modelling and control of different motors for EV applications."
+  ],
+  "textbooks": [
+    "Iqbal Husain, Electric and Hybrid Vehicles - Design Fundamentals, CRC Press, 2010.",
+    "D. A. J. Rand, R. Woods and R. M. Dell, Batteries for Electric Vehicles, Society of Automotive Engineers, 2003.",
+    "C. C. Chan and K. T. Chau, Modern Electric Vehicle Technology, Oxford University Press, 2001."
+  ],
+  "referenceBooks": [
+    "K. Wang Hee Nam, AC Motor Control and Electric Vehicle Applications, CRC Press, Taylor and Francis, 2019."
+  ]
+}

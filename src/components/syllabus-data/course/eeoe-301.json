@@ -1,0 +1,61 @@
+{
+  "Course Title": "Electrical Circuits",
+  "Course Code": "EEOE-301",
+  "route": "course/eeoe-301",
+  "credits": 3,
+  "prerequisites": "MAIC-11, MAIC-12",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This open elective, offered by the Department of Electrical Engineering for students of other departments, develops skills in diagnosing and resolving electrical circuit and network problems and understanding the principles of circuit analysis as a foundation for higher-level courses.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "DC and AC Circuit Analysis",
+      "body": "Fundamental concepts of R, L, C elements, classification of DC and AC circuits, sources and signals, mesh and node voltage methods of analysis of DC and AC circuits, source transformation, analysis of circuits with dependent sources.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Network Theorems and Topology",
+      "body": "Network theorems and their applications - superposition, reciprocity, Thevenin, Norton, maximum power transfer, substitution, compensation and Tellegen's theorem; network topology, graph matrices, formulation and solution of circuit equations based on graph theory.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Transient Analysis",
+      "body": "Analysis of electric circuits using the Laplace transform for standard test signals, transformed network with initial conditions, transient analysis of RL and RC circuits under DC excitation and behaviour of circuit elements under switching.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Resonance and Two-Port Networks",
+      "body": "Series and parallel resonance circuits, analysis of three phase circuits, power measurement in three phase circuits, two-port networks, relationship between parameter sets and interconnection of two-port networks, open circuit impedance, short circuit admittance and transmission parameters.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand the basic concepts, laws and methods for analysis of DC and AC networks and reduce network complexity using source transformation.",
+    "Solve complex electric circuits using network theorems and network topology.",
+    "Obtain the transient response of circuits and understand transformed networks.",
+    "Analyse single and three phase electrical circuits, resonance and the performance of two-port networks."
+  ],
+  "textbooks": [
+    "W. H. Hayt Jr., J. E. Kemmerly and S. M. Durbin, Engineering Circuit Analysis, 9th Edition, McGraw Hill, 2020.",
+    "C. K. Alexander and M. N. O. Sadiku, Fundamentals of Electric Circuits, 2nd Edition, McGraw Hill, 2019.",
+    "A. Chakrabarti, Circuit Theory: Analysis and Synthesis, Dhanpat Rai and Sons, 2020."
+  ],
+  "referenceBooks": [
+    "M. E. Van Valkenburg, Network Analysis, Prentice-Hall of India, 2015.",
+    "Joseph A. Edminister and Mahmood Nahvi, Electric Circuits, Schaum's Series, McGraw-Hill, 2019."
+  ]
+}

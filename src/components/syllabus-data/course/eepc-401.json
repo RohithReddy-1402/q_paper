@@ -1,0 +1,62 @@
+{
+  "Course Title": "Electric Drives",
+  "Course Code": "EEPC-401",
+  "route": "course/eepc-401",
+  "credits": 3,
+  "prerequisites": "EEPC-210, EEPC-304, EEPC-201, EEPC-211",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course provides state-of-the-art speed control techniques used in modern drives for high-performance requirements.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Converter Fed DC Drives",
+      "body": "Basics of electric drives, types of drives, torque-speed characteristics, multi-quadrant operation, methods of DC motor control. DC-DC converter fed DC motor drives and their control techniques, non-regenerative controlled rectifiers, fully controlled converters, single-phase half controlled and fully controlled AC-DC converter fed DC motor drives, three-phase fully controlled AC-DC converter fed DC motor drives, field control, switching systems for DC motors, chopper regulators, analysis, performance and stability of variable speed DC drives.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "High-Performance Control of Induction Machines for EV Drives",
+      "body": "Voltage source inverter fed induction motor drive in open loop, frequency and voltage control in PWM VSI, current source inverter fed induction motor drives. Introduction to field-oriented control (vector control), direct torque control and parameter sensitivity.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "High-Performance Control of Synchronous Machines",
+      "body": "Introduction, three-phase permanent magnet synchronous machine modelling, torque control of a PMSM and parameter sensitivity.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Application of Intelligent Controllers for AC and DC Drives",
+      "body": "Introduction to ANN, fuzzy logic and ANFIS. Implementation of ANN, fuzzy and ANFIS on DC and AC drives.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Describe various industrial DC motors and drive systems.",
+    "Apply knowledge of power electronics to AC drive systems.",
+    "Learn advanced control methods of EV based motor drive systems.",
+    "Understand intelligent control methods of EV based AC motor drives."
+  ],
+  "textbooks": [
+    "G. K. Dubey, Fundamentals of Electric Drives, 2nd Edition, Narosa Publishing House, 2007.",
+    "S. K. Pillai, A First Course in Electric Drives, 2nd Edition, New Age International, 2008.",
+    "P. C. Sen, Thyristor DC Drives, John Wiley and Sons, 1991."
+  ],
+  "referenceBooks": [
+    "G. K. Dubey, Power Semiconductor Controlled Drives, Prentice Hall International Edition, 1989.",
+    "J. M. D. Murphy and F. C. Turnbull, Power Electronics Control of AC Motors, Pergamon Press, 1990.",
+    "B. K. Bose, Power Electronics and Variable Frequency Drives, IEEE Press."
+  ]
+}

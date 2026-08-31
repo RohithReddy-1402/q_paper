@@ -1958,5 +1958,1115 @@
     ],
     "semester": 8,
     "id": "nitkkr_195"
+  },
+  {
+    "Course Title": "Machine Learning and Data Analytics",
+    "Course Code": "CSIC-221",
+    "route": "course/csic-221",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 3,
+    "id": "nitkkr_196"
+  },
+  {
+    "Course Title": "AC Machines",
+    "Course Code": "EEPC-201",
+    "route": "course/eepc-201",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 3,
+    "id": "nitkkr_197"
+  },
+  {
+    "Course Title": "Analog and Digital Electronics",
+    "Course Code": "EEPC-202",
+    "route": "course/eepc-202",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 3,
+    "id": "nitkkr_198"
+  },
+  {
+    "Course Title": "Generation, Transmission and Distribution",
+    "Course Code": "EEPC-203",
+    "route": "course/eepc-203",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 3,
+    "id": "nitkkr_199"
+  },
+  {
+    "Course Title": "Signals and Systems",
+    "Course Code": "EEPC-204",
+    "route": "course/eepc-204",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 3,
+    "id": "nitkkr_200"
+  },
+  {
+    "Course Title": "Network Synthesis and Filters",
+    "Course Code": "EEPC-205",
+    "route": "course/eepc-205",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 3,
+    "id": "nitkkr_201"
+  },
+  {
+    "Course Title": "Linear System Theory",
+    "Course Code": "EEPC-206",
+    "route": "course/eepc-206",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 3,
+    "id": "nitkkr_202"
+  },
+  {
+    "Course Title": "Computational Techniques Lab",
+    "Course Code": "EEPC-207",
+    "route": "course/eepc-207",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 3,
+    "id": "nitkkr_203"
+  },
+  {
+    "Course Title": "Numerical and Statistical Methods (For EE)",
+    "Course Code": "MAIC-203 (EE)",
+    "route": "course/maic-203-ee",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 4,
+    "id": "nitkkr_204"
+  },
+  {
+    "Course Title": "Control Systems",
+    "Course Code": "EEPC-208",
+    "route": "course/eepc-208",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 4,
+    "id": "nitkkr_205"
+  },
+  {
+    "Course Title": "Power System Analysis",
+    "Course Code": "EEPC-209",
+    "route": "course/eepc-209",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 4,
+    "id": "nitkkr_206"
+  },
+  {
+    "Course Title": "Power Electronics-I",
+    "Course Code": "EEPC-210",
+    "route": "course/eepc-210",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 4,
+    "id": "nitkkr_207"
+  },
+  {
+    "Course Title": "DC and Synchronous Machines",
+    "Course Code": "EEPC-211",
+    "route": "course/eepc-211",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 4,
+    "id": "nitkkr_208"
+  },
+  {
+    "Course Title": "Measurement and Instrumentation",
+    "Course Code": "EEPC-212",
+    "route": "course/eepc-212",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 4,
+    "id": "nitkkr_209"
+  },
+  {
+    "Course Title": "Analog and Digital Electronics Lab",
+    "Course Code": "EEPC-213",
+    "route": "course/eepc-213",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 4,
+    "id": "nitkkr_210"
+  },
+  {
+    "Course Title": "Electrical Machines Lab-I",
+    "Course Code": "EEPC-214",
+    "route": "course/eepc-214",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 4,
+    "id": "nitkkr_211"
+  },
+  {
+    "Course Title": "Measurement and Instrumentation Lab",
+    "Course Code": "EEPC-215",
+    "route": "course/eepc-215",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 4,
+    "id": "nitkkr_212"
+  },
+  {
+    "Course Title": "Power System Protection",
+    "Course Code": "EEPC-301",
+    "route": "course/eepc-301",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_213"
+  },
+  {
+    "Course Title": "Microprocessors and Microcontrollers",
+    "Course Code": "EEPC-302",
+    "route": "course/eepc-302",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_214"
+  },
+  {
+    "Course Title": "Digital and Nonlinear Control Systems",
+    "Course Code": "EEPC-303",
+    "route": "course/eepc-303",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_215"
+  },
+  {
+    "Course Title": "Power Electronics-II",
+    "Course Code": "EEPC-304",
+    "route": "course/eepc-304",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_216"
+  },
+  {
+    "Course Title": "Power Systems Operation and Control",
+    "Course Code": "EEPC-311",
+    "route": "course/eepc-311",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_217"
+  },
+  {
+    "Course Title": "Power Quality",
+    "Course Code": "EEPC-312",
+    "route": "course/eepc-312",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_218"
+  },
+  {
+    "Course Title": "Industrial Control and Automation",
+    "Course Code": "EEPC-313",
+    "route": "course/eepc-313",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_219"
+  },
+  {
+    "Course Title": "Electric Drives",
+    "Course Code": "EEPC-401",
+    "route": "course/eepc-401",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_220"
+  },
+  {
+    "Course Title": "Electric Vehicles",
+    "Course Code": "EEPC-407",
+    "route": "course/eepc-407",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_221"
+  },
+  {
+    "Course Title": "Electrical Machines Lab-II",
+    "Course Code": "EEPC-305",
+    "route": "course/eepc-305",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_222"
+  },
+  {
+    "Course Title": "Control Systems Lab-I",
+    "Course Code": "EEPC-306",
+    "route": "course/eepc-306",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_223"
+  },
+  {
+    "Course Title": "Power Engineering Lab-I",
+    "Course Code": "EEPC-307",
+    "route": "course/eepc-307",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_224"
+  },
+  {
+    "Course Title": "Power Electronics Lab-I",
+    "Course Code": "EEPC-308",
+    "route": "course/eepc-308",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_225"
+  },
+  {
+    "Course Title": "Microprocessors and Microcontrollers Lab",
+    "Course Code": "EEPC-314",
+    "route": "course/eepc-314",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_226"
+  },
+  {
+    "Course Title": "Power Engineering Lab-II",
+    "Course Code": "EEPC-315",
+    "route": "course/eepc-315",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_227"
+  },
+  {
+    "Course Title": "Power Electronics Lab-II",
+    "Course Code": "EEPC-316",
+    "route": "course/eepc-316",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_228"
+  },
+  {
+    "Course Title": "Control Systems Lab-II",
+    "Course Code": "EEPC-317",
+    "route": "course/eepc-317",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_229"
+  },
+  {
+    "Course Title": "Drives Lab",
+    "Course Code": "EEPC-402",
+    "route": "course/eepc-402",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_230"
+  },
+  {
+    "Course Title": "Summer Internship",
+    "Course Code": "EEPC-309",
+    "route": "course/eepc-309",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_231"
+  },
+  {
+    "Course Title": "Summer Internship",
+    "Course Code": "EEPC-403",
+    "route": "course/eepc-403",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_232"
+  },
+  {
+    "Course Title": "Design Project",
+    "Course Code": "EEPC-404",
+    "route": "course/eepc-404",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_233"
+  },
+  {
+    "Course Title": "Major Project",
+    "Course Code": "EEPC-409",
+    "route": "course/eepc-409",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_234"
+  },
+  {
+    "Course Title": "Seminar",
+    "Course Code": "EEPC-408",
+    "route": "course/eepc-408",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_235"
+  },
+  {
+    "Course Title": "Comprehensive Viva",
+    "Course Code": "EEPC-410",
+    "route": "course/eepc-410",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_236"
+  },
+  {
+    "Course Title": "Renewable Power Generation",
+    "Course Code": "EEPE-310A",
+    "route": "course/eepe-310a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_237"
+  },
+  {
+    "Course Title": "Signal Processing",
+    "Course Code": "EEPE-310B",
+    "route": "course/eepe-310b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_238"
+  },
+  {
+    "Course Title": "Special Machines and Drives",
+    "Course Code": "EEPE-310C",
+    "route": "course/eepe-310c",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_239"
+  },
+  {
+    "Course Title": "High Voltage Engineering",
+    "Course Code": "EEPE-310D",
+    "route": "course/eepe-310d",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_240"
+  },
+  {
+    "Course Title": "Optimization Theory",
+    "Course Code": "EEPE-310E",
+    "route": "course/eepe-310e",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_241"
+  },
+  {
+    "Course Title": "Electrical Safety and Standards",
+    "Course Code": "EEPE-310F",
+    "route": "course/eepe-310f",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_242"
+  },
+  {
+    "Course Title": "Distribution System Analysis",
+    "Course Code": "EEPE-318A",
+    "route": "course/eepe-318a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_243"
+  },
+  {
+    "Course Title": "Economic and Project Evaluation in Electricity Industry",
+    "Course Code": "EEPE-318B",
+    "route": "course/eepe-318b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_244"
+  },
+  {
+    "Course Title": "High Power Converters",
+    "Course Code": "EEPE-318C",
+    "route": "course/eepe-318c",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_245"
+  },
+  {
+    "Course Title": "Guidance and Control",
+    "Course Code": "EEPE-318D",
+    "route": "course/eepe-318d",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_246"
+  },
+  {
+    "Course Title": "Data Communication Networks",
+    "Course Code": "EEPE-318E",
+    "route": "course/eepe-318e",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_247"
+  },
+  {
+    "Course Title": "Soft Computing Techniques",
+    "Course Code": "EEPE-318F",
+    "route": "course/eepe-318f",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_248"
+  },
+  {
+    "Course Title": "System Identification",
+    "Course Code": "EEPE-405A",
+    "route": "course/eepe-405a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_249"
+  },
+  {
+    "Course Title": "Robot Dynamics and Control",
+    "Course Code": "EEPE-405B",
+    "route": "course/eepe-405b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_250"
+  },
+  {
+    "Course Title": "Custom Power Devices",
+    "Course Code": "EEPE-405C",
+    "route": "course/eepe-405c",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_251"
+  },
+  {
+    "Course Title": "Energy Storage Systems",
+    "Course Code": "EEPE-405D",
+    "route": "course/eepe-405d",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_252"
+  },
+  {
+    "Course Title": "Earthing Practices",
+    "Course Code": "EEPE-405E",
+    "route": "course/eepe-405e",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_253"
+  },
+  {
+    "Course Title": "Energy Auditing, Conservation and Management",
+    "Course Code": "EEPE-405F",
+    "route": "course/eepe-405f",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_254"
+  },
+  {
+    "Course Title": "EHV AC and DC Transmission",
+    "Course Code": "EEPE-406A",
+    "route": "course/eepe-406a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_255"
+  },
+  {
+    "Course Title": "Smart Grid Technology",
+    "Course Code": "EEPE-406B",
+    "route": "course/eepe-406b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_256"
+  },
+  {
+    "Course Title": "Power Systems Security and Optimization",
+    "Course Code": "EEPE-406C",
+    "route": "course/eepe-406c",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_257"
+  },
+  {
+    "Course Title": "Mechatronics",
+    "Course Code": "EEPE-406D",
+    "route": "course/eepe-406d",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_258"
+  },
+  {
+    "Course Title": "Reliability Engineering",
+    "Course Code": "EEPE-406E",
+    "route": "course/eepe-406e",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_259"
+  },
+  {
+    "Course Title": "AC-DC Micro-grids",
+    "Course Code": "EEPE-406F",
+    "route": "course/eepe-406f",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_260"
+  },
+  {
+    "Course Title": "Power Converters for Renewable Energy Systems",
+    "Course Code": "EEPE-411A",
+    "route": "course/eepe-411a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_261"
+  },
+  {
+    "Course Title": "Reliable Fault Tolerant Systems",
+    "Course Code": "EEPE-411B",
+    "route": "course/eepe-411b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_262"
+  },
+  {
+    "Course Title": "Intelligent Modelling and Control",
+    "Course Code": "EEPE-411C",
+    "route": "course/eepe-411c",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_263"
+  },
+  {
+    "Course Title": "Metaheuristic Optimization Techniques",
+    "Course Code": "EEPE-411D",
+    "route": "course/eepe-411d",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_264"
+  },
+  {
+    "Course Title": "Power System Restructuring",
+    "Course Code": "EEPE-411E",
+    "route": "course/eepe-411e",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_265"
+  },
+  {
+    "Course Title": "Virtual Instrumentation",
+    "Course Code": "EEPE-411F",
+    "route": "course/eepe-411f",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_266"
+  },
+  {
+    "Course Title": "Drone Technology",
+    "Course Code": "EEPE-412A",
+    "route": "course/eepe-412a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_267"
+  },
+  {
+    "Course Title": "Analysis of Wind and Solar Systems",
+    "Course Code": "EEPE-412B",
+    "route": "course/eepe-412b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_268"
+  },
+  {
+    "Course Title": "Advanced Control Techniques",
+    "Course Code": "EEPE-412C",
+    "route": "course/eepe-412c",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_269"
+  },
+  {
+    "Course Title": "Power System Dynamics and Control",
+    "Course Code": "EEPE-412D",
+    "route": "course/eepe-412d",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_270"
+  },
+  {
+    "Course Title": "Flexible AC Transmission Systems",
+    "Course Code": "EEPE-412E",
+    "route": "course/eepe-412e",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_271"
+  },
+  {
+    "Course Title": "Multi-Agent Systems: Consensus and Control",
+    "Course Code": "EEPE-412F",
+    "route": "course/eepe-412f",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_272"
+  },
+  {
+    "Course Title": "Industrial Drives",
+    "Course Code": "EEPE-412G",
+    "route": "course/eepe-412g",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_273"
+  },
+  {
+    "Course Title": "Electrical Circuits",
+    "Course Code": "EEOE-301",
+    "route": "course/eeoe-301",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_274"
+  },
+  {
+    "Course Title": "Electrical Machines",
+    "Course Code": "EEOE-302",
+    "route": "course/eeoe-302",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_275"
+  },
+  {
+    "Course Title": "Control Systems Engineering",
+    "Course Code": "EEOE-303",
+    "route": "course/eeoe-303",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_276"
+  },
+  {
+    "Course Title": "Analog and Digital Electronics",
+    "Course Code": "EEOE-304",
+    "route": "course/eeoe-304",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_277"
+  },
+  {
+    "Course Title": "Power Electronic Systems",
+    "Course Code": "EEOE-305",
+    "route": "course/eeoe-305",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_278"
+  },
+  {
+    "Course Title": "Elements of Power Systems Engineering",
+    "Course Code": "EEOE-306",
+    "route": "course/eeoe-306",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_279"
+  },
+  {
+    "Course Title": "Renewable Power Generation Systems",
+    "Course Code": "EEOE-307",
+    "route": "course/eeoe-307",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_280"
+  },
+  {
+    "Course Title": "Fuzzy Systems and Applications",
+    "Course Code": "EEOE-308",
+    "route": "course/eeoe-308",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_281"
+  },
+  {
+    "Course Title": "Introduction to Microcontrollers",
+    "Course Code": "EEOE-401",
+    "route": "course/eeoe-401",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_282"
+  },
+  {
+    "Course Title": "Electric Vehicle Technology",
+    "Course Code": "EEOE-402",
+    "route": "course/eeoe-402",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_283"
+  },
+  {
+    "Course Title": "Virtual Instrumentation",
+    "Course Code": "EEOE-403",
+    "route": "course/eeoe-403",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_284"
+  },
+  {
+    "Course Title": "Digital Control Systems",
+    "Course Code": "EEOE-404",
+    "route": "course/eeoe-404",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_285"
+  },
+  {
+    "Course Title": "AC-DC Microgrids",
+    "Course Code": "EEOE-405",
+    "route": "course/eeoe-405",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_286"
+  },
+  {
+    "Course Title": "Energy Conservation Utilization and Safety Standards",
+    "Course Code": "EEOE-406",
+    "route": "course/eeoe-406",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_287"
+  },
+  {
+    "Course Title": "Robotics",
+    "Course Code": "EEOE-407",
+    "route": "course/eeoe-407",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_288"
+  },
+  {
+    "Course Title": "Reliability Engineering",
+    "Course Code": "EEOE-408",
+    "route": "course/eeoe-408",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_289"
+  },
+  {
+    "Course Title": "Fundamentals of Electrical Engineering (Circuits, Measurements and Control Systems)",
+    "Course Code": "EEMI-301",
+    "route": "course/eemi-301",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 5,
+    "id": "nitkkr_290"
+  },
+  {
+    "Course Title": "Basics of Energy Systems (Power Systems, Machines and Power Electronics)",
+    "Course Code": "EEMI-302",
+    "route": "course/eemi-302",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 6,
+    "id": "nitkkr_291"
+  },
+  {
+    "Course Title": "Energy Conservation and Management",
+    "Course Code": "EEMI-401A",
+    "route": "course/eemi-401a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_292"
+  },
+  {
+    "Course Title": "Economics of Renewable Energy Systems",
+    "Course Code": "EEMI-401B",
+    "route": "course/eemi-401b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_293"
+  },
+  {
+    "Course Title": "Control Systems Analysis and Design",
+    "Course Code": "EEMI-402A",
+    "route": "course/eemi-402a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_294"
+  },
+  {
+    "Course Title": "Industrial Control and Automation",
+    "Course Code": "EEMI-402B",
+    "route": "course/eemi-402b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_295"
+  },
+  {
+    "Course Title": "Power Quality",
+    "Course Code": "EEMI-403A",
+    "route": "course/eemi-403a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_296"
+  },
+  {
+    "Course Title": "Flexible AC Transmission Systems",
+    "Course Code": "EEMI-403B",
+    "route": "course/eemi-403b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_297"
+  },
+  {
+    "Course Title": "Artificial Intelligence",
+    "Course Code": "EEMI-404A",
+    "route": "course/eemi-404a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_298"
+  },
+  {
+    "Course Title": "Metaheuristic Optimization Techniques",
+    "Course Code": "EEMI-404B",
+    "route": "course/eemi-404b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 7,
+    "id": "nitkkr_299"
+  },
+  {
+    "Course Title": "Wind Energy Systems",
+    "Course Code": "EEMI-405A",
+    "route": "course/eemi-405a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_300"
+  },
+  {
+    "Course Title": "Solar Energy Systems",
+    "Course Code": "EEMI-405B",
+    "route": "course/eemi-405b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_301"
+  },
+  {
+    "Course Title": "Robotics and Control",
+    "Course Code": "EEMI-406A",
+    "route": "course/eemi-406a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_302"
+  },
+  {
+    "Course Title": "Drone Technology",
+    "Course Code": "EEMI-406B",
+    "route": "course/eemi-406b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_303"
+  },
+  {
+    "Course Title": "Electric Vehicles",
+    "Course Code": "EEMI-407A",
+    "route": "course/eemi-407a",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_304"
+  },
+  {
+    "Course Title": "Power Converters for Renewable Energy",
+    "Course Code": "EEMI-407B",
+    "route": "course/eemi-407b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_305"
+  },
+  {
+    "Course Title": "Modelling and Simulation",
+    "Course Code": "EEMD-408B",
+    "route": "course/eemd-408b",
+    "Branches": [
+      "EE"
+    ],
+    "semester": 8,
+    "id": "nitkkr_306"
   }
 ]

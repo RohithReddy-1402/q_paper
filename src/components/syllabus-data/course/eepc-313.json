@@ -1,0 +1,62 @@
+{
+  "Course Title": "Industrial Control and Automation",
+  "Course Code": "EEPC-313",
+  "route": "course/eepc-313",
+  "credits": 3,
+  "prerequisites": "EEPC-101, EEPC-204, EEPC-205, EEPC-206, EEPC-208, EEPC-303",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course provides fundamental concepts of the control of process variables and how measured quantities are transformed and transmitted, process control including industrial practices and computer control, various types of analog and digital control systems, and PLC programming for industrial applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Modeling of Processes",
+      "body": "Introduction to process control systems: representative process control problems, control objectives and configurations of process control, role of the control engineer, process control operations. Mathematical modeling of processes: types of models, modeling procedure steps, empirical model identification.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Blending Process and Feedback Control Analysis",
+      "body": "Blending process: problems, dynamics, modeling, selection, temperature sensors, concentration-response of isothermal CSTR with no chemical reaction, liquid level system analysis of non-interacting and interacting tanks. Feedback control analysis: transient response with regulatory, set-point and tracking control for second and higher-order processes with PID controllers, effect of measurement lag and process dead time, control architectures, control valves.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Enhanced and Advanced Process Control Strategies",
+      "body": "Feed-forward control, cascade control, selectors and redundant control, concept of computer control, sequential, supervisory and DDC modes, computer control architecture. Advanced strategies: electronic controller design using op-amps and microcontrollers, dead time compensation, internal model control, inferential control.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Automation, PLC and SCADA",
+      "body": "Introduction to automation: peripherals required in automation systems, architecture of distributed control systems, local control unit architecture, process interfacing issues. PLC and SCADA: organization of programmable logic controllers, standards, programming for basic actuators and motors, ladder programming, sequential function charts, architecture of SCADA, supervision and control, HMI, RTU, supervisory stations, trends in SCADA, security issues. Industrial visits and case studies.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand the basic principles and importance of process control in industrial process plants.",
+    "Explain the construction, working and control strategies of different industrial processes and drives.",
+    "Build and experiment with PLC-based SCADA systems for various industrial applications.",
+    "Implement HMI, distributed control systems and industry standards."
+  ],
+  "textbooks": [
+    "Peter Harriot, Process Control, McGraw Hill, 1964.",
+    "D. E. Seborg, T. F. Edgar, D. A. Mellichamp and F. J. Doyle, Process Dynamics and Control, Wiley, 4th Edition, 2016.",
+    "S. K. Singh, Computer Aided Process Control, PHI, 2004."
+  ],
+  "referenceBooks": [
+    "S. Bhanot, Process Control: Principles and Applications, Oxford University Press, 4th Edition, 2010.",
+    "Richard L. Shell and Ernest L. Hall, Handbook of Industrial Automation, CRC Press, 2009.",
+    "John W. Webb and Ronald A. Reis, Programmable Logic Controllers, PHI, 5th Edition, 2012."
+  ]
+}

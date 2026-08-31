@@ -1,0 +1,61 @@
+{
+  "Course Title": "Guidance and Control",
+  "Course Code": "EEPE-318D",
+  "route": "course/eepe-318d",
+  "credits": 3,
+  "prerequisites": "EEPC-208, EEPC-303, EEPC-313",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective introduces the modelling, control, guidance and navigation of autopilots and missiles, inertial navigation, and space vehicle dynamics and control.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Guidance Fundamentals",
+      "body": "Modelling, control, guidance and navigation of autopilots, missiles and guidance systems, guidance information requirements, energy conservation methods, time conservation methods, collision warning and avoidance.",
+      "hours": 9
+    },
+    {
+      "id": "II",
+      "title": "Missile Guidance and Control",
+      "body": "Guided missiles - surface to surface, surface to air, air to surface and air to air, tactical and strategic missiles, subsystems of a missile (airframe, flight control and guidance, warhead, data link, fuse, propulsion, telemetry), canard, wing and tail control, steering policy (skid to turn, preferred orientation control, bank to turn and hybrid), aerodynamic and ballistic missiles, autopilots, guidance sequence, schemes of guidance during launch, midcourse and terminal phases, collision avoidance.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Inertial Navigation",
+      "body": "Satellite orbit maintenance, inertial navigation, block diagram representation of essential components, inertial sensors, gyros - principle of operation, TDF and SDF, gyro precession, nutation, gimbal lock and flip, gyro transfer function, rate gyro, integrating gyro, floated rate integrating gyro, dynamically tuned gyro, ring laser gyro, fibre optic gyro, accelerometers and their transfer function, navigation equations, Schuler principle and mechanization.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Space Vehicle Dynamics and Control",
+      "body": "Powered and unpowered flight, orbital mechanics, orbital parameters - circular, elliptical, parabolic, hyperbolic and rectilinear orbits, energy of the orbit, orbital transfer and rendezvous, case studies and applications in DRDO, CSIR and ISRO.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Identify the features of satellite-based navigation systems, GPS and GNSS.",
+    "Summarize the guidance system components: gyros and accelerometers.",
+    "Construct dynamic models of space vehicles and missiles.",
+    "Design guidance and control schemes for space vehicles and missiles."
+  ],
+  "textbooks": [
+    "M. H. Kaplan, Modern Spacecraft Dynamics and Control, John Wiley and Sons, 1976.",
+    "C. F. Lin, Modern Navigation, Guidance and Control Processing, Prentice-Hall, 1991.",
+    "P. Zarchan, Tactical and Strategic Missile Guidance, AIAA, 2007."
+  ],
+  "referenceBooks": [
+    "E. V. B. Stearns, Navigation and Guidance in Space, Prentice Hall, 1983.",
+    "M. Fernandez and G. R. Macomber, Inertial Guidance Engineering, Prentice Hall, 1962."
+  ]
+}

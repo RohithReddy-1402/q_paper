@@ -1,0 +1,60 @@
+{
+  "Course Title": "Analysis of Wind and Solar Systems",
+  "Course Code": "EEPE-412B",
+  "route": "course/eepe-412b",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective familiarizes students with wind and solar energy generation, the concepts of aerodynamics mapped to wind turbine design, and the bottlenecks in the design of PV panels and measures to mitigate them.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Wind Power Energy and Turbines",
+      "body": "Historical developments and current status of wind power, wind characteristics, wind energy conversion system, wind turbines - technological developments, aerodynamics of wind turbines.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Wind Power Generators and Control",
+      "body": "Wind power generators, isolated and grid connected operation, basic grid integration issues, power quality issues of wind energy, wind energy economics, attributes of offshore and onshore wind farms.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Solar Energy Conversion Systems",
+      "body": "Fundamentals of solar PV systems, solar cell structure and characteristics, single-crystalline, multi-crystalline and thin film silicon solar cells, third generation solar cells, electrical characteristics and equivalent circuit of the solar cell, design of solar panels and parks, cutting-edge technologies in solar PV - building-integrated photovoltaic (BIPV), net-zero buildings, floating photovoltaic (FPV), photovoltaic noise barriers.",
+      "hours": 14
+    },
+    {
+      "id": "IV",
+      "title": "Balance of System",
+      "body": "Inverter - types, characteristics for stand-alone and grid-connected inverters, selection of inverter, micro inverters. Battery - concepts and terms, types, characteristics, losses and maintenance. Meters and chargers - gross metering, net energy metering, solar charge controller and its types. Solar power conditioning systems, maximum power point tracking techniques, case study on solar and wind power plants, design of a hybrid renewable energy system using software tools, applying AI/ML techniques for solar irradiance and wind speed forecasting.",
+      "hours": 8
+    }
+  ],
+  "outcomes": [
+    "Understand and analyze wind energy conversion systems and wind turbines.",
+    "Analyze the operation of electrical generators for wind energy conversion.",
+    "Understand solar energy conversion systems and their applications.",
+    "Apply various MPPT algorithms and case studies."
+  ],
+  "textbooks": [
+    "T. Ackermann, Wind Power in Power Systems, John Wiley and Sons Ltd., 2012.",
+    "Chetan Singh Solanki, Solar Photovoltaics: Fundamentals, Technologies and Applications, 2nd Edition, PHI, 2009."
+  ],
+  "referenceBooks": [
+    "Phillip Hurley, Solar II: How to Design, Build and Set Up Photovoltaic Components and Solar Electric Systems, 2012.",
+    "Godfrey Boyle, Renewable Energy: Power for a Sustainable Future, Oxford University Press, 3rd Edition, 2012."
+  ]
+}

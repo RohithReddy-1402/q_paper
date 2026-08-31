@@ -1,0 +1,61 @@
+{
+  "Course Title": "Robotics and Control",
+  "Course Code": "EEMI-406A",
+  "route": "course/eemi-406a",
+  "credits": 3,
+  "prerequisites": "MAIC-11, EEPC-241",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course gives fundamental concepts of the kinematics, dynamics and control of an industrial robotic manipulator.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Frame Transformations",
+      "body": "Definition, motivation, historical development, basic structure, classification, workspace, grippers, rigid motion and frame transformations, DH parameters.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Kinematics",
+      "body": "Robot arm forward and inverse kinematics, redundancy resolution, velocity kinematics and the Jacobian, singular value decomposition, singularity and manipulability.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Dynamics and Trajectory Generation",
+      "body": "Lagrange formulation of dynamics, trajectory generation - Cartesian scheme and joint space scheme, teaching methods - manual teaching and lead through teaching, sensors and actuators used in robotics.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Control Schemes",
+      "body": "Position control, force control, hybrid position and force control, industry multi-DOF robotic manipulator case studies, design exercises in MATLAB/LabVIEW.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand the basic concept of an industrial robotic manipulator.",
+    "Derive the direct and inverse kinematic equations of a given robot.",
+    "Derive the dynamic equations of an industrial robot.",
+    "Develop the control algorithm necessary to run a given robot."
+  ],
+  "textbooks": [
+    "J. J. Craig, Introduction to Robotics: Mechanics and Control, Addison Wesley, 2001.",
+    "M. W. Spong and M. Vidyasagar, Robot Dynamics and Control, John Wiley and Sons, 2005.",
+    "L. Sciavicco and B. Siciliano, Modeling and Control of Robot Manipulators, McGraw Hill International Edition, 1998."
+  ],
+  "referenceBooks": [
+    "A. J. Koivo, Fundamentals for Control of Robotic Manipulators, John Wiley Inc., New York, 2001.",
+    "T. Yoshikawa, Foundations of Robotics, PHI India."
+  ]
+}

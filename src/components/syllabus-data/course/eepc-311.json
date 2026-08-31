@@ -1,0 +1,62 @@
+{
+  "Course Title": "Power Systems Operation and Control",
+  "Course Code": "EEPC-311",
+  "route": "course/eepc-311",
+  "credits": 3,
+  "prerequisites": "EEPC-203, EEPC-209",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course provides an in-depth understanding of economic operation and control of power systems, focusing on economic dispatch, optimal power flow, unit commitment and automatic generation control, with emphasis on practical applications and computer tools.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Economic Operation in Power Systems",
+      "body": "Introduction, historical development of economic operation, incentives for economic operation. Cost characteristics of power generation, generation planning, scheduling and dispatch. Economic Dispatch (ED) problem: Kuhn-Tucker conditions, equal incremental cost criterion, generation constraints and transmission losses. Computational techniques for ED: lambda search technique, gradient search, piece-wise linear approach, evolutionary programming, HNN.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Optimal Power Flow and Unit Commitment",
+      "body": "Power flow equations, Optimal Power Flow (OPF) modelling, DC optimal power flow, security constrained OPF, modified OPF models. Unit Commitment (UC) problem, illustrative example, mathematical model of UC: startup cost, minimum up-time and down-time constraints, solution techniques, priority listing method. Hydro-thermal coordination, scheduling energy problem, continuity equation, short term scheduling, lambda-gamma iterative technique.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Power System Control",
+      "body": "Generation control loops, functions of automatic generation control. Turbine-generator model, load model, prime-mover model, speed governor model, load sharing between parallel units. Complete ALFC model, steady state analysis, dynamic response, integral control action. Multi-generator case, control areas, tie-line model, two-area system, tie-line bias control. Area control error and AGC implementation. Excitation systems and voltage control, reactive power compensation and power factor improvement.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Low Carbon Power System Operation",
+      "body": "Low carbon power system operation, emission dispatch model, emission reduction policies, emission trading. Deregulation of the power sector, creation of new entities, challenges for power system operation in the new environment. Indian power sector, regulations, economic operation, availability-based tariff mechanism, renewable energy certificates.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the concepts and principles of economic operation of power systems.",
+    "Analyze and solve complex problems of optimal power flow, unit commitment and hydrothermal coordination.",
+    "Apply frequency and voltage control in multi-area interconnected power systems.",
+    "Demonstrate knowledge of low carbon power systems and operational issues in the Indian power sector."
+  ],
+  "textbooks": [
+    "K. Uma Rao, Power System Operation and Control, Wiley India, 1st Edition, 2013.",
+    "Allen J. Wood, Bruce F. Wollenberg and Gerald B. Sheble, Power Generation, Operation and Control, IEEE Wiley, 3rd Edition, 2014.",
+    "O. I. Elgerd, Electric Energy Systems Theory: An Introduction, Tata McGraw Hill."
+  ],
+  "referenceBooks": [
+    "R. H. Miller and J. H. Malinowski, Power System Operation, Tata McGraw Hill.",
+    "Jizhong Zhu, Optimization of Power System Operation, IEEE Wiley, 2nd Edition, 2015.",
+    "James Momoh, Electric Power System Applications of Optimization, CRC Press."
+  ]
+}

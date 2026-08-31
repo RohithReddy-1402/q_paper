@@ -1,0 +1,62 @@
+{
+  "Course Title": "Optimization Theory",
+  "Course Code": "EEPE-310E",
+  "route": "course/eepe-310e",
+  "credits": 3,
+  "prerequisites": "MAIC-11, MAIC-12, CSIC-13, EEPC-206",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective develops an understanding of the concept of optimization and its theory. Students analyse the advantages and disadvantages of large-scale optimization techniques applied to engineering problems and implement selected optimization algorithms for engineering systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Convex Analysis",
+      "body": "Introduction to optimization theory, its importance in solving system engineering problems, convex sets and functions, supporting and separating hyperplanes, dual cones and generalized inequalities, multi-objective optimization.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Linear and Dynamic Programming",
+      "body": "Linear programming problem: formulation and solution by different methods, duality in linear programming, sensitivity analysis, integer linear programming, linear programming approach to game theory, dynamic programming problems.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Nonlinear Programming",
+      "body": "Introduction to nonlinear programming: unconstrained optimization and formulation of quadratic optimization problems; constrained optimization, quadratic programming, separable programming.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Heuristic Optimization and Applications",
+      "body": "Brief introduction to heuristic optimization, convex and non-convex optimization, application of optimization in different fields, case study and simulation.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand the different optimization algorithms and multidisciplinary design optimization, and formulate optimization problems.",
+    "Apply knowledge of optimization to formulate and solve engineering problems.",
+    "Understand the different methods of optimization and suggest a technique for a specific problem.",
+    "Understand optimization techniques using algorithms."
+  ],
+  "textbooks": [
+    "S. S. Rao, Optimization Theory and Applications, Wiley Eastern Ltd.",
+    "S. Boyd and L. Vandenberghe, Convex Optimization, Cambridge University Press.",
+    "Hamdy A. Taha, Operations Research: An Introduction, Pearson Prentice Hall."
+  ],
+  "referenceBooks": [
+    "D. Bertsekas, Nonlinear Programming, Athena Scientific.",
+    "V. Chvatal, Linear Programming, W. H. Freeman, New York.",
+    "R. Fletcher, Practical Methods of Optimization, Wiley, New York."
+  ]
+}

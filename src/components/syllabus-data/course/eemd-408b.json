@@ -1,0 +1,59 @@
+{
+  "Course Title": "Modelling and Simulation",
+  "Course Code": "EEMD-408B",
+  "route": "course/eemd-408b",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course covers probability and random number generation, deterministic and stochastic modeling of engineering systems, discrete event systems, Markov chains, heuristic, neural, fuzzy and neuro-fuzzy modeling, and dynamical system simulation with statistical validation.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Random Number Generation and Modeling",
+      "body": "Review of probability and random number generation, generating continuous and discrete time random variables, deterministic and stochastic modeling of engineering systems, need for stochastic models, ideas of model validation.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Discrete Event Systems",
+      "body": "Modeling of systems as discrete event systems (DES), continuous time and discrete time Markov chains, properties of DES (observability and controllability), supervisory control of DES, queuing models.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Heuristic and Neuro-Fuzzy Modeling",
+      "body": "Heuristic modeling, neural, fuzzy and neuro-fuzzy modeling and simulation of dynamical systems, modeling of time delays, introduction to networked dynamical systems.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Dynamical System Simulation",
+      "body": "Dynamical system simulation, Monte Carlo simulations, generation of simulation data and its statistical analysis, statistical validation techniques, goodness of fit test and others, agent based simulation, numerical issues in simulation of dynamical systems.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Look at engineering systems from the point of view of a stochastic framework.",
+    "Model various systems from multiple domains such as electrical engineering, bioinformatics and financial systems.",
+    "Undertake further industrial and research assignments."
+  ],
+  "textbooks": [
+    "Sheldon Ross, Simulation, Academic Press, Elsevier Imprint, 2006.",
+    "Sankar Sen Gupta, System Simulation and Modeling, Pearson Education, 2013.",
+    "J. Banks, J. S. Carson, B. Nelson and D. M. Nicol, Discrete Event System Simulation, Pearson Education, 5th Edition, 2014."
+  ],
+  "referenceBooks": [
+    "J. R. Jang and C. Sun, Neuro-Fuzzy Modeling and Control, Proceedings of IEEE, Vol. 83, No. 3, March 1995."
+  ]
+}

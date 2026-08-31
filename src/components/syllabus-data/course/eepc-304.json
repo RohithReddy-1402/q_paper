@@ -1,0 +1,61 @@
+{
+  "Course Title": "Power Electronics-II",
+  "Course Code": "EEPC-304",
+  "route": "course/eepc-304",
+  "credits": 3,
+  "prerequisites": "EEPC-210",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course covers DC/DC converters, DC/AC converters and converter-fed electric motor drives. An in-depth knowledge of these topics is necessary to understand the manufacture, production and operation of appliances and industrial products based on power electronic converters.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "DC to DC Non-Isolated Converters",
+      "body": "Introduction to choppers; voltage and current commutated choppers; step up and step down choppers; DC-DC switch mode converters; buck, boost, buck-boost converters and Cuk converter in continuous and discontinuous conduction mode.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "DC to DC Isolated Converters",
+      "body": "Introduction to isolated DC to DC converters; fly-back converter, forward converters, bridge converters, push-pull converter, resonant converters: series and parallel.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "DC to AC Converters",
+      "body": "Classification; series and parallel inverters; single-phase voltage source inverter and analysis with various types of loads; three-phase voltage source inverter with 180 degree and 120 degree conduction modes; PWM inverters; PWM techniques; reduction of harmonics; voltage regulation in single-phase inverters; single-phase current source inverter; application of voltage source inverter in households and industries.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Design and Development of Converters",
+      "body": "Design of regulated power supplies, UPS and SMPS using DC to DC and DC to AC converters with device selection, inductor and transformer design, EMI analysis, power factor and harmonic correction, heat sink, gate drivers, filters and protection features; recent technologies in the development of these power supplies; application of DC-to-DC converters in SMPS.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand the role of DC to DC and DC to AC converters in modern household and industrial products.",
+    "Apply the theory in the design and development of practical circuits and components for various medium and high capacity power supplies.",
+    "Identify the significance of DC to DC and DC to AC converters and their design for motor control.",
+    "Incorporate power converters with appropriate control in recent sustainable developments such as electric vehicles and renewable energy."
+  ],
+  "textbooks": [
+    "G. K. Dubey, Power Semiconductor Controlled Drives, Prentice Hall, 1988.",
+    "P. S. Bhimbra, Power Electronics, Khanna Publishers, 2018.",
+    "N. Mohan, T. M. Undeland and W. P. Robbins, Power Electronics: Converters, Applications and Design, 3rd Edition, Wiley India."
+  ],
+  "referenceBooks": [
+    "A. E. Fitzgerald, Charles Kingsley and Stephen Umans, Electric Machinery, McGraw Hill Education, 6th Edition, 2017.",
+    "B. K. Bose, Modern Power Electronics and AC Drives, Prentice Hall, 2001."
+  ]
+}

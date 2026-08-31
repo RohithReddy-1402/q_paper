@@ -1,0 +1,55 @@
+{
+  "Course Title": "Signals and Systems",
+  "Course Code": "EEPC-204",
+  "route": "course/eepc-204",
+  "credits": 3,
+  "prerequisites": "MAIC-11, MAIC-12, EEPC-101",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "3rd",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 42,
+  "description": "This is a fundamental course for electrical engineers to acquire the skills to handle the ever-increasing automation in different domains of electrical engineering. It includes an introduction to analog and digital signals and systems that form an integral part of engineering systems in many diverse areas. The course presents and integrates the basic concepts for both continuous-time and discrete-time signals and systems in both time and frequency domains, along with their applications in sustainable technologies with the help of several case studies from the Indian knowledge system.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Signals and Systems - Basics",
+      "body": "Basic definitions and terminology, classification of signals and systems, continuous-time and discrete-time signals, signal operations: shifting, scaling and reversal, system properties: linearity, time-invariance, causality, stability.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "LTI Systems and Fourier Analysis",
+      "body": "Continuous and discrete time LTI systems: response using convolution integral / sum, properties of LTI systems, modeling of continuous and discrete time LTI systems. Fourier series: representation of continuous and discrete time periodic signals, convergence, properties, application to LTI systems. Fourier transform: introduction, representation of continuous and discrete time aperiodic and periodic signals, convergence, properties, application to LTI systems.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Laplace and Z-Transforms",
+      "body": "Laplace transform and its inverse, region of convergence, relation with Fourier transform, properties, application to LTI systems, their interconnections and block diagram. Z-transform and its inverse, region of convergence, relation with Fourier transform, properties, application to LTI systems, their interconnections and block diagram.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Sampling and Applications",
+      "body": "Sampling of continuous time signals; sampling theorem, reconstruction, effect of under sampling. Applications of signals and systems in various sustainable technologies, case studies from the Indian knowledge system.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Characterize and analyze the properties of CT and DT signals and systems.",
+    "Represent CT and DT systems in the frequency domain using Fourier analysis tools like CTFS, CTFT, DTFS and DTFT.",
+    "Analyze CT and DT systems using Laplace transforms and Z-transforms.",
+    "Practice the analysis of different systems in various applications."
+  ],
+  "textbooks": [
+    "Alan V. Oppenheim, S. Hamid Nawab and Alan S. Willsky, Signals and Systems, PHI / Pearson.",
+    "M. J. Roberts, Signals and Systems, TMH.",
+    "A. Papoulis, Circuits and Systems: A Modern Approach, Oxford Univ. Press."
+  ],
+  "referenceBooks": [
+    "R. F. Ziemer, W. H. Tranter and D. R. Fannin, Signals and Systems: Continuous and Discrete, Pearson.",
+    "Simon Haykin and Barry Van Veen, Signals and Systems, Wiley.",
+    "Fred J. Taylor, Principles of Signals and Systems, TMH."
+  ]
+}

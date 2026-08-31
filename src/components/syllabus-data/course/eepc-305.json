@@ -1,0 +1,39 @@
+{
+  "Course Title": "Electrical Machines Lab-II",
+  "Course Code": "EEPC-305",
+  "route": "course/eepc-305",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    0,
+    0,
+    3,
+    1
+  ],
+  "contactHours": 42,
+  "description": "Laboratory experiments are based upon the corresponding theory course EEPC-211. An updated list of experiments is floated by the course coordinator before the beginning of each semester.",
+  "syllabus": [],
+  "outcomes": [
+    "Perform performance analysis of a DC machine.",
+    "Calculate the efficiency of a DC machine.",
+    "Determine the voltage regulation of a synchronous machine.",
+    "Measure the various reactances of a synchronous machine."
+  ],
+  "experiments": [
+    "Perform Swinburne's test on a DC shunt motor.",
+    "Perform a direct load test on a DC compound generator.",
+    "Perform speed control of a DC shunt motor using armature and field control.",
+    "Perform a direct load test on a DC shunt motor and plot variation of input current, speed, torque and efficiency against output power.",
+    "Perform magnetization characteristics of a DC machine.",
+    "Measure the quadrature axis reactance of a synchronous machine.",
+    "Measure the synchronous impedance of a synchronous machine.",
+    "Measure the zero power factor characteristics of a synchronous machine.",
+    "Plot V-curves for synchronous machines.",
+    "Perform a slip test on a salient-pole machine."
+  ]
+}

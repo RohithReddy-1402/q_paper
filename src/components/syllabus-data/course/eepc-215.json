@@ -1,0 +1,23 @@
+{
+  "Course Title": "Measurement and Instrumentation Lab",
+  "Course Code": "EEPC-215",
+  "route": "course/eepc-215",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": ["EE"],
+  "semester": "4th",
+  "ltpc": [0, 0, 3, 1],
+  "contactHours": 42,
+  "description": "Laboratory experiments will be based upon the corresponding theory course EEPC-212. An updated list of experiments will be floated by the course coordinator before the beginning of each semester.",
+  "experiments": [],
+  "syllabus": [],
+  "outcomes": [
+    "Perform parameter evaluation and performance analysis of measuring devices.",
+    "Perform analysis of static measuring devices.",
+    "Understand the operation of measuring transformers.",
+    "Study the working of different types of bridges."
+  ],
+  "textbooks": [],
+  "referenceBooks": []
+}

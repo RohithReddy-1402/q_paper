@@ -1,0 +1,96 @@
+{
+  "branch": "EE",
+  "branchName": "Electrical Engineering",
+  "semester": 8,
+  "title": "B. Tech. Electrical Engineering (New Scheme) Semester VIII",
+  "totalCredits": 16,
+  "rows": [
+    {
+      "type": "core",
+      "code": "EEPC-407",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "EEPC-408",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "core",
+      "code": "EEPC-409",
+      "ltpc": [
+        0,
+        0,
+        6,
+        2
+      ]
+    },
+    {
+      "type": "core",
+      "code": "EEPC-410",
+      "ltpc": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective 5",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "EEPE-411A",
+        "EEPE-411B",
+        "EEPE-411C",
+        "EEPE-411D",
+        "EEPE-411E",
+        "EEPE-411F"
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective 6",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "EEPE-412A",
+        "EEPE-412B",
+        "EEPE-412C",
+        "EEPE-412D",
+        "EEPE-412E",
+        "EEPE-412F",
+        "EEPE-412G"
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective 4 (from the Institute list)",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    }
+  ]
+}

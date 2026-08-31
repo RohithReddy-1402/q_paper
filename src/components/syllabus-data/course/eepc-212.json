@@ -1,0 +1,54 @@
+{
+  "Course Title": "Measurement and Instrumentation",
+  "Course Code": "EEPC-212",
+  "route": "course/eepc-212",
+  "credits": 3,
+  "prerequisites": "PHIC-11, PHIC-12",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "4th",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 42,
+  "description": "The course develops an understanding of the fundamentals of measurements and different types of instruments. Students study the measurement of various quantities by different types of bridges, analog and digital instruments, transducers, smart sensors, and instrument transformers. They also understand the digital interfaces used in measurement systems and are introduced to Industry 4.0.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Measurement Fundamentals and Bridges",
+      "body": "Accuracy, precision, resolution, sensitivity, error analysis, DC and AC bridges for measurement of resistance, inductance, capacitance and frequency.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Instrument Transformers and Instruments",
+      "body": "Instrument transformers - current and potential transformers, their performance characteristics. Digital Storage Oscilloscope (DSO), current and voltage probes, and function generators.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Transducers and Sensors",
+      "body": "Transducers - classification and selection of transducers, transducers for measurement of position, force and temperature. Hall effect sensors, ultrasonic sensors, strain gauge, smart sensors.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Digital Interfaces and Industry 4.0",
+      "body": "IEEE-488 instrumentation bus (GPIB), GPIB bus structure and operation, Universal Serial Bus (USB), introduction to Industry 4.0. Case study and simulation problems.",
+      "hours": 7
+    }
+  ],
+  "outcomes": [
+    "Use DC and AC bridges to measure resistance, inductance, capacitance and frequency.",
+    "Measure voltage, current, power and energy by analog and digital instruments.",
+    "Understand the working principles of various transducers and smart sensors, and their application in the measurement of position, temperature and force.",
+    "Understand the digital interfaces used in measurement systems and gain exposure to Industry 4.0 standards."
+  ],
+  "textbooks": [
+    "C. T. Baldwin, Fundamentals of Electrical Measurements, Lyall Book Depot, New Delhi, 1973.",
+    "E. W. Golding and F. C. Widdis, Electrical Measurements and Measuring Instruments, Pitman Publishing, 2011.",
+    "Albert D. Helfrick and William D. Cooper, Modern Electronic Instrumentation and Measurement Techniques, Prentice Hall of India, 2007."
+  ],
+  "referenceBooks": [
+    "B. C. Nakra and K. K. Chaudhary, Instrumentation Measurement and Analysis, Tata McGraw Hill Publishing Company Limited, 2016.",
+    "A. K. Sawhney and Puneet Sawhney, A Course in Electrical and Electronic Measurements and Instrumentation, Dhanpat Rai & Company, 2016."
+  ]
+}

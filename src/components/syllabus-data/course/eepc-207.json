@@ -1,0 +1,29 @@
+{
+  "Course Title": "Computational Techniques Lab",
+  "Course Code": "EEPC-207",
+  "route": "course/eepc-207",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": ["EE"],
+  "semester": "3rd",
+  "ltpc": [0, 0, 3, 1],
+  "contactHours": 42,
+  "description": "Laboratory experiments will be based upon the corresponding theory courses CSIC-13 and EEPC-101. An updated list of experiments will be floated by the course coordinator before the beginning of each semester. The lab develops the ability to use MATLAB for solving engineering problems, apply numerical methods for roots of nonlinear algebraic equations and for differential equations, and simulate linear systems and operational amplifier circuits.",
+  "experiments": [
+    "Familiarization with MATLAB software syntax, environment and its use for solving engineering problems.",
+    "Compute the roots of nonlinear algebraic and transcendental equations using numerical methods (bisection, Regula-Falsi, Newton-Raphson).",
+    "Solve ordinary differential equations using various numerical methods (Euler, modified Euler, Runge-Kutta).",
+    "Simulate linear systems and study their time response.",
+    "Implement and analyze various kinds of operational amplifier circuits."
+  ],
+  "syllabus": [],
+  "outcomes": [
+    "Understand the MATLAB software syntax and be able to use it for solving various engineering problems.",
+    "Understand the numerical methods to compute the roots of nonlinear algebraic equations.",
+    "Solve differential equations using various numerical methods.",
+    "Simulate linear systems and implement various kinds of operational amplifiers."
+  ],
+  "textbooks": [],
+  "referenceBooks": []
+}

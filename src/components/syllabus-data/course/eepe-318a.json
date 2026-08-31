@@ -1,0 +1,60 @@
+{
+  "Course Title": "Distribution System Analysis",
+  "Course Code": "EEPE-318A",
+  "route": "course/eepe-318a",
+  "credits": 3,
+  "prerequisites": "EEPC-203",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective covers the concept of distribution systems, the layouts of substations and lines, the nature of consumer loads, distribution transformers and their types, and power flow analysis.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Distribution Systems",
+      "body": "General aspects, AC/DC distribution, comparison of volume of conductors, single phase and three phase underground cables, comparison with overhead lines, types of cables, insulation resistance, potential gradient, capacitance of single core and three core cables. Customer loads, feeder loads, load characteristics and load models, types of distribution substations and their layout, types of feeders.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Application of Distribution Transformers",
+      "body": "Types of distribution transformers, voltage regulation, efficiency calculations, vector groups, single and three phase transformers, booster transformers, grounding transformers.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Voltage-Drop and Power-Loss Calculations",
+      "body": "Application of capacitors to distribution systems, series and shunt capacitors, power factor correction, optimal power factor based on constant kW and kVA, computerized method to determine the economic power factor, Kelvin's law, voltage drop calculation, K-factors, uniformly distributed loads, lumping loads in geometric configuration, economic justification for capacitors, distribution system voltage regulation, feeder voltage regulators, power loss calculations.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Distribution System Protection",
+      "body": "Overcurrent protection devices - fuses and their types, automatic circuit reclosers, fuse-to-fuse coordination, fuse-to-circuit-breaker coordination. Power flow of a distribution system, simulation study using software.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Classify distribution system types and compare AC and DC distribution systems.",
+    "Understand the types of distribution transformers and booster transformers and their applications.",
+    "Determine voltage drop and power factor correction using capacitors and voltage regulators.",
+    "Analyze protection schemes for distribution systems, fuse and CB coordination and the fundamentals of distribution system automation."
+  ],
+  "textbooks": [
+    "M. Turan Gonen, Electric Power Distribution System Engineering, BSP Books, 2007.",
+    "William H. Kersting, Distribution System Modeling and Analysis, CRC Press, Taylor and Francis, 2007.",
+    "Momoh A. Momoh and James A. Momoh, Electric Power Distribution, Automation, Protection and Control, CRC Press, 2007."
+  ],
+  "referenceBooks": [
+    "Robert H. Miller and James H. Malinowski, Power System Operation, Tata McGraw-Hill, 2nd Edition, 2009."
+  ]
+}

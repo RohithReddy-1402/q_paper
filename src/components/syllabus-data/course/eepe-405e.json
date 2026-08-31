@@ -1,0 +1,62 @@
+{
+  "Course Title": "Earthing Practices",
+  "Course Code": "EEPE-405E",
+  "route": "course/eepe-405e",
+  "credits": 3,
+  "prerequisites": "EEPC-101, EEPC-203, EEPC-209",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective provides fundamental knowledge and application of power system earthing.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fundamental Concepts",
+      "body": "Maxwell's equations, return current path impedance, transmission line fundamentals, characteristics of signals and circuits, interaction between sources of radiated field, grounding objectives, grounding symbols and classification, definitions (ground, grounding, ground current, ground electrode, grounding system, ground impedance, remote earth), fundamental grounding topologies, rack and cabin system grounding architecture, grounding as per system size and layout.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Soil Resistivity, Ground Resistance Measurement and Power System Earthing",
+      "body": "Soil resistance and resistivity, types of soil, permeability and permittivity of soil, factors influencing soil resistivity, current density, continuity of earth current, methods for soil resistivity and ground resistance measurements, Wenner method, driven rod method. Objectives of power system earthing, ungrounded system, ground resistance, electric potential, ground resistance with different electrode types, methods of earthing, electric shock hazards, earthing for low voltage distribution systems (TN, TT and IT systems), temporary overvoltage, earthing and EMC, residual current devices, maximum ground potential rise.",
+      "hours": 14
+    },
+    {
+      "id": "III",
+      "title": "Analyzing Power System Earthing",
+      "body": "Grounding system safety assessment, numerical analysis techniques (basic equations, matrix method, combined integration method), analysis of grounding systems, equivalent circuit representation, parametric analysis of substation ground mats, touch and step potential, measurement and mitigation of touch and step potentials, neutral earthing of power systems.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Lightning Protection and Computer Application",
+      "body": "Lightning protection system and its components, influence of LV earthing on lightning, types of earth electrodes (rods, plates, round conductor, mesh, ring, foundation), design of earth electrodes and their layout, fundamentals of cable shielding. Use of software for calculation of grounding parameters and design of the grounding system.",
+      "hours": 8
+    }
+  ],
+  "outcomes": [
+    "Understand the fundamental principles and concepts of power system grounding.",
+    "Analyse and design effective grounding systems for power distribution networks.",
+    "Understand the relationship between grounding and lightning protection.",
+    "Examine and identify grounding issues and make informed decisions."
+  ],
+  "textbooks": [
+    "Md. A. Salam and Q. M. Rahman, Power System Grounding, Springer Nature Singapore, 2016.",
+    "A. P. S. Meliopoulos, Power System Grounding and Transients: An Introduction, CRC Press.",
+    "Elya B. Joffe and Kai-Sang Lock, Grounds for Grounding: A Circuit to System Handbook, John Wiley and Sons, 2011."
+  ],
+  "referenceBooks": [
+    "IEEE Std 142, IEEE Recommended Practice for Grounding of Industrial and Commercial Power Systems, 2007.",
+    "IEEE Std 80-2013, IEEE Guide for Safety in AC Substation Grounding.",
+    "G. Vijayaraghavan, Mark Brown and Malcolm Barnes, Practical Grounding, Bonding, Shielding and Surge Protection, Elsevier, 2004."
+  ]
+}

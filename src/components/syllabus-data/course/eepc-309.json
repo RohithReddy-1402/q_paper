@@ -1,0 +1,28 @@
+{
+  "Course Title": "Summer Internship",
+  "Course Code": "EEPC-309",
+  "route": "course/eepc-309",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "contactHours": 0,
+  "description": "The internship develops the undergraduate education programme in Electrical Engineering to include practical training in a professional engineering setup (a company, top educational institution or research institute). After the 4th and 6th semesters students undertake a two-month internship/industrial training programme of one credit; the viva voce examination is conducted in the following semester. Each student is assigned a faculty supervisor who manages and assesses the internship, including a reflective diary, an interim report, a final report with a learning agreement, and a final presentation and viva.",
+  "syllabus": [],
+  "outcomes": [
+    "Acquire knowledge and experience of software and hardware practices in the project area.",
+    "Carry out design calculations and implementations in the project area.",
+    "Associate with the implementation of the internship requiring individual and teamwork skills.",
+    "Communicate work effectively through writing and presentation.",
+    "Demonstrate knowledge of professional responsibilities and respect for ethics."
+  ]
+}

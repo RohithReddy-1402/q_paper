@@ -1,0 +1,63 @@
+{
+  "Course Title": "Power System Protection",
+  "Course Code": "EEPC-301",
+  "route": "course/eepc-301",
+  "credits": 3,
+  "prerequisites": "EEPC-203, EEPC-209",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program-core course provides broad coverage of all types of protective relays and circuit breakers and a strong background for working in practical power system protection.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "body": "Need for a protective system; nature, cause, types and effects of faults; components of a protection system; essential qualities of a protection system; zones of protection; primary and back-up protection; basic relay terminology; elements of circuit breakers and their operating mechanisms; auto reclosing.",
+      "hours": 5
+    },
+    {
+      "id": "II",
+      "title": "Switchgear",
+      "body": "Theory of arcing and arc interruption in circuit breakers; re-striking and recovery voltage; resistance switching; current chopping; interruption of capacitive current. Classification, selection and ratings of circuit breakers; oil circuit breaker; air break and air blast circuit breakers; SF6 circuit breaker; vacuum circuit breakers; high voltage DC breakers.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Protective Relays and Apparatus Protection",
+      "body": "General classification of relays; principle of operation of electromagnetic and induction type relays; over-current, directional, earth fault, negative phase sequence, distance and differential relays. Apparatus protection: generator protection, transformer protection, transmission line protection, bus-bar protection.",
+      "hours": 13
+    },
+    {
+      "id": "IV",
+      "title": "Protection against Overvoltage and Modern Relays",
+      "body": "Causes of over voltage, ground wires, surge absorbers and diverters, insulation co-ordination. Static relays: phase and amplitude comparator, static overcurrent relays. Microprocessor based protective relays: over current, impedance, directional, reactance and mho relay. Digital relays: basics of numerical relays, numerical overcurrent, distance and differential protection, AI based numerical protection. Introduction to Phasor Measurement Units and Wide Area Monitoring and Protection Systems.",
+      "hours": 14
+    }
+  ],
+  "outcomes": [
+    "Understand protection system components and terminology for circuit breakers and relays.",
+    "Classify different circuit breakers and their operating principles.",
+    "Describe the operation of different protective relays and protection of different power apparatus.",
+    "Evaluate the impact of over-voltages, static and numerical relays and the concept of a wide area protection system."
+  ],
+  "textbooks": [
+    "Badri Ram and D. N. Vishwakarma, Power System Protection and Switchgear, Tata McGraw Hill, 2nd Edition, 2011.",
+    "Y. G. Paithankar and S. R. Bhide, Fundamentals of Power System Protection, PHI Learning, 2nd Edition, 2010.",
+    "D. P. Kothari and I. J. Nagrath, Power System Engineering, Tata McGraw Hill Education, 2nd Edition."
+  ],
+  "referenceBooks": [
+    "J. Lewis Blackburn and Thomas J. Domin, Protective Relaying: Principles and Applications, CRC Press, 2015.",
+    "Paul M. Anderson et al., Power System Protection, John Wiley & Sons, 2022.",
+    "S. S. Rao, Protective Switchgear, Khanna Publishers, 13th Edition, 2008.",
+    "C. L. Wadhwa, Power System Analysis, New Age Publishers."
+  ]
+}

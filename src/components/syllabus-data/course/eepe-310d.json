@@ -1,0 +1,62 @@
+{
+  "Course Title": "High Voltage Engineering",
+  "Course Code": "EEPE-310D",
+  "route": "course/eepe-310d",
+  "credits": 3,
+  "prerequisites": "EEPC-203, EEPC-209",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective covers the fundamentals of breakdown of insulating media, generation and measurement of high voltages and currents, applications of insulating materials, partial discharges and their measurement, testing techniques, pulse power systems and nanomaterial applications in high voltage.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Conduction and Breakdown in Gases, Liquid and Solid Dielectrics",
+      "body": "Gases: ionization process, Townsend's current growth equation, primary and secondary ionization coefficients, Townsend's criterion for breakdown, streamer theory of breakdown, Paschen's law, gases used in practice. Liquid dielectrics: conduction and breakdown in pure and commercial liquids, suspended particle theory, stressed oil volume theory. Solid dielectrics: intrinsic, electromechanical and thermal breakdown, composite dielectrics, applications of insulating materials.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Generation and Measurement of High Voltages and Currents",
+      "body": "Generation of high DC, AC and impulse voltages and impulse currents, tripping and control of impulse generators. Measurement of high DC and AC (power frequency and high frequency) voltages, various types of potential dividers, peak reading AC voltmeter, sphere gap method, factors influencing the spark voltage of sphere gaps.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "High Voltage Testing of Electrical Apparatus",
+      "body": "Testing of insulators, bushings, circuit breakers, power capacitors and power transformers. Partial discharge test and measurements.",
+      "hours": 8
+    },
+    {
+      "id": "IV",
+      "title": "Pulsed Power",
+      "body": "Pulse power generation principles and applications. Pulsers and topologies: capacitive discharge, charging supplies, voltage multiplication, pulse compression, applications in HV industries, nanomaterials and nanotechnology in high voltage and their applications. Case study and application of software.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the fundamental behaviour of gaseous, liquid and solid dielectrics, their breakdown and applications.",
+    "Describe the techniques for generation and measurement of high AC, DC and impulse voltages and impulse currents.",
+    "Analyze the methods of testing high voltage electrical equipment.",
+    "Understand the basics of pulse power generation, nanoparticles and their applications."
+  ],
+  "textbooks": [
+    "M. S. Naidu and V. Kamaraju, High Voltage Engineering, Tata McGraw-Hill, 5th Edition, 2013.",
+    "C. L. Wadhwa, High Voltage Engineering, New Age International, 2012.",
+    "E. Kuffel, W. S. Zaengl and J. Kuffel, High Voltage Engineering, 2nd Edition, Newnes."
+  ],
+  "referenceBooks": [
+    "A. Haddad and D. F. Warne, Advances in High Voltage Engineering, IET Power and Energy Series 40.",
+    "Ravindra Arora and Wolfgang Mosch, High Voltage and Electrical Insulation Engineering, Wiley-IEEE Press, 2011.",
+    "Hansjoachim Bluhm, Pulsed Power Systems: Principles and Applications, Springer."
+  ]
+}

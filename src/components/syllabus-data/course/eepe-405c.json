@@ -1,0 +1,61 @@
+{
+  "Course Title": "Custom Power Devices",
+  "Course Code": "EEPE-405C",
+  "route": "course/eepe-405c",
+  "credits": 3,
+  "prerequisites": "EEPC-210, EEPC-304, EEPC-312",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective gives a basic understanding of various power quality issues, their causes and mitigation techniques, power quality standards, classification of power quality problems and their active and passive solutions, and the role of custom power devices for mitigating voltage- and current-based distortions.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Power Quality",
+      "body": "Introduction to power quality, concern about power quality, general classes of power quality problems, voltage unbalance, waveform distortion, voltage fluctuation, power frequency variations, power quality terms, voltage sags, swells, flicker and interruptions, sources of voltage and current interruptions, nonlinear loads.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Passive and Active Compensation",
+      "body": "Introduction to passive and active filters, various types and classification of passive filters, applications and disadvantages of passive filters, various types and classification of active filters, applications of active filters, hybrid filters.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Custom Power Devices",
+      "body": "Custom power and custom power devices, voltage source inverters, reactive power and harmonic compensation devices, compensation of voltage and current interruptions, static series and shunt compensators, compensation in distribution systems, interaction with distribution equipment, installation considerations.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Application of Custom Power Devices",
+      "body": "Static and hybrid source transfer switches, solid state current limiter, solid state breaker, p-q theory and control of P and Q, dynamic voltage restorer (DVR) operation and control, interline power flow controller (IPFC), unified power quality conditioner (UPQC), generalized power quality conditioner.",
+      "hours": 8
+    }
+  ],
+  "outcomes": [
+    "Identify the issues related to power quality in power systems.",
+    "Analyze the effects of harmonics and study different mitigation techniques.",
+    "Identify the importance of custom power devices and their applications.",
+    "Acquire knowledge of different compensation techniques to minimize power quality disturbances."
+  ],
+  "textbooks": [
+    "R. C. Dugan, M. F. McGranaghan, S. Santoso and H. W. Beaty, Electrical Power Systems Quality, 2nd Edition, McGraw-Hill, 2002.",
+    "M. H. J. Bollen, Understanding Power Quality Problems: Voltage Sags and Interruptions, IEEE Press, 2000.",
+    "Arindam Ghosh and Gerard Ledwich, Power Quality Enhancement Using Custom Power Devices, Kluwer Academic Publishers, 2002."
+  ],
+  "referenceBooks": [
+    "H. Akagi et al., Instantaneous Power Theory and Applications to Power Conditioning, IEEE Press, 2007.",
+    "Arindam Ghosh and Gerard Ledwich, Custom Power Devices: An Introduction, Springer, 2002."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "Course Title": "DC and Synchronous Machines",
+  "Course Code": "EEPC-211",
+  "route": "course/eepc-211",
+  "credits": 3,
+  "prerequisites": "PHIC-12",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "4th",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 42,
+  "description": "This course aims to give a basic understanding of DC machine fundamentals and machine parts, and helps students gain the skills for operating DC machines and synchronous machines. It also equips students with the ability to understand and analyze DC machines and synchronous machines along with their applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Electromagnetic Energy Conversion",
+      "body": "Principles: energy in a magnetic system, field energy and mechanical force, energy in singly and multiply excited magnetic systems, determination of magnetic force and torque from energy and co-energy, forces and torques in magnetic field systems, dynamic equations of electromechanical systems and analytical techniques.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "DC Machines",
+      "body": "Construction of DC machines, armature and field systems of DC machines, working principle of DC generator and motor, types of DC generator and motor, emf and torque equation of DC machine, self-excitation build up, armature windings and armature reactions - demagnetizing and cross magnetizing mmfs and their estimation, remedies to overcome the armature reaction, characteristics and applications of DC generator and motor, commutation process, causes of bad commutation and remedies, significance of back emf, starting of DC motors, speed control, losses and efficiency, braking of DC motors, effect of saturation and armature reaction on losses, applications.",
+      "hours": 15
+    },
+    {
+      "id": "III",
+      "title": "Synchronous Machines",
+      "body": "Construction and types of synchronous machines, armature reaction, circuit model of synchronous machine, determination of synchronous reactance, phasor diagram, power angle characteristics, parallel operation of synchronous generators, synchronizing to infinite bus bars, synchronous motor operation, characteristic curves, synchronous condenser.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Case Study",
+      "body": "Implementation of speed control of a DC machine, implementation of connection of a synchronous generator to an infinite bus, implementation of power factor control of a synchronous motor.",
+      "hours": 5
+    }
+  ],
+  "outcomes": [
+    "Carry out the energy flow analysis for a given electromechanical structure.",
+    "Determine the causes responsible for deterioration in a given DC machine's performance.",
+    "Examine the performance of a synchronous machine for different operating conditions.",
+    "Analyze the nature of power flow from or to a machine connected to an infinite bus."
+  ],
+  "referenceBooks": [
+    "Arthur Eugene Fitzgerald and Charles Kingsley, Electric Machinery, Tata McGraw Hill Education Publications.",
+    "T. J. E. Miller, Brushless Permanent Magnet and Reluctance Motor Drives, Clarendon Press.",
+    "P. S. Bhimbra, Electrical Machinery, Khanna Publications.",
+    "I. J. Nagrath and D. P. Kothari, Electrical Machines, Tata McGraw Hill Education Private Limited.",
+    "M. G. Say, Performance and Design of Alternating Current Machines, CBS Publishers & Distributors Pvt. Ltd., New Delhi."
+  ]
+}

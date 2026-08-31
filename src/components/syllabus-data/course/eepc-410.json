@@ -1,0 +1,25 @@
+{
+  "Course Title": "Comprehensive Viva",
+  "Course Code": "EEPC-410",
+  "route": "course/eepc-410",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "contactHours": 0,
+  "description": "A comprehensive viva-voce examination that assesses the student's integrated understanding of the core subjects of the B.Tech Electrical Engineering programme.",
+  "syllabus": [],
+  "outcomes": [
+    "Demonstrate an integrated understanding of the core electrical engineering subjects.",
+    "Communicate technical concepts clearly in an oral examination."
+  ]
+}

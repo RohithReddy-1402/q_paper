@@ -1,0 +1,61 @@
+{
+  "Course Title": "Elements of Power Systems Engineering",
+  "Course Code": "EEOE-306",
+  "route": "course/eeoe-306",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This open elective covers the basic concepts of power generation, economics of generation, transmission and distribution systems, layouts of substations and lines, insulators, and the basics of technologies related to distributed energy resources.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "body": "Typical layout of an electrical power system, present power scenario in India, generation of electric power - conventional sources (hydro, steam, nuclear and gas turbine plants) and renewable energy sources (wind, fuel cells, solar, tidal).",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Economics of Generation",
+      "body": "Definitions of connected load, maximum demand, demand factor, load factor and diversity factor, load duration curve, number and size of generator units, base load and peak load plants, cost of electrical energy - fixed cost, running cost, tariff structure to the customer.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "AC Transmission and Distribution",
+      "body": "Single line diagram of a typical power system, AC distribution, single phase, three phase and three phase four wire systems, bus bar arrangement, selection of site and layout of a substation, overhead line insulators - types, potential distribution over a string, methods of equalizing potential, testing of insulators, insulated cables - insulation materials, grading of cables, insulation resistance, capacitance of single core and three core cables, overhead lines versus underground cables.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Renewable Energy Systems",
+      "body": "Sustainability of renewable energy sources in power systems - environmental, economic and social sustainability, technology drivers, basics of technologies associated with distributed energy resources (fuel cells, microturbines, solar PV).",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the operation of conventional generating stations and renewable sources of electrical power.",
+    "Analyze power economics and power tariff methods.",
+    "Analyze AC transmission and distribution systems, insulators and cables.",
+    "Understand renewable energy sustainability and technology drivers."
+  ],
+  "textbooks": [
+    "C. L. Wadhwa, Generation, Distribution and Utilization of Electrical Energy, New Age International, 2nd Edition, 2009.",
+    "C. L. Wadhwa, Electrical Power Systems, New Age International, 5th Edition, 2009.",
+    "W. D. Stevenson, Elements of Power System Analysis, McGraw Hill, 4th Edition, 1984."
+  ],
+  "referenceBooks": [
+    "B. R. Gupta, Generation of Electrical Energy, 7th Edition, S. Chand Publishing, 2017.",
+    "M. V. Deshpande, Elements of Electrical Power Station Design, Wheeler Publishing, 3rd Edition, 1998."
+  ]
+}

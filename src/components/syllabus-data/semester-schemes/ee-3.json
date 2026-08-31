@@ -1,0 +1,29 @@
+{
+  "branch": "EE",
+  "branchName": "Electrical Engineering",
+  "semester": 3,
+  "title": "B. Tech. Electrical Engineering (New Scheme) Semester III",
+  "totalCredits": 23,
+  "rows": [
+    { "type": "core", "code": "CSIC-221", "ltpc": [3, 0, 2, 4] },
+    { "type": "core", "code": "EEPC-201", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-202", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-203", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-204", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-205", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-206", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "EEPC-207", "ltpc": [0, 0, 3, 1] },
+    {
+      "type": "coCurricular",
+      "label": "NCC/Sports/Yoga",
+      "ltpc": [0, 0, 4, 2],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance up to 6th semester."
+    },
+    {
+      "type": "coCurricular",
+      "label": "NSS/Club/Technical Societies",
+      "ltpc": [0, 0, 4, 2],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance up to 6th semester."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "Course Title": "Control Systems",
+  "Course Code": "EEPC-208",
+  "route": "course/eepc-208",
+  "credits": 3,
+  "prerequisites": "EEPC-101, EEPC-204, EEPC-205, EEPC-206",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "4th",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 42,
+  "description": "This course aims to provide fundamental concepts of control system problems and their solution possibilities, mathematical modelling of various physical systems, analysis of systems in the time and frequency domain, stability analysis, and controller and compensator design specifications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Basics and Mathematical Modeling",
+      "body": "Basics of control system: control system elements, concept of open-loop and closed-loop systems with applications. Mathematical modeling: electrical systems, mechanical systems, electro-mechanical systems, pneumatic and thermal systems, electrical analogues of dynamical systems. Model simplification using block diagram reduction and signal flow methods, sensitivity analysis. Control system components: concept of AC and DC servomotor, synchro, stepper motor and tachometer, etc.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Time Domain Analysis",
+      "body": "Time domain analysis: transient response analysis, first order systems, initial condition response, time response specifications of second order system for typical test signals. Response of higher order systems: steady state error and error constants, dynamic error constants. Routh-Hurwitz stability criterion, system analysis and compensator design using root-locus techniques.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Frequency Domain Analysis",
+      "body": "Sinusoidal transfer functions, frequency response specifications, polar plot, Nyquist plot and Bode plot for stability analysis, concept of gain margin and phase margin, relative stability, Nichols chart, M-N circle.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Conventional Controllers",
+      "body": "Basic idea of feedback control systems, concept of PID controller, effect of P, PI, PD and PID controllers on system. Case studies and numerical simulations in MATLAB / SCILAB / LABVIEW, etc.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Acquire fundamental knowledge of control systems and mathematical modelling of various physical systems.",
+    "Determine the response of systems for various inputs, and perform transient and steady-state analysis of open-loop and closed-loop systems.",
+    "Analyze the stability of linear systems in the time-domain and frequency-domain.",
+    "Design and implement PID controllers and various compensators."
+  ],
+  "textbooks": [
+    "Richard C. Dorf and Robert H. Bishop, Modern Control Systems, Pearson, 13th Edition, 2016.",
+    "B. C. Kuo, Automatic Control Systems, Prentice-Hall of India Pvt. Ltd., New Delhi, 6th Edition, 1991.",
+    "K. Ogata, Modern Control Engineering, Prentice-Hall of India Pvt. Ltd., New Delhi, 3rd Edition, 2000.",
+    "M. Gopal, Control System: Principles and Design, McGraw Hill, 4th Edition, 2012."
+  ],
+  "referenceBooks": [
+    "William J. Palm III, Control Systems Engineering, John Wiley & Sons Inc., 1986.",
+    "Joseph J. Distefano III, Allen R. Stubberud and Ivan J. Williams, Control Systems, 3rd Edition, McGraw Hill, Special Indian Edition, 2010 (Schaum's Outline Series).",
+    "I. J. Nagrath and M. Gopal, Control System Engineering, New Age International Publishers, 4th Edition, 2018.",
+    "Norman S. Nise, Control Systems Engineering, 5th Edition, Wiley, 2009."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Course Title": "Power Electronics-I",
+  "Course Code": "EEPC-210",
+  "route": "course/eepc-210",
+  "credits": 3,
+  "prerequisites": "EEPC-101, EEPC-202",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "4th",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 42,
+  "description": "The objectives are to know about power devices, the methods of turning them ON and OFF, and their connections in circuits to control and convert power.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Modern Power Electronic Devices",
+      "body": "Principle of operation of SCR, dynamic characteristic of SCR during turn ON and turn OFF, two transistor analogy, protection of SCR, snubber circuit, commutation circuits, SCR ratings, triggering methods, series and parallel operation of SCR. Principle of operation of IGBT, GTO, MCT, DIAC, TRIAC and IGCT, and their operating characteristics.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Single-Phase Converter",
+      "body": "Half-wave converter, 2-pulse midpoint converter, half-controlled and fully-controlled bridge converters, input current and output voltage waveforms, effect of load and source impedance, expressions for input power factor, displacement factor, harmonic factor and output voltage, effect of free-wheeling diode, triggering circuits, dual converter.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Three-Phase Converter",
+      "body": "Half wave, full wave, half controlled and fully controlled bridge converters, effect of load and source impedance, expressions for input power factor, displacement factor, harmonic factor and output voltage, dual converter.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "AC Converters",
+      "body": "Principle of operation of single-phase AC regulator, effect of load inductance, firing pulse requirement. Principle of operation of cyclo-converter, waveforms, control technique. Application of converters in industries.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand fundamental concepts in power electronics.",
+    "Analyze power converter circuits.",
+    "Identify basic requirements for power electronics-based design and application.",
+    "Troubleshoot power electronics circuits."
+  ],
+  "textbooks": [
+    "M. Ramamoorthy, Thyristor and their Applications, East West Publication, 1991.",
+    "P. S. Bhimbra, Power Electronics, Khanna Publishers, 2015.",
+    "M. D. Singh and K. B. Khanchandani, Power Electronics, TMH Edition, 2007."
+  ],
+  "referenceBooks": [
+    "G. K. Dubey, S. R. Doradla, A. Joshi and R. M. K. Sinha, Thyristorised Power Controllers, New Age International Private Ltd.",
+    "N. Mohan, T. M. Undeland and W. P. Robbins, Power Electronics: Converters, Applications and Design, 3rd Edition, Wiley India."
+  ]
+}

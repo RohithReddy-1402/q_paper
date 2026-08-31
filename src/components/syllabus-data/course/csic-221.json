@@ -1,0 +1,54 @@
+{
+  "Course Title": "Machine Learning and Data Analytics",
+  "Course Code": "CSIC-221",
+  "route": "course/csic-221",
+  "credits": 4,
+  "prerequisites": "Problem Solving and Programming using C",
+  "Course Type": "IC",
+  "Branch": ["EE"],
+  "semester": "3rd",
+  "ltpc": [3, 0, 2, 4],
+  "contactHours": 42,
+  "description": "This institute-core course, offered across CE, EE, ECE, ME, PIE, IIOT and M & C, aims to allow computers to learn potentially complex patterns from data and then make decisions based on these patterns. It provides a strong foundation for data science and its application areas, covering the underlying core concepts and emerging technologies in data science. A data scientist requires an integrated skill set spanning mathematics, probability and statistics, optimization, and branches of computer science such as databases and machine learning, and this course develops that skill set.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Introduction to Data Science",
+      "body": "What is Data Science? Linear algebra for data science: algebraic and geometric view. Data representation and statistical inference: data objects and attribute types, types of data, descriptive statistics, notion of probability, distributions, mean, variance, covariance. Understanding univariate and multivariate normal distributions."
+    },
+    {
+      "id": "2",
+      "title": "Data Analysis",
+      "body": "Probability and random variables, correlation, regression, attribute transformation, sampling, feature subset selection, similarity measures. High-dimensional data: curse of dimensionality, dimensionality reduction using PCA, SVD, etc."
+    },
+    {
+      "id": "3",
+      "title": "Data Visualization, Bayesian Learning and Evaluating Hypotheses",
+      "body": "Basic principles; scalar, vector and tensor visualization; multivariate data visualization; text data visualization; network data visualization; visualization techniques. Bayesian approach, Bayes' theorem, evaluating hypotheses: Z-test, T-test, Chi-square test."
+    },
+    {
+      "id": "4",
+      "title": "Machine Learning (Supervised and Unsupervised Learning)",
+      "body": "Basic concepts of classification, k-Nearest Neighbor, decision tree classification, Naive Bayes' classifier, linear regression models, logistic regression. Basic concepts of clustering, K-means, hierarchical clustering, DBSCAN."
+    }
+  ],
+  "outcomes": [
+    "Explore the fundamental concepts of data science and machine learning.",
+    "Understand the processes of data science - identifying the problem to be solved, data collection, preparation, evaluation and visualization.",
+    "Understand data analysis techniques for applications handling large data.",
+    "Visualize and present the inference using various tools.",
+    "Understand various machine learning algorithms used in the data science process."
+  ],
+  "textbooks": [
+    "U. Dinesh Kumar and Manaranjan Pradhan, Machine Learning using Python, John Wiley & Sons, 2020.",
+    "Cathy O'Neil and Rachel Schutt, Doing Data Science: Straight Talk From The Frontline, O'Reilly, 2014.",
+    "Ethem Alpaydin, Introduction to Machine Learning, Second Edition, PHI, 2010."
+  ],
+  "referenceBooks": [
+    "T. Hastie, R. Tibshirani and J. Friedman, The Elements of Statistical Learning, Second Edition, Springer, 2009.",
+    "Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer, 2006.",
+    "J. Grus, Data Science from Scratch, Second Edition, O'Reilly, 2019.",
+    "Douglas C. Montgomery and George C. Runger, Applied Statistics and Probability for Engineers, Third Edition, John Wiley & Sons, 2003.",
+    "Tom M. Mitchell, Machine Learning, McGraw-Hill International Edition, 1997."
+  ]
+}

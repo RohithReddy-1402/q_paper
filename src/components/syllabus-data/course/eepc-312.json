@@ -1,0 +1,60 @@
+{
+  "Course Title": "Power Quality",
+  "Course Code": "EEPC-312",
+  "route": "course/eepc-312",
+  "credits": 3,
+  "prerequisites": "EEPC-210, EEPC-304",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course covers the different types of power quality phenomena, sources of voltage sag, swell, interruptions, transients, long duration over voltages and harmonics in a power system, power quality terms and standards, and the principles of voltage regulation and power factor improvement.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Power Quality",
+      "body": "Terms and definitions and sources: overloading, under voltage, over voltage. Concepts of transients. Short duration variations such as interruption; long duration variations such as sustained interruption. Sags and swells, voltage sag, voltage swell, voltage imbalance, voltage fluctuations, power frequency variations. International standards of power quality, CBEMA curve.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Harmonics",
+      "body": "Harmonic sources from commercial and industrial loads, locating harmonic sources, power system response characteristics, harmonics vs transients. Effect of harmonics, harmonic distortion, voltage and current distortion, harmonic indices, inter-harmonics, resonance. Harmonic distortion evaluation, IEEE and IEC standards.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Passive Power Compensators",
+      "body": "Principle of operation of passive shunt and series compensators, analysis and design of passive shunt compensators, simulation and performance of passive power filters, limitations of passive filters, parallel resonance of passive filters with the supply system and its mitigation. Fundamentals of load compensation, voltage regulation and power factor correction.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Power Quality Monitoring and Custom Power Devices",
+      "body": "Monitoring considerations, monitoring and diagnostic techniques for power quality problems, quality measurement equipment, harmonic/spectrum analyzer, flicker meters, disturbance analyzer, applications of expert systems for power quality monitoring. Principle and working of DSTATCOM in voltage control mode and current control mode, DVR structure, rectifier supported DVR, DC capacitor supported DVR, unified power quality conditioner.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Differentiate between different types of power quality problems.",
+    "Explain the sources of voltage sag, swell, interruptions, transients, long duration over voltages and harmonics in a power system.",
+    "Analyse power quality terms and power quality standards.",
+    "Explain the principle of voltage regulation and power factor improvement methods, and power quality monitoring concepts."
+  ],
+  "textbooks": [
+    "Roger C. Dugan, Mark F. McGranaghan, Surya Santoso and H. Wayne Beaty, Electrical Power Systems Quality, McGraw Hill, 2003.",
+    "M. H. J. Bollen, Understanding Power Quality Problems: Voltage Sags and Interruptions, IEEE Press, 1999.",
+    "Bhim Singh, Ambrish Chandra and Kamal Al-Haddad, Power Quality Problems and Mitigation Techniques, Wiley, 2015."
+  ],
+  "referenceBooks": [
+    "G. T. Heydt, Electric Power Quality, 2nd Edition, Stars in a Circle Publications, 1994."
+  ]
+}
