@@ -6,37 +6,38 @@
   "totalCredits": 21,
   "rows": [
     {
-      "type": "core",
-      "code": null,
+      "type": "elective",
+      "label": "Communication Skills in English / Financial Education",
       "ltpc": [
         2,
         0,
         2,
         3
       ],
-      "label": "Communication Skills in English / Financial Education"
+      "options": [
+        "HSIC-101",
+        "HSIC-103"
+      ]
     },
     {
       "type": "core",
-      "code": null,
+      "code": "MAIC-101",
       "ltpc": [
         3,
         0,
         0,
         3
-      ],
-      "label": "Differential Calculus and Differential Equations"
+      ]
     },
     {
       "type": "core",
-      "code": null,
+      "code": "PHIC-101",
       "ltpc": [
         3,
         0,
         2,
         4
-      ],
-      "label": "Engineering Physics"
+      ]
     },
     {
       "type": "core",
@@ -50,25 +51,23 @@
     },
     {
       "type": "core",
-      "code": null,
+      "code": "CHIC-101",
       "ltpc": [
         2,
         0,
         2,
         3
-      ],
-      "label": "Energy & Environmental Science"
+      ]
     },
     {
       "type": "core",
-      "code": null,
+      "code": "MEIC-102",
       "ltpc": [
         1,
         0,
         3,
         2
-      ],
-      "label": "Engineering Practices (P)"
+      ]
     },
     {
       "type": "core",
