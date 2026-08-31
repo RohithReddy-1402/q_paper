@@ -29,21 +29,21 @@ const courseRoutes = coursesInfo.map((c) => `/nit-kkr/syllabus/${c.route}`);
 
 const branchSemesterRoutes = [
   "/nit-kkr/syllabus/branch",
-  "/nit-kkr/syllabus/branch/robotics-automation",
+  "/nit-kkr/syllabus/branch/ra",
   ...[1, 2, 4, 5].map(
-    (n) => `/nit-kkr/syllabus/branch/robotics-automation/semester/${n}`,
+    (n) => `/nit-kkr/syllabus/branch/ra/semester/${n}`,
   ),
-  "/nit-kkr/syllabus/branch/computer-science-engineering",
+  "/nit-kkr/syllabus/branch/cse",
   ...[1, 2, 3, 4, 5, 6, 7, 8].map(
-    (n) => `/nit-kkr/syllabus/branch/computer-science-engineering/semester/${n}`,
+    (n) => `/nit-kkr/syllabus/branch/cse/semester/${n}`,
   ),
-  "/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning",
+  "/nit-kkr/syllabus/branch/aiml",
   ...[1, 2, 3, 4, 5, 6, 7, 8].map(
-    (n) => `/nit-kkr/syllabus/branch/artificial-intelligence-machine-learning/semester/${n}`,
+    (n) => `/nit-kkr/syllabus/branch/aiml/semester/${n}`,
   ),
-  "/nit-kkr/syllabus/branch/electrical-engineering",
+  "/nit-kkr/syllabus/branch/ee",
   ...[3, 4, 5, 6, 7, 8].map(
-    (n) => `/nit-kkr/syllabus/branch/electrical-engineering/semester/${n}`,
+    (n) => `/nit-kkr/syllabus/branch/ee/semester/${n}`,
   ),
 ];
 

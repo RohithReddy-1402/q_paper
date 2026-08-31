@@ -6,26 +6,28 @@
   "totalCredits": 21,
   "rows": [
     {
-      "type": "core",
-      "code": null,
+      "type": "elective",
+      "label": "Economics for Engineers / Business Studies",
       "ltpc": [
         3,
         0,
         0,
         3
       ],
-      "label": "Economics for Engineers / Business Studies"
+      "options": [
+        "HSIC-102",
+        "HSIC-104"
+      ]
     },
     {
       "type": "core",
-      "code": null,
+      "code": "MAIC-102",
       "ltpc": [
         3,
         0,
         0,
         3
-      ],
-      "label": "Integral Calculus and Difference Equations"
+      ]
     },
     {
       "type": "core",
