@@ -1,0 +1,55 @@
+{
+  "Course Title": "Numerical and Statistical Methods (For EE)",
+  "Course Code": "MAIC-203 (EE)",
+  "route": "course/maic-203-ee",
+  "credits": 3,
+  "prerequisites": "MAIC-102",
+  "Course Type": "IC",
+  "Branch": ["EE"],
+  "semester": "4th",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 36,
+  "description": "This institute-core course for Electrical Engineering covers the basics and importance of numerical analysis for analyzing problems that arise in engineering and physical sciences, gives students a deeper knowledge of probability and distributions, studies topics of discrete mathematics with engineering applications, and covers statistical methods and testing of hypotheses.",
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Linear and Nonlinear Algebraic Equations",
+      "body": "Numerical solution of algebraic and transcendental equations: Regula-Falsi method and Newton-Raphson method. Solution of linear system of equations: Jacobi and Gauss-Seidel iteration method and convergence (without proof). Calculation of dominant eigenvalue by iteration method.",
+      "hours": 9
+    },
+    {
+      "id": "2",
+      "title": "Function Approximation",
+      "body": "Introduction to Newton's forward and backward interpolation, Lagrange interpolation, finite differences, numerical integration by Trapezoidal and Simpson's 1/3 rule, Romberg integration and Gaussian quadrature rule.",
+      "hours": 9
+    },
+    {
+      "id": "3",
+      "title": "Ordinary Differential Equations",
+      "body": "Taylor series method, Picard's method, Euler's method, modified Euler's method, Runge-Kutta method of 2nd and 4th orders, predictor-corrector methods, Milne's method, convergence criteria, finite difference method for boundary value problems.",
+      "hours": 9
+    },
+    {
+      "id": "4",
+      "title": "Discrete Probability and Statistical Methods",
+      "body": "Definitions, axioms of probability, set theory, probability space, conditional probability, combined experiments, Bernoulli trials, Bernoulli's theorem and games of chance, problems. Large sample tests: procedure of testing hypothesis, small sample tests, Student's T-test, Chi-Square test, independence of attributes and goodness of fit.",
+      "hours": 9
+    }
+  ],
+  "outcomes": [
+    "Give numerical solutions to algebraic and transcendental equations.",
+    "Numerically integrate functions of one and two variables.",
+    "Provide numerical solutions of ordinary differential equations using one-step and multi-step methods.",
+    "Use discrete and continuous probability distributions in practical problems.",
+    "Apply different testing tools like Student's T-test, Chi-square test, etc. to analyse relevant real-life problems."
+  ],
+  "textbooks": [
+    "K. Sankara Rao, Numerical Methods for Scientists and Engineers, 3rd Edition, PHI Learning Private Limited, 2012.",
+    "Paras Ram, Engineering Mathematics through Applications, 2nd Edition, CBS Publishers, 2015.",
+    "Ronald E. Walpole, Raymond H. Myers, Sharon L. Myers and Keying Ye, Probability and Statistics for Engineers and Scientists, 9th Edition, 2012."
+  ],
+  "referenceBooks": [
+    "M. K. Jain, S. R. K. Iyengar and R. K. Jain, Numerical Methods for Scientific and Engineering Computation, New Age International Ltd., 5th Edition, 2010.",
+    "Steven C. Chapra and R. P. Canale, Numerical Methods for Engineers with Programming and Software Applications, 3rd Edition, Tata McGraw Hill, 2001."
+  ]
+}

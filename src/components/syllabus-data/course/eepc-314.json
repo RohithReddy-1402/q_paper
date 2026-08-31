@@ -1,0 +1,28 @@
+{
+  "Course Title": "Microprocessors and Microcontrollers Lab",
+  "Course Code": "EEPC-314",
+  "route": "course/eepc-314",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    0,
+    0,
+    3,
+    1
+  ],
+  "contactHours": 42,
+  "description": "Laboratory experiments are based upon the corresponding theory course EEPC-302. An updated list of experiments is floated by the course coordinator before the beginning of each semester.",
+  "syllabus": [],
+  "outcomes": [
+    "Understand the basic hardware knowledge of working with the 8085 microprocessor and its applications.",
+    "Describe the operation and hardware knowledge of working with the 8051 microcontroller and its applications.",
+    "Analyse the generation of different waveforms.",
+    "Understand A/D conversion and multi-byte mathematical operations."
+  ],
+  "experiments": []
+}

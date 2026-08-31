@@ -1,0 +1,61 @@
+{
+  "Course Title": "Reliable Fault Tolerant Systems",
+  "Course Code": "EEPE-411B",
+  "route": "course/eepe-411b",
+  "credits": 3,
+  "prerequisites": "EEPE-406E",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective enables students to know the importance, basics and modelling of fault tolerant systems, reliability data sources, data collection, storage and recovery, reliability data analysis, structure function and system reliability evaluation of simple and complex systems, and design for reliability and safety using fault tree analysis.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fault Tolerance Concepts",
+      "body": "Fault tolerance concepts, fault detection techniques - test generation, design of testable circuits, fault tolerant system modelling, redundancy techniques - voting schemes, radial logic, use of error-correcting codes, N-version and modular redundancy, SIFT, replicas, alternatives.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Reliability Data Analysis",
+      "body": "Reliability function, mean time to failure, bathtub curve (PoF interpretation), hazard models - linear, polynomial, exponential, normal, lognormal, Weibull, analysis of failure data, estimation of failure data using least-squares and maximum likelihood.",
+      "hours": 11
+    },
+    {
+      "id": "III",
+      "title": "System Reliability Modeling",
+      "body": "System reliability modeling using structure function concepts, reliability evaluation techniques, safety analysis through fault trees.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Reliability Data Management",
+      "body": "Data collection, storage and recovery of data, data banks, reliability data sources, design of reliability and safety, reliability improvement, typical case studies of engineering systems.",
+      "hours": 11
+    }
+  ],
+  "outcomes": [
+    "Analyze the static and dynamic fault tolerance and reliability of complex systems.",
+    "Analyze and estimate failure data using graphical techniques and empirical distributions.",
+    "Formulate fault tree models and evaluate the top event probability of systems.",
+    "Design for the reliability and safety of practical systems."
+  ],
+  "textbooks": [
+    "M. L. Shooman, Probabilistic Reliability: An Engineering Approach, McGraw Hill, 2002.",
+    "M. L. Shooman, Reliability of Computer Systems and Networks, John Wiley and Sons, 2002.",
+    "E. Balagurusamy, Reliability Engineering, Tata McGraw-Hill Education, 1984."
+  ],
+  "referenceBooks": [
+    "Israel Koren and C. Mani Krishna, Fault Tolerant Systems, Morgan Kaufmann Publishers, Elsevier, 2007.",
+    "A. D. Friedman and P. R. Menon, Fault Detection in Digital Circuits, Prentice-Hall, 1971."
+  ]
+}

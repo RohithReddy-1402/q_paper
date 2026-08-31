@@ -1,0 +1,60 @@
+{
+  "Course Title": "Analog and Digital Electronics",
+  "Course Code": "EEOE-304",
+  "route": "course/eeoe-304",
+  "credits": 3,
+  "prerequisites": "EEPC-101",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course helps students acquire basic knowledge of analog and digital logic levels and apply that knowledge to understand analog and digital electronic circuits and to perform the analysis and design of various analog and digital electronic circuits.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "BJT Biasing",
+      "body": "DC biasing - voltage divider bias, self bias, emitter bias; AC biasing, re model; amplifiers - Class A, B, C and D, push-pull amplifier.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "OP-AMP",
+      "body": "OP-AMP characteristics, non-inverting/inverting amplifier, linear and non-linear OP-AMP circuits, regulated power supplies, oscillators - Barkhausen criteria, Wein-bridge and RC oscillator.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Digital Logic",
+      "body": "Number system, logic gates, K-map reduction techniques, combinational circuits, design of half adder and full adder, sequential circuits, flip-flops (RS, JK, D and T).",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Timers, Converters and Filters",
+      "body": "555 timer monostable and astable operation, Schmitt triggers, sample and hold circuits, A/D and D/A converters, low pass filter, high pass filter, counter and register, case study of simulation circuits.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Have a thorough understanding of the fundamental concepts and techniques used in analog and digital electronics.",
+    "Understand and examine the structure of various number systems and their application in digital design.",
+    "Understand, analyze and design various combinational and sequential circuits.",
+    "Develop the skill to build and troubleshoot analog and digital circuits."
+  ],
+  "textbooks": [
+    "Millman and Halkias, Integrated Electronics, McGraw Hill, 2nd Edition, 2017.",
+    "R. Boylestad and L. Nashelsky, Electronic Devices and Circuits, Prentice Hall India, 10th Edition, 2009."
+  ],
+  "referenceBooks": [
+    "Malvino, Electronic Principles, TMH, 7th Edition, 2017.",
+    "A. P. Malvino and D. P. Leach, Digital Principles and Applications, TMH, 8th Edition, 2014."
+  ]
+}

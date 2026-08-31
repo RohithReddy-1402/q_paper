@@ -1,0 +1,60 @@
+{
+  "Course Title": "Multi-Agent Systems: Consensus and Control",
+  "Course Code": "EEPE-412F",
+  "route": "course/eepe-412f",
+  "credits": 3,
+  "prerequisites": "EEPC-208, EEPC-303",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective introduces agent-based architectures for system engineering tasks under constrained environments, arriving at consensus among resource-constrained agents, and control under communication constraints with applications to engineering systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Multi-Agent Systems",
+      "body": "Introduction to multi-agent systems, mathematical models of agent dynamics, basics of cooperative control and consensus issues, fundamentals of graph theory, graph-based models of distributed control systems.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Consensus and Formation Control",
+      "body": "Optimization issues and consensus problems in multi-agent systems, cooperative control, leader-follower architecture, formation control in multi-agent systems, position, displacement and distance based formation control.",
+      "hours": 11
+    },
+    {
+      "id": "III",
+      "title": "Control under Communication Constraints",
+      "body": "Control under communication constraints, introduction to modeling of communication channels, modeling of network delays, stability assessment under network delays.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Advanced Control Issues",
+      "body": "Advanced control issues in linear multi-agent systems, event triggered control of multi-agent systems, applications to coordinated control of networked power systems, case studies and simulations.",
+      "hours": 11
+    }
+  ],
+  "outcomes": [
+    "Understand and apply the background mathematical theory of matrices and graph theory to describe multi-agent systems.",
+    "Recognize the need for distributed systems in place of centralized systems and distributed computational intelligence.",
+    "Formulate consensus problems and their solutions with application to simple problems.",
+    "Apply output and observer based consensus protocols on multi-agent systems and extend robust control results to such systems."
+  ],
+  "textbooks": [
+    "Magdi H. Mahmoud, Multiagent Systems: Introduction and Coordination Control, CRC Press, 2020.",
+    "Zhongkui Li and Zhisheng Duan, Cooperative Control of Multi-Agent Systems: A Consensus Region Approach, CRC Press, 2015.",
+    "Frank L. Lewis, Hongwei Zhang, Kristian Hengster-Movric and Abhijit Das, Cooperative Control of Multi-Agent Systems: Optimal and Adaptive Design Approaches, Springer-Verlag, 2014."
+  ],
+  "referenceBooks": [
+    "Cheng-Lin Liu and Fei Liu, Consensus Problem of Delayed Linear Multi-Agent Systems: Analysis and Design, Springer Verlag, 2017."
+  ]
+}

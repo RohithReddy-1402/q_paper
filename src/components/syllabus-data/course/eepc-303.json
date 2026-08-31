@@ -1,0 +1,62 @@
+{
+  "Course Title": "Digital and Nonlinear Control Systems",
+  "Course Code": "EEPC-303",
+  "route": "course/eepc-303",
+  "credits": 3,
+  "prerequisites": "EEPC-101, EEPC-204, EEPC-205, EEPC-206, EEPC-208",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course gives fundamental concepts of digital control system problems and their solution possibilities, time-domain and frequency-domain analysis, stability analysis of discrete-time systems, and the basics and stability analysis of nonlinear systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Digital Control and Discrete-Time Models",
+      "body": "The digital control problem and solution possibilities, signal processing in digital control, principles of signal conversion, sampling and reconstruction, principles of discretization, impulse and step invariance, finite difference approximation, bilinear transformation. Mathematical models of discrete-time systems: pulse transfer function and state space models, block diagram algebra and system response, stability in the z-plane, the Jury stability criterion and Lyapunov stability criterion.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Digital Control Design",
+      "body": "z-plane specifications of control system design, digital compensator design using frequency response plots, digital compensator design using root locus plots, z-plane synthesis, state variable feedback design.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Nonlinear Systems and Stability Analysis",
+      "body": "Characteristics of nonlinear systems, inherent and intentional nonlinearities, qualitative behaviour of linear vs nonlinear systems, multiple equilibrium points, limit cycle, bifurcation, jump response, chaos. Describing function of common nonlinear functions and stability analysis, phase plane analysis, construction of phase portraits, singular points, stability in the sense of Lyapunov, asymptotic stability, local and global stability, construction of Lyapunov functions using Krasovskii and variable gradient methods.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Case Studies",
+      "body": "Implementation of digital controllers, tunable PID controllers, digital temperature control systems, digital position control systems, stepper motors and their control, programmable logic controllers.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Acquire fundamental knowledge of digital control systems and mathematical modelling of physical systems in continuous and discrete time using transfer functions.",
+    "Perform digital control design and stability analysis using time-domain and frequency-domain methods.",
+    "Design and implement input and output feedback controllers with Lyapunov theory of stability.",
+    "Learn the characteristics of linear vs nonlinear system behaviour and stability analysis with the concept of local and global stability."
+  ],
+  "textbooks": [
+    "M. Gopal, Digital Control and State Variable Methods, Tata McGraw Hill, 4th Edition, 2012.",
+    "Katsuhiko Ogata, Discrete-Time Control Systems, Prentice-Hall, 2nd Edition, 2015.",
+    "B. C. Kuo, Digital Control Systems, Oxford University Press, 2nd Edition, 2006."
+  ],
+  "referenceBooks": [
+    "Raymond T. Stefani et al., Design of Feedback Control Systems, Oxford University Press, 4th Edition, 2002.",
+    "J. J. E. Slotine and W. Li, Applied Nonlinear Control, Prentice Hall, 1991.",
+    "Hassan K. Khalil, Nonlinear Systems, Prentice-Hall, 3rd Edition, 2002."
+  ]
+}

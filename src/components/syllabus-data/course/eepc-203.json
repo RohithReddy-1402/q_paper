@@ -1,0 +1,59 @@
+{
+  "Course Title": "Generation, Transmission and Distribution",
+  "Course Code": "EEPC-203",
+  "route": "course/eepc-203",
+  "credits": 3,
+  "prerequisites": "EEPC-101",
+  "Course Type": "PC",
+  "Branch": ["EE"],
+  "semester": "3rd",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 42,
+  "description": "This program-core course, offered by the Department of Electrical Engineering, aims to provide fundamental knowledge about the power system, and about generation, transmission and distribution of electrical energy.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Power System",
+      "body": "Layout of an electrical power system, present energy resources in India, single-phase transmission, three-phase transmission, complex power, AC power flow analysis, active and reactive power flow, per unit system, types and characteristics of loads, connected load, maximum demand, demand factor, diversity factor, load duration curve, choice and sizing and number of generating units, effect of load variation on power plant operation, base load and peak load plants, cost of electrical energy: fixed cost, cost of energy and consumer cost. Uses, principle, main parts, operation and control of hydro power stations, steam power plants, nuclear power plants, geothermal power plants and gas turbine power plants. Coordination of hydroelectric and steam stations, run-off plant, pumped storage plant (in combinations).",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Power Generation and Transmission System Performance",
+      "body": "Generic structure of transmission tower, resistance and inductance calculation: two-wire transmission line, GMD and GMR calculations, composite conductor, double circuit lines, bundled conductors, conductor transposition, capacitance calculations in one wire, three phase and double circuit line, effect of earth on capacitance, skin and proximity effect, performance evaluation of short, medium and long transmission lines, voltage regulation and efficiency, Ferranti effect. Sag and tension calculation in levelled and unlevelled span, dampers, effects of wind and ice loading, disruptive critical voltage, corona loss, factors affecting corona loss and methods of reducing corona loss, disadvantages of corona, interference between power and communication lines.",
+      "hours": 14
+    },
+    {
+      "id": "III",
+      "title": "Architecture of Distribution System",
+      "body": "Radial network, ring network, mesh network, AC and DC distribution system, AC distribution system: three phase three wire and three phase four wire system, DC system: DC two wire and three wire system.",
+      "hours": 7
+    },
+    {
+      "id": "IV",
+      "title": "Overhead Line Insulators and Insulated Cables",
+      "body": "Types of insulators, potential distribution in suspension insulators, methods of equalizing the potential, types of cables, insulation resistance, potential gradient, capacitance of single core and three core cables, impedance of underground lines, concentric and tape shielded cables, shunt admittance of overhead and underground distribution lines. Application of software for calculation of transmission line electrical and mechanical parameters, distribution system calculations and cable performance evaluation.",
+      "hours": 9
+    }
+  ],
+  "outcomes": [
+    "Understand the basics of power generation systems, the concept of active and reactive power, and the per unit system.",
+    "Determine the electrical and mechanical parameters of transmission lines and study the effect of corona.",
+    "Understand the basic operation and architecture of a power distribution system.",
+    "Examine line insulators and underground cables."
+  ],
+  "textbooks": [
+    "C. L. Wadhwa, Electrical Power Systems, 7th Edition, New Age International, 2016.",
+    "J. D. Glover, M. S. Sarma and T. Overbye, Power System Analysis and Design, Cengage Learning, 2022.",
+    "D. P. Kothari and I. J. Nagrath, Power System Engineering, Tata McGraw-Hill Pub. Co., New Delhi, 3rd Edition, 2019."
+  ],
+  "referenceBooks": [
+    "M. V. Deshpande, Elements of Electrical Power Station Design, Third Edition, Wheeler Pub., 2001.",
+    "Sri N. Singh, Electric Power Generation: Transmission and Distribution, PHI Learning Pvt. Ltd., 2008.",
+    "W. D. Stevenson, Elements of Power System Analysis, Fourth Edition (Indian Edition), McGraw Hill, 2002.",
+    "C. L. Wadhwa, Generation, Distribution and Utilization of Electrical Energy, 3rd Edition, New Age International, 2015.",
+    "B. R. Gupta, Generation of Electrical Energy, S. Chand Publishing, 2017.",
+    "NPTEL course: https://nptel.ac.in/courses/108/102/108102047/",
+    "NPTEL course: https://nptel.ac.in/courses/108/107/108107112/"
+  ]
+}

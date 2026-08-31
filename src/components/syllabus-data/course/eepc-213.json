@@ -1,0 +1,23 @@
+{
+  "Course Title": "Analog and Digital Electronics Lab",
+  "Course Code": "EEPC-213",
+  "route": "course/eepc-213",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": ["EE"],
+  "semester": "4th",
+  "ltpc": [0, 0, 3, 1],
+  "contactHours": 42,
+  "description": "Laboratory experiments will be based upon the corresponding theory course EEPC-202. An updated list of experiments will be floated by the course coordinator before the beginning of each semester.",
+  "experiments": [],
+  "syllabus": [],
+  "outcomes": [
+    "Have a thorough understanding and identification of the components and devices used in analog and digital electronics.",
+    "Verify, analyze and design the fundamental device characteristics used in analog and digital electronics.",
+    "Understand and examine the structure of various mathematical operations using OP-AMP and its application in design.",
+    "Understand, analyze and design various combinational and sequential circuits."
+  ],
+  "textbooks": [],
+  "referenceBooks": []
+}

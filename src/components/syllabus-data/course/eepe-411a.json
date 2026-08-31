@@ -1,0 +1,57 @@
+{
+  "Course Title": "Power Converters for Renewable Energy Systems",
+  "Course Code": "EEPE-411A",
+  "route": "course/eepe-411a",
+  "credits": 3,
+  "prerequisites": "EEPC-210, EEPC-304, EEPE-310A",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective helps students understand advanced modelling, control and integration of different renewable energy sources with loads and the main power network, and the design, analysis and operation of power converters for renewable energy systems under varied environmental and operating conditions.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fundamentals of Power Converters",
+      "body": "DC/DC converters, AC/DC converters, DC/AC converters, classical multilevel inverters, SPWM, SVPWM, ratings and selection criteria of converters for different renewable energy systems, topologies of energy systems associated with PV and wind energy systems.",
+      "hours": 9
+    },
+    {
+      "id": "II",
+      "title": "Modeling of Power Converters",
+      "body": "Introduction to power electronic converter modeling, switched model of DC-DC isolated and non-isolated converters, switched model of single and three phase inverters, classical averaged model, generalized averaged model, small signal analysis of DC-DC and DC-AC power converters.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Control of Power Converters",
+      "body": "General control principles of power electronic converters, linear control approaches for DC-DC power converters, linear control approaches for DC-AC and AC-DC power converters, energy-based control of power electronic converters, variable-structure control of power electronic converters.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Control of Renewable Energy Systems",
+      "body": "Control of voltage source converters with LCL filters, control of three-phase converters including phase locked loop, control of PV systems, control of wind energy systems. Case study: simulation of a grid connected PV system and wind energy system.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand the basic working principles of different power converters.",
+    "Impart knowledge of power converter modeling.",
+    "Understand the design and analysis of power converter control.",
+    "Provide knowledge of power converter applications in renewable energy systems."
+  ],
+  "textbooks": [
+    "Antoneta Iuliana Bratcu, Iulian Munteanu and Seddik Bacha, Power Electronic Converters Modeling and Control, Springer, 2013.",
+    "Frede Blaabjerg, Control of Power Electronic Converters and Systems, Academic Press, 2018.",
+    "Felix A. Farret and M. Godoy Simoes, Modeling Power Electronics and Interfacing Energy Conversion Systems, John Wiley and Sons, 2016."
+  ]
+}

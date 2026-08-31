@@ -1,0 +1,62 @@
+{
+  "Course Title": "Advanced Control Techniques",
+  "Course Code": "EEPE-412C",
+  "route": "course/eepe-412c",
+  "credits": 3,
+  "prerequisites": "EEPC-101, EEPC-204, EEPC-208, EEPC-303",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective deals with the needs of complex technical processes that require highly dynamic and steady-state performance including robustness; advanced control systems including MPC, sliding mode control, variable structure systems, jump systems and event-based control are studied to cater to uncertainties and disturbances.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Model Predictive Control",
+      "body": "Motivation for advanced control techniques, introduction to Model Predictive Control (MPC), its principle, control horizon and prediction models, optimization techniques for MPC, constraint handling in MPC.",
+      "hours": 11
+    },
+    {
+      "id": "II",
+      "title": "Sliding Mode Control and Variable Structure Systems",
+      "body": "Fundamentals of sliding mode control, sliding mode control design, sliding mode observers, chattering phenomenon and its mitigation, applications of sliding mode control, introduction to variable structure systems (VSS), importance of phase plane analysis in VSS.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Jump Linear Systems and Event-Based Control",
+      "body": "Introduction to continuous and discrete time jump linear systems, analysis, control and filtering issues in jump linear systems, introduction to event based control and time delay systems.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Applications",
+      "body": "Applications of advanced control techniques in various sustainable technologies, case studies from the Indian knowledge system.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Learn various aspects of the advanced control technique MPC.",
+    "Learn SMC and VSS and their applications.",
+    "Understand jump linear systems and event-based control techniques.",
+    "Practise various advanced control techniques in developing sustainable technologies."
+  ],
+  "textbooks": [
+    "E. F. Camacho and C. Bordons, Model Predictive Control, 2nd Edition, Springer Verlag, 2007.",
+    "C. Edwards and S. K. Spurgeon, Sliding Mode Control: Theory and Applications, CRC Press, 1998.",
+    "O. L. V. Costa, M. D. Fragoso and R. P. Marques, Discrete-Time Markov Jump Linear Systems, Springer, 2005."
+  ],
+  "referenceBooks": [
+    "Marek Miskowicz, Event-Based Control and Signal Processing, 1st Edition, CRC Press, 2017.",
+    "E. Fridman, Introduction to Time Delay Systems, Birkhauser, 2014.",
+    "V. I. Utkin, Sliding Modes in Control and Optimization, Springer-Verlag, 1992."
+  ]
+}

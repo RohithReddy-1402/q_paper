@@ -1,0 +1,59 @@
+{
+  "Course Title": "High Power Converters",
+  "Course Code": "EEPE-318C",
+  "route": "course/eepe-318c",
+  "credits": 3,
+  "prerequisites": "MAIC-12, EEPC-101, EEPC-210, EEPC-304",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective helps students understand the difference between low power and high power converters and provides in-depth knowledge of the circuit topologies of high power converters, their working principles and applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Basic Understanding of Converters",
+      "body": "Introduction to power converters, half bridge and full bridge circuit operation, sinusoidal pulse width modulation and three-phase circuits, harmonics in sinusoidal PWM.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Advanced PWM Schemes",
+      "body": "Third harmonic addition in sine PWM, introduction to space vectors, space vector PWM timing calculation, switching sequence, SVPWM using carriers.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Multilevel Converters",
+      "body": "Introduction to multilevel converters, cascaded H-bridge multilevel converters, output voltage waveform synthesis in CHB converters, asymmetrical CHB converters, phase-shifted and level-shifted PWM, neutral point clamped converter circuit topology, sinusoidal PWM and space vector PWM, mid-point voltage fluctuations, capacitor voltage balancing, higher level NPC, T-type NPC and active NPC.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Modular Multilevel Converter",
+      "body": "Topology and operation, arm and cell voltage ratings, arm currents, arm energy balancing, circuit topologies, PWM technique and capacitor voltage balancing, design of components in the MMC, multi-pulse transformer, case study on MMC and CHB, basics of gate driver circuits, turn-on and turn-off process, features of gate drivers and bootstrap functionality.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the operation of low and high power converters.",
+    "Evaluate the performance of switching schemes for different converters.",
+    "Understand multilevel converters and different topologies.",
+    "Design and analyze various modular multilevel converters."
+  ],
+  "textbooks": [
+    "Bin Wu and Mehdi Narimani, High-Power Converters and AC Drives, 2nd Edition, Wiley-IEEE Press, 2017.",
+    "Sergio Alberto Gonzalez, Santiago Andres Verne and Maria Ines Valla, Multilevel Converters for Industrial Applications, CRC Press, 2017."
+  ],
+  "referenceBooks": [
+    "Sixing Du, Apparao Dekka, Bin Wu and Navid Zargari, Modular Multilevel Converters: Analysis, Control and Applications, IEEE Press, 2018."
+  ]
+}

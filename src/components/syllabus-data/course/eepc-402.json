@@ -1,0 +1,42 @@
+{
+  "Course Title": "Drives Lab",
+  "Course Code": "EEPC-402",
+  "route": "course/eepc-402",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    0,
+    0,
+    3,
+    1
+  ],
+  "contactHours": 42,
+  "description": "Laboratory experiments are based upon the corresponding theory course EEPC-401. An updated list of experiments is floated by the course coordinator before the beginning of each semester.",
+  "syllabus": [],
+  "outcomes": [
+    "Evaluate the operation of thyristor, MOSFET and IGBT based DC and AC drives.",
+    "Apply knowledge of power electronics to AC drive systems.",
+    "Analyze different scalar control, vector control and direct torque control for EV based motor drive systems.",
+    "Understand the operation of different intelligent controllers for DC and AC machine drives."
+  ],
+  "experiments": [
+    "Speed control of a separately excited DC motor using a fully controlled converter and a chopper using MATLAB.",
+    "Speed control of a separately excited DC motor using three-phase full and semi-controlled rectifiers using PSIM.",
+    "Speed control of a three-phase slip ring induction motor using static rotor resistance control.",
+    "Control the speed of a three-phase induction motor in variable stator voltage mode using a three-phase AC voltage regulator using PSIM.",
+    "Control a three-phase induction motor in variable frequency constant V/f mode using a three-phase inverter using MATLAB.",
+    "Perform vector control of a three-phase induction motor using MATLAB.",
+    "Perform vector control of a three-phase permanent magnet synchronous machine using MATLAB.",
+    "Perform vector control of a three-phase permanent magnet synchronous machine using a real-time simulator.",
+    "Perform direct torque control of a three-phase induction motor using MATLAB.",
+    "Perform direct torque control of a three-phase permanent magnet synchronous machine using MATLAB.",
+    "Implement intelligent controllers for speed control of DC drives using MATLAB.",
+    "Implement intelligent controllers for DTC control of three-phase induction motor drives using MATLAB.",
+    "Implement intelligent controllers for DTC control of three-phase permanent magnet synchronous machine drives using MATLAB."
+  ]
+}

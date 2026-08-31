@@ -1,0 +1,60 @@
+{
+  "Course Title": "Economic and Project Evaluation in Electricity Industry",
+  "Course Code": "EEPE-318B",
+  "route": "course/eepe-318b",
+  "credits": 3,
+  "prerequisites": "EEPC-203, EEPE-310A",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective provides the methodologies of project evaluation to comprehend and analyse investment proposals and decisions in the electricity industry.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Project and Financial Evaluation",
+      "body": "Energy return on energy invested, capacity factor, investments in the electricity sector, project selection and evaluation, project development, time value of money, discounted cash flows, net present value, inflation in cash flows, discount rate, weighted-average cost of capital, costs and benefits evaluation, least-cost solution, owner's evaluation of profitability, base cost estimate and contingencies, sunk costs, depreciation and interest charges, financial projections, timing of projects, expansion projects, system linkages, border and shadow pricing, welfare discount rate, climate change costing.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Renewable Energy Project Evaluation and Carbon Economy",
+      "body": "Economics of renewables and the role of the state, utilisation factor, dispatching and transmission cost, costing of renewables generation, assessing the returns on investment in renewables, value factor, merit-order effect, carbon dilemma, climate conventions, carbon taxation, emissions trading, negative effect of power sector subsidies, prospects for non-fossil-fuel power generation, virtual power plant, carbon usage and its economy.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Risk Management in Electricity Markets",
+      "body": "Liberalization of the electricity sector, opportunities and barriers in liberalised markets, utility of the future, electricity and the new digital economy, virtual utility, DSM programmes, need for a regulator, generation investment, deterministic generation investment decisions, project risks, sensitivity analysis, break-even point analysis, decision analysis, Monte Carlo risk analysis, quantifying and managing financial risks.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Economics of Reliability of Power Supply",
+      "body": "Reliability in system planning, empirical planning rules, detailed financial and economic evaluation, financial and economic evaluation of the quality of electrical power, evaluation of investment in generation, valuing the cost of interruptions, renewables and reliability of supply. Use of software for project and economic evaluation of energy projects.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the concepts and techniques of project selection and evaluation in the electricity sector.",
+    "Understand the economics of renewable energy technologies.",
+    "Analyze risk management in electricity markets.",
+    "Apply the knowledge of reliability in system planning to conduct detailed financial and economic evaluations."
+  ],
+  "textbooks": [
+    "Hisham Khatib, Economic Evaluation of Projects in the Electricity Supply Industry, IET, 2003.",
+    "Walter Short, Daniel J. Packey and Thomas Holt, A Manual for the Economic Evaluation of Energy Efficiency and Renewable Energy Technologies, NREL, 1995.",
+    "Chan S. Park, Fundamentals of Engineering Economics, Pearson/Prentice Hall, 2004."
+  ],
+  "referenceBooks": [
+    "N. Gregory Mankiw, Principles of Economics, Wiley Eastern, 6th Edition, 1998."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Course Title": "Solar Energy Systems",
+  "Course Code": "EEMI-405B",
+  "route": "course/eemi-405b",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course provides fundamental concepts of solar energy sources, design and operation of solar power systems, solar energy conversion systems and power conditioning schemes.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Solar Radiation and PV Fundamentals",
+      "body": "Solar constant, measurement of solar radiation, solar energy conversion, CSP generators, photovoltaic effect, characteristics of photovoltaic cells, conversion efficiency, types and classification, construction and working principle, solar power generation, construction of a solar PV system - solar cell, module, panel and array, types of solar PV.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Solar Photovoltaic Power Systems",
+      "body": "The PV cell, module and array, equivalent electrical circuit, open circuit voltage and short circuit current, I-V and P-V curves, array design, peak power point operation, PV system components, solar thermal system, energy collection, stand-alone, grid-interactive and hybrid solar PV systems, grid connection issues.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Power Conditioning Schemes for Solar Energy Systems",
+      "body": "Switching devices for solar energy conversion, DC power conditioning converters, maximum power point tracking algorithms, AC power conditioners, line commutated inverters, synchronized operation with grid supply, harmonic reduction.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Applications and Emerging Technologies",
+      "body": "PV water pumping, application to building envelopes, organic PV cells, concentrator solar cells, low, medium and high concentration versions, floating PV systems, agrivoltaics, recycling of solar PV modules, solar power plants in India, case studies.",
+      "hours": 8
+    }
+  ],
+  "outcomes": [
+    "Understand the components of a solar photovoltaic system and its working.",
+    "Appraise solar power energy conversion systems and their characteristics.",
+    "Analyze the switching devices and power conditioning of solar PV systems.",
+    "Apply solar PV systems and case studies."
+  ],
+  "textbooks": [
+    "D. P. Kothari, K. C. Singal and Rakesh Ranjan, Renewable Energy Sources and Emerging Technologies, 2nd Edition, PHI.",
+    "Chetan Singh Solanki, Solar Photovoltaics: Fundamentals, Technologies and Applications, 3rd Edition, Prentice Hall India.",
+    "Mukund R. Patel, Wind and Solar Power Systems, CRC Press, 1st Edition, 1999."
+  ],
+  "referenceBooks": [
+    "A. Luque and S. Hegedus, Handbook of Photovoltaic Science and Engineering, John Wiley and Sons, 2012.",
+    "Gilbert M. Masters, Renewable and Efficient Electric Power Systems, John Wiley and Sons, 2004."
+  ]
+}

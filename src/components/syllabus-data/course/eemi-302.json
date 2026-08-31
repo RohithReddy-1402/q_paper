@@ -1,0 +1,61 @@
+{
+  "Course Title": "Basics of Energy Systems (Power Systems, Machines and Power Electronics)",
+  "Course Code": "EEMI-302",
+  "route": "course/eemi-302",
+  "credits": 3,
+  "prerequisites": "EEMI-301",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course covers the basic concepts of energy systems with the basics of power generation, concepts of transmission and distribution systems, electrical machine fundamentals, and the basics of power electronics and drives.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "body": "Typical layout of an electrical power system, present power scenario in India, generation of electric power - conventional sources (hydro, steam, nuclear, gas turbine) and renewable sources (wind, fuel cells, solar, tidal), base load and peak load plants, cost of electrical energy, tariff structure.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "AC Transmission and Distribution",
+      "body": "Single line diagram of a typical power system, AC distribution, single phase, three phase and three phase four wire systems, bus bar arrangement, layout of a substation, fuses, miniature circuit breakers, MCCBs, principles of working of circuit breakers, overcurrent and earth fault relays, fundamentals of distance relays.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Electrical Machines",
+      "body": "Construction and working principle of single phase and three phase transformers, their types and efficiency calculation, no-load and full load tests, working principle of single and three phase induction motors, working principle and construction of DC machines, principle of operation and construction of synchronous machines, applications of machines.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Power Semiconductor Devices and Converters",
+      "body": "Principle of operation of SCR, dynamic characteristics during turn ON and turn OFF, two-transistor analogy, protection of SCR, snubber circuit, commutation circuits, SCR ratings, triggering methods, series and parallel operation, principle of operation of IGBT, GTO, MCT, DIAC, TRIAC and IGCT, classification of power converters, phase controlled AC to DC converters (rectifiers) - half wave, half controlled and fully controlled bridge converters, effect of load and source impedance, input power factor, displacement factor, harmonic factor and output voltage, effect of free-wheeling diode, dual converter.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand the operation of conventional generating stations and renewable sources of electrical power.",
+    "Appraise AC transmission and distribution systems and protective devices.",
+    "Understand the constructional details and principle of operation of transformers and AC/DC machines.",
+    "Understand fundamental concepts in power electronics and analyze power converter circuits."
+  ],
+  "textbooks": [
+    "C. L. Wadhwa, Electrical Power Systems, New Age International, 5th Edition, 2009.",
+    "P. S. Bhimbra, Electrical Machinery, Khanna Publications.",
+    "P. S. Bhimbra, Power Electronics, Khanna Publishers, 2015."
+  ],
+  "referenceBooks": [
+    "I. J. Nagrath and D. P. Kothari, Electrical Machines, Tata McGraw Hill Education.",
+    "Muhammad H. Rashid, Power Electronics: Circuits, Devices and Applications, Pearson, 4th Edition, 2018."
+  ]
+}

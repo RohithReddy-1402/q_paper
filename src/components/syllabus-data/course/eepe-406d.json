@@ -1,0 +1,60 @@
+{
+  "Course Title": "Mechatronics",
+  "Course Code": "EEPE-406D",
+  "route": "course/eepe-406d",
+  "credits": 3,
+  "prerequisites": "EEPC-208",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective covers the principles, modeling, interfacing and signal conditioning of motion sensors and actuators, hardware-in-the-loop simulation and rapid prototyping of real-time closed-loop computer control of electromechanical systems, modeling and identification of discrete-time systems, digital controller design methods, and nonlinear effects and their compensation in mechatronic systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Mechatronics",
+      "body": "Mechatronics system and key elements, mechatronics design process, types of design, traditional and mechatronics designs, advanced approaches in mechatronics, man-machine interface, industrial design and ergonomics, safety.",
+      "hours": 9
+    },
+    {
+      "id": "II",
+      "title": "Real-Time Interfacing",
+      "body": "Introduction, elements of data acquisition and control, overview of the I/O process, analog signals, discrete signals and frequency signals, over-framing.",
+      "hours": 9
+    },
+    {
+      "id": "III",
+      "title": "Case Studies on Data Acquisition",
+      "body": "Cantilever beam force measurement system, testing of transportation bridge surface materials, transducer calibration system for automotive applications, strain gauge weighing system, solenoid force-displacement calibration system, rotary optical encoder, controlling the temperature of a hot/cold reservoir, pick and place robot.",
+      "hours": 9
+    },
+    {
+      "id": "IV",
+      "title": "Design of Mechatronic Products",
+      "body": "Case studies of design of mechatronic products - motion control using DC motors and solenoids, car engine management systems, thermal cycle fatigue of a ceramic plate, pH control system.",
+      "hours": 9
+    }
+  ],
+  "outcomes": [
+    "Identify, select and integrate mechatronic components.",
+    "Use commercial software tools for modeling and simulation of mechatronic systems.",
+    "Design, analyze and optimize mechatronic products.",
+    "Present engineering design solutions efficiently."
+  ],
+  "textbooks": [
+    "Devdas Shetty and Richard A. Kolk, Mechatronics System Design, Cengage Learning / Vikas Publishing House, 2021.",
+    "W. Bolton, Mechatronics: Electronic Control Systems in Mechanical and Electrical Engineering, 2nd Edition, Addison Wesley Longman, 1999.",
+    "Brian Morriss, Automated Manufacturing Systems: Actuators, Controls, Sensors and Robotics, McGraw Hill International Edition, 1995."
+  ],
+  "referenceBooks": [
+    "D. Bradley, D. Dawson, N. C. Burd and A. J. Loader, Mechatronics: Electronics in Products and Processes, Chapman and Hall, London, 1991."
+  ]
+}

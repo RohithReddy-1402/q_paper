@@ -1,0 +1,39 @@
+{
+  "Course Title": "Power Electronics Lab-II",
+  "Course Code": "EEPC-316",
+  "route": "course/eepc-316",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    0,
+    0,
+    3,
+    1
+  ],
+  "contactHours": 42,
+  "description": "Laboratory experiments are based upon the corresponding theory course EEPC-304. An updated list of experiments is floated by the course coordinator before the beginning of each semester.",
+  "syllabus": [],
+  "outcomes": [
+    "Understand the operation of various power converters.",
+    "Describe the operation of different types of tube light chokes.",
+    "Analyse the performance of power electronic converters and drives.",
+    "Understand the operation of a solar photovoltaic system."
+  ],
+  "experiments": [
+    "Study the performance of unity power factor and low power factor choke based tube-lights.",
+    "Study buck, boost and buck-boost choppers.",
+    "Study a single-phase inverter.",
+    "Simulate the choppers and single-phase inverter in PSIM.",
+    "Simulate the choppers and single-phase inverter in MATLAB.",
+    "Study a three-phase inverter.",
+    "Study the V-I and V-P curves of solar PV modules in different combinations in the field.",
+    "Simulate the three-phase inverter in MATLAB.",
+    "Study the dark and illuminated current-voltage characteristics of a solar cell.",
+    "Simulate the Cuk converter using PSIM."
+  ]
+}

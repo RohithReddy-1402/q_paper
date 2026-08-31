@@ -1,0 +1,61 @@
+{
+  "Course Title": "Data Communication Networks",
+  "Course Code": "EEPE-318E",
+  "route": "course/eepe-318e",
+  "credits": 3,
+  "prerequisites": "CSIC-13",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective covers data communication and networking fundamentals including network models, transmission media, switching, error detection and correction, LANs and WANs, network and transport layer protocols and application layer services.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Physical Layer",
+      "body": "Introduction, network models, data and signals, data representation, data flow, digital transmission, analog transmission, bandwidth utilization (multiplexing and spreading), transmission media, switching, using telephone and cable networks for data transmission, the Internet - brief history and today, protocols and standards, standards organizations, Internet standards.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Data Link Layer and LANs",
+      "body": "Error detection and correction, data link control, multiple access, wired LANs (Ethernet), wireless LANs, wireless links and network characteristics, connecting LANs, backbone networks and virtual LANs, wireless WANs (cellular telephone and satellite networks), SONET/SDH, virtual-circuit networks (Frame Relay and ATM).",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Network Layer",
+      "body": "Logical addressing, Internet Protocol (IP), address mapping, error reporting and multicasting, delivery, forwarding and routing, network service models, virtual circuit and datagram networks.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Transport and Application Layer",
+      "body": "Transport layer - process-to-process delivery (UDP, TCP and SCTP), congestion control and quality of service. Application layer - domain name system, remote logging, electronic mail and file transfer, WWW and HTTP, network management (SNMP), multimedia, and case studies.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Know the categories and functions of various data communication networks.",
+    "Design and analyze various error detection techniques.",
+    "Demonstrate the mechanism of routing data in the network layer.",
+    "Know the significance of various flow control and congestion control mechanisms and the functioning of application layer protocols."
+  ],
+  "textbooks": [
+    "Behrouz A. Forouzan, Data Communications and Networking, 4th Edition, McGraw-Hill Education.",
+    "James F. Kurose and Keith W. Ross, Computer Networking: A Top-Down Approach, 6th Edition, Pearson.",
+    "Bhushan Trivedi, Data Communication and Networks, Oxford University Press, 2016."
+  ],
+  "referenceBooks": [
+    "Andrew S. Tanenbaum, Computer Networks, 4th Edition, Pearson Education.",
+    "W. A. Shay, Understanding Communications and Networks, 3rd Edition, Cengage Learning."
+  ]
+}

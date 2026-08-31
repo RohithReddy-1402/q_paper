@@ -1,0 +1,61 @@
+{
+  "Course Title": "Wind Energy Systems",
+  "Course Code": "EEMI-405A",
+  "route": "course/eemi-405a",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course provides fundamental concepts of wind energy sources, design and operation of wind power systems, wind energy conversion systems and power conditioning schemes.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Wind Characteristics and Turbines",
+      "body": "Anemometer and wind vane, site selection, wind speed and direction and their relationship with wind power, wind turbines and generators, wind energy conversion principles, types and classification of WECS, classification of wind turbines, power, torque and speed characteristics, drag and lift principle of rotation, geared, direct drive and hybrid wind power plants, stall, pitch and active stall control.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Operation of Wind Power Systems",
+      "body": "Wind power system components, turbine rating, principles of operation, steady-state operation, self-excited induction generator, magnetizing curves and self-excitation, squirrel cage and wound rotor induction generators, doubly fed induction generator, permanent magnet synchronous generators, interconnected and stand-alone operation, speed and voltage control, variable-speed and maximum power operation, system control requirements.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Wind Energy Conversion Systems",
+      "body": "Wind energy conversion systems and their classification, performance of induction generators for WECS, self-excited induction generator for isolated power generation, controllable DC power from SEIGs, grid related problems, generator control, AC voltage controllers, harmonic reduction and power factor improvement.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Applications",
+      "body": "Wind pumps - performance analysis, stand alone, grid connected and hybrid applications of WECS, economics of wind energy, wind energy in India, environmental aspects, case studies.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the concept and working principle of wind energy generation.",
+    "Appraise different types of wind turbines and their operation.",
+    "Analyze wind energy conversion systems.",
+    "Apply wind energy sources and case studies."
+  ],
+  "textbooks": [
+    "D. P. Kothari, K. C. Singal and Rakesh Ranjan, Renewable Energy Sources and Emerging Technologies, 2nd Edition, PHI.",
+    "Mukund R. Patel, Wind and Solar Power Systems, CRC Press, 1st Edition, 1999.",
+    "Joshua Earnest, Wind Power Technology, PHI Learning, New Delhi, 2013."
+  ],
+  "referenceBooks": [
+    "Thomas Ackermann, Wind Power in Power Systems, John Wiley and Sons, 2005.",
+    "Gilbert M. Masters, Renewable and Efficient Electric Power Systems, John Wiley and Sons, 2004."
+  ]
+}

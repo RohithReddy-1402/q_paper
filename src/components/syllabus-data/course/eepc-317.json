@@ -1,0 +1,38 @@
+{
+  "Course Title": "Control Systems Lab-II",
+  "Course Code": "EEPC-317",
+  "route": "course/eepc-317",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    0,
+    0,
+    3,
+    1
+  ],
+  "contactHours": 42,
+  "description": "Laboratory experiments are based upon the corresponding theory course EEPC-303. An updated list of experiments is floated by the course coordinator before the beginning of each semester.",
+  "syllabus": [],
+  "outcomes": [
+    "Design the controller parameters for different systems.",
+    "Describe the performance of feedback controllers.",
+    "Analyse the stability of non-linear systems.",
+    "Understand the feedback controller for control operations."
+  ],
+  "experiments": [
+    "Study the model of a magnetic levitation system and design and implement a controller for stabilization.",
+    "Study the model of a twin rotor aerodynamic system and design a controller to control its pitch and yaw angles.",
+    "Design and implement a state feedback controller for a rotary flexible link.",
+    "Analyze the performance of a single rotary inverted pendulum by applying a feedback controller and determine closed-loop stability under uncertainty.",
+    "Analyze the stability of nonlinear systems with nonlinearities (relay, dead-zone, hysteresis) using phase plane analysis and the describing function method.",
+    "Analyze the performance of a double rotary inverted pendulum by applying a feedback controller.",
+    "Study a microcontroller kit with interfacing to an ADC and a stepper motor.",
+    "Design a feedback controller for reducing the vibrations in a torsional system.",
+    "Design a controller for level and flow control in a coupled-tank system."
+  ]
+}

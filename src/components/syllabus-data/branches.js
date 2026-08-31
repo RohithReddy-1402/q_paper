@@ -21,6 +21,13 @@ export const BRANCHES = {
       "Covers programming, data structures, algorithms, databases, knowledge representation, machine learning, neural networks, deep learning, computer vision, generative AI and large language models, with electives spanning security, NLP, HPC, IoT and business analytics.",
     semestersAvailable: [1, 2, 3, 4, 5, 6, 7, 8],
   },
+  "electrical-engineering": {
+    code: "EE",
+    name: "Electrical Engineering",
+    description:
+      "Covers electric circuits, AC and DC machines, transformers, power generation, transmission and distribution, power system analysis, power electronics, control systems, signals and systems, network synthesis and filters, linear system theory, measurement and instrumentation, and machine learning and data analytics.",
+    semestersAvailable: [3, 4, 5, 6, 7, 8],
+  },
 };
 
 export function branchSlugFromCode(code) {

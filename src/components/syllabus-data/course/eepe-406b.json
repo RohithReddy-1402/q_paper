@@ -1,0 +1,61 @@
+{
+  "Course Title": "Smart Grid Technology",
+  "Course Code": "EEPE-406B",
+  "route": "course/eepe-406b",
+  "credits": 3,
+  "prerequisites": "EEPC-203, EEPC-209, EEPC-311",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective provides a comprehensive understanding of the concepts, theories and practical applications of smart grid technologies, including grid integration of renewable energy, energy storage, demand response and advanced metering infrastructure, and the economic, regulatory and environmental issues driving smart grids.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Smart Grid",
+      "body": "Background and history, definition, characteristics and benefits of the smart grid, smart grid vs conventional grid, smart grid architecture and an overview of smart grid infrastructure.",
+      "hours": 8
+    },
+    {
+      "id": "II",
+      "title": "Smart Grid Components",
+      "body": "Advanced metering infrastructure - evolution of electric meters, AMI benefits and requirements, AMI protocols, standards and initiatives. Demand response - definition, benefits and classification, smart home energy management systems, smart EV charging systems. Distribution automation - feeder switching equipment, automatic restoration, outage management, volt-var optimization, CVR, mobile workforce management. Monitoring and control - SCADA, energy management systems, wide area monitoring protection and control, distribution management systems, distributed energy resource management.",
+      "hours": 16
+    },
+    {
+      "id": "III",
+      "title": "Smart Grid Information and Communication",
+      "body": "Smart grid communication technologies, communication architecture, applications and communication requirements. Information technologies - application of IoT, big data analytics, machine learning and blockchain in the smart grid, role of cloud computing, cyber security challenges and solutions.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Smart Grid Initiatives and Standardization",
+      "body": "Standardization and interoperability, standards and technology organizations, deployment issues, substation automation, IEC 61850 based substation design. Smart grid initiatives worldwide and in India, National Smart Grid Mission, pilot projects, smart grid for sustainable development and smart cities.",
+      "hours": 8
+    }
+  ],
+  "outcomes": [
+    "Understand the concepts and principles of smart grid technologies.",
+    "Analyze and evaluate the different components of smart grid systems.",
+    "Understand the importance of communication technology, data analytics and cyber security in smart grid systems.",
+    "Demonstrate knowledge of the practical aspects of smart grids such as standardization, interoperability, deployment and sustainability."
+  ],
+  "textbooks": [
+    "S. K. Salman, Introduction to the Smart Grid: Concept, Technologies and Evolution, IET, 2017.",
+    "Stuart Borlase (ed.), Smart Grids: Advanced Technologies and Solutions, 2nd Edition, CRC Press, 2018.",
+    "James Momoh, Smart Grid: Fundamentals of Design and Analysis, IEEE Press, 2012."
+  ],
+  "referenceBooks": [
+    "Janaka Ekanayake et al., Smart Grid: Technology and Applications, Wiley, 2012.",
+    "David Bakken (ed.), Smart Grids: Clouds, Communication, Open Source and Automation, CRC Press, 2014."
+  ]
+}

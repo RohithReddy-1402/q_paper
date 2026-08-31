@@ -1,0 +1,23 @@
+{
+  "Course Title": "Electrical Machines Lab-I",
+  "Course Code": "EEPC-214",
+  "route": "course/eepc-214",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": ["EE"],
+  "semester": "4th",
+  "ltpc": [0, 0, 3, 1],
+  "contactHours": 42,
+  "description": "Laboratory experiments will be based upon the corresponding theory course EEPC-201. An updated list of experiments will be floated by the course coordinator before the beginning of each semester.",
+  "experiments": [],
+  "syllabus": [],
+  "outcomes": [
+    "Perform parameter evaluation and performance analysis of a transformer.",
+    "Perform parameter evaluation and performance analysis of a three-phase induction motor.",
+    "Study the parallel operation of transformers.",
+    "Study the working of an induction machine as an induction generator."
+  ],
+  "textbooks": [],
+  "referenceBooks": []
+}

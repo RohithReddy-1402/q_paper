@@ -1,0 +1,42 @@
+{
+  "Course Title": "Power Engineering Lab-II",
+  "Course Code": "EEPC-315",
+  "route": "course/eepc-315",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    0,
+    0,
+    3,
+    1
+  ],
+  "contactHours": 42,
+  "description": "Laboratory experiments are based upon the corresponding theory course EEPC-301 and EEPC-311. An updated list of experiments is floated by the course coordinator before the beginning of each semester.",
+  "syllabus": [],
+  "outcomes": [
+    "Apply economic dispatch and load frequency control for multi-area power systems.",
+    "Understand different protection schemes and plot their operating characteristics.",
+    "Understand the impact of reactive power compensation on transmission line performance.",
+    "Analyze the operation of solar and wind energy systems."
+  ],
+  "experiments": [
+    "Perform load frequency control using SIMULINK considering different controllers.",
+    "Perform an economic load dispatch study using GAMS software.",
+    "Study and plot the operating characteristics of an overcurrent relay.",
+    "Study and plot the operating characteristics of a differential relay.",
+    "Study and plot the operating characteristics of overvoltage and undervoltage relays.",
+    "Study and plot the operating characteristics of under-frequency and over-frequency relays.",
+    "Study and plot the operating characteristics of a Buchholz relay.",
+    "Study and plot the operating characteristics of a microprocessor based overcurrent relay.",
+    "Study and plot the operating characteristics of a negative sequence relay.",
+    "Study and plot the operating characteristics of a reverse power relay.",
+    "Study the behaviour of a transmission line using reactive power compensators.",
+    "Study a solar PV simulator using a PV emulator and a wind power simulator using a wind emulator.",
+    "Complete a hardware-based design project based on the above experiments."
+  ]
+}

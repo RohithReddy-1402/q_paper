@@ -1,0 +1,60 @@
+{
+  "Course Title": "Energy Conservation and Management",
+  "Course Code": "EEMI-401A",
+  "route": "course/eemi-401a",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course provides students with different approaches for conserving energy utilization and its management techniques with energy auditing, energy policy and regulations.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Energy Conservation and Management",
+      "body": "Overview of energy conservation and management, importance in sustainable development, energy management principles and practices, energy auditing and benchmarking, energy policy and regulations, utilization of electrical lighting and heating systems for energy conservation, energy-efficient technologies, building and industrial energy conservation, transportation energy efficiency, renewable energy integration.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Energy Auditing and Energy Performance Assessment",
+      "body": "Basics of energy auditing, energy performance assessment methodologies, energy data collection and analysis, identification and evaluation of energy-saving opportunities, energy conservation measures implementation and verification.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Energy Policy and Regulations",
+      "body": "Energy policy framework and goals, government initiatives and incentives for energy conservation, energy codes and standards, international agreements and protocols, environmental considerations in energy management.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Energy Management in Practice",
+      "body": "Energy management strategies and planning, energy monitoring and control systems, demand-side management techniques, financial analysis and investment evaluation, case studies on successful energy management projects.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the principles and importance of energy conservation.",
+    "Apply energy management techniques and strategies for energy conservation.",
+    "Conduct energy audits and assess energy performance.",
+    "Understand energy policy and regulations."
+  ],
+  "textbooks": [
+    "Craig B. Smith and Kelly E. Parmenter, Energy Management Principles: Applications, Benefits, Savings, Elsevier, 2013.",
+    "Frank Kreith and D. Yogi Goswami (eds.), Energy Management and Conservation Handbook, CRC Press, 2007.",
+    "Wayne C. Turner and Steve Doty, Energy Management Handbook, Fairmont Press, 2001."
+  ],
+  "referenceBooks": [
+    "Albert Thumann and William J. Younger, Handbook of Energy Audits, Fairmont Press, 2008."
+  ]
+}

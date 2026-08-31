@@ -1,0 +1,60 @@
+{
+  "Course Title": "System Identification",
+  "Course Code": "EEPE-405A",
+  "route": "course/eepe-405a",
+  "credits": 3,
+  "prerequisites": "EEPC-204, EEPC-205, EEPC-206, EEPC-208, EEPC-303",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective gives fundamental concepts of system identification, probability theory, random variables, non-parametric and parametric methods, non-recursive and recursive methods, and the basics of Kalman filter design.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Probability and Random Processes",
+      "body": "Review of probability theory and random processes, problem formulation for identification and estimation.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Models and Non-parametric Identification",
+      "body": "Models: review of continuous and discrete, state space and input-output, disturbance models. Identification: impulse response and transfer function approach (non-parametric methods).",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Parameter Estimation",
+      "body": "Introduction, maximum likelihood method, mean square method, linear regression and least-squares methods and their properties, prediction error approach.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Recursive Methods and Kalman Filter",
+      "body": "Non-recursive and recursive methods, Kalman filter. Design exercises in MATLAB/LabVIEW and case studies.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand statistical properties and modeling of systems with random variables.",
+    "Identify system models using identification methods in both transfer function and state space representation.",
+    "Understand the need for estimators and the estimation process for linear systems using different techniques.",
+    "Apply the theory learned to case studies and understand computational aspects in estimation and identification."
+  ],
+  "textbooks": [
+    "Lennart Ljung, System Identification: Theory for the User, Prentice Hall Inc., NJ, 1991.",
+    "B. N. Chatterji and K. K. Parmer, System Identification Techniques, Oxford and IBH Publications, New Delhi, 1989.",
+    "A. Papoulis and S. U. Pillai, Probability, Random Variables and Stochastic Processes, 4th Edition, McGraw Hill, 2002."
+  ],
+  "referenceBooks": [
+    "Arun K. Tangirala, Principles of System Identification: Theory and Practice, CRC Press, 2015."
+  ]
+}

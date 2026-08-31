@@ -1,0 +1,57 @@
+{
+  "Course Title": "Economics of Renewable Energy Systems",
+  "Course Code": "EEMI-401B",
+  "route": "course/eemi-401b",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course provides students with different approaches to evaluate projects related to renewable energy systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Project Evaluation",
+      "body": "Energy return on energy invested, capacity factor, investments in the electricity sector, project selection and evaluation, project development, time value of money, discounted cash flows, net present value, inflation in cash flows, discount rate, weighted-average cost of capital, costs and benefits evaluation, least-cost solution, worth of the investment.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Financial Evaluation",
+      "body": "Owner's evaluation of profitability, base cost estimate and contingencies, sunk costs, depreciation and interest charges, financial projections, timing of projects, expansion projects, system linkages, border and shadow pricing, welfare discount rate, climate change costing.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Renewable Energy Project Evaluation",
+      "body": "Economics of renewables and the role of the state, utilisation factor, dispatching and transmission cost, costing of renewables generation, assessing the returns on investment in renewables, value factor, merit-order effect.",
+      "hours": 8
+    },
+    {
+      "id": "IV",
+      "title": "Carbon Economy and Renewable Energy Economics",
+      "body": "Carbon dilemma, climate conventions, carbon taxation, emissions trading, negative effect of power sector subsidies, prospects for non-fossil-fuel power generation, virtual power plant, carbon usage and its economy, energy transition from fossil fuels to renewable energy sources, comparison of costs of different energy sources, case studies on renewable energy source pricing in India and other parts of the world, social and economic impact of renewable energy economics.",
+      "hours": 14
+    }
+  ],
+  "outcomes": [
+    "Understand the concepts and techniques of project selection in the electricity sector.",
+    "Evaluate the economic criteria for selection of different renewable energy projects.",
+    "Understand the economics of renewable energy technologies.",
+    "Apply knowledge in economic system planning to conduct detailed financial and economic evaluations."
+  ],
+  "textbooks": [
+    "Hisham Khatib, Economic Evaluation of Projects in the Electricity Supply Industry, IET, 2003.",
+    "Walter Short, Daniel J. Packey and Thomas Holt, A Manual for the Economic Evaluation of Energy Efficiency and Renewable Energy Technologies, NREL, 1995.",
+    "Chan S. Park, Fundamentals of Engineering Economics, Pearson/Prentice Hall, 2004."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "Course Title": "Electric Vehicle Technology",
+  "Course Code": "EEOE-402",
+  "route": "course/eeoe-402",
+  "credits": 3,
+  "prerequisites": "EEPC-101, EEPC-201, EEPC-210",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course introduces electric vehicles and EV subsystems, various electric drive configurations and architectures suitable for electric vehicles, vehicle dynamics, the types of electric machines used in electric vehicles, and energy management strategies.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to EV",
+      "body": "Importance and need for electric vehicles, history and evolution of automobile systems, technology and grid infrastructure barriers in EV adoption, socio-economic barriers, classification of EVs, types of hybrids and their operating modes, hybridization ratio, BEVs and FCEVs and their key components, solar EV, EV versus ICE, emissions due to the electrical grid.",
+      "hours": 7
+    },
+    {
+      "id": "II",
+      "title": "Vehicle Dynamics",
+      "body": "Vehicle dynamics, vehicle load forces, aerodynamic drag, rolling resistance, climbing resistance, estimation of BEV range and effect of auxiliary loads, downgrade force and regeneration, rated speed, gradeability, vehicle acceleration, traction motor characteristics, simple drive cycle for vehicle comparisons.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Power Electronic Converters and Electrical Machines in EV",
+      "body": "Power electronic circuits for control and distribution of electric power in DC-DC, AC-DC and DC-AC converters used for EVs, fundamentals of drives and control of EV with DC motor, induction motor, permanent magnet motor, switched reluctance motor and BLDC motor, design and sizing of traction motors.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Energy Storage Devices and Management in EV",
+      "body": "Overview of battery chemistries, EV battery and required characteristics, cell, modules and pack, battery terminologies (C-Rate, SOC, DOD, rated voltage, specific energy, specific power, cycle life, self-discharge, BOL, EOL), charging characteristics of a typical Lithium ion battery, hydrogen fuel cell based energy storage, balance of plant, fuel cell polarization and power curves, supercapacitor based energy storage, EV charging modes and standards - DC fast charger operation and types, SAE J1772 connector, AC Level 1, 2 and 3 charging, Bharat AC-01, CHAdeMO, CCS Combo 1 and 2, GB/T, Bharat DC-02, supercharger.",
+      "hours": 13
+    }
+  ],
+  "outcomes": [
+    "Interpret the importance of electric vehicles, barriers in their adoption and their impact on the power system.",
+    "Illustrate the various electric drive configurations and their architectures suitable for electric vehicles and vehicle dynamics.",
+    "Discuss the various types of electric machines used in electric vehicles and energy management strategies.",
+    "Describe the different energy storage devices, battery charging-discharging characteristics and various AC and DC charging standards."
+  ],
+  "textbooks": [
+    "John G. Hayes and G. Abas Goodarzi, Electric Powertrain: Energy Systems, Power Electronics and Drives for Hybrid, Electric and Fuel Cell Vehicles, John Wiley and Sons Ltd., 2018.",
+    "Iqbal Husain, Electric and Hybrid Vehicles - Design Fundamentals, 2nd Edition, CRC Press, 2016.",
+    "James Larminie and John Lowry, Electric Vehicle Technology Explained, 2nd Edition, Wiley, 2012."
+  ],
+  "referenceBooks": [
+    "Mehrdad Ehsani, Yimin Gao, Sebastien E. Gay and Ali Emadi, Modern Electric, Hybrid Electric and Fuel Cell Vehicles: Fundamentals, Theory and Design, CRC Press, 2005."
+  ]
+}

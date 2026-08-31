@@ -1,0 +1,60 @@
+{
+  "Course Title": "Renewable Power Generation",
+  "Course Code": "EEPE-310A",
+  "route": "course/eepe-310a",
+  "credits": 3,
+  "prerequisites": "EEPC-203",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective introduces students to the various sources of power generation from renewable energy sources.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Solar and Wind Power Generation",
+      "body": "Introduction to the photovoltaic effect, characteristics of photovoltaic cells, conversion efficiency and applications. Introduction to the characteristics of suitable wind power sites, wind turbines and wind generators, advantages and limitations.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Fuel Cell and Hydro Power Generation",
+      "body": "Fuel cell: principle of fuel cells, thermodynamic analysis, types and applications of fuel cells. Hydro power generation: essential features of a water power plant, classification of hydro-plants, hydraulic turbine, surge tanks, governing of hydraulic turbine, selection of water turbine.",
+      "hours": 11
+    },
+    {
+      "id": "III",
+      "title": "Geothermal and Ocean Energy",
+      "body": "Geothermal: potential sites, estimation of geothermal power, nature of geothermal sites, advantages and disadvantages of geothermal energy. Ocean energy: principle of ocean thermal energy conversion (OTEC), tidal power generation, tidal energy potential and technologies, energy from waves, wave energy conversion and technologies, advantages and limitations.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Biomass based Energy Generation",
+      "body": "Energy from biomass, sources of biomass, different species, conversion of biomass into fuels, energy through fermentation, pyrolysis, gasification and combustion, biogas plants, properties and characteristics of biogas. Case study on different renewable power plants; design of integrated renewable energy systems using software tools.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the working principle of different renewable energy generation.",
+    "Describe different types of wind and hydro turbines.",
+    "Analyze different types of fuel cell, geothermal and biomass energy.",
+    "Evaluate a hybrid system with renewable energy sources."
+  ],
+  "textbooks": [
+    "D. P. Kothari, K. C. Singal and Rakesh Ranjan, Renewable Energy Sources and Emerging Technologies, 2nd Edition, PHI.",
+    "B. R. Gupta, Generation of Electrical Energy, S. Chand Publishing, 2017.",
+    "Mehmet Kanoglu, Yunus A. Cengel and John M. Cimbala, Fundamentals and Applications of Renewable Energy, McGraw Hill, 2020."
+  ],
+  "referenceBooks": [
+    "Robert L. Loftness, Energy Handbook, 1st Edition, Van Nostrand Reinhold Co."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "Course Title": "Reliability Engineering",
+  "Course Code": "EEOE-408",
+  "route": "course/eeoe-408",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course applies probability theory to derive the reliability function and reliability models, and studies methods to evaluate, increase and optimize reliability, along with the concepts of maintainability, availability and reliability testing.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "body": "Reliability and its importance, mortality curve, hazard rate, causes and modes of failure, general reliability function and other reliability functions, mean time to failure (MTTF), repair rate, mean time between failures (MTBF), availability, uptime, downtime, failure frequency and failure distributions.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Reliability Models",
+      "body": "Reliability models - statistical, structural, Markov and fault tree; reliability evaluation using various models.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Redundancy and Reliability Testing",
+      "body": "Redundancy techniques, reliability allocation and redundancy optimization, reliability testing.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Maintainability and Availability",
+      "body": "Basic principles of maintainability, availability and security, availability evaluation using the Markov technique, basic concepts of fuzzy reliability, failure frequency and loss of load probability, typical case studies of practical systems.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Explain the concept of probability and define random variables, density and distribution functions.",
+    "Develop reliability models of simple and complex systems.",
+    "Describe and apply various methods of reliability evaluation to compute the reliability of simple and complex systems.",
+    "Enhance system reliability using reliability allocation and redundancy optimization, and design and evaluate fault trees and Markov graphs."
+  ],
+  "textbooks": [
+    "E. Balagurusamy, Reliability Engineering, Tata McGraw-Hill Education, 1984.",
+    "K. K. Aggarwal, Reliability Engineering, Springer, 2007.",
+    "Martin L. Shooman, Probabilistic Reliability: An Engineering Approach, Krieger Publishing Company."
+  ],
+  "referenceBooks": [
+    "Ram Kumar, Reliability Engineering, Prentice Hall, 1993.",
+    "A. K. Govil, Reliability Engineering, McGraw-Hill Inc."
+  ]
+}

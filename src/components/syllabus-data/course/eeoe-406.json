@@ -1,0 +1,61 @@
+{
+  "Course Title": "Energy Conservation Utilization and Safety Standards",
+  "Course Code": "EEOE-406",
+  "route": "course/eeoe-406",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This open elective provides students of other departments with the basics of energy conservation and management, utilization of electrical energy and safety hazards.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Energy Conservation and Management",
+      "body": "Overview of energy conservation and management, importance of energy conservation in sustainable development, energy management principles and practices, energy auditing and benchmarking, energy policy and regulations, energy-efficient technologies and systems, building energy conservation measures, industrial energy conservation practices, transportation energy efficiency, renewable energy integration and optimization.",
+      "hours": 14
+    },
+    {
+      "id": "II",
+      "title": "Electrical Energy Conservation and Utilization I",
+      "body": "Laws of illumination, coefficient of utilization and depreciation, polar curves, photometry, integrating sphere, types of lamps and their usage for energy conservation, basic principles of light control, types and design of lighting schemes, lighting calculations. Principles of electric heating, schemes and methods of resistance heating (direct and indirect), induction heating, dielectric heating and microwave heating.",
+      "hours": 11
+    },
+    {
+      "id": "III",
+      "title": "Electrical Energy Conservation and Utilization II",
+      "body": "Systems of electric traction and track electrification - DC system, single phase and three-phase low and high frequency systems, composite system, Kando system, comparison of AC and DC systems, problems of single-phase traction with current and voltage unbalance, systems of train lighting, methods of obtaining unidirectional polarity constant output, coach wiring, speed control of traction motors, series-parallel connection, shunt and bridge transition.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Safety Standards",
+      "body": "Overview of applicable safety standards, national and international safety codes, compliance requirements, identifying electrical hazards in various environments, site safety for industrial, construction and residential settings, working on energized equipment, emergency response and evacuation plans, best practices for electrical safety implementation.",
+      "hours": 6
+    }
+  ],
+  "outcomes": [
+    "Understand the principles and importance of energy conservation.",
+    "Determine the lighting requirements for flood lighting, household and industrial needs.",
+    "Understand the basic principles of electric heating and traction.",
+    "Identify and assess electrical hazards in various environments."
+  ],
+  "textbooks": [
+    "Craig B. Smith and Kelly E. Parmenter, Energy Management Principles: Applications, Benefits, Savings, Elsevier, 2013.",
+    "H. Partab, Art and Science of Utilization of Electrical Energy, Dhanpat Rai and Sons, 2017.",
+    "Peter E. Sutherland, Principles of Electrical Safety, John Wiley and Sons, 2014."
+  ],
+  "referenceBooks": [
+    "C. L. Wadhwa, Generation, Distribution and Utilization of Electrical Energy, New Age International Publishers, 3rd Edition, 2017.",
+    "Frank Kreith and D. Yogi Goswami (eds.), Energy Management and Conservation Handbook, CRC Press, 2007."
+  ]
+}

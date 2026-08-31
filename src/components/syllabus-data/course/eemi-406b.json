@@ -1,0 +1,60 @@
+{
+  "Course Title": "Drone Technology",
+  "Course Code": "EEMI-406B",
+  "route": "course/eemi-406b",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course helps students understand and get acquainted with drone technology currently used and acquire and develop high-quality skills and competences including entrepreneurial and digital competencies, with information on programming, operating, maintaining and using drones safely.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Regulations",
+      "body": "Introduction to drones and their applications, definition, history, India and drones, tinkering and drones. Structural classification of drones - fixed wing structure, lighter than air systems, rotary wing aircraft, and applications. Key features of drone regulations - notification of final regulations for civil use, operational and procedural requirements, no drone zones, operations through digital platform, enforcement actions, relevant sections of the Aircraft Act 1934.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Drone Mechanics and Operation",
+      "body": "Concepts of engineering mechanics, free body diagrams, types of loads, force analysis in drones, aerodynamics of drones, dynamics of aerial systems, forces of flight, principal axes and rotation of aerial systems, stability and control of drones, force balancing of rotating masses, flight modes, small drone operations in a controlled environment, controlled flight operations, management tools, sensors, onboard and removable storage.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Radio Control System",
+      "body": "Introduction to the radio control system, controllers, transmitter and receiver, flight controllers, electronic speed controller, battery eliminator circuit, universal battery eliminator circuit, opto coupler, connections and interfaces of devices in a drone.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Introduction to Drone Programming",
+      "body": "Programming languages used in drones (C and Python), installation of cards, autopilot software (ArduPilot, OpenPilot), case studies in the drone industry.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand the historical development of unmanned aerial vehicles, guidelines for drone flying in India and the structure of unmanned aerial vehicles.",
+    "Understand different drone parts and their contribution to a successful flight operation, and different types of drone circuits and electronic parts.",
+    "Understand various communication systems and their upgradation phenomenon.",
+    "Understand the multidisciplinary theory of engineering branches in drone technology."
+  ],
+  "textbooks": [
+    "Daniel Tal and John Altschuld, Drone Technology in Architecture, Engineering and Construction, John Wiley and Sons, 2021.",
+    "Terry Kilby and Belinda Kilby, Getting Started with Drones, Maker Media, 2016.",
+    "John Baichtal, Building Your Own Drones: A Beginners' Guide to Drones, UAVs and ROVs, Que Publishing, 2016."
+  ],
+  "referenceBooks": [
+    "A. Zavrsnik, Drones and Unmanned Aerial Systems: Legal and Social Implications for Security and Surveillance, Springer, 2018."
+  ]
+}

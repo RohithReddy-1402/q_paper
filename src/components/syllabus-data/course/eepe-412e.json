@@ -1,0 +1,61 @@
+{
+  "Course Title": "Flexible AC Transmission Systems",
+  "Course Code": "EEPE-412E",
+  "route": "course/eepe-412e",
+  "credits": 3,
+  "prerequisites": "EEPC-209, EEPC-101, EEPC-210, EEPC-304",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course reviews the concept of voltage control and reactive power compensation, power flow control, operational aspects of various FACTS compensators and their use for power flow and stability improvement.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Power Transmission Control",
+      "body": "Fundamentals of AC power transmission, transmission problems and needs, overview of stability, voltage and reactive power control requirements, the emergence of FACTS, static power converters, their structures and review of power electronics fundamentals, AC controller based structure, DC link converter topologies.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Shunt Compensation",
+      "body": "Fundamentals of shunt compensation, principle of operation, shunt SVC principles, configuration and control, STATCOM configuration and applications.",
+      "hours": 9
+    },
+    {
+      "id": "III",
+      "title": "Series Compensation",
+      "body": "Fundamentals of series compensation, principle of operation, application of TCSC for different power system problems, TCSC layout, SSSC principle of operation, phase shifter - principle of operation, steady state model of a static phase shifter, operating characteristics and applications.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Unified Power Flow Controllers",
+      "body": "Basic operating principles and characteristics, control, UPFC installation applications, UPFC model for power flow studies.",
+      "hours": 9
+    }
+  ],
+  "outcomes": [
+    "Understand reactive power control requirements and the need for FACTS in power system applications.",
+    "Classify various compensators and analyse power system behaviour with them.",
+    "Appraise series compensated power systems with different series compensators.",
+    "Analyze system operation with hybrid shunt-series compensators."
+  ],
+  "textbooks": [
+    "N. G. Hingorani and L. Gyugyi, Understanding FACTS: Concepts and Technology of Flexible AC Transmission Systems, Standard Publishers and Distributors, 2005.",
+    "Y. H. Song and A. T. Johns, Flexible AC Transmission Systems, IEEE Press, 2006.",
+    "R. Mohan Mathur and Rajiv K. Varma, Thyristor-Based FACTS Controllers for Electrical Transmission Systems, IEEE Press and John Wiley and Sons, 2002."
+  ],
+  "referenceBooks": [
+    "Krishna R. Padiyar, FACTS Controllers in Power Transmission and Distribution, New Age International, 2020.",
+    "V. K. Sood, HVDC and FACTS Controllers: Applications of Power Converters to Power Systems, Kluwer."
+  ]
+}

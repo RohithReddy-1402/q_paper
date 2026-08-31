@@ -1,0 +1,60 @@
+{
+  "Course Title": "Control Systems Analysis and Design",
+  "Course Code": "EEMI-402A",
+  "route": "course/eemi-402a",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course gives fundamental concepts of control system design, performance analysis of systems, modeling errors, sensitivity, robustness, feedback control design, predictive controllers and anti-wind-up schemes.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "System Models",
+      "body": "Review of system models, model simplifications and associated modeling errors, control-ratio modeling, discrete time and hybrid models, canonical decomposition.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Stability and Performance",
+      "body": "Stability and performance specifications, limits of performance, modeling errors, constraints on sensitivity, complementary sensitivity, robustness.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Controller Design",
+      "body": "Design of linear state feedback, compensating delays, Smith predictors, predictive controllers, internal model control.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Recent Trends",
+      "body": "Recent trends in control system design, control design based on identification of complex systems, integrator wind up and anti-wind up schemes, PID synthesis using the affine parameterization, design exercises and case studies.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Develop mathematical models and understand the mathematical relationships between the sensitivity functions.",
+    "Perform stability analysis and study the performance of closed-loop systems.",
+    "Design a feedback controller and follow a specific design procedure.",
+    "Develop predictive controllers and identification of complex systems."
+  ],
+  "textbooks": [
+    "G. C. Goodwin, S. F. Graebe and M. E. Salgado, Control System Design, Prentice Hall of India, 2001.",
+    "B. Friedland, Advanced Control System Design, Prentice Hall Int. Inc., NY, 1966.",
+    "John J. D'Azzo and Constantine H. Houpis, Linear Control System Analysis and Design: Conventional and Modern, McGraw-Hill, 4th Edition, 1995."
+  ],
+  "referenceBooks": [
+    "Raymond T. Stefani, Bahram Shahian, Clement J. Savant and Gene H. Hostetter, Design of Feedback Control Systems, Oxford University Press, 4th Edition, 2001."
+  ]
+}

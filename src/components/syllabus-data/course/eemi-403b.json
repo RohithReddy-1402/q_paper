@@ -1,0 +1,57 @@
+{
+  "Course Title": "Flexible AC Transmission Systems",
+  "Course Code": "EEMI-403B",
+  "route": "course/eemi-403b",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course enhances the transmission capability of a transmission system by shunt and series compensation using static controllers, introducing the application of a variety of high power electronic controllers for active and reactive power in transmission lines, and the basics, modelling aspects, control and scope of different types of FACTS controllers.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "body": "Concept of flexible AC transmission, reactive power control in electrical power transmission lines, uncompensated transmission line, series and shunt compensation, overview of FACTS devices - SVC, TCSC, UPFC and IPFC.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Static Var Compensator and Applications",
+      "body": "Voltage control by SVC, advantages of slope in dynamic characteristics, influence of SVC on system voltage, applications - enhancement of transient stability, steady state power transfer, power system damping, prevention of voltage instability.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Thyristor Controlled Series Capacitor and Applications",
+      "body": "Operation of the TCSC, different modes of operation, modeling of TCSC, variable reactance model, modeling for stability studies, applications - improvement of the system stability limit, enhancement of system damping, voltage collapse prevention.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Emerging FACTS Controllers",
+      "body": "Static Synchronous Compensator (STATCOM) - operating principle, V-I characteristics, Unified Power Flow Controller (UPFC) - principle of operation, modes of operation, applications, modeling of UPFC for power flow studies.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand various types of power controllers in transmission lines.",
+    "Understand the static VAR compensator and TCSC controller and their applications.",
+    "Understand the transient stability and modelling of STATCOM.",
+    "Learn the concept of coordination of FACTS controllers."
+  ],
+  "textbooks": [
+    "R. Mohan Mathur and Rajiv K. Varma, Thyristor-Based FACTS Controllers for Electrical Transmission Systems, IEEE Press and John Wiley and Sons, 2002.",
+    "A. T. John, Flexible AC Transmission Systems, IEEE, 1999.",
+    "Narain G. Hingorani and Laszlo Gyugyi, Understanding FACTS: Concepts and Technology of Flexible AC Transmission Systems, Standard Publishers, Delhi, 2001."
+  ]
+}

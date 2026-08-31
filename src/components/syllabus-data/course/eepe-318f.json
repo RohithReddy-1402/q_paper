@@ -1,0 +1,62 @@
+{
+  "Course Title": "Soft Computing Techniques",
+  "Course Code": "EEPE-318F",
+  "route": "course/eepe-318f",
+  "credits": 3,
+  "prerequisites": "CSIC-13",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "Soft computing is an emerging approach to computing that parallels the human mind's ability to reason and learn in an environment of uncertainty and imprecision, based on biologically inspired methodologies such as genetics, evolution, swarming and human nervous systems, with applications in medical diagnosis, computer vision, pattern recognition, machine intelligence, weather forecasting, network optimization and VLSI design.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Soft Computing",
+      "body": "Introduction, requirement, different soft computing techniques and their characteristics, comparison with hard computing, applications.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Fuzzy Sets and Fuzzy Logic",
+      "body": "Introduction, fuzzy sets versus crisp sets, properties of fuzzy sets, operations on fuzzy sets, extension principle, fuzzy relations, linguistic variables, linguistic terms, linguistic hedges, fuzzy reasoning, Mamdani and TSK fuzzy inference systems, applications, fuzzy controllers, theoretical and implementation issues.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Artificial Neural Networks",
+      "body": "Introduction, comparison with biological neural networks, basic models of an artificial neuron, different architectures of ANN, learning techniques, ANN based system modeling, ANN based controller design, theoretical and implementation issues, applications.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Hybrid Systems",
+      "body": "Neural-network-based fuzzy systems, fuzzy-logic-based neural networks, fuzzy logic design, introduction to evolutionary algorithms, MATLAB simulations using the fuzzy toolbox, case studies and applications, intelligent control of complex systems.",
+      "hours": 11
+    }
+  ],
+  "outcomes": [
+    "Understand the importance of soft computing.",
+    "Understand different soft computing techniques like fuzzy logic and neural networks, an introduction to evolutionary algorithms and their combination.",
+    "Implement algorithms based on soft computing.",
+    "Identify when and where to use soft computing methodologies and apply them to solve engineering or real-life problems."
+  ],
+  "textbooks": [
+    "J.-S. R. Jang, C.-T. Sun and E. Mizutani, Neuro-Fuzzy and Soft Computing, Pearson Education.",
+    "Bart Kosko, Neural Networks and Fuzzy Systems: A Dynamical Systems Approach to Machine Intelligence, Prentice Hall.",
+    "T. J. Ross, Fuzzy Logic with Engineering Applications, TMH."
+  ],
+  "referenceBooks": [
+    "S. Rajasekaran and G. A. Vijayalakshmi Pai, Neural Networks, Fuzzy Logic and Genetic Algorithms: Synthesis and Applications, Prentice Hall.",
+    "V. Kecman, Learning and Soft Computing, MIT Press.",
+    "D. Ruan, Intelligent Hybrid Systems, Kluwer Academic Publishers."
+  ]
+}

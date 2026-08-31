@@ -1,0 +1,61 @@
+{
+  "Course Title": "Power System Restructuring",
+  "Course Code": "EEPE-411E",
+  "route": "course/eepe-411e",
+  "credits": 3,
+  "prerequisites": "EEPC-203",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "The restructuring of the power industry has changed operation and control practices in traditional power systems. This program elective provides an understanding of power system operation in the new environment and its technical issues, requiring basic knowledge of electrical engineering, power systems and economics.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Restructuring",
+      "body": "Reasons for restructuring and deregulation of the power industry, the restructuring process and the unbundled structure, entities involved, levels of competition, marketplace mechanisms, issues in deregulation, US and European market evolution, fundamentals of economics, reforms in the Indian power sector, historical developments, national and transnational grids, Independent Power Plants, APDRP, availability-based tariff, the Electricity Act 2003, open access issues, power exchanges in India.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Basics of Market Models",
+      "body": "Market models based on contractual arrangements - monopoly model, single buyer model, wholesale competition model, retail competition model, comparison of market models, distinguishing features of electricity as a commodity, four pillars of market design (imbalance, scheduling and dispatch, congestion management, ancillary services), market architecture, bilateral/forward contracts, the spot market, models for trading arrangements, ISO/TSO model.",
+      "hours": 8
+    },
+    {
+      "id": "III",
+      "title": "Transmission Pricing and Ancillary Services",
+      "body": "Pricing of transmission network usage, power wheeling, principles and classification of transmission pricing methods, rolled-in transmission pricing methods (postage stamp, incremental postage stamp, contract path, MW-Mile, power flow tracing, Z-bus cost allocation). Types of ancillary services, load-generation balancing services (frequency regulation, load following, spinning reserve), voltage control and reactive power support, black start capability, markets for ancillary services.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Available Transfer Capability and Congestion Management",
+      "body": "Definition of congestion, reasons for transfer capability limitation, importance and effects of congestion, desired features and classification of congestion management schemes, non-market and market methods, definitions of ATC, TTC, TRM and CBM, application of software and programming for simulation.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand the concept of power system restructuring and the framework in the Indian power sector.",
+    "Demonstrate the basics of various electricity market models.",
+    "Understand and analyze the technical issues of transfer capability and congestion management in electricity markets.",
+    "Analyze the role of ancillary services in the electricity market and transmission pricing methods."
+  ],
+  "textbooks": [
+    "L. L. Lai, Power System Restructuring and Deregulation: Trading, Performance and Information Technology, John Wiley and Sons, 2001.",
+    "Daniel Kirschen and Goran Strbac, Fundamentals of Power System Economics, John Wiley and Sons, 2004.",
+    "Kankar Bhattacharya, Jaap E. Daalder and Math H. J. Bollen, Operation of Restructured Power Systems, Kluwer Academic Publishers, 2001."
+  ],
+  "referenceBooks": [
+    "Y. H. Song and X. F. Wang, Operation of Market Oriented Power Systems, Springer, 2003.",
+    "M. Shahidehpour and M. Alomoush, Restructured Electrical Power Systems, Marcel Dekker, 2001."
+  ]
+}

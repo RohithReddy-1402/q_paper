@@ -1,0 +1,27 @@
+{
+  "Course Title": "Major Project",
+  "Course Code": "EEPC-409",
+  "route": "course/eepc-409",
+  "credits": 2,
+  "prerequisites": "EEPC-404",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    0,
+    0,
+    6,
+    2
+  ],
+  "contactHours": 84,
+  "description": "The project involves literature survey, problem identification, problem formulation, solution finding, simulation or hardware implementation, and documentation. Students are assigned to a faculty advisor for project identification and allotment. Progress is monitored continuously by the faculty supervisor throughout the semester and the outcomes are evaluated on the basis of a presentation cum viva-voce examination and the report submitted.",
+  "syllabus": [],
+  "outcomes": [
+    "Carry out a literature survey of a particular topic related to an electrical system.",
+    "Identify recent problems and constraints faced by the research community.",
+    "Investigate a solution to minimize or mitigate the existing problem.",
+    "Validate the proposed solution with the help of a simulation or hardware setup."
+  ]
+}

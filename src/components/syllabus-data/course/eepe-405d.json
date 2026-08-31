@@ -1,0 +1,61 @@
+{
+  "Course Title": "Energy Storage Systems",
+  "Course Code": "EEPE-405D",
+  "route": "course/eepe-405d",
+  "credits": 3,
+  "prerequisites": "CHIC-13, PHIC-11",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective covers different types of energy storage systems, which may be stand-alone or grid connected, and their storage efficiency.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Energy Storage",
+      "body": "Relevance and scenario, perspective on the development of energy storage systems, energy storage criteria, general concepts, conventional batteries - fundamentals and applications.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Grid-connected and Thermal Storage",
+      "body": "Grid-connected and off-grid energy storage systems and requirements. Thermal storage: thermal properties of materials, principle of operation, efficiency factors, large scale and medium scale operations, pros and cons, advances in thermal storage.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Mechanical, Electrochemical and Fuel Cell Storage",
+      "body": "Mechanical storage - types of systems, principle of operation, emerging advances, case study on flywheels. Electrochemical storage - materials, principle of operation, positive and negative electrode materials, electrolytes. Fuel cells and hydrogen storage - principle of operation, challenges and case studies.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Magnetic, Optical and Supercapacitor Storage",
+      "body": "Magnetic storage - principle of operation, emerging challenges, devices and technology review. Electro-optic and optical storage - principles of operation, device fabrication, emerging devices. Supercapacitors - principle of operation, device fabrication, challenges and technical review.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand different types of storage technologies.",
+    "Design a thermal storage system and model a battery storage system.",
+    "Analyze the thermodynamics of a fuel cell and the appropriate storage technologies for different applications.",
+    "Explore alternate energy storage technologies."
+  ],
+  "textbooks": [
+    "John T. Warner, Handbook of Lithium-Ion Battery Pack Design: Chemistry, Components, Types and Terminology, Elsevier.",
+    "San Ping Jiang, Fundamentals and Applications of Lithium-Ion Battery Management in Electric Drive Vehicles, Wiley.",
+    "Kazunori Ozawa (ed.), Lithium Ion Rechargeable Batteries, Wiley."
+  ],
+  "referenceBooks": [
+    "T. E. Lipman and A. Z. Weber, Fuel Cells and Hydrogen Production, Springer Reference.",
+    "Mehrdad Ehsani, Yimin Gao, Sebastien E. Gay and Ali Emadi, Modern Electric, Hybrid Electric and Fuel Cell Vehicles: Fundamentals, Theory and Design, CRC Press."
+  ]
+}

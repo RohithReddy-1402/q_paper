@@ -1,0 +1,61 @@
+{
+  "Course Title": "Digital Control Systems",
+  "Course Code": "EEOE-404",
+  "route": "course/eeoe-404",
+  "credits": 3,
+  "prerequisites": "EEPC-101, EEPC-204, EEPC-208",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "With the implementation of microprocessors, programmable logic devices and DSP chips as controllers in modern systems, this open elective provides a systematic approach to the vital theories required for appreciating the past and present status of control systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Signal Processing",
+      "body": "Introduction to digital control systems, overview of the classical approach to analog controller design, advantages of digital control, configuration of the basic digital control scheme, principles of signal conversion, discrete-time signals, sample-and-hold systems, the sampling and hold operations, the sampling theorem, sampled spectra and aliasing, reconstruction of analog signals, choice of sampling rate, principles of discretization, time-domain models for discrete-time systems, transfer function models, stability on the z-plane and the Jury stability criterion.",
+      "hours": 12
+    },
+    {
+      "id": "II",
+      "title": "Design of Digital Control",
+      "body": "z-plane specifications of control system design, digital compensator design using frequency response plots, digital compensator design using root locus plots, z-plane synthesis.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Control System Analysis using State Variable Methods",
+      "body": "State variable representation, conversion of state variable models to transfer functions and vice versa, canonical state variable models, eigen values and eigen vectors, concept of controllability and observability.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Case Studies",
+      "body": "Implementation of digital controllers, tunable PID controllers, digital temperature control systems, digital position control systems, stepping motors and their control, programmable logic controllers.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Learn the fundamentals of digital control systems and signal processing.",
+    "Design digital controllers and assess their design through constraint specifications.",
+    "Model and analyze digital systems in state space.",
+    "Learn the applications of digital control for various engineering problems."
+  ],
+  "textbooks": [
+    "M. Gopal, Digital Control and State Variable Methods, McGraw Hill Education.",
+    "B. C. Kuo, Digital Control Systems, Oxford University Press, New Delhi.",
+    "K. Ogata, Modern Control Engineering, Prentice Hall."
+  ],
+  "referenceBooks": [
+    "Hemchandra Madhusudan Shertukde, Digital Control Applications Illustrated with MATLAB, CRC Press, 2015.",
+    "I. D. Landau and G. Zito, Digital Control Systems: Design, Identification and Implementation, Springer-Verlag."
+  ]
+}

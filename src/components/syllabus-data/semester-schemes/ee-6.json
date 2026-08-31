@@ -1,0 +1,129 @@
+{
+  "branch": "EE",
+  "branchName": "Electrical Engineering",
+  "semester": 6,
+  "title": "B. Tech. Electrical Engineering (New Scheme) Semester VI",
+  "totalCredits": 21,
+  "rows": [
+    {
+      "type": "core",
+      "code": "EEPC-311",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "EEPC-312",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "EEPC-313",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "EEPC-314",
+      "ltpc": [
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "type": "core",
+      "code": "EEPC-315",
+      "ltpc": [
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "type": "core",
+      "code": "EEPC-316",
+      "ltpc": [
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "type": "core",
+      "code": "EEPC-317",
+      "ltpc": [
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective 2",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "EEPE-318A",
+        "EEPE-318B",
+        "EEPE-318C",
+        "EEPE-318D",
+        "EEPE-318E",
+        "EEPE-318F"
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective 2 (from the Institute list)",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "coCurricular",
+      "label": "NCC/Sports/Yoga",
+      "ltpc": [
+        0,
+        0,
+        4,
+        2
+      ],
+      "note": "Continuous Evaluation Model (SWAU11); credit awarded at the end of 6th semester based on cumulative performance up to 6th semester."
+    },
+    {
+      "type": "coCurricular",
+      "label": "NSS/Clubs/Technical Societies",
+      "ltpc": [
+        0,
+        0,
+        4,
+        2
+      ],
+      "note": "Continuous Evaluation Model (SWAU12); credit awarded at the end of 6th semester based on cumulative performance up to 6th semester."
+    }
+  ]
+}

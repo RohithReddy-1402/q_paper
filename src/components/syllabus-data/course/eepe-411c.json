@@ -1,0 +1,61 @@
+{
+  "Course Title": "Intelligent Modelling and Control",
+  "Course Code": "EEPE-411C",
+  "route": "course/eepe-411c",
+  "credits": 3,
+  "prerequisites": "MAIC-11, MAIC-12, EEPC-208, EEPC-303",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective introduces students to a variety of neural network structures and their mathematical modeling, the application of ANN models in identification and control of nonlinear systems, tuning procedures for updating ANN parameters, adaptive learning rate schemes and stability analysis of ANN-based modeling and control configurations.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Types of ANN",
+      "body": "Feed-forward neural networks (FFNN) and recurrent neural networks (RNN), activation functions, multi-layered perceptron, radial basis function network, Elman, Jordan, locally and fully connected recurrent neural networks, Pi-Sigma neural networks and their mathematical modeling.",
+      "hours": 8
+    },
+    {
+      "id": "II",
+      "title": "Modeling and Backpropagation",
+      "body": "Conversion of differential equations to difference equations, representation of nonlinear systems using differential equations, parallel-parallel and series-parallel modeling configurations based on ANN models, training and testing of ANN models, error-based performance indicators, normalization procedures, backpropagation (gradient-descent) method, derivation of weight tuning equations for FFNN and recurrent neural networks, online mode and epoch mode training.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Adaptive Control using ANN",
+      "body": "Model-reference adaptive control scheme, adaptive control based on FFNN and RNN models, development of tuning equations for ANN-based controllers using the BP method, simultaneous modeling and control procedures, offline and online training approaches, nature-inspired and evolutionary algorithms for tuning ANN parameters, action-critic neural network-based control using adaptive dynamic programming.",
+      "hours": 14
+    },
+    {
+      "id": "IV",
+      "title": "Adaptive Learning Rate and Stability",
+      "body": "Concept of the adaptive learning rate, algebraic methods of developing an adaptive learning rate, Lyapunov-stability methods, derivation of stable weight update laws using the Lyapunov-stability method, derivation of an adaptive learning rate scheme using the Lyapunov stability method, case studies (time series prediction, prediction of energy consumption).",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand various ANN models and their potential in modeling and control.",
+    "Understand the mathematical modeling of various ANN models and their parameter tuning.",
+    "Understand the modeling and control of nonlinear systems using ANN models.",
+    "Understand the stability issues of ANN-based modeling and control configurations and apply ANN models to real-world problems."
+  ],
+  "textbooks": [
+    "Simon Haykin, Neural Networks and Learning Machines, 3rd Edition, Pearson Education India, 2009.",
+    "M. Gopal, Applied Machine Learning, McGraw-Hill Education, 2019.",
+    "Jacek M. Zurada, Introduction to Artificial Neural Systems, Jaico Publishing House, 2012."
+  ],
+  "referenceBooks": [
+    "Stuart J. Russell and Peter Norvig, Artificial Intelligence: A Modern Approach, 3rd Edition, PHI, 2009.",
+    "S. N. Sivanandam and S. N. Deepa, Introduction to Neural Networks Using MATLAB 6.0, TMH, 2006."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "Course Title": "Power Engineering Lab-I",
+  "Course Code": "EEPC-307",
+  "route": "course/eepc-307",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    0,
+    0,
+    3,
+    1
+  ],
+  "contactHours": 42,
+  "description": "Laboratory experiments are based upon the corresponding theory course EEPC-209. An updated list of experiments is floated by the course coordinator before the beginning of each semester.",
+  "syllabus": [],
+  "outcomes": [
+    "Evaluate the operation and design of transmission lines.",
+    "Apply numerical techniques for load flow calculations.",
+    "Analyze different faults using the Z-bus building algorithm and the stability of a power system.",
+    "Understand the operation of circuit breakers and high voltage generation techniques."
+  ],
+  "experiments": [
+    "Determine the ABCD parameters of a transmission line and calculate its regulation and efficiency.",
+    "Formulate the bus admittance matrix using graph theory and a direct building algorithm considering phase shifters and transformers.",
+    "Perform load flow analysis using the Gauss-Seidel method.",
+    "Perform load flow analysis using the Newton-Raphson method and the fast decoupled technique.",
+    "Perform Z-bus formation and symmetrical fault analysis.",
+    "Perform unsymmetrical fault analysis using the Z-bus technique.",
+    "Simulate the Marx circuit for impulse generation.",
+    "Demonstrate the Marx circuit for switching and lightning impulse generation.",
+    "Study the breakdown of air using high voltage AC with different electrode geometries.",
+    "Study the operation of an MCCB and an air circuit breaker.",
+    "Perform stability analysis using the Runge-Kutta method.",
+    "Perform a dielectric test on transformer oil.",
+    "Design a transmission line using given specifications as an individual design project."
+  ]
+}

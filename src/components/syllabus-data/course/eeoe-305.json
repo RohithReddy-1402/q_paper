@@ -1,0 +1,61 @@
+{
+  "Course Title": "Power Electronic Systems",
+  "Course Code": "EEOE-305",
+  "route": "course/eeoe-305",
+  "credits": 3,
+  "prerequisites": "EEPC-101, EEPC-202",
+  "Course Type": "OE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This open elective covers modern power electronic devices, AC to DC converters, DC to DC and AC to AC converters, and applications of power converters to renewable energy systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Modern Power Electronic Devices",
+      "body": "Principle of operation of SCR, dynamic characteristics during turn ON and turn OFF, two transistor analogy, protection of SCR, snubber circuit, commutation circuits, SCR ratings, triggering methods, series and parallel operation of SCR, principle of operation of IGBT, GTO, DIAC and TRIAC and their operating characteristics.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "AC to DC Converters",
+      "body": "Single-phase converter - half-wave converter, 2-pulse midpoint converter, half-controlled and fully-controlled bridge converters, effect of load and source impedance, input power factor, displacement factor, harmonic factor and output voltage, effect of free-wheeling diode, dual converter. Three-phase converter - half wave, full wave, half and fully controlled bridge converters.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "DC to DC and AC to AC Converters",
+      "body": "Classification of choppers, principle of operation, steady state analysis of class A chopper, step up chopper, switching mode regulators (buck, boost, buck-boost). Single-phase AC regulator, effect of load inductance, cyclo-converter waveforms and control technique.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Applications to Renewable Energy Systems",
+      "body": "Multi-level converters, topologies and control techniques, PWM techniques, DC-DC converter, interleaved buck/boost converter, advanced modulation techniques, multi-channel interleaved boost converters, voltage source converters, control of grid-tied converters.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand fundamental concepts in power electronics.",
+    "Analyze power converter circuits and power electronics-based design and application.",
+    "Troubleshoot power electronics circuits and analyze power converter-based renewable energy systems.",
+    "Troubleshoot grid compatibility issues with power electronics circuits."
+  ],
+  "textbooks": [
+    "M. Ramamoorthy, Thyristors and their Applications, East West Publication, 1991.",
+    "P. S. Bhimbra, Power Electronics, Khanna Publishers, 2015.",
+    "M. D. Singh and K. B. Khanchandani, Power Electronics, TMH Edition, 2007."
+  ],
+  "referenceBooks": [
+    "N. Mohan, T. M. Undeland and W. P. Robbins, Power Electronics: Converters, Applications and Design, 3rd Edition, Wiley India.",
+    "V. Yaramasu and B. Wu, Model Predictive Control of Wind Energy Conversion Systems, Wiley-IEEE Press, 2016."
+  ]
+}

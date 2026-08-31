@@ -1,0 +1,60 @@
+{
+  "Course Title": "Signal Processing",
+  "Course Code": "EEPE-310B",
+  "route": "course/eepe-310b",
+  "credits": 3,
+  "prerequisites": "MAIC-11, MAIC-12, EEPC-101, EEPC-204",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "Signal processing is a broad and growing discipline concerned with the analysis of both analog and digital signals, with applications in communications, control, image and video processing, radar and consumer electronics. The field includes the mathematical theory of the subject as well as the design and analysis of the devices for carrying out the processing.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Z-transform and the DFT",
+      "body": "Z-transform and its applications, one-sided Z-transform and solution of difference equations, analysis of LTI systems in the Z-domain, stability tests, relationship between Z-transform and Fourier transform. Frequency domain sampling and the DFT, properties, linear filtering methods based on the DFT, efficient computation of the DFT using the FFT, divide and conquer approach, radix-2 and radix-4 FFT algorithms, applications of the FFT, computation of the DFT of real sequences, introduction to wavelets.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Digital Filter Structures",
+      "body": "Structures for FIR systems: direct form, cascade form, frequency sampling and lattice structures. Structures for IIR systems: direct form, transposed, cascade and parallel forms, lattice and lattice-ladder structures.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "FIR and IIR Filter Design",
+      "body": "Characteristics of practical frequency selective filters, filter design specifications, types of FIR filters, design of FIR filters using windows and the frequency sampling method. Design of IIR filters from analog filters, design by approximation of derivatives, impulse invariance method, bilinear transformation of Butterworth and Chebyshev filters, frequency transformation, least square methods, design of IIR filters in the frequency domain.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Applications",
+      "body": "Applications of signal processing in various sustainable technologies, case studies from the Indian knowledge system.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Understand discrete-time sequences and the Z-transform.",
+    "Compute the DFT and FFT of discrete time signals.",
+    "Design FIR and IIR filters using different techniques.",
+    "Practise different signal processing techniques for various applications."
+  ],
+  "textbooks": [
+    "John G. Proakis, Digital Signal Processing, PHI.",
+    "S. K. Mitra, Digital Signal Processing, TMH.",
+    "L. R. Rabiner and B. Gold, Digital Signal Processing, PHI."
+  ],
+  "referenceBooks": [
+    "S. Salivahanan, Digital Signal Processing, TMH."
+  ]
+}

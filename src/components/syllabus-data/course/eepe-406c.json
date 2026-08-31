@@ -1,0 +1,61 @@
+{
+  "Course Title": "Power Systems Security and Optimization",
+  "Course Code": "EEPE-406C",
+  "route": "course/eepe-406c",
+  "credits": 3,
+  "prerequisites": "EEPC-209",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective provides an in-depth understanding of power system security and optimization, focusing on power system security, optimal power flow and its solution techniques, state estimation and forecasting of load and electricity price.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Power System Security",
+      "body": "Introduction, power system states, factors affecting power system security, contingency analysis - detection of network problems, linear sensitivity factors, flowgates, voltage collapse.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Optimal Power Flow",
+      "body": "Power flow equations, OPF modelling, DC optimal power flow, security constrained OPF, modified OPF models, applications of OPF, solution of DCOPF using linear programming, solution of ACOPF using Newton method, gradient method, evolutionary algorithm and swarm optimization.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "State Estimation",
+      "body": "Introduction, problem formulation, network and measurement model, solution through normal equations, fast decoupled estimator, observability analysis, orthogonal factorization, Hachtel's matrix based solution, bad data detection and identification, non-quadratic state estimators, inclusion of PMUs in state estimation.",
+      "hours": 10
+    },
+    {
+      "id": "IV",
+      "title": "Short-Term Forecasting",
+      "body": "Forecasting in electrical power systems, analytic methods, demand model, econometric models, time series, system identification, model development, forecasting errors, model integration, artificial neural networks, back propagation, recurrent neural networks.",
+      "hours": 12
+    }
+  ],
+  "outcomes": [
+    "Understand power system security concepts and perform contingency analysis.",
+    "Explore different techniques for the solution of optimal power flow.",
+    "Apply techniques for state estimation of an electric power system.",
+    "Appraise techniques for short term load and price forecasting."
+  ],
+  "textbooks": [
+    "Allen J. Wood, Bruce F. Wollenberg and Gerald B. Sheble, Power Generation, Operation and Control, IEEE Wiley, 3rd Edition, 2014.",
+    "Joao P. S. Catalao, Electric Power Systems: Advanced Forecasting Techniques and Optimal Generation Scheduling, CRC Press, 2012.",
+    "D. P. Kothari and J. S. Dhillon, Power System Optimization, PHI Learning, 2010."
+  ],
+  "referenceBooks": [
+    "Antonio Gomez-Exposito, Antonio J. Conejo and Claudio A. Canizares, Electric Energy Systems: Analysis and Operation, 2nd Edition, CRC Press, 2018.",
+    "S. S. Rao, Engineering Optimization: Theory and Practice, John Wiley and Sons, 5th Edition, 2019."
+  ]
+}

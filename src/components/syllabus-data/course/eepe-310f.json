@@ -1,0 +1,60 @@
+{
+  "Course Title": "Electrical Safety and Standards",
+  "Course Code": "EEPE-310F",
+  "route": "course/eepe-310f",
+  "credits": 3,
+  "prerequisites": "EEPC-101, EEPC-203",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective provides the basics of electrical safety and the methodology to avoid electrical hazards.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Electrical Installation and Wiring Safety",
+      "body": "Understanding electrical hazards, importance of electrical safety, basic principles of electricity, voltage, current and resistance, electrical circuits and components, skin effect, cable inductance, surge impedance, bus bar impedance calculations, cable capacitance, electrical hazards of resistance and capacitance, safe wiring practices, proper installation and maintenance of electrical systems, electrical distribution and control equipment.",
+      "hours": 11
+    },
+    {
+      "id": "II",
+      "title": "Electric Shocks, the Human Body and Grounding",
+      "body": "Electrical shock and circuit model of the body, frequency response of the human body, effect of current on the human body, human and animal sensitivities to electric current, human body impedance, effects of various exposure conditions, current paths through the body, human response to electrical shock, types of injury, hold-on current and permissible leakage, ventricular fibrillation, body resistance, limits of safety, effect of frequency, respiratory arrest, artificial respiration, acoustic shock, arc eye, burns, protection against electrical injuries, toxic hazards.",
+      "hours": 15
+    },
+    {
+      "id": "III",
+      "title": "Arc Flash Hazard and Electrical Hazard",
+      "body": "Arc flash hazards, factors affecting the severity of arc flash hazards, remediation of arc flash hazards, coordination of low-voltage breakers, instantaneous trips for arc flash hazard reduction, low-voltage transformer secondary arc flash protection using fuses.",
+      "hours": 8
+    },
+    {
+      "id": "IV",
+      "title": "Regulations, Standards and Case Studies",
+      "body": "Overview of applicable regulations and standards, national and international safety codes, compliance requirements, identifying electrical hazards in various environments, site safety for industrial, construction and residential settings, working on energized equipment, emergency response and evacuation plans, real-life examples of electrical accidents and their prevention, best practices for electrical safety implementation.",
+      "hours": 8
+    }
+  ],
+  "outcomes": [
+    "Identify and assess electrical hazards in various environments.",
+    "Analyze the factors affecting human response to electric shock such as frequency, current paths and body impedance.",
+    "Design and coordinate low-voltage breaker systems for arc flash hazard reduction.",
+    "Demonstrate knowledge of national and international safety codes and compliance requirements."
+  ],
+  "textbooks": [
+    "Peter E. Sutherland, Principles of Electrical Safety, John Wiley and Sons, 2014.",
+    "W. Fordham-Cooper, Electrical Safety Engineering, Elsevier, 1998.",
+    "John Cadick et al., Electrical Safety Handbook, McGraw-Hill Education, 2012."
+  ],
+  "referenceBooks": [
+    "David J. Marne, McGraw-Hill's National Electrical Safety Code (NESC) Handbook, McGraw-Hill Education, 2017."
+  ]
+}

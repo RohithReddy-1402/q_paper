@@ -1,0 +1,60 @@
+{
+  "Course Title": "Power Converters for Renewable Energy",
+  "Course Code": "EEMI-407B",
+  "route": "course/eemi-407b",
+  "credits": 3,
+  "prerequisites": "EEMI-301, EEMI-302",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course explores various DC and AC converters for renewable energy, PV control schemes for solar energy, and converters for wind energy and wave energy applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "AC-DC Converters",
+      "body": "Single phase and three phase controlled and uncontrolled half-wave converter, 2-pulse midpoint converter, half-controlled and fully-controlled bridge converters, effect of load and source impedance, input power factor, displacement factor, harmonic factor and output voltage, effect of free-wheeling diode, triggering circuits, dual converter.",
+      "hours": 11
+    },
+    {
+      "id": "II",
+      "title": "Power Converters and Analysis of Solar PV Systems",
+      "body": "Line commutated converters (inversion mode), boost and buck-boost converters, selection of inverter, battery and array sizing, simulation of line commutated and buck/boost converters, block diagram of solar PV systems, types of solar PV systems (stand-alone, grid integrated), grid connection issues.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "DC to AC Converters",
+      "body": "Classification, series and parallel inverters, single-phase voltage source inverter and analysis with various types of loads, three-phase voltage source inverter with 180 degree and 120 degree conduction modes, PWM inverters and techniques, reduction of harmonics, voltage regulation in single-phase inverters, single-phase current source inverter, applications in households and industries.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Multilevel Converters and Inverters",
+      "body": "Introduction to multilevel converters, cascaded H-bridge multilevel converters, output voltage waveform synthesis in the CHB converter, asymmetrical CHB converters, phase-shifted and level-shifted PWM, modular multilevel converters.",
+      "hours": 10
+    }
+  ],
+  "outcomes": [
+    "Describe the basic components of the AC-DC conversion system.",
+    "Apply knowledge to solar energy applications.",
+    "Identify the significance of DC to DC and DC to AC converters and their design for PV and wind.",
+    "Understand multilevel converters and different topologies."
+  ],
+  "textbooks": [
+    "P. S. Bhimbra, Power Electronics, Khanna Publishers, 2018.",
+    "N. Mohan, T. M. Undeland and W. P. Robbins, Power Electronics: Converters, Applications and Design, 3rd Edition, Wiley India.",
+    "Bin Wu and Mehdi Narimani, High-Power Converters and AC Drives, 2nd Edition, Wiley-IEEE Press, 2017."
+  ],
+  "referenceBooks": [
+    "Haitham Abu-Rub, Mariusz Malinowski and Kamal Al-Haddad, Power Electronics for Renewable Energy Systems, Transportation and Industrial Applications, 1st Edition, Wiley-IEEE Press, 2016."
+  ]
+}

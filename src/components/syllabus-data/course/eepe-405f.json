@@ -1,0 +1,61 @@
+{
+  "Course Title": "Energy Auditing, Conservation and Management",
+  "Course Code": "EEPE-405F",
+  "route": "course/eepe-405f",
+  "credits": 3,
+  "prerequisites": "EEPC-203",
+  "Course Type": "PE",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This program elective provides the methodology for energy auditing, the principles of energy management and energy conservation using technology and related policies.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Energy Audit",
+      "body": "Definition and importance of energy auditing, conservation and management, overview of energy management systems and standards, role of energy auditors and managers, fundamental concepts of energy, power and energy units, energy efficiency and energy intensity metrics, energy audit process, pre-audit activities, energy audit objectives and scope, energy measurement and monitoring techniques, energy audit tools and equipment, benchmarking and energy performance indicators, energy audit techniques for lighting, HVAC, building envelope, electrical and renewable energy systems, energy audit report preparation.",
+      "hours": 13
+    },
+    {
+      "id": "II",
+      "title": "Energy Management Systems, Policy and Regulations",
+      "body": "Introduction to energy management systems (EnMS), ISO 50001 standard, steps for implementing an effective energy management system, overview of energy policy and regulations, energy efficiency standards and incentives, national and international energy efficiency policies and targets, energy conservation programs and regulations, energy planning and policy development.",
+      "hours": 10
+    },
+    {
+      "id": "III",
+      "title": "Energy Conservation",
+      "body": "Energy conservation measures for lighting upgrades, HVAC upgrades, building envelope improvements and renewable energy integration with cost-benefit analysis and return on investment calculations, life-cycle cost analysis and payback period calculations, energy conservation measures for motor systems and data centers, energy efficiency in industrial processes, case studies and best practices.",
+      "hours": 11
+    },
+    {
+      "id": "IV",
+      "title": "Case Studies and Applications",
+      "body": "Energy auditing and conservation in transportation and healthcare facilities, renewable energy procurement, detailed analysis of real-world energy audit case studies, energy management in the context of climate change, emerging trends in energy auditing and management.",
+      "hours": 8
+    }
+  ],
+  "outcomes": [
+    "Understand energy auditing, conservation and management, including their definition and significance.",
+    "Evaluate energy audits by understanding the energy audit process.",
+    "Identify and implement energy conservation measures in various areas.",
+    "Analyze detailed case studies of energy audits and gain insights from successful projects."
+  ],
+  "textbooks": [
+    "L. Ashok Kumar and Gokul Ganesan (eds.), Energy Audit and Management: Concept, Methodologies, Procedures and Case Studies, CRC Press, 2022.",
+    "Tarik Al-Shemmeri, Energy Audits: A Workbook for Energy Management in Buildings, John Wiley and Sons, 2011.",
+    "Wayne C. Turner and Steve Doty, Energy Management Handbook, The Fairmont Press."
+  ],
+  "referenceBooks": [
+    "ISO 50001:2018 - Energy Management Systems - Requirements with Guidance for Use, International Organization for Standardization.",
+    "Barney L. Capehart, Wayne C. Turner and William J. Kennedy, Guide to Energy Management, CRC Press."
+  ]
+}

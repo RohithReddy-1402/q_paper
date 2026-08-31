@@ -1,0 +1,27 @@
+{
+  "Course Title": "Seminar",
+  "Course Code": "EEPC-408",
+  "route": "course/eepc-408",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 28,
+  "description": "Students learn how to search journal papers, prepare a report and present a seminar. The seminar enhances their knowledge in a new technology domain and develops writing, professional, teamwork, ethics and communication skills. It is evaluated on the basis of a presentation cum viva-voce examination and the report submitted by the candidate.",
+  "syllabus": [],
+  "outcomes": [
+    "Develop interest towards research-oriented fields with the ability to search the literature and prepare a brief report.",
+    "Develop the skills, competencies and points of view needed by professionals in fields closely related to electrical engineering.",
+    "Discuss and think critically about topics of current intellectual importance.",
+    "Develop presentation and communication skills."
+  ]
+}

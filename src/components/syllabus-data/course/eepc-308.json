@@ -1,0 +1,39 @@
+{
+  "Course Title": "Power Electronics Lab-I",
+  "Course Code": "EEPC-308",
+  "route": "course/eepc-308",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    0,
+    0,
+    3,
+    1
+  ],
+  "contactHours": 42,
+  "description": "Laboratory experiments are based upon the corresponding theory course EEPC-210. An updated list of experiments is floated by the course coordinator before the beginning of each semester.",
+  "syllabus": [],
+  "outcomes": [
+    "Understand the characteristics of various power devices.",
+    "Analyze various power device operations based on experiments.",
+    "Understand the performance analysis of various power converters.",
+    "Understand the operation of DC drives."
+  ],
+  "experiments": [
+    "Study the characteristics of MOSFET, IGBT, SCR, TRIAC and DIAC.",
+    "Study the UJT as a relaxation oscillator.",
+    "Study commutation circuits of the SCR.",
+    "Study the performance of single-phase half controlled and fully controlled bridge rectifiers.",
+    "Simulate the single-phase controlled rectifier in PSIM and MATLAB.",
+    "Study the operation of a three-phase full wave rectifier circuit.",
+    "Study single-phase AC motor speed control using a TRIAC.",
+    "Study an SCR based cycloconverter.",
+    "Study a single-phase dual converter and cycloconverter using MATLAB.",
+    "Study speed control of a DC motor using a three-phase fully controlled rectifier circuit using PSIM."
+  ]
+}

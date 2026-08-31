@@ -1,0 +1,61 @@
+{
+  "Course Title": "Fundamentals of Electrical Engineering (Circuits, Measurements and Control Systems)",
+  "Course Code": "EEMI-301",
+  "route": "course/eemi-301",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "IC (Minor)",
+  "Branch": [
+    "EE"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This minor course familiarizes students of any branch with the basic concepts of electric circuits, measurement of different electrical quantities and the basic concepts of control systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Circuit Analysis",
+      "body": "Review of KCL, KVL and DC circuit analysis, network theorems and their applications (superposition, Thevenin, Norton, maximum power transfer), analysis of three phase circuits and their properties, power in three phase circuits.",
+      "hours": 10
+    },
+    {
+      "id": "II",
+      "title": "Measurements",
+      "body": "Error analysis, concept of instruments to measure voltage, current, energy, phase and frequency, classification and description of analog and digital instruments, measurement of resistance, inductance and capacitance, instrument transformers.",
+      "hours": 12
+    },
+    {
+      "id": "III",
+      "title": "Control Systems",
+      "body": "Concept of control, control system terminology, classification of control systems, block diagram, signal flow graph, transfer function, state space, characteristics of control systems, concept of stability analysis.",
+      "hours": 12
+    },
+    {
+      "id": "IV",
+      "title": "Applications",
+      "body": "Application of measurement systems - transducers and sensors; real-life examples and applications of control systems.",
+      "hours": 8
+    }
+  ],
+  "outcomes": [
+    "Understand and apply the basic principles of electrical circuits to solve problems related to electric circuits.",
+    "Understand the basics of different instruments for the measurement of electrical quantities.",
+    "Understand the basic concept of control systems and stability analysis.",
+    "Apply measurement and control systems in real life."
+  ],
+  "textbooks": [
+    "A. Chakrabarti, Circuit Theory: Analysis and Synthesis, Dhanpat Rai and Sons, 2020.",
+    "M. E. Van Valkenburg, Network Analysis, PHI.",
+    "K. Ogata, Modern Control Engineering, 5th Edition, PHI, 2012."
+  ],
+  "referenceBooks": [
+    "A. K. Sawhney, Electrical and Electronic Measurements and Instrumentation, Dhanpat Rai, Delhi.",
+    "I. J. Nagrath and M. Gopal, Control System Engineering, New Age International Publishers, 5th Edition, 2007."
+  ]
+}
