@@ -4,7 +4,8 @@ Live site: **[nitkkrpyqs.in](https://nitkkrpyqs.in)** — also served under the 
 
 A React web app for students of **NIT Kurukshetra (NIT KKR)** to browse and download previous year question papers (PYQs), and to look up the full B.Tech syllabus (branch → semester → course) for every branch offered. Students can also contribute their own papers, which go through a verification step before being published. This repository is the **frontend only** (React + Vite); it talks to a separate Node/Express + MongoDB backend over HTTP.
 
-Repo: `git@github.com:RohithReddy-1402/q_paper.git` (package name: `q_paper`).
+Repo (frontend): `git@github.com:RohithReddy-1402/q_paper.git` (package name: `q_paper`).
+Repo (backend): `git@github.com:RohithReddy-1402/back.git` (package name: `back`).
 
 ---
 
