@@ -5,8 +5,13 @@
       "destination": "/sitemap.xml"
     },
     {
+      "source": "/sw.js",
+      "destination": "/sw.js"
+    },
+    {
       "source": "/((?!sitemap.xml).*)",
       "destination": "/index.html"
     }
   ]
+
 }
