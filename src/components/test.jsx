@@ -35,6 +35,23 @@ export default function SyllabusPage() {
         const module = await import(`./syllabus-data/course/${code}.json`);
         // console.log("Loaded course data:", module.default);
         setD(module.default);
+
+        const opened = courseByCode.get(module.default["Course Code"]);
+        if (opened) {
+          fetch(
+            `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/syllabus/${opened.id}/download`,
+            {
+              method: "PATCH",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                title: opened["Course Title"],
+                courseId: opened["Course Code"],
+              }),
+            },
+          ).catch((err) => console.error("Failed to record download:", err));
+        }
       } catch (err) {
         console.error(err);
       }

@@ -129,24 +129,6 @@ loadDownloads();
     return syllabusFuse.search(q).map((r) => r.item);
   }, [syllabusFuse, searchQuery, syllabusData, exactCourseId]);
 
-  const handleDisplay = (event, paper) => {
-    // console.log(paper);
-    if (!paper) {
-      alert("Download link not available for this paper.");
-      return;
-    }
-    const res = fetch(
-      `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/syllabus/${paper.id}/download`,
-      {
-        method: "PATCH",
-        body: JSON.stringify({ paper_id: paper.paper_id ,title: paper["Course Title"],courseId: paper["Course Code"]}),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      },
-    );
-    // nav(fileId);
-  };
   const handleiconclick = () => {
     const dropdown = document.getElementById("userDropdown");
 
@@ -528,7 +510,6 @@ const branches = [
               <div
                 key={paper["id"]}
                 className="bg-white overflow-hidden shadow rounded-lg cursor-pointer"
-                onClick={(e) => handleDisplay(e, paper)}
               >
                   <Link
                           key={paper["Course Code"]}
