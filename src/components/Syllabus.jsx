@@ -2,10 +2,9 @@ import { title } from "framer-motion/client";
 import React, { useEffect, useState,useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useToast } from "./ToastContext";
-import { Download, Loader2, Check } from "lucide-react";
+import { Eye } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import Fuse from "fuse.js";
-import DownloadButton from "./DownloadButton";
 import SearchAutocomplete from "./SearchAutocomplete";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
@@ -578,13 +577,13 @@ const branches = [
 
 
                     </button> */}
-                    <DownloadButton
-                      key={paper.paper_id}
-                      paper={paper}
-                      addToast={addToast}
-                      isLoggedIn={isLoggedIn}
-                      onLoginClick={onLoginClick}
-                    />
+                    <Link
+                      to={`/nit-kkr/syllabus/${paper.route}`}
+                      className="inline-flex items-center gap-1.5 px-3 py-1 border border-transparent text-sm leading-4 font-medium cursor-pointer rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                    >
+                      <Eye className="w-4 h-4" />
+                      View
+                    </Link>
                   </div>
                 </div>
               </div>
