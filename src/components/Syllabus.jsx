@@ -582,6 +582,8 @@ const branches = [
                       key={paper.paper_id}
                       paper={paper}
                       addToast={addToast}
+                      isLoggedIn={isLoggedIn}
+                      onLoginClick={onLoginClick}
                     />
                   </div>
                 </div>

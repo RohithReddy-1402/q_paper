@@ -3,6 +3,7 @@ import { Clock, FileText, Eye, Calendar, User, ArrowLeft, Edit3, Check, Trash2 }
 import { Helmet } from 'react-helmet-async';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
+import { apiFetch } from '../services/api';
 const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
 
     const [selectedPaper, setSelectedPaper] = useState(null);
@@ -60,7 +61,7 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
     };
 
     const handleApprove = async () => {
-        const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/verifiedpaper/${selectedPaper.r2Key}`, {
+        const res = await apiFetch(`/verifiedpaper/${selectedPaper.r2Key}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -74,26 +75,32 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
           year: selectedPaper.year,
           examType: selectedPaper.examType,
             r2Key:selectedPaper.r2Key,
-      
+
         })
-        ,credentials: "include"
       })
-        
-      await 
+        if (res.status === 401) {
+          addToast("Session expired — please sign in again.", "error");
+          return;
+        }
+        if (res.ok) {
+          addToast("Paper Approved", "success");
+        }
         setSelectedPaper(null);
     };
 
     const handleDelete = async () => {
         if (window.confirm('Are you sure you want to delete this paper?')) {
             setQuestionPapers(papers => papers.filter(paper => paper.r2Key !== selectedPaper.r2Key));
-            const result = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/deletepaper/${selectedPaper.r2Key}`, {
+            const result = await apiFetch(`/deletepaper/${selectedPaper.r2Key}`, {
                 method: "DELETE"
             });
+            if (result.status === 401) {
+                addToast("Session expired — please sign in again.", "error");
+                return;
+            }
             if (result.status==200){
                 addToast("Paper Deleted","success");
-                await 
-        setSelectedPaper(null);
-            
+                setSelectedPaper(null);
             }
         }
     };

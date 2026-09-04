@@ -9,6 +9,7 @@ import DownloadButton from './DownloadButton';
 import SearchAutocomplete from './SearchAutocomplete';
 import Footer from './Footer';
 import { viewPaper } from '../services/r2.service';
+import { apiFetch, readRateLimitError } from '../services/api';
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading, setDownloadCounts, setPapersLength, questionPapers }) => {
 
   const [activeTab, setActiveTab] = useState('all');
@@ -35,15 +36,24 @@ const handleDisplay = async (event, key) => {
   if(!key){
     return
   }
-  const res = fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/papers/downloadcount`, {
-            method: 'PATCH',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                r2Key: key
-        }),
-        })
+  try {
+    const res = await apiFetch(`/papers/downloadcount`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ r2Key: key }),
+    });
+    if (res.status === 429) {
+      const { message } = await readRateLimitError(res);
+      addToast(message, "error");
+      if (!isLoggedIn) {
+        addToast("Sign in for unlimited downloads.", "info");
+        onLoginClick?.();
+      }
+      return;
+    }
+  } catch (err) {
+    console.error("download count failed:", err);
+  }
   const url= `https://pdf.nitkkrpyqs.in/${key}`;
   const a = document.createElement("a");
 a.href = url;
@@ -376,6 +386,8 @@ a.click();
                     key={paper.paper_id}
                     paper={paper}
                     addToast={addToast}
+                    isLoggedIn={isLoggedIn}
+                    onLoginClick={onLoginClick}
                   />
                 </div>
               </div>

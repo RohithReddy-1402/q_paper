@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet";
 import Breadcrumbs from "./Breadcrumbs";
 import coursesInfo from "./syllabus-data/courses-info.json";
 import { BRANCHES } from "./syllabus-data/branches";
+import { apiFetch } from "../services/api";
 
 const courseByCode = new Map(coursesInfo.map((c) => [c["Course Code"], c]));
 
@@ -38,8 +39,8 @@ export default function SyllabusPage() {
 
         const opened = courseByCode.get(module.default["Course Code"]);
         if (opened) {
-          fetch(
-            `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/syllabus/${opened.id}/download`,
+          apiFetch(
+            `/api/syllabus/${opened.id}/download`,
             {
               method: "PATCH",
               headers: {

@@ -30,6 +30,7 @@ const TechStack = lazy(() => import("./components/TechStack"));
 const PrivacyPolicy = lazy(() => import("./components/PrivacyPolicy"));
 const NotFound = lazy(() => import("./components/NotFound"));
 import { ToastProvider, useToast } from "./components/ToastContext";
+import { apiFetch, clearToken } from "./services/api";
 import { GoogleOAuthProvider } from "@react-oauth/google";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Analytics } from "@vercel/analytics/react";
@@ -49,14 +50,9 @@ function App_main() {
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        const response = await fetch(
-          `${import.meta.env.VITE_BACKEND_ENDPOINT}/auth/check`,
-          {
-            method: "GET",
-            credentials: "include",
-          },
-        );
+        const response = await apiFetch("/auth/check", { method: "GET" });
         if (!response.ok) {
+          // apiFetch already cleared the token on 401
           setIsLoggedIn(false);
           setUser(null);
           return;
@@ -122,14 +118,19 @@ function App_main() {
   const handleLogout = async () => {
     addToast("Logout Successful", "success");
     setUser(null);
-
     setIsLoggedIn(false);
-    const response = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/logout`, {
-      method: "POST",
-      credentials: "include",
-      headers: { "Content-Type": "application/json" },
-    });
-    const data = await response.json();
+    // Logout is now client-side: drop the stored token.
+    clearToken();
+    // Best-effort clear of the legacy cookie (not required).
+    try {
+      await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/logout`, {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+      });
+    } catch {
+      /* ignore */
+    }
   };
   return (
     <ToastProvider>
