@@ -30,18 +30,24 @@ export default function DownloadButton({ paper, addToast, isLoggedIn, onLoginCli
         }
         setStatus("loading");
         try {
-            // Rate limit is enforced on the request itself — check 429 first.
             const countRes = await apiFetch(`/papers/downloadcount`, {
                 method: "PATCH",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ r2Key: paper.r2Key }),
             });
+            console.log("Download count response:", countRes);
             if (countRes.status === 429) {
                 await handleRateLimited(countRes);
                 return;
             }
             trackRemaining(countRes);
-
+            const countData = await countRes.json();
+            if (countData.remaining <= 0) {
+                addToast("Daily download limit reached.", "error");
+                setStatus("idle");
+                return;
+            }
+            console.log(`Remaining downloads: ${countData.remaining}`);
             const fileRes = await apiFetch(`/api/download/${paper.r2Key}`);
             if (fileRes.status === 429) {
                 await handleRateLimited(fileRes);
@@ -67,7 +73,7 @@ export default function DownloadButton({ paper, addToast, isLoggedIn, onLoginCli
             );
             setStatus("done");
         } catch (err) {
-            addToast("Download failed. Please try again.", "error");
+            addToast(`Download failed. Please try again. ${err.message}`, "error");
             setStatus("error");
         } finally {
             setTimeout(() => setStatus("idle"), 2000);
