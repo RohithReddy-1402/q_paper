@@ -1,6 +1,7 @@
 import { em } from "framer-motion/client";
 import { useEffect, useRef, useState } from "react";
 import { useToast } from "./ToastContext";
+import { setToken } from "../services/api";
 const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, onLogin, onClose }) => {
   const containerRef = useRef(null);
   const [email, setEmail] = useState("");
@@ -102,11 +103,12 @@ const ForgotPassword = ({ isForgotOpen, onForgotClose, isLoading, onLoadClose, o
           body: JSON.stringify({ EmailID: email, pass: password })
 
         })
-        const data = response.json();
-    
+        const data = await response.json().catch(() => ({}));
+
         onLoadClose();
         if (response.status == 200) {
           addToast("password changed successfully", "success");
+          if (data.token) setToken(data.token);
           onLogin({ name: data.name, email: data.EmailID });
           onForgotClose();
           setPassInput(false)

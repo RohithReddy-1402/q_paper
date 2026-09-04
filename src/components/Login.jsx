@@ -4,6 +4,7 @@ import { ToastProvider, useToast } from "./ToastContext";
 import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
 import { auth, provider, signInWithPopup } from './fireBase';
+import { setToken } from '../services/api';
 const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass, isLoading, onLoadClose }) => {
   const [isLogin, setIsLogin] = useState(false);
   const [email, setEmail] = useState('');
@@ -54,6 +55,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       onLoadClose();
       if (data.user) {
         addToast("Login successful", "success");
+        if (data.token) setToken(data.token);
         const userData = { email: data.user?.EmailID, name: data.user?.username };
         onLogin(userData);
         onClose();
@@ -81,11 +83,35 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
     document.body.appendChild(script);
   }, []);
  
-  const handleCredentialResponse = (response) => {
+  const handleCredentialResponse = async (response) => {
 
-    const user = jwtDecode(response.credential);
-    localStorage.setItem('user', JSON.stringify(user));
-    const userData = { email: user?.email, name: user?.name };
+    const decoded = jwtDecode(response.credential);
+    localStorage.setItem('user', JSON.stringify(decoded));
+    let userData = { email: decoded?.email, name: decoded?.name };
+
+    // Exchange the Google credential for our own JWT so the session survives
+    // cross-site cookie loss (Safari/Chrome).
+    try {
+      const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/login/google`, {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ credential: response.credential }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        if (data?.token) setToken(data.token);
+        if (data?.user) {
+          userData = {
+            email: data.user.EmailID || data.user.email || userData.email,
+            name: data.user.username || data.user.name || userData.name,
+          };
+        }
+      }
+    } catch (err) {
+      console.error("Google login exchange failed:", err);
+    }
+
     onLogin(userData);
     onClose();
     addToast("Login Successful", "success")
@@ -107,6 +133,26 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       const result = await signInWithPopup(auth, provider);
       const user = result?.user;
       const userData={email:user?.email,name:user?.displayName};
+
+      // Exchange the Firebase ID token for our own JWT.
+      try {
+        const idToken = await user?.getIdToken?.();
+        if (idToken) {
+          const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/login/google`, {
+            method: "POST",
+            credentials: "include",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ credential: idToken }),
+          });
+          if (res.ok) {
+            const data = await res.json();
+            if (data?.token) setToken(data.token);
+          }
+        }
+      } catch (err) {
+        console.error("Google login exchange failed:", err);
+      }
+
       onLogin(userData);
       onClose();
     } catch (err) {
@@ -126,6 +172,7 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       onLoadClose();
       if (response.status == 201) {
         addToast("Account Created Successfully", "success");
+        if (data.token) setToken(data.token);
         const userData = { email, username };
         onLogin(userData); onClose()
       }
