@@ -18,6 +18,7 @@ import { useToast } from "./ToastContext";
 import { useNavigate } from "react-router-dom";
 import CrackerShotsEffect from "./celebration";
 import AutoHangingBoard from "./hangingBoard";
+import AdSenseAd from "./AdSenseAd";
 import { Link } from "react-router-dom";
 const HomePage = ({
   isLoggedIn,
@@ -334,7 +335,7 @@ const HomePage = ({
           </p>
         </div>
       </section>
-
+      <AdSenseAd />
       <Footer />
       {/* <CrackerShotsEffect/> */}
     </div>
