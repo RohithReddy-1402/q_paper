@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, { useState, useEffect, useCallback, lazy, Suspense } from "react";
 import {
   BrowserRouter,
   Routes,
@@ -29,6 +29,8 @@ const AboutUs = lazy(() => import("./components/AboutUs"));
 const TechStack = lazy(() => import("./components/TechStack"));
 const PrivacyPolicy = lazy(() => import("./components/PrivacyPolicy"));
 const NotFound = lazy(() => import("./components/NotFound"));
+const EmailVerification = lazy(() => import("./components/EmailVerification"));
+const VerifyEmailNotice = lazy(() => import("./components/VerifyEmailNotice"));
 import { ToastProvider, useToast } from "./components/ToastContext";
 import { apiFetch, clearToken } from "./services/api";
 import { GoogleOAuthProvider } from "@react-oauth/google";
@@ -47,37 +49,43 @@ function App_main() {
   const [downloadCount, setDownloadCounts] = useState(0);
   const [questionPapers, setQuestionPapers] = useState([]);
   const [mode, setMode] = useState(null);
-  useEffect(() => {
-    const checkAuth = async () => {
-      try {
-        const response = await apiFetch("/auth/check", { method: "GET" });
-        if (!response.ok) {
-          // apiFetch already cleared the token on 401
-          setIsLoggedIn(false);
-          setUser(null);
-          return;
-        }
-        const data = await response.json();
-        if (!data?.user) {
-          setIsLoggedIn(false);
-          setUser(null);
-          return;
-        }
-        setUser({
-          email: data.user.email,
-          name: data.user.name,
-          role: data.user.role,
-        });
-        setIsLoggedIn(true);
-      } catch (err) {
-        console.error("Auth check failed:", err);
+  // Unverified-email screen: opened after signup (emailVerified: false) or a
+  // login blocked with 403 EMAIL_NOT_VERIFIED.
+  const [verifyNotice, setVerifyNotice] = useState({
+    open: false,
+    email: "",
+    reason: "signup",
+  });
+  const checkAuth = useCallback(async () => {
+    try {
+      const response = await apiFetch("/auth/check", { method: "GET" });
+      if (!response.ok) {
+        // apiFetch already cleared the token on 401
         setIsLoggedIn(false);
         setUser(null);
+        return;
       }
-    };
-
-    checkAuth();
+      const data = await response.json();
+      if (!data?.user) {
+        setIsLoggedIn(false);
+        setUser(null);
+        return;
+      }
+      setUser({
+        email: data.user.email,
+        name: data.user.name,
+        role: data.user.role,
+      });
+      setIsLoggedIn(true);
+    } catch (err) {
+      console.error("Auth check failed:", err);
+      setIsLoggedIn(false);
+      setUser(null);
+    }
   }, []);
+  useEffect(() => {
+    checkAuth();
+  }, [checkAuth]);
   useEffect(() => {
     async function fetchPapers() {
       try {
@@ -107,6 +115,16 @@ function App_main() {
     setLoginModalOpen(false);
     setSignUpPageOpen(false);
     setIsForgotPass(true);
+  };
+  const handleNeedsVerification = (email, reason = "signup") => {
+    setLoginModalOpen(false);
+    setSignUpPageOpen(false);
+    setVerifyNotice({ open: true, email, reason });
+  };
+  const handleVerified = () => {
+    setVerifyNotice((prev) => ({ ...prev, open: false }));
+    // The account is verified now; refresh whatever the session knows.
+    checkAuth();
   };
   const handleLogin = (userData) => {
     setUser(userData);
@@ -224,6 +242,8 @@ function App_main() {
           <Route path="/nit-kkr/about" element={<AboutUs />} />
           <Route path="/nit-kkr/tech-stack" element={<TechStack />} />
           <Route path="/nit-kkr/privacy-policy" element={<PrivacyPolicy />} />
+          {/* Where the backend redirects after validating the emailed link. */}
+          <Route path="/email-verification" element={<EmailVerification />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Analytics />
@@ -236,6 +256,14 @@ function App_main() {
           setForgotPass={handleForgotPass}
           onLoadClose={() => setIsLoad(false)}
           isLoading={handleLoading}
+          onNeedsVerification={handleNeedsVerification}
+        />
+        <VerifyEmailNotice
+          isOpen={verifyNotice.open}
+          email={verifyNotice.email}
+          reason={verifyNotice.reason}
+          onClose={() => setVerifyNotice((prev) => ({ ...prev, open: false }))}
+          onVerified={handleVerified}
         />
         <ForgotPassword
           isForgotOpen={isForgotPass}

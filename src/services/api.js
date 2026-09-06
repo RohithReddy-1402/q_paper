@@ -55,6 +55,95 @@ export async function apiFetch(path, options = {}) {
   return res;
 }
 
+/* ------------------------------------------------------------------ */
+/* Email verification (backend branch feature/mailVerification)        */
+/* ------------------------------------------------------------------ */
+
+/**
+ * POST /api/email-verification/resend
+ * Returns { status, message, retryAfter } instead of throwing so callers can
+ * branch on 200 / 208 (already verified) / 404 / 429 (rate limited).
+ */
+export async function resendVerificationEmail(EmailID) {
+  const res = await fetch(`${API}/api/email-verification/resend`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ EmailID }),
+  });
+  let body = {};
+  try {
+    body = await res.json();
+  } catch {
+    /* non-JSON body */
+  }
+  const retryAfter = Number(body?.retryAfter ?? res.headers.get("Retry-After"));
+  return {
+    status: res.status,
+    message: body?.message || "",
+    retryAfter: Number.isFinite(retryAfter) ? retryAfter : null,
+  };
+}
+
+/**
+ * GET /api/email-verification/status — one-off check of the *current* DB state
+ * (unrelated to whatever was true when the session token was issued).
+ * Returns { emailVerified, EmailID } or null when there is no valid session.
+ */
+export async function getVerificationStatus() {
+  try {
+    const res = await apiFetch("/api/email-verification/status", {
+      method: "GET",
+    });
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * SSE stream that pushes the moment the emailed link is clicked anywhere.
+ * The JWT goes in the query string on purpose: EventSource cannot set an
+ * Authorization header, and cross-site cookies are unreliable here.
+ * Returns a cleanup function; safe to call when there is no token (no-op).
+ */
+export function watchEmailVerification(onVerified) {
+  const token = getToken();
+  if (!token || typeof EventSource === "undefined") return () => {};
+
+  let es;
+  try {
+    es = new EventSource(
+      `${API}/api/email-verification/stream?token=${encodeURIComponent(token)}`,
+    );
+  } catch {
+    return () => {};
+  }
+
+  const finish = () => {
+    es.close();
+    onVerified();
+  };
+
+  // Sent immediately on connect with the current state, so this also covers
+  // "already verified before this screen even loaded".
+  es.addEventListener("status", (e) => {
+    try {
+      const { emailVerified } = JSON.parse(e.data);
+      if (emailVerified) finish();
+    } catch {
+      /* ignore malformed payload — keep listening */
+    }
+  });
+
+  es.addEventListener("verified", finish);
+
+  // EventSource reconnects on its own; nothing to do on a dropped connection.
+  es.onerror = () => {};
+
+  return () => es.close();
+}
+
 /**
  * Reads the daily-quota RateLimit-* headers from a download response.
  * Returns nulls for logged-in / unlimited users (headers absent).
