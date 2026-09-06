@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "./Header";
 import Footer from "./Footer";
-import { Code2, Server, Database, ShieldCheck, Mail, CreditCard, LineChart, Cloud } from "lucide-react";
+import { Code2, Server, Database, ShieldCheck, Mail, Radio, CreditCard, LineChart, Cloud } from "lucide-react";
 
 const stack = [
   {
@@ -27,13 +27,19 @@ const stack = [
     icon: ShieldCheck,
     title: "Authentication",
     body:
-      "You can sign in either with Google Sign-In or with a manually created email and password account, so you are not forced into any single login method to contribute papers or access your account.",
+      "You can sign in either with Google Sign-In or with a manually created email and password account, so you are not forced into any single login method to contribute papers or access your account. Sessions are JWT based, sent as a Bearer token, which keeps you signed in reliably even in browsers that block cross-site cookies. Email and password accounts must confirm their address before they can sign back in; Google accounts are already verified by Google, so they skip that step.",
   },
   {
     icon: Mail,
     title: "Email",
     body:
-      "Account emails, such as verification and password-reset messages for manual sign-ups, are delivered through Resend, a reliable transactional email service.",
+      "Account emails, such as verification and password-reset messages for manual sign-ups, are delivered through Resend, a reliable transactional email service. Verification links are single-use and time-limited, and you can request a fresh one at any time, within a short rate limit that stops your inbox from being flooded.",
+  },
+  {
+    icon: Radio,
+    title: "Live Updates",
+    body:
+      "When you click a verification link, any tab you already had open updates itself instantly. That is done with Server-Sent Events, a lightweight one-way stream from the server, so the site never has to sit and poll the API waiting for something to change.",
   },
   {
     icon: Database,

@@ -5,7 +5,7 @@ import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
 import { auth, provider, signInWithPopup } from './fireBase';
 import { setToken } from '../services/api';
-const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass, isLoading, onLoadClose }) => {
+const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass, isLoading, onLoadClose, onNeedsVerification }) => {
   const [isLogin, setIsLogin] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -42,6 +42,15 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       const data = await response.json();
 
       if (!response.ok) {
+        if (response.status === 403 && data?.code === "EMAIL_NOT_VERIFIED") {
+          // Unverified account: the fix is a new verification email, not a
+          // retyped password — hand off to the dedicated screen.
+          onLoadClose();
+          onClose();
+          onNeedsVerification?.(data.EmailID || email, "login");
+          setPassword("");
+          return;
+        }
         if (response.status === 401) {
           addToast("User Not Found", "error");
           setEmail("");
@@ -171,15 +180,23 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       const data = await response.json()
       onLoadClose();
       if (response.status == 201) {
-        addToast("Account Created Successfully", "success");
+        addToast("Verification Mail sent to registered email", "success");
         if (data.token) setToken(data.token);
         const userData = { email, username };
-        onLogin(userData); onClose()
+        onLogin(userData);
+        onClose();
+        if (data.user?.emailVerified === false) {
+          onNeedsVerification?.(data.user?.EmailID || email, "signup");
+        }
+      } else {
+        addToast(data?.message || "Could not create the account", "error");
       }
 
 
     }
     catch {
+      onLoadClose();
+      addToast("Network error or server down", "error");
       console.log("Error occured while reaching the endpoint")
     }
   }
@@ -318,10 +335,10 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
   );
 };
 
-const LoginModal = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass, isLoading, onLoadClose }) => {
+const LoginModal = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass, isLoading, onLoadClose, onNeedsVerification }) => {
   return (
     <ToastProvider>
-      <LoginModalAuto isOpen={isOpen} onClose={onClose} isSignUpOpen={isSignUpOpen} setForgotPass={setForgotPass} onLogin={onLogin} isLoading={isLoading} onLoadClose={onLoadClose} />
+      <LoginModalAuto isOpen={isOpen} onClose={onClose} isSignUpOpen={isSignUpOpen} setForgotPass={setForgotPass} onLogin={onLogin} isLoading={isLoading} onLoadClose={onLoadClose} onNeedsVerification={onNeedsVerification} />
     </ToastProvider>
   )
 }
