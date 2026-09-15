@@ -31,6 +31,7 @@ const PrivacyPolicy = lazy(() => import("./components/PrivacyPolicy"));
 const NotFound = lazy(() => import("./components/NotFound"));
 const EmailVerification = lazy(() => import("./components/EmailVerification"));
 const VerifyEmailNotice = lazy(() => import("./components/VerifyEmailNotice"));
+const Pricing = lazy(() => import("./components/Pricing"));
 import { ToastProvider, useToast } from "./components/ToastContext";
 import { apiFetch, clearToken } from "./services/api";
 import { GoogleOAuthProvider } from "@react-oauth/google";
@@ -75,6 +76,9 @@ function App_main() {
         email: data.user.email,
         name: data.user.name,
         role: data.user.role,
+        premium: data.user.premium,
+        subscription: data.user.subscription,
+        freeQuotaUsed: data.user.freeQuotaUsed,
       });
       setIsLoggedIn(true);
     } catch (err) {
@@ -126,6 +130,12 @@ function App_main() {
     // The account is verified now; refresh whatever the session knows.
     checkAuth();
   };
+  const handlePurchased = () => {
+    // Subscription just activated server-side; refresh so the header/quota
+    // reflect the new plan without a full reload.
+    addToast("Welcome to Premium! Your plan is now active.", "success");
+    checkAuth();
+  };
   const handleLogin = (userData) => {
     setUser(userData);
     setIsLoggedIn(true);
@@ -172,6 +182,7 @@ function App_main() {
                 onLogin={handleLogin}
                 onLogout={handleLogout}
                 onSignUpClick={handleSignUpPage}
+                onPurchased={handlePurchased}
                 papersLength={papersLength}
                 downloadCount={downloadCount}
                 questionPapers={questionPapers}
@@ -191,6 +202,20 @@ function App_main() {
                 setDownloadCounts={setDownloadCounts}
                 setPapersLength={setPapersLength}
                 questionPapers={questionPapers}
+              />
+            }
+          />
+          <Route
+            path="/nit-kkr/pricing"
+            element={
+              <Pricing
+                isLoggedIn={isLoggedIn}
+                user={user}
+                onLoginClick={handleLoginPage}
+                onLogin={handleLogin}
+                onLogout={handleLogout}
+                onSignUpClick={handleSignUpPage}
+                onPurchased={handlePurchased}
               />
             }
           />

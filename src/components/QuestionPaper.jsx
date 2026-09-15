@@ -8,8 +8,7 @@ import Fuse from 'fuse.js';
 import DownloadButton from './DownloadButton';
 import SearchAutocomplete from './SearchAutocomplete';
 import Footer from './Footer';
-import { viewPaper } from '../services/r2.service';
-import { apiFetch, readRateLimitError } from '../services/api';
+import { apiFetch, readRateLimitError, readPremiumRequiredError } from '../services/api';
 const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose, isLoading, setDownloadCounts, setPapersLength, questionPapers }) => {
 
   const [activeTab, setActiveTab] = useState('all');
@@ -26,23 +25,33 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
   }
 
 const handleDisplay = async (event, key) => {
-    // event.stopPropagation();
-
-    // console.log("fileId =", fileId);
-
-    // const url = `${import.meta.env.VITE_BACKEND_ENDPOINT}/api/paper/view/${fileId}`;
-
-    // console.log("url =", url);
-  if(!key){
-    return
+  if (!key) {
+    return;
   }
+  const bareId = key.replace(/^papers\//, "");
+  // Opened synchronously (before any await) so browsers don't treat it as a
+  // popup-blocked window once the fetch below resolves.
+  const previewWindow = window.open("", "_blank");
   try {
-    const res = await apiFetch(`/papers/downloadcount`, {
-      method: 'PATCH',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ r2Key: key }),
-    });
+    const res = await apiFetch(`/api/paper/view/${bareId}`);
+    if (res.status === 401) {
+      previewWindow?.close();
+      addToast("Please sign in to view.", "info");
+      onLoginClick?.();
+      return;
+    }
+    if (res.status === 403) {
+      previewWindow?.close();
+      const { isPremiumRequired, message } = await readPremiumRequiredError(res);
+      if (isPremiumRequired) {
+        nav("/nit-kkr/pricing", { state: { message } });
+        return;
+      }
+      addToast(message, "error");
+      return;
+    }
     if (res.status === 429) {
+      previewWindow?.close();
       const { message } = await readRateLimitError(res);
       addToast(message, "error");
       if (!isLoggedIn) {
@@ -51,13 +60,21 @@ const handleDisplay = async (event, key) => {
       }
       return;
     }
+    if (!res.ok) throw new Error("Unable to open paper");
+    const blob = await res.blob();
+    const url = window.URL.createObjectURL(blob);
+    if (previewWindow) {
+      previewWindow.location.href = url;
+    } else {
+      // Popup was blocked despite opening synchronously — fall back to a
+      // same-tab navigation so the user still gets the file.
+      window.location.href = url;
+    }
   } catch (err) {
-    console.error("download count failed:", err);
+    previewWindow?.close();
+    addToast("Could not open the paper. Please try again.", "error");
+    console.error("view paper failed:", err);
   }
-  const url= `https://pdf.nitkkrpyqs.in/${key}`;
-  const a = document.createElement("a");
-a.href = url;
-a.click();
 };
   const handleiconclick = () => {
     const dropdown = document.getElementById("userDropdown");

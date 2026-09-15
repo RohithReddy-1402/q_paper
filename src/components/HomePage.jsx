@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import PricingCards from "./PricingCards";
 import {
   Lock,
   BookOpen,
@@ -27,6 +28,7 @@ const HomePage = ({
   onLogin,
   onLogout,
   onSignUpClick,
+  onPurchased,
   questionPapers,
 }) => {
   const [activeHover, setActiveHover] = useState(null);
@@ -334,6 +336,27 @@ const HomePage = ({
             .
           </p>
         </div>
+      </section>
+      <section className="relative z-0 px-8 py-16 border-t border-indigo-100 bg-white/40">
+        <div className="max-w-4xl mx-auto text-center mb-10">
+          <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3">
+            Go Premium
+          </h2>
+          <p className="text-gray-600">
+            Unlimited downloads and previews of every question paper, on
+            whatever plan suits you.{" "}
+            <Link to="/nit-kkr/pricing" className="text-indigo-600 underline">
+              See full pricing details
+            </Link>
+            .
+          </p>
+        </div>
+        <PricingCards
+          isLoggedIn={isLoggedIn}
+          user={user}
+          onLoginClick={onLoginClick}
+          onPurchased={onPurchased}
+        />
       </section>
       <AdSenseAd />
       <Footer />
