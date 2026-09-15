@@ -34,6 +34,11 @@ export default function Header({isLoggedIn,
   const handleiconclick = () => {
     if (dropdownRef.current) dropdownRef.current.classList.toggle("hidden");
   };
+  const subscription = user?.subscription;
+  const isPremiumActive = subscription?.plan === "lifetime" || (subscription?.status === "active" && subscription?.plan !== "free");
+  const planLabel = isPremiumActive
+    ? `Premium · ${subscription.plan[0].toUpperCase()}${subscription.plan.slice(1)}`
+    : "Free plan";
   const navigate = useNavigate();
   const handleNavigation = (route) => {
     setMenuOpen(false);
@@ -129,8 +134,21 @@ export default function Header({isLoggedIn,
                           <div className="font-medium truncate pt-2">
                             {user?.email}
                           </div>
+                          <div className={`mt-2 text-xs font-medium ${isPremiumActive ? "text-blue-600" : "text-gray-500"}`}>
+                            {planLabel}
+                          </div>
                         </div>
                         <ul className="py-2 text-sm text-gray-700 dark:text-gray-200">
+                          {!isPremiumActive && (
+                            <li>
+                              <Link
+                                to="/nit-kkr/pricing"
+                                className="block px-4 py-2 font-medium text-blue-600 hover:bg-gray-100 dark:hover:bg-gray-600"
+                              >
+                                Upgrade to Premium
+                              </Link>
+                            </li>
+                          )}
                           <li>
                             <a
                               href="#"
