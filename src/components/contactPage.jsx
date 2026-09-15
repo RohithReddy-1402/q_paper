@@ -883,7 +883,7 @@ function NormalMode({ onExit,terminalMode,onSelect}) {
   const handleSubmit =async () => {
     if (formData.name && formData.email && formData.message) {
       const payload = { ...formData };
-      const res=await fetch("http://localhost:3001/api/contact",{
+      const res=await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/api/contact`,{
         body:JSON.stringify(payload),
         method:"POST",
         headers:{

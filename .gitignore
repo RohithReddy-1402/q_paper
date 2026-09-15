@@ -29,3 +29,6 @@ data.xlsx
 .~lock.data.ods#
 .env
 data.ods
+*.md
+*.xlsx
+*.csv
