@@ -177,3 +177,21 @@ export async function readRateLimitError(res) {
   }
   return { message, retryAfter: Number.isFinite(retryAfter) ? retryAfter : null };
 }
+
+/**
+ * Distinguishes a premium-paywall 403 (`{ code: 'PREMIUM_REQUIRED' }`) from
+ * other 403s (e.g. EMAIL_NOT_VERIFIED). Returns `isPremiumRequired: false`
+ * for anything else so callers can fall through to their existing handling.
+ */
+export async function readPremiumRequiredError(res) {
+  let message = "Upgrade to premium to continue.";
+  let code = null;
+  try {
+    const body = await res.clone().json();
+    if (body?.message) message = body.message;
+    code = body?.code || null;
+  } catch {
+    /* non-JSON body */
+  }
+  return { message, code, isPremiumRequired: code === "PREMIUM_REQUIRED" };
+}

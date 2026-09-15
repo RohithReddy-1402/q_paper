@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Download, Loader2, Check } from "lucide-react";
-import { apiFetch, parseRateLimit, readRateLimitError } from "../services/api";
+import { apiFetch, parseRateLimit, readRateLimitError, readPremiumRequiredError } from "../services/api";
 
 export default function DownloadButton({ paper, addToast, isLoggedIn, onLoginClick }) {
+    const navigate = useNavigate();
     const [status, setStatus] = useState("idle");
     const [remaining, setRemaining] = useState(null);
 
@@ -30,25 +32,25 @@ export default function DownloadButton({ paper, addToast, isLoggedIn, onLoginCli
         }
         setStatus("loading");
         try {
-            const countRes = await apiFetch(`/papers/downloadcount`, {
-                method: "PATCH",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ r2Key: paper.r2Key }),
-            });
-            console.log("Download count response:", countRes);
-            if (countRes.status === 429) {
-                await handleRateLimited(countRes);
-                return;
-            }
-            trackRemaining(countRes);
-            const countData = await countRes.json();
-            if (countData.remaining <= 0) {
-                addToast("Daily download limit reached.", "error");
+            const bareId = paper.r2Key.replace(/^papers\//, "");
+            const fileRes = await apiFetch(`/api/download/papers/${bareId}`);
+            if (fileRes.status === 401) {
+                addToast("Please sign in to download.", "info");
+                onLoginClick?.();
                 setStatus("idle");
                 return;
             }
-            console.log(`Remaining downloads: ${countData.remaining}`);
-            const fileRes = await apiFetch(`/api/download/${paper.r2Key}`);
+            if (fileRes.status === 403) {
+                const { isPremiumRequired, message } = await readPremiumRequiredError(fileRes);
+                if (isPremiumRequired) {
+                    navigate("/nit-kkr/pricing", { state: { message } });
+                    setStatus("idle");
+                    return;
+                }
+                addToast(message, "error");
+                setStatus("idle");
+                return;
+            }
             if (fileRes.status === 429) {
                 await handleRateLimited(fileRes);
                 return;
