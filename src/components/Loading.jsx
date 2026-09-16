@@ -9,7 +9,7 @@ const Loading = ({ isLoadingOpen }) => {
 
         <>
 
-            <div className="inset-0 fixed 0  bg-red  z-[1000] backdrop-blur-sm flex items-center justify-center">
+            <div className="inset-0 fixed 0  bg-red  z-200 backdrop-blur-sm flex items-center justify-center">
 
                 <div className="wrapper">
                     <div className="circle"></div>

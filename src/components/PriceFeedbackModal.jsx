@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import { useToast } from "./ToastContext";
 import { submitPriceFeedback } from "../services/priceFeedback";
 
@@ -35,8 +36,8 @@ export default function PriceFeedbackModal({ isOpen, onClose }) {
     }
   };
 
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto">
+  return createPortal(
+    <div className="fixed inset-0 z-100 flex items-center justify-center overflow-y-auto">
       <div
         className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
         onClick={onClose}
@@ -121,6 +122,7 @@ export default function PriceFeedbackModal({ isOpen, onClose }) {
           </button>
         </form>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
