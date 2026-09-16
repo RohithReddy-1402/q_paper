@@ -7,6 +7,7 @@ export default function Footer() {
     { label: "About Us", href: "/nit-kkr/about" },
     { label: "Question Papers", href: "/nit-kkr/question-papers" },
     { label: "Syllabus", href: "/nit-kkr/syllabus" },
+    { label: "Pricing", href: "/nit-kkr/pricing" },
     { label: "Tech Stack", href: "/nit-kkr/tech-stack" },
     { label: "Donate", href: "/nit-kkr/donate" },
     { label: "Contact", href: "/nit-kkr/contact" },

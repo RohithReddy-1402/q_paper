@@ -11,10 +11,18 @@ const RAZORPAY_SCRIPT_SRC = "https://checkout.razorpay.com/v1/checkout.js";
 // changing q_paper/.env you need to rebuild/redeploy for it to take effect.
 const priceLabel = (rupees) => `₹${rupees}`;
 
+const MONTHLY_PRICE = Number(import.meta.env.VITE_PLAN_PRICE_MONTHLY ?? 1);
+const YEARLY_PRICE = Number(import.meta.env.VITE_PLAN_PRICE_YEARLY ?? 10);
+const LIFETIME_PRICE = Number(import.meta.env.VITE_PLAN_PRICE_LIFETIME ?? 25);
+
+// `rawPrice` (a plain number) is kept alongside the formatted `price` string
+// so PricingCards can compute "save X%" badges from real numbers instead of
+// hardcoding a percentage that would silently go stale the next time a
+// price changes.
 export const PLANS = [
-  { id: "monthly", label: "Monthly", price: priceLabel(import.meta.env.VITE_PLAN_PRICE_MONTHLY ?? 1), period: "/month" },
-  { id: "yearly", label: "Yearly", price: priceLabel(import.meta.env.VITE_PLAN_PRICE_YEARLY ?? 10), period: "/year" },
-  { id: "lifetime", label: "Lifetime", price: priceLabel(import.meta.env.VITE_PLAN_PRICE_LIFETIME ?? 25), period: " once" },
+  { id: "monthly", label: "Monthly", price: priceLabel(MONTHLY_PRICE), rawPrice: MONTHLY_PRICE, period: "/month" },
+  { id: "yearly", label: "Yearly", price: priceLabel(YEARLY_PRICE), rawPrice: YEARLY_PRICE, period: "/year" },
+  { id: "lifetime", label: "Lifetime", price: priceLabel(LIFETIME_PRICE), rawPrice: LIFETIME_PRICE, period: " once" },
 ];
 
 let scriptPromise = null;
