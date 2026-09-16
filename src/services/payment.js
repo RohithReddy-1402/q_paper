@@ -2,13 +2,19 @@ import { apiFetch } from "./api";
 
 const RAZORPAY_SCRIPT_SRC = "https://checkout.razorpay.com/v1/checkout.js";
 
-// Display prices only — must match back/services/payment.service.js's
-// PLAN_PRICES. There is no public plans endpoint yet, so these are hardcoded;
-// keep them in sync if pricing changes.
+// Display prices only, read from build-time env vars (VITE_PLAN_PRICE_*)
+// instead of being hardcoded. There is no public plans endpoint yet, so
+// these MUST be kept in sync by hand with the real charge amounts in
+// back/.env's PLAN_PRICE_*_INR — changing either one alone will make the
+// price shown here disagree with what Razorpay actually charges.
+// NOTE: Vite bakes these in at build time, not read at runtime — after
+// changing q_paper/.env you need to rebuild/redeploy for it to take effect.
+const priceLabel = (rupees) => `₹${rupees}`;
+
 export const PLANS = [
-  { id: "monthly", label: "Monthly", price: "₹1", period: "/month" },
-  { id: "yearly", label: "Yearly", price: "₹10", period: "/year" },
-  { id: "lifetime", label: "Lifetime", price: "₹30", period: " once" },
+  { id: "monthly", label: "Monthly", price: priceLabel(import.meta.env.VITE_PLAN_PRICE_MONTHLY ?? 1), period: "/month" },
+  { id: "yearly", label: "Yearly", price: priceLabel(import.meta.env.VITE_PLAN_PRICE_YEARLY ?? 10), period: "/year" },
+  { id: "lifetime", label: "Lifetime", price: priceLabel(import.meta.env.VITE_PLAN_PRICE_LIFETIME ?? 25), period: " once" },
 ];
 
 let scriptPromise = null;
