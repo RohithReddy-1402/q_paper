@@ -233,7 +233,7 @@ export default function PricingCards({ isLoggedIn, user, onLoginClick, onPurchas
 
       {showPrompt &&
         createPortal(
-          <div className="fixed top-20 right-4 z-[9999] w-72 rounded-lg border border-gray-200 bg-white p-4 shadow-xl animate-[fadeIn_0.3s_ease-out]">
+          <div className="fixed top-20 right-4 z-60 w-72 rounded-lg border border-gray-200 bg-white p-4 shadow-xl animate-[fadeIn_0.3s_ease-out]">
             <button
               type="button"
               onClick={dismissPrompt}
