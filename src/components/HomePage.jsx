@@ -14,6 +14,7 @@ import {
   ArrowRight,
   Star,
   Download,
+  Banknote,
 } from "lucide-react";
 import { useToast } from "./ToastContext";
 import { useNavigate } from "react-router-dom";
@@ -58,6 +59,9 @@ const HomePage = ({
   };
   const handleVerifyPapers = () => {
     nav("/nit-kkr-pyqs/verifypaper");
+  };
+  const handlePayouts = () => {
+    nav("/nit-kkr-pyqs/payouts");
   };
 
   const handleContribute = () => {
@@ -181,6 +185,7 @@ const HomePage = ({
                 )} */}
               </button>
               {user?.role === "admin" && (
+                <>
                 <button
                   onClick={handleVerifyPapers}
                   onMouseEnter={() => setActiveHover("special")}
@@ -203,6 +208,15 @@ const HomePage = ({
                     <Lock className="absolute top-2 right-2 w-8 h-4 text-white/70" />
                   )} */}
                 </button>
+                <button
+                  onClick={handlePayouts}
+                  className="not-md:w-full bg-white text-purple-700 border border-purple-200 px-6 py-4 rounded-xl shadow-lg
+        hover:shadow-2xl hover:bg-purple-50 transition-all duration-300 flex items-center justify-center space-x-3"
+                >
+                  <Banknote className="w-6 h-6" />
+                  <span className="font-semibold text-lg">Rewards Admin</span>
+                </button>
+                </>
               )}
             </div>
           </div>

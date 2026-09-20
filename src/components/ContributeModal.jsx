@@ -3,12 +3,12 @@ import './Modal.css';
 import { Helmet } from 'react-helmet-async';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
-import { sub } from 'framer-motion/client';
 import {handleUpload }from "../services/r2.service"
-import { Mail } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
+import RewardsGuideModal from './profile/RewardsGuideModal';
 function ContributeModal({ user,onLoadClose,isLoading }) {
 
-
+  const [guideOpen, setGuideOpen] = useState(false);
   const [title, setTitle] = useState('');
   const [subject, setSubject] = useState('');
   const [year, setYear] = useState('');
@@ -56,12 +56,17 @@ function ContributeModal({ user,onLoadClose,isLoading }) {
       // //   })
       // })
       
-      if(response.status===201){onLoadClose();addToast("Details sent for verification", "success");}
+      onLoadClose();
+      if(response.status===201){addToast("Details sent for verification", "success");}
+      else if(response.status===401){
+        addToast("Please log in to contribute a paper","error")
+      }
       else{
         addToast("Please Upload Again , Error Occured","error")
       }
       console.log(response)
     } catch (error) {
+      onLoadClose();
       console.error("Upload failed:", error);
     }
 
@@ -79,7 +84,17 @@ function ContributeModal({ user,onLoadClose,isLoading }) {
       </Helmet>
       <div className="modal contribute-modal">
         <div className="modal-header">
-          <h2>Contribute Question Paper</h2>
+          <div>
+            <h2>Contribute Question Paper</h2>
+            <button
+              type="button"
+              onClick={() => setGuideOpen(true)}
+              className="mt-1 inline-flex items-center gap-1.5 text-sm font-medium text-indigo-600 hover:text-indigo-800"
+            >
+              <BookOpen className="w-3.5 h-3.5" />
+              How points &amp; rewards work
+            </button>
+          </div>
           <button
             type="button"
             className="bg-white rounded-md text-gray-400 hover:text-gray-500 focus:outline-none"
@@ -197,6 +212,7 @@ function ContributeModal({ user,onLoadClose,isLoading }) {
             disabled={filledFields !== totalFields}>Contribute Paper</button>
         </form>
       </div>
+      {guideOpen && <RewardsGuideModal onClose={() => setGuideOpen(false)} />}
     </div>
   );
 }
