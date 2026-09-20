@@ -32,6 +32,9 @@ const NotFound = lazy(() => import("./components/NotFound"));
 const EmailVerification = lazy(() => import("./components/EmailVerification"));
 const VerifyEmailNotice = lazy(() => import("./components/VerifyEmailNotice"));
 const Pricing = lazy(() => import("./components/Pricing"));
+const Profile = lazy(() => import("./components/profile/Profile"));
+const NotificationsPage = lazy(() => import("./components/notifications/NotificationsPage"));
+const AdminPayouts = lazy(() => import("./components/profile/AdminPayouts"));
 import { ToastProvider, useToast } from "./components/ToastContext";
 import { apiFetch, clearToken } from "./services/api";
 import { GoogleOAuthProvider } from "@react-oauth/google";
@@ -42,6 +45,9 @@ function App_main() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null);
+  // False until the first /auth/check settles, so gated pages can tell
+  // "still restoring the session" apart from "logged out".
+  const [authChecked, setAuthChecked] = useState(false);
   const [isSignUpPageOpen, setSignUpPageOpen] = useState(false);
   const [isForgotPass, setIsForgotPass] = useState(false);
   const [isLoad, setIsLoad] = useState(false);
@@ -73,6 +79,8 @@ function App_main() {
         return;
       }
       setUser({
+        id: data.user.id,
+        avatarUrl: data.user.avatarUrl,
         email: data.user.email,
         name: data.user.name,
         role: data.user.role,
@@ -85,6 +93,8 @@ function App_main() {
       console.error("Auth check failed:", err);
       setIsLoggedIn(false);
       setUser(null);
+    } finally {
+      setAuthChecked(true);
     }
   }, []);
   useEffect(() => {
@@ -141,6 +151,8 @@ function App_main() {
     setIsLoggedIn(true);
 
     setLoginModalOpen(false);
+    // Login responses only carry email/name; pull role, plan and avatar too.
+    checkAuth();
   };
 
   const handleLogout = async () => {
@@ -242,8 +254,42 @@ function App_main() {
             path="/nit-kkr-pyqs/verifypaper"
             element={
               <QuestionPapersVerification
+                user={user}
+                authChecked={authChecked}
                 isLoading={handleLoading}
                 onLoadClose={() => setIsLoad(false)}
+              />
+            }
+          />
+          <Route
+            path="/nit-kkr/profile"
+            element={
+              <Profile
+                isLoggedIn={isLoggedIn}
+                authChecked={authChecked}
+                user={user}
+                onLoginClick={handleLoginPage}
+                onLogin={handleLogin}
+                onLogout={handleLogout}
+                onSignUpClick={handleSignUpPage}
+                onProfileChanged={checkAuth}
+              />
+            }
+          />
+          <Route
+            path="/nit-kkr-pyqs/payouts"
+            element={<AdminPayouts user={user} authChecked={authChecked} />}
+          />
+          <Route
+            path="/nit-kkr/notifications"
+            element={
+              <NotificationsPage
+                isLoggedIn={isLoggedIn}
+                user={user}
+                onLoginClick={handleLoginPage}
+                onLogin={handleLogin}
+                onLogout={handleLogout}
+                onSignUpClick={handleSignUpPage}
               />
             }
           />
