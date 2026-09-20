@@ -11,6 +11,9 @@ Disallow: /api/
 Disallow: /nit-kkr-pyqs/login
 Disallow: /nit-kkr-pyqs/contribute
 Disallow: /nit-kkr-pyqs/verifypaper
+Disallow: /nit-kkr-pyqs/payouts
+Disallow: /nit-kkr/profile
+Disallow: /nit-kkr/notifications
 
 # Sitemap
 Sitemap: https://nitkkrpyqs.in/sitemap.xml

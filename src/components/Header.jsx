@@ -9,6 +9,8 @@ import { Link } from "react-router-dom";
 import nextLogo from "/icon.png";
 import {useRef} from "react";
 import "./Header.styles.css";
+import { avatarSrc } from "../services/profile";
+import NotificationBell from "./notifications/NotificationBell";
 import {
   Lock,
   BookOpen,
@@ -82,6 +84,7 @@ export default function Header({isLoggedIn,
         <div className="flex h-16 items-center  justify-around lg:mx-8 gap-1">
           
           <div className="flex items-center space-x-4">
+            <NotificationBell />
             {!isLoggedIn ? (
               <>
                 <button
@@ -112,17 +115,25 @@ export default function Header({isLoggedIn,
                         data-dropdown-toggle="userDropdown"
                         onClick={handleiconclick}
                       >
-                        <svg
-                          className="absolute w-12 h-12 text-gray-400 -left-1"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
+                        {user?.avatarUrl ? (
+                          <img
+                            src={avatarSrc(user.avatarUrl)}
+                            alt=""
+                            className="w-full h-full object-cover"
+                          />
+                        ) : (
+                          <svg
+                            className="absolute w-12 h-12 text-gray-400 -left-1"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                              clipRule="evenodd"
+                            ></path>
+                          </svg>
+                        )}
                       </div>
 
                       <div
@@ -150,12 +161,13 @@ export default function Header({isLoggedIn,
                             </li>
                           )}
                           <li>
-                            <a
-                              href="#"
+                            <Link
+                              to="/nit-kkr/profile"
+                              onClick={handleiconclick}
                               className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                             >
-                              Dashboard
-                            </a>
+                              My Profile
+                            </Link>
                           </li>
                           <li>
                             <a
@@ -252,6 +264,14 @@ export default function Header({isLoggedIn,
           >
             Privacy Policy
           </h1>
+          {isLoggedIn && (
+            <h1
+              className="cursor-pointer font-medium text-indigo-600 hover:text-indigo-800"
+              onClick={() => handleNavigation("/nit-kkr/profile")}
+            >
+              My Profile
+            </h1>
+          )}
         </div>
       )}
     </main>

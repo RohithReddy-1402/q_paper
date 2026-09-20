@@ -25,12 +25,12 @@ const questionPapers = ({ isLoggedIn, user, onLoginClick, onLogout, onLoadClose,
   }
 
 const handleDisplay = async (event, key) => {
-  if (!key) {
+  if (!key || key === "undefined") {
+    addToast("This paper's file is unavailable right now.", "error");
     return;
   }
   const bareId = key.replace(/^papers\//, "");
-  // Opened synchronously (before any await) so browsers don't treat it as a
-  // popup-blocked window once the fetch below resolves.
+  console.log("Opening paper with bareId:", bareId);
   const previewWindow = window.open("", "_blank");
   try {
     const res = await apiFetch(`/api/paper/view/${bareId}`);
@@ -368,8 +368,8 @@ const handleDisplay = async (event, key) => {
         )}
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {filteredPapers.slice(0, 40).map((paper) => (
-            <div key={paper.r2Key} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.r2Key)}>
+          {filteredPapers.slice(0, 40).map((paper, index) => (
+            <div key={paper.r2Key ? `${paper.r2Key}-${index}` : index} className="bg-white overflow-hidden shadow rounded-lg cursor-pointer" onClick={(e) => handleDisplay(e, paper.r2Key)}>
               <div className="p-5 h-7/10">
                 <div className="flex items-center">
                   <div className="flex-shrink-0 bg-blue-500 rounded-md p-3">

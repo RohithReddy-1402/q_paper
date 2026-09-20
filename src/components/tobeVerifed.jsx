@@ -4,28 +4,53 @@ import { Helmet } from 'react-helmet-async';
 import { useToast } from './ToastContext';
 import { useNavigate } from 'react-router-dom';
 import { apiFetch } from '../services/api';
-const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
+import ModalShell from './profile/ModalShell';
+import { BONUS_REASONS } from './profile/bonusReasons';
+
+const REJECT_REASONS = [
+    { value: 'duplicate', label: 'Already available (duplicate)' },
+    { value: 'fake', label: 'Fake / not a question paper' },
+    { value: 'low_quality', label: 'Low quality / unreadable' },
+    { value: 'other', label: 'Other' },
+];
+
+const QuestionPapersVerification = ({ user, authChecked, isLoading, onLoadClose }) => {
 
     const [selectedPaper, setSelectedPaper] = useState(null);
     const [isEditing, setIsEditing] = useState(false);
     const [editData, setEditData] = useState({});
     const [pdfUrl, setPdfUrl] = useState('');
     const [questionPapers, setQuestionPapers] = useState([]);
+    const [approveOpen, setApproveOpen] = useState(false);
+    const [bonusPoints, setBonusPoints] = useState('');
+    const [bonusReason, setBonusReason] = useState('recency');
+    const [bonusNote, setBonusNote] = useState('');
+    const [approving, setApproving] = useState(false);
+    const [rejectOpen, setRejectOpen] = useState(false);
+    const [rejectReason, setRejectReason] = useState('duplicate');
+    const [rejectNote, setRejectNote] = useState('');
+    const [rejecting, setRejecting] = useState(false);
     const { addToast } = useToast();
     const navigate=useNavigate();
+    const isAdmin = user?.role === 'admin';
     useEffect(() => {
+        if (!isAdmin) return;
         async function fetchPapers() {
             try {
-                const res = await fetch(`${import.meta.env.VITE_BACKEND_ENDPOINT}/verifypapers`);
-                const data = await res.json();
-                console.log(data)
-                setQuestionPapers(data);
+                const res = await apiFetch('/verifypapers');
+                if (!res.ok) {
+                    addToast(res.status === 403 ? "Admin access required" : "Could not load papers", "error");
+                    return;
+                }
+                setQuestionPapers(await res.json());
             } catch (err) {
                 console.error("Error fetching papers:", err);
             }
         }
         fetchPapers();
-    }, []);
+        // refetch only when admin-ness changes, not when addToast's identity does
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [isAdmin]);
 
     const handleDetailsClick = (paper) => {
         setSelectedPaper(paper);
@@ -60,48 +85,92 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
         }));
     };
 
-    const handleApprove = async () => {
-        const res = await apiFetch(`/verifiedpaper/${selectedPaper.r2Key}`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-          title: selectedPaper.title,
-          subject: selectedPaper.subject,
-          fileId: selectedPaper.fileId,
-          sem: selectedPaper.sem,
-          subjectCode: selectedPaper.subjectCode,
-          year: selectedPaper.year,
-          examType: selectedPaper.examType,
-            r2Key:selectedPaper.r2Key,
-
-        })
-      })
-        if (res.status === 401) {
-          addToast("Session expired — please sign in again.", "error");
-          return;
-        }
-        if (res.ok) {
-          addToast("Paper Approved", "success");
-        }
-        setSelectedPaper(null);
+    const handleApprove = () => {
+        setBonusPoints('');
+        setBonusReason('recency');
+        setBonusNote('');
+        setApproveOpen(true);
     };
 
-    const handleDelete = async () => {
-        if (window.confirm('Are you sure you want to delete this paper?')) {
-            setQuestionPapers(papers => papers.filter(paper => paper.r2Key !== selectedPaper.r2Key));
+    const confirmApprove = async () => {
+        setApproving(true);
+        try {
+            const points = Number(bonusPoints) || 0;
+            const res = await apiFetch(`/verifiedpaper/${selectedPaper.r2Key}`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    title: selectedPaper.title,
+                    subject: selectedPaper.subject,
+                    fileId: selectedPaper.fileId,
+                    sem: selectedPaper.sem,
+                    subjectCode: selectedPaper.subjectCode,
+                    year: selectedPaper.year,
+                    examType: selectedPaper.examType,
+                    r2Key: selectedPaper.r2Key,
+                    bonusPoints: points,
+                    bonusReason: points > 0 ? bonusReason : undefined,
+                    bonusNote: points > 0 ? bonusNote : undefined,
+                })
+            })
+            if (res.status === 401) {
+                addToast("Session expired — please sign in again.", "error");
+                return;
+            }
+            if (res.status === 403) {
+                addToast("Admin access required", "error");
+                return;
+            }
+            if (res.ok) {
+                addToast(
+                    points > 0 ? `Paper approved — 10 + ${points} bonus points awarded` : "Paper approved — 10 points awarded",
+                    "success"
+                );
+                setQuestionPapers(papers => papers.filter(paper => paper.r2Key !== selectedPaper.r2Key));
+                setApproveOpen(false);
+                setSelectedPaper(null);
+            } else {
+                addToast("Could not approve the paper", "error");
+            }
+        } finally {
+            setApproving(false);
+        }
+    };
+
+    const handleDelete = () => {
+        setRejectReason('duplicate');
+        setRejectNote('');
+        setRejectOpen(true);
+    };
+
+    const confirmReject = async () => {
+        setRejecting(true);
+        try {
             const result = await apiFetch(`/deletepaper/${selectedPaper.r2Key}`, {
-                method: "DELETE"
+                method: "DELETE",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ reason: rejectReason, note: rejectNote })
             });
             if (result.status === 401) {
                 addToast("Session expired — please sign in again.", "error");
                 return;
             }
-            if (result.status==200){
-                addToast("Paper Deleted","success");
-                setSelectedPaper(null);
+            if (result.status === 403) {
+                addToast("Admin access required", "error");
+                return;
             }
+            if (result.ok) {
+                addToast("Paper rejected", "success");
+                setQuestionPapers(papers => papers.filter(paper => paper.r2Key !== selectedPaper.r2Key));
+                setRejectOpen(false);
+                setSelectedPaper(null);
+            } else {
+                addToast("Could not reject the paper", "error");
+            }
+        } finally {
+            setRejecting(false);
         }
     };
     useEffect(()=>{
@@ -115,9 +184,157 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
         }
         console.log(selectedPaper)
     }, [selectedPaper]);
+    if (!authChecked) {
+        return (
+            <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white">
+                <div className="w-10 h-10 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin" />
+            </div>
+        );
+    }
+    if (!isAdmin) {
+        return (
+            <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-white px-4">
+                <div className="bg-white rounded-xl border border-blue-100 shadow-lg p-8 text-center max-w-sm">
+                    <h1 className="text-xl font-bold text-blue-900">Admins only</h1>
+                    <p className="mt-2 text-sm text-gray-600">You need an admin account to verify papers.</p>
+                    <button onClick={() => navigate('/nit-kkr-pyqs')} className="mt-5 text-sm font-medium text-blue-600 hover:text-blue-800">
+                        Back to home
+                    </button>
+                </div>
+            </div>
+        );
+    }
     if (selectedPaper) {
         return (
             <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white">
+                <ModalShell
+                    isOpen={approveOpen}
+                    onClose={() => !approving && setApproveOpen(false)}
+                    title="Approve this paper?"
+                    maxWidth="sm:max-w-md"
+                >
+                    <div className="space-y-4">
+                        <p className="text-sm text-gray-600">
+                            The contributor earns <span className="font-semibold text-gray-900">10 base points</span> the moment this goes live.
+                        </p>
+                        <div>
+                            <label htmlFor="bonus-points" className="block text-sm font-medium text-gray-700">
+                                Bonus points <span className="text-gray-400 font-normal">(optional, up to 500)</span>
+                            </label>
+                            <input
+                                id="bonus-points"
+                                type="number"
+                                min="0"
+                                max="500"
+                                value={bonusPoints}
+                                onChange={(e) => setBonusPoints(e.target.value)}
+                                placeholder="0"
+                                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 h-11 text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                            />
+                        </div>
+                        {Number(bonusPoints) > 0 && (
+                            <>
+                                <div>
+                                    <label htmlFor="bonus-reason" className="block text-sm font-medium text-gray-700">Reason for the bonus</label>
+                                    <select
+                                        id="bonus-reason"
+                                        value={bonusReason}
+                                        onChange={(e) => setBonusReason(e.target.value)}
+                                        className="mt-1 block w-full rounded-lg border border-gray-300 px-3 h-11 text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                                    >
+                                        {BONUS_REASONS.map(({ value, label }) => (
+                                            <option key={value} value={value}>{label}</option>
+                                        ))}
+                                    </select>
+                                </div>
+                                <div>
+                                    <label htmlFor="bonus-note" className="block text-sm font-medium text-gray-700">
+                                        Note to the uploader <span className="text-gray-400 font-normal">(optional)</span>
+                                    </label>
+                                    <textarea
+                                        id="bonus-note"
+                                        value={bonusNote}
+                                        onChange={(e) => setBonusNote(e.target.value)}
+                                        maxLength={300}
+                                        rows={2}
+                                        className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                                    />
+                                </div>
+                            </>
+                        )}
+                        <div className="flex justify-end gap-3">
+                            <button
+                                onClick={() => setApproveOpen(false)}
+                                disabled={approving}
+                                className="rounded-lg px-4 py-2 text-sm font-medium text-gray-600 hover:bg-gray-100"
+                            >
+                                Cancel
+                            </button>
+                            <button
+                                onClick={confirmApprove}
+                                disabled={approving}
+                                className="rounded-lg bg-green-600 hover:bg-green-700 px-5 py-2 text-sm font-medium text-white disabled:opacity-60"
+                            >
+                                {approving ? 'Approving…' : 'Approve paper'}
+                            </button>
+                        </div>
+                    </div>
+                </ModalShell>
+                <ModalShell
+                    isOpen={rejectOpen}
+                    onClose={() => !rejecting && setRejectOpen(false)}
+                    title="Reject this paper?"
+                    maxWidth="sm:max-w-md"
+                >
+                    <div className="space-y-4">
+                        <p className="text-sm text-gray-600">
+                            The paper is removed from the queue and the contributor earns no reward.
+                        </p>
+                        <div>
+                            <label htmlFor="reject-reason" className="block text-sm font-medium text-gray-700">Reason</label>
+                            <select
+                                id="reject-reason"
+                                value={rejectReason}
+                                onChange={(e) => setRejectReason(e.target.value)}
+                                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 h-11 text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                            >
+                                {REJECT_REASONS.map(({ value, label }) => (
+                                    <option key={value} value={value}>{label}</option>
+                                ))}
+                            </select>
+                        </div>
+                        <div>
+                            <label htmlFor="reject-note" className="block text-sm font-medium text-gray-700">
+                                Note for the uploader <span className="text-gray-400 font-normal">(optional, shown on their profile)</span>
+                            </label>
+                            <textarea
+                                id="reject-note"
+                                value={rejectNote}
+                                onChange={(e) => setRejectNote(e.target.value)}
+                                maxLength={300}
+                                rows={2}
+                                placeholder="e.g. this exact paper was uploaded last month"
+                                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                            />
+                        </div>
+                        <div className="flex justify-end gap-3">
+                            <button
+                                onClick={() => setRejectOpen(false)}
+                                disabled={rejecting}
+                                className="rounded-lg px-4 py-2 text-sm font-medium text-gray-600 hover:bg-gray-100"
+                            >
+                                Cancel
+                            </button>
+                            <button
+                                onClick={confirmReject}
+                                disabled={rejecting}
+                                className="rounded-lg bg-red-600 hover:bg-red-700 px-5 py-2 text-sm font-medium text-white disabled:opacity-60"
+                            >
+                                {rejecting ? 'Rejecting…' : 'Reject paper'}
+                            </button>
+                        </div>
+                    </div>
+                </ModalShell>
 
                 <div className="bg-white border-b border-blue-100 px-6 py-4">
                     <div className="max-w-7xl mx-auto flex items-center gap-4">
@@ -306,7 +523,7 @@ const QuestionPapersVerification = ({ isLoading, onLoadClose }) => {
                                     className="flex-1 bg-red-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-red-700 transition-colors duration-200 flex items-center justify-center gap-2"
                                 >
                                     <Trash2 className="w-4 h-4" />
-                                    Delete
+                                    Reject
                                 </button>
                             </div>
                         </div>
