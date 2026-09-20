@@ -26,7 +26,7 @@ export default function DownloadButton({ paper, addToast, isLoggedIn, onLoginCli
 
     const handleDownload = async (event) => {
         event.stopPropagation();
-        if (!paper.r2Key) {
+        if (!paper.r2Key || paper.r2Key === "undefined") {
             addToast("Download link not available for this paper.", "error");
             return;
         }
