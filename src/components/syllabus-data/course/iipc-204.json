@@ -1,0 +1,49 @@
+{
+  "Course Title": "Introduction to IoT",
+  "Course Code": "IIPC-204",
+  "route": "course/iipc-204",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": ["IIOT"],
+  "semester": "3rd",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 45,
+  "description": "This course will be focused on introducing students to new trends, applications, system architecture and challenges involved in developing/deploying internet of things systems using real industrial use cases. A number of systems are getting connected to the internet, where the sensor data is analyzed to monitor and control the systems. Correctly analyzing data coming from multiple sensors, choosing the right hardware given the power and performance tradeoff, hardware heterogeneity and security are some of the challenges involved in developing IoT systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to IoT",
+      "hours": 10,
+      "body": "Concept of IoT, Vision, Impact, Challenges in IoT, IoT network architecture, Reference Model, Functional stack, Machine to Machine Communication, Standardization."
+    },
+    {
+      "id": "II",
+      "title": "Smart Things, Sensors and Data Analytics",
+      "hours": 10,
+      "body": "Smart 'Things', Sensors, Actuators, Devices for IoT, Interfaces, Data Aggregation, Data analytics for IoT, Big data analytics, IoT security and Privacy."
+    },
+    {
+      "id": "III",
+      "title": "Communication Technologies and Protocols",
+      "hours": 10,
+      "body": "Communication technologies- IEEE 802.15.24, IEEE 802.15.4e, IEEE 802.11ah, NB-IoT, IoT network layer, 6LoWPAN, 6Lo, IoT application layer, Transport methods- CoAP, MQTT, AMQP."
+    },
+    {
+      "id": "IV",
+      "title": "Applications and Case Studies",
+      "hours": 15,
+      "body": "Applications and Case Studies, Implementation of IoT with Raspberry Pi. Case studies: smart homes, smart cities, connected vehicles, Agriculture, Healthcare, environmental monitoring, smart manufacturing."
+    }
+  ],
+  "outcomes": [
+    "To understand fundaments of IoT and its architectural framework.",
+    "Ability to use sensors and wireless sensor networks for data collection.",
+    "Ability to perform big data analysis.",
+    "Ability to use IoT technology in real life scenarios."
+  ],
+  "referenceBooks": [
+    "David Hanes, Gonzalo Salgueiro, Patrick Grossetete, Robert Barton, Jerome Henry, \"IoT Fundamentals: Networking Technologies, Protocols and Use Cases for the Internet of Things\", 2018, Pearson India.",
+    "Rajkumar Buyya, Amir V. Dastjerdi, \"Internet of Things: Principles and Paradigms\", 2016, Morgan Kaufmann Publisher."
+  ]
+}

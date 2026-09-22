@@ -28,6 +28,13 @@ export const BRANCHES = {
       "Covers electric circuits, AC and DC machines, transformers, power generation, transmission and distribution, power system analysis, power electronics, control systems, signals and systems, network synthesis and filters, linear system theory, measurement and instrumentation, and machine learning and data analytics.",
     semestersAvailable: [3, 4, 5, 6, 7, 8],
   },
+  "iiot": {
+    code: "IIOT",
+    name: "Industrial Internet of Things",
+    description:
+      "Covers analog and digital electronics, signals and systems, random variables, automation fundamentals (PLC, SCADA, DCS), the internet of things, and principles of communication engineering, with hands-on electronics, MATLAB, and IoT labs.",
+    semestersAvailable: [3],
+  },
 };
 
 export function branchSlugFromCode(code) {

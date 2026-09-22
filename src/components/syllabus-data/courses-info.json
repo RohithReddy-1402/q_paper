@@ -3068,5 +3068,85 @@
     ],
     "semester": 8,
     "id": "nitkkr_306"
+  },
+  {
+    "Course Title": "Analog and Digital Electronics",
+    "Course Code": "IIPC-201",
+    "route": "course/iipc-201",
+    "Branches": [
+      "IIOT"
+    ],
+    "semester": 3,
+    "id": "nitkkr_307"
+  },
+  {
+    "Course Title": "Signals, Systems and Random Variables",
+    "Course Code": "IIPC-202",
+    "route": "course/iipc-202",
+    "Branches": [
+      "IIOT"
+    ],
+    "semester": 3,
+    "id": "nitkkr_308"
+  },
+  {
+    "Course Title": "Automation Fundamentals",
+    "Course Code": "IIPC-203",
+    "route": "course/iipc-203",
+    "Branches": [
+      "IIOT"
+    ],
+    "semester": 3,
+    "id": "nitkkr_309"
+  },
+  {
+    "Course Title": "Introduction to IoT",
+    "Course Code": "IIPC-204",
+    "route": "course/iipc-204",
+    "Branches": [
+      "IIOT"
+    ],
+    "semester": 3,
+    "id": "nitkkr_310"
+  },
+  {
+    "Course Title": "Principles of Communication Engineering",
+    "Course Code": "IIPC-205",
+    "route": "course/iipc-205",
+    "Branches": [
+      "IIOT"
+    ],
+    "semester": 3,
+    "id": "nitkkr_311"
+  },
+  {
+    "Course Title": "Electronics Lab",
+    "Course Code": "IIPC-206",
+    "route": "course/iipc-206",
+    "Branches": [
+      "IIOT"
+    ],
+    "semester": 3,
+    "id": "nitkkr_312"
+  },
+  {
+    "Course Title": "Signals & Communication Lab using MATLAB",
+    "Course Code": "IIPC-207",
+    "route": "course/iipc-207",
+    "Branches": [
+      "IIOT"
+    ],
+    "semester": 3,
+    "id": "nitkkr_313"
+  },
+  {
+    "Course Title": "IoT Lab",
+    "Course Code": "IIPC-208",
+    "route": "course/iipc-208",
+    "Branches": [
+      "IIOT"
+    ],
+    "semester": 3,
+    "id": "nitkkr_314"
   }
 ]

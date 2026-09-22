@@ -1,0 +1,34 @@
+{
+  "Course Title": "Electronics Lab",
+  "Course Code": "IIPC-206",
+  "route": "course/iipc-206",
+  "credits": 1,
+  "prerequisites": "PHIC-101, PHIC-103, IIPC-201",
+  "Course Type": "Lab",
+  "Branch": ["IIOT"],
+  "semester": "3rd",
+  "ltpc": [0, 0, 2, 1],
+  "contactHours": 28,
+  "description": "This course is designed to apply knowledge of analog electronics & digital electronics to a hands-on laboratory experience. To design and analyze various electronic circuits using p-n junction diode, Zener diode, assemble and make performance measurements on analog circuits. To familiarize students with the working of ICs of logic gates, MUXs, Encoder, Decoder, Flip-Flops etc. To demonstrate students the realization of MUXs/De-MUX, Encoder, Decoder, Flip-Flops etc. with the help of basic ICs.",
+  "syllabus": [],
+  "experiments": [
+    "PN Junction diode characteristics: (A) Forward bias (B) Reverse bias.",
+    "Zener diode characteristics and voltage regulator.",
+    "Half wave Rectifier with and without filter & Full wave Rectifier with and without filter.",
+    "Introduction to Digital Design Lab - Nomenclature of Digital ICs, Specifications, Study of the Data Sheet, Concept of Vcc and Ground, Verification of the Truth Tables of Logic Gates using TTL ICs.",
+    "Study and Verify (a) Demorgan's Theorem for 2 variables. (b) The sum-of product and product-of-sum expressions using universal gates.",
+    "Design and implementation of (a) Full Adder using basic logic gates. (b) Full subtractor using basic logic gates.",
+    "Implementation and Verification of Decoder/De-Multiplexer and Encoder using Logic Gates.",
+    "Realization of the following flip-flops using NAND Gates: (a) Clocked SR Flip-Flop (b) JK Flip-Flop.",
+    "Realization of following shift registers using IC7474: (a) SISO (b) SIPO (c) PISO (d) PIPO.",
+    "Design and implementation of MOD-12 up and down counter."
+  ],
+  "outcomes": [
+    "To demonstrate students the working and input-output characteristics of p-n junction diode, Zener diode.",
+    "Construct digital circuit to examine Boolean algebra, truth table of different logic gates.",
+    "Design various combinational and sequential circuits after analyzing their timing properties.",
+    "Understand the use of digital ICs of different logic functions."
+  ],
+  "textbooks": [],
+  "referenceBooks": []
+}
