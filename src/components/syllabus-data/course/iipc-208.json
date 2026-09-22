@@ -1,0 +1,34 @@
+{
+  "Course Title": "IoT Lab",
+  "Course Code": "IIPC-208",
+  "route": "course/iipc-208",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": ["IIOT"],
+  "semester": "3rd",
+  "ltpc": [0, 0, 2, 1],
+  "contactHours": 28,
+  "description": "This lab aims to get familiarize the students about the numerical computing in various fields. Internet of Things has emerged as a leading technology around the world.",
+  "syllabus": [],
+  "experiments": [
+    "Familiarization with Development board (Arduino/Raspberry Pi etc.,) and perform necessary software installation.",
+    "To interface LED/Buzzer with Development board (Arduino/Raspberry Pi etc.,) and write a program to turn ON LED for 1 sec after every 2 seconds.",
+    "To interface Push button/Digital sensor (IR/LDR) with Development board (Arduino/Raspberry Pi etc.,) and write a program to turn ON LED when push button is pressed or at sensor detection.",
+    "To interface DHT11 sensor with Development board (Arduino/Raspberry Pi etc.,) and write a program to print temperature and humidity readings.",
+    "To interface motor using relay with Development board (Arduino/Raspberry Pi etc.,) and write a program to turn ON motor when push button is pressed.",
+    "To interface OLED with Development board (Arduino/Raspberry Pi etc.,) and write a program to print temperature and humidity readings on it.",
+    "To interface Bluetooth with Development board (Arduino/Raspberry Pi etc.,) and write a program to send sensor data to smartphone using Bluetooth.",
+    "To interface Bluetooth with Development board (Arduino/Raspberry Pi etc.,) and write a program to turn LED ON/OFF when '1'/'0' is received from smartphone using Bluetooth.",
+    "Building Intrusion Detection System with Development board (Arduino/Raspberry Pi etc.,) and Ultrasonic Sensor.",
+    "Modules and Sensors Interfacing (Relay, RGB LED) using Development board (Arduino/Raspberry Pi etc.,)."
+  ],
+  "outcomes": [
+    "Understand the concept of Internet of Things.",
+    "Understand the data acquisition from various sensors.",
+    "Implement interfacing of various sensors with Arduino/Raspberry Pi.",
+    "Apply IoT concept in simple real-life applications."
+  ],
+  "textbooks": [],
+  "referenceBooks": []
+}

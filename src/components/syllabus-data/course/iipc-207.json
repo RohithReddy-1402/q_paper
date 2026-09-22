@@ -1,0 +1,35 @@
+{
+  "Course Title": "Signals & Communication Lab using MATLAB",
+  "Course Code": "IIPC-207",
+  "route": "course/iipc-207",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": ["IIOT"],
+  "semester": "3rd",
+  "ltpc": [0, 0, 2, 1],
+  "contactHours": 28,
+  "description": "This lab aims to get familiarize the students about the numerical computing in various fields. MATLAB allows matrix manipulations, plotting the function by using polar & contour3 commands, implementation of algorithms & creation of user interfaces. It calculates their design, waveforms, graphs, circles, circular helix and solves various integral and differential equations. The purpose of this course is to familiarize the students about the practical implementation Signals and Communication topics such as analog and digital modulation and demodulation schemes.",
+  "syllabus": [],
+  "experiments": [
+    "(i) To define and use variables, vectors, matrices, and their functions in MATLAB. (ii) To study various arithmetic operators and mathematical functions in MATLAB.",
+    "(i) To create and use m-files. (ii) To study various MATLAB commands for creating two- and three-dimensional plots.",
+    "Write a MATLAB program to plot the following continuous-time and discrete-time signals: Step Function, Impulse Function, Exponential Function, Ramp Function, Sine Function.",
+    "(i) Write a MATLAB program to perform amplitude-scaling, time-scaling, and time-shifting on a given signal. (ii) Write a MATLAB program to obtain linear convolution of the given sequences.",
+    "Write a MATLAB program to generate the Fourier series of (i) a square wave and (ii) a triangular wave.",
+    "Write a MATLAB program to calculate and plot the Fourier transform of: (i) Rectangular pulse (ii) Triangular pulse (iii) Gaussian pulse.",
+    "Write a MATLAB program to find the impulse response and step response of a system from its difference equation.",
+    "Write a MATLAB program for: (i) amplitude modulation and demodulation. (ii) frequency modulation and demodulation.",
+    "Write a MATLAB program for: (i) DSB-SC modulator and detector (ii) SSB-SC Modulator and Detector (Phase Shift Method).",
+    "Write a MATLAB program for the verification of the sampling theorem for: (i) Low pass signals (ii) Band pass signals.",
+    "Write a MATLAB program for PAM, PWM, PPM and PCM modulation and demodulation schemes.",
+    "Write a MATLAB program for PSK, FSK, and ASK modulation and demodulation schemes."
+  ],
+  "outcomes": [
+    "Learn basics of MATLAB Programing.",
+    "Write MATLAB Programs for analysis of signals & systems.",
+    "Simulate various modulation and demodulation schemes."
+  ],
+  "textbooks": [],
+  "referenceBooks": []
+}

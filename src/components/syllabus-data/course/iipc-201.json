@@ -1,0 +1,55 @@
+{
+  "Course Title": "Analog and Digital Electronics",
+  "Course Code": "IIPC-201",
+  "route": "course/iipc-201",
+  "credits": 3,
+  "prerequisites": "PHIC-101, PHIC-105",
+  "Course Type": "PC",
+  "Branch": ["IIOT"],
+  "semester": "3rd",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 44,
+  "description": "The course focuses on fundamental principles, underlying mathematics, and implementation details of Analog and Digital Electronics. This course covers a broad spectrum of BJT/FET amplifiers, concept of feedback and oscillators. The course delves into the basics of operational amplifier circuits, A/D and D/A converters, combinational circuits, number systems, Flip-Flops, combinational and sequential logic circuits.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "PN Junction Diode and Transistor Fundamentals",
+      "hours": 12,
+      "body": "PN junction diode: Characteristics and analysis, Types of diodes, Rectifiers and Filter Circuit: Half Wave Rectifier, Full Wave Rectifier, Bridge Rectifier and their Analysis, Filters; Series and Shunt Diode Clippers, Clamping Circuit; Basic Regulator Supply using Zener Diode. Transistor fundamentals: Construction and Characteristics of BJT, DC operating point and Biasing, Transistor Configuration: CB, CE, CC Configuration; Transistor at Low Frequency, Small Signal Low Frequency Transistor Model (h-parameters), Analysis of Transistor Amplifier (CE) using h-parameters."
+    },
+    {
+      "id": "II",
+      "title": "Amplifiers and Op-Amp Applications",
+      "hours": 10,
+      "body": "Amplifiers: MOS amplifiers; Multistage amplifiers, frequency response of amplifiers, Feedback Sinusoidal oscillators. Introduction to Op-Amp, ideal Op-Amp, equivalent circuit, transfer characteristics, Op-Amp with negative feedback, inverting and non-inverting amplifiers, frequency response, and slew rate. Applications of Op-Amp: Integrator, Differentiator, summing etc. Digital-to-Analog Converters (DAC), Analog-to-Digital Converters (ADC)."
+    },
+    {
+      "id": "III",
+      "title": "Number Systems, Codes and Boolean Algebra",
+      "hours": 12,
+      "body": "Number Systems and Codes: Binary, octal, and hexadecimal number systems, Conversion between number systems, Complements of binary numbers. Boolean Algebra and Logic Gates: Boolean algebra: Boolean laws, De Morgan's theorem, Boolean functions, Karnaugh maps. Basic logic gates, Universal gates and their applications."
+    },
+    {
+      "id": "IV",
+      "title": "Combinational and Sequential Logic Circuits",
+      "hours": 10,
+      "body": "Combinational Logic Circuits: Decoders, encoders, multiplexers, de-multiplexers and their application; three state devices, comparators, programmable logic devices, Sequential Logic Circuits: Latches and flip-flops, SR, D, J-K, T flip-flops & conversions, shift registers, counters, design and analysis of synchronous and asynchronous sequential circuits."
+    }
+  ],
+  "outcomes": [
+    "Develop the ability to analyze and design analog electronic circuits using discrete components.",
+    "Understand the amplifiers, concept of feedback and oscillators.",
+    "Describe the design and analysis of Op-Amp.",
+    "Design the digital circuits using Flip-Flops."
+  ],
+  "referenceBooks": [
+    "Sedra & Smith, Microelectronic Circuits - 5th Edition",
+    "Boylestad & Nashelsky, Electronic Devices and Circuit Theory - 9th Edition",
+    "A.P. Malvino, Electronic Principles, Tata Mcgraw Hill Publications",
+    "William Kleitz, Digital Electronics, Prentice Hall International Inc",
+    "R. T. Howe and C. G. Sodini, Microelectronics: An Integrated Approach, Prentice Hall Inc. 1997.",
+    "Jacob Millman, and C.C. Halkias, \"Electronic devices and circuits\", TMH Publications.",
+    "Ben G. Streetman, Solid State Electronic Devices, PHI, 5th Ed, 2001",
+    "Michael Shur, Introduction to Electronic Devices, John Wiley & Sons Inc., 2000"
+  ]
+}
