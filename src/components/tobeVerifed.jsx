@@ -176,13 +176,29 @@ const QuestionPapersVerification = ({ user, authChecked, isLoading, onLoadClose 
     useEffect(()=>{
         if (selectedPaper) {
             const fetchPdfUrl = async () => {
-                const url = await `https://pdf.nitkkrpyqs.in/${selectedPaper.r2Key}`
-                setPdfUrl(url);
-            
+                // The R2 bucket is private, so a raw https://pdf.<domain>/<r2Key>
+                // URL is rejected ("Forbidden: bad path") — ask the backend for a
+                // short-lived signed preview URL instead, same as approved papers get.
+                const bareId = selectedPaper.r2Key.replace(/^papers\//, "");
+                try {
+                    const res = await apiFetch(`/verifypapers/papers/${bareId}/preview`);
+                    if (!res.ok) {
+                        addToast("Could not load the PDF preview", "error");
+                        setPdfUrl('');
+                        return;
+                    }
+                    const { url } = await res.json();
+                    setPdfUrl(url);
+                } catch (err) {
+                    console.error("Preview fetch failed:", err);
+                    addToast("Could not load the PDF preview", "error");
+                }
             };
             fetchPdfUrl();
         }
         console.log(selectedPaper)
+        // refetch only when the selected paper changes, not when addToast's identity does
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [selectedPaper]);
     if (!authChecked) {
         return (
