@@ -182,11 +182,14 @@ const LoginModalAuto = ({ isOpen, onClose, onLogin, isSignUpOpen, setForgotPass,
       if (response.status == 201) {
         addToast("Verification Mail sent to registered email", "success");
         if (data.token) setToken(data.token);
-        const userData = { email, username };
-        onLogin(userData);
         onClose();
         if (data.user?.emailVerified === false) {
+          // Token is stored so "Resend"/verification-status checks work, but
+          // the account isn't usable yet — don't mark the session as logged
+          // in until /auth/check confirms the email is verified.
           onNeedsVerification?.(data.user?.EmailID || email, "signup");
+        } else {
+          onLogin({ email, username });
         }
       } else {
         addToast(data?.message || "Could not create the account", "error");
