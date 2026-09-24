@@ -2,6 +2,13 @@ const READ_KEY = "qpaper_notifications_read";
 
 export const NOTIFICATIONS = [
   {
+    id: "mobile-app-launch",
+    title: "Our mobile app is launching soon",
+    message: "The NIT KKR PYQs mobile app launches in 20 days — stay tuned!",
+    link: "/nit-kkr-pyqs",
+    date: "2026-09-24",
+  },
+  {
     id: "rewards-system",
     title: "Earn rewards for contributing",
     message: "Upload question papers and earn rewards you can redeem from your profile.",
