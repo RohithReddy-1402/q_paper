@@ -34,6 +34,7 @@ export const BRANCHES = {
     description:
       "Covers manufacturing processes, fluid mechanics and fluid machines, strength of materials, kinematics and dynamics of machines, machine design, heat transfer, refrigeration and air conditioning, IC engines, mechanical vibrations and CAD, with electives spanning materials, welding, additive manufacturing, thermal power, CFD, FEM, tribology, mechatronics, robotics, industrial and quality engineering.",
     semestersAvailable: [3, 4, 5, 6, 7, 8],
+  },
   "iiot": {
     code: "IIOT",
     name: "Industrial Internet of Things",
