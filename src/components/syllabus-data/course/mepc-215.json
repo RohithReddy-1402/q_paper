@@ -1,0 +1,38 @@
+{
+  "Course Title": "Fluid Machines (P)",
+  "Course Code": "MEPC-215",
+  "route": "course/mepc-215",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "4th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 24,
+  "description": "This course provides a simple understanding of principles of fluid flow fundamentals. The course consists of measuring pressure, discharge, velocity of fluid flow and head loss. It provides the knowledge in performance testing of Hydraulic Turbines and Hydraulic Pumps at constant speed and Head.",
+  "syllabus": [],
+  "experiments": [
+    "Determine the overall efficiency of Pelton wheel Turbine at Constant Speed and Constant Head",
+    "Determine the overall efficiency of Francis Turbine at Constant Speed and Constant Head.",
+    "Determine the overall efficiency of Kaplan Turbine at Constant Speed and Constant Head.",
+    "Determine the overall efficiency of Centrifugal pump at Constant Speed and Constant Head.",
+    "Determine the overall efficiency of Reciprocating pump at Constant Speed and Constant Head.",
+    "Study and perform test on a Gear pump.",
+    "Study and perform test on a Torque Convertor.",
+    "Study and perform test on a Hydraulic Ram to find out its efficiency."
+  ],
+  "outcomes": [
+    "Do performance analysis of fluid machines specially turbines and pumps.",
+    "Analyze practical problems in all power plants and chemical industries",
+    "Conduct experiments (in teams) and analyze a variety of practical fluid-flow devices and utilize fluid mechanics principles in design",
+    "Optimize the pumping efficiency and select the proper pump, if provided with flow rate and pressure rise"
+  ],
+  "textbooks": []
+}

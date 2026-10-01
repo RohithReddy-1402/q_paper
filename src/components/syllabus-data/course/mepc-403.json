@@ -1,0 +1,61 @@
+{
+  "Course Title": "Computer Aided Design",
+  "Course Code": "MEPC-403",
+  "route": "course/mepc-403",
+  "credits": 3,
+  "prerequisites": "Machine Design-II",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course will introduce the students to the geometric modelling and engineering analysis techniques required to model and analyze objects for application in CAD, CAM, Computer Graphics and many other engineering applications. The learning objectives of this course are: to understand 2D & 3D geometric transformation techniques and apply the same to obtain orthographic, perspective, axonometric and oblique projections; to develop mathematical models to represent curves and surfaces; to understand and generate solid geometries; and to understand the fundamentals of Finite Element Method and apply the same for engineering analysis.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Transformations",
+      "hours": 10,
+      "body": "Introduction: Introduction to design process and role of computer in design, Historical developments, Industrial look at CAD/CAM, Basics of geometric and solid modeling, explicit, implicit, intrinsic, extrinsic and parametric equations coordinate systems. Transformations: Introduction, transformation of points and line, 2-D rotation, reflection, scaling and combined transformation, homogeneous coordinates, 3-D scaling, shearing, rotation, reflection and translation, combined transformations, 3D rotation about an arbitrary axis, 3D reflection through an arbitrary plane, orthographic, Axonometric, Oblique and perspective projections."
+    },
+    {
+      "id": "II",
+      "title": "Curves and Surfaces",
+      "hours": 10,
+      "body": "Curves: Algebraic and geometric forms, Analytical & Synthetic Curves, tangents and normal, blending functions, re-parametrization, straight lines, conics, cubic splines, bezier curves and B-spline curves; Rational curves, Non-uniform Rational curves, NURBS; Curve manipulation. Surfaces: Algebraic and geometric forms, Analytical and Synthetic Surfaces, tangents and twist vectors, normal, blending functions, sixteen-point form, four curve form, plane surface, ruled surface, surface of revolution, tabulated cylinder, bi-cubic surface, Bezier surface, B-spline surfaces, Coons surface, Triangular patches."
+    },
+    {
+      "id": "III",
+      "title": "Solids",
+      "hours": 10,
+      "body": "Solid models and representation scheme, Fundamentals of Solid Modeling, boundary representation, constructive solid geometry, sweep representation, cell decomposition, spatial occupancy enumeration, Half spaces, Octree Encoding, Pure Primitive Instancing."
+    },
+    {
+      "id": "IV",
+      "title": "Introduction to Finite Element Analysis; Case Studies",
+      "hours": 10,
+      "body": "Introduction to CAE and Finite Element Method, Finite element formulation for one dimensional bar and beam elements, Plane stress and plane strain problems, Axisymmetric formulation, Two dimensional problems using constant strain triangles and higher order elements. Case Studies: Develop computer codes for Wireframe modelling and 3D transformations of simple solids such as cuboid, pyramid, wedge etc; Geometric modelling and mesh generation for an involute profile spur gear; Stress analysis of a simply supported beam subjected to uniformly distributed load."
+    }
+  ],
+  "outcomes": [
+    "Geometrically transform 2D & 3D entities (such as, lines, surfaces and solids)",
+    "Generate curves and surfaces by developing mathematical models",
+    "Model components using solid modeling techniques",
+    "Perform engineering analysis using Finite Element Method"
+  ],
+  "textbooks": [
+    "CAD/CAM by Groover and Zimmer, Prentice Hall",
+    "CAD/CAM: Theory and Practice by I. Zeid, Tata McGraw Hill",
+    "Mathematical Elements for Computer Graphics by Rogers & Adams, McGraw Hill.",
+    "Computer Aided Engineering Design by Anupam Saxena and Birendra Sahay, Springer",
+    "An Introduction to the Finite Element Method by J.N.Reddy, McGraw Hill",
+    "The Finite Element Method in Engineering by S.S. Rao, Pergamon Press",
+    "Textbook of Finite Element Analysis by P. Seshu, PHI Learning"
+  ]
+}

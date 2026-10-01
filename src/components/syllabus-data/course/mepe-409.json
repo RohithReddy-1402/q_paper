@@ -1,0 +1,61 @@
+{
+  "Course Title": "Artificial Neural Network",
+  "Course Code": "MEPE-409",
+  "route": "course/mepe-409",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course introduces the Neural Networks and Fuzzy logic. In today's highly integrated world, these techniques are powerful means for obtaining solutions to problems quickly and accurately. These techniques build computationally intelligent systems that possess human like abilities to reason, learn and handle the uncertainty and vagueness often inherent in real world problems. These can be used to solve complex practical problems for which conventional mathematical and analytical methods are inefficient.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Artificial Neural Networks",
+      "hours": 12,
+      "body": "Introduction of Artificial Neural Network, Advantages, Biologic neural network, Comparison between Artificial and Biological Network, Basic building blocks of Artificial Neural Network, Artificial Neural Network Terminologies, Fundamental models of Neural Network (McCulloch-Pitts Neuron Model for AND, OR, XOR, ANDNOT function, Learning Rules (Hebbian, perceptron, delta), Hebb Net, Perceptron networks, Adaline, Madaline"
+    },
+    {
+      "id": "II",
+      "title": "Associative Memory, Competitive and Feed-forward Networks",
+      "hours": 10,
+      "body": "Associative memory models (Auto associative network, Hetero associative Memory Network) Training by (1) Hebb Rule (2) Outer Product Rule. Competitive networks (Hamming Network, Maxnet, Mexican Hat Network) Multi-layer Feed-forward Neural Network (Architecture, Learning Method, Back propagation Method, Design issues of Artificial Neural Network, Applications of Feed-forward Networks"
+    },
+    {
+      "id": "III",
+      "title": "Introduction to Fuzzy Logic",
+      "hours": 8,
+      "body": "Introduction to Fuzzy logic, Fuzzy versus crisp, Crisp set Theory, operation on crisp sets, properties of crisp sets, crisp relation (Cardinality, Operations and properties of crisp Relations), Fuzzy sets: Membership function, basic fuzzy set operations, properties of fuzzy sets, fuzzy relations (Cardinality, Operations, Properties of fuzzy relations"
+    },
+    {
+      "id": "IV",
+      "title": "Fuzzy Logic and Fuzzy Rule Based Systems",
+      "hours": 10,
+      "body": "Crisp logic, Predicate Logic, Fuzzy logic (Fuzzy quantifiers, Fuzzy inference), Fuzzy rule based system - Formation of Rules, Decomposition of rules, Aggregation of Fuzzy rules) De-fuzzification methods, Air conditioner Controller, Washing Machine controller"
+    }
+  ],
+  "outcomes": [
+    "Student will be familiar with fundamental theory, concepts and models of neural network",
+    "Student will be able to apply neural networks to prediction and pattern classification problems",
+    "Student will be familiar with fundamental theory, concepts of fuzzy logic",
+    "Students will be able to apply fuzzy logic to solve engineering problems having uncertainty"
+  ],
+  "textbooks": [
+    "Saroj Kaushik and Sunita Tiwari, Soft computing fundamentals, Techniques and Applications, McGraw Hill Education Private Limited",
+    "S. Rajasekaran & G. A. Vijayalakshmi Pai, Neural Networks, Fuzzy Logic and Genetic Algorithms: Synthesis & Applications, PHI, 2003.",
+    "S. N. Sivanandam & S. N. Deepa, Principles of Soft Computing, Wiley - India, 2007.",
+    "Saroj Kaushik, Artificial Intelligence, Cengage Learning, 2007.",
+    "S. N. Sivanandam, Sumathi & S. N. Deepa, Introduction to Neural Networks using MATLAB",
+    "S. N. Sivanandam, Sumathi & S. N. Deepa, Introduction to fuzzy logic using MATLAB",
+    "Timothy J. Ross, Fuzzy Logic with Engineering Applications, Wiley, 2016"
+  ]
+}

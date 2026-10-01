@@ -1,0 +1,64 @@
+{
+  "Course Title": "Work Study and Ergonomics",
+  "Course Code": "MEPE-306",
+  "route": "course/mepe-306",
+  "credits": 3,
+  "prerequisites": "Industrial Engineering",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Work study and ergonomics is a subject in Mechanical Engineering that focuses on applying the concepts of techniques like method study and work measurement to understand human work potential in terms of time spent for completing a task, looking at ways to make the task simpler and easy so as to increase productivity and efficiency. Work study is used for finding ways of increasing job performance, optimizing usage of plant and machinery and standardization of work methods. Ergonomics is complementary to work study and aids in designing or arranging workplaces, products and systems so that they best fit the people who use them.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Productivity and Work-Study",
+      "hours": 8,
+      "body": "Productivity and Work-Study: Productivity: Concept and definition, Difference between production and productivity, Reasons for low productivity, factors influencing productivity, productivity measures, productivity measurement models, methods/techniques to improve productivity, Work content, Numerical Problems. Work-Study: Definition, Historical development of work study, objective and scope of work study. Human factor in work study, Work study and management, work study and supervisor, work study and worker, qualities of work-study man"
+    },
+    {
+      "id": "II",
+      "title": "Method Study",
+      "hours": 10,
+      "body": "Definition, objectives, step-by-step procedure, selection of job for method study, questioning techniques, charts and diagrams for recording data: outline process charts, flow process charts, multiple activity charts, two handed process chart, string diagram, travel chart, models and templates, cycle graph, Chrono-cycle graph, Therbligs, Micro motion study and film analysis, Memo-motion study, SIMO chart, Principles of motion economy, development and installation of new methods. Numerical problems and Case studies"
+    },
+    {
+      "id": "III",
+      "title": "Work Measurement",
+      "hours": 10,
+      "body": "Introduction & definition, various techniques of work-measurement, objectives and basic procedure of work measurement; application of work measurement in industries; time study: basic procedure, equipment needed, methods of measuring time, selection of jobs, breaking a job into elements; numbers of cycles to be timed; rating and methods of rating, allowances, work sampling, normal time, standard time, numerical problems, Predetermined Motion Time System and its types, Work Factor System, Method Time Measurement and Basic Motion Time, MOST, calculation of standard time, Numerical problems and case studies."
+    },
+    {
+      "id": "IV",
+      "title": "Ergonomics",
+      "hours": 12,
+      "body": "Introduction, history of development, objectives, applications of ergonomics, related sciences of ergonomics, man-machine system and its components, design of Man Machine Systems, characteristics of man machine system, man versus machines, Aspects of man machine system: design of information/visual displays, design of controls, Design of work posture, environmental factors and working conditions: effect of vibration, noise, temperature and illumination on performance. Applied Anthropometry - types, use, principles and applications, design of work place and seat design, Significance of Ergonomics in industry 4.0, Case study: Ergonomic design consideration for designing office chair. Design of lifting tasks using NIOSH lifting equation, Distal upper extremities risk factors, risk assessment tools; Strain Index, RULA, REBA."
+    }
+  ],
+  "outcomes": [
+    "Understand the productivity and Work Study concepts and their applications",
+    "Demonstrate the tools and techniques of method study",
+    "Determine standard time of a job using the various techniques of work measurement",
+    "Understand the prime concepts of Ergonomics and its significance in relation to the design of work place and controls etc."
+  ],
+  "textbooks": [],
+  "referenceBooks": [
+    "Barnes Ralph M., Motion & Time study: Design and Measurement of Work, Wiley Text Books, ed. 7th, 2001.",
+    "Marvin E, Mundel & David L, Motion & Time Study: Improving Productivity, Pearson Education, 2000.",
+    "Benjamin E Niebel and Freivalds Andris, Methods Standards & Work Design, McGraw Hill, 2013.",
+    "International Labour organization, Work-study, Oxford and IBH publishing company Pvt. Ltd., New Delhi, 2001.",
+    "Sanders Mark S and McCormick Ernert J, Human Factors in Engineering and Design, McGraw-Hill Inc., 1993.",
+    "Sharma S K and Sharma Savita, \"Work Study and Ergonomics\", S K Kataria & Sons., Delhi, 2014.",
+    "Dr. P.C. Tewari, \"Work Study and Ergonomics\", CRC Press U.K., 2018",
+    "Lakhwinder Pal Singh, \"Work Study and Ergonomics\", Cambridge University Press, 2016",
+    "R.S.Bridger - Introduction to Ergonomics, Taylor and Francis, 2003"
+  ]
+}

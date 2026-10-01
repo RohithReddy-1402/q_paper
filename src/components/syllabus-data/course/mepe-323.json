@@ -1,0 +1,61 @@
+{
+  "Course Title": "Mechatronics",
+  "Course Code": "MEPE-323",
+  "route": "course/mepe-323",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Mechatronics and its Systems; Basics of Digital Technology",
+      "hours": 10,
+      "body": "Introduction to Mechatronics and its Systems: Evolution, Scope, Measurement Systems, Subsystems and integration of mechanical & electrical systems using computer based control, Control Systems, open and close loop systems, Practical applications of mechatronics, Mechatronics approach. Basics of Digital Technology: Electronic Components & Devices, Number System, Logic gates, Boolean algebra, Logic Functions, Applications."
+    },
+    {
+      "id": "II",
+      "title": "Sensors and Transducers; Pneumatic and Hydraulic Actuation Systems",
+      "hours": 10,
+      "body": "Sensors and transducers: Introduction, performance terminology-Displacement, Position and Proximity, Velocity and motion, force, Fluid Pressure-Temperature Sensors-Light Sensors-Selection of Sensors-Signal Processing. Pneumatic and Hydraulic actuation systems: Actuation systems, Pneumatic and hydraulic systems, directional control valves, pressure control valves, cylinders, process control valves, rotary actuators."
+    },
+    {
+      "id": "III",
+      "title": "Mechanical Actuation Systems; Microprocessor",
+      "hours": 10,
+      "body": "Mechanical actuation systems: Mechanical systems, types of motion, kinematics chains, cams, gear trains, ratchet and pawl, belt and chain drives, bearings, mechanical aspects of motor selection. Microprocessor: Introduction, Architecture, Pin Configuration, Instruction set, Programming of Microprocessors using 8085 instructions-Interfacing input and output devices-Interfacing D/A converters and A/D converters, Applications, Temperature control, Stepper motor control."
+    },
+    {
+      "id": "IV",
+      "title": "Programmable Logic Controller; Robotics",
+      "hours": 10,
+      "body": "Programmable Logic Controller: Introduction, Basic structure, Input/output Processing, Programming, Mnemonics, Timers, Internal relays and counters, Data handling, Analog Input/Output, Selection of a PLC. Robotics: Introduction, types of robots, Robotic control, Robot drive systems Robot end effectors, selection parameters of a robot, applications."
+    }
+  ],
+  "outcomes": [
+    "Understand the basic concepts of mechatronics, digital technology and their applications.",
+    "Understand the functioning of various types of sensors, transducers and their applications.",
+    "Understand the concept of pneumatic, hydraulic and mechanical actuation systems.",
+    "Perceive the functioning of microprocessors, Programmable logic controllers, their architecture, structure and applications.",
+    "Understand the basics of robotics, robot types, their drive systems and applications."
+  ],
+  "textbooks": [
+    "Bolton W., \"Mechatronics\", Longman, Second Edition, 2004.",
+    "Histand Michael B. and Alciatore David G., \"Introduction to Mechatronics and Measurement Systems\", McGraw Hill International Editions, 2003.",
+    "Kamm, M.L.J., Mechatronics, Prentice Hall of India, New Delhi (2007).",
+    "HMT Ltd., \"Mechatronics\", Tata McGraw Hill Publishing Co. Ltd., 1998.",
+    "A Text Book of Mechatronics, R K Rajput.",
+    "Nitaigour Premchand Mahalik, \"Mechatronics Principles, Concepts and Applications\", Tata McGraw-Hill publishing company Ltd, 2003.",
+    "Auslander, D. M. and Kempf, C. J., Mechatronics: Mechanical System Interfacing, Prentice Hall, New Jersey (1996)."
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "Course Title": "Introduction to MATLAB Programming",
+  "Course Code": "MEPC-213",
+  "route": "course/mepc-213",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "4th",
+  "ltpc": [
+    2,
+    0,
+    3,
+    3
+  ],
+  "contactHours": 40,
+  "description": "MATLAB is an object-oriented high-level interactive software package for scientific and engineering numerical computations. Its name stands for matrix laboratory. MATLAB enables easy manipulation of matrix and other computations without the need for traditional programming. MATLAB's basic data element is the matrix. The course covers the main features of the MATLAB integrated design environment and its user interfaces - the MATLAB Desktop, Command window and the Graph Window, how to do simple and complex calculation using MATLAB, how to automate commands with scripts, how to increase automation by encapsulating modular tasks as user-defined functions, and the tools that are essential in solving engineering problems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Basic Features and the MATLAB Desktop; Arrays and Array Operations",
+      "hours": 10,
+      "body": "Basic Features and The MATLAB Desktop (5 hrs): Introduction to MATLAB, MATLAB Windows, Variables, Keywords, Special variables, Managing the workspace, Complex Numbers, Number display formats, Mathematical functions, MATLAB search path, Script M-File use, Use of Special functions-disp, input, pause, waitfor buttonpress, Comments, Block comments, punctuation and aborting execution. Arrays and Array Operations (5 hrs): Simple arrays, Array addressing, Array construction, array orientation, scalar-array mathematics, array-array mathematics, standard arrays, array manipulation, array sorting, subarray searching, array manipulation functions, array size, multidimensional arrays"
+    },
+    {
+      "id": "II",
+      "title": "Numeric Data Types, Cell Arrays and Structures; Relational and Logical Operations",
+      "hours": 10,
+      "body": "Numeric data types, Cell Arrays and Structures (5 hrs): Numeric Data types- integer data types, floating point data types, cell array creation, cell array manipulation, retrieving cell array content, cell functions, structure creation, structure manipulation, retrieving structure content, structure functions. Relational and Logical Operations (5 hrs): Relational operators, logical operators, operator precedence, relational and logical functions"
+    },
+    {
+      "id": "III",
+      "title": "Control Flow and Functions",
+      "hours": 10,
+      "body": "Control Flow (5 hrs): Control flow-for loops, While loops, if-Else-End, Switch-Case, Try-Catch block. Functions (5 hrs): M-FILE function construction rules, input and output arguments, nested functions, Function handles and anonymous functions"
+    },
+    {
+      "id": "IV",
+      "title": "Graphics and Debugging; Matrix Algebra and Data Analysis",
+      "hours": 10,
+      "body": "Two & Three Dimensional Graphics and Debugging (5 hrs): Two dimensional graphics- The plot function, Line style, Markers, Colors, plot grids, axes box and labels, Customizing plot axes, Multiple plots, Multiple figures, Subplots, Interactive plotting tools, Specialized 2D plots, Three- Dimensional graphics- Line plots, Scalar functions of two variables, Mesh plots, Surface plots, Contour plots, How to do Debugging in MATLAB, Native data files, directory management. Matrix Algebra and Data Analysis (5 hrs): Set of Linear Equations, Matrix functions, Sparse Matrices, Basic Statistical Analysis, Basic Data Analysis, Data Analysis and Statistical Functions"
+    }
+  ],
+  "outcomes": [
+    "Students will become familiar with fundamental operations in MATLAB, matrix generation and manipulation",
+    "Students will become familiar with cell arrays, Structures, Logical and Relational Operators",
+    "Students will be able to use control loops and functions",
+    "Students will be able to use MATLAB graphic feature and apply Matrix Algebra and Data Analysis"
+  ],
+  "textbooks": [
+    "Mastering MATLAB 7 BY Duane Hanselman, Bruce Littlefield",
+    "MATLAB Programming for Engineers by Stephen J. Chapman",
+    "Introduction to MATLAB for Engineers by William J. Palm III",
+    "A Guide to MATLAB: For Beginners and Experienced Users by Brian R. Hunt"
+  ]
+}

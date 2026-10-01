@@ -1,0 +1,57 @@
+{
+  "Course Title": "Two-Phase Heat Transfer",
+  "Course Code": "MEPE-411",
+  "route": "course/mepe-411",
+  "credits": 3,
+  "prerequisites": "Heat Transfer",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "The course \"Two-Phase Heat Transfer\" encompasses a wide range of topics, including modeling methods for one-dimensional two-phase flow, detailed modeling of interfacial flows, and the study of phase change phenomena. Its primary goal is to provide students with an understanding of the physics behind two-phase flows and equip them with analytical techniques to examine multiphase flows found in diverse industries such as chemical processing, space exploration, and food production. Additionally, the course delves into boiling heat transfer, which holds significance in applications like power plants and boilers.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Multiphase Flow",
+      "hours": 10,
+      "body": "Introduction to multiphase flow, types and applications, Common terminologies, flow patterns and flow pattern maps. One dimensional steady homogenous flow, Concept of choking and critical flow phenomena, the separated flow model for stratified and annular flow."
+    },
+    {
+      "id": "II",
+      "title": "Drift Flux Model, Two-Phase Pressure Drop and Boiling",
+      "hours": 10,
+      "body": "General theory of drift flux model, Application of drift flux model to bubbly and slug flow, Pressure Drop in Two-Phase Flow. Measurement techniques for multiphase flow, void fraction and flow rate measurement. Description and Classification of Boiling, Pool Boiling Curve."
+    },
+    {
+      "id": "III",
+      "title": "Nucleate Boiling, Pool Boiling and Flow Boiling",
+      "hours": 10,
+      "body": "Nucleation and Dynamics of Single Bubbles, Heat Transfer Mechanisms in Nucleate Boiling, Nucleate Boiling Correlations, Hydrodynamic of Pool Boiling Process, Pool Boiling Crisis, Film Boiling Fundamentals, Flow Boiling, Forced-Flow Boiling Regimes, Nucleate Boiling in Flow, Sub-cooled Nucleate Flow Boiling."
+    },
+    {
+      "id": "IV",
+      "title": "Saturated Flow Boiling and Condensation",
+      "hours": 10,
+      "body": "Saturated Nucleate Flow Boiling, Flow Boiling Correlations, Flow Boiling Crisis. Film and dropwise condensation. Case studies/Latest developments/Sustainable technologies in two-phase heat transfer"
+    }
+  ],
+  "outcomes": [
+    "Understand the fundamentals of two-phase flow",
+    "Analyze flow regimes with appropriate models",
+    "Understand pool boiling and flow boiling",
+    "Estimate the two-phase heat transfer coefficients."
+  ],
+  "textbooks": [
+    "Boiling Heat Transfer and Two-Phase Flow, L. S. Tong and Y. S. Tang, Taylor and Francis, 1997",
+    "Convective boiling and condensation, J. B. Collier, and J. R. Thome, Oxford Science Publications, 1994",
+    "C.E. Brennen, Fundamentals of Multiphase Flow, Cambridge University Press, New York, 2005."
+  ]
+}

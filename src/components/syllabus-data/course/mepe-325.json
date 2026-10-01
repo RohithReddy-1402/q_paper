@@ -1,0 +1,62 @@
+{
+  "Course Title": "Vehicle Dynamics",
+  "Course Code": "MEPE-325",
+  "route": "course/mepe-325",
+  "credits": 3,
+  "prerequisites": "Dynamics of Machines, Strength of Materials-II",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Vehicle Dynamics is the study of vehicle motion, tasked with exploring the behaviour of a vehicle in response to driver inputs and those of the environment. The theory of vehicle dynamics and its application underpins the development of automobiles and race cars, contributing extensively to their design and subsequent operation. The objectives of the course are: to provide information about various aspects of kinematics and dynamics of an automobile; to understand the dynamic behavior of various components of the vehicles e.g. suspension system, tires etc.; to understand the vehicle stability and performance under the different external conditions; and to understand the safety and control features of longitudinal, lateral and vertical dynamics.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Basics of Vibrations",
+      "hours": 10,
+      "body": "Classification of vibration, mechanical vibrating systems, human comfort, modeling and simulation studies, Model of an automobile, one degree of freedom, two degrees of freedom systems, free forced and damped systems, vibrations magnification and transmissibility. Vibration absorber. Modal analysis."
+    },
+    {
+      "id": "II",
+      "title": "Suspension",
+      "hours": 8,
+      "body": "Functioning of suspension system, Vehicle dynamics affected due to suspension, Chassis spring, Effective spring rate, Different types of suspension systems- Leaf, Helical, Torsion, Fluid and Air suspension, Design of suspension system, Mechanics of suspension system."
+    },
+    {
+      "id": "III",
+      "title": "Stability of Vehicle; Vehicle Handling",
+      "hours": 12,
+      "body": "Stability of vehicle (6 hrs): Load distribution, stability of vehicles (on road and off road) on a curved track and on a slope. Gyroscopic effects, weight transfer during acceleration and braking over turning and sliding. Rigid vehicle stability and equations of motion cross wind handling. Vehicle Handling (6 hrs): Over steer, under steer, steady state cornering. Effect of braking driving torques on steering. Effect of camber transient effects in cornering. Directional stability of vehicles."
+    },
+    {
+      "id": "IV",
+      "title": "Tires; Performance Characteristics of Vehicles",
+      "hours": 10,
+      "body": "Tires (8 hrs): Types of Tires, Relative merits and demerits Ride characteristics, Behavior while cornering, slip angle cornering force, power consumed by a tire, Tire forces and moments, rolling resistance of tires, relationship between tractive effort and longitudinal slip of tires, cornering properties of tires, ride properties of tire, Effect of driving braking torque, Gough's tire characteristics, Effect of camber thrust. Performance Characteristics of Vehicles (2 hrs): Equation of motion and maximum tractive effort. Aerodynamics forces and moments. Power and transmission characteristics. Prediction of vehicle performance. Braking performance."
+    }
+  ],
+  "outcomes": [
+    "Get in-depth exposure and analyze the dynamic behavior of vehicle.",
+    "Apply scientific and technical knowledge to the field of automobiles.",
+    "Understand the concept of performance, handling and ride characteristics of a vehicle dynamics",
+    "To develop extended experience in solving problems related to a broad range of vehicle systems and components, and evaluate the vehicle dynamic behaviors."
+  ],
+  "textbooks": [
+    "Rao J.S and Gupta. K \"Theory and Practice of Mechanical Vibrations\", Wiley Eastern Ltd., 2002.",
+    "Dr. N. K. Giri, \"Automobile Mechanics\", Seventh reprint, Khanna Publishers, Delhi, 2005",
+    "Groover, \"Mechanical Vibration\", 7th Edition, Nem Chand & Bros, Roorkee, India, 2003.",
+    "JG.Giles, 'Steering, Suspension tyres', Illife Books Ltd London 1975",
+    "W.Steeds, 'Mechanics of road vehicle' Illiffe Books Ltd, London 1992",
+    "J.Y. Wong, Theory of Ground Vehicles, John Wiley & Sons Inc., New York. 1978",
+    "P.M.Heldt, 'Automotive chassis', Chilton Co., New York, 1982",
+    "J. R. Ellis, 'Vehicle Dynamics', Business Books, London, 1969."
+  ]
+}

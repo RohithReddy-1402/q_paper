@@ -1,0 +1,42 @@
+{
+  "Course Title": "Theory of Machines (P)",
+  "Course Code": "MEPC-214",
+  "route": "course/mepc-214",
+  "credits": 1,
+  "prerequisites": "Kinematics of Machines",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "4th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 24,
+  "description": "To prepare students for kinematic and dynamic analysis of various machines and mechanisms.",
+  "syllabus": [],
+  "experiments": [
+    "To determine experimentally the ratio of cutting to idle time to the crank & slotted lever (QRM) & compare the result with theoretical values. Plot the following: (i) θ v/s displacement of slider (ii) θ v/s velocity (iii) θ v/s acceleration",
+    "To determine velocity & acceleration of slider in Slider Crank mechanism and plot the following: (i) θ v/s displacement of slider (ii) θ v/s velocity (iii) θ v/s acceleration. Compare the values of velocities and acceleration with those obtained theoretically. Assume angular velocity = 1 rad/sec",
+    "To determine the values of coefficient of friction between the screw & nut of jack while: (i) raising the load (ii) lowering the load",
+    "To draw experimentally a curve of the follower displacement v/s cam angle. Differentiate the above curve to get velocity & acceleration plot & compare the values with those obtained analytically.",
+    "To determine the value of coefficient of friction between belt & pulley and plot a graph between log T1/T2 & θ and measure the slip and creep in belt drive.",
+    "To find experimentally the gyroscopic couple on motorized Gyroscope and compare with applied couple.",
+    "To find critical speed experimentally and to compare whirling speed of shaft with theoretical values.",
+    "To perform the experiment of balancing of rotating parts and find unbalanced couples and force.",
+    "To study various types of Gears & their terminologies – Spur, Helical, Bevel and Worm Gear. To study the various gear trains: simple, compound, reverted & epicyclic.",
+    "To plot the characteristic curves for Porter, Proell and Hartnell governors. To perform the effect of varying the mass of central sleeve for Porter and Proell governors.",
+    "To find experimentally the Coriolli's component of acceleration and compare with theoretical values.",
+    "To measure Epicyclic Gear ratio between input shaft and output shaft."
+  ],
+  "outcomes": [
+    "Able to perform the experiment on various mechanisms.",
+    "To understand and illustrate various power transmission mechanisms.",
+    "Knowledge of Gyroscopic Motion, Governors, Gears and Gear Train.",
+    "Able to perform the experiment of Coriolli's component of acceleration."
+  ],
+  "textbooks": []
+}

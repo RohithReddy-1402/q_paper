@@ -1,0 +1,53 @@
+{
+  "Course Title": "Advanced Manufacturing Processes",
+  "Course Code": "MEPE-320",
+  "route": "course/mepe-320",
+  "credits": 3,
+  "prerequisites": "Production Technology-II",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course provides students with an understanding of advanced manufacturing technology and skills relating to the implementation of these technologies in modern industry within both global and local contexts. Topics include basics of advanced machining processes, advanced casting and welding methods, advanced metal forming processes, etc.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Advanced Machining Processes",
+      "hours": 12,
+      "body": "Introduction, Process principle, Material removal mechanism, Parametric analysis and applications of advanced manufacturing processes such as; ultrasonic machining, Abrasive jet machining, Water jet machining, Abrasive water jet machining, Electrochemical machining, Electro discharge machining, Electron beam machining, Laser beam machining processes, principle of Plasma arc machining."
+    },
+    {
+      "id": "II",
+      "title": "Advanced Casting and Welding Processes",
+      "hours": 8,
+      "body": "Advanced Casting Processes: Metal mould casting, Continuous casting, Squeeze casting, Vacuum mould casting, Evaporative pattern casting, Ceramic shell casting. Advanced Welding Processes: Details of electron beam welding (EBW), laser beam welding (LBW), ultrasonic welding (USW)."
+    },
+    {
+      "id": "III",
+      "title": "Advanced Metal Forming; Analysis of Metal Forming; Special Processing Technologies",
+      "hours": 20,
+      "body": "Advanced Metal Forming Processes: Details of high energy rate forming (HERF) process, Electro-magnetic forming, explosive forming Electro-hydraulic forming, Stretch forming, Contour roll forming. Analysis of Metal Forming Processes (10 hrs): Theoretical basis of metal forming, classification of metal forming processes, cold forming, hot working, Warm working, Effect of variables on metal forming processes, Methods of analysis of manufacturing processes, Open Die forging, Rolling Power Rolling, Drawing, Extrusion. Special Processing Technologies (10 hrs): Rapid Prototyping - Methods - Fused Deposition Modeling (FDM) - Laminated Object Manufacturing (LOM) - Selective laser sintering (SLA) - Solid Ground curing (SGC) - 3D printing (3DP) - Processing of integrated circuits - Micro and nano fabrication technologies."
+    }
+  ],
+  "outcomes": [
+    "Understand various advanced machining methods commonly used for the effective processing of smart and typical engineering materials.",
+    "Understand and carry out metal forming, casting and welding process analysis.",
+    "Understand the working principle of various special processing methods."
+  ],
+  "textbooks": [
+    "Abdel, H. and El-Hofy, G. \"Advanced Machining Processes\", McGraw-Hill, USA, 2005.",
+    "Pandey P.C. and Shan H.S. \"Modern Machining Processes\" Tata McGrawHill, New Delhi, 2007.",
+    "Benedict. G.F. \"Nontraditional Manufacturing Processes\" Marcel Dekker Inc., New York, 1987.",
+    "McGeough, \"Advanced Methods of Machining\" Chapman and Hall, London (1998).",
+    "Paul De Garmo, J.T.Black, and Ronald.A.Kohser, \"Material and Processes in Manufacturing\" 8th Edition, Prentice Hall of India Pvt. Ltd., New Delhi, 2001.",
+    "Groover, M.P. \"Fundamentals of modern manufacturing processes - Materials, Processes and Systems\", 3rd Edition, John Wiley and Sons Inc., 2007."
+  ]
+}

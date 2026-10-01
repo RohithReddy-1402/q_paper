@@ -1,0 +1,57 @@
+{
+  "Course Title": "Industrial Robotics",
+  "Course Code": "MEPE-425",
+  "route": "course/mepe-425",
+  "credits": 3,
+  "prerequisites": "Dynamics of Machines",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course will introduce the students to the fundamentals of robot design. The learning objectives of this course are: to understand the basic concepts related to robot anatomy, classification and industrial applications of manipulators; to understand direct, inverse and differential kinematics of robot manipulator; to understand static and dynamic modeling of robot arm; and to understand control of manipulators.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Robotics; Coordinate Frames, Mapping and Transforms",
+      "hours": 10,
+      "body": "Introduction to Robotics: Evolution of Robots and Robotics, Types of Automation, Robot anatomy, Classification of robots based on drive technologies, workspace geometry and motion, control systems; Robot specifications; Industrial applications of robots. Coordinate Frames, Mapping and Transforms: Coordinate Frames, Description of objects in space, Transformation of Vectors, Inverting a Homogeneous Transform, Fundamental Rotation matrices."
+    },
+    {
+      "id": "II",
+      "title": "Direct Kinematic Model; The Inverse Kinematics",
+      "hours": 10,
+      "body": "Direct Kinematic Model: Mechanical structure and notations, Kinematic modeling of the manipulator, Denavit-Hartenberg Notation, Manipulator Transformation Matrix. The Inverse Kinematics: Manipulator workspace, solvability of Inverse kinematics model, solution techniques, closed form solution."
+    },
+    {
+      "id": "III",
+      "title": "Manipulator Differential Motion and Statics; Dynamic Modeling",
+      "hours": 10,
+      "body": "Manipulator Differential Motion and Statics: Linear and angular velocity of a rigid body, relationship between transformation matrix and angular velocity, manipulator Jacobian, Jacobian Inverse, Jacobian Singularities, Static Analysis. Dynamic Modeling: Lagrangian Mechanics, Two Degree of Freedom manipulator-Dynamic Model, Lagrange-Euler formulation, Newton-Euler formulation, Inverse Dynamics."
+    },
+    {
+      "id": "IV",
+      "title": "Control of Manipulators; Case Studies",
+      "hours": 10,
+      "body": "Control of Manipulators: Open and Close loop control, linear control schemes, linear second order SISO model of a manipulator joint. Actuator dynamics; Set point tracking: Performance of PID controller. Case Studies: For Microrobot Alpha-II and 5-axis Articulated Robot Rhino XR3, assign link frames and list kinematic parameters using D-H algorithm; formulate arm matrices and develop a computer code to simulate the end-effector motion for a given range of joint displacements; solve for joint displacements for a set of end-effector position and orientation; study the effect of link dimensions on end-effector trajectory; formulate the Jacobian and determine actuator torques for a given end-effector force vector"
+    }
+  ],
+  "outcomes": [
+    "Understand the concept of Industrial Robotics and its applications",
+    "Understand the coordinate transformations between fixed and mobile frames and solve design problems involving direct, inverse and differential Kinematics",
+    "Formulate and solve static and dynamic models of Robot Arms.",
+    "Understand robot control actuator dynamics as well as evaluate the performance of PID controller for set point tracking."
+  ],
+  "textbooks": [
+    "Fundamental of Robotics by Robert J. Schilling, Prentice Hall of India.",
+    "Introduction to Robotics by Saeed B. Niku, Pearson Education Asia.",
+    "Robot Modeling and kinematics by Rachid Manseur, Laxmi Publications."
+  ]
+}

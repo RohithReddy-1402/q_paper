@@ -1,0 +1,60 @@
+{
+  "Course Title": "Dynamics of Machines",
+  "Course Code": "MEPC-208",
+  "route": "course/mepc-208",
+  "credits": 3,
+  "prerequisites": "Kinematics of Machines",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "4th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "In this subject basics of dynamic analysis are taught. This analysis is then carried out for various machine components like engines, governors, flywheel, gyroscope, brakes etc. The course objectives are: to equip the student with fundamental knowledge of dynamics of machines so that student can perform static and dynamic force analysis; to develop knowledge of analytical and graphical methods for calculating balancing of rotary and reciprocating masses; to develop understanding of flywheel analysis, gyroscopic forces and governors; and to familiarize with the type of gears, gear trains and brakes.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Static and Dynamic Forces in Mechanisms",
+      "hours": 10,
+      "body": "Static Forces in Mechanisms (4 hrs): Introduction, Static force analysis, Static equilibrium, Equilibrium of members, Force convention, free body diagram, Principle of superposition, static force analysis of Four bar mechanisms, Static forces analysis of Slider-Crank mechanism, Static force analysis of Quick Return Mechanism. Dynamic Forces in Mechanisms (6 hrs): D' Alembert's principle, Equivalent offset inertia force, Dynamic force analysis of four-bar mechanism, Dynamics of reciprocating parts, Piston effort, Crank effort, Equivalent dynamical systems, and Inertia force in reciprocating engines by graphical and analytical method."
+    },
+    {
+      "id": "II",
+      "title": "Gears and Gear Trains",
+      "hours": 9,
+      "body": "Gears (5 hrs): Types of gears, gear terminology, condition for correct gearing, cycloidal and involutes profiles of gear teeth, pressure angle, path of contact, arc of contact, interference, undercutting, minimum number of teeth, number of pairs of teeth in contact, Helical gear and spiral gear, Expression for centre distance between two shafts connected by spiral gear or helical gear, Efficiency of spiral and helical gear, Efficiency of worm and worm gear. Gear Trains (4 hrs): Train value, Limitations in design of gear trains, Types of gear trains- simple, compound, reverted, and epicyclic gear train, Solution of gear trains, sun and planet gear, bevel epicyclic gear, compound epicyclic gear, pre-selective gear box, differential of automobile, torque in gear trains."
+    },
+    {
+      "id": "III",
+      "title": "Governors, Flywheels, Brakes and Dynamometers",
+      "hours": 12,
+      "body": "Governors (4 hrs): Types of governors: Watt, Porter, Proell, spring loaded centrifugal governors- Hartnell and Wilson Hartnell, Sensitiveness, Stability, Isochronism's-- Hartnell and Wilson Hartnell, Hunting, Effort and power of governor, controlling force. Flywheels (4 hrs): Turning moment (crank effort) diagrams for single cylinder and multi-cylinder engines, coefficient of fluctuation of energy, coefficient of fluctuation of speed, flywheel and its function. Brakes and Dynamometers (4 hrs): Types of brakes, Block or shoe break, band brakes, band and block brakes, internal expanding shoe brake, dynamometers: absorption, transmission, and tensional."
+    },
+    {
+      "id": "IV",
+      "title": "Balancing and Gyroscope",
+      "hours": 9,
+      "body": "Balancing (5 hrs): Balancing and its classification, Need of balancing, Balancing of rotating weights, Balancing of reciprocating parts, balancing of I.C. engines, balancing of multi-cylinder engine: V-engines and radial engines, balancing of machines. Gyroscope (4 hrs): Gyroscope, Gyroscopic couple and its effect on aircraft, naval ships during steering, pitching and rolling, Stability of an automobile (2-wheelers & 4-wheelers)."
+    }
+  ],
+  "outcomes": [
+    "Students should be able to perform static and dynamic analysis of machines",
+    "Students should be able to perform balancing of rotating and reciprocating parts of machines",
+    "Students should be able to describe the working of different types of brakes, dynamometers and governors",
+    "Students should know different types of gears, gear terminology and understand important gear trains and their practical applications.",
+    "Student should be able to construct turning moment diagram and have the Knowledge of flywheels and Gyroscopic Motion"
+  ],
+  "textbooks": [
+    "Theory of Machines - S.S.Rattan, Tata McGraw Hill",
+    "Theory of Mechanism and Machines - Jagdish Lal, Metropolitan Book Co.",
+    "Theory of Machines by Sadhu Singh, Pearson Publisher",
+    "Theory of Machines- S.L. Ballaney, Khanna Publisher",
+    "Dynamics of Machinery by S. Balaguru, Scitech Publications"
+  ]
+}

@@ -5,9 +5,17 @@
   "credits": 4,
   "prerequisites": "Problem Solving and Programming using C",
   "Course Type": "IC",
-  "Branch": ["EE"],
+  "Branch": [
+    "EE",
+    "ME"
+  ],
   "semester": "3rd",
-  "ltpc": [3, 0, 2, 4],
+  "ltpc": [
+    3,
+    0,
+    2,
+    4
+  ],
   "contactHours": 42,
   "description": "This institute-core course, offered across CE, EE, ECE, ME, PIE, IIOT and M & C, aims to allow computers to learn potentially complex patterns from data and then make decisions based on these patterns. It provides a strong foundation for data science and its application areas, covering the underlying core concepts and emerging technologies in data science. A data scientist requires an integrated skill set spanning mathematics, probability and statistics, optimization, and branches of computer science such as databases and machine learning, and this course develops that skill set.",
   "syllabus": [

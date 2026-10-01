@@ -1,0 +1,62 @@
+{
+  "Course Title": "Entrepreneurship and Start-ups",
+  "Course Code": "MEIC-416",
+  "route": "course/meic-416",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course is designed to articulate students to evaluate the business skills and commitment necessary to successfully operate an entrepreneurial venture and review the challenges and rewards of Entrepreneurship; learn about themselves, their decisions, and their goals to determine how entrepreneurship can play a role in their lives; learn entrepreneurship from an economic perspective, the concepts of environmentally sustainable practices, social entrepreneurship and ability to recognize a business opportunity that fits their skill sets and recognize the critical importance of values and ethics when engaged in entrepreneurial activities; demonstrate the understanding of how to launch the individual's entrepreneurial career and to recognize the innate entrepreneurial potential within themselves; and be aware of and exposed to the latest policies of Government regarding Start-Ups and entrepreneurship.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Engineering Economics",
+      "hours": 10,
+      "body": "Engineering Economics: Definition and concept, Importance of economics for engineers, present value and future value, Wealth, Goods, Wants, Value and price, capital, money, utility of consumer and producer goods. Costing: Introduction, Elements of cost, Prime cost, Overhead, Factory cost, Total cost, Selling price, Nature of cost, Types of cost. Depreciation: Definition and concept, Causes of depreciation, Methods of calculating depreciation. Economic analysis of investment and selection of alternatives: Introduction, Nature of selection problem, Nature of replacement problem, Replacement of items which deteriorate, Replacement of machines whose operating cost increase with time and the value of money also changes with time, methods used in selection of investment and replacement alternatives."
+    },
+    {
+      "id": "II",
+      "title": "Entrepreneurship; Small Scale Industries",
+      "hours": 12,
+      "body": "Entrepreneurship: Entrepreneurship, Entrepreneurship Development, Characteristics and Qualities of an entrepreneur, some myths and realities about entrepreneurship, Functions of an Entrepreneur, Key Entrepreneurial skills, Creativity & Innovation, Entrepreneurial Opportunity Recognition Process, Business Ideas, Feasibility Studies, Business Plan. Small scale Industries: Introduction, Role and scope of small scale industries, concept of small scale and ancillary industrial undertakings, how to start a small scale industry, steps in launching own venture, various developmental agencies - their functions and role in industrial and entrepreneurship development, Infrastructure facilities available for entrepreneurship development in India."
+    },
+    {
+      "id": "III",
+      "title": "Product Design and Marketing",
+      "hours": 10,
+      "body": "Product Design: Introduction, Requirement of a good product design, Various controlling agencies involved - their role and formalities for getting clearance before starting individual venture. Concept Generation, Marketing: The modern concept of marketing, Definitions, functions and principle of marketing, STPD, 4Ps, Marketing – Tools with real time approach."
+    },
+    {
+      "id": "IV",
+      "title": "Start-Ups",
+      "hours": 10,
+      "body": "Why a start-up, Types of Start-Ups, Characteristics of Start-Ups, Start-Up Ecosystem, Reasons for starting business, Concepts of TAM, SAM, MVP, GTM, PMF. AIDA model, Sales funnel, Team Building, Hiring. Knowledge about MCA policies regarding Start-Ups and role of various financial institutions, how to launch a company in India, Factors Entrepreneurs Consider while Launching a Start-up, Raising Investments - Venture Capitalists, Angel Investors, Start-ups Best Practices, Some Examples of Startup Business Ideas and Successful Start-Ups, Techno-Economic feasibility project report, SWOT analysis."
+    }
+  ],
+  "outcomes": [
+    "Ability to recognize a business opportunity that fits the individual skill-sets.",
+    "Demonstrate the ability to provide a self-analysis in the context of an entrepreneurial career and find an attractive market that can be reached economically and create appropriate a business model.",
+    "Apply effective written and oral communication skills to business situations.",
+    "Analyze the global business environment, the local business environment and use critical thinking skills in business situations and develop an ethical understanding and perspective to business situations."
+  ],
+  "textbooks": [
+    "The practice of Entrepreneurship - By G. G. Meredith, R.E. Nelson and P.A. Neck",
+    "Handbook of Entrepreneurship - Rao and Pareek",
+    "Entrepreneurship, 4e - Barringer, Pearson Publication",
+    "Entrepreneurship Development and Small Business Enterprises, - Charantimath, Pearson Publication",
+    "Engineering Economics - Tara Chand",
+    "Industrial Engineering and Management - Ravi Shankar",
+    "Industrial Engineering and Organization Management by S.K.Sharma and Savita Sharma",
+    "Industrial Engineering and Management - O.P. Khanna"
+  ]
+}

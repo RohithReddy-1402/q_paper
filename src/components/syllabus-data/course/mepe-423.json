@@ -1,0 +1,59 @@
+{
+  "Course Title": "Thermal Design and Management of Electronic Equipment",
+  "Course Code": "MEPE-423",
+  "route": "course/mepe-423",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "We live in an era dominated by information, where electronic technology plays an essential role in our daily lives. The electronics industry has experienced remarkable growth in recent years, evident in the widespread presence of electronic products in various aspects of our existence. With the ever-increasing demand for faster and larger information transmission, communication, and processing, electronic devices are prone to generating more heat. In order to meet this escalating demand, it becomes crucial for us to continually explore approaches that enable early adoption of new and emerging thermal technologies, enhance quality and reliability, and reduce costs. It is now widely acknowledged that the performance and cost of an electronic system are primarily constrained not by advancements in device and chip technology alone, but by our ability to effectively package these individual chips into modules, boards, subsystems, and complete systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "hours": 10,
+      "body": "Introduction – importance of thermal management of electronics, temperature effects on different failure modes; Basics of conduction, convection, radiation heat transfer."
+    },
+    {
+      "id": "II",
+      "title": "Cooling Methods Used in Industry for Electronics",
+      "hours": 10,
+      "body": "Cooling methods used in the industry for electronics – conduction cooling, cooling by heat sinks – design aspects of heat sinks, convection cooling, selection of fan, liquid immersion cooling, cold-wall cooling, cold plates, jet impingement cooling, synthetic jet cooling, thermoelectric or solid state coolers, radiative heat transfer and importance in space applications."
+    },
+    {
+      "id": "III",
+      "title": "Cooling Using Phase Change",
+      "hours": 12,
+      "body": "Cooling using phase change – cooling with PCM materials, micro/mini channel cooling, contact resistance, cooling using heat pipes – working principle, selection of heat pipe working fluid; Selection of cooling technique – ranges of cooling rates of different cooling methods, selection criteria."
+    },
+    {
+      "id": "IV",
+      "title": "Experimental Techniques and Reliability",
+      "hours": 8,
+      "body": "Experimental techniques used for thermal measurements; Reliability issues: importance, bathtub curve. Case studies/Latest developments/Sustainable technologies in thermal design and management of electronic equipment."
+    }
+  ],
+  "outcomes": [
+    "Be able to appreciate the applicability of heat transfer first principles to electronics cooling.",
+    "Raise awareness of the need for energy efficiency in cooling of electronic systems.",
+    "Be equipped with tools to approach existing industry applications",
+    "Be able to evaluate emerging thermal management techniques."
+  ],
+  "textbooks": [
+    "Younes Shabany, Heat Transfer: Thermal Management of Electronics, CRC Press Inc, 2010.",
+    "Dave S. Steinberg, Cooling Techniques for Electronic Equipment, Wiley, 1991.",
+    "Sung Jin Kim, Sang Woo Lee, Air Cooling Technology for Electronic Equipment, Taylor & Francis, 1996.",
+    "Rao R. Tummala, Fundamentals of Microsystems Packaging, McGraw-Hill, 2001.",
+    "Yunus A. Cengel, Heat Transfer: A Practical Approach. McGraw-Hill, 2003."
+  ]
+}

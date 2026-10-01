@@ -1,0 +1,60 @@
+{
+  "Course Title": "Facilities Design",
+  "Course Code": "MEPE-421",
+  "route": "course/mepe-421",
+  "credits": 3,
+  "prerequisites": "Industrial Engineering",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Facility planning is a process in which, the needs of specific facility are identified. This course will help student to understand the main concepts of Plant Location and apply them to know about the practical aspects of Industrial World. The learning objectives of this course are: to understand main fundamentals and applications of Facility Planning as well as concept of line balancing. Facility planning imparts thorough knowledge to the students regarding evaluating, preparing and maintaining the facilities plan. This course is informative for the student regarding concepts of Engineering Economics and Industrial Acts & Safety.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Plant Location",
+      "hours": 10,
+      "body": "Nature of Location Decision, Need for facility location planning, General procedures and factors influencing location decisions, Facility Location Models, economics and cost analysis, Rural and urban location pattern in India."
+    },
+    {
+      "id": "II",
+      "title": "Facility Planning",
+      "hours": 10,
+      "body": "Definition, Significance and objectives of facility planning, Facility planning process, Strategic Facilities Planning, Developing Facilities Planning Strategies, Flow system patterns like RAFT, CORELAP, ALDEP & PLANET, Material flow system, Activity Relationships, Space requirements, Basic Lay out types, Lay out procedures, Algorithmic Approaches, Department Shapes and main Aisles, The impact of changes, developing Layout Alternatives."
+    },
+    {
+      "id": "III",
+      "title": "Evaluating, Preparing, Maintaining the Facilities Plan & Line Balancing",
+      "hours": 10,
+      "body": "Introduction, Evaluating, selecting, preparing, presenting, implementing and maintaining the Facilities Plan. Line Balancing: Definitions, heuristic and analytical methods of balancing the assembly and production line, single and mixed model line balancing, alternatives to line balancing."
+    },
+    {
+      "id": "IV",
+      "title": "Industrial Acts and Safety; Engineering Economics",
+      "hours": 10,
+      "body": "Industrial Acts and Safety: Necessity of Industrial acts, The Indian Factories Act 1948, The Industrial Dispute Act 1947, The Minimum Wage Act 1948. Introduction to Industrial safety, Causes and sources of accidents, Accident control, safety program investigation and analysis of accidents, Safety devices in Machines, Welfare and safety, safety and productivity. Engineering Economics: Concept of Engineering economics, Risk and uncertainty, discounted cash flow techniques in changing economics, Purpose, type and requirements of depreciation methods and obsolescence, Reasons for replacement and its models, Present worth method of comparison and future worth methods, Welfare and safety, safety and productivity."
+    }
+  ],
+  "outcomes": [
+    "The students will be able to understand Rural and Urban location pattern in India.",
+    "The students will be able to understand Developing Facilities Planning Strategies.",
+    "The students will be able to understand Basic Lay out types in line balancing.",
+    "The students will be able to understand the various Necessity of Industrial acts.",
+    "The students will be able to understand the concepts of Engineering economics, Welfare and Safety."
+  ],
+  "textbooks": [
+    "James A. Tompkins, \"Facilities Planning\", Edition 3, publisher J. Wiley 2003.",
+    "James Apple, \"Plant Layout & Material Handling\", The Ronald Press Co., New Delhi, 1998.",
+    "Richard Muther, \"Practical Plant Layout\", McGraw Hill Book Co., New York, 1982.",
+    "Francis, R.L., McGinnis, L.F., and White, J.A., \"Facility Layout and Location: An Analytical Approach\", Prentice Hall of India, 2004.",
+    "Sule, D.R., \"Manufacturing Facilities-Location, Planning, and Design\", PWS Publishing Company, 1984."
+  ]
+}

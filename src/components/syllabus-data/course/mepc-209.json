@@ -1,0 +1,59 @@
+{
+  "Course Title": "Strength of Materials – II",
+  "Course Code": "MEPC-209",
+  "route": "course/mepc-209",
+  "credits": 3,
+  "prerequisites": "Strength of Materials-I",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "4th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course introduces a thorough understanding of structural members and their strength, stiffness, and stability, and develops the capability to solve practical engineering problems involving stress, strain and deflection in structural members such as bars and beams under different end conditions and loading. The learning objectives are: to learn about fixed and continuous beams and methods to find fixing moments and end reactions; to study the theory to find the stresses in curved bars; to study torsion of shafts and to know the stresses and deflections of various types of springs; to learn about various types of stresses in thin and thick cylinders and columns; and to learn about stresses developed in rotating disc.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fixed and Continuous Beams; Bending of Curved Bars",
+      "hours": 10,
+      "body": "Fixed and Continuous Beams: Slope and deflection at a point using different methods of statically indeterminate beams under different loads. Bending of Curved Bars: Stresses and deflection in curved bars such as crane hooks, rings, simple chain under load."
+    },
+    {
+      "id": "II",
+      "title": "Torsion and Springs",
+      "hours": 10,
+      "body": "Torsion: Stress and Twist developed in a circular shaft due to torque, Stresses, deflection, twist developed due to compound loading in a circular shaft. Springs: Stresses and deflection in the helical spring (Close coiled and open coiled), Leaf spring, Flat spiral spring under different loading."
+    },
+    {
+      "id": "III",
+      "title": "Thin and Thick Cylinders and Spheres",
+      "hours": 10,
+      "body": "Thin Cylinders and Spheres: Thin cylinders and spheres subjected to internal pressure, wire winding of thin cylinders. Thick Cylinders: Thick cylinders, composite cylinders and spheres subjected to internal and external pressures."
+    },
+    {
+      "id": "IV",
+      "title": "Columns and Rotating Discs",
+      "hours": 10,
+      "body": "Columns: Stresses and deflection in columns subjected to different types of loading under different end conditions. Rotating Discs: Stresses and strains in disc of uniform thickness and disc of uniform strength."
+    }
+  ],
+  "outcomes": [
+    "Draw bending moment and shear force diagrams in fixed and continuous beams",
+    "Determine stresses and deflections in curved bars",
+    "Find the stresses in shafts under torsion and stresses and deflection of springs",
+    "Differentiate thick and thin cylinders",
+    "Find stresses in rotating discs and columns"
+  ],
+  "textbooks": [
+    "G H Ryder, \"Strength of Materials\", ELBS, 3rd edition, 1969",
+    "S S Rattan, \"Strength of Materials\", Tata McGraw Hill, India, 3rd Edition, 2017",
+    "Beer P F and Johnston (Jr) E R, \"Mechanics of Materials\", McGraw Hill Education, 7th edition, 2015.",
+    "Popov E P, \"Engineering Mechanics of Solids\", Prentice Hall of India, New Delhi, 2nd edition, 1999."
+  ]
+}

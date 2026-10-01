@@ -1,0 +1,61 @@
+{
+  "Course Title": "Industrial Engineering and Management",
+  "Course Code": "MEOE-430",
+  "route": "course/meoe-430",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "OE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "Odd",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Industrial Engineering Management course focuses on optimizing complex systems and processes in various industries. It combines engineering principles with business management techniques to improve overall productivity and performance. Industrial engineers analyze and evaluate various factors, and manage business/industrial systems involving people, materials, methods, and machines.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction; Plant Layout",
+      "hours": 8,
+      "body": "Definition, role, and scope of industrial engineering, industrial engineering approach and techniques, principles of organization, elements of organization, types of organization. Plant layout, site selection, types of plant layout, factors affecting layout, plant building, flexibility and expansion."
+    },
+    {
+      "id": "II",
+      "title": "Materials Management; Work Study",
+      "hours": 10,
+      "body": "Materials Management: Introduction, inventory, inventory costs, inventory cost relationship, inventory control models, ABC analysis, MRP, elements of MRP. Work study: Method study, method study techniques, work measurement techniques, time study, observed time, basic time, normal time, allowances, standard time."
+    },
+    {
+      "id": "III",
+      "title": "Sales Forecasting; Quality Management",
+      "hours": 12,
+      "body": "Sales Forecasting: Introduction, objectives of sales forecasting, types of forecasting, methods of sales forecasting; collective opinion method, Delphi technique, moving average method, time series analysis, simple exponential smoothing, measurement of forecasting errors. Quality Management: Quality, dimensions of quality, quality control, basic QC tools, introduction to statistical quality control, quality assurance six-sigma introduction."
+    },
+    {
+      "id": "IV",
+      "title": "Project Management; Advancement in Industrial Management",
+      "hours": 10,
+      "body": "Basics of project management, network analysis, Critical path method, Program evaluation and review technique, Comparison between CPM and PERT. Advancement in Industrial Management: Industry 4.0, lean management, sustainable industrial practices, case studies pertaining to advanced industrial practices."
+    }
+  ],
+  "outcomes": [
+    "Understand industrial engineering concepts to optimize the industrial resources",
+    "Use plant layout concepts to develop and expand the industrial layouts.",
+    "Apply forecasting and materials management for smooth functioning of industry on shop floors",
+    "Analyze the quality of product and services in industrial scenario with concept of quality management"
+  ],
+  "textbooks": [
+    "Production and operations management by S.N.Chary Publication Tata Mc Graw Hill (TMH)",
+    "Industrial Engineering and Organization Management by S.K. Sharma & Savita Sharma Publication Kataria & sons",
+    "Industrial Engineering and Production management by Martand T Telsang Publication S. Chand",
+    "Modern Production Management by Elwood S. Buffa, Rakesh K. Sarin Publication John Wiley & Sons",
+    "Jacobs, C.A., \"Production and Operations Management\", Tata McGraw Hill",
+    "Handbook of Industrial Engineering: Technology and Operations Management, by Gavriel Salvendy, publication John Wiley & Sons",
+    "Mitra, A., \"Fundamentals of Quality Control and Improvement\", John Wiley & Sons, Inc."
+  ]
+}

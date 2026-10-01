@@ -1,0 +1,23 @@
+{
+  "Course Title": "Project II",
+  "Course Code": "MEPE-422",
+  "route": "course/mepe-422",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 0,
+  "description": "Project II is a Group X program elective (3 credits) offered in the 8th semester of the B.Tech. (Mechanical Engineering) scheme.",
+  "syllabus": [],
+  "outcomes": [],
+  "textbooks": []
+}

@@ -1,0 +1,82 @@
+{
+  "Course Title": "Nuclear Engineering",
+  "Course Code": "MEOE-431",
+  "route": "course/meoe-431",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "OE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "Even",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "syllabus": [
+    {
+      "id": "1",
+      "title": "Concepts of Nuclear Physics",
+      "hours": 6,
+      "body": "The atom, structure, the nucleus, nuclear structure, atomic transmutation of elements, detection of radio-activity, particle accelerator, decay, natural of elements, nucleus interactions, decay rates, half-life, transuranic elements."
+    },
+    {
+      "id": "2",
+      "title": "Neutron Interaction",
+      "hours": 4,
+      "body": "Advantages of using neutron, neutron moderation, fission chain reaction, thermalisation of neutrons, fast neutrons, prompt and delayed neutrons, fission products."
+    },
+    {
+      "id": "3",
+      "title": "Energy Release",
+      "hours": 4,
+      "body": "Mass energy equivalence, mass defect, binding energy, energy release in fission & fusion, thermonuclear reaction, fusion bomb."
+    },
+    {
+      "id": "4",
+      "title": "Reactor Materials",
+      "hours": 4,
+      "body": "Fissile & fertile materials, cladding & shielding materials, moderators, coolants."
+    },
+    {
+      "id": "5",
+      "title": "Reactor Technology",
+      "hours": 10,
+      "body": "Basic principles, fuel assembly, neutron balance, reactor kinetics, reactor coefficients, reactor stability, excess reactivity, Xenon poisoning, burnable absorbers, reactivity control, heat balance, production & transfer of heat to the coolant, structural considerations."
+    },
+    {
+      "id": "6",
+      "title": "Nuclear Reactors",
+      "hours": 6,
+      "body": "Types of nuclear reactors, pressurized water reactors, boiling water reactors, CANDU type reactors, gas cooled & liquid metal cooled reactors, fast breeder reactors."
+    },
+    {
+      "id": "7",
+      "title": "Safety Considerations & Waste Disposal",
+      "hours": 4,
+      "body": "Hazards, plant site selection, safety measures incorporated in plant design, accident control, disposal of nuclear waste."
+    },
+    {
+      "id": "8",
+      "title": "Health Physics & Radio-isotopes",
+      "hours": 2,
+      "body": "Radiation: units, hazards, prevention, preparation of radio-isotopes & their use in medicine, agriculture & industry."
+    }
+  ],
+  "outcomes": [
+    "To understand the concepts of neutron physics and various nuclear Processes involved in Nuclear Power Plants.",
+    "To calculate heat generation from nuclear reaction.",
+    "To design and analyze the performance of nuclear power plants.",
+    "To get acquainted with applications of radioactivity.",
+    "To appreciate the hazards associated with radioactivity and the necessity of waste disposal."
+  ],
+  "textbooks": [
+    "M. M. El-Wakel, Nuclear Power Engineering, McGraw Hill",
+    "Shultis and Faw, Fundamentals of Nuclear Science and Engineering, CRC Press",
+    "Stephenson, Introduction to Nuclear Engineering, McGraw Hill",
+    "Murray, Nuclear Energy, Butterworth-Heinemann."
+  ]
+}

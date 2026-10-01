@@ -1,0 +1,61 @@
+{
+  "Course Title": "Production Technology – I",
+  "Course Code": "MEPC-211",
+  "route": "course/mepc-211",
+  "credits": 3,
+  "prerequisites": "Engineering Practice, Manufacturing Processes",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "4th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "To introduce metal cutting and related aspects, various material removal and abrasive processes, precision measurement and related aspects.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Metal Cutting and Thermal Aspects of Machining",
+      "hours": 10,
+      "body": "Metal Cutting: Basic tool geometry, single point tool nomenclature, Chips- various type and their characteristics, mechanism of chip formation, Theoretical and experimental determination of shear angle. Orthogonal and oblique metal cutting. Metal cutting theories, relationship of velocities, forces and power consumption, specific energy. Thermal aspects of machining: Cutting temperature and factors affecting it, cutting fluids and its types, selection of cutting fluids."
+    },
+    {
+      "id": "II",
+      "title": "Tool Wear and Life; Economics of Metal Machining",
+      "hours": 10,
+      "body": "Tool Wear and Life: Tool materials, flank wear, crater wear, mechanism of tool wear, Tool life relationship, Taylor's equation of tool life, Effect of parameters on tool life. Economics of metal machining: Elements of machining cost, tooling economics, machining economics and optimization."
+    },
+    {
+      "id": "III",
+      "title": "Milling, Drilling, Grinding and Super Finishing Processes",
+      "hours": 10,
+      "body": "Introduction, Milling machines types, milling cutters, milling operations, Up milling & down milling, milling operations, Drilling process, Grinding process, Grinding wheel characteristics & specifications, lapping, honing."
+    },
+    {
+      "id": "IV",
+      "title": "Metrology; Analysis of Machining Processes",
+      "hours": 10,
+      "body": "Metrology: Linear and angular measurements, sine bar, auto-collimator, comparators: mechanical, electrical, optical and pneumatic, Surface finish and its measurement, Micro and macro deviations, factors influencing surface finish and evaluation of surface finish. Limits, fits & tolerances. Analysis of machining processes: Mechanics of machining of turning, drilling, milling, machining time calculations of above operations."
+    }
+  ],
+  "outcomes": [
+    "To understand metal cutting and related aspects",
+    "To understand tool wear, tool life and economics of machining principles",
+    "To understand milling, drilling, grinding, honing and lapping processes",
+    "To understand precision measurement and related aspects as well as application of metal cutting principles to practical machining operations"
+  ],
+  "textbooks": [
+    "Boothroyed, G. et al., Fundamentals of Metal Cutting and Machine Tools, McGraw Hill.",
+    "DeGarmo, E. P., Black, J.T., and Kohser, R.A., \"Materials and Processes in Manufacturing\", Prentice-Hall of India.",
+    "Kalpakjian, S., and Schmid, S.R., \"Manufacturing Engineering and Technology\", Pearson Education.",
+    "Groover, M.P., \"Fundamentals of Modern Manufacturing\", John Wiley & Sons.",
+    "Rao,P.N., \"Manufacturing Technology\", (Vol. 2), Tata McGraw-Hill",
+    "Ghosh, A. and Mallik, M., \"Manufacturing Science\", E.W. Press",
+    "Production Engineering Science- Pandey and Singh"
+  ]
+}

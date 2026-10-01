@@ -1,0 +1,39 @@
+{
+  "Course Title": "Production Technology – I (P)",
+  "Course Code": "MEPC-216",
+  "route": "course/mepc-216",
+  "credits": 1,
+  "prerequisites": "Engineering Practice, Manufacturing Processes",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "4th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 14,
+  "description": "To provide hands on training by preparing various jobs in workshop.",
+  "syllabus": [],
+  "experiments": [
+    "To measure various angles of a single point cutting tool",
+    "To measure various angles of a milling cutter",
+    "To prepare a given job on milling machine",
+    "Introduction to various grinding wheels and demonstration on the cylindrical and surface grinder.",
+    "Introduction to tool grinder",
+    "Introduction to tool dynamometer",
+    "Study of linear, angular measuring devices and to measure the linear and angular dimensions using various equipments.",
+    "Prepare a wooden pattern of the given item considering allowances etc.",
+    "Prepare a mould and do casting of the pattern prepared above.",
+    "To carry out welding by electric arc welding in flat, horizontal and vertical position of given jobs"
+  ],
+  "outcomes": [
+    "The students will be able to measure various tool angles, carry out various operations on milling machine, observe grinding processes and carry out precision measurements in metrology lab as well as welding of jobs"
+  ],
+  "textbooks": [
+    "Handouts provided in the lab."
+  ]
+}

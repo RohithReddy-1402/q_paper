@@ -1,0 +1,59 @@
+{
+  "Course Title": "Material Science",
+  "Course Code": "MEPE-304",
+  "route": "course/mepe-304",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 46,
+  "description": "This course will introduce the students to concepts of crystallography, alloy formation, and phase diagrams. Various mechanisms of plastic deformation, strengthening mechanisms, and mechanical properties of engineering material will be discussed. The students will gain useful knowledge about heat treatment procedures adopted in the industries and their effect on mechanical properties. The students will also learn about the various types of engineering materials for different applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Crystallography and Alloy Formation",
+      "hours": 12,
+      "body": "Bonding in Solids: Ionic, Amorphous and Crystalline, Single crystal and Polycrystalline material, Polymorphism, Lattice, Unit cell, Bravais lattice, Types of crystals, Linear and Planer densities, Voids in crystalline structures, Crystal defects (Point, Line, Surface and Volume defects), Solid solution, Hume-Rothery rules, Binary phase diagrams: Gibbs phase rule, lever rule, cooling curves, Types of Binary phase diagrams (Isomorphous, Eutectic, Partial-Eutectic systems), Iron-Carbon phase diagram."
+    },
+    {
+      "id": "II",
+      "title": "Plastic Deformation and Mechanical Properties",
+      "hours": 12,
+      "body": "Tensile Test: Elastic and Plastic deformation and Strain hardening with respect to Stress-Strain Curve, Plastic deformation by Slip: Slip system, Critical resolved shear stress, Frank-Read source, Dislocation motion, Work hardening and dynamic recovery, work softening, Bauschinger's effect, grain boundaries, its effect on crystal and on strength, grain size, low angle grain boundaries, Strengthening Mechanisms, Recovery, Recrystallization, and Grain growth, Cold and hot working, Impact Test, Fatigue failure, SN curve, Methods of improving fatigue life, Creep Test: Creep curve, Creep fracture, Material consideration for high-temperature use."
+    },
+    {
+      "id": "III",
+      "title": "Heat Treatment",
+      "hours": 12,
+      "body": "Purpose of Heat treatments, Equilibrium and Non-equilibrium cooling, Nucleation, Grain growth and Kinetics, TTT and CCT diagrams Common heat treatments like Annealing, Normalizing, Hardening, Tempering, Martempering, and Austempering, Precipitation hardening, Hardenability: Jominy end-quench test, Hardenability curves, Surface hardening (carburizing, Nitriding, carbo-nitriding, cyaniding, Flame, and Induction hardening)."
+    },
+    {
+      "id": "IV",
+      "title": "Engineering Materials",
+      "hours": 10,
+      "body": "Metals (Iron, Copper, Aluminium, Magnesium, Titanium etc.), Alloys (Fe-alloys, Al-alloys, Mg-alloys, Copper Alloys, Titanium Alloys, etc.), Polymers: Thermoplastic and Thermosetting polymers, Ceramics: Types of ceramics, applications, Powder Metallurgy, Composites: Classification, applications. Case study: study of the microstructure, phases, mechanical behaviour and effect of heat treatment on steel specimen."
+    }
+  ],
+  "outcomes": [
+    "Understand and distinguish between the various types of bonding in solids, defects in materials, and phase diagrams.",
+    "Explain the mechanism of plastic deformation, strengthening, and behavior of materials under various types of loading conditions.",
+    "Explain and suggest heat treatment techniques to improve the mechanical properties of various types of steel",
+    "Suggest the use of engineering materials for different applications"
+  ],
+  "textbooks": [
+    "Material Science and Engineering - V. Raghavan, Prentice Hall",
+    "Materials Science and Engineering An Introduction - W.D. Callister, John Wiley",
+    "Mechanical Behaviour of Materials – McClintock & Argon, Addison-Wesley",
+    "Mechanical Behaviour of Materials - Courtney, McGraw-Hill",
+    "Mechanical Metallurgy-Dieter"
+  ]
+}

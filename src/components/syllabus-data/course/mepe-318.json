@@ -1,0 +1,59 @@
+{
+  "Course Title": "Operations Research",
+  "Course Code": "MEPE-318",
+  "route": "course/mepe-318",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 41,
+  "description": "Operation research uses Mathematical techniques to model, analyze and solve the problem today's business has to face a large number of constraints. The operation research techniques can help the executives to express business constraints into measurable terms. A number of operation research techniques that provide the scientific basis to generate the alternatives and select the optimum solution are covered.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Linear Programming",
+      "hours": 10,
+      "body": "Introduction: Development of Operation Research, Characteristics and Scope of Operation Research in management, Models in operation research, Model formulation, Types of Mathematical models, Limitation of operation research. Linear programming: Introduction, Terminology, Advantages, Limitations and applications of linear programming, Illustrative problems on formulation of linear programming model, Graphical Method of solution, Simplex method, Artificial variable technique for solving the Initial basic feasible solution (Big M-Method), essence of duality theorem, Sensitivity analysis"
+    },
+    {
+      "id": "II",
+      "title": "Transportation and Assignment Models",
+      "hours": 10,
+      "body": "Transportation Model: Introduction to transportation Problems, Mathematical model for Transportation Problem, Methods for initial basic solution: Northwest corner method, Least cost method, Row Minima Method, Column Minima Method, Vogel's approximation method, Degeneracy in transportation, Optimal solution using Modified Distribution Method, Special cases- Unbalanced problems and profit maximization problems. Assignment Model: Introduction to Assignment, Mathematical formulation of the assignment problem, Hungarian Method"
+    },
+    {
+      "id": "III",
+      "title": "Sequencing Models and Simulation",
+      "hours": 10,
+      "body": "Sequencing Models: Sequencing Problems, Processing n jobs through two Machines, Processing n jobs through three Machines, Processing two jobs through m Machines, Processing n jobs through m Machines, The Travelling salesman Problem. Simulation: Introduction, Monte Carlo Simulation, Random Numbers, Procedure for Monte Carlo Simulation, Advantages of Simulation, Industrial Application of Simulation"
+    },
+    {
+      "id": "IV",
+      "title": "Decision and Game Theory; PERT and CPM",
+      "hours": 10,
+      "body": "Decision and Game theory: Introduction, Steps in Decision Theory approach, Decision making Environments, decision Making under condition of Certainty, Decision Making under condition of Uncertainty, Decision Making under condition of Risk, Decision Trees, Theory of games, Competitive games, Terminology, Rules for Game Theory, Two person zero sum game, Solution of 2*2 game with no saddle point, Dominance in Games, Sub-game Method to solve (2*n or m*2) Mixed strategy games, Graphical Method to solve (2*n or m*2) games, mixed strategy (3*3) games. PERT AND CPM: Introduction, Objectives of PERT and CPM, Terms related with PERT and CPM, Rules for Network Construction, Numbering of Events (Fulkerson's Rule), Frequency distribution Curve for PERT, PERT Computations, slack, Critical Path, Probability of meeting the scheduled dates, CPM, terms, Critical Path, Float, Cost Analysis, Contracting and Updating"
+    }
+  ],
+  "outcomes": [
+    "The students will be able to formulate real world problems as Mathematical model and solve Linear Programming problems",
+    "Student will be able to formulate and solve transportation and Assignment problems",
+    "The student will be able to solve sequencing problem and perform Simulation",
+    "The student will be able to solve game theory and Decision theory problems",
+    "The students will be able to formulate and solve scheduling problem"
+  ],
+  "textbooks": [
+    "P.K.Gupta and D.S.Hira \"Operation Research\", S.Chand Co. 2007",
+    "Manohar Mahajan \"Operation Research\" Dhanpat Rai & Co.(Pvt.) Ltd.",
+    "P.Sankara Iyer, \"Operation Research\" Tata McGraw-Hill, 2008",
+    "J.K.Sharma, \"Operation Research, Problems and Solutions, 3e\", MacMillan India Ltd."
+  ]
+}

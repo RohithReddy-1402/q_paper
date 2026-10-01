@@ -1,0 +1,63 @@
+{
+  "Course Title": "Fluid Mechanics",
+  "Course Code": "MEPC-202",
+  "route": "course/mepc-202",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "3rd",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course covers: (i) the various properties of fluid and instruments for measurement of pressure; (ii) the behavior of fluid at rest and in motion; (iii) viscous and turbulent flow and flow of fluid in pipe; (iv) the concept of boundary layer, lift & drag and streamlined bodies.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fluid Statics and Fluid Kinematics",
+      "hours": 13,
+      "body": "Fluid Statics: Properties of fluid, Fluid pressure, Pascal's law, General equation of Fluid statics, Pressure head of a fluid, Absolute and gauge pressure, Measurement of pressure, Simple manometers, Differential manometers, Mechanical gauges, Force on submerged surfaces: Horizontal, Vertical, Inclined, Curved, Dams and gates. Buoyancy: Stability of submerged and floating bodies, Determination of metacentric height: analytical and experimental methods, Oscillation of floating body. Fluid Kinematics: Lagrangian and Eulerian methods, flow lines, types of flow (Steady, unsteady, compressible, incompressible, ideal, real, uniform, non-uniform, Rotational and Irrotational, Laminar and turbulent, 1-D, 2-D and 3-D) Velocity and acceleration, Rate of flow, Continuity equation, Continuity equation in 3-D (differential and Polar), Stream function, Velocity potential function, Flow nets, Types of motion: linear translation, linear deformation, angular deformation and rotation."
+    },
+    {
+      "id": "II",
+      "title": "Fluid Dynamics and Viscous Flow",
+      "hours": 9,
+      "body": "Fluid Dynamics: Euler's equation, Bernoulli's equation, Energy equation, Practical applications of Bernoulli's equation (Venturimeter, Orifice meter, Pitot tube), Kinetic energy and momentum correction factors, Momentum equation. Viscous Flow: Reynolds experiments, Flow of viscous fluid in circular pipes, Hagen-Poiseuille equation, Flow through an annulus and two parallel plates, Power absorbed in bearings, Movement of piston in dash-pot, Viscometers; capillary tube, falling spheres, rotating cylinder, efflux."
+    },
+    {
+      "id": "III",
+      "title": "Turbulent Flow and Pipe Flow",
+      "hours": 9,
+      "body": "Turbulent flow: Loss of head in pipes, Shear stress in turbulent flow, Hydraulically smooth and rough boundaries, Velocity distribution in pipes, Velocity distribution in terms of average velocity, Power law, Friction coefficients of smooth and rough pipes. Pipe flow: Major and Minor losses in pipes, Hydraulic gradient and total energy lines, Pipes in series, Pipes in parallel, Equivalent pipe, Siphon, Power transmission through pipes, Water hammer, Flow through nozzles."
+    },
+    {
+      "id": "IV",
+      "title": "Boundary Layer Theory and Immersed Bodies",
+      "hours": 9,
+      "body": "Boundary layer theory: Introduction, Description of a boundary layer on a thin flat plate, Boundary layer parameters (boundary layer, displacement, momentum, and energy thickness), Von-Karman integral momentum equation, Boundary layer separation, Methods to prevent boundary layer separation. Immersed bodies: Lift and drag, Lift and drag coefficients, Streamlined and bluffed bodies Drag on a cylinder (2D body), Drag on a sphere, Circulation and lift on a cylinder, Airfoil, Lift and drag on an airfoil. Use of Fluid Engineering in sustainable development and related case studies."
+    }
+  ],
+  "outcomes": [
+    "Measure pressure, calculate forces on submerged surfaces, predict stability of submerged & floating bodies and understand various types of flow & fluid motion.",
+    "Calculate pressure variations in accelerating fluid using Bernoulli's equation.",
+    "Understand viscous flow & turbulent flow behavior, evaluate head losses in pipes.",
+    "Understand the concept and importance of boundary layer, lift & drag."
+  ],
+  "textbooks": [
+    "Som and Biswas, Introduction to Fluid Mechanics and Machinery, Tata McGraw Hill, 3rd Edition, 2011.",
+    "Robert W. Fox, Philip J. Pritchard, Alan T. McDonald, Introduction to Fluid Mechanics, Wiley India, 8th Edition, 2012",
+    "Merle C. Potter, David C. Wiggert, Fluid Mechanics, Cenage Learning (India Edition), 2nd Edition, 2011.",
+    "Frank M. White, Fluid Mechanics, McGraw-Hill Education; 7th Edition, 2010.",
+    "D. S. Kumar, Fluid Mechanics and Fluid Power Engineering, S.K. Kataria & Sons, 8th Edition, 2013.",
+    "P.N. Modi, S.M Seth, Hydraulics and Fluid Mechanics including Hydraulic Machines, Standard Book House, 19th Edition, 2009.",
+    "S.S. Rattan, Fluid Mechanics and Hydraulic Machines, Khanna Book Publishing, 2014.",
+    "P. Balachandran, Engineering Fluid Mechanics, Prentice Hall India, 2102.",
+    "R. K. Bansal, Fluid Mechanics and Hydraulic Machines, Laxmi Publications, 9th Edition, 2017."
+  ]
+}

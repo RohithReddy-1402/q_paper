@@ -1,0 +1,64 @@
+{
+  "Course Title": "Heat Transfer",
+  "Course Code": "MEPC-303",
+  "route": "course/mepc-303",
+  "credits": 3,
+  "prerequisites": "Thermodynamics, Fluid Mechanics",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "The course provides the knowledge about basic heat transfer mechanisms (conduction, convection and radiation); heat transfer by conduction in solids for steady-state and transient conditions; heat transfer by convection in closed conduits and on external surfaces; heat transfer by thermal radiation; and heat transfer with phase change (boiling and condensation). The course gives insight about boundary layer flow, laminar and turbulent flows, and heat exchangers: working principles and basic geometries. The learner will be able to apply the concepts of heat transfer in all the related engineering applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Conduction",
+      "hours": 10,
+      "body": "Modes of heat transfer, energy carriers and continuum approximation. Mechanisms of mass transfer. Unified view of momentum, heat and mass transfer. Conduction: Fourier's law, heat diffusion equation, 1-D steady state conduction in different coordinate systems, effect of heat generation. Heat conduction in extended surfaces. Lumped capacitance and 1D transient models, semi-infinite wall."
+    },
+    {
+      "id": "II",
+      "title": "Convection",
+      "hours": 10,
+      "body": "Convection: Forced and free convection - mass, momentum and energy conservation equations, scaling analysis and significance of non-dimensional numbers. Thermal boundary layers, heat transfer in external and internal laminar and turbulent flows."
+    },
+    {
+      "id": "III",
+      "title": "Condensation, Boiling and Heat Exchangers",
+      "hours": 10,
+      "body": "Types of condensation, use of correlations for condensation on vertical flat surfaces, horizontal tube and; regimes of pool boiling, pool boiling correlations. Critical heat flux, concept of forced boiling. Numerical problems. Heat exchanger types and analysis: LMTD and effectiveness-NTU method."
+    },
+    {
+      "id": "IV",
+      "title": "Radiation",
+      "hours": 10,
+      "body": "Introduction, Radiation properties, definitions of various terms used in radiation heat transfer; Absorptivity, reflectivity & transmissivity. Emissive power & emissivity, Kirchoff's identity, Planck's relation for monochromatic emissive power of a black body, Derivation of Stefan-Boltzmann law and Wien's displacement law from Planck's relation, Radiation shape factor, Relation for shape factor and shape factor algebra. Heat exchange between blackbodies through non-absorbing medium. Gray bodies and real bodies, Heat exchange between gray bodies. Radiosity and Irradiation, Electrical analogy and radiation network for 2-body and 3-body radiations exchange in non-absorbing medium, Radiation shields."
+    }
+  ],
+  "outcomes": [
+    "The students will be able to describe the principles of heat mechanisms, combustion, heating/cooling systems in its fundamental aspects with relation to existing energy systems.",
+    "The students will be able to apply relationship between theoretical and practical aspects of heat transfer applications.",
+    "The students will be able to analyze principles of energy mechanisms to solve a wide range of thermal engineering problems.",
+    "The students will be able to develop solutions for mathematical models and propose appropriate results for thermal engineering applications."
+  ],
+  "textbooks": [
+    "Heat Transfer Incropera and Dewitt, Willey publications",
+    "Heat Transfer: J.P.Holman, TMH Publications",
+    "Heat Transfer: P.S.Ghosdastidar, Oxford University Press",
+    "Fundamentals of Engineering Heat and Mass Transfer: R.C.Sachdeva, New Age International Publishers, 4th Edition",
+    "Heat Transfer by P.K. Nag, TMH",
+    "Heat Transfer by S.P. Sukhatme, TMH",
+    "Heat Transfer: A.F.Mills and V.Ganesan, Pearson Education, 2nd Edition",
+    "Heat and Mass Transfer: Domkundwar and Arora, Danpatrai and sons",
+    "Heat Transfer: R.K.Rajput, Laxmi Publications",
+    "Heat and Mass Transfer: A Practical Approach, Y.A.Cengel, Tata Macgraw Hills Education Private Limited"
+  ]
+}

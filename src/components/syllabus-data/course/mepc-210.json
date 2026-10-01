@@ -1,0 +1,58 @@
+{
+  "Course Title": "Fluid Machines",
+  "Course Code": "MEPC-210",
+  "route": "course/mepc-210",
+  "credits": 3,
+  "prerequisites": "Fluid Mechanics, Thermodynamics",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "4th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course is an introduction on Fluid Machines, a subject with broad applicability and great significance across engineering disciplines. The primary focus of the course is on elucidating the fundamental principles of fluid mechanics that govern energy transfer within fluid machines. It also encompasses the description and performance analysis of various hydraulic and air machines. The course provides a well-balanced approach, covering both the physical concepts and mathematical operations, supplemented with practical examples and exercises. By the end of the course, students will possess a strong foundation in Fluid Machines, enabling them to effectively apply essential principles, laws, and relevant equations in the engineering design of machines for specific applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Principles of Hydraulic Machines; Hydraulic and Impulse Turbines",
+      "hours": 10,
+      "body": "Principles of Hydraulic Machines: Impact of jet on stationary and moving flat and curved plates, Force on series of vanes, Radial vanes, Jet propulsion of ships. Hydraulic Turbines: Introduction, development of hydraulic turbines, Components of hydro-power plant, Classification of turbines, Euler's equation and degree of reaction, Losses and efficiency of turbines, Surge tank and its types. Impulse Turbines: Pelton turbine, its components and design, Energy conversion, Condition for maximum efficiency, Governing of impulse turbines."
+    },
+    {
+      "id": "II",
+      "title": "Reaction Turbines and Performance of Turbines",
+      "hours": 10,
+      "body": "Reaction Turbines: Francis turbine: components, working principles, draft tube, types of draft tube, design considerations, outward vs. inward flow reaction turbines, Evolution of axial flow turbines, Propeller and Kaplan turbines, Governing of reaction turbines. Performance of Turbines: Unit quantities, specific speed, runway speed, characteristics of turbines, cavitation and its effects, cavitation parameters and Thoma's cavitation factor, Detection and prevention of cavitation."
+    },
+    {
+      "id": "III",
+      "title": "Centrifugal and Reciprocating Pumps",
+      "hours": 10,
+      "body": "Centrifugal Pumps: Introduction, classification & components of centrifugal pumps, Principle of working, Various heads, Energy conversion, Euler's head and its variation with vane shapes, Effect of finite number of vanes, Losses and efficiencies, Minimum starting speed, Limitation of suction lift, Net Positive Suction Head (NPSH), Multistage pumps, Priming, Specific speed and performance. Reciprocating Pumps: Working principles, Classification, Components, Discharge, Slip, Power input, Indicator diagram, Effect of accelerating head and pipe friction, Maximum speed, Air vessels, Comparison with centrifugal pumps."
+    },
+    {
+      "id": "IV",
+      "title": "Other Hydraulic Pumps; Dimensional Analysis; Hydraulic Systems",
+      "hours": 10,
+      "body": "Other Hydraulic Pumps: Propeller pump, Jet pump, Airlift pump, Gear pump, Screw pump, Vane pump, Radial piston pump, Submersible pump, pump problems. Dimensional Analysis and Model Testing: Units and dimensions, Dimensional analysis method: Rayleigh and Buckingham methods, Dimensionless numbers, Similitude laws, Model testing of turbine and pumps. Hydraulic Systems: Hydraulic accumulators, Hydraulic intensifier, Hydraulic lift, Hydraulic crane, Hydraulic coupling, Torque convertor, Hydraulic ram. Case studies/Latest developments/Sustainable technologies in Fluid Machines."
+    }
+  ],
+  "outcomes": [
+    "At the end of the course student will be able to understand the working and design of various types of hydraulic turbines and pumps.",
+    "They would understand the working of various types of hydraulic machines and systems.",
+    "Evaluate the performance of turbo-machines.",
+    "Select fluid machines and other hydraulic devices for various applications."
+  ],
+  "textbooks": [
+    "Som and Biswas, Introduction to Fluid Mechanics and Machinery, Tata McGraw Hill, 3rd Edition, 2011.",
+    "Y. A. Cengel and J. M. Cimbala, Fluid Mechanics: Fundamentals & Applications, 2nd ed. McGraw-Hill, 2006.",
+    "P.N.Modi, S.M Seth, Hydraulics and Fluid Mechanics including Hydraulic Machines, Standard Book House, 19th Edition, 2009.",
+    "Bansal R.K., \"Fluid Mechanics and Hydraulic Machines\", 9th edition, Laxmi Publications (P)Ltd., New Delhi, 2017."
+  ]
+}

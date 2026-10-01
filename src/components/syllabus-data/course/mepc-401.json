@@ -1,0 +1,60 @@
+{
+  "Course Title": "I.C. Engines and Gas Turbine",
+  "Course Code": "MEPC-401",
+  "route": "course/mepc-401",
+  "credits": 3,
+  "prerequisites": "Thermodynamics, Fluid Machines",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course provides an introduction to internal combustion (IC) engine, its working principles, Combustion in I.C. Engines, Elements of Fuel System in S.I. and C.I. Engine, Lubrication and Cooling systems, Testing and Performance of I.C. Engine, Air Pollution and Modern Developments in I.C. Engines. It also provides an introduction to air compressors and gas turbines, their types and applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction; Air Standard Cycles and Fuel Air Cycles",
+      "hours": 6,
+      "body": "Introduction: Introduction to internal & external combustion engines; classification, cycle of operation in four stroke and two stroke I.C. Engines, Valve timings, Wankel engine. Analysis of Air Standard Cycles and Fuel Air Cycles: Air standard cycles, Ideal air standard cycles, Otto cycle, Diesel cycle, Dual cycle; comparison of these cycles; Stirling and Ericsson cycles; Air standard efficiency; mean effective pressure, Actual cycles and actual processes taking place in engines."
+    },
+    {
+      "id": "II",
+      "title": "Combustion in I.C. Engines; Fuel Systems",
+      "hours": 10,
+      "body": "Combustion in I.C. Engines: SI engines: Ignition Limits, stages of combustion, Effect of engine variables on Ignition Lag and flame-propagation, Abnormal combustion, Detonation and control of detonation, Pre-ignition, Octane rating of fuels, SI engine combustion chambers. CI engine: stages of combustion, Delay period, variables affecting delay period, Diesel knock, Cetane rating, CI engine combustion chambers. Elements of Fuel System in S.I. and C.I. Engine: SI engines: Requirements of a good carburetor, Simple carburetor, Complex carburetor, Calculation of air-fuel ratio for a simple carburetor. Electronic fuel injection in S.I. Engine. CI engine: Requirements of Diesel Injection System, Types of injection systems, Fuel pumps."
+    },
+    {
+      "id": "III",
+      "title": "Lubrication and Cooling; Testing and Performance; Air Pollution",
+      "hours": 15,
+      "body": "Lubrication and Cooling: Total engine friction, Function of the lubrication systems, properties of lubricating oil, rating of oils, Lubrication systems, engine performance & lubrication. Necessity of engine cooling, Cooling systems, Water cooling, air cooling, Radiators. Testing and Performance of I. C. Engine: Engine Performance Parameters: Indicated power, brake power, friction power, indicated thermal efficiency, brake thermal efficiency, mechanical efficiency, volumetric efficiency, relative efficiency or efficiency ratio, specific output, specific fuel consumption, brake specific fuel consumption, indicated specific fuel consumption, Air fuel ratio, Stoichiometric air fuel ratio. Air Pollution and Modern Developments in I C Engines: Pollutants and their ill effects, Pollutants from Gasoline and Diesel Engines and their control. Alternate fueled engines: Alcohol, hydrogen etc., current scenario on the pollution front."
+    },
+    {
+      "id": "IV",
+      "title": "Air Compressors and Gas Turbines",
+      "hours": 9,
+      "body": "Air compressors: Single stage reciprocating air compressors, work input, volumetric efficiency, isothermal efficiency, Advantages of multi stage compression, two stage compressor with inter cooling, optimum pressure ratio. Rotary air compressors and their applications. Gas Turbines: Brayton cycle, components of a gas turbine plant, open and closed type, optimum pressure ratio, Improvements upon the basic cycle, multi stage compression with inter cooling, multi stage expansion with reheating, Regeneration, Applications and case study of gas turbine."
+    }
+  ],
+  "outcomes": [
+    "Understand the air standard cycles, fuel air cycles and actual cycles. Also explain the combustion phenomenon in SI and CI engine.",
+    "Illustrate the various engine systems like cooling, fuel injection, and lubrication system.",
+    "Evaluate the performance of SI and CI engine.",
+    "Summarize the performance of Air compressors and Gas Turbines."
+  ],
+  "textbooks": [
+    "Ganeshan V., \"Internal Combustion Engines\", McGraw Hill, New Delhi, 2007.",
+    "Heywood J.B., \"Internal Combustion Engine Fundamentals\" McGraw Hill, Singapore, 2002.",
+    "H.N. Gupta, \"Fundamentals of Internal Combustion Engines\", Prentice Hall India, 2006.",
+    "Shyam K. Agrawal, \"Internal Combustion Engines\" New Age International Ltd., New Delhi, 2006.",
+    "M.L. Mathur and R.P. Sharma, \"Internal Combustion Engine Fundamentals\" Dhanpat Rai, New Delhi, 2010.",
+    "Ganeshan V., \"Gas Turbine\", McGraw Hill, New Delhi, 2010."
+  ]
+}

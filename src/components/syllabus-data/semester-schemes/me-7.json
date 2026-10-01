@@ -1,0 +1,121 @@
+{
+  "branch": "ME",
+  "branchName": "Mechanical Engineering",
+  "semester": 7,
+  "title": "B. Tech. Mechanical Engineering (New Scheme) Semester VII",
+  "totalCredits": 23,
+  "rows": [
+    {
+      "type": "core",
+      "code": "MEPC-401",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEPC-402",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEPC-403",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective – Group VII",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "MEPE-404",
+        "MEPE-405",
+        "MEPE-406",
+        "MEPE-407"
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective – Group VIII",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "MEPE-408",
+        "MEPE-409",
+        "MEPE-410",
+        "MEPE-411"
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective (offered by the Mechanical Engineering Department, odd-semester list: MEOE-427 to MEOE-430; or from the Institute list)",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEPC-412",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEPC-413",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEPC-414",
+      "ltpc": [
+        0,
+        0,
+        3,
+        1
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEIC-415",
+      "ltpc": [
+        0,
+        0,
+        0,
+        2
+      ]
+    }
+  ]
+}

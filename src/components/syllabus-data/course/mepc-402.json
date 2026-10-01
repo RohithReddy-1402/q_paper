@@ -1,0 +1,59 @@
+{
+  "Course Title": "Mechanical Vibrations",
+  "Course Code": "MEPC-402",
+  "route": "course/mepc-402",
+  "credits": 3,
+  "prerequisites": "Dynamics of Machines",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Vibration is a common phenomenon occurring in a mechanical system. The study of a dedicated course is required to understand the fundamental and advance concepts of mechanical vibrations for engineers and designers. Course learning objectives: to understand the periodic disturbances caused by external excitation, rotational and reciprocating imbalance, and support excitation affect a machine's performance; to acquire the knowledge for vibration analysis of physical bodies; to learn mathematical modelling of mechanical systems for vibration analysis; to learn methods of vibration isolation of mechanical systems under periodic inputs.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fundamentals of Vibrations; Free Vibrations of Single Degree of Freedom Systems",
+      "hours": 10,
+      "body": "Fundamental of Vibrations (6 hrs): Introduction, Importance of study Vibration, Definitions, Classifications of Vibration, Kinematics of simple vibrating motions, Simple harmonic motions, Vector Method and Complex Method representation of a harmonic motion, Fourier series representation of periodic Inputs, Vibration Analysis Procedure, Mathematical Model for Vibration Analysis. Free Vibrations of a Single Degree of Freedom Systems (4 hrs): Degrees of freedom, equations of motions, general solution of equation of motions, Rayleigh's Energy Method, Undamped and Damped free vibrations of Mechanical Systems. Logarithmic Decrement, Stability of Systems"
+    },
+    {
+      "id": "II",
+      "title": "Forced Vibrations of Single Degree of Freedom Systems",
+      "hours": 10,
+      "body": "Forced vibrations of the damped and undamped systems, Transient and Steady state response, Various type of damping, Forced vibration – due to external excitation; due to rotating and reciprocating unbalance; due to excitation of the support, Transmissibility and isolation, Self-Excitation and Stability Analysis, Vibration measuring Instruments."
+    },
+    {
+      "id": "III",
+      "title": "Two and Multi-Degree of Freedom Systems",
+      "hours": 10,
+      "body": "Two Degrees of Freedom Systems: Equations of Motion for Forced Vibration, Free Vibration Analysis of an Undamped System, principal modes, Damped Free Vibrations, Forced Vibration with Harmonic excitation and Vibration Absorber. Multi-Degrees of Freedom Systems: Modeling of Continuous Systems as Multi-degree of-Freedom Systems, Using Newton's Second Law to Derive Equations of Motion, Influence Coefficients, Undamped Forced Vibration, Generalized Coordinates, Coordinate Coupling, Principal Coordinate, Eigenvalue Problem, Modal Analysis."
+    },
+    {
+      "id": "IV",
+      "title": "Natural Frequencies of Multi-DOF Systems; Continuous Systems; Critical Speeds",
+      "hours": 10,
+      "body": "Determination of Natural Frequencies of Multi-Degrees of Freedom Systems: Numerical Methods: Dunkerley's Method, Rayleigh's method, Method of Matrix iteration, Holzer's method, Rayleigh–Ritz method. Continuous Systems: Transverse vibration of strings or cable, longitudinal vibration of bars, lateral vibration of beams, torsional vibration of circular shafts, Vibration of Membranes. Critical speeds of shafts: Critical speed of Undamped and Damped light shaft having Single Disk. Case studies: Case studies on Mechanical Vibration of the rotating components and other mechanisms."
+    }
+  ],
+  "outcomes": [
+    "Perform vibration analysis of the Mechanical systems using mathematical modelling",
+    "Form the differential equations of motion of the Mathematical model for a Mechanical system for vibration analysis.",
+    "Solve governing equation of motions of the Mechanical systems using Numerical Methods as well as exact analysis.",
+    "Predict response of the Mechanical Systems under periodic inputs."
+  ],
+  "textbooks": [
+    "Mechanical vibration by S. S. Rao, Pearson Education",
+    "Mechanical Vibration by Thomson, Prentice Hall",
+    "Mechanical Vibration by Den Hartog, McGraw-Hill",
+    "Introductory course on Mechanical Vibrations by Rao and Gupta, Wiley Eastern",
+    "Mechanical vibration by G.K. Grover, Nem chand & Brothers"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "Course Title": "Project I",
+  "Course Code": "MEPE-408",
+  "route": "course/mepe-408",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 0,
+  "description": "Project I is a Group VIII program elective (3 credits) offered in the 7th semester of the B.Tech. (Mechanical Engineering) scheme.",
+  "syllabus": [],
+  "outcomes": [],
+  "textbooks": []
+}

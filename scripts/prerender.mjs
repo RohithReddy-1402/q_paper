@@ -45,6 +45,10 @@ const branchSemesterRoutes = [
   ...[3, 4, 5, 6, 7, 8].map(
     (n) => `/nit-kkr/syllabus/branch/ee/semester/${n}`,
   ),
+  "/nit-kkr/syllabus/branch/me",
+  ...[3, 4, 5, 6, 7, 8].map(
+    (n) => `/nit-kkr/syllabus/branch/me/semester/${n}`,
+  ),
 ];
 
 const routes = [...staticRoutes, ...courseRoutes, ...branchSemesterRoutes];

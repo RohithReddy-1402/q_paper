@@ -1,0 +1,58 @@
+{
+  "Course Title": "Quality Control and Assurance",
+  "Course Code": "MEPE-418",
+  "route": "course/mepe-418",
+  "credits": 3,
+  "prerequisites": "Industrial Engineering",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course will present the theory and methods of quality and reliability monitoring including control charts, process capability, acceptance sampling and reliability based quality models etc. to give the participants necessary tools for the development of efficient statistical methods for assuring high quality in manufacturing sector.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "hours": 10,
+      "body": "Definitions of quality, quality dimensions and aspects; concept of quality control and quality assurance, quality Gurus philosophies, basic quality control tools- old and new, Six Sigma, just-in-time, quality circle, variability concept in manufacturing cycle, fishbone diagram, charts in time philosophy."
+    },
+    {
+      "id": "II",
+      "title": "Statistical Process Control",
+      "hours": 10,
+      "body": "Control charts and application, Type-1 and Type II errors, effect of control limits on errors, effect of sample size on control limits, sample size, Type of control charts- control chart for variable and attribute, different adaptations of control charts, manufacturing process variability, Process capability- process capability study using control charts and capability evaluation- Cp, Cpk and Pp, Ppk."
+    },
+    {
+      "id": "III",
+      "title": "Acceptance Sampling",
+      "hours": 10,
+      "body": "Operating Characteristic Curve (O-C curve); Effect of sample size and acceptance number, Single, Double and Multiple Sampling Plans, Acceptance/ rejection and acceptance/ rectification plans. Producer's risk and consumer's risk. Indifference quality level, Average Outgoing Quality (AOQ) curve, AOQL. Quality protection offered by a sampling plan. Average Sample Number (ASN) curve, Average Total Inspection (ATI) curve, design of single sampling plans."
+    },
+    {
+      "id": "IV",
+      "title": "Reliability and Sustainable Quality Practices",
+      "hours": 10,
+      "body": "Reliability: Concepts of reliability in quality, product quality based Bath tub curve, Mean Time to Failure, reliability in series and parallel configuration of a product, effect of redundancy in reliability, method of reliability evaluation, availability and maintainability concepts. Sustainable practices in quality assurance, case studies for improving product and service quality, total quality management, ISO 9000, application of RCA and FMEA for sustainable product operation."
+    }
+  ],
+  "outcomes": [
+    "Students will learn the fundamentals of quality management.",
+    "Students will be able to understand the basic statistical concepts based control charts.",
+    "Students will be able to understand acceptance sampling and sampling Plans based concepts and applications.",
+    "Students will understand the reliability and its relationship with quality."
+  ],
+  "textbooks": [
+    "Grant E L and Leavenworth R S, \"Statistical Quality Control\", McGraw Hill, Sixth Edition (2000)",
+    "Amitava Mitra, \"Fundamentals of Quality Control and Improvement\", Pearson Education Asia, Third Edition (2014)",
+    "Douglas C. Montgomery \"Introduction to Statistical Quality Control\", John Wiley & Sons, Inc., New York, 7th Edition (2013)",
+    "Srinath L S \"Reliability Engineering\", Affiliated East-West Press Limited, New Delhi, 2002."
+  ]
+}

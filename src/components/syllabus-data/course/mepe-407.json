@@ -1,0 +1,60 @@
+{
+  "Course Title": "Production Planning and Control",
+  "Course Code": "MEPE-407",
+  "route": "course/mepe-407",
+  "credits": 3,
+  "prerequisites": "Industrial Engineering",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course imparts knowledge about the various planning and control techniques in a manufacturing or production plant.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to PPC and Manufacturing Systems; Product Development & Design",
+      "hours": 16,
+      "body": "Introduction to PPC and Manufacturing systems: Introduction: Manufacturing function; Elements of production systems; objectives and the ten functions of production planning and control, concept of production and productivity. Types of production systems, Job, Batch and Mass production system, Product, Process and Cellular layouts, Line Balancing using LOT rule. Product Development & Design: Effect of competition on design, Long-range Planning, Company policy, product analysis, marketing aspects, the product characteristics, functional aspect, operational aspect, durability and dependability, Aesthetic aspect; Economic analysis, Profit and competitiveness, The Three S Concept- Standardization, Simplification and Specialization, Break Even Analysis."
+    },
+    {
+      "id": "II",
+      "title": "Forecasting; Aggregate Production Planning and Scheduling",
+      "hours": 10,
+      "body": "Forecasting: Concepts and applications, demand forecasting, principle of forecasting, forecasting techniques, quantitative and qualitative methods of forecasting, Trend adjusted exponential smoothening, assessment of forecasting error, signals. Aggregate Production Planning and Scheduling: Concept, strategies for aggregate planning: three pure planning strategies, master production scheduling (MPS), and procedure for developing MPS. Scheduling of jobs, Gantt Chart, FCFS rule, Johnson's rule, Problems on sequencing."
+    },
+    {
+      "id": "III",
+      "title": "Inventory Control; Process Capability and Control Charts",
+      "hours": 10,
+      "body": "Inventory Control: Definition, classification, objectives of inventory control, functions, costs of inventory, economic order quantity, Economic Batch size, Deterministic demand models, POQ model, Safety stock and probabilistic demand models, V.E.D. analysis, S-D-E analysis, F-S-N analysis, H-M-L analysis and ABC analysis. Process Capability and Control Charts: Introduction to process capability, Indexes Cp and CpK, Computation of sigma level, Number of defects vs. Sigma Level, Introduction to control charts, Causes of variation, Control charts for variables and attributes, X Chart, P Chart, R Chart, C Chart."
+    },
+    {
+      "id": "IV",
+      "title": "Case Studies with Application",
+      "hours": 6,
+      "body": "Case studies based on application of various tools and techniques."
+    }
+  ],
+  "outcomes": [
+    "Students will be able to understand the fundamentals of Production Planning and Control.",
+    "Students will understand major concept of product development and design.",
+    "Students will become capable to solve real forecasting and aggregate planning problems.",
+    "Students will learn about inventory control concepts, inventory models, inventory costs and ABC Analysis.",
+    "Student will learn to apply the PPC tool and techniques within different manufacturing/production units."
+  ],
+  "textbooks": [
+    "Buffa, E.S., and Sarin, R.K., \"Modern Production / Operations Management\", John Wiley & Sons, 1994",
+    "Mukhopadhyaya, S.K., \"Production Planning and Control – Text and Cases\", Prentice Hall of India, 2004",
+    "Adam, Jr., E.E., and Ebert, R.J., \"Production and Operations Management: Concept, Models and Behavior\", 5th Ed., Prentice-Hall of India, 2001",
+    "Vollman, T.E., Berry, W.L., and Whybark, D.C., \"Manufacturing Planning and Control Systems\" 4th Ed., McGraw-Hill, 1997",
+    "Sipper, D., and Bulfin, R.L., \"Production: Planning, Control and Integration\", McGraw-Hill, 1997."
+  ]
+}

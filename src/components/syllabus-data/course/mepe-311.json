@@ -1,0 +1,57 @@
+{
+  "Course Title": "Renewable Energy Systems",
+  "Course Code": "MEPE-311",
+  "route": "course/mepe-311",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "The main purpose of this course is to introduce students with conventional and Renewable energy sources environmental impacts, challenges and future trends, fundamentals, potential, estimation and, applications: Solar Energy, Wind Energy, Hydropower, Biomass, Geothermal Energy, Ocean Energy. The Renewable energy resources availability, potential and suitability as a substitute for conventional energy resources in future energy demand. Having completed the courses, the student should have Knowledge about different renewable energy resources. Advanced knowledge about potential of using renewable energy technologies as a complement to and to the extent possible, replacement for conventional technologies, and possibilities to combining renewable and non-renewable energy technologies in hybrid systems.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Energy Scenario",
+      "hours": 8,
+      "body": "Forms of Energy, Nuclear energy, Hydro energy, Renewable energy, Energy demand, Energy statistics, Comparison of fuels such as wood, charcoal, coal, kerosene, Diesel, petrol, furnace oil, LPG, biogas and electricity on calorific value and cost basis, Efficiencies of various Energy production methods. Ministry of Power, Ministry of New and Renewable Energy, Energy Auditing and Management, Energy Conservation Act, Bureau of Energy Efficiency, Schemes and policies of PCRA."
+    },
+    {
+      "id": "II",
+      "title": "Solar Energy",
+      "hours": 10,
+      "body": "Solar angles, day length, angle of incidence on tilted surface; Sun path diagrams; Shadow determination; Extraterrestrial characteristics; Effect of earth atmosphere; Measurement & estimation on horizontal and tilted surfaces; Analysis of Indian solar radiation data and applications. Solar Collectors, Effective energy losses; Thermal analysis; Heat capacity effect; Testing methods; Evacuated tubular collectors; Flat-plate collectors: types; Thermal analysis; Thermal drying. Selective surfaces - Ideal coating characteristics; Types and applications; Anti-reflective coating; Preparation and characterization."
+    },
+    {
+      "id": "III",
+      "title": "Energy Generation from Wastes",
+      "hours": 12,
+      "body": "Biochemical Conversion: Sources of energy generation, Industrial waste, agro residues; Anaerobic Digestion: Biogas production; Determination of BOD, DO, COD, TOC, & Organic loading, Aerobic & Anaerobic treatments – types of digesters – factors affecting bio-digestion - Activated sludge process. Methods of treatment and recovery from the industrial waste water – Case Studies in municipality and medical."
+    },
+    {
+      "id": "IV",
+      "title": "Wind Energy",
+      "hours": 10,
+      "body": "Wind energy conversion principles; General introduction; Types and classification of WECS; Power, torque and speed characteristics. – Site Selection Criteria – Advantages – Limitations – Wind Rose Diagram – Indian Wind Energy Data – Organizations like C-WET etc., Wind Energy Conversion System - Design - Aerodynamic design principles; Aerodynamic theories; Axial momentum, blade element and combine theory; Rotor characteristics; Maximum power coefficient; Prandlt's tip loss correction."
+    }
+  ],
+  "outcomes": [
+    "Understanding of commercial energy and renewable energy sources.",
+    "Knowledge in working principle of various energy systems.",
+    "Capability to do basic design of renewable energy systems.",
+    "Upon completion of this course, the students will be able to identify the new Methodologies / technologies for effective utilization of renewable energy sources."
+  ],
+  "textbooks": [
+    "Renewable Energy Sources by Twidell & Weir, Taylor and Francis, 2nd Special Indian Edition.",
+    "Non-conventional Energy Sources by G.D. Rai, Dhanpat Rai and Sons.",
+    "Renewable Energy Resources by Tiwari and Ghosal, Narosa."
+  ]
+}

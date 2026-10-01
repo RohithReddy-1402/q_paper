@@ -1,0 +1,61 @@
+{
+  "Course Title": "Reliability and Maintenance Engineering",
+  "Course Code": "MEOE-427",
+  "route": "course/meoe-427",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "OE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "Odd",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course will be useful in developing student's skill related to current maintenance practices and advanced maintenance issues handling in small and heavy process industries. The course imparts the theoretical and analytical skill based knowledge about maintenance practices in different Industries/plants. Various reliability based maintenance models with their industrial application are also covered under this course.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Reliability Based Maintenance Engineering",
+      "hours": 10,
+      "body": "Reliability based maintenance engineering: Introduction to Probability concepts, RAM aspects in maintenance, Failure Distribution- Reliability function, CDF and PDF, hazard rate function, Bath tub curve for industrial repairable system, conditional reliability concept in maintenance, Exponential, Weibull, normal and lognormal distributions based maintenance models. System reliability determination: Series–parallel system reliability, Type of redundancy, k out of n standby system, redundant standby systems, system structure functions, minimal cuts and minimal paths. State-Dependent system- Markov analysis for system availability: load sharing system, stand by systems, degraded systems"
+    },
+    {
+      "id": "II",
+      "title": "Maintenance Overview, Strategies and Total Productive Maintenance",
+      "hours": 10,
+      "body": "Maintenance introduction and overview: Maintenance definition, objectives and importance of maintenance, functions of maintenance: basic functions and composite functions, primary and secondary functions. Maintenance strategies: Definition of maintenance strategy, Classification of maintenance strategies, other maintenance strategies, advantages and disadvantages of maintenance strategies. Total Productive Maintenance: TPM Definition, Principles, TPM VIS-A-VIS Terro-Technology, Pillars of TPM, TPM implementation in industry."
+    },
+    {
+      "id": "III",
+      "title": "Maintenance Planning, Condition Monitoring and Effectiveness",
+      "hours": 10,
+      "body": "Maintenance Planning and scheduling: Maintenance planning and scheduling types and techniques, short and long term planning. Condition monitoring: Condition signals and monitoring, condition monitoring techniques: Performance monitoring, temperature monitoring, thermography, leakage monitoring, vibration monitoring, lubricant monitoring, ultrasound monitoring, corrosion monitoring, Motor current signature analysis (MCSA). Maintenance Effectiveness, indices and audit: OEE, Equipment availability, maintenance effectiveness assessment, KPI, maintenance performance measuring indices."
+    },
+    {
+      "id": "IV",
+      "title": "Case Studies with Application",
+      "hours": 10,
+      "body": "Application of RCA, FMEA and FMECA tools for industrial maintenance, Design of fuzzy MATLAB tool box based FMEA decision support system for maintenance action, Fault tree and PN diagram based availability analysis, Maintenance decision making models with industrial application."
+    }
+  ],
+  "outcomes": [
+    "Student will be able to learn various reliability concepts and its implementation in industry.",
+    "Students will be able to develop reliability based mathematical modeling for industrial system.",
+    "Students will gain knowledge related to maintenance objective/functions and TPM.",
+    "Students will be able to learn how to plan & schedule the maintenance job.",
+    "Students will learn about various CM techniques and their implementation.",
+    "Students will become capable to implement various maintenance tools in industry."
+  ],
+  "textbooks": [
+    "Kelly A., \"Maintenance Planning and Control\", Butterworth-Heinemann Ltd, London.",
+    "Cliffton R. H., \"Principle of Planned Maintenance\", McGraw Hill Inc. New York",
+    "Charles E. E., \"An Introduction to Reliability and Maintainability Engineering\", McGraw Hill Education, New York, 2017.",
+    "Dhillon B S, \"Engineering Maintainability\", Prentice Hall of India, New Delhi, 2000.",
+    "Wireman Terry, \"Preventive Maintenance\", Reston Publishing Company, Reston Virginia, 1998"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "branch": "ME",
+  "branchName": "Mechanical Engineering",
+  "semester": 8,
+  "title": "B. Tech. Mechanical Engineering (New Scheme) Semester VIII",
+  "totalCredits": 16,
+  "rows": [
+    {
+      "type": "core",
+      "code": "MEIC-416",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEIC-417",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective – Group IX",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "MEPE-418",
+        "MEPE-419",
+        "MEPE-420",
+        "MEPE-421"
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective – Group X",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "MEPE-422",
+        "MEPE-423",
+        "MEPE-424",
+        "MEPE-425"
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective (offered by the Mechanical Engineering Department, even-semester list: MEOE-431 to MEOE-434; or from the Institute list)",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEIC-426",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    }
+  ]
+}

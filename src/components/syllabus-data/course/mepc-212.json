@@ -1,0 +1,59 @@
+{
+  "Course Title": "Industrial Engineering",
+  "Course Code": "MEPC-212",
+  "route": "course/mepc-212",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "4th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Industrial Engineering course focuses on optimizing complex systems and processes in various industries. It combines engineering principles with business management techniques to improve overall productivity and performance. Industrial engineers analyze and evaluate various factors, and manage business/industrial systems involving people, materials, methods, and machines.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Industrial Engineering",
+      "hours": 10,
+      "body": "Definition, role, and scope of industrial engineering, pioneers of scientific management, industrial engineering approach and techniques, concept of productivity principles of organization, elements of organization, types of organization."
+    },
+    {
+      "id": "II",
+      "title": "Plant Layout and Material Handling; Work Study",
+      "hours": 10,
+      "body": "Plant Layout and Material Handling: Site selection, types of plant layout, factors affecting layout, plant building, flexibility and expansion, functions and principle of material handling, methods, introduction to concept of palletization, unit load concept, automated guided vehicle (AGV) system. Work Study: Method study, method study techniques, work measurement techniques, time study, observed time, basic time, normal time, allowances, standard time, micro and macro motion study"
+    },
+    {
+      "id": "III",
+      "title": "Sales Forecasting and Quality Control",
+      "hours": 10,
+      "body": "Sales Forecasting: Introduction, objectives of sales forecasting, types of forecasting, methods of sales forecasting; collective opinion method, Delphi technique, moving average method, time series analysis, simple exponential smoothing, measurement of forecasting errors. Quality Control: introduction to statistical quality control, control charts for variables, control charts for attributes, six-sigma introduction."
+    },
+    {
+      "id": "IV",
+      "title": "Inventory Control; Advancement in Industrial Engineering",
+      "hours": 10,
+      "body": "Inventory Control: Introduction, Types of Inventory, Inventory Control Importance and Functions, Inventory Costs, Factors Affecting Inventory Control, Inventory cost relationship, Inventory Control Models, ABC, VED Analysis. Advancement in Industrial Engineering: Industry 4.0, lean production, sustainable industrial practices, case studies pertains to advanced industrial practices."
+    }
+  ],
+  "outcomes": [
+    "Understand industrial engineering concepts to optimize the industrial resources",
+    "Use plant layout concepts to develop and expand the industrial layouts.",
+    "Apply forecasting and inventory models for smooth functioning of industry shop floors",
+    "Analyze the quality of product and services in industrial scenario with statistical concept of quality control"
+  ],
+  "textbooks": [
+    "Production and operations management by S.N.Chary Publication Tata Mc Graw Hill (TMH)",
+    "Industrial Engineering and Organization Management by S.K. Sharma & Savita Sharma Publication Kataria & sons",
+    "Industrial Engineering and Production management by Martland T Telsang Publication S. chand",
+    "Modern Production Management by Elwood S. Buffo Rakesh K. Sarin Publication John Wiley & Sons",
+    "Handbook of Industrial Engineering: Technology and Operations Management, by Gavriel Salvendy, publication John Wiley & Sons"
+  ]
+}

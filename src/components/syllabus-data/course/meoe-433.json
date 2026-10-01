@@ -1,0 +1,59 @@
+{
+  "Course Title": "Engineering Economy",
+  "Course Code": "MEOE-433",
+  "route": "course/meoe-433",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "OE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "Even",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "Engineering Economy covers an extensive view of engineering design and manufacturing products cost analysis and also economic issues overcome by understanding of linear & balance depreciation feasibility decisions. The proposed course targets the basics of engineering economy domains and scopes. The following learning objectives are covered: the basic concepts of the time value of money and economic equivalence, different cash flows and operational and maintenance costs, and different economic analysis methods. The study will also help to learn the break-even cost analysis, replacement decisions of products (life cycle) and specific system, adoption of new sustainable economy practices such as circular economy, green economy in manufacturing environments.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction; Interest and Annuity Relationships",
+      "hours": 10,
+      "body": "Introduction: The fundamental concepts and objectives of engineering economy, function and uses of engineering economy, Types of engineering economic decision & roles, physical and economic laws, and flow of economy, consumer and producer goods. Interest and Annuity Relationships: Productivity of capital, nominal and effective interest, interest factors, CAF, PWF, SPWF, SCAF, SFF, and CRF, deferred annuities, perpetuities and capitalized cost, equivalence, gradient factors, GPWF and GUSF."
+    },
+    {
+      "id": "II",
+      "title": "Depreciation Methods; Elements of Costing",
+      "hours": 12,
+      "body": "Depreciation Methods: Define the term of depreciation, types of depreciation & methods of computing depreciation, economic life and mortality data, capital recovery and return. Element of costing: Types of cost, Classification of costs: Direct material, direct labour and overheads, fixed and variable cost, semi-fixed cost, increment, differential and marginal cost, sunk cost and its reasons, direct and indirect cost, prime cost, factory cost, production cost and total cost."
+    },
+    {
+      "id": "III",
+      "title": "Cost Analysis; Replacement Analysis",
+      "hours": 10,
+      "body": "Cost Analysis: Types of cost analysis, Break-even analysis, two and three alternatives, graphical solution, break-even charts, effects of changes in fixed and variable cost, minimum cost analysis, economic order quantity, effect of risk and uncertainty on lot size. Replacement Analysis: Reason of replacement, evaluation of proposals, replacement because of inadequacy, excessive maintenance, declining efficiency, obsolescence, MAPI formula."
+    },
+    {
+      "id": "IV",
+      "title": "Cost Estimation; Sustainable Economy",
+      "hours": 10,
+      "body": "Cost Estimation: Difference between cost estimation and cost accounting, qualifications of an estimator, estimating procedure, estimate of material cost and labour cost, estimate of cost in machining, forging, welding and foundry operations. Sustainable Economy: Basic economy study patterns and their comparison, effect of taxation on economic studies. Sustainable economies: Types of sustainable economies, sustainable economy, circular economy."
+    }
+  ],
+  "outcomes": [
+    "Apply the appropriate engineering economics analysis method(s) for problem solving: present worth, annual cost, rate-of-return, payback, break-even, benefit-cost ratio.",
+    "Evaluate the cost effectiveness of individual engineering projects using the methods learned and draw inferences for the investment decisions.",
+    "Compare the life cycle cost of multiple projects using the methods learned, and make a quantitative decision between alternate facilities and/or systems.",
+    "Compute the depreciation of an asset using standard depreciation techniques to assess its impact on present worth."
+  ],
+  "textbooks": [
+    "Leland Blank, Anthony Tarquin; Engineering Economy, McGrawhill Education (India), New Delhi, 2017. ISBN13: 978-1-25-902740-6",
+    "William G. Sullivan, C. Patrick Koelling; Engineering Economy, Pearson Education (Asia), 2017.",
+    "Grant, E.L., Grant, W., and Leavenworth, R.S., Principles of Engineering Economy, John Wiley & Sons, 2015.",
+    "Eschenbach, T.G., Engineering Economy by Applying Theory to Practice, Oxford University Press, 3rd edition, ISBN-13: 978-0199772766.",
+    "Robert S. Devine & Robert Devine, \"The Sustainable Economy\", An anchor book origin Oct 2020."
+  ]
+}

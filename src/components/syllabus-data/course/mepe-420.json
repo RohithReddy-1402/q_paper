@@ -1,0 +1,58 @@
+{
+  "Course Title": "Total Quality Management",
+  "Course Code": "MEPE-420",
+  "route": "course/mepe-420",
+  "credits": 3,
+  "prerequisites": "Industrial Engineering",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Total Quality Management is a business improvement strategy to management that focuses on continuous improvement, customer satisfaction, and the involvement of all employees in the organization. This course provides a holistic and comprehensive management philosophy that aims to enhance the quality of products, services, and processes within an organization.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction",
+      "hours": 8,
+      "body": "Products and services, quality and productivity, dimensions of quality: manufacturing and service, continuous improvement, quality management practices, need of TQM, concept of TQM, elements of TQM, pillars of TQM, companywide organization for quality management, quality awards."
+    },
+    {
+      "id": "II",
+      "title": "TQM Leadership and Techniques",
+      "hours": 12,
+      "body": "Motivation and involvement for total quality, strategic quality planning, corporate culture, total employee involvement, total commitment, role of information in total quality, soft and hard practices of TQM, quality circle, seven QC tools, failure mode effect analysis, gemba kaizen, 6S, benchmarking, zero defects, PDCA cycle."
+    },
+    {
+      "id": "III",
+      "title": "TQM Framework and Systems",
+      "hours": 12,
+      "body": "Success factors and obstacles in TQM implementation, Implementing TQM, TQM framework, quality management systems; ISO 9000 Series of standards, ISO 9001 structure, ISO 14000 series standards, concepts of ISO 14001, requirements and benefits of ISO 14001."
+    },
+    {
+      "id": "IV",
+      "title": "TQM Case and Sustainable Practices",
+      "hours": 8,
+      "body": "Sustainable TQM, TQM 4.0, lean-TQM, total productive maintenance, TQM case studies in manufacturing and service sector."
+    }
+  ],
+  "outcomes": [
+    "Understand the fundamentals of quality management practices.",
+    "Discuss the need of customer expectations, employee involvement and supplier partnership.",
+    "Apply the TQM tools and techniques to improve the product and process quality.",
+    "Describe quality Management system standards and certification process."
+  ],
+  "textbooks": [
+    "Besterfield, D.H, Michna, C.B, Besterfield, G. H and Sacre, M.B, \"Total Quality Management\" Pearson Education Asia.",
+    "Mukherjee, P. N., \"Total Quality Management\" Prentice Hall of India.",
+    "Rajaram, S., \"Total Quality Management\" Biztantra.",
+    "Ramasamy, S. \"Total Quality Management\" Mc Graw Hill Education."
+  ]
+}

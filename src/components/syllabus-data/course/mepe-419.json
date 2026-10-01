@@ -1,0 +1,58 @@
+{
+  "Course Title": "Six Sigma: Concepts and Methodology",
+  "Course Code": "MEPE-419",
+  "route": "course/mepe-419",
+  "credits": 3,
+  "prerequisites": "Industrial Engineering",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Six Sigma is a best in class process improvement strategy that focuses on reducing process variation in business operations. It aims to achieve operational excellence by minimizing defects and waste in the system. This course can provide the general procedure and framework to understand and implement the six sigma in any organization.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Quality Concepts and Six Sigma Basics",
+      "hours": 8,
+      "body": "Quality concepts, evolution of continuous improvement, concept of six sigma, need for six sigma, process yield, statistical rationale of six sigma, belt system, teams, leadership in six sigma, resources for Six Sigma, roles and responsibilities of six sigma professionals."
+    },
+    {
+      "id": "II",
+      "title": "Six Sigma Strategy",
+      "hours": 10,
+      "body": "Six sigma strategic planning, define measure analyze improve control (DMAIC), design for six sigma (DFSS), selection of six sigma toolset, enablers of six sigma, obstacles of six sigma."
+    },
+    {
+      "id": "III",
+      "title": "Six Sigma Project Implementation",
+      "hours": 14,
+      "body": "Implementation framework, Define: project identification, project selection, problem definition, voice of customer, project critical to quality, improvement opportunity, process mapping, Measure: six sigma metrics, critical process assessment, measure metrics, Analyze: source of variations, analyzing root causes, Improve: six sigma improvement, implementation planning, innovate solution, selecting a solution, piloting the solution, improvement evaluation, lean process improvement, Control: need of control and monitoring in six sigma project, out of control action plan."
+    },
+    {
+      "id": "IV",
+      "title": "Six Sigma for Operational Excellence",
+      "hours": 8,
+      "body": "Combining lean and six sigma methodologies, sustainable six sigma, integration with industry 4.0, tangible gains of six sigma, impact on organization sustainability, six sigma case studies: manufacturing sector, healthcare, higher education, supply chain management."
+    }
+  ],
+  "outcomes": [
+    "Understand the basics of six sigma and role of teams in six sigma execution",
+    "Interpret the six sigma implementation strategy for manufacturing and service sector",
+    "Apply six sigma DMAIC process to reduce process variations",
+    "Relate the sustainable and smart process improvement practices with conventional strategies"
+  ],
+  "textbooks": [
+    "An introduction to six sigma and process improvement by James R. Evans & William M. Lindsay, Cengage Learning",
+    "Six sigma handbook by Thomas Pyzdek, Paul A. Keller, McGraw Hill",
+    "Six sigma the breakthrough management strategy revolutionizing the world's top corporations",
+    "Six sigma for business excellence: approach tools and applications by Hemant Urdhwareshe, Pearson"
+  ]
+}

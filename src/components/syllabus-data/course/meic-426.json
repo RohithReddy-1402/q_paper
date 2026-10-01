@@ -1,0 +1,40 @@
+{
+  "Course Title": "Metrology & Measurements (P)",
+  "Course Code": "MEIC-426",
+  "route": "course/meic-426",
+  "credits": 1,
+  "prerequisites": "Production Technology-II (P)",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 20,
+  "description": "This course will introduce the students to the instruments and experimental methods used in mechanical measurements. Precise linear and angular measuring devices will be discussed along with hands-on practice with advanced measuring machines. Students will learn the methods to conduct, analyze, interpret, and present measurement data from measurement experiments. Students will acquire excellent skills and techniques including the proper use of advanced measuring instruments.",
+  "syllabus": [],
+  "experiments": [
+    "To measure the dimensions of a component using a Vernier calliper and micrometer.",
+    "To measure the angle of a component using a sine bar and bevel protractor.",
+    "To measure the elements of the screw thread and gears using a vision measuring microscope.",
+    "To measure the forces, temperature, pressure, and strain during the machining operation.",
+    "To measure the surface roughness of a machined surface using a surface profilometer.",
+    "Introduction to coordinate measuring machine (CMM) and its probe qualification.",
+    "Feature creation, base alignment, and basic measurements on CMM.",
+    "Flatness, taper, circularity, and roundness measurement on CMM.",
+    "Introduction of the 3D scanner and its calibration.",
+    "3D scanning of parts and creation of STL file for rapid prototyping."
+  ],
+  "outcomes": [
+    "The student shall be measuring the various parameters like length, height, angle, and displacement, by using various instruments like Vernier calipers, micrometer, dial indicator, bevel protractor, etc.",
+    "The student shall be able to measure the threads, gear tooth profiles, and surface roughness using appropriate instruments and analyze the data.",
+    "The student shall be able to measure the forces, temperature, pressure, and strain in mechanical engineering applications.",
+    "The student shall be able to check the dimensions and alignment of various components in various mechanisms using advanced measurement machines."
+  ],
+  "textbooks": []
+}

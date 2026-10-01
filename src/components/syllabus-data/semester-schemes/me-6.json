@@ -1,0 +1,115 @@
+{
+  "branch": "ME",
+  "branchName": "Mechanical Engineering",
+  "semester": 6,
+  "title": "B. Tech. Mechanical Engineering (New Scheme) Semester VI",
+  "totalCredits": 22,
+  "rows": [
+    {
+      "type": "core",
+      "code": "MEPC-315",
+      "ltpc": [
+        2,
+        0,
+        5,
+        4
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEPC-316",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective – Group V",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "MEPE-317",
+        "MEPE-318",
+        "MEPE-319",
+        "MEPE-320",
+        "MEPE-321"
+      ]
+    },
+    {
+      "type": "elective",
+      "label": "Program Elective – Group VI",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ],
+      "options": [
+        "MEPE-322",
+        "MEPE-323",
+        "MEPE-324",
+        "MEPE-325",
+        "MEPE-326"
+      ]
+    },
+    {
+      "type": "openElective",
+      "label": "Open Elective (offered by the Mechanical Engineering Department, even-semester list: MEOE-431 to MEOE-434; or from the Institute list)",
+      "ltpc": [
+        3,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEPC-327",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "core",
+      "code": "MEPC-328",
+      "ltpc": [
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "type": "coCurricular",
+      "label": "NCC/Sports/Yoga",
+      "ltpc": [
+        0,
+        0,
+        4,
+        2
+      ],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance up to 6th semester."
+    },
+    {
+      "type": "coCurricular",
+      "label": "NSS/Club/Technical Societies",
+      "ltpc": [
+        0,
+        0,
+        4,
+        2
+      ],
+      "note": "Continuous Evaluation Model; credit awarded at the end of 6th semester based on cumulative performance up to 6th semester."
+    }
+  ]
+}

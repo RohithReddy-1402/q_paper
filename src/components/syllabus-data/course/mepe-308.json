@@ -1,0 +1,60 @@
+{
+  "Course Title": "Thermal Power Engineering",
+  "Course Code": "MEPE-308",
+  "route": "course/mepe-308",
+  "credits": 3,
+  "prerequisites": "Thermodynamics, Fluid Machines",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "The Thermal Power Engineering course offers a straightforward comprehension of the subject matter. It covers various aspects, such as the basic steam power cycle, including reheat, regeneration, and superheating. Additionally, it delves into actual cycles with component efficiencies and provides detailed discussions on each component of the power plant. The course also includes comprehensive studies on gas and diesel thermal power plants. Furthermore, it addresses the economic and environmental aspects of power generation.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Vapour Power Cycles",
+      "hours": 10,
+      "body": "Introduction: Introduction to thermal power, Description and classification of boilers, Boiler mountings & accessories, Natural draught, Artificial draught: Chimney design, Steam jet draught and mechanical draught, Calculation of boiler efficiency & equivalent evaporation. Vapour Power Cycles: Carnot cycle, Simple & modified Rankine cycles, Effect of operating variables on Rankine cycle, Rankine cycle with superheating, Reheating & regeneration, Reheat factor, Binary vapour cycle."
+    },
+    {
+      "id": "II",
+      "title": "Steam Turbines and Steam (Thermal) Power Plants",
+      "hours": 16,
+      "body": "Steam Turbines: Introduction, Classification of steam turbines, Working principle, Compounding, Velocity diagrams, Calculation of power output and efficiency, Condition for maximum efficiency, Degree of reaction, Governing of steam turbine. Steam (Thermal) Power Plants: Analysis of steam power cycles for power plant application; High pressure boilers- La-Mont boiler, Benson boiler, Loeffler boiler; Velox boiler; Super pressure steam power plants; Economizers; Air-preheaters; Super heaters and reheaters; Feed water heaters. General layout of thermal power plant; Site selection for thermal power plant; Coal as fuel, classification of coals, analysis of coal; Coal handling; Dead and live storage; Combustion of coal: coal burning methods, overfeed stokers, underfeed stokers, Pulverized fuels and burners. Ash handling and disposal; Dust collectors. Heat balance sheet for thermal power plants."
+    },
+    {
+      "id": "III",
+      "title": "Diesel Power Plants and Gas Turbine Plants",
+      "hours": 8,
+      "body": "Diesel Power Plants: Introduction; Field of use; Outline of diesel electric power plant; Different systems of diesel power plant; Supercharging of diesel engines; Performance of diesel power plant; Advantages and disadvantages of diesel plants over thermal power plants. Gas Turbine Plants: Elements of plant; Thermal refinements; Performance of plants; Gas turbine characteristics; Comparison with other plants; Combined steam and gas turbine power plants."
+    },
+    {
+      "id": "IV",
+      "title": "Economics of Power Generation",
+      "hours": 6,
+      "body": "Introduction, Load curves, Different terms and definitions, Effects of variable loads on power plant design and operation. Cost of electrical energy; performance and operating characteristics of power plants; Load division among generators; Case studies/Latest developments/Sustainable technologies in Thermal Power Engineering."
+    }
+  ],
+  "outcomes": [
+    "Understand the over view of boilers and power plant cycles.",
+    "Understand the operations of steam turbines and steam power plants.",
+    "Analyze the operations of diesel and gas turbine power plants.",
+    "Rectify the general challenges in thermal power plants"
+  ],
+  "textbooks": [
+    "Power plant Engineering by Black & Veatch, CBS Publisher, 2005",
+    "Power plant Engineering by P K Nag, TMH",
+    "Thermal Engineering by Ballaney, Khanna Publisher",
+    "Steam Turbine Theory & Practice by Kearton, W.J. Pitman.",
+    "Power Plant Engineering by Morse",
+    "Power Plant Technology by El-Wakil"
+  ]
+}

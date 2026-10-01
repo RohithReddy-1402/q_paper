@@ -1964,7 +1964,8 @@
     "Course Code": "CSIC-221",
     "route": "course/csic-221",
     "Branches": [
-      "EE"
+      "EE",
+      "ME"
     ],
     "semester": 3,
     "id": "nitkkr_196"
@@ -3068,5 +3069,785 @@
     ],
     "semester": 8,
     "id": "nitkkr_306"
+  },
+  {
+    "Course Title": "Manufacturing Processes",
+    "Course Code": "MEPC-201",
+    "route": "course/mepc-201",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 3,
+    "id": "nitkkr_315"
+  },
+  {
+    "Course Title": "Fluid Mechanics",
+    "Course Code": "MEPC-202",
+    "route": "course/mepc-202",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 3,
+    "id": "nitkkr_316"
+  },
+  {
+    "Course Title": "Strength of Materials – I",
+    "Course Code": "MEPC-203",
+    "route": "course/mepc-203",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 3,
+    "id": "nitkkr_317"
+  },
+  {
+    "Course Title": "Machine Drawing",
+    "Course Code": "MEPC-204",
+    "route": "course/mepc-204",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 3,
+    "id": "nitkkr_318"
+  },
+  {
+    "Course Title": "Kinematics of Machines",
+    "Course Code": "MEPC-205",
+    "route": "course/mepc-205",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 3,
+    "id": "nitkkr_319"
+  },
+  {
+    "Course Title": "Fluid Mechanics (P)",
+    "Course Code": "MEPC-206",
+    "route": "course/mepc-206",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 3,
+    "id": "nitkkr_320"
+  },
+  {
+    "Course Title": "Strength of Materials (P)",
+    "Course Code": "MEPC-207",
+    "route": "course/mepc-207",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 3,
+    "id": "nitkkr_321"
+  },
+  {
+    "Course Title": "Dynamics of Machines",
+    "Course Code": "MEPC-208",
+    "route": "course/mepc-208",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 4,
+    "id": "nitkkr_322"
+  },
+  {
+    "Course Title": "Strength of Materials – II",
+    "Course Code": "MEPC-209",
+    "route": "course/mepc-209",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 4,
+    "id": "nitkkr_323"
+  },
+  {
+    "Course Title": "Fluid Machines",
+    "Course Code": "MEPC-210",
+    "route": "course/mepc-210",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 4,
+    "id": "nitkkr_324"
+  },
+  {
+    "Course Title": "Production Technology – I",
+    "Course Code": "MEPC-211",
+    "route": "course/mepc-211",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 4,
+    "id": "nitkkr_325"
+  },
+  {
+    "Course Title": "Industrial Engineering",
+    "Course Code": "MEPC-212",
+    "route": "course/mepc-212",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 4,
+    "id": "nitkkr_326"
+  },
+  {
+    "Course Title": "Introduction to MATLAB Programming",
+    "Course Code": "MEPC-213",
+    "route": "course/mepc-213",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 4,
+    "id": "nitkkr_327"
+  },
+  {
+    "Course Title": "Theory of Machines (P)",
+    "Course Code": "MEPC-214",
+    "route": "course/mepc-214",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 4,
+    "id": "nitkkr_328"
+  },
+  {
+    "Course Title": "Fluid Machines (P)",
+    "Course Code": "MEPC-215",
+    "route": "course/mepc-215",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 4,
+    "id": "nitkkr_329"
+  },
+  {
+    "Course Title": "Production Technology – I (P)",
+    "Course Code": "MEPC-216",
+    "route": "course/mepc-216",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 4,
+    "id": "nitkkr_330"
+  },
+  {
+    "Course Title": "Machine Design I",
+    "Course Code": "MEPC-301",
+    "route": "course/mepc-301",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_331"
+  },
+  {
+    "Course Title": "Production Technology – II",
+    "Course Code": "MEPC-302",
+    "route": "course/mepc-302",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_332"
+  },
+  {
+    "Course Title": "Heat Transfer",
+    "Course Code": "MEPC-303",
+    "route": "course/mepc-303",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_333"
+  },
+  {
+    "Course Title": "Production Technology – II (P)",
+    "Course Code": "MEPC-312",
+    "route": "course/mepc-312",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_334"
+  },
+  {
+    "Course Title": "Heat Transfer (P)",
+    "Course Code": "MEPC-313",
+    "route": "course/mepc-313",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_335"
+  },
+  {
+    "Course Title": "Internship / Industrial Training / Project Viva-Voce",
+    "Course Code": "MEIC-314",
+    "route": "course/meic-314",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_336"
+  },
+  {
+    "Course Title": "Material Science",
+    "Course Code": "MEPE-304",
+    "route": "course/mepe-304",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_337"
+  },
+  {
+    "Course Title": "Rapid Product Development",
+    "Course Code": "MEPE-305",
+    "route": "course/mepe-305",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_338"
+  },
+  {
+    "Course Title": "Work Study and Ergonomics",
+    "Course Code": "MEPE-306",
+    "route": "course/mepe-306",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_339"
+  },
+  {
+    "Course Title": "Advanced Welding Technology",
+    "Course Code": "MEPE-307",
+    "route": "course/mepe-307",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_340"
+  },
+  {
+    "Course Title": "Thermal Power Engineering",
+    "Course Code": "MEPE-308",
+    "route": "course/mepe-308",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_341"
+  },
+  {
+    "Course Title": "Nuclear Engineering",
+    "Course Code": "MEPE-309",
+    "route": "course/mepe-309",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_342"
+  },
+  {
+    "Course Title": "Computational Fluid Dynamics",
+    "Course Code": "MEPE-310",
+    "route": "course/mepe-310",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_343"
+  },
+  {
+    "Course Title": "Renewable Energy Systems",
+    "Course Code": "MEPE-311",
+    "route": "course/mepe-311",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_344"
+  },
+  {
+    "Course Title": "Machine Design – II",
+    "Course Code": "MEPC-315",
+    "route": "course/mepc-315",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_345"
+  },
+  {
+    "Course Title": "Refrigeration and Air Conditioning",
+    "Course Code": "MEPC-316",
+    "route": "course/mepc-316",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_346"
+  },
+  {
+    "Course Title": "Refrigeration and Air Conditioning (P)",
+    "Course Code": "MEPC-327",
+    "route": "course/mepc-327",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_347"
+  },
+  {
+    "Course Title": "Technical Discussions",
+    "Course Code": "MEPC-328",
+    "route": "course/mepc-328",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_348"
+  },
+  {
+    "Course Title": "Logistics & Supply Chain Management",
+    "Course Code": "MEPE-317",
+    "route": "course/mepe-317",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_349"
+  },
+  {
+    "Course Title": "Operations Research",
+    "Course Code": "MEPE-318",
+    "route": "course/mepe-318",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_350"
+  },
+  {
+    "Course Title": "Reliability and Maintenance Engineering",
+    "Course Code": "MEPE-319",
+    "route": "course/mepe-319",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_351"
+  },
+  {
+    "Course Title": "Advanced Manufacturing Processes",
+    "Course Code": "MEPE-320",
+    "route": "course/mepe-320",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_352"
+  },
+  {
+    "Course Title": "Additive Manufacturing",
+    "Course Code": "MEPE-321",
+    "route": "course/mepe-321",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_353"
+  },
+  {
+    "Course Title": "Tribology",
+    "Course Code": "MEPE-322",
+    "route": "course/mepe-322",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_354"
+  },
+  {
+    "Course Title": "Mechatronics",
+    "Course Code": "MEPE-323",
+    "route": "course/mepe-323",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_355"
+  },
+  {
+    "Course Title": "Finite Element Method",
+    "Course Code": "MEPE-324",
+    "route": "course/mepe-324",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_356"
+  },
+  {
+    "Course Title": "Vehicle Dynamics",
+    "Course Code": "MEPE-325",
+    "route": "course/mepe-325",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_357"
+  },
+  {
+    "Course Title": "Mechanics of Composite Materials",
+    "Course Code": "MEPE-326",
+    "route": "course/mepe-326",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_358"
+  },
+  {
+    "Course Title": "I.C. Engines and Gas Turbine",
+    "Course Code": "MEPC-401",
+    "route": "course/mepc-401",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_359"
+  },
+  {
+    "Course Title": "Mechanical Vibrations",
+    "Course Code": "MEPC-402",
+    "route": "course/mepc-402",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_360"
+  },
+  {
+    "Course Title": "Computer Aided Design",
+    "Course Code": "MEPC-403",
+    "route": "course/mepc-403",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_361"
+  },
+  {
+    "Course Title": "I.C. Engines and Gas Turbine (P)",
+    "Course Code": "MEPC-412",
+    "route": "course/mepc-412",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_362"
+  },
+  {
+    "Course Title": "Mechanical Vibrations (P)",
+    "Course Code": "MEPC-413",
+    "route": "course/mepc-413",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_363"
+  },
+  {
+    "Course Title": "Computer Aided Design (P)",
+    "Course Code": "MEPC-414",
+    "route": "course/mepc-414",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_364"
+  },
+  {
+    "Course Title": "Internship / Industrial Training / Project Viva-Voce",
+    "Course Code": "MEIC-415",
+    "route": "course/meic-415",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_365"
+  },
+  {
+    "Course Title": "Computer Integrated Manufacturing",
+    "Course Code": "MEPE-404",
+    "route": "course/mepe-404",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_366"
+  },
+  {
+    "Course Title": "Product Design and Development",
+    "Course Code": "MEPE-405",
+    "route": "course/mepe-405",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_367"
+  },
+  {
+    "Course Title": "Engineering Economy",
+    "Course Code": "MEPE-406",
+    "route": "course/mepe-406",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_368"
+  },
+  {
+    "Course Title": "Production Planning and Control",
+    "Course Code": "MEPE-407",
+    "route": "course/mepe-407",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_369"
+  },
+  {
+    "Course Title": "Project I",
+    "Course Code": "MEPE-408",
+    "route": "course/mepe-408",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_370"
+  },
+  {
+    "Course Title": "Artificial Neural Network",
+    "Course Code": "MEPE-409",
+    "route": "course/mepe-409",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_371"
+  },
+  {
+    "Course Title": "Fatigue, Fracture & Failure Analysis",
+    "Course Code": "MEPE-410",
+    "route": "course/mepe-410",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_372"
+  },
+  {
+    "Course Title": "Two-Phase Heat Transfer",
+    "Course Code": "MEPE-411",
+    "route": "course/mepe-411",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 7,
+    "id": "nitkkr_373"
+  },
+  {
+    "Course Title": "Entrepreneurship and Start-ups",
+    "Course Code": "MEIC-416",
+    "route": "course/meic-416",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_374"
+  },
+  {
+    "Course Title": "Metrology & Measurements",
+    "Course Code": "MEIC-417",
+    "route": "course/meic-417",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_375"
+  },
+  {
+    "Course Title": "Quality Control and Assurance",
+    "Course Code": "MEPE-418",
+    "route": "course/mepe-418",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_376"
+  },
+  {
+    "Course Title": "Six Sigma: Concepts and Methodology",
+    "Course Code": "MEPE-419",
+    "route": "course/mepe-419",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_377"
+  },
+  {
+    "Course Title": "Total Quality Management",
+    "Course Code": "MEPE-420",
+    "route": "course/mepe-420",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_378"
+  },
+  {
+    "Course Title": "Facilities Design",
+    "Course Code": "MEPE-421",
+    "route": "course/mepe-421",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_379"
+  },
+  {
+    "Course Title": "Project II",
+    "Course Code": "MEPE-422",
+    "route": "course/mepe-422",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_380"
+  },
+  {
+    "Course Title": "Thermal Design and Management of Electronic Equipment",
+    "Course Code": "MEPE-423",
+    "route": "course/mepe-423",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_381"
+  },
+  {
+    "Course Title": "Automobile Engineering",
+    "Course Code": "MEPE-424",
+    "route": "course/mepe-424",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_382"
+  },
+  {
+    "Course Title": "Industrial Robotics",
+    "Course Code": "MEPE-425",
+    "route": "course/mepe-425",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_383"
+  },
+  {
+    "Course Title": "Metrology & Measurements (P)",
+    "Course Code": "MEIC-426",
+    "route": "course/meic-426",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 8,
+    "id": "nitkkr_384"
+  },
+  {
+    "Course Title": "Reliability and Maintenance Engineering",
+    "Course Code": "MEOE-427",
+    "route": "course/meoe-427",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_385"
+  },
+  {
+    "Course Title": "Total Quality Management",
+    "Course Code": "MEOE-428",
+    "route": "course/meoe-428",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_386"
+  },
+  {
+    "Course Title": "Logistics & Supply Chain Management",
+    "Course Code": "MEOE-429",
+    "route": "course/meoe-429",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_387"
+  },
+  {
+    "Course Title": "Industrial Engineering and Management",
+    "Course Code": "MEOE-430",
+    "route": "course/meoe-430",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 5,
+    "id": "nitkkr_388"
+  },
+  {
+    "Course Title": "Nuclear Engineering",
+    "Course Code": "MEOE-431",
+    "route": "course/meoe-431",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_389"
+  },
+  {
+    "Course Title": "Renewable Energy Systems",
+    "Course Code": "MEOE-432",
+    "route": "course/meoe-432",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_390"
+  },
+  {
+    "Course Title": "Engineering Economy",
+    "Course Code": "MEOE-433",
+    "route": "course/meoe-433",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_391"
+  },
+  {
+    "Course Title": "Thermal Design and Management of Electronic Equipment",
+    "Course Code": "MEOE-434",
+    "route": "course/meoe-434",
+    "Branches": [
+      "ME"
+    ],
+    "semester": 6,
+    "id": "nitkkr_392"
   }
 ]
