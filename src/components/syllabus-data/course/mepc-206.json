@@ -1,0 +1,42 @@
+{
+  "Course Title": "Fluid Mechanics (P)",
+  "Course Code": "MEPC-206",
+  "route": "course/mepc-206",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "3rd",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 24,
+  "description": "This course provides hands-on training to students using experiments on the physical principles of Fluid Mechanics. The course will enable students to effectively communicate ideas and concepts through written work, class discussions and laboratory reports.",
+  "syllabus": [],
+  "experiments": [
+    "To verify the Bernoulli's theorem.",
+    "To determine coefficient of discharge for an Orificemeter.",
+    "To determine coefficient of discharge of a venturimeter.",
+    "To determine the various hydraulic coefficients of an Orifice (Cd, Cc, Cv).",
+    "To calibrate a given notch.",
+    "To determine coefficient of discharge for a mouth piece.",
+    "To determine the Darcy Weisbach Coefficient of friction for flow through commercial pipes.",
+    "To study the effect of pipe diameter on head loss in friction",
+    "To determine critical Reynolds' numbers for flow through commercial pipes.",
+    "To study development of boundary layer over a flat plate.",
+    "To study the momentum characteristics of a given jet.",
+    "To measure the pressure distribution around a cylinder placed in the air stream and to calculate the coefficient of drag therefrom."
+  ],
+  "outcomes": [
+    "Understand the principles of fluid flow using experiments",
+    "Measure the flow properties in a fluid flow such as: velocity, discharge, pressure, frictional losses etc.",
+    "Apply the principles of fluid mechanics in design.",
+    "Demonstrate the ability to prepare lab report"
+  ],
+  "textbooks": []
+}

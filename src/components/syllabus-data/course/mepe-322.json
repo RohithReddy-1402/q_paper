@@ -1,0 +1,61 @@
+{
+  "Course Title": "Tribology",
+  "Course Code": "MEPE-322",
+  "route": "course/mepe-322",
+  "credits": 3,
+  "prerequisites": "Machine Design-I",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course will introduce the students to the fundamental concepts related to friction, wear and lubrication. The learning objectives of this course are: to develop an understanding of tribology, surface topography and the importance of tribology in engineering; to understand the basic laws and theories of friction and wear along with measurement techniques; to understand the types and properties of lubricants; and to gain knowledge regarding the mathematical equations governing the performance of various bearings and other transmission components.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Tribology; Friction",
+      "hours": 10,
+      "body": "Introduction to Tribology: Introduction to tribological systems and their characteristic features, Analysis and assessment of surface topography, deterministic and stochastic tribo-models for asperity contacts, techniques of surface examination, tribological properties of surfaces. Friction: Quantitative laws of sliding friction, causes of friction, adhesion theory, laws of rolling friction."
+    },
+    {
+      "id": "II",
+      "title": "Wear; Lubrication and Lubricants",
+      "hours": 10,
+      "body": "Wear: Introduction, mechanism of wear, types of wear, quantitative laws of wear, wear resistance materials. Lubrication and Lubricants: Introduction, dry friction, boundary lubrication, hydrodynamic, hydrostatic and elasto-hydrodynamic lubrication, functions of lubricants, types and properties of lubricants, lubricant additives, solid lubricants."
+    },
+    {
+      "id": "III",
+      "title": "Bearings and Bearing Materials",
+      "hours": 10,
+      "body": "Geometry and pressure equation of journal bearing, hydrostatic bearings, thrust bearings, porous bearings and hydrodynamic gas bearings. Journal bearings with specialized applications. General requirements and different types of bearing materials. Elasto-hydrodynamic lubrication: Principles, application to rolling contact bearings, cams, gears."
+    },
+    {
+      "id": "IV",
+      "title": "Tribological Testing Techniques",
+      "hours": 10,
+      "body": "Inclined plane method for friction measurement, Pin-on-disk method for friction and wear measurement, Dry sand abrasion resistance test, Four ball test for estimation of EP and wear preventive properties, Solid particle erosion test, Cavitation erosion test, Jet type and pot type slurry erosion test, Liquid droplet impingement erosion, Potentiodynamic and Electrochemical corrosion testing (Tafel plot), Case studies on wear assessment of composite materials."
+    }
+  ],
+  "outcomes": [
+    "The students will be able to analyse the contact between rough surfaces and determine important tribological characteristics.",
+    "The students will be able to correlate material properties and other parameters with friction and wear behaviour.",
+    "The students will be able to select lubricant and evaluate load carrying capacity, friction coefficient etc. for various bearings and transmission components.",
+    "The students will be able to understand various techniques for the measurement of friction and wear"
+  ],
+  "textbooks": [
+    "Principles of Tribology by J. Halling, Macmillan",
+    "Mechanics and Chemistry in lubrication by Dorinson and Ludema, Elsevier",
+    "Friction and wear of Materials by E. Robinowicz, John Wiley",
+    "Principles of Lubrication by A. Cameron, Longmans",
+    "Introduction to Tribology of Bearings by B.C. Majumdar, S Chand",
+    "Engineering Tribology by Prasanta Sahoo, PHI",
+    "Friction and Lubrication by E.P.Bowden and Tabor.D, Heinemann Educational Books Ltd."
+  ]
+}

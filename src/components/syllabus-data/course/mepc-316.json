@@ -1,0 +1,60 @@
+{
+  "Course Title": "Refrigeration and Air Conditioning",
+  "Course Code": "MEPC-316",
+  "route": "course/mepc-316",
+  "credits": 3,
+  "prerequisites": "Heat Transfer",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This Course provides a simple understanding of Refrigeration and Air-conditioning fundamentals. Ideally suited to those with a little or no knowledge of the subject. The course consists of different refrigeration cycles and understanding of psychrometry and psychrometric processes used for the purpose of air-conditioning. Further, the comfort air-conditioning and indoor environment health are also addressed in this course.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction and Air Refrigeration",
+      "hours": 8,
+      "body": "Introduction: A Refrigerating Machine—The Second Law Interpretation, Heat Engine, Heat Pump and Refrigerating Machine, units of refrigeration, Energy Ratios or Coefficients of Performance, Heat Pump vs. Electric Resistance Heater, Best Refrigeration Cycle: The Carnot Principle, Reversed Carnot Cycle, Effect of Operating Temperatures, Selection of Operating Temperatures, Problem Solving, Vapour as a Refrigerant in Reversed Carnot Cycle, Limitations of Reversed Carnot Cycle. Air Refrigeration: Limitations of Carnot Cycle with Gas as a Refrigerant, Reversed Brayton or Joule or Bell Coleman Cycle, Analysis of Gas Cycle, Application to Aircraft Refrigeration, Simple Aircraft Refrigeration Cycle with Ram Compression, Problem Solving, Dry Air Rated Temperature, Air-cycle Systems for Aircraft Refrigeration: Simple System & Bootstrap system, Problem Solving, The Joule–Thomson Coefficient and Inversion Curve."
+    },
+    {
+      "id": "II",
+      "title": "Vapour Compression, Multi-Pressure, Refrigerants and Vapour Absorption Systems",
+      "hours": 13,
+      "body": "Vapour Compression System: Work in Reciprocating Compressor, Modifications in Reversed Carnot Cycle with Vapour as a Refrigerant, Dry Versus Wet Compression, Throttling Versus Isentropic Expansion, Vapour Compression Cycle, P-h Charts, Vapour Compression System Calculations, Ewing's Construction, Standard Rating Cycle and Effect of Operating Conditions, Depiction of actual refrigeration cycle on T-S & P-h. Multi-Pressure Systems: Introduction, Multistage or Compound Compression, Flash Gas Removal, Flash Intercooling, Choice of Intermediate Pressure, Complete Multistage Compression System, Problem Solving, Multi-Evaporator Systems, Cascade Systems, Solid Carbon Dioxide—Dry Ice. Refrigerants, Nomenclature/designation of refrigerants, selections, Thermodynamic requirements, chemical requirements, physical requirements, Environmental impact of refrigerants. Vapour Absorption Systems: Faraday's Experiment, Simple vapour Absorption refrigeration system, comparison between absorption and vapour compression systems, Ammonia water system, lithium bromide, Problem Solving, Thermodynamic requirements of Mixtures, Refrigerant – Absorbent pair characteristics: Electro-Lux refrigerator, Problem Solving."
+    },
+    {
+      "id": "III",
+      "title": "Properties of Moist Air; Psychrometry of Air-Conditioning Processes",
+      "hours": 8,
+      "body": "Properties of Moist Air: Psychrometric Properties of moist air, Specific Humidity or Humidity Ratio, Dew Point Temperature, Problem Solving, Degree of Saturation, Relative Humidity, Enthalpy of Moist Air, Humid Specific Heat, Problem Solving, Wet Bulb Temperature, Thermodynamic Wet Bulb Temperature or Temperature of Adiabatic Saturation, Psychrometric Chart, Application of First Law of thermodynamics to a Psychrometric Process, Problem Solving. Psychrometry of Air-Conditioning Processes: Mixing Process, Problem Solving, Basic Processes in Conditioning of Air: Sensible heating, Sensible cooling, Humidifying, Dehumidifying, Heating, and humidifying, Cooling, and dehumidifying, Cooling, and humidifying, Heating, and dehumidifying, Psychrometric Processes in Air-Conditioning Equipment, Bypass Factor, Heating Coils, Air Washer, Adiabatic Dehumidifier, Water Injection, Steam Injection, Problem Solving, Summer Air Conditioning, Winter Air Conditioning."
+    },
+    {
+      "id": "IV",
+      "title": "Design Conditions, Comfort Air Conditioning and Load Calculations",
+      "hours": 11,
+      "body": "Design Conditions: Choice of Inside Outside Design Conditions, Outside Design Conditions, Cold storage, Industrial air conditioning. Comfort Air Conditioning and Effective Temperature, Comfort, The Metabolic Rate, Mechanism of Body Heat Loss, Mathematical Model of Heat Exchange between Man and Environment, Purposes of Ventilation, Air Filters. Load Calculations and Applied Psychrometric: Preliminary Considerations, Internal Heat Gains, System Heat Gains, Break-up of ventilation load and effective sensible heat factor, Cooling load estimate, Heating Load Estimate, Psychrometric calculations for cooling, Selections of air conditioning apparatus for cooling and dehumidification, Evaporative cooling, building requirement and energy conservation in air conditioning buildings."
+    }
+  ],
+  "outcomes": [
+    "Students should be able to understand the need and importance of various refrigeration and air conditioning cycles, the typical and some advanced and innovative schematic designs, and the goals of R&AC systems.",
+    "Students should be able to design the VCRS and VARS with improving performance parameters.",
+    "Students should be able to describe the working of different types of air conditioning systems.",
+    "Student should be able to understand the actual applications of RAC."
+  ],
+  "textbooks": [
+    "Refrigeration & Air-conditioning, CP Arora, TMG",
+    "NPTEL Video Course Refrigeration and air-conditioning, Dr. Ravi Kumar, Professor in the Department of Mechanical & Industrial Engineering, Indian Institute of Technology Roorkee",
+    "Refrigeration & Air-conditioning, Manohar Prasad, NAI",
+    "Refrigeration & Air-conditioning, Stoecker & Jones, MGH",
+    "Principles of Refrigeration, RC Dossat, LPE",
+    "ASHRAE Handbook (Fundamentals), ASHRAE"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "Course Title": "Finite Element Method",
+  "Course Code": "MEPE-324",
+  "route": "course/mepe-324",
+  "credits": 3,
+  "prerequisites": "Strength of Materials-II",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course is an introduction to solving different types of problems existing in the area of fluid, solids, heat which are described with their respective governing differential equations. The course compares the performance of finite element with the previously well established finite difference. The primary focus of the course is to expose the students to solving problems in these areas from the governing equation. The course provides a well-balanced approach, covering both the physical concepts and mathematical operations, supplemented with practical examples and exercises. By the end of the course, students will possess a strong foundation in finite elements, enabling them to effectively apply essential principles, laws, and relevant equations in the engineering design of machines for specific applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to FEM with Integral Formulations and Variational Methods",
+      "hours": 7,
+      "body": "Basic Concept, Historical background, Engineering applications, general description, Comparison with other methods. Need for weighted-integral forms, relevant mathematical concepts and formulae, weak formulation of boundary value problems, variational methods, Rayleigh-Ritz method, and weighted residual approach."
+    },
+    {
+      "id": "II",
+      "title": "Finite Element Techniques",
+      "hours": 12,
+      "body": "Model boundary value problem, finite element discretization, element shapes, sizes and node locations, interpolation functions, derivation of element equations, connectivity, boundary conditions, FEM solution, post-processing, compatibility and completeness requirements, convergence criteria, higher order and isoparametric elements, natural coordinates, Lagrange and Hermite polynomials."
+    },
+    {
+      "id": "III",
+      "title": "Applications to Solid, Heat and Fluid Mechanics and Structural Mechanics Problems",
+      "hours": 10,
+      "body": "External and internal equilibrium equations, one-dimensional stress-strain relations, plane stress and strain problems, axis-symmetric and three dimensional stress-strain problems, strain displacement relations, boundary conditions, compatibility equations, Analysis of trusses, frames and solids of revolution, computer programs. Variational approach."
+    },
+    {
+      "id": "IV",
+      "title": "Applications to Fluid Mechanics Problems",
+      "hours": 11,
+      "body": "Galerkin approach, one-dimensional and two-dimensional steady-state problems for conduction, convection and radiation, transient problems. Inviscid incompressible flow, potential function and stream function formulation, incompressible viscous flow, stream function, velocity-pressure and stream function-vorticity formulation, Solution of incompressible and compressible fluid film lubrication problems."
+    }
+  ],
+  "outcomes": [
+    "At the end of the course student will be able to solve the problems existing in various areas of fluid, solids and heat from the governing equation point of view.",
+    "They would program the various methods existing in this area and thus will be able to implement design concepts to practical problems.",
+    "Select the suitable type of material considering the type of working conditions they are to withstand."
+  ],
+  "textbooks": [
+    "The Finite Element Method by Zienkiewicz, Tata McGraw Hill",
+    "The Finite Element Method for Engineers by Huebner, John Wiley",
+    "An Introduction to the Finite Element Method by J.N.Reddy, McGraw Hill",
+    "The Finite Element Method in Engineering by S.S. Rao, Pergamon Press"
+  ]
+}

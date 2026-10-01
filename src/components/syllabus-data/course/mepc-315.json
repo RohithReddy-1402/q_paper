@@ -1,0 +1,61 @@
+{
+  "Course Title": "Machine Design – II",
+  "Course Code": "MEPC-315",
+  "route": "course/mepc-315",
+  "credits": 4,
+  "prerequisites": "Machine Design-I",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    2,
+    0,
+    5,
+    4
+  ],
+  "contactHours": 94,
+  "description": "This course is designed for B.Tech students to develop their understanding about the designing of (i) power transmission elements like design of different types of gears, belt drives; (ii) design of brakes, clutches and springs; (iii) design of rolling contact bearings, lubrication and journal bearings, design of crane hook; (iv) design of IC engine parts like cylinder, piston, crankshaft, connecting rod and valve gear mechanism for I.C. Engine, design of cam and follower mechanism, design of flywheel. Course learning objectives: to understand the design process of different types of gears, gear box, different types of belt drives, chain drive, rope drive and their applications in industry; to understand the utility and design process of different types of clutches, brakes and springs used in automotive industry; to understand the process of design for various types of bearings and crane hook; to understand the design process of I.C. engine components like cylinder, piston, crankshaft, connecting rod, valve gear mechanism and flywheels.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Design of Gears and Belt Drives",
+      "hours": 24,
+      "body": "Design of Gears: Design of spur, helical, bevel and worm gears, gear box design including housing. Design of belt drives: Design of flat and V - belt, chain drive, Wire ropes and Sheaves."
+    },
+    {
+      "id": "II",
+      "title": "Design of Brakes, Clutches and Springs",
+      "hours": 24,
+      "body": "Design of Brakes and clutches: Design of brakes, Energy absorbed by brake, Heat dissipation during braking, External and internal shoe type and disk type. Design of single and multiple plate and cone clutches, centrifugal clutch. Design of Springs: Types of Springs, Spring Materials, Design against fluctuating load, Surge in springs, Design of Helical, Spiral, Multileaf, Belleville, Rubber Springs"
+    },
+    {
+      "id": "III",
+      "title": "Design of Bearings, Crane Hook, Cam and Follower",
+      "hours": 22,
+      "body": "Design of Bearings: Selection of bearings, Static and dynamic load carrying capacity, Design for cyclic loads and speeds, Bearing failure, Selection and design of rolling contact bearings, Reynold's Equation, Raimondi & Boyd Method, bearing materials, Design of various hydro-dynamically lubricated bearings, bearing failures. Design of Crane hook: Types of Crane hooks, Hook Materials, Design of Crane hook. Design of Cam and Follower Mechanism: Types of Cams and Followers, materials for Cam & follower system, Design of Various types of Cams"
+    },
+    {
+      "id": "IV",
+      "title": "Design of I.C. Engine Parts and Flywheels",
+      "hours": 24,
+      "body": "Design of I C Engine Parts: Design of cylinder, piston, crankshaft, connecting rod and valve gear mechanism for I.C. Engine. Design of flywheels: Concept of Flywheel, Maximum fluctuation of Energy, Coefficient of fluctuation of speed, Design of Flywheel rim, arms, hub, shaft, key. Stresses in flywheel rim and arms. Case studies: (1) Design and analysis of Automatic Self Folding Dining Table. (2) Design and analysis of 360° Welding Cutting Rotary Turn Table Positioner. (3) Design and analysis of Regenerative Braking System. (4) Design and analysis of 3 DOF Hydraulic Extractor Mini JCB. (5) Design and analysis of Automated 5D of Robotic Arm Mechanism. (6) Design and analysis of Pulley Based Movable Crane Robot. (7) Design and analysis of Mini Conveyor Belt Mechanism. Note: Prepare the drawing sheets for the above problems based on your calculated dimensions."
+    }
+  ],
+  "outcomes": [
+    "Understand the design process of different types of gears, gear box, different types of belt drives, chain drive, rope drive and their applications in industry.",
+    "Understand the utility and design process of different types of clutches, brakes and springs used in automotive industry.",
+    "Understand the process of design for various types of bearings and crane hook.",
+    "Understand the design process of I.C. engine components like cylinder, piston, crankshaft, connecting rod, valve gear mechanism and flywheels."
+  ],
+  "textbooks": [
+    "Design of Machine Elements by Bhandari, Tata McGraw-Hill",
+    "Machine Design by Maleev and Hartmann, CBS Public.",
+    "Machine Design by Sharma and Aggarwal, Kaston Public.",
+    "PSG Design data book by PSG Publication, Coimbatore",
+    "Machine Design – An Integrated Approach by Robert L. Norton, Prentice-Hall Inc.",
+    "Fundamentals of Machine Component Design by R.C. Juvinall, John Wiley & Sons",
+    "Machine design data book by V.B.Bhandari"
+  ]
+}

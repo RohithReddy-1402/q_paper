@@ -1,0 +1,34 @@
+{
+  "Course Title": "Production Technology – II (P)",
+  "Course Code": "MEPC-312",
+  "route": "course/mepc-312",
+  "credits": 1,
+  "prerequisites": "Production Technology-I (P)",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 24,
+  "description": "This course gives hands-on training to the undergraduate students for various experiments related to production technology such as MIG/TIG welding, Wire EDM, CNC turning/milling, Tool Life equation, Rotary USM etc. Students will learn to use the equipment and perform practicals on the same.",
+  "syllabus": [],
+  "experiments": [
+    "To perform different operations of CNC turning center and measure the force and vibration during machining",
+    "To perform machining (square shape) on CNC-wire cut EDM machine and study the effect of electrical parameters on Cutting speed",
+    "Study and experiment on Robotic Pulse MIG welding cell",
+    "Study and experiment on robotic pulse TIG Welding Cell",
+    "To perform milling operation on CNC Vertical milling Center and measure cutting force during milling",
+    "To perform drilling operation on Rotary Ultrasonic Machining Set up",
+    "Gear cutting by milling and hobbing processes",
+    "Testing the sand properties- mould hardness and grain size",
+    "Study and experiment on tool life in turning operation"
+  ],
+  "outcomes": [],
+  "textbooks": []
+}

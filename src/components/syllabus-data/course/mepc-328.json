@@ -1,0 +1,23 @@
+{
+  "Course Title": "Technical Discussions",
+  "Course Code": "MEPC-328",
+  "route": "course/mepc-328",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 0,
+  "description": "Technical Discussions is a 1-credit course in the 6th semester of the B.Tech. (Mechanical Engineering) scheme.",
+  "syllabus": [],
+  "outcomes": [],
+  "textbooks": []
+}

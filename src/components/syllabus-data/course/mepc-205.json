@@ -1,0 +1,58 @@
+{
+  "Course Title": "Kinematics of Machines",
+  "Course Code": "MEPC-205",
+  "route": "course/mepc-205",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "3rd",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Kinematics of Machines involves study from geometric point of view to know the displacement, velocity and acceleration of various components of mechanisms without bothering about the input force or torque. In Kinematics of Machines, underlying concepts and methods behind Mechanism and Machines, velocity and acceleration by Graphical methods, Computer aided analysis and synthesis of Mechanism, Cams and followers, belt, Rope and chain drive, lower pairs and Friction are addressed.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Mechanisms and Machines; Velocity and Acceleration Analysis",
+      "hours": 14,
+      "body": "Mechanism and Machines (5 hrs): Kinematics, introduction to analysis and synthesis of mechanisms, Classification of mechanisms – Basic kinematic concepts and definitions, Mechanism & Machines. rigid and resistance body, link, Kinematic pair, Types of motion, degrees of freedom, classification of Kinematic pairs, Kinematic Chain, Linkage, Mechanics, Gruebler's criterion, Four bar chain and Slider crank chain, Kinematic inversions of four-bar chain and single and double slider crank chains. Velocity Analysis (4 hrs): Velocity analysis using Relative velocity method and Instantaneous center method, Kennedy's theorem, Space centrode and body centrode. Acceleration Analysis (5 hrs): Centripetal and tangential accelerations, Acceleration determination by graphical method using velocity polygons, Corioli's component of acceleration, Klein's construction method to find acceleration of four bar mechanism and slider crank chain mechanism."
+    },
+    {
+      "id": "II",
+      "title": "Cams",
+      "hours": 6,
+      "body": "Types of cams and followers, various motions of the follower, Construction of cam profiles, Analysis for velocities and accelerations of tangent and circular arc cams with roller and flat-faced followers."
+    },
+    {
+      "id": "III",
+      "title": "Computer-aided Analysis and Synthesis of Mechanisms; Lower Pairs",
+      "hours": 10,
+      "body": "Computer- aided analysis and Synthesis of Mechanisms (5 hrs): Computer-aided analysis of four-link mechanism and slider crank mechanism, Synthesis of mechanism by graphical method (function generation by Relative pole method and inversion method, Path generation and motion generation), Computer -aided Synthesis of Mechanism- Freudenstein's equation. Lower pairs (5 hrs): Pantograph, straight-line motion mechanisms (Paucellier, Hart, Scott Russel, Grasshopper, Watt, Tchebicheff's Parallel linkages) Automobile steering gears (Davis and Ackermann), Hooke's joint (universal coupling), Double Hooke's joints."
+    },
+    {
+      "id": "IV",
+      "title": "Friction; Belts, Ropes and Chains",
+      "hours": 10,
+      "body": "Friction (5 hrs): Types of friction, Laws of dry friction, Motion along inclined plane, Screw threads, Screw jack, Wedge, Pivots and collars, Plate and cone clutches, Antifriction bearings, friction circle and friction axis. Belts, Ropes and Chains (5 hrs): Open and crossed belt drives, velocity ratio, slip, material for belts, crowning of pulleys, law of belting, types of pulleys, length of belt, ratio of belt tensions, centrifugal tension, power transmitted by belts and ropes, initial tension, creep, chain drive, chain length, classification of chains."
+    }
+  ],
+  "outcomes": [
+    "Students will be able to know the common mechanisms used in machines and perform velocity and acceleration analysis of mechanisms",
+    "Student will be able to construct cam profiles and analysis their velocity and acceleration",
+    "Students will be able to do Computer-aided analysis and synthesis of mechanisms and have knowledge of lower pairs",
+    "Student will be able to know the concept of friction and friction drives such as belt rope and chain drives"
+  ],
+  "textbooks": [
+    "Theory of Machines by Jagdish Lal",
+    "Theory of Machines by R.S. Khurmi",
+    "Theory of Machines by S.S.Rattan",
+    "Theory of Machines by V.P.Singh"
+  ]
+}

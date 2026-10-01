@@ -1,0 +1,38 @@
+{
+  "Course Title": "Heat Transfer (P)",
+  "Course Code": "MEPC-313",
+  "route": "course/mepc-313",
+  "credits": 1,
+  "prerequisites": "Thermodynamics",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 24,
+  "description": "Laboratory course based on the Heat Transfer theory course, covering experiments on conduction, convection, radiation and heat exchangers.",
+  "syllabus": [],
+  "experiments": [
+    "Determination of thermal conductivity of a metal rod",
+    "Determination of thermal conductivity of an insulating powder",
+    "Determination of thermal conductivity of a liquid using Guard-plate method",
+    "Determination of thermal resistance of a composite wall",
+    "Temperature distribution of a pin fin in free-convection.",
+    "Temperature distribution of a pin fin in forced-convection",
+    "Forced convection heat transfer from a cylindrical surface",
+    "Determination of Effectiveness of a Heat Exchanger",
+    "Determination of Stefan-Boltzman constant.",
+    "Performance of Solar still",
+    "Determination of critical heat flux",
+    "Performance of solar water heater",
+    "Measurement of solar radiation using solar integrator."
+  ],
+  "outcomes": [],
+  "textbooks": []
+}

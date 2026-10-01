@@ -1,0 +1,54 @@
+{
+  "Course Title": "I.C. Engines and Gas Turbine (P)",
+  "Course Code": "MEPC-412",
+  "route": "course/mepc-412",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 24,
+  "description": "This course provides an experimental knowledge of computerized controlled single cylinder 4-stroke Diesel Engine, computerized controlled 4-stroke high-speed Diesel Engine, multi cylinder petrol engine, effects of emission formation of IC engines. It also provides an introduction to air compressors and gas turbines, their types and applications.",
+  "syllabus": [],
+  "experiments": [
+    "To make a trial on computerized controlled single cylinder 4-stroke Diesel Engine to calculate B.H.P., S.F.C. and to draw its characteristics curves.",
+    "To make a trial on computerized controlled 4-stroke high-speed diesel engine and to draw its Heat Balance Sheet.",
+    "To make Morse Test to calculate IHP of the multi cylinder petrol engine and to determine its mechanical efficiency.",
+    "Study of different types of lubrication systems.",
+    "Study of fuel injection systems of a C.I. Engine.",
+    "To study battery ignition system for four cylinders S.I. engines and requirements of ignition system.",
+    "To study magneto ignition system for SI engine having four cylinders and differences between magneto and battery Ignition system.",
+    "Dissembling & assembling of the simple Carburetor.",
+    "To study Boiler and its components.",
+    "To study open cycle constant pressure combustion gas turbine with inter cooler, regenerator and reheater.",
+    "General study of Wankel engine.",
+    "To study variable compression ignition engine.",
+    "To study of braking system of automobile in the lab.",
+    "Measurement of exhaust emission by using Exhaust gas analyzers."
+  ],
+  "outcomes": [
+    "Identify the various types of I.C. Engines and Cycles of operation. Also express the effect of various operating variables on engine performance.",
+    "Illustrate the various engine systems like cooling, fuel injection, and lubrication system.",
+    "Understand the effects of emission formation of IC engines, its effects and the legislation standards.",
+    "Understand the performance of Gas Turbines."
+  ],
+  "textbooks": [
+    "Thermal Engineering by R.K.Rajput 7th edition book",
+    "An Introduction to Thermodynamics, Y.V.C. Rao, University Press (India) Private Limited, Revised Edition, 2004).",
+    "Thermodynamics: an Engineering Approach, Y.A.Cengal and M.A.Boles, McGraw Hill (Fifth edition).",
+    "Fundamentals of Classical Thermodynamics, G.VanWylen, R.Sonntag and C.Borgnakke, John Willey & Sons (Fourth edition).",
+    "NPTEL Videos courses of Basic and Applied Thermodynamics (https://nptel.ac.in/course.php)",
+    "Edx Videos courses of Thermodynamics (https://courses.edx.org/courses/coursev1:IITBombayX+ME209.1x+1T2017/course/)",
+    "Ganeshan V., \"Internal Combustion Engines\", McGraw Hill, New Delhi, 2007.",
+    "Ganeshan V., \"Gas Turbine\", McGraw Hill, New Delhi, 2010.",
+    "M.L. Mathur and R.P. Sharma, \"Internal Combustion Engine Fundamentals\" Dhanpat Rai, New Delhi, 2010."
+  ]
+}

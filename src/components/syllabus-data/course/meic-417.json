@@ -1,0 +1,59 @@
+{
+  "Course Title": "Metrology & Measurements",
+  "Course Code": "MEIC-417",
+  "route": "course/meic-417",
+  "credits": 3,
+  "prerequisites": "Production Technology-II",
+  "Course Type": "IC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 42,
+  "description": "This course will introduce the students to the fundamental and advanced concepts related to the methods, standards, and instruments used in mechanical measurements. The students will be educated about measurement systems, performance characteristics, and errors in measurement. They will learn about various measuring equipment for engineering applications. The students will be familiarized with quality control terms and geometric features. Finally, the students will gain knowledge about the measurement of machine elements and advanced measuring machines.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fundamentals of Measurements",
+      "hours": 10,
+      "body": "Measurement and its need, static & dynamic performance characteristics-linearity, resolution, threshold, precision, accuracy, hysteresis, speed of response, dead time and zone, frequency response, methods of measurements, generalized measurement system, errors & their classification, the concept of uncertainty, standards, Transducers."
+    },
+    {
+      "id": "II",
+      "title": "Measuring Instruments for Mechanical Engineering",
+      "hours": 10,
+      "body": "Linear measuring instruments- Calipers, Vernier Calipers, Vernier Height Gauge, Vernier Depth Gauge, Micrometers, angular measuring instruments- Protractors, Sine bars, Angle gauges, Spirit level & Clinometers, Comparators, measurement of force, torque, vibrations, pressure, temperature, strain, and flow."
+    },
+    {
+      "id": "III",
+      "title": "Limits, Fits and Tolerances & Geometric Features",
+      "hours": 10,
+      "body": "Introduction, Concept of interchangeability, Limits, tolerances, fits, gauges and design, the introduction of geometric features & their measurement- straightness, parallelism, flatness, roundness, circularity, eccentricity, applications, concept and measurement of surface roughness."
+    },
+    {
+      "id": "IV",
+      "title": "Measurement of Screw Threads, Gears and Advanced Measuring Machines",
+      "hours": 12,
+      "body": "Screw threads terminology, types of threads, measurement of screw threads, gear & its types, forms of gears, measurement of spur gear, Coordinate Measuring Machine (CMM), CMM probes and stylus, 3-dimension (3D) scanner and concept of reverse engineering. Case Study: Reverse Engineering of any mechanical component using CMM & 3D-scanner."
+    }
+  ],
+  "outcomes": [
+    "Understand the basic concepts of measurements, errors, and standards of measurement.",
+    "Understand and use measuring instruments for mechanical applications.",
+    "Understand the quality control key terms and measure the geometric and surface features of a machine element.",
+    "Be able to measure the screw threads and gears and get familiarized with the use of CMM and 3D scanners for advanced measurement."
+  ],
+  "textbooks": [
+    "T.G. Beckwith, R.D. Marangoni, \"Mechanical Measurements\", Pearson.",
+    "A.K. Bewoor & V.A. Kulkarni, \"Metrology and Measurements\", McGraw Hill Education.",
+    "N.V. Raghvendra & L. Krishnamurthy, \"Engineering Metrology and Measurements\", Oxford Higher Education.",
+    "O.P. Khanna, \"Metrology and Instrumentation\", Dhanpat Rai Publications.",
+    "R.K. Jain, \"Engineering Metrology\", Khanna Publications."
+  ]
+}

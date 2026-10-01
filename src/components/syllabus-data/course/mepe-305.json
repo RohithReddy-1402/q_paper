@@ -1,0 +1,59 @@
+{
+  "Course Title": "Rapid Product Development",
+  "Course Code": "MEPE-305",
+  "route": "course/mepe-305",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Rapid Product Development course will focus on different rapid prototyping techniques and tools to build product in less time.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "CAD-CAM Integration, AM Process Chain and Reverse Engineering",
+      "hours": 10,
+      "body": "Computer Aided Design and Computer aided Manufacturing (CAD-CAM) and its integration, Rapid Prototyping (RP), Product development and its relationship. AM/3D printing process chain: Conceptualization, CAD, STL file, Transfer to 3D printing, STL file manipulation, Repair of STL files, Machine setup, build, removal and clean up, post processing. Classification of AM processes: Liquid polymer system, discrete particle system, molten material systems, solid sheet system. Process chain for Rapid Prototyping, Reverse Engineering and CAD model, Digitizing Techniques: Contact and Non-contact based, Coordinate measuring machine (CMM), Computed Tomography (CT) and 3D scanning."
+    },
+    {
+      "id": "II",
+      "title": "Part Orientation, Support Structures and Model Slicing",
+      "hours": 10,
+      "body": "Factors affecting part orientation, support structure design, Automatic support structure generation. Model Slicing and Contour Data organization: Model slicing and skin contour determination, Identification of external and internal contours, Contour data organization, Direct and adaptive slicing."
+    },
+    {
+      "id": "III",
+      "title": "Build Time, Part Quality and Defects",
+      "hours": 10,
+      "body": "Parameters affecting part building time in Fused Filament Fabrication (FFF) and powder Bed fusion process printer, Recoating, part quality. Part removal, finishing, curing. Other issues: Shrinkage, Swelling, Curl and distortion, Surface Deviation and accuracy, Build Style Decisions, different defects in built 3D printing component and remedies."
+    },
+    {
+      "id": "IV",
+      "title": "Rapid Tooling and Manufacturing",
+      "hours": 10,
+      "body": "Classification of Rapid Tooling Routes, Rapid Prototyping of Patterns, Direct Rapid Tooling: Direct Rapid Tooling method for Soft and Bridge Tooling, Indirect Rapid Tooling: Indirect method for Soft and Bridge Tooling, Future Directions of AM: Introduction, new types of products and employment. A Rapid prototyping case study based on experimental development of FFF components as a mini project."
+    }
+  ],
+  "outcomes": [
+    "To comprehend various types of rapid prototyping techniques",
+    "To apply various designing and slicing techniques that enables 3D printing and creates programming for tool path.",
+    "To comprehend the product development cycle, RT processes and reverse engineering solutions",
+    "To create RP components by applying fundamental knowledge of different process."
+  ],
+  "textbooks": [
+    "C.K. Chua, K.F. Leong and C.S. Lim, Rapid prototyping: Principles and applications, 3rd Edition, World Scientific, 2010.",
+    "Jacobs, PF (Ed), Rapid Prototyping and Manufacturing, Society of Manuf. Engrs.",
+    "Ian Gibson, David W. Rosen and Brent Stucker, Additive manufacturing technologies: rapid prototyping to direct digital manufacturing, Springer, 2010.",
+    "Gebhardt A., \"Rapid prototyping\", Hanser Gardener Publications, 2003.",
+    "Andreas Gebhardt, Understanding additive manufacturing: rapid prototyping, rapid tooling, rapid manufacturing, Hanser Publishers, 2011."
+  ]
+}

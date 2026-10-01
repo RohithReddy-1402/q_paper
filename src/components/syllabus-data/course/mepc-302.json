@@ -1,0 +1,60 @@
+{
+  "Course Title": "Production Technology – II",
+  "Course Code": "MEPC-302",
+  "route": "course/mepc-302",
+  "credits": 3,
+  "prerequisites": "Production Technology-I",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course explores an extensive view of the types of metal removal process in unconventional machining processes such as Ultrasonic machining, Electric discharge machining, etc. It covers various types of machining operations such as gear manufacturing methods, Press working tools applications and various clamping devices. It helps to understand the fundamental concept of non-conventional machining process selection decisions to match the specific requirements of product structures and feature suitability.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Unconventional Machining Processes",
+      "hours": 9,
+      "body": "Need for unconventional processes, Ultrasonic machining, Electric discharge machining, Electrochemical machining, Electrochemical grinding, Laser beam machining, Electron beam machining – their mechanism of metal removal, process parameters, advantages, limitations and applications."
+    },
+    {
+      "id": "II",
+      "title": "Capstan and Turret Lathe; Gear Manufacturing",
+      "hours": 9,
+      "body": "Capstan and Turret Lathe (4 hrs): Limitations of a center lathe, Introduction to Capstan and Turret lathe, Universal Bar equipment, tool layout for simple parts. Gear Manufacturing (5 hrs): Classification of gear production methods, gear generation – gear hobbing, gear shaping, gear finishing methods – shaving, burnishing, grinding, lapping, honing."
+    },
+    {
+      "id": "III",
+      "title": "Press Working Tools; Jigs and Fixtures",
+      "hours": 14,
+      "body": "Press Working Tools (7 hrs): Introduction, classification of presses, shearing action, cutting forces, clearance and its effect, shear, angular clearance, stripper, Types of dies – Progressive, compound and combination, center line of pressure and its mathematical calculation. Jigs and Fixtures (7 hrs): Introduction, difference between jig and fixture, principles of location, locating and clamping devices, Jig bushes, Milling fixtures, Turning fixtures, Different Materials for jigs and fixtures, Economics of Jigs and Fixtures."
+    },
+    {
+      "id": "IV",
+      "title": "Metal Forming",
+      "hours": 8,
+      "body": "Metal flow condition, plasticity conditions for plain strain, Friction conditions in metal working, Analysis of forming processes wire drawing, extrusion of circular rods, Theory of forging for plates."
+    }
+  ],
+  "outcomes": [
+    "To understand the non-conventional machining process selections for specific work piece requirements.",
+    "To understand the gear and threads manufacturing methods for work pieces requirements.",
+    "To understand the press working tools and location of clamping devices of various production environments.",
+    "To understand the theory of wire drawing, extrusion and forging processes."
+  ],
+  "textbooks": [
+    "Modern Machining Processes by Pandey & Shan, Tata – Mc Graw Hill",
+    "Advanced Machining Processes by V. K. Jain, Allied Publishers Pvt. Ltd.",
+    "Manufacturing Science by Ghosh & Mallick, Affiliated East West Press.",
+    "Tool Design by Donaldson, Mc Graw Hill",
+    "Manufacturing Technology: by P.N. Rao, Tata Mc Graw Hill; Metal Cutting Principles by Milton C. Shaw, MIT Press, Cambridge",
+    "Production Engineering Science by P. C. Pandey and C. K. Singh, Standard Publishers"
+  ]
+}

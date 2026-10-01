@@ -1,0 +1,59 @@
+{
+  "Course Title": "Machine Design I",
+  "Course Code": "MEPC-301",
+  "route": "course/mepc-301",
+  "credits": 4,
+  "prerequisites": "Strength of Materials-II, Dynamics of Machines",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    2,
+    0,
+    4,
+    4
+  ],
+  "contactHours": 80,
+  "description": "Machine Design-I is the first course in an in-depth two course series of Machine Design. This course will integrate the knowledge of Statics, Dynamics, Strength of Materials and Engineering Materials into the design process of machine elements. Students will learn the fundamentals of the design process, and the design of some common machine elements includes screws, fasteners, shafts, couplings and levers will be the focus.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Concepts of Design; Manufacturing Considerations",
+      "hours": 16,
+      "body": "Concepts of Design: Design methodology, Classification of machine design and the general considerations, Design criterion based on fracture, deformation and elastic stability, Design stresses, Factor of safety, Selection of Engineering Materials, stress concentration, causes and mitigation, Endurance limit, Notch sensitivity, Size and surface finish, Goodman diagram, Gerbers parabola and Soderberg line. Manufacturing Considerations: Manufacturing considerations in design, design of castings and weldments."
+    },
+    {
+      "id": "II",
+      "title": "Design of Joints",
+      "hours": 24,
+      "body": "Riveted joints for boiler shell according to I.B.R., riveted structural joint, and riveted joint with eccentric loading. Types of welded joints, strength of welds under axial load, Welds under eccentric loading, designation of various types of bolts and nuts, Design of bolted joints, Bolts of uniform strength, Bolted joints with eccentric loads, Pipe joints, Cotter joint and knuckle joints."
+    },
+    {
+      "id": "III",
+      "title": "Design of Shaft; Design of Keys and Couplings",
+      "hours": 20,
+      "body": "Design of Shaft: Design of shafts subjected to pure torsion, pure bending load, Combined bending & torsion, combined torsion, bending and axial loads, Design of shaft on the basis of rigidity. Design of Keys and Couplings: Design of keys, Types of shaft couplings, Design of sleeve or muff coupling, flange coupling and bush type flexible couplings."
+    },
+    {
+      "id": "IV",
+      "title": "Design of Levers; Power Screw; Case Studies",
+      "hours": 20,
+      "body": "Design of Levers: Introduction, hand and foot levers, cranked levers, lever for a lever safety valve, Bell crank lever, miscellaneous levers. Power screw: Function, types of power screws, stresses in screws, Self locking screw, Design of Screw jack, Differential and Compound Screws. Case Studies: Crimping tool failure analysis, Bicycle brake arm stress analysis, designing driveshafts for a portable air compressor, design of the head bolts for an air compressor."
+    }
+  ],
+  "outcomes": [
+    "Calculate stresses involved with static/fatigue loading.",
+    "Design power transmission elements like shaft, keys and couplings for rotating machinery.",
+    "Understand the design and applications of different types of joints.",
+    "Design levers and fasteners for machines."
+  ],
+  "textbooks": [
+    "Mechanical Engineering Design- Shigley, Mischke, and Budynas, McGrawHill",
+    "Design of Machine Elements - Bhandari, Tata McGraw-Hill",
+    "Machine Design - Sharma and Aggarwal, Kaston Public.",
+    "Machine Design – An Integrated Approach - Robert L. Norton, Prentice-Hall Inc.",
+    "Fundamentals of Machine Component Design -R.C. Juvinall, John Wiley & Sons"
+  ]
+}

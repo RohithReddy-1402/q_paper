@@ -1,0 +1,63 @@
+{
+  "Course Title": "Advanced Welding Technology",
+  "Course Code": "MEPE-307",
+  "route": "course/mepe-307",
+  "credits": 3,
+  "prerequisites": "Manufacturing Processes, Workshop Practice",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Advanced Welding Technology is a subject in mechanical engineering that focuses on the study and application of advanced welding processes, techniques, and materials. It aims to provide students with an in-depth understanding of the latest developments in welding technology and equip them with the skills necessary to tackle complex welding challenges in industrial settings. Students will develop the skills necessary to select appropriate welding processes, optimize welding parameters, ensure weld quality, and address challenges associated with advanced materials and applications. This knowledge prepares them for roles in industries where welding plays a crucial role, such as automotive, aerospace, construction, and energy sectors.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Arc Physics, Power Sources and Welding Metallurgy",
+      "hours": 10,
+      "body": "Arc physics, volt-ampere (VI) characteristics, duty cycle, AC/DC, CC and CV power sources, metal transfer modes in welding, residual stresses, heat flow and welding metallurgy, weldability of SS and Ni-base alloys."
+    },
+    {
+      "id": "II",
+      "title": "High-Energy Density Welding Processes",
+      "hours": 10,
+      "body": "High-energy density welding processes: concept, mechanism and applications of high density welding processes; plasma arc welding, laser beam welding; fundamentals, types of lasers, electron beam welding and its recent developments."
+    },
+    {
+      "id": "III",
+      "title": "Solid State and Non-conventional Welding Processes",
+      "hours": 10,
+      "body": "Solid state welding processes; friction stir welding, ultrasonic welding, diffusion bonding, Non-conventional welding; underwater welding, microwave hybrid joining, adhesive weld bonding, magnetic impelled arc butt welding (MIAB)."
+    },
+    {
+      "id": "IV",
+      "title": "Advanced Arc Welding Processes",
+      "hours": 10,
+      "body": "Advanced tungsten inert gas welding: high frequency pulsed GTAW, cold and hot wire feeds, multi-cathode GTAW, Pulse & Synergic-MIG, cold-metal transfer (CMT) welding, narrow-groove welding techniques; joint preparation, narrow gap GTAW torch, sustainable practices in advanced welding like hot wire laser welding, case study of pressure vessels welding – dissimilar welding, thick section NG welding."
+    }
+  ],
+  "outcomes": [
+    "Students will select and demonstrate appropriate use of power sources for given welding conditions.",
+    "Students will understand and identify the nature of residual stresses during welding.",
+    "Students will select and design the thick section welding using various welding techniques and processes.",
+    "Students will interpret and apply the knowledge of conventional and advanced welding processes for the present engineering and fabrication scenario."
+  ],
+  "textbooks": [
+    "Hoffman. D.J., Welding, 2nd Ed., Pearson.",
+    "Little, R.L., Welding and Welding Technology, McGraw-Hill.",
+    "Norrish, J., Advanced Welding Processes, Woodhead Publishing.",
+    "Misra, R., Friction Stir Welding and Processing: Science and Engineering, Springer.",
+    "AWS Welding Handbooks, 9th Edition, Vol. 1 & 3, AWS Publications.",
+    "Kou, S., Welding Metallurgy, Wiley-Interscience.",
+    "Parmar, R.S., Welding Engineering and Technology, Khanna Publishers.",
+    "Nadkari, S. V., Modern Arc Welding Technology, 2nd edi. (2005), Oxford & India Book House Pvt. Ltd.",
+    "Robert W. Messler, Jr., Principles of Welding – Processes, Physics, Chemistry, and Metallurgy, (2014 reprint) Wiley-UCH Publisher"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Course Title": "Additive Manufacturing",
+  "Course Code": "MEPE-321",
+  "route": "course/mepe-321",
+  "credits": 3,
+  "prerequisites": "Production Technology-II",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Additive Manufacturing is one of the pillars in Industry 4.0 technology. AM has changed the way of manufacturing the components for various applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Additive Manufacturing (AM)",
+      "hours": 8,
+      "body": "Overview – History – Need of Additive Manufacturing, Classification of AM processes and 7 families of AM, fundamental engineering aspects. Difference between Additive and Subtractive Manufacturing, AM benefits, 3D printing and additive manufacturing, Generic AM Process, Rapid Prototyping Product development, AM applications timeline evolution, Additive Manufacturing applications in Aerospace, Automotive, Electronics, defence and Biomedical. Industrial revolutions, AM in Industry 4.0, current development in the field of AM."
+    },
+    {
+      "id": "II",
+      "title": "CAD for AM",
+      "hours": 10,
+      "body": "Basic Concept: Digitization techniques – Model reconstruction – Data processing for AM Technology: CAD model preparation – Part orientation and support generation – Model slicing – Tool path generation (preparatory (G) and miscellaneous (M) code generation) – Softwares for AM Technology- Cura, Mimics, Magics. STL file generation, STL file format- ASCII encoding and Binary encoding, defects in STL file, STL file repair, Design for Additive Manufacturing- Levels of AM deployment, Business impact of industrial AM, Innovative product design, Reverse Engineering, Application Geometric Model Development, Digitization techniques- Contact and Non-Contact Methods."
+    },
+    {
+      "id": "III",
+      "title": "AM Processes",
+      "hours": 14,
+      "body": "Fused deposition modelling (FDM)- Principle, process parameters of FDM, Cause effect diagram, advantages, applications and defects in FDM printing, Stereolithography (SLA)-Binder Jetting-Material jetting-Powder bed fusion AM processes involving sintering and melting- Principle, process, advantages, effect of process parameters and applications, Directed energy deposition-Sheet lamination: Principle, process, advantages, effect of process parameters and applications."
+    },
+    {
+      "id": "IV",
+      "title": "Material Science Aspects and Case Study",
+      "hours": 8,
+      "body": "Different materials used in AM- polymers filaments materials (ABS, PLA, PCs, PEI, Nylon and other), metals (SS316L, Inconel 625 and 718, AlSi10Mg), multifunctional and graded materials. Effect of AM process parameters on built parts, Mechanical properties and Metallurgical characterization of key materials, A case study based on experimental development of 3D components as a mini project."
+    }
+  ],
+  "outcomes": [
+    "To comprehend fundamentals of Additive manufacturing (AM) with different types of AM process.",
+    "To apply various designing and slicing techniques to create tool path for AM.",
+    "To comprehend fundamentals of different AM processes classified based on ASTM.",
+    "To acquire knowledge of different materials and create AM components by applying fundamental knowledge of different AM process."
+  ],
+  "textbooks": [
+    "Ian Gibson, David W. Rosen and Brent Stucker, Additive manufacturing technologies: rapid prototyping to direct digital manufacturing, Springer, 2010.",
+    "C.K. Chua, K.F. Leong and C.S. Lim, Rapid prototyping: Principles and applications, 3rd Edition, World Scientific, 2010.",
+    "John O. Milewski, Additive Manufacturing of Metals: From Fundamental Technology to Rocket Nozzles, Medical Implants, and Custom Jewelry, Springer- 2017",
+    "Gebhardt A., \"Rapid prototyping\", Hanser Gardener Publications, 2003.",
+    "Andreas Gebhardt, Understanding additive manufacturing: rapid prototyping, rapid tooling, rapid manufacturing, Hanser Publishers, 2011."
+  ]
+}

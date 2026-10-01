@@ -1,0 +1,39 @@
+{
+  "Course Title": "Mechanical Vibrations (P)",
+  "Course Code": "MEPC-413",
+  "route": "course/mepc-413",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 24,
+  "description": "Mechanical Vibration is a common phenomenon occurring in a mechanical system. The experimental studies are required to understand the fundamental and advance concepts of mechanical vibrations. Course learning objectives: to develop the understanding of basic concepts of Mechanical Vibrations with the help of experiments; to find natural frequency of free and forced vibrations of undamped and damped mechanical systems for understanding the theoretical concepts of Mechanical Vibrations; to find viscous damping from the response curve of damped free vibrations of a Mechanical System; to develop the understanding of Torsional Vibrations; to verify some of the methods of finding natural frequency of Mechanical Systems.",
+  "syllabus": [],
+  "experiments": [
+    "To study undamped free vibrations of equivalent spring mass system & determine the natural frequency of vibrations.",
+    "To study the free vibrations of the system for different damper setting. Draw the decay curve and determine the log decrement and damping factor. Determine the natural frequency.",
+    "To study the torsional vibrations of a single rotor shaft system and to determine the natural frequency.",
+    "To perform the experimental modal analysis using the Modal analysis apparatus.",
+    "To determine the two frequencies of the torsional spring type double pendulum and compare them with theoretical values.",
+    "To determine the radius of gyration of given bar by using Bifilar suspension.",
+    "To verify the Dunkerley's rule.",
+    "To study the forced vibrations of the system with damping. Plot magnification factor vs. frequency and phase angle vs. frequency curves. Also, determine the damping factor.",
+    "To practice the measurement of the vibrations of any mechanical component using the vibration analysis equipment i.e. accelerometers, Data acquisition system."
+  ],
+  "outcomes": [
+    "Perform Vibrations analysis of a Mechanical System or component.",
+    "Determine the system properties of a component of machine or Machine itself by performing free vibrations tests.",
+    "Determine the viscous damping present in a Mechanical system.",
+    "Understand theoretical concepts of Mechanical Vibrations. Analyse the response of the Vibrations Test to understand the theoretical results obtained from Mathematical Modelling of the Mechanical System under periodic input."
+  ],
+  "textbooks": []
+}

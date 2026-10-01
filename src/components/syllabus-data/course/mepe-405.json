@@ -1,0 +1,58 @@
+{
+  "Course Title": "Product Design and Development",
+  "Course Code": "MEPE-405",
+  "route": "course/mepe-405",
+  "credits": 3,
+  "prerequisites": "Machine Design-II",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course blends the perspectives of marketing, design, and manufacturing into a single approach to product development. As a result, students are provided with an appreciation for the realities of industrial practice and for the complex and essential roles played by the various members of product development teams. The course is intended to provide the following benefits: competence with a set of tools and methods for product design and development; develop abilities amongst learners to create a new product; awareness of the role of multiple functions in creating a new product (e.g. marketing, finance, industrial design, engineering, production); ability to coordinate multiple, interdisciplinary tasks in order to achieve a common objective; reinforcement of specific knowledge from other courses through practice and reflection in an action-oriented setting; enhanced team working skills.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction; Opportunity Identification; Product Planning; Customer Needs Identification",
+      "hours": 10,
+      "body": "Introduction: Characteristics of Successful Product Development, Who Designs and Develops Products?, Duration and Cost of Product Development, The Challenges of Product Development, The Product Development Process, Concept Development: The Front-End Process, Generic Product Development Process. Opportunity Identification: What Is an Opportunity, Structure of Opportunity Identification and its process, Process to Generate, Sense, Screen and develop Opportunities. Product Planning: Product Planning Process, Product Development Projects, Evaluation of Projects, Pre-Project Planning. Customer Needs Identification: Importance of Needs identification, Process of Identifying Customer Needs, Art of Eliciting Customer Needs, Needs Interpretation, Needs Hierarchy and relative Importance."
+    },
+    {
+      "id": "II",
+      "title": "Product Specifications; Concept Generation, Selection and Testing",
+      "hours": 10,
+      "body": "Product Specifications: Concept of Product specifications, steps to establish the Target specifications, Setting of Final Specifications, Technical and Cost Models. Concept Generation: Activity of Concept Generation, Methods of Concept Generation, Problem Decomposition, Concept Classification Tree, Concept Combination Table, Managing the Exploration Process. Concept Selection: Importance of Concept Selection, Methods of Concept Selection, Concept Screening and Scoring, Combining and Improving Concepts. Concept Testing: Purpose of the Concept Testing, Methods, formats and Analysis for Testing, Selection methods for Concepts."
+    },
+    {
+      "id": "III",
+      "title": "Industrial Design; Design for Manufacturing & Assembly, Environment and Robustness",
+      "hours": 10,
+      "body": "Industrial Design: What Is Industrial Design? Assessing the Need for Industrial Design, Importance of Industrial Design to a Product, Parameters for Industrial Design, Impact of Industrial Design, Industrial Design Process and its Management, Assessing the Quality of Industrial Design, Ergonomic / Aesthetic Needs. Design for Manufacturing & Assembly: Definition of DFM, estimating manufacturing cost, reducing component, assembly and support costs, design for assembly, design for disassembly, design for environment. Design for Environment: What Is Design for Environment?, Design for Environment Process - Drivers, Goals, and Team, Application of DFE Guidelines to the Initial Product Design. Design for Robustness: Concept of Robust Design, Design of Experiments, Robust Design Process, Identification of Control Factors, Noise Factors."
+    },
+    {
+      "id": "IV",
+      "title": "Product Management",
+      "hours": 10,
+      "body": "Concept of Product Management, Functions of a Product Manager, Building a Product and Problem Discovery, Launch of a product."
+    }
+  ],
+  "outcomes": [
+    "Describe an engineering design and development process",
+    "Demonstrate individual skill using selected manufacturing techniques",
+    "Employ engineering, scientific, and mathematical principles to execute a design from concept to finished product",
+    "Work collaboratively on a team to successfully complete a design project and effectively communicate the results of projects and other assignments in a written and oral format"
+  ],
+  "textbooks": [
+    "K.T. Ulrich and S.D. Eppinger, \"Product design and development\", Tata McGraw Hill",
+    "Chitale & Gupta, \"Product Development\", Tata McGraw Hill",
+    "Monks, J. G., \"Operations Management\", McGraw Hill, 1997.",
+    "George Dieter, A material and Processing approach, McGraw Hill"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Course Title": "Computer Aided Design (P)",
+  "Course Code": "MEPC-414",
+  "route": "course/mepc-414",
+  "credits": 1,
+  "prerequisites": "NA",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    0,
+    0,
+    3,
+    1
+  ],
+  "contactHours": 24,
+  "description": "The learning objectives of this course are: to get the knowledge of modelling software; to understand the 2D, 3D and assembly drawing features of different CAD software; and to understand and generate 2D entities using programming techniques. Software required: SOLIDWORKS/CATIA/Autodesk INVENTOR/PTC Creo; MATLAB.",
+  "syllabus": [],
+  "experiments": [
+    "Draw 3D parts, assembly and drafting",
+    "To perform 2D scaling, reflection, rotation and translation transformations of a geometric entity.",
+    "To perform 3D scaling, reflection, rotation and translation transformations of a geometric entity and show its application for a unit cube.",
+    "To generate the top, front and side views of a truncated cube.",
+    "To generate isometric projection and apply it to view a given object.",
+    "To generate dimetric projection and apply it to view a given object in different orientations.",
+    "To perform single point perspective projection and use it to view a truncated cube.",
+    "To perform joining a set of points in space by Hermite curve segments and demonstrate the manipulation of curve shape by varying the geometric conditions.",
+    "To generate a Bezier curve for a given set of control points and demonstrate the manipulation of curve shape by varying the geometric conditions.",
+    "To generate a B-Spline curve for a given set of control points and demonstrate the manipulation of curve shape.",
+    "To generate and view a ruled surface between two given rails.",
+    "To generate and view a Bezier surface for a given mesh of control points."
+  ],
+  "outcomes": [
+    "Draw the 2D, 3D drawing of complex machine components",
+    "Design contours and surfaces using modelling software.",
+    "Generate 2D entities using MATLAB"
+  ],
+  "textbooks": []
+}

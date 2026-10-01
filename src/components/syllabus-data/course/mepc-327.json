@@ -1,0 +1,40 @@
+{
+  "Course Title": "Refrigeration and Air Conditioning (P)",
+  "Course Code": "MEPC-327",
+  "route": "course/mepc-327",
+  "credits": 1,
+  "prerequisites": "Heat Transfer (P)",
+  "Course Type": "Lab",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    0,
+    0,
+    2,
+    1
+  ],
+  "contactHours": 24,
+  "description": "This Course provides a simple understanding of Refrigeration and Air-conditioning fundamentals. The course consists of different refrigeration cycles and understanding of psychrometry and psychrometric processes used for the purpose of air-conditioning. Further, the comfort air-conditioning.",
+  "syllabus": [],
+  "experiments": [
+    "To study the performance of vapour Compression refrigeration cycle",
+    "To study various components of room air conditioner.",
+    "To study three fluid vapour Absorption refrigeration system and find out its theoretical & actual COP.",
+    "To Study different refrigerant control and electric control devices of a refrigeration system.",
+    "Study and Performance of ice plant test rig.",
+    "To find the theoretical & experimental C.O.P. of the system, when using as refrigerator and as heat pump by reversing the cycle and show that (COP)HP = (COP)R + 1.",
+    "To Study the heat balance sheet on the computerised recirculating type air conditioning test rig.",
+    "To study humidification with heating & dehumidification with cooling.",
+    "To study the constructional details of hermetically sealed reciprocating compressor & rotary compressor.",
+    "To Study the performance of Solar-assisted heat pump"
+  ],
+  "outcomes": [
+    "Study of refrigerant compressors, expansion devices used in vapour compression refrigeration system, thermostat with range and differential setting, charging of refrigeration system.",
+    "Trial on pilot ice plant to evaluate cycle performance and actual coefficient of performance.",
+    "Participate in a group atmosphere for the understanding of an industrial refrigeration system.",
+    "Communicate effectively both verbally and in written form through the preparation of journal report and practical presentation."
+  ],
+  "textbooks": []
+}

@@ -1,0 +1,23 @@
+{
+  "Course Title": "Internship / Industrial Training / Project Viva-Voce",
+  "Course Code": "MEIC-314",
+  "route": "course/meic-314",
+  "credits": 2,
+  "prerequisites": "NA",
+  "Course Type": "IC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "5th",
+  "ltpc": [
+    0,
+    0,
+    0,
+    2
+  ],
+  "contactHours": 0,
+  "description": "Internship / Industrial Training / Project viva-voce, of 4-6 weeks duration, undertaken after the 4th semester examination.",
+  "syllabus": [],
+  "outcomes": [],
+  "textbooks": []
+}

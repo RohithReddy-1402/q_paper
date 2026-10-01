@@ -1,0 +1,49 @@
+{
+  "Course Title": "Machine Drawing",
+  "Course Code": "MEPC-204",
+  "route": "course/mepc-204",
+  "credits": 3,
+  "prerequisites": "Engineering Graphics",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "3rd",
+  "ltpc": [
+    1,
+    0,
+    5,
+    3
+  ],
+  "contactHours": 78,
+  "description": "The student is enabled to: study the conventions and rules to be followed by engineers for making accurate drawings; understand the basic dimensioning practices that have to be followed in the preparation of drawings; prepare the assembly of various machine or engine components and miscellaneous machine components; and visualize the assembly and sub assembly of various machine elements. Note: First angle projection to be adopted. The student should be able to provide working drawings of actual parts.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fasteners, Joints, Bearings and Couplings",
+      "hours": 33,
+      "body": "Fasteners (18 hrs): Definition of various parts of a screw thread, Popular Forms, Conventional representation, Multiple start threads, Right and Left Hand threads, Screwed Fasteners bolts, nuts, stud bolts, tap bolts, set screws, Riveted joints for plates, Various types of welded joints and conventions. Joints (6 hrs): Drawing of simple machine parts i.e. cotter joint, knuckle joint. Bearing and Couplings (9 hrs): Simple solid, bushed, pedestal, footstep bearings, Flanged couplings Flexible couplings-Bushed pin type flanged coupling"
+    },
+    {
+      "id": "II",
+      "title": "Assembly Drawing",
+      "hours": 45,
+      "body": "Introduction of unit assembly drawing, Practice in drawing details and assembly of simple units like: Simple Steam Engine Parts; Stuffing boxes, Cross heads, Eccentrics. Boiler Mountings: Steam stop valve, feed check valve and safety valves. Machine tool parts: Tool Post, Tool Head of a Shaper."
+    }
+  ],
+  "outcomes": [
+    "Demonstrate knowledge about the various practices with regard to the dimensioning, sectioning and development of views.",
+    "Understand the importance of the linking functional and visualization aspects in the preparation of the part drawings",
+    "Develop assembly drawings using part drawings of machine components with dimensions and bill of material during design and development.",
+    "Enhance their ability to work as practicing mechanical engineers in manufacturing Industries and consulting firms"
+  ],
+  "textbooks": [
+    "Machine Drawing - N.D. Bhatt, Charotar Publisher.",
+    "Machine Drawing - Sidheshwar, Tata McGraw-Hill",
+    "A text book of Machine drawing - R.B. Gupta, Satya Prakasham Tech. Pub.",
+    "Machine Drawing –K.L.Narayana, P.Kannaiah& K. Venkata Reddy,New Age Publishers",
+    "Machine Drawing – P.S.Gill.",
+    "Machine Drawing – Luzzader",
+    "Machine Drawing – Rajput"
+  ]
+}

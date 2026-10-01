@@ -1,0 +1,60 @@
+{
+  "Course Title": "Logistics & Supply Chain Management",
+  "Course Code": "MEPE-317",
+  "route": "course/mepe-317",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "To understand concept of Supply chain management and apply this knowledge to understand the working of corporate world.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Understanding the Supply Chain, Performance, Drivers and Obstacles",
+      "hours": 10,
+      "body": "Objectives of supply chain, Stages of supply chain, Supply chain process cycles, Push/pull view of supply chain processes, Importance of supply chain flows, Examples of supply chain, Strategic decisions in supply chain management. Supply Chain Performance, Supply chain strategies, achieving strategic fit, Product life cycle, Supply Chain drivers and Obstacles, four drivers of supply chain – inventory, transportation, facilities, and information, Obstacles to achieve strategic fit."
+    },
+    {
+      "id": "II",
+      "title": "Planning Demand and Supply in a Supply Chain",
+      "hours": 10,
+      "body": "Role of forecasting in a supply chain, Forecasting methods in a supply chain, Basic approach to demand forecasting, Aggregate planning resources. Managing economies of scale in a supply chain, Role of cycle inventory in a supply chain."
+    },
+    {
+      "id": "III",
+      "title": "Transportation and Coordination in a Supply Chain",
+      "hours": 10,
+      "body": "Facilities affecting transportation decisions, Transport selection, Modes of transportation and their performance characteristics, Trade-offs in transportation decision, Making transportation decisions in practice, Models for transportation and distribution, Third party logistics (3PL). Coordination in a Supply chain, Lack of supply chain coordination and the Bullwhip effect, Effect of lack of coordination on performance, Obstacles to coordination, Achieving coordination in practice."
+    },
+    {
+      "id": "IV",
+      "title": "Source Management and IT in Supply Chain; Advanced Topics",
+      "hours": 10,
+      "body": "Source Management and IT in Supply Chain: Inventory management in supply chain, Information technology in supply chain, Typical IT solution, Reverse supply chain, Reverse supply chain Vs. Forward supply chain. Advanced topics in SCM: Green, Lean, Sustainable, Global and Agile supply chain Management, Quality in Supply Chain. Integration and Collaborative Supply Chain, Circular Supply Chain Management. Cases in Supply Chain: Case Studies such as Newspaper, Mumbai Tiffanwala, Disaster Management, Organic Food, Fast Food, Hostel Mess etc."
+    }
+  ],
+  "outcomes": [
+    "Understand the decision phases and apply competitive & supply chain strategies.",
+    "Understand drivers of supply chain performance.",
+    "Analyze factors influencing network design and forecasting in a supply chain.",
+    "Understand the role of aggregate planning, inventory, IT and coordination in a supply chain."
+  ],
+  "textbooks": [
+    "Christopher Martin, \"Logistics and Supply Chain Management\", Pearson Education Asia.",
+    "Chopra Sunil and Meindl Peter, \"Supply Chain Management – Strategy, planning and operation's\", Pearson Education, Asia.",
+    "Kapoor K K, Kansal Purva, \"Marketing logistics: A Supply Chain Approach\", Pearson Education Asia.",
+    "Mohanty, R.P and Deshmukh, S.G., \"Supply Chain Management\", Pearson Education Asia.",
+    "Fawcett, S. E., Ellram, L. M and Ogden, J. A., \"Supply Chain Management\" Pearson Education Asia.",
+    "Dixit Garg, Sunil Luthra and Sachin Mangla., \"Supply Chain and Logistics Management\". New Age International Publishers"
+  ]
+}

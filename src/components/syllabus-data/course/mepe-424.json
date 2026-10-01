@@ -1,0 +1,59 @@
+{
+  "Course Title": "Automobile Engineering",
+  "Course Code": "MEPE-424",
+  "route": "course/mepe-424",
+  "credits": 3,
+  "prerequisites": "I.C. Engines and Gas Turbine",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "8th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course provides an introduction to vehicle structure, engine, automotive electric and electronic systems, automotive drive trains, steering system, brakes and suspension systems; it also provides an introduction to engine emissions and their control and offers various alternative fuels that can be used in automobiles.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Automobile Engineering; Automotive Electric and Electronic Systems",
+      "hours": 10,
+      "body": "Introduction to Automobile Engineering: Importance, applications, job opportunities, classification, types of vehicles, basic structure, general layout, and hybrid vehicles. Automotive Electric and Electronic Systems: Electric and electronics principles, systems, and circuits, automotive batteries, construction, and operation, starting system, charging system, operation and service, ignition system, electronic ignition and fuel control, engine management, electric vehicles."
+    },
+    {
+      "id": "II",
+      "title": "Automotive Drive Trains",
+      "hours": 12,
+      "body": "Clutches: Requirements and principle of clutches, dry friction clutches, clutch components, types of clutches-single plate, multi plate, semi centrifugal and centrifugal, clutch operation, wet clutch, clutch dynamics, Clutch trouble shooting. Transmission: Necessity & functions of transmission, types of transmission, sliding mesh gear box, constant mesh gear box, synchromesh gear box, selector mechanism, transfer box, automatic transmission, epicyclic gear box, principle of automatic transmission, Driveline dynamics: Engine Dynamics, Driveline & Efficiency, Gearbox dynamics. Propeller Shaft and Rear Box: Propeller shaft, universal joints, final drive, differential, rear axle, rear axle drives, rear axle casing, improvements in four wheel drive."
+    },
+    {
+      "id": "III",
+      "title": "Steering, Brakes and Suspension Systems",
+      "hours": 12,
+      "body": "Wheels and Tyres; Steering system: Steering Geometry, camber, castor, king pin, rake, combined angle toe-in, toe-out, types of steering mechanism, Ackerman steering mechanism, Davis steering mechanism, steering gears types, steering linkages, Power Steering, Braking system: Mechanical brake system, Hydraulic brakes system, Master cylinder, wheel cylinder, Requirements of brake fluid, pneumatic and vacuum brake, Antilock Braking System (ABS); Suspension System: Need of Suspension System, Types of Suspension, Suspension Springs, Constructional Details and Characteristics of Leaf, Coil and Torsion Bar Springs, independent Suspension, Rubber Suspension, Pneumatic Suspension, Shock Absorbers."
+    },
+    {
+      "id": "IV",
+      "title": "Emissions from Automobiles",
+      "hours": 6,
+      "body": "Emissions from automobiles, pollution standards national and international, pollution control techniques, petrol injection, common rail diesel injection, variable valve timing; Energy alternatives, solar, photovoltaic, hydrogen, biomass, alcohols, LPG, CNG, liquid fuels and gaseous fuels, hydrogen as a fuel for internal combustion engines, their merits and demerits."
+    }
+  ],
+  "outcomes": [
+    "Understand the concept of various vehicle structure and identify the usage of electrical and hybrid vehicles.",
+    "Analyze the working principles and operations details of clutches and transmission systems.",
+    "Evaluate the operational details and design principles of steering, braking and suspension systems.",
+    "Compare the effects of emissions from automobiles. And to know the ways and means of reducing emissions."
+  ],
+  "textbooks": [
+    "Kirpal Singh, \"Automobile Engineering Vol. I & II\", Standard Publishers, New Delhi, 2011.",
+    "Tom Denton, \"Automobile Electrical and Electronics Systems\", Butterworth-Heinemann (2003).",
+    "William H Crouse & Anglin D L \"Automotive Mechanics\", Tata McGraw Hill Publishing Company., 2006",
+    "Joseph Heitner, \"Automotive Mechanics\", CBS Publishers & Distributors Pvt. Ltd., New Delhi, 2004.",
+    "R.B. Gupta, \"Automobile Engineering\", Satya Prakashan Publisher, New Delhi."
+  ]
+}

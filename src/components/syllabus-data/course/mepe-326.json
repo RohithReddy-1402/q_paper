@@ -1,0 +1,58 @@
+{
+  "Course Title": "Mechanics of Composite Materials",
+  "Course Code": "MEPE-326",
+  "route": "course/mepe-326",
+  "credits": 3,
+  "prerequisites": "Material Science",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "6th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course is designed for B.Tech students as an introductory course in building foundational knowledge in 'composite materials'. It introduces the concepts of: (i) definition, characterization and classification of composites, (ii) micro-mechanical and macro-mechanical analysis of composite laminates and (iii) metal matrix composites, their fabrication techniques and the properties of MMC's. Course learning objectives: to understand the concept of composite materials, its uses, applications and processing of fibre reinforced composites; to understand micro mechanical analysis and macro mechanics of composite materials; to understand the biaxial strength theories and the macro mechanical analysis of laminates; to understand the concept of MMC's, their uses, applications and their mechanical properties.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Composite Materials and Applications; Fiber Reinforced Plastic Processing",
+      "hours": 10,
+      "body": "Introduction To Composite Materials: Definition, classification and characteristics of composite Materials – fibrous composites, laminated composites, particulate composites. Applications: Automobile, Aircrafts, missiles, Space hardware, Electrical and electronics, Marine, recreational and sports equipment, future potential of composites. Fiber Reinforced Plastic Processing: Lay up and curing, fabricating process, open and closed mould process, hand lay up techniques; structural laminate bag molding, production procedures for bag molding; filament winding, pultrusion, pulforming, thermo-forming, injection molding, blow molding."
+    },
+    {
+      "id": "II",
+      "title": "Micro and Macro Mechanics of a Lamina",
+      "hours": 10,
+      "body": "Micro Mechanical Analysis of a Lamina: Introduction, Evaluation of the four elastic moduli by Rule of mixture, Numerical problems. Macro Mechanics of a Lamina: Hooke's law for two-dimensional angle lamina, engineering constants - Numerical problems. Stress-Strain relations for lamina of arbitrary orientation, Numerical problems. Number of elastic constants, Two-dimensional relationship of compliance and stiffness matrix."
+    },
+    {
+      "id": "III",
+      "title": "Biaxial Strength Theories; Macro Mechanical Analysis of Laminate",
+      "hours": 10,
+      "body": "Biaxial Strength Theories: Maximum stress theory, Maximum strain theory, Tsai-Hill theory, Tsai-Wu tensor theory, Numerical problems. Macro Mechanical Analysis of Laminate: Introduction, code, Kirchoff hypothesis, CLT, A, B, and D matrices (Detailed derivation), Special cases of laminates, Numerical problems."
+    },
+    {
+      "id": "IV",
+      "title": "Metal Matrix Composites and their Fabrication; Properties of MMCs",
+      "hours": 10,
+      "body": "Metal Matrix Composites: Reinforcement materials, types, characteristics and selection base metals selection. Need for production MMC's and its application. Fabrication Process For MMC's: Powder metallurgy technique, liquid metallurgy technique and secondary processing, special fabrication techniques. Properties of MMC's: Physical, Mechanical, Wear, machinability and Other Properties. Effect of size, shape and distribution of particulate on properties. Case study 1: Fabrication and investigation of different properties of an MMC used for Automotive part like car chassis, drive shaft, piston, cylinder and its liner, connecting rod etc. Case study 2: To develop and investigate the fibre reinforced composites for industrial applications like boat hulls, swimming pool panels, racing car bodies, shower stalls, bathtubs, storage tanks etc."
+    }
+  ],
+  "outcomes": [
+    "Understand the concept of composite materials, its uses, applications and processing of fibre reinforced composites.",
+    "Understand micro mechanical analysis and macro mechanics of composite materials.",
+    "Understand the biaxial strength theories and the macro mechanical analysis of laminates.",
+    "Understand the concept of MMC's, their uses, applications and their mechanical properties."
+  ],
+  "textbooks": [],
+  "referenceBooks": [
+    "Mechanics of Composite Materials - Autar K. Kaw, CRC, Taylor and Francis.",
+    "Mechanics of Composite Materials - Robert M Jones, CRC Press.",
+    "Principles of composite material mechanics - Ronald F Gibson, CRC Press"
+  ]
+}

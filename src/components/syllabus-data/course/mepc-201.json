@@ -1,0 +1,65 @@
+{
+  "Course Title": "Manufacturing Processes",
+  "Course Code": "MEPC-201",
+  "route": "course/mepc-201",
+  "credits": 3,
+  "prerequisites": "NA",
+  "Course Type": "PC",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "3rd",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "Introduction to the processes in which physical objects are manufactured. Topics include casting, machining, sheet metal operations, welding processes, forming processes, etc.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "An Overview to Manufacturing",
+      "hours": 8,
+      "body": "Introduction to manufacturing process - Selecting manufacturing process – global competitiveness of manufacturing costs – Fundamentals of materials – their behaviour and manufacturing properties – Ferrous metals and alloys – Non Ferrous metals and alloys"
+    },
+    {
+      "id": "II",
+      "title": "Casting Process and Machining Process",
+      "hours": 14,
+      "body": "Casting Process: Pattern materials, types of allowances, type of patterns, type of mould, desirable properties of moulding materials, Solidification of Alloys and its mechanism – Gating system design and estimation of solidification time – Riser Design and Riser placement – Defects and Product Design. core, core print, type of cores, various casting types, casting defects & remedies advantages, disadvantages and application of casting. Machining Process: Machining process: Various machining process and its working principles – Metal Cutting: Tool geometry – single edge tools – reference plane – Tool specifications –ASA, NRS – Mechanics of Orthogonal cutting and Oblique cutting – Tool wear and Tool life – Economics of Machining"
+    },
+    {
+      "id": "III",
+      "title": "Forming Process and Sheet Metal Operations",
+      "hours": 10,
+      "body": "Forming Process: Forging, Rolling, Drawing, Extrusion – Classification, Defects and Inspection. Sheet metal forming process – Shaping process for plastics – Extrusion, Injection and Compression Molding. Sheet metal operations: Introduction to shearing, blanking and punching, notching, trimming, lancing, nibbling, bending, stretching, embossing and coining."
+    },
+    {
+      "id": "IV",
+      "title": "Welding Process",
+      "hours": 8,
+      "body": "Definition and classification, thermit welding, electric arc welding: MMAW, SAW, TIG, MIG, gas welding, resistance welding, brazing and soldering, welding defects and remedies, real-life case studies."
+    }
+  ],
+  "outcomes": [
+    "Decide and recommend cost effective and reliable engineering materials for the development of an existing and innovative product.",
+    "Decide and recommend appropriate manufacturing processes for a product under given conditions and constraints.",
+    "Recognize the different types of casting, welding, and forming processes for various industrial applications.",
+    "Explain the features and applications of various machining processes."
+  ],
+  "textbooks": [
+    "Jain R.K., Production Technology, Khanna Publishers, 2001.",
+    "Hajra Choudhry, Elements of Workshop Technology, Vol – II Media Promoters & Publishers, 1994.",
+    "P N Rao, Manufacturing Technology (Vol. 1 & 2), McGraw Hill Education.",
+    "Amitabha Ghosh & A K Mallik, Manufacturing Science, Affiliated East-West Press Pvt. Ltd.",
+    "Production Technology by HMT, Tata McGraw-Hill, 2002.",
+    "Chapman, W.A.J., Workshop Technology, Vol - II, Oxford & IBH Publishing Co. Ltd., 1986.",
+    "Khanna, O.P., and Lal, M., A Text Book of Production Technology, Vol II, Dhanpat Rai & Sons, 1992.",
+    "Yoram Koren, Computer Control of Manufacturing Systems, McGraw-Hill, 1986.",
+    "Choudhry, S.K.H., Elements of Work Shop Technology, Vol II, Media Promoters & Publishers, 1994.",
+    "Kundra, T.K., Rao. P.N., and Tiwari, N.L.K., Numerical Control and Computer Aided Manufacturing, Tata McGraw-Hill, 2006.",
+    "Serope Kalpakjian; Steven R.Schmid (2010), Manufacturing Engineering and Technology, 6th Edition, Publisher: Prentice Hall, ISBN-10 0 13 – 608168-1."
+  ]
+}

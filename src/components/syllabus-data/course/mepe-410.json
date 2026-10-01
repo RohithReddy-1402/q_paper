@@ -1,0 +1,60 @@
+{
+  "Course Title": "Fatigue, Fracture & Failure Analysis",
+  "Course Code": "MEPE-410",
+  "route": "course/mepe-410",
+  "credits": 3,
+  "prerequisites": "Material Science, Strength of Materials-II",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "This course is an introduction to the various modes in which a material can fail. The course deals with the various theories suggested which find application to describe the mathematical background behind the various failure types and the cause for them. The course deals with both the elastic and plastic materials subjected to various loadings and cracks of various orientations and sizes. By the end of the course, students will possess a strong foundation in failure, enabling them to effectively apply essential principles, laws, and relevant equations in the engineering design of machines for specific applications.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Fatigue and Statistical Aspects of Fatigue Behaviour",
+      "hours": 14,
+      "body": "S.N. curves - Endurance limits - Effect of mean stress, Goodman, Gerber and Soderberg relations and diagrams - Notches and stress concentrations - Neuber's stress concentration factors - Plastic stress concentration factors - Notched S.N. curves. Low cycle and high cycle fatigue - Coffin-Manson's relation - Transition life - cyclic strain hardening and softening - Analysis of load histories - Cycle counting techniques - Cumulative damage - Miner's theory - Other theories."
+    },
+    {
+      "id": "II",
+      "title": "Physical Aspects of Fatigue and Fracture",
+      "hours": 10,
+      "body": "Phase in fatigue life - Crack initiation - Crack growth - Final Fracture - Dislocations - fatigue fracture surfaces - Strength and stress analysis of cracked bodies - Potential energy and surface energy - Griffith's theory - Irwin-Orowan extension of Griffith's theory to ductile materials - Effect of thickness on fracture toughness - stress intensity factors for typical geometries."
+    },
+    {
+      "id": "III",
+      "title": "Fatigue Design and Testing",
+      "hours": 8,
+      "body": "Safe life and Fail-safe design philosophies - Importance of Fracture Mechanics in aerospace structures - Application to composite materials and structures."
+    },
+    {
+      "id": "IV",
+      "title": "Fundamentals of Failure Analysis",
+      "hours": 8,
+      "body": "Common causes of failure. Principles of failure analysis. Fracture mechanics approach to failure problems. Techniques of failure analysis. Service failure mechanisms - ductile and brittle fracture, fatigue fracture, wear failures, fretting failures, environment induced failures, high temp. failure. Faulty heat treatment and design failures, processing failures (forging, casting, machining etc.)"
+    }
+  ],
+  "outcomes": [
+    "At the end of the course student will be able to understand the reasons behind the various types of failures of engineering materials.",
+    "They would understand the extent of loads the material will be able to withstand without failure.",
+    "Evaluate the performance of material under different loadings.",
+    "Select the suitable type of material considering the type of working conditions they are to withstand."
+  ],
+  "textbooks": [
+    "Prasanth Kumar – \"Elements of fracture mechanics\" – Wheeler publication, 1999.",
+    "Barrois W, Ripely, E.L., \"Fatigue of aircraft structure\", Pergamon press. Oxford, 1983.",
+    "Sih, G.C., \"Mechanics of fracture\" Vol. I, Sijthoff and Noordhoff International Publishing Co., Netherlands, 1989.",
+    "Knott, J.F., \"Fundamentals of Fracture Mechanics\", Butterworth & Co., Ltd., London, 1983",
+    "Subra Suresh, \"Fatigue of materials\", II edition, 1998.",
+    "T. L. Anderson, \"Fracture mechanics: Fundamentals and applications\", III edition, 2004."
+  ]
+}

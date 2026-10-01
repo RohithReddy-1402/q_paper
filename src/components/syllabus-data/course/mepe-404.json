@@ -1,0 +1,59 @@
+{
+  "Course Title": "Computer Integrated Manufacturing",
+  "Course Code": "MEPE-404",
+  "route": "course/mepe-404",
+  "credits": 3,
+  "prerequisites": "Machine Design-II, Industrial Engineering",
+  "Course Type": "PE",
+  "Branch": [
+    "ME"
+  ],
+  "semester": "7th",
+  "ltpc": [
+    3,
+    0,
+    0,
+    3
+  ],
+  "contactHours": 40,
+  "description": "To introduce the importance, concepts and components of computer integrated manufacturing.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction; Manufacturing Systems",
+      "hours": 10,
+      "body": "Introduction: Introduction to manufacturing enterprise, External and internal changes, World-class winning criteria, Introduction to CIM concepts, Three step process for CIM implementation. Manufacturing Systems: Manufacturing classifications, Product development cycle, Enterprise organization."
+    },
+    {
+      "id": "II",
+      "title": "Design Automation; Manufacturing Planning and Control",
+      "hours": 10,
+      "body": "Design Automation: Computer-Aided Design and Engineering: Introduction, General system operation, CAD classification: Hardware and software platforms, Application of CAD to manufacturing systems, Design for manufacturing and assembly, Computer-aided engineering analysis and evaluation. Manufacturing Planning and Control: Introduction, planning the manufacturing planning and control system, master production schedule, inventory management, product data management."
+    },
+    {
+      "id": "III",
+      "title": "Material Planning, Production Scheduling and Operating Systems; Enterprise Resource Planning",
+      "hours": 10,
+      "body": "Material Planning, Production Scheduling and Operating Systems: Material requirement planning, Capacity requirement planning, MRP II, Just-in-time manufacturing. Enterprise Resource Planning: MRP II – a driver of effective ERP systems, information technology, the decision to implement ERP system, Features of modern manufacturing planning and control systems."
+    },
+    {
+      "id": "IV",
+      "title": "Production Support Machines and Systems; Machine and System Control",
+      "hours": 10,
+      "body": "Production Support Machines and Systems: Industrial robots, automated material handling systems, automated guided vehicles, automated storage and retrieval systems. Machine and System Control: System overview, Cell control, Proprietary versus Open system interconnect software, Device control, programmable logic controllers, Computer numerical control, Automatic tracking, Network communications."
+    }
+  ],
+  "outcomes": [
+    "To understand CIM and its scope",
+    "To understand product design and manufacturing in CIM environment",
+    "To understand manufacturing planning and control in CIM environment",
+    "To understand hardware and software requirements for CIM as well as implementation of CIM"
+  ],
+  "textbooks": [
+    "Computer-integrated manufacturing, James A. Rehg and Henry W. Kraebber, Pearson Education.",
+    "Computer Integrated Manufacturing Technology and Systems, U. Rembolt, C. Blume, R. Dillmann, Dekker,",
+    "Computer Integrated Design and Manufacturing, D.D. Bedworth, M.R. Henderson, P.M. Wolfe, McGraw Hill.",
+    "Systems Approach to Computer Integrated Design and Manufacturing, N. Singh, John Wiley & Sons.",
+    "Automation Production Systems and Computer Integrated Manufacturing, M.P. Groover, Pearson"
+  ]
+}
