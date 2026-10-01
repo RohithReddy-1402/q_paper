@@ -1,0 +1,17 @@
+{
+  "branch": "IIOT",
+  "branchName": "Industrial Internet of Things",
+  "semester": 3,
+  "title": "B.Tech. Industrial Internet of Things (IIoT) Semester III",
+  "totalCredits": 18,
+  "rows": [
+    { "type": "core", "code": "IIPC-201", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "IIPC-202", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "IIPC-203", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "IIPC-204", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "IIPC-205", "ltpc": [3, 0, 0, 3] },
+    { "type": "core", "code": "IIPC-206", "ltpc": [0, 0, 2, 1] },
+    { "type": "core", "code": "IIPC-207", "ltpc": [0, 0, 2, 1] },
+    { "type": "core", "code": "IIPC-208", "ltpc": [0, 0, 2, 1] }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "Course Title": "Signals, Systems and Random Variables",
+  "Course Code": "IIPC-202",
+  "route": "course/iipc-202",
+  "credits": 3,
+  "prerequisites": "MAIC-101, MAIC-102",
+  "Course Type": "PC",
+  "Branch": ["IIOT"],
+  "semester": "3rd",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "The course on signals, systems and random variables provides a foundation for the design and analysis of various engineering and behavioral science systems. It contains description of various discrete time and continuous signals, convolution integral and convolution sum, LTI systems, Fourier series and Fourier Transform and their important properties. Random variables and processes are dealt with in detail. Several important distribution functions applicable to different engineering fields are included. The students shall be able to apply the knowledge to various science and engineering fields.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "LTI Systems",
+      "hours": 10,
+      "body": "Continuous time and discrete time signals, Even and Odd signals. Classification of signals, Continuous time and Discrete time LTI Systems, convolution Integral and convolution sum, Properties of LTI Systems, causality; stability, time invariance, linearity. Differential and Difference equations. Singularity functions."
+    },
+    {
+      "id": "II",
+      "title": "Fourier Analysis of Signals",
+      "hours": 10,
+      "body": "Fourier series representation of continuous time and discrete time periodic signals. Fourier series and LTI Systems. Continuous Time Fourier Transform (CTFT), Convergence of FT. Properties of CTFT. Discrete time Fourier Transform (DTFT). Properties of DTFT. Systems characterized by Linear constant co-efficient differential equation and difference equations. Magnitude and phase spectrum, group delay."
+    },
+    {
+      "id": "III",
+      "title": "Random Variables",
+      "hours": 12,
+      "body": "Probability, Conditional Probability, definition of random variables, cumulative distribution function, probability density function, discrete random variables, continuous random variables, moments of random variables. Chebyshev inequality. Distribution functions: uniform, rectangular, Gaussian, Bernoulli, binomial, Poisson, Exponential, Rayleigh, etc. Sum of random variables, Functions of random variables. Joint distribution, marginal and conditional distributions, statistical independence, Central Limit Theorem, moments and Characteristic Functions."
+    },
+    {
+      "id": "IV",
+      "title": "Random Processes",
+      "hours": 8,
+      "body": "Definition and description of Random Processes, Classification of random processes, statistical characterization, mean, correlation and covariance functions, Stationary random processes, Ergodicity, Power Spectral density, Weiner-khintchine theorem, Response of memory-less and linear systems to random inputs, discrete time stochastic processes, Cyclo-stationary processes, Gaussian, Poisson, Markov processes."
+    }
+  ],
+  "outcomes": [
+    "Utilize the concepts of Discrete time and Continuous time signals and their transformations.",
+    "Analyze the Fourier series of periodic and Fourier transform of non-periodic discrete time and continuous time signals.",
+    "Understand and apply the concepts of Fourier series and Fourier transform.",
+    "Characterize probability models and function of random variables based on single & multiples random variables.",
+    "Understand the concept of random processes and determine covariance and spectral density of stationary random processes."
+  ],
+  "referenceBooks": [
+    "Oppenheim Willsky and Nawab, Signals and Systems, PHI. 4th Ed",
+    "Simon Haykin, Signals and Systems, John Wiley 4th Ed",
+    "Taub and Schilling, Principles of Communication Systems, TMH. 4th Ed",
+    "Papoulis, A. Probability, Random Variables and Stochastic Processes, MGH, 3rd Ed.",
+    "Gray, R.M. Davission, L. D. Introduction to Statistical Signal Processing- Web Edition-1999.",
+    "Sundarapandian, V. Probability, Statistics and Queueing Theory, PHI Learning Private Limited, 3rd Ed."
+  ]
+}

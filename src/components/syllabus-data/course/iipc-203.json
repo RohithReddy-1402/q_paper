@@ -1,0 +1,54 @@
+{
+  "Course Title": "Automation Fundamentals",
+  "Course Code": "IIPC-203",
+  "route": "course/iipc-203",
+  "credits": 3,
+  "prerequisites": "Mathematics",
+  "Course Type": "PC",
+  "Branch": ["IIOT"],
+  "semester": "3rd",
+  "ltpc": [3, 0, 0, 3],
+  "contactHours": 40,
+  "description": "Automation is playing a key role in Industries. Industries rely heavily on automation for economic viability and mass production. It is important for the students to learn basic of automation, how system works and importance of PLC, SCADA and robots in automation. This course will provide opportunity to learn industrial automation techniques.",
+  "syllabus": [
+    {
+      "id": "I",
+      "title": "Introduction to Automation",
+      "hours": 8,
+      "body": "Automation overview, Requirement of automation systems, Architecture of Industrial Automation system, Introduction of PLC and supervisory control and data acquisition (SCADA). Industrial bus systems: modbus & profibus. Role of computers in measurement and control. Hydraulic and Pneumatic Systems in Automation."
+    },
+    {
+      "id": "II",
+      "title": "Automation Components",
+      "hours": 10,
+      "body": "Sensors for temperature, pressure, force, displacement, speed, flow, level, humidity and pH measurement. Actuators, process control valves, power electronics devices DIAC, TRIAC, power MOSFET and IGBT. Introduction of DC and AC servo drives for motion control."
+    },
+    {
+      "id": "III",
+      "title": "Programmable Logic Controllers",
+      "hours": 12,
+      "body": "Programmable controllers, Programmable logic controllers, Analog digital input and output modules, PLC programming, Ladder diagram, Sequential flow chart, PLC Communication and networking, PLC selection, PLC Installation, Advantage of using PLC for Industrial automation, Application of PLC to process control industries."
+    },
+    {
+      "id": "IV",
+      "title": "Distributed Control System",
+      "hours": 10,
+      "body": "Overview of DCS, DCS software configuration, DCS communication, DCS Supervisory Computer Tasks, DCS integration with PLC and Computers, Features of DCS, Advantages of DCS, Overview of Industrial automation using robots."
+    }
+  ],
+  "outcomes": [
+    "Understanding of automation components and systems application.",
+    "Identify suitable industrial automation hardware for given application.",
+    "Measure industrial parameters like temperature, pressure, force, displacement, speed, flow, level, humidity and pH.",
+    "Integration of SCADA with PLC Systems."
+  ],
+  "referenceBooks": [
+    "Industrial Instrumentation and Control By. S.K. Singh The McGraw Hill Companies",
+    "Process Control Instrumentation Technology By. C.D. Johnson, PHI",
+    "Industrial control handbook, Parr, Newnem",
+    "Programmable logic controller, Dunning, Delmar",
+    "Mikell Groover, Automation, Production Systems, and Computer-Integrated Manufacturing, 5th Edition, Pearson, 2019.",
+    "Jon Stenerson, Industrial Automation and Process Control, Pearson, 2003.",
+    "Frank Lamb, Industrial Automation: Hands On, McGraw-Hill Education, 2013."
+  ]
+}
