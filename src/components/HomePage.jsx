@@ -22,6 +22,7 @@ import CrackerShotsEffect from "./celebration";
 import AutoHangingBoard from "./hangingBoard";
 import AdSenseAd from "./AdSenseAd";
 import { Link } from "react-router-dom";
+import DiwaliCelebration from "./diwali";
 const HomePage = ({
   isLoggedIn,
   user,
@@ -375,6 +376,7 @@ const HomePage = ({
       <AdSenseAd />
       <Footer />
       {/* <CrackerShotsEffect/> */}
+      
     </div>
   );
 };
