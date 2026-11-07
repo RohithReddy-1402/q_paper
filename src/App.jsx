@@ -35,7 +35,7 @@ const Pricing = lazy(() => import("./components/Pricing"));
 const Profile = lazy(() => import("./components/profile/Profile"));
 const NotificationsPage = lazy(() => import("./components/notifications/NotificationsPage"));
 const AdminPayouts = lazy(() => import("./components/profile/AdminPayouts"));
-const Campus3D = lazy(() => import("./components/campus/Campus3D"));
+// const Campus3D = lazy(() => import("./components/campus/Campus3D"));
 import { ToastProvider, useToast } from "./components/ToastContext";
 import { apiFetch, clearToken } from "./services/api";
 import { GoogleOAuthProvider } from "@react-oauth/google";
@@ -295,7 +295,7 @@ function App_main() {
               />
             }
           />
-          <Route path="/nit-kkr/campus" element={<Campus3D />} />
+          {/* <Route path="/nit-kkr/campus" element={<Campus3D />} /> */}
           <Route path="/nit-kkr/contact" element={<ContactPage />} />
           <Route path="/nit-kkr/donate" element={<Donate />} />
           <Route
