@@ -41,6 +41,7 @@ import { GoogleOAuthProvider } from "@react-oauth/google";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Analytics } from "@vercel/analytics/react";
 
+import DiwaliCelebration from "./components/diwali";
 function App_main() {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -370,5 +371,6 @@ const App = () => {
       </GoogleOAuthProvider>
     </ToastProvider>
   );
+      <DiwaliCelebration  />
 };
 export default App;
